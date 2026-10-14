@@ -18,11 +18,16 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GTX 560 Ti (1024 VRAM); Radeon HD 7750 (1024 VRAM)"
+     "Nvidia GeForce GTX 560 Ti",
+     "AMD Radeon HD 7750"
     ],
     "ids": [
-     "nvidia-geforce-gtx-560-ti"
-    ]
+     "nvidia-geforce-gtx-560-ti",
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "storage": {

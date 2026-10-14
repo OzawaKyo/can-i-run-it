@@ -9,21 +9,24 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core 2 Duo E8400 | AMD Phenom II X4 965"
+     "Intel Core 2 Duo E8400",
+     "AMD Phenom II X4 965"
     ],
     "ids": [
-     "intel-core-2-duo-e8400"
+     "intel-core-2-duo-e8400",
+     "amd-phenom-ii-x4-965-black-edition"
     ]
    },
    "gpu": {
     "raw": [
-     "AMD Radeon HD 7750 | NVIDIA Geforce GTX 260"
+     "AMD Radeon HD 7750",
+     "NVIDIA Geforce GTX 260"
     ],
     "ids": [
-     "nvidia-geforce-gtx-260",
      "amd-radeon-hd-7750-1gb",
      "amd-radeon-hd-7750-2gb",
-     "amd-radeon-hd-7750-4gb"
+     "amd-radeon-hd-7750-4gb",
+     "nvidia-geforce-gtx-260"
     ]
    },
    "ramGb": 4,

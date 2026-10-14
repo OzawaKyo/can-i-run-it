@@ -15,11 +15,17 @@
    },
    "gpu": {
     "raw": [
-     "Ati 5700 series/NVIDIA GeForce GT240"
+     "Nvidia GeForce GT 240",
+     "ATI Radeon HD 5700 series"
     ],
     "ids": [
-     "nvidia-geforce-gt-240"
-    ]
+     "nvidia-geforce-gt-240",
+     "amd-radeon-hd-5750-512mb",
+     "amd-radeon-hd-5750-1gb",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "storage": {

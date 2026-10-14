@@ -18,13 +18,15 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GTX 670/AMD Radeon HD 7870 2GB 2GB"
+     "NVIDIA GTX 670",
+     "AMD Radeon HD 7870"
     ],
     "ids": [
      "nvidia-geforce-gtx-670",
      "amd-radeon-hd-7870-ghz-edition",
      "amd-radeon-hd-7870-xt"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 2,
@@ -41,6 +43,33 @@
     "directx": "Version 10",
     "storage": "60 GB available space",
     "additional notes": "Requires broadband internet connection for multiplayer"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 4670K",
+     "AMD Ryzen R5 1500X"
+    ],
+    "ids": [
+     "intel-core-i5-4670k",
+     "amd-ryzen-5-1500x"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 400,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5 4670K / AMD Ryzen R5 1500X",
+    "memory": "16 GB",
+    "storage": "400 GB with all DLC"
    }
   }
  }

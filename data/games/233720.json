@@ -18,7 +18,8 @@
     "raw": [
      "Nvidia Geforce 7800 GT"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -49,7 +50,8 @@
     "raw": [
      "Radeon x850"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

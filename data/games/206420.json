@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core 2 Quad Q6600 | AMD Athlon II x3"
+     "Intel Core 2 Quad Q6600",
+     "AMD Athlon II x3"
     ],
     "ids": [
      "intel-core-2-quad-q6600"
@@ -17,10 +18,17 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GTX 260 | AMD Radeon HD 5800 series"
+     "NVIDIA GTX 260",
+     "AMD Radeon HD 5800 series"
     ],
     "ids": [
-     "nvidia-geforce-gtx-260"
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-5830",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb",
+     "amd-radeon-hd-5870-eyefinity-edition"
     ]
    },
    "ramGb": 4,
@@ -41,7 +49,8 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel i3 2100T | AMD Phenom II x4"
+     "Intel i3 2100T",
+     "AMD Phenom II x4"
     ],
     "ids": [
      "intel-core-i3-2100t"
@@ -49,10 +58,14 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GTX 560 | AMD Radeon HD 6800 series"
+     "NVIDIA GTX 560",
+     "AMD Radeon HD 6800 series"
     ],
     "ids": [
-     "nvidia-geforce-gtx-560"
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6850",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
     ]
    },
    "ramGb": 4,

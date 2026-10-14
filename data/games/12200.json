@@ -23,9 +23,11 @@
      "7300",
      "ATI Radeon X1300"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 4.7,
     "ssd": false

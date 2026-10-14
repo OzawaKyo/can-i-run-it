@@ -26,6 +26,8 @@
     "ids": [
      "nvidia-geforce-gtx-460-gf104-300-ka",
      "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb",
      "intel-hd-graphics-630"
     ]
    },

@@ -16,10 +16,12 @@
    },
    "gpu": {
     "raw": [
-     "OpenGL 3.3-capable GPU",
-     "512 MB VRAM (e.g. Intel HD 3000)"
+     "Intel HD Graphics 3000"
     ],
-    "ids": []
+    "ids": [
+     "intel-hd-graphics-3000"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "storage": {

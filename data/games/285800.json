@@ -22,7 +22,11 @@
      "card with at least 512 MB VRAM"
     ],
     "ids": [
-     "nvidia-geforce-gtx-260"
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb",
+     "intel-hd-graphics-3000"
     ]
    },
    "ramGb": 2,

@@ -22,7 +22,7 @@
     "capabilityOnly": true
    },
    "ramGb": 0.5,
-   "directX": 8.1,
+   "directX": 8,
    "storage": {
     "gb": 6.34765625,
     "ssd": false
@@ -50,10 +50,12 @@
      "ATI Radeon X800"
     ],
     "ids": [],
+    "capabilityOnly": true,
     "source": "pcgamingwiki"
    },
    "ramGb": 1,
    "vramGb": 0.5,
+   "directX": 9,
    "raw": {
     "processor": "2.0 GHz",
     "graphics": "Nvidia GeForce 6800 / ATI Radeon X800",

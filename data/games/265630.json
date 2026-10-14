@@ -19,7 +19,8 @@
      "ATI Radeon 9600",
      "nVidia GeForce 6 series"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1.953125,
    "directX": 9,
@@ -51,7 +52,8 @@
      "ATI X1600",
      "nVidia GeForce 9"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 9,

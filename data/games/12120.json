@@ -46,11 +46,15 @@
    },
    "gpu": {
     "raw": [
-     "128MB (or greater) Video Card (Geforce 6 Series Recommended)"
+     "Nvidia GeForce 6",
+     "ATI Radeon X800"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 0.375,
+   "directX": 9,
    "storage": {
     "gb": 4.7,
     "ssd": false

@@ -18,12 +18,13 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 
 ## Fiabilité des données
 
-- [ ] **P1 · Claude** — Réduire les « ? » : aujourd'hui 12 % des CPU et 21 % des GPU minimaux non reconnus
-  - [ ] Cartes d'avant DirectX 10 (ATI X1600, GeForce 6800/7900, Radeon 9600…) : les traiter comme une exigence DirectX 9
-  - [ ] Noms abrégés (« ATI Radeon 3870 » sans « HD », « Nvidia 450 GTS »)
-  - [ ] iGPU absents du catalogue (Intel HD 3000, GMA X4500)
-  - [ ] Familles de cartes (« Radeon HD 7800 », « GeForce 500 series »)
-  - [ ] Athlon, Pentium et Celeron manquants
+- [ ] **P1 · Claude** — Réduire les « ? » : aujourd'hui 12 % des CPU et 13 % des GPU minimaux non reconnus
+  - [x] Cartes d'avant DirectX 10 (ATI X1600, GeForce 6800/7900, Radeon 9600, Intel GMA) : traitées comme une exigence DirectX 9
+  - [x] Noms abrégés (« ATI Radeon 3870 » sans « HD », « Nvidia 450 GTS »)
+  - [x] iGPU Intel HD 2000 / HD 3000 ajoutés
+  - [x] Séries de cartes (« Radeon HD 7800 », « GTX 1000 »)
+  - [ ] Familles écrites en toutes lettres (« GeForce 500 series », « AMD Ryzen 5 »)
+  - [ ] Athlon, Pentium et Celeron manquants (côté CPU, le prochain gros gain)
 - [ ] **P1 · Claude** — Revoir les ~200 lignes Wikipédia rejetées et compléter les corrections manuelles (ex. portables RTX 50)
 
 ## Fonctionnalités
@@ -55,5 +56,7 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 - [x] Hébergement gratuit Cloudflare + déploiement automatique à chaque push (GitHub Actions)
 - [x] Vérifié sur iPhone
 - [x] Icônes Lucide (badges de verdict, boutons) à la place des symboles et emoji
-- [x] PCGamingWiki en secours de Steam : 139 jeux complétés, mention « via PCGamingWiki » sur le site
+- [x] PCGamingWiki en secours de Steam : ~170 jeux complétés, mention « via PCGamingWiki » sur le site
 - [x] Reconnaissance plus stricte : plus de confusion de marque (« Radeon 8500 » ≠ « GeForce 8500 GT »), ni de famille générique (« Intel HD Graphics »), ni de puce portable dans une famille desktop
+- [x] Lecture de DirectX corrigée (« dx90c » était lu 90, « DirectX (November 2007) » était lu 2007, d'où de faux « Insuffisant » sur de vieux jeux)
+- [x] GPU minimaux reconnus : de 79 % à 87 %

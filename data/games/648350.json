@@ -23,7 +23,8 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-1050-gp107-300",
-     "nvidia-geforce-gtx-1050-gp107-301-k1"
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-hd-7850-2gb"
     ]
    },
    "ramGb": 8,

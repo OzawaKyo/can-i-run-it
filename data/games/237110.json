@@ -10,7 +10,8 @@
    "cpu": {
     "raw": [
      "Intel Core 2 Duo",
-     "2.4 GHz | AMD Athlon X2",
+     "2.4 GHz",
+     "AMD Athlon X2",
      "2.8 GHz"
     ],
     "ids": [],
@@ -18,10 +19,14 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce 8800 GTS | AMD Radeon 3850"
+     "NVIDIA GeForce 8800 GTS",
+     "AMD Radeon 3850"
     ],
     "ids": [
-     "nvidia-geforce-8800-gt"
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb"
     ]
    },
    "ramGb": 2,
@@ -45,7 +50,8 @@
    "cpu": {
     "raw": [
      "Intel Core i5 750",
-     "2.67 GHz | AMD Phenom II X4 965",
+     "2.67 GHz",
+     "AMD Phenom II X4 965",
      "3.4GHz"
     ],
     "ids": [
@@ -55,7 +61,8 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 560 | AMD Radeon HD 6950"
+     "NVIDIA GeForce GTX 560",
+     "AMD Radeon HD 6950"
     ],
     "ids": [
      "nvidia-geforce-gtx-560",

@@ -19,9 +19,11 @@
     "raw": [
      "Radeon X1000/GF 6 - Integrated graphics and very low budget cards might not work."
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 9,
    "storage": {
     "gb": 3,
     "ssd": false

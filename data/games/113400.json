@@ -20,10 +20,11 @@
     "raw": [
      "GeForce 7800 with 256MB and support for Pixel Shader 3.0"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 3,
-   "directX": 90,
+   "directX": 9,
    "storage": {
     "gb": 7,
     "ssd": false
@@ -55,7 +56,7 @@
     ]
    },
    "ramGb": 4,
-   "directX": 90,
+   "directX": 9,
    "storage": {
     "gb": 7,
     "ssd": false

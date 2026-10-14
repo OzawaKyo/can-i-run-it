@@ -20,7 +20,8 @@
     "raw": [
      "PCI Express SM3 NVidia 6600/ ATI 1300"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

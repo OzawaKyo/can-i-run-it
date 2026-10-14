@@ -59,10 +59,12 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 780 | AMD Radeon R9 290",
+     "NVIDIA GeForce GTX 780",
+     "AMD Radeon R9 290",
      "with VRAM - See supported List* 3GB"
     ],
     "ids": [
+     "nvidia-geforce-gtx-780",
      "amd-radeon-r9-290"
     ]
    },

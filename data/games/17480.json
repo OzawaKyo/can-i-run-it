@@ -22,9 +22,11 @@
      "NVIDIA GeForce 6800",
      "ATI Radeon X800"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 10,
     "ssd": false

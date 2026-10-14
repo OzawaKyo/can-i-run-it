@@ -49,9 +49,11 @@
     "raw": [
      "256 MB NVIDIA GeForce 6800 series"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "raw": {
     "os": "Windows XP or Vista",
     "processor": "3.0 Ghz Intel Pentium IV or equivalent",

@@ -19,7 +19,8 @@
      "512MB NVIDIA GeForce 6800 series",
      "ATI Radeon X800 series"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

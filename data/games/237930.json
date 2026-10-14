@@ -21,6 +21,7 @@
      "Nvidia 9400 GT"
     ],
     "ids": [
+     "intel-hd-graphics-3000",
      "amd-radeon-hd-5450-512mb",
      "amd-radeon-hd-5450-1gb",
      "amd-radeon-hd-5450-2gb",

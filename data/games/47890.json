@@ -16,11 +16,16 @@
    },
    "gpu": {
     "raw": [
-     "128 MB Video Card with support for Pixel Shader 2.0"
+     "Nvidia GeForce FX 5900 series",
+     "ATI Radeon 9500 series",
+     "Intel GMA 3000 series"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 6.5,
     "ssd": false

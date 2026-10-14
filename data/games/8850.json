@@ -20,7 +20,8 @@
      "NVIDIA 7800GT 256MB graphics card",
      "ATI Radeon X1900 256MB graphics card"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

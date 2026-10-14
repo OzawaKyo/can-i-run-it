@@ -23,7 +23,9 @@
      "AMD Radeon 7870 2GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-660"
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
     ]
    },
    "ramGb": 8,

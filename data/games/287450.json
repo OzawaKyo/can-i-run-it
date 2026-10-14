@@ -21,10 +21,8 @@
      "AMD Radeon X1950",
      "Intel HD 3000"
     ],
-    "ids": [
-     "nvidia-geforce-8600-gt-512mb",
-     "nvidia-geforce-8600-gt-1gb"
-    ],
+    "ids": [],
+    "capabilityOnly": true,
     "source": "pcgamingwiki"
    },
    "ramGb": 1,
@@ -59,7 +57,10 @@
     ],
     "ids": [
      "nvidia-geforce-9800-gtx",
-     "nvidia-geforce-9800-gtxplus"
+     "nvidia-geforce-9800-gtxplus",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
     ],
     "source": "pcgamingwiki"
    },

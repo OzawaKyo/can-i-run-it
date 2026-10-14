@@ -20,7 +20,8 @@
      "ATI x800",
      "Intel HD3000 with 256MB VRAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

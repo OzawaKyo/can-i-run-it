@@ -18,13 +18,15 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GTX 470 /AMD HD 7870 2GB 1GB"
+     "Nvidia GeForce GTX 470",
+     "AMD Radeon HD 7870"
     ],
     "ids": [
      "nvidia-geforce-gtx-470",
      "amd-radeon-hd-7870-ghz-edition",
      "amd-radeon-hd-7870-xt"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 1,

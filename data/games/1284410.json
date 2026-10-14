@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Celeron G1820 | AMD A4-7300"
+     "Intel Celeron G1820",
+     "AMD A4-7300"
     ],
     "ids": [
      "amd-a4-7300"
@@ -17,9 +18,13 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GT 730 | Radeon R7 240"
+     "NVIDIA GeForce GT 730",
+     "Radeon R7 240"
     ],
     "ids": [
+     "nvidia-geforce-gt-730-gk208-302",
+     "nvidia-geforce-gt-730-gf108-400",
+     "nvidia-geforce-gt-730-gf108-400-2",
      "amd-radeon-r5-240-1gb",
      "amd-radeon-r5-240-2gb",
      "amd-radeon-r7-240-2gb",
@@ -37,7 +42,8 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Processor: Intel Core i3 6100 | AMD FX-6300"
+     "Processor: Intel Core i3 6100",
+     "AMD FX-6300"
     ],
     "ids": [
      "intel-core-i3-6100",
@@ -46,9 +52,11 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 660 | AMD Radeon R7 265"
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon R7 265"
     ],
     "ids": [
+     "nvidia-geforce-gtx-660",
      "amd-radeon-r7-265"
     ]
    },

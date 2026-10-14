@@ -21,6 +21,14 @@
      "Nvidia GeForce 9600 GT"
     ],
     "ids": [
+     "amd-radeon-hd-3830",
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb",
+     "amd-radeon-hd-3850-x2",
+     "amd-radeon-hd-3870-x2",
      "nvidia-geforce-9600-gt-512mb",
      "nvidia-geforce-9600-gt-1gb"
     ]

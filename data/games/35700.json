@@ -20,12 +20,8 @@
      "NVIDIA GeForce 7600",
      "with Shader Model 3.0 support. Does not run on the Intel graphics solutions used in 2004-2009; runs on Intel HD Graphics 3000 (2010 onwards)."
     ],
-    "ids": [
-     "amd-radeon-hd-2400-pro-128mb",
-     "amd-radeon-hd-2400-pro-256mb",
-     "amd-radeon-hd-2400-pro-512mb",
-     "amd-radeon-hd-2400-xt"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

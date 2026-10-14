@@ -17,12 +17,13 @@
    },
    "gpu": {
     "raw": [
-     "AMD HD 6850 ; NVIDIA GeForce GTS 450"
+     "AMD Radeon Vega 10 Mobile",
+     "Intel UHD Graphics 630"
     ],
     "ids": [
-     "nvidia-geforce-gts-450",
-     "amd-radeon-hd-6850"
-    ]
+     "intel-uhd-graphics-630"
+    ],
+    "source": "pcgamingwiki"
    },
    "directX": 11,
    "storage": {

@@ -58,9 +58,14 @@
    "gpu": {
     "raw": [
      "Nvidia GTX 3070",
-     "Radeon 6800 with at least of VRAM 8GB"
+     "Radeon 6800"
     ],
-    "ids": []
+    "ids": [
+     "amd-radeon-hd-6850",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 32,
    "vramGb": 8,

@@ -15,7 +15,8 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GTX 900/AMD RX 400 series | Intel Iris Xe Graphics"
+     "Nvidia GTX 900/AMD RX 400 series",
+     "Intel Iris Xe Graphics"
     ],
     "ids": [
      "intel-iris-xe-graphics"
@@ -46,13 +47,14 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 1660 Ti/AMD RX 5600-XT/Intel Arc A750"
+     "Nvidia GeForce GTX 1660 Ti",
+     "AMD RX 5600 XT"
     ],
     "ids": [
      "nvidia-geforce-gtx-1660-ti",
-     "amd-radeon-rx-5600-xt",
-     "intel-arc-a750"
-    ]
+     "amd-radeon-rx-5600-xt"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "directX": 11,

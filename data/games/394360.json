@@ -9,25 +9,29 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5 750 | AMD FX 4300"
+     "Intel Core i5 750",
+     "AMD FX 4300"
     ],
     "ids": [
+     "intel-core-i5-750",
      "amd-fx-4300"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 470 () | AMD HD 5850 (1GB) | Intel Iris Xe G7 (Tiger Lake) | AMD Radeon RX Vega 11 1.28GB"
+     "Nvidia GeForce GTX 470 () 1.28GB",
+     "AMD HD 5850 () 1GB",
+     "Intel Iris Xe G7 (Tiger Lake)",
+     "AMD Radeon RX Vega 11"
     ],
     "ids": [
      "nvidia-geforce-gtx-470",
      "amd-radeon-hd-5850-1gb",
-     "amd-radeon-hd-5850-2gb",
      "intel-iris-xe-graphics"
     ]
    },
    "ramGb": 4,
-   "vramGb": 1.28,
+   "vramGb": 1,
    "directX": 9,
    "storage": {
     "gb": 2,
@@ -47,20 +51,23 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5 2500K | AMD Ryzen 3 2200G"
+     "Intel Core i5 2500K",
+     "AMD Ryzen 3 2200G"
     ],
     "ids": [
+     "intel-core-i5-2500k",
      "amd-ryzen-3-2200g"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 570 () | AMD Radeon HD 7970 (3GB) | Intel Iris Xe G7 (Tiger Lake) 1.28GB"
+     "Nvidia GeForce GTX 570 () 1.28GB",
+     "AMD Radeon HD 7970 () 3GB",
+     "Intel Iris Xe G7 (Tiger Lake)"
     ],
     "ids": [
      "nvidia-geforce-gtx-570",
      "amd-radeon-hd-7970-3gb",
-     "amd-radeon-hd-7970-6gb",
      "intel-iris-xe-graphics"
     ]
    },

@@ -19,7 +19,8 @@
      "nVidia GeForce 7600",
      "ATI Radeon X1600 (Shader Model 3.0 Highly Recommended)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

@@ -1,5 +1,5 @@
 import type { GameRequirements, RequirementTier } from '@can-i-run-it/domain';
-import { parseGpu, parseSizeGb } from '../steam/parse-steam-requirements';
+import { parseDirectX, parseGpu, parseSizeGb } from '../steam/parse-steam-requirements';
 
 /**
  * Reads the Windows `{{System requirements}}` block of a PCGamingWiki page. Only the
@@ -37,7 +37,7 @@ function readTier(fields: Map<string, string>, prefix: 'min' | 'rec'): Requireme
   const ram = fields.get(`${prefix}ram`) ?? '';
   const vram = fields.get(`${prefix}vram`) ?? '';
   const storage = fields.get(`${prefix}hd`) ?? '';
-  const directX = Number(fields.get(`${prefix}dx`)?.match(/\d+(?:\.\d+)?/)?.[0]);
+  const directX = parseDirectX(fields.get(`${prefix}dx`));
   if (!cpu.length && !gpu.length && !ram && !storage) return undefined;
 
   const storageGb = parseSizeGb(storage);
@@ -52,7 +52,7 @@ function readTier(fields: Map<string, string>, prefix: 'min' | 'rec'): Requireme
     gpu: gpu.map(parseGpu),
     ramGb: parseSizeGb(ram),
     vramGb: parseSizeGb(vram),
-    directX: directX || undefined,
+    directX,
     storage: storageGb === undefined ? undefined : { gb: storageGb, ssd: /\bssd\b/i.test(storage) },
     raw,
   });

@@ -21,6 +21,13 @@
      "Nvidia GeForce GTX 260/460/550 Ti"
     ],
     "ids": [
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb",
+     "amd-radeon-hd-6770-512mb",
+     "amd-radeon-hd-6770-1gb",
      "nvidia-geforce-gtx-260",
      "nvidia-geforce-gtx-460-gf104-300-ka",
      "nvidia-geforce-gtx-460-gf104-325",
@@ -62,6 +69,8 @@
      "Nvidia GeForce GTX 660 Ti/760"
     ],
     "ids": [
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt",
      "amd-radeon-r9-270",
      "nvidia-geforce-gtx-660-ti",
      "nvidia-geforce-gtx-760"

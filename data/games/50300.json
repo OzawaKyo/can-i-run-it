@@ -59,15 +59,17 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce 9800 GTX/ATI Radeon HD 4850 (512+ MB memory)"
+     "ATI Radeon HD 4850",
+     "Nvidia GeForce 9800 GTX"
     ],
     "ids": [
-     "nvidia-geforce-9800-gtx",
-     "nvidia-geforce-9800-gtxplus",
      "amd-radeon-hd-4850-512mb",
      "amd-radeon-hd-4850-1gb",
-     "amd-radeon-hd-4850-2gb"
-    ]
+     "amd-radeon-hd-4850-2gb",
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 3,
    "directX": 9,

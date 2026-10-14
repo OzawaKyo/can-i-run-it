@@ -24,6 +24,8 @@
      "Nvidia GeForce 8800 GT"
     ],
     "ids": [
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb",
      "nvidia-geforce-8800-gt"
     ]
    },
@@ -59,7 +61,9 @@
      "ATI Radeon 6950"
     ],
     "ids": [
-     "nvidia-geforce-gtx-560"
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb"
     ]
    },
    "ramGb": 4,

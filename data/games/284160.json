@@ -58,12 +58,15 @@
    },
    "gpu": {
     "raw": [
-     "Minimum VRAM (AMD RX 6700 / Nvidia GeForce RTX 3060) 8GB"
+     "Nvidia GeForce RTX 3060",
+     "AMD Radeon RX 6700"
     ],
     "ids": [
-     "amd-radeon-rx-6700",
-     "nvidia-geforce-rtx-3060"
-    ]
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb",
+     "amd-radeon-rx-6700"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 32,
    "vramGb": 8,

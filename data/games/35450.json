@@ -18,10 +18,8 @@
     "raw": [
      "256 MB SM 3.0 DX9 Compliant NVIDIA GeForce 7800 GTX ATI Radeon HD 2900 GT"
     ],
-    "ids": [
-     "amd-radeon-hd-2900-gt-256mb",
-     "amd-radeon-hd-2900-gt-512mb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -52,13 +50,11 @@
     "raw": [
      "512 MB SM 3.0 DX9 Compliant NVIDIA GeForce GTX 260 ATI Radeon HD 5750"
     ],
-    "ids": [
-     "nvidia-geforce-gtx-260",
-     "amd-radeon-hd-5750-512mb",
-     "amd-radeon-hd-5750-1gb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 3,
+   "directX": 9,
    "storage": {
     "gb": 23,
     "ssd": false

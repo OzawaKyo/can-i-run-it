@@ -18,7 +18,8 @@
     "raw": [
      "256 MB Video Card w/Pixel Shader 3.0 Support (Radeon X1650 / GeForce 6800*)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -46,11 +47,13 @@
    },
    "gpu": {
     "raw": [
-     "Video Card w/Pixel Shader 3.0 Support (Radeon X3000 Series / GeForce 8000* Series) 1GB"
+     "Nvidia GeForce 8 series",
+     "ATI Radeon HD 3000 series"
     ],
     "ids": [
      "amd-radeon-3000-graphics"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,

@@ -64,7 +64,8 @@
      "Higher GPU with at least VRAM 4GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-760"
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-8870"
     ],
     "source": "pcgamingwiki"
    },

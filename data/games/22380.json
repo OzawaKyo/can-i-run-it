@@ -49,10 +49,12 @@
      "Nvidia GeForce 6 series"
     ],
     "ids": [],
+    "capabilityOnly": true,
     "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "vramGb": 0.5,
+   "directX": 9,
    "raw": {
     "processor": "2.0 GHz Dual Core",
     "graphics": "ATI Radeon X1300 XT series / Nvidia GeForce 6 series",

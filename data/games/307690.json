@@ -24,6 +24,8 @@
      "Intel HD Graphics 2500"
     ],
     "ids": [
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb",
      "nvidia-geforce-8800-gt"
     ]
    },
@@ -63,6 +65,9 @@
      "Intel HD Graphics 4000"
     ],
     "ids": [
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb",
      "nvidia-geforce-gtx-560",
      "intel-hd-graphics-4000"
     ]

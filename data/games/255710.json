@@ -9,17 +9,23 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core I7 930 | AMD FX 6350"
+     "Intel Core I7 930",
+     "AMD FX 6350"
     ],
     "ids": [
+     "intel-core-i7-930",
      "amd-fx-6350"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTS 450 () | AMD R7 250 (2 GB) | Intel Iris Xe G7 (Tiger Lake) 1GB"
+     "Nvidia GeForce GTS 450 () 1GB",
+     "AMD R7 250 () 2GB",
+     "Intel Iris Xe G7 (Tiger Lake)"
     ],
     "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-r7-250-2gb",
      "intel-iris-xe-graphics"
     ]
    },
@@ -43,18 +49,23 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core I7 2700K | AMD Ryzen 7 2700X"
+     "Intel Core I7 2700K",
+     "AMD Ryzen 7 2700X"
     ],
     "ids": [
+     "intel-core-i7-2700k",
      "amd-ryzen-7-2700x"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 580 () | AMD Radeon RX 560 (4 GB) 1.5GB"
+     "Nvidia GeForce GTX 580 () 1.5GB",
+     "AMD Radeon RX 560 () 4GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-580"
+     "nvidia-geforce-gtx-580",
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2"
     ]
    },
    "ramGb": 16,

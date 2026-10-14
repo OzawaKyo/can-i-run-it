@@ -44,7 +44,16 @@ describe('scoreGpu', () => {
   });
 
   it('scores every Intel integrated generation with the calibrated Gen9 efficiency', () => {
-    for (const architecture of ['Gen7.5', 'Gen8', 'Gen11', 'Gen12', 'Gen12.2', 'Xe-LP']) {
+    for (const architecture of [
+      'Gen6',
+      'Gen7',
+      'Gen7.5',
+      'Gen8',
+      'Gen11',
+      'Gen12',
+      'Gen12.2',
+      'Xe-LP',
+    ]) {
       expect(scoreGpu({ fp32Gflops: 384, architecture }), architecture).toBe(
         scoreGpu({ fp32Gflops: 384, architecture: 'Gen9' }),
       );

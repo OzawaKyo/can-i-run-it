@@ -18,13 +18,8 @@
     "raw": [
      "GeForce 460/Radeon HD 5850/Intel HD 4600 with at least 1024 MB video RAM"
     ],
-    "ids": [
-     "nvidia-geforce-gtx-460-gf104-300-ka",
-     "nvidia-geforce-gtx-460-gf104-325",
-     "amd-radeon-hd-5850-1gb",
-     "amd-radeon-hd-5850-2gb",
-     "intel-hd-graphics-4600"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 9,

@@ -9,18 +9,22 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i7-6700K | AMD Ryzen 5 2600X"
+     "Intel Core i7-6700K",
+     "AMD Ryzen 5 2600X"
     ],
     "ids": [
+     "intel-core-i7-6700k",
      "amd-ryzen-5-2600x"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 970 () | AMD Radeon RX 480 (8 GB) 4GB"
+     "Nvidia GeForce GTX 970 () 4GB",
+     "AMD Radeon RX 480 () 8GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-970"
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-8gb"
     ]
    },
    "ramGb": 8,
@@ -40,17 +44,21 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-12600K | AMD Ryzen 7 5800X"
+     "Intel Core i5-12600K",
+     "AMD Ryzen 7 5800X"
     ],
     "ids": [
+     "intel-core-i5-12600k",
      "amd-ryzen-7-5800x"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce RTX 3080 () | AMD Radeon RX 6800 XT (16 GB) 10GB"
+     "Nvidia GeForce RTX 3080 () 10GB",
+     "AMD Radeon RX 6800 XT () 16GB"
     ],
     "ids": [
+     "nvidia-geforce-rtx-3080",
      "amd-radeon-rx-6800-xt"
     ]
    },

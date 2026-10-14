@@ -21,7 +21,8 @@
      "NVIDIA GeForce 7600 GS",
      "ATI Radeon X1950 Pro"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 10,

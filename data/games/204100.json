@@ -23,7 +23,12 @@
     ],
     "ids": [
      "nvidia-geforce-8600-gt-512mb",
-     "nvidia-geforce-8600-gt-1gb"
+     "nvidia-geforce-8600-gt-1gb",
+     "amd-radeon-hd-3410",
+     "amd-radeon-hd-3450-256mb",
+     "amd-radeon-hd-3450-512mb",
+     "amd-radeon-hd-3470-256mb",
+     "amd-radeon-hd-3470-512mb"
     ],
     "source": "pcgamingwiki"
    },

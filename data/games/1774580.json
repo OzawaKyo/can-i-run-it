@@ -10,18 +10,24 @@
    "cpu": {
     "raw": [
      "4 core",
-     "8 threads | Intel Core i7-7700 | Ryzen 5 1400"
+     "8 threads",
+     "Intel Core i7-7700",
+     "Ryzen 5 1400"
     ],
     "ids": [
+     "intel-core-i7-7700",
      "amd-ryzen-5-1400"
     ]
    },
    "gpu": {
     "raw": [
-     "VRAM | GTX 1070 | Radeon RX 580 8GB"
+     "GTX 1070",
+     "Radeon RX 580"
     ],
     "ids": [
-     "nvidia-geforce-gtx-1070"
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
     ]
    },
    "ramGb": 8,
@@ -46,17 +52,22 @@
    "cpu": {
     "raw": [
      "4 core",
-     "8 threads | Intel Core i5 11600K | Ryzen 5 5600X"
+     "8 threads",
+     "Intel Core i5 11600K",
+     "Ryzen 5 5600X"
     ],
     "ids": [
+     "intel-core-i5-11600k",
      "amd-ryzen-5-5600x"
     ]
    },
    "gpu": {
     "raw": [
-     "VRAM | RTX2070 | RX 6700 XT 8GB"
+     "RTX2070",
+     "RX 6700 XT"
     ],
     "ids": [
+     "nvidia-geforce-rtx-2070",
      "amd-radeon-rx-6700-xt"
     ]
    },

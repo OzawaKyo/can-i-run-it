@@ -18,6 +18,22 @@
       "directX": 12,
       "laptop": true,
       "source": "Wikipedia row has no FP32 figure. 2048 CUDA cores × 2 × 1.477 GHz boost; 64-bit GDDR6 at 14 Gbps."
+    },
+    {
+      "name": "HD Graphics 3000",
+      "vendor": "intel",
+      "fp32Gflops": 105.6,
+      "architecture": "Gen6",
+      "directX": 10.1,
+      "source": "Not in Wikipedia's Gen6 table in a readable form. 12 EUs × 8 FP32 FLOPs per clock (4-wide FMA) × 1.1 GHz max (most desktop Sandy Bridge parts)."
+    },
+    {
+      "name": "HD Graphics 2000",
+      "vendor": "intel",
+      "fp32Gflops": 52.8,
+      "architecture": "Gen6",
+      "directX": 10.1,
+      "source": "As HD Graphics 3000 with 6 EUs."
     }
   ]
 }

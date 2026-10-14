@@ -20,7 +20,8 @@
      "DirectX 9.0c compatible",
      "ATI X1300 XT (ATI X1300, X1300 Pro, X1600 Pro, Radeon 2600 HD, and HD 2400 are below minimum system requirements); NVidia GeForce 6800 (7300, 7600 GS, 8500 are below minimum system requirements)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

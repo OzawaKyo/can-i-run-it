@@ -18,9 +18,11 @@
     "raw": [
      "Direct X 9.0c compliant video card with 256MB RAM (NVIDIA 6800/ATI X850)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 7,
     "ssd": false

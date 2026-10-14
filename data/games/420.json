@@ -16,10 +16,16 @@
     "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce FX 5700",
+     "ATI Radeon 9500"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 0.5,
+   "directX": 9,
    "raw": {
     "text": "1.7 GHz Processor, 512MB RAM, DirectX 8.1 level Graphics Card (Requires support for SSE), Windows 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection"
    }
@@ -34,10 +40,16 @@
     "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce 6800",
+     "ATI Radeon X800"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 1,
+   "directX": 9,
    "raw": {
     "text": "Pentium 4 processor (3.0GHz, or better), 1GB RAM, DirectX 9 level Graphics Card, Windows 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection"
    }

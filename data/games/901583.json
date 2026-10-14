@@ -20,9 +20,11 @@
      "256MB Nvidia 7900",
      "256MB ATI X1900"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1.5,
+   "directX": 9,
    "storage": {
     "gb": 32,
     "ssd": false

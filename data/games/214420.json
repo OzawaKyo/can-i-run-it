@@ -24,6 +24,8 @@
      "Nvidia GeForce 8800 GT."
     ],
     "ids": [
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb",
      "nvidia-geforce-8800-gt"
     ]
    },
@@ -62,6 +64,8 @@
      "Nvidia GeForce GTX 560."
     ],
     "ids": [
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb",
      "nvidia-geforce-gtx-560"
     ]
    },

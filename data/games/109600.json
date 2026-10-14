@@ -16,11 +16,13 @@
    },
    "gpu": {
     "raw": [
-     "NVidia GeForce GTX 4xx",
-     "ATI/AMD Radeon HD 5xxx",
-     "or Intel HD Graphics 4xxx (Direct3D Hardware Feature Level 11)"
+     "Nvidia GeForce 6600",
+     "ATI Radeon X1300",
+     "Intel G965 Express"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

@@ -21,9 +21,11 @@
      "ATI 9600",
      "NVidia 6600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 7.5,
     "ssd": false
@@ -51,9 +53,11 @@
      "NVidia 7600",
      "ATI X1600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "raw": {
     "supported os": "Windows 7 32/64-bit / Vista 32/64 / XP",
     "processor": "Intel core 2 duo 2.4GHz",

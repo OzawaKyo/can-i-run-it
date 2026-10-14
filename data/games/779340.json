@@ -16,10 +16,14 @@
    },
    "gpu": {
     "raw": [
-     "GTX 650 Ti|HD 7850 1GB|Intel UHD Graphics 620 1GB"
+     "GTX 650 Ti 1GB",
+     "HD 7850 1GB",
+     "Intel UHD Graphics 620"
     ],
     "ids": [
-     "nvidia-geforce-gtx-650-ti"
+     "nvidia-geforce-gtx-650-ti",
+     "amd-radeon-hd-7850-1gb",
+     "intel-uhd-graphics-620"
     ]
    },
    "ramGb": 4,
@@ -42,18 +46,22 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel i5-6600 | Ryzen 5 2600X"
+     "Intel i5-6600",
+     "Ryzen 5 2600X"
     ],
     "ids": [
+     "intel-core-i5-6600",
      "amd-ryzen-5-2600x"
     ]
    },
    "gpu": {
     "raw": [
-     "GTX 970 | R9 Fury X VRAM 4GB"
+     "GTX 970",
+     "R9 Fury X VRAM 4GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-970"
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-fury-x"
     ]
    },
    "ramGb": 8,

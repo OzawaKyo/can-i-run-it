@@ -25,6 +25,8 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb",
      "nvidia-xgpu",
      "amd-radeon-r9-280x"
     ]

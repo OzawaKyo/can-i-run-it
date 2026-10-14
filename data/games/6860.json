@@ -16,9 +16,15 @@
     "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce FX",
+     "ATI Radeon 9500 Hardware T&L support"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
+   "directX": 9,
    "raw": {}
   },
   "recommended": {
@@ -36,9 +42,11 @@
      "ATI Radeon X800"
     ],
     "ids": [],
+    "capabilityOnly": true,
     "source": "pcgamingwiki"
    },
    "ramGb": 1,
+   "directX": 9,
    "raw": {
     "processor": "Intel Pentium IV 2.4 GHz",
     "graphics": "Nvidia GeForce 6800 / ATI Radeon X800",

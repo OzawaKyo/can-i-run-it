@@ -47,11 +47,15 @@
    },
    "gpu": {
     "raw": [
-     "Graphics card (AMD): AMD Radeon HD 7870 Graphics card (Nvidia): NVIDIA GeForce GTX 660"
+     "AMD Radeon HD 7870",
+     "Nvidia GeForce GTX 660"
     ],
     "ids": [
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt",
      "nvidia-geforce-gtx-660"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "storage": {

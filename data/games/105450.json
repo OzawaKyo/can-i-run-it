@@ -20,10 +20,11 @@
      "64 MB NVIDIA GeForce 6800",
      "ATI Radeon X1300"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
-   "directX": 90,
+   "directX": 9,
    "storage": {
     "gb": 12,
     "ssd": false

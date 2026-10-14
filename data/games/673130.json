@@ -20,7 +20,9 @@
      "AMD Radeon 6870 HD"
     ],
     "ids": [
-     "nvidia-geforce-gtx-470"
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
     ]
    },
    "ramGb": 8,

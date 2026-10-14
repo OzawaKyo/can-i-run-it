@@ -9,17 +9,27 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5-750 | AMD FX 4300"
+     "Intel Core i5-750",
+     "AMD FX 4300"
     ],
     "ids": [
+     "intel-core-i5-750",
      "amd-fx-4300"
     ]
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 660 | AMD Radeon HD 7870 | Intel Arc A310 | Intel Iris Plus G7 | AMD Radeon Vega 11"
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon HD 7870",
+     "Intel Arc A310",
+     "Intel Iris Plus G7",
+     "AMD Radeon Vega 11"
     ],
     "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt",
+     "intel-arc-a310",
      "intel-iris-plus-graphics"
     ]
    },
@@ -39,17 +49,24 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-8400 | AMD Ryzen 5 1600X"
+     "Intel Core i5-8400",
+     "AMD Ryzen 5 1600X"
     ],
     "ids": [
+     "intel-core-i5-8400",
      "amd-ryzen-5-1600x"
     ]
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 970 | AMD Radeon RX 480 | Intel Arc A580"
+     "NVIDIA GeForce GTX 970",
+     "AMD Radeon RX 480",
+     "Intel Arc A580"
     ],
     "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb",
      "intel-arc-a580"
     ]
    },

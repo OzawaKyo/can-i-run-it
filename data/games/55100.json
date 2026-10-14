@@ -17,13 +17,15 @@
    },
    "gpu": {
     "raw": [
-     "Shader Model 3.0 graphics card with 256MB of memory",
-     "NVIDIA GeForce 7900GS",
-     "ATI Radeon 1900XT"
+     "Nvidia GeForce 7900 GS",
+     "ATI Radeon X1900 XT"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
+   "directX": 9,
    "storage": {
     "gb": 10,
     "ssd": false
@@ -53,7 +55,10 @@
      "ATI Radeon 4850"
     ],
     "ids": [
-     "nvidia-geforce-gtx-260"
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
     ]
    },
    "ramGb": 2,

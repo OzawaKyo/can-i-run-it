@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core2 Duo E6750 (2 * 2660) | AMD Athlon 64 X2 Dual Core 6000+ (2 * 3000)"
+     "Intel Core2 Duo E6750 (2 * 2660)",
+     "AMD Athlon 64 X2 Dual Core 6000+ (2 * 3000)"
     ],
     "ids": [
      "intel-core-2-duo-e6750"
@@ -17,9 +18,11 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GT 740 (2048 MB) | Radeon HD 5770 (1024 MB)"
+     "GeForce GT 740 (2048 MB)",
+     "Radeon HD 5770 (1024 MB)"
     ],
     "ids": [
+     "nvidia-geforce-gt-740",
      "amd-radeon-hd-5770-512mb",
      "amd-radeon-hd-5770-1gb"
     ]
@@ -40,19 +43,24 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core2 Quad Q9300 (4 * 2500) | AMD A10-5800K APU (4*3800)"
+     "Intel Core2 Quad Q9300 (4 * 2500)",
+     "AMD A10-5800K APU (4*3800)"
     ],
     "ids": [
-     "intel-core-2-quad-q9300"
+     "intel-core-2-quad-q9300",
+     "amd-a10-5800k"
     ]
    },
    "gpu": {
     "raw": [
-     "GeForce GTX 460 (1024 MB) | Radeon HD 7770 (1024 MB)"
+     "GeForce GTX 460 (1024 MB)",
+     "Radeon HD 7770 (1024 MB)"
     ],
     "ids": [
      "nvidia-geforce-gtx-460-gf104-300-ka",
-     "nvidia-geforce-gtx-460-gf104-325"
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb"
     ]
    },
    "ramGb": 2,

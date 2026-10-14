@@ -17,9 +17,15 @@
     "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce4 Ti 4200 Nvidia GeForce FX 5700 (Steam)",
+     "ATI Radeon 9 series ATI Radeon 9500 (Steam)"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
+   "directX": 9,
    "raw": {}
   },
   "recommended": {
@@ -38,10 +44,12 @@
      "ATI Radeon X1800"
     ],
     "ids": [],
+    "capabilityOnly": true,
     "source": "pcgamingwiki"
    },
    "ramGb": 1,
    "vramGb": 0.25,
+   "directX": 9,
    "raw": {
     "processor": "Intel Pentium 4 2.8 GHz / AMD Athlon XP 2800+",
     "graphics": "Nvidia GeForce 7 Series / ATI Radeon X1800",

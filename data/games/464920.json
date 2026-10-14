@@ -15,14 +15,19 @@
    },
    "gpu": {
     "raw": [
-     "HD 4600/Geforce 620/Radeon 6450 GPUs with of video RAM 1GB"
+     "Intel HD 4600",
+     "Nvidia GeForce GT 620",
+     "AMD Radeon HD 6450"
     ],
     "ids": [
      "intel-hd-graphics-4600",
      "nvidia-geforce-gt-620",
-     "amd-radeon-r7-450-2gb",
-     "amd-radeon-r7-450-4gb"
-    ]
+     "amd-radeon-hd-6450",
+     "amd-radeon-hd-6450-512mb",
+     "amd-radeon-hd-6450-1gb",
+     "amd-radeon-hd-6450-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,

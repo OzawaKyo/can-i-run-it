@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5-3470 | AMD FX-8350"
+     "Intel Core i5-3470",
+     "AMD FX-8350"
     ],
     "ids": [
      "intel-core-i5-3470",
@@ -18,13 +19,12 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 760",
-     "| AMD Radeon HD 7970 2GB"
+     "Nvidia GeForce GTX 760 2GB",
+     "AMD Radeon HD 7970 3GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-760",
-     "amd-radeon-hd-7970-3gb",
-     "amd-radeon-hd-7970-6gb"
+     "amd-radeon-hd-7970-3gb"
     ]
    },
    "ramGb": 6,
@@ -47,16 +47,18 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-4690K | AMD Ryzen 5 2600X"
+     "Intel Core i5-4690K",
+     "AMD Ryzen 5 2600X"
     ],
     "ids": [
+     "intel-core-i5-4690k",
      "amd-ryzen-5-2600x"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 970",
-     "| AMD Radeon R9 290X 4GB"
+     "Nvidia GeForce GTX 970 4GB",
+     "AMD Radeon R9 290X 4GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-970",

@@ -23,7 +23,7 @@
     "capabilityOnly": true
    },
    "ramGb": 0.25,
-   "directX": 8.1,
+   "directX": 8,
    "storage": {
     "gb": 1,
     "ssd": false

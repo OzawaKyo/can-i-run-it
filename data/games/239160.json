@@ -20,6 +20,21 @@
      "Nvidia GTS 250"
     ],
     "ids": [
+     "amd-radeon-hd-4810",
+     "amd-radeon-hd-4830-512mb",
+     "amd-radeon-hd-4830-1gb",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb",
+     "amd-radeon-hd-4860-512mb",
+     "amd-radeon-hd-4860-1gb",
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb",
+     "amd-radeon-hd-4890-1gb",
+     "amd-radeon-hd-4890-2gb",
+     "amd-radeon-hd-4850-x2",
+     "amd-radeon-hd-4870-x2",
      "nvidia-geforce-gts-250-g92-426",
      "nvidia-geforce-gts-250-g92-428"
     ]

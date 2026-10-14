@@ -18,9 +18,11 @@
     "raw": [
      ": Direct X 9.0c compliant video card with 128MB RAM and Pixel Shader 3.0 (NVIDIA 6600/ATI X1300, excluding ATI X1550)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "raw": {
     "operating system": ": Windows XP (with Service Pack 2) or Windows Vista",
     "processor": ": Intel single-core Pentium 4 processor at 2.4GHz",
@@ -39,21 +41,14 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce 7900 GT (DirectX 9)",
-     "Nvidia GeForce 8600 (DirectX 10)"
+     ": DX 9 - Direct X 9.0c compliant video card with 512 MB RAM and Pixel Shader 3.0 (NVIDIA GeForce 7900 GT)",
+     "DX 10 - NVIDIA GeForce 8600"
     ],
-    "ids": [
-     "nvidia-geforce-8600-gs",
-     "nvidia-geforce-8600-gt-512mb",
-     "nvidia-geforce-8600-gt-1gb",
-     "nvidia-geforce-8600-gt-mac-edition",
-     "nvidia-geforce-8600-gts-256mb",
-     "nvidia-geforce-8600-gts-512mb",
-     "nvidia-geforce-8600-gts-mac-edition"
-    ],
-    "source": "pcgamingwiki"
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 9,
    "raw": {
     "processor": ": Intel Core 2 Duo processor",
     "memory": ": 2GB",

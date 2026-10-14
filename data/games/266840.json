@@ -20,10 +20,8 @@
      "ATI Radeon X1950",
      "Intel HD Graphics 3000"
     ],
-    "ids": [
-     "nvidia-geforce-8600-gt-512mb",
-     "nvidia-geforce-8600-gt-1gb"
-    ],
+    "ids": [],
+    "capabilityOnly": true,
     "source": "pcgamingwiki"
    },
    "ramGb": 1,

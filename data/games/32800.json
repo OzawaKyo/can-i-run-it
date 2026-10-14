@@ -28,7 +28,7 @@
     ]
    },
    "ramGb": 2,
-   "directX": 90,
+   "directX": 9,
    "storage": {
     "gb": 10,
     "ssd": false
@@ -62,7 +62,7 @@
     "ids": []
    },
    "ramGb": 4,
-   "directX": 90,
+   "directX": 9,
    "raw": {
     "processor": "Intel Core2 Duo 3 GHz or AMD X2 5000 or AMD Phenom X4 9600",
     "memory": "4 GB RAM",

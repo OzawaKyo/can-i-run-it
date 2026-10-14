@@ -21,9 +21,11 @@
      "GeForce 7300 GT (512 MB)",
      "Radeon X1300 Pro (256 MB)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 9,
    "storage": {
     "gb": 0.29296875,
     "ssd": false

@@ -18,11 +18,17 @@
    },
    "gpu": {
     "raw": [
-     "AMD: Radeon 7970/Radeon R9 280x; NVIDIA: GeForce GTX 760"
+     "Nvidia GeForce GTX 760",
+     "AMD Radeon HD 7970",
+     "AMD Radeon R9 280X"
     ],
     "ids": [
-     "nvidia-geforce-gtx-760"
-    ]
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb",
+     "amd-radeon-r9-280x"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "directX": 11,

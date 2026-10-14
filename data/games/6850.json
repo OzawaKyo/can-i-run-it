@@ -20,7 +20,7 @@
    },
    "ramGb": 0.125,
    "vramGb": 0.015625,
-   "directX": 8.1,
+   "directX": 8,
    "storage": {
     "gb": 0.78125,
     "ssd": false

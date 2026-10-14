@@ -21,18 +21,8 @@
      "ATI Radeon X1900",
      "512mb graphics memory required."
     ],
-    "ids": [
-     "nvidia-geforce-8800-gs-384mb",
-     "nvidia-geforce-8800-gs-768mb",
-     "nvidia-geforce-8800-gt",
-     "nvidia-geforce-8800-gt-mac-edition",
-     "nvidia-geforce-8800-gts-320",
-     "nvidia-geforce-8800-gts-640",
-     "nvidia-geforce-8800-gts-core-112",
-     "nvidia-geforce-8800-gts-512",
-     "nvidia-geforce-8800-gtx",
-     "nvidia-geforce-8800-ultra"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 9,

@@ -17,11 +17,14 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GTX 550 Ti (3072 VRAM); Radeon HD 6850 (1024 VRAM)"
+     "Nvidia GeForce GTX 550 Ti",
+     "AMD Radeon HD 6850"
     ],
     "ids": [
-     "nvidia-geforce-gtx-550-ti"
-    ]
+     "nvidia-geforce-gtx-550-ti",
+     "amd-radeon-hd-6850"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "storage": {

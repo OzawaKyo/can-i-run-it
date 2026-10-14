@@ -19,7 +19,8 @@
     "raw": [
      "GeForce 7600 GT (256 MB)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 10,

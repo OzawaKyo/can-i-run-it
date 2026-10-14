@@ -34,7 +34,8 @@
      "nvidia-geforce-8800-gtx",
      "nvidia-geforce-8800-ultra",
      "amd-radeon-hd-3870-512mb",
-     "amd-radeon-hd-3870-1gb"
+     "amd-radeon-hd-3870-1gb",
+     "intel-hd-graphics-3000"
     ]
    },
    "ramGb": 2,

@@ -47,9 +47,11 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce 8xxx"
+     "Nvidia GeForce 6600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 9,

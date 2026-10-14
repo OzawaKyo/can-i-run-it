@@ -21,8 +21,9 @@
      "NVIDIA GeForce 420 with at least 1024 MB VRAM"
     ],
     "ids": [
-     "amd-radeon-r7-450-2gb",
-     "amd-radeon-r7-450-4gb"
+     "amd-radeon-hd-5450-512mb",
+     "amd-radeon-hd-5450-1gb",
+     "amd-radeon-hd-5450-2gb"
     ]
    },
    "ramGb": 4,

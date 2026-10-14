@@ -9,17 +9,19 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5-2300 | AMD Ryzen 3 1200"
+     "Intel Core i5-2300",
+     "AMD Ryzen 3 1200"
     ],
     "ids": [
+     "intel-core-i5-2300",
      "amd-ryzen-3-1200",
      "amd-ryzen-3-1200-af"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 660",
-     "| AMD Radeon HD 7870 2GB"
+     "Nvidia GeForce GTX 660 2GB",
+     "AMD Radeon HD 7870 2GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-660",
@@ -44,20 +46,21 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-9600K | AMD Ryzen 5 3600X"
+     "Intel Core i5-9600K",
+     "AMD Ryzen 5 3600X"
     ],
     "ids": [
+     "intel-core-i5-9600k",
      "amd-ryzen-5-3600x"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 1060",
-     "| AMD Radeon RX Vega 64 3GB"
+     "Nvidia GeForce GTX 1060 3GB",
+     "AMD Radeon RX Vega 64"
     ],
     "ids": [
      "nvidia-geforce-gtx-1060",
-     "nvidia-geforce-gtx-1060-6-gb",
      "amd-radeon-rx-vega-64"
     ]
    },

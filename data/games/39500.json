@@ -50,7 +50,8 @@
     "raw": [
      "3D graphics cardwith 256 MB (NVIDIA GeForce 6800 equivalent"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 9,

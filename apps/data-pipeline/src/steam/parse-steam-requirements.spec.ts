@@ -211,4 +211,37 @@ describe('parseSteamRequirements', () => {
     }).minimum;
     expect(minimum?.cpu).toEqual(['Intel Core i5-4590']);
   });
+
+  describe('DirectX versions as games write them', () => {
+    const directX = (text: string) =>
+      parseSteamRequirements({
+        minimum: `<ul class="bb_ul"><li><strong>DirectX:</strong> ${text}</li></ul>`,
+      }).minimum?.directX;
+
+    it('reads usual forms', () => {
+      expect(directX('Version 11')).toBe(11);
+      expect(directX('Version 9.0c')).toBe(9);
+      expect(directX('10.1')).toBe(10.1);
+    });
+
+    it('reads versions written without a dot ("dx90c")', () => {
+      expect(directX('dx90c')).toBe(9);
+      expect(directX('DX110')).toBe(11);
+    });
+
+    it('ignores numbers that are not a DirectX version', () => {
+      expect(directX('DirectX (November 2007)')).toBeUndefined();
+    });
+  });
+
+  it('splits alternatives on "|"', () => {
+    const minimum = parseSteamRequirements({
+      minimum:
+        '<ul class="bb_ul"><li><strong>Graphics:</strong> Nvidia GeForce GTX 660 | AMD Radeon HD 7870 2GB</li></ul>',
+    }).minimum;
+    expect(minimum?.gpu).toEqual([
+      { name: 'Nvidia GeForce GTX 660' },
+      { name: 'AMD Radeon HD 7870', vramGb: 2 },
+    ]);
+  });
 });

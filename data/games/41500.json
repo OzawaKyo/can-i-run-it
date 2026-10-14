@@ -17,7 +17,8 @@
     "raw": [
      "DirectX-compatible 3D graphics with at least 64MB of addressable memory (such as an ATI Radeon 7200, NVIDIA GeForce 2, or Intel GMA 950)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
    "directX": 9,

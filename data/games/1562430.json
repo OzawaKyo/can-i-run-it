@@ -9,17 +9,21 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i3-2100 | AMD Phenom II X4 965"
+     "Intel Core i3-2100",
+     "AMD Phenom II X4 965"
     ],
     "ids": [
-     "intel-core-i3-2100"
+     "intel-core-i3-2100",
+     "amd-phenom-ii-x4-965-black-edition"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia 8800 GT 512MB | Radeon HD 6570 1GB"
+     "Nvidia 8800 GT 512MB",
+     "Radeon HD 6570 1GB"
     ],
     "ids": [
+     "nvidia-geforce-8800-gt",
      "amd-radeon-hd-6570"
     ]
    },
@@ -43,15 +47,18 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-2550K | AMD FX-8370"
+     "Intel Core i5-2550K",
+     "AMD FX-8370"
     ],
     "ids": [
-     "intel-core-i5-2550k"
+     "intel-core-i5-2550k",
+     "amd-fx-8370"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GTS 450 | Radeon HD 5770 1GB 1GB"
+     "Nvidia GTS 450 1GB",
+     "Radeon HD 5770 1GB"
     ],
     "ids": [
      "nvidia-geforce-gts-450",

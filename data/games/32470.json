@@ -22,9 +22,11 @@
      "NVIDIA 7200",
      "Intel 965"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "directX": 9,
    "raw": {
     "computer": "100% DirectX 9.0c compatible computer",
     "processor": "Intel Pentium III 1.0GHz or AMD Athlon 1.0 GHz",
@@ -48,17 +50,11 @@
      "ATI Radeon X1900",
      "NVIDIA 8600"
     ],
-    "ids": [
-     "nvidia-geforce-8600-gs",
-     "nvidia-geforce-8600-gt-512mb",
-     "nvidia-geforce-8600-gt-1gb",
-     "nvidia-geforce-8600-gt-mac-edition",
-     "nvidia-geforce-8600-gts-256mb",
-     "nvidia-geforce-8600-gts-512mb",
-     "nvidia-geforce-8600-gts-mac-edition"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "raw": {
     "computer": "100% DirectX 9.0c compatible computer",
     "processor": "Intel Pentium Dual Core CPU",

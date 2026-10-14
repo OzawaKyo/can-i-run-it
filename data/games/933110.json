@@ -67,13 +67,14 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GTX 980",
-     "Radeon R9 Fury with an average Passmark G3D Mark of 9500 @1080p"
+     "Nvidia GeForce GTX 980",
+     "AMD Radeon R9 Fury"
     ],
     "ids": [
      "nvidia-geforce-gtx-980",
      "amd-radeon-r9-fury"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 4,

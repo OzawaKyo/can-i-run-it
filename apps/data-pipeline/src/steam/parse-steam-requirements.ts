@@ -86,7 +86,7 @@ function splitAlternatives(input: string | undefined): string[] {
     if (char === '(') depth++;
     else if (char === ')') depth = Math.max(0, depth - 1);
     if (depth > 0) continue;
-    const separator = text.slice(i).match(/^(?:\s+or\s+|\s+\/\s+|,\s*)/i);
+    const separator = text.slice(i).match(/^(?:\s+or\s+|\s+\/\s+|\s*\|\s*|,\s*)/i);
     if (!separator) continue;
     parts.push(text.slice(start, i));
     i += separator[0].length - 1;
@@ -177,9 +177,20 @@ function parseNotesVram(notes: string | undefined): number | undefined {
   return match ? Number(match[1] ?? match[2]) : undefined;
 }
 
-function parseDirectX(text: string | undefined): number | undefined {
-  const match = text?.match(/(\d+(?:\.\d+)?)/);
-  return match ? Number(match[1]) : undefined;
+/**
+ * The DirectX version: "Version 9.0c" → 9, "10.1" → 10.1, "dx90c" → 9 (dot left out).
+ * Anything outside the versions that exist (7 to 12.2), like a release date, is ignored.
+ */
+export function parseDirectX(text: string | undefined): number | undefined {
+  const match = text?.match(/(\d+)(?:\.(\d))?/);
+  if (!match) return undefined;
+  let version = Number(match[2] === undefined ? match[1] : `${match[1]}.${match[2]}`);
+  // "90" or "110": the dot was left out.
+  if (match[2] === undefined && match[1].length >= 2 && version > 12) {
+    version = Number(`${match[1].slice(0, -1)}.${match[1].slice(-1)}`);
+  }
+  if (version < 7 || version > 12.2) return undefined;
+  return version === 10.1 || version === 12.1 || version === 12.2 ? version : Math.floor(version);
 }
 
 function parseStorage(

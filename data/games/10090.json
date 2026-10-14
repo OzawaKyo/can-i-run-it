@@ -18,9 +18,11 @@
     "raw": [
      "256 MB (nVidia GeForce 6600/ATI Radeon X1600)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "directX": 9,
    "storage": {
     "gb": 8,
     "ssd": false

@@ -52,10 +52,12 @@
      "Nvidia GeForce FX 5700"
     ],
     "ids": [],
+    "capabilityOnly": true,
     "source": "pcgamingwiki"
    },
    "ramGb": 1,
    "vramGb": 0.25,
+   "directX": 9,
    "raw": {
     "processor": "Intel Pentium 4 2.8 GHz / AMD Athlon XP 2400 2.8 GHz",
     "graphics": "Nvidia GeForce FX 5700",

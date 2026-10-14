@@ -20,14 +20,12 @@
     "raw": [
      "NVIDIA GTX 670/AMD Radeon HD 7870 2GB 2GB"
     ],
-    "ids": [
-     "nvidia-geforce-gtx-670",
-     "amd-radeon-hd-7870-ghz-edition",
-     "amd-radeon-hd-7870-xt"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
    "vramGb": 2,
+   "directX": 9,
    "storage": {
     "gb": 55,
     "ssd": false

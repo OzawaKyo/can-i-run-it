@@ -19,7 +19,8 @@
      "NVIDIA GeForce 6800",
      "ATI Radeon x1950 with 256MB VRAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

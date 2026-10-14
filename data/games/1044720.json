@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Processor: Intel Core i5 3470 @ 3.2 GHz | AMD FX 8120 @ 3.9 GHz"
+     "Processor: Intel Core i5 3470 @ 3.2 GHz",
+     "AMD FX 8120 @ 3.9 GHz"
     ],
     "ids": [
      "intel-core-i5-3470",
@@ -18,9 +19,11 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 780 | AMD R9 290 3GB"
+     "NVIDIA GeForce GTX 780",
+     "AMD R9 290 3GB"
     ],
     "ids": [
+     "nvidia-geforce-gtx-780",
      "amd-radeon-r9-290"
     ]
    },
@@ -44,18 +47,22 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Processor: Intel Core i5 7600 @ 3.5 GHz | AMD Ryzen 5 2600 @ 3.4 GHz"
+     "Processor: Intel Core i5 7600 @ 3.5 GHz",
+     "AMD Ryzen 5 2600 @ 3.4 GHz"
     ],
     "ids": [
+     "intel-core-i5-7600",
      "amd-ryzen-5-2600"
     ]
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 980 | AMD RX 590 4GB"
+     "NVIDIA GeForce GTX 980",
+     "AMD RX 590 4GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-980"
+     "nvidia-geforce-gtx-980",
+     "amd-radeon-rx-590"
     ]
    },
    "ramGb": 16,

@@ -18,12 +18,13 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce 200 series card",
-     "or AMD Radeon 3000 series (NVIDIA GeForce 400 series or AMD Radeon 5000 series preferred)"
+     "Nvidia GeForce 200 series",
+     "AMD Radeon 3000 series"
     ],
     "ids": [
      "amd-radeon-3000-graphics"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "storage": {

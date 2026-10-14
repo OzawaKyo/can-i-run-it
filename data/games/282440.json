@@ -52,7 +52,8 @@
      "NVIDIA GeForce 7 Series",
      "ATI Radeon X1800 series 1920x1080 resolution"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

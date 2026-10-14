@@ -49,9 +49,11 @@
      "NVIDIA GeForce FX 5200",
      "ATI Radeon 9600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 0.09765625,
     "ssd": false

@@ -21,6 +21,7 @@
      "Radeon HD 5750"
     ],
     "ids": [
+     "nvidia-geforce-gts-450",
      "amd-radeon-hd-5750-512mb",
      "amd-radeon-hd-5750-1gb"
     ]
@@ -57,7 +58,11 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-460-gf104-300-ka",
-     "nvidia-geforce-gtx-460-gf104-325"
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
     ]
    },
    "ramGb": 8,

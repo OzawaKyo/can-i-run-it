@@ -21,10 +21,8 @@
      "256 MB nVidia 7900 GS",
      "or Core i3 integrated graphics"
     ],
-    "ids": [
-     "amd-radeon-hd-2600-xt-256mb",
-     "amd-radeon-hd-2600-xt-512mb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -57,6 +55,21 @@
      "512 MB nVidia 9800 series"
     ],
     "ids": [
+     "amd-radeon-hd-4810",
+     "amd-radeon-hd-4830-512mb",
+     "amd-radeon-hd-4830-1gb",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb",
+     "amd-radeon-hd-4860-512mb",
+     "amd-radeon-hd-4860-1gb",
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb",
+     "amd-radeon-hd-4890-1gb",
+     "amd-radeon-hd-4890-2gb",
+     "amd-radeon-hd-4850-x2",
+     "amd-radeon-hd-4870-x2",
      "nvidia-geforce-9800-gt-512mb",
      "nvidia-geforce-9800-gt-1gb",
      "nvidia-geforce-9800-gt-rebrand",

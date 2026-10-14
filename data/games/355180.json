@@ -19,7 +19,8 @@
      "nVidia GeForce 6 series",
      "ATI Radeon 9600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -47,14 +48,12 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce 9 series",
-     "ATI Radeon X1600",
-     "Intel HD Graphics 4000"
+     "nVidia GeForce 9",
+     "ATI X1600",
+     "Intel 4000"
     ],
-    "ids": [
-     "intel-hd-graphics-4000"
-    ],
-    "source": "pcgamingwiki"
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 9,

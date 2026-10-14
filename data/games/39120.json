@@ -20,7 +20,8 @@
      "ATI/AMD Radeon X300",
      "Intel GMA X4500."
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

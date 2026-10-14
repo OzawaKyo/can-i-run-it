@@ -9,6 +9,7 @@ import {
   type StoredTier,
 } from '@can-i-run-it/domain';
 import { scoreCpu } from '../hardware/score-cpu';
+import { parseDirectX } from '../steam/parse-steam-requirements';
 
 export interface UnresolvedName {
   kind: 'cpu' | 'gpu';
@@ -97,15 +98,21 @@ function resolveGpus(gpus: GpuRequirement[], catalog: Catalog): ResolvedComponen
   const unresolved: string[] = [];
   const ids = gpus.flatMap((gpu) => {
     const matches = resolveHardware(gpu.name, catalog.gpus, { vramGb: gpu.vramGb });
-    if (matches.length === 0) unresolved.push(gpu.name);
+    if (matches.length === 0 && !isPreDirectX10(gpu.name)) unresolved.push(gpu.name);
     return matches.map((match) => match.model.id);
   });
-  const directX =
-    ids.length === 0 ? directXFromCapabilities(gpus.map((gpu) => gpu.name)) : undefined;
+  // A card from before DirectX 10 sets the bar so low (the weakest alternative wins) that
+  // the requirement is really "a DirectX 9 card", which the catalog's GPUs all exceed.
+  const legacy = gpus.some((gpu) => isPreDirectX10(gpu.name));
+  const directX = legacy
+    ? 9
+    : ids.length === 0
+      ? directXFromCapabilities(gpus.map((gpu) => gpu.name))
+      : undefined;
   return {
     component: withoutUndefined({
       raw: gpus.map((gpu) => (gpu.vramGb === undefined ? gpu.name : `${gpu.name} ${gpu.vramGb}GB`)),
-      ids: unique(ids),
+      ids: legacy ? [] : unique(ids),
       capabilityOnly: directX !== undefined ? (true as const) : undefined,
     }),
     unresolved,
@@ -179,10 +186,20 @@ function directXFromCapabilities(names: string[]): number | undefined {
   const text = names.join(' ');
   if (/\b(?:geforce|radeon|gtx|rtx|nvidia\s+\d|ati\s+x|intel\s+(?:hd|uhd|iris))/i.test(text))
     return undefined;
-  const directX = Number(text.match(/directx\s*(\d+(?:\.\d+)?)/i)?.[1]);
+  const directX = parseDirectX(text.match(/directx\s*(\d+(?:\.\d+)?)/i)?.[1]);
   if (directX) return directX;
   const shaderModel = text.match(/shader\s*model\s*(\d)/i)?.[1];
   return shaderModel ? DIRECTX_BY_SHADER_MODEL[shaderModel] : undefined;
+}
+
+/** GeForce FX/6/7, Radeon 9000/X/X1000, Intel GMA: graphics cards from before DirectX 10. */
+function isPreDirectX10(name: string): boolean {
+  const text = name.toLowerCase();
+  const nvidia =
+    /\b(?:nvidia|geforce)\b/.test(text) &&
+    (/\bfx\s*\d{4}\b/.test(text) || /(?<!\b(?:gtx|rtx|gts|gt)\s*)\b[5-7]\d{3}\b/.test(text));
+  const ati = /\b(?:ati|radeon)\b/.test(text) && /(?<!\brx\s*)\b(?:x1?\d{3,4}|9\d{3})\b/.test(text);
+  return nvidia || ati || /\bgma\b/.test(text);
 }
 
 function unique(ids: string[]): string[] {

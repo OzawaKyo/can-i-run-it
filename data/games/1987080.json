@@ -21,7 +21,8 @@
    "gpu": {
     "raw": [
      "Nvidia GeForce GTX 760",
-     "( VRAM) | AMD Radeon HD 7870 2GB",
+     "( VRAM) 2GB",
+     "AMD Radeon HD 7870",
      "( VRAM) 2GB"
     ],
     "ids": [
@@ -50,7 +51,8 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i7-3770 | AMD FX-8350"
+     "Intel Core i7-3770",
+     "AMD FX-8350"
     ],
     "ids": [
      "intel-core-i7-3770",
@@ -59,9 +61,12 @@
    },
    "gpu": {
     "raw": [
-     "AMD Radeon RX 560 with ( VRAM) | NVIDIA GeForce GTX 1050 Ti (4GB VRAM ) 4GB"
+     "AMD Radeon RX 560 with ( VRAM) 4GB",
+     "NVIDIA GeForce GTX 1050 Ti ( VRAM ) 4GB"
     ],
     "ids": [
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2",
      "nvidia-geforce-gtx-1050-ti"
     ]
    },

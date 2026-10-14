@@ -16,7 +16,9 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GTX 460 | AMD Radeon HD 5770 1GB | Intel HD4000 @720p 1GB"
+     "NVIDIA GTX 460 1GB",
+     "AMD Radeon HD 5770 1GB",
+     "Intel HD4000 @720p"
     ],
     "ids": [
      "nvidia-geforce-gtx-460-gf104-325",
@@ -51,9 +53,11 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 770 | AMD Radeon R9 290X 4GB @1080p 4GB"
+     "NVIDIA GeForce GTX 770 4GB",
+     "AMD Radeon R9 290X @1080p 4GB"
     ],
     "ids": [
+     "nvidia-geforce-gtx-770",
      "amd-radeon-r9-290x-4gb"
     ]
    },

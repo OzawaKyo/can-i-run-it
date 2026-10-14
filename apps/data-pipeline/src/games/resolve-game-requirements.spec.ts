@@ -87,7 +87,7 @@ describe('resolveGameRequirements', () => {
     });
 
     it('keeps an unrecognised named GPU unresolved', () => {
-      expect(resolveMinimum([], ['NVidia 7600'])?.gpu.capabilityOnly).toBeUndefined();
+      expect(resolveMinimum([], ['Matrox Parhelia'])?.gpu.capabilityOnly).toBeUndefined();
     });
   });
 
@@ -123,6 +123,35 @@ describe('resolveGameRequirements', () => {
 
     it('only reports names that stay unresolved', () => {
       expect(unresolved).toEqual([]);
+    });
+  });
+
+  describe('pre-DirectX 10 graphics cards', () => {
+    const gpuOf = (names: string[]) =>
+      resolveGameRequirements(
+        { minimum: { cpu: [], gpu: names.map((name) => ({ name })), raw: {} } },
+        catalog,
+      ).requirements.minimum;
+
+    it('turns them into a DirectX 9 requirement any later card meets', () => {
+      expect(gpuOf(['ATI X1600', 'NVidia 7600'])).toMatchObject({
+        gpu: { capabilityOnly: true },
+        directX: 9,
+      });
+      expect(gpuOf(['ATI Radeon 9600', 'NVIDIA GeForce 6800 GT'])).toMatchObject({ directX: 9 });
+      expect(gpuOf(['Intel GMA 950'])).toMatchObject({ directX: 9 });
+    });
+
+    it('does the same when only one alternative is that old, as the weakest sets the bar', () => {
+      expect(gpuOf(['GeForce GTX 1060', 'ATI Radeon X1950'])).toMatchObject({
+        gpu: { capabilityOnly: true },
+        directX: 9,
+      });
+    });
+
+    it('leaves modern cards with similar numbers alone', () => {
+      expect(gpuOf(['GeForce GTX 1060'])?.gpu.capabilityOnly).toBeUndefined();
+      expect(gpuOf(['Radeon RX 7600'])?.directX).toBeUndefined();
     });
   });
 });

@@ -22,10 +22,8 @@
      "Shader 3.0 256 MB NVIDIA GeForce 8600GT",
      "ATI Radeon X1950"
     ],
-    "ids": [
-     "nvidia-geforce-8600-gt-512mb",
-     "nvidia-geforce-8600-gt-1gb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

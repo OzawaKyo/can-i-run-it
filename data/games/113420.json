@@ -20,7 +20,8 @@
      "nVidia GeForce 6600",
      "ATI Radeon X1300"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

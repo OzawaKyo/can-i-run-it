@@ -47,11 +47,14 @@
    },
    "gpu": {
     "raw": [
-     "AMD Radeon RX 5700 ／ NVIDIA GeForce GTX 1070"
+     "Nvidia GeForce GTX 1070",
+     "AMD Radeon RX 5700"
     ],
     "ids": [
-     "nvidia-geforce-gtx-1070"
-    ]
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-5700"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "directX": 12,

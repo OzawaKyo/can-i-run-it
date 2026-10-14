@@ -20,6 +20,7 @@
      "Radeon HD 5750"
     ],
     "ids": [
+     "nvidia-geforce-gts-450",
      "amd-radeon-hd-5750-512mb",
      "amd-radeon-hd-5750-1gb"
     ]
@@ -54,7 +55,11 @@
      "Radeon HD 7800"
     ],
     "ids": [
-     "nvidia-geforce-gtx-660"
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
     ]
    },
    "ramGb": 2,

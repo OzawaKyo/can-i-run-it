@@ -9,15 +9,18 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core 2 Duo E8400 | AMD Phenom II X2 550"
+     "Intel Core 2 Duo E8400",
+     "AMD Phenom II X2 550"
     ],
     "ids": [
+     "intel-core-2-duo-e8400",
      "amd-phenom-ii-x2-550"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTS 450 | AMD Radeon HD 5770"
+     "Nvidia GeForce GTS 450",
+     "AMD Radeon HD 5770"
     ],
     "ids": [
      "nvidia-geforce-gts-450",
@@ -44,7 +47,8 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-650 | AMD Phenom X4 940"
+     "Intel Core i5-650",
+     "AMD Phenom X4 940"
     ],
     "ids": [
      "intel-core-i5-650"
@@ -52,7 +56,8 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 460 | AMD Radeon HD 6870"
+     "Nvidia GeForce GTX 460",
+     "AMD Radeon HD 6870"
     ],
     "ids": [
      "nvidia-geforce-gtx-460-gf104-300-ka",

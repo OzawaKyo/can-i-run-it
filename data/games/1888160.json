@@ -9,12 +9,16 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i7-4790K | Intel Core i5-8400",
-     "AMD Ryzen 7 1800X | AMD Ryzen 5 2600"
+     "Intel Core i7-4790K",
+     "Intel Core i5-8400",
+     "AMD Ryzen 7 1800X",
+     "AMD Ryzen 5 2600"
     ],
     "ids": [
      "intel-core-i7-4790k",
-     "amd-ryzen-7-1800x"
+     "intel-core-i5-8400",
+     "amd-ryzen-7-1800x",
+     "amd-ryzen-5-2600"
     ]
    },
    "gpu": {
@@ -48,12 +52,16 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i7-7700 | Intel Core i5-10400",
-     "AMD Ryzen 7 2700X | AMD Ryzen 5 3600"
+     "Intel Core i7-7700",
+     "Intel Core i5-10400",
+     "AMD Ryzen 7 2700X",
+     "AMD Ryzen 5 3600"
     ],
     "ids": [
+     "intel-core-i7-7700",
      "intel-core-i5-10400",
-     "amd-ryzen-7-2700x"
+     "amd-ryzen-7-2700x",
+     "amd-ryzen-5-3600"
     ]
    },
    "gpu": {

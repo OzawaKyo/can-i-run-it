@@ -56,7 +56,10 @@
      "AMD Radeon 6800"
     ],
     "ids": [
-     "nvidia-geforce-rtx-2080"
+     "nvidia-geforce-rtx-2080",
+     "amd-radeon-hd-6850",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
     ]
    },
    "ramGb": 12,

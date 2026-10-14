@@ -22,7 +22,9 @@
     ],
     "ids": [
      "amd-radeon-hd-7790-1gb",
-     "amd-radeon-hd-7790-2gb"
+     "amd-radeon-hd-7790-2gb",
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325"
     ]
    },
    "ramGb": 6,
@@ -58,7 +60,8 @@
     ],
     "ids": [
      "amd-radeon-r9-270x-2gb",
-     "amd-radeon-r9-270x-4gb"
+     "amd-radeon-r9-270x-4gb",
+     "nvidia-geforce-gtx-760"
     ]
    },
    "ramGb": 8,

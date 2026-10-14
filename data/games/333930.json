@@ -16,9 +16,11 @@
    },
    "gpu": {
     "raw": [
-     "512MB - GeForce 7800GTX"
+     "Nvidia GeForce 7800 GTX"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 3,
    "directX": 9,

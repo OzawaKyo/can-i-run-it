@@ -23,7 +23,9 @@
      "AMD Radeon 7870"
     ],
     "ids": [
-     "nvidia-geforce-gtx-570"
+     "nvidia-geforce-gtx-570",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
     ]
    },
    "ramGb": 6,
@@ -59,7 +61,9 @@
      "AMD Radeon 7970 2GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-670"
+     "nvidia-geforce-gtx-670",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb"
     ]
    },
    "ramGb": 8,

@@ -41,6 +41,11 @@ const catalog: HardwareModel[] = [
   { id: 'intel-hd-graphics', kind: 'gpu', name: 'HD Graphics' },
   { id: 'amd-radeon-hd-7870-ghz-edition', kind: 'gpu', name: 'Radeon HD 7870 GHz Edition' },
   { id: 'nvidia-geforce-9800-gt', kind: 'gpu', name: 'GeForce 9800 GT' },
+  { id: 'amd-radeon-hd-3870', kind: 'gpu', name: 'Radeon HD 3870' },
+  { id: 'nvidia-geforce-gts-450', kind: 'gpu', name: 'GeForce GTS 450' },
+  { id: 'amd-radeon-hd-7850', kind: 'gpu', name: 'Radeon HD 7850' },
+  { id: 'amd-radeon-hd-7870', kind: 'gpu', name: 'Radeon HD 7870' },
+  { id: 'amd-radeon-hd-7950', kind: 'gpu', name: 'Radeon HD 7950' },
   { id: 'nvidia-geforce-9800m-gs', kind: 'gpu', name: 'GeForce 9800M GS', laptop: true },
   { id: 'intel-hd-graphics-4000', kind: 'gpu', name: 'HD Graphics 4000' },
 ];
@@ -137,10 +142,24 @@ describe('resolveHardware', () => {
   });
 
   it('keeps model numbers followed by "GHz Edition"', () => {
-    expect(ids('AMD Radeon HD 7870')).toEqual(['amd-radeon-hd-7870-ghz-edition']);
+    expect(ids('Radeon HD 7870 GHz Edition')).toEqual(['amd-radeon-hd-7870-ghz-edition']);
   });
 
   it('leaves laptop chips out of a desktop family name', () => {
     expect(ids('Nvidia GeForce 9800')).toEqual(['nvidia-geforce-9800-gt']);
+  });
+
+  it('reads common abbreviations: a Radeon HD without "HD", a GeForce series after its number', () => {
+    expect(ids('ATI Radeon 3870')).toEqual(['amd-radeon-hd-3870']);
+    expect(ids('Nvidia 450 GTS')).toEqual(['nvidia-geforce-gts-450']);
+  });
+
+  it('reads a "x00" series as every card of that series, as partial matches', () => {
+    const matches = resolveHardware('AMD Radeon HD 7800', catalog);
+    expect(matches.map((match) => [match.model.id, match.confidence]).sort()).toEqual([
+      ['amd-radeon-hd-7850', 'partial'],
+      ['amd-radeon-hd-7870', 'partial'],
+      ['amd-radeon-hd-7870-ghz-edition', 'partial'],
+    ]);
   });
 });

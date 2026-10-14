@@ -18,13 +18,15 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GTX 660/AMD Radeon HD 7970 3GB 2GB"
+     "Nvidia GeForce GTX 660",
+     "AMD Radeon HD 7970"
     ],
     "ids": [
      "nvidia-geforce-gtx-660",
      "amd-radeon-hd-7970-3gb",
      "amd-radeon-hd-7970-6gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 2,

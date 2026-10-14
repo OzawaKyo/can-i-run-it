@@ -24,7 +24,11 @@
     "ids": [
      "nvidia-geforce-gt-220-512mb",
      "nvidia-geforce-gt-220-1gb",
-     "nvidia-geforce-gt-220"
+     "nvidia-geforce-gt-220",
+     "amd-radeon-hd-4550-256mb",
+     "amd-radeon-hd-4550-512mb",
+     "amd-radeon-hd-4550-1gb",
+     "intel-hd-graphics-3000"
     ]
    },
    "ramGb": 1,

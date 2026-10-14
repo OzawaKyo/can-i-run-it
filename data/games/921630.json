@@ -48,12 +48,13 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 660/AMD Radeon HD 7850 2GB 2GB"
+     "Nvidia GeForce GTX 660 2GB",
+     "AMD Radeon HD 7850 2"
     ],
     "ids": [
-     "nvidia-geforce-gtx-660",
-     "amd-radeon-hd-7850-2gb"
-    ]
+     "nvidia-geforce-gtx-660"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 2,

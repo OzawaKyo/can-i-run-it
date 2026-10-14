@@ -33,7 +33,12 @@
      "amd-radeon-hd-2600-pro-256mb",
      "amd-radeon-hd-2600-pro-512mb",
      "amd-radeon-hd-2600-xt-256mb",
-     "amd-radeon-hd-2600-xt-512mb"
+     "amd-radeon-hd-2600-xt-512mb",
+     "amd-radeon-hd-3610-512mb",
+     "amd-radeon-hd-3610-1gb",
+     "amd-radeon-hd-3650-256mb",
+     "amd-radeon-hd-3650-512mb",
+     "amd-radeon-hd-3650-1gb"
     ]
    },
    "ramGb": 4,

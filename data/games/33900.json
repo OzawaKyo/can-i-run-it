@@ -18,9 +18,11 @@
     "raw": [
      "GPU (Nvidia Geforce 7800 / ATI Radeon 1800) with Shader Model 3 and 256 MB VRAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 10,
     "ssd": false
@@ -48,7 +50,10 @@
      "ATI Radeon 4850"
     ],
     "ids": [
-     "nvidia-geforce-8800-gt"
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
     ],
     "source": "pcgamingwiki"
    },

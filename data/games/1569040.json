@@ -21,13 +21,8 @@
      "NVIDIA GeForece 9600M GT",
      "AMD/ATI Mobility Raedon HD 3650 - 256MB VRAM"
     ],
-    "ids": [
-     "nvidia-geforce-9600m-gt-512mb",
-     "nvidia-geforce-9600m-gt-1gb",
-     "amd-radeon-hd-3650-256mb",
-     "amd-radeon-hd-3650-512mb",
-     "amd-radeon-hd-3650-1gb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 11,

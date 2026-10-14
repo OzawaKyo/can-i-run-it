@@ -22,7 +22,7 @@
     "capabilityOnly": true
    },
    "ramGb": 2,
-   "directX": 8.1,
+   "directX": 8,
    "storage": {
     "gb": 1,
     "ssd": false
@@ -52,7 +52,7 @@
     "ids": []
    },
    "ramGb": 4,
-   "directX": 8.1,
+   "directX": 8,
    "storage": {
     "gb": 1,
     "ssd": false

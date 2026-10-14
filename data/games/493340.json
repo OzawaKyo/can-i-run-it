@@ -18,11 +18,15 @@
    },
    "gpu": {
     "raw": [
-     "nVidia GTX 560 ()/AMD Radeon 7850 (2GB) 2GB"
+     "Nvidia GeForce GTX 560",
+     "AMD Radeon HD 7850"
     ],
     "ids": [
-     "nvidia-geforce-gtx-560"
-    ]
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 2,

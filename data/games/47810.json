@@ -20,10 +20,11 @@
      "ATI Radeon X850 256MB",
      "NVIDIA GeForce 6600 GT 128MB (Windows Vista: Radeon X1550 256 MB or NVidia GeForce 7600GT 256MB)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
-   "directX": 2007,
+   "directX": 9,
    "storage": {
     "gb": 20,
     "ssd": false
@@ -53,11 +54,13 @@
      "NVidia 8800GTS 512MB"
     ],
     "ids": [
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb",
      "nvidia-geforce-8800-gt"
     ]
    },
    "ramGb": 2,
-   "directX": 2007,
    "storage": {
     "gb": 20,
     "ssd": false

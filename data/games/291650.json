@@ -60,6 +60,14 @@
      "NVIDIA GeForce GTX 570"
     ],
     "ids": [
+     "amd-radeon-hd-7730",
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb",
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb",
+     "amd-radeon-hd-7790-1gb",
+     "amd-radeon-hd-7790-2gb",
      "nvidia-geforce-gtx-570"
     ]
    },

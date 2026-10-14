@@ -19,9 +19,11 @@
     "raw": [
      "128 MB Video Card using Shader Model 3 (Nvidia GeForce 6600 GT / ATI X1600)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 8.5,
     "ssd": false
@@ -47,9 +49,11 @@
     "raw": [
      "256 MB Video Card using Shader Model 3 (Nvidia GeForce 7800GT or any Nvidia GT200 series, ATI X1900 or any HD3600 series"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 9,
    "storage": {
     "gb": 8.5,
     "ssd": false

@@ -15,11 +15,17 @@
     "estimatedScore": 18
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce 8xxx series",
+     "ATI Radeon X1600",
+     "Intel HD Graphics 3000"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 0.5,
-   "directX": 8.1,
+   "directX": 8,
    "storage": {
     "gb": 15,
     "ssd": false

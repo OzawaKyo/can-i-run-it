@@ -46,10 +46,13 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel i7",
-     "AMD equivalent (AMD FX 9500+ Series)"
+     "Intel Core i7",
+     "AMD FX-9500 series"
     ],
-    "ids": []
+    "ids": [
+     "amd-fx-9590"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

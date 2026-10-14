@@ -20,7 +20,8 @@
      "256 MB",
      "DirectX 9.0c"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

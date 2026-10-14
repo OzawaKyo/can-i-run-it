@@ -21,7 +21,9 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-460-gf104-300-ka",
-     "nvidia-geforce-gtx-460-gf104-325"
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb"
     ]
    },
    "ramGb": 4,
@@ -55,7 +57,9 @@
      "AMD Radeon 7970 DirectX 11 card"
     ],
     "ids": [
-     "nvidia-geforce-gtx-770"
+     "nvidia-geforce-gtx-770",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb"
     ]
    },
    "ramGb": 8,

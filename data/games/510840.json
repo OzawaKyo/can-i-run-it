@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5-2400 | AMD FX-6100"
+     "Intel Core i5-2400",
+     "AMD FX-6100"
     ],
     "ids": [
      "intel-core-i5-2400",
@@ -18,13 +19,15 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 470",
-     "AMD Radeon 6870 HD"
+     "DirectX10 Compatible GPU",
+     "NVIDIA GeForce 470 GTX",
+     "AMD Radeon 6870 HD series card"
     ],
     "ids": [
-     "nvidia-geforce-gtx-470"
-    ],
-    "source": "pcgamingwiki"
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
+    ]
    },
    "ramGb": 4,
    "directX": 10,
@@ -46,7 +49,8 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i7-3770 | AMD FX-8350"
+     "Intel Core i7-3770",
+     "AMD FX-8350"
     ],
     "ids": [
      "intel-core-i7-3770",
@@ -56,7 +60,8 @@
    "gpu": {
     "raw": [
      "DirectX11 Compatible GPU with Video RAM 2GB",
-     "NVIDIA GeForce GTX 560 with Video RAM (current equivalent NVIDIA GeForce GTX 760) | AMD Radeon HD 7770 with 2 GB Video RAM 2GB"
+     "NVIDIA GeForce GTX 560 with Video RAM (current equivalent NVIDIA GeForce GTX 760) 2GB",
+     "AMD Radeon HD 7770 with Video RAM 2GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-560"

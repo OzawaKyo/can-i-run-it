@@ -18,7 +18,8 @@
     "raw": [
      "nVidia GeForce 6600; ATI Redeon X1600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 9,

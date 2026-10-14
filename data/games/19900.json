@@ -23,9 +23,11 @@
      "NVidia 6800",
      "ATI X1650*"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 3.5,
     "ssd": false
@@ -53,12 +55,11 @@
      "NVidia 8600 GTS",
      "ATI X1900*"
     ],
-    "ids": [
-     "nvidia-geforce-8600-gts-256mb",
-     "nvidia-geforce-8600-gts-512mb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 9,
    "raw": {
     "processor": "Intel Core 2 Duo Family, AMD 64 X2 5200+, AMD Phenom or better",
     "memory": "2 GB RAM",

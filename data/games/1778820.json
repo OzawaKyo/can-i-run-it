@@ -56,12 +56,14 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce RTX 2070/AMD Radeon RX 5700 XT"
+     "Nvidia GeForce RTX 2070",
+     "AMD Radeon RX 5700 XT"
     ],
     "ids": [
      "nvidia-geforce-rtx-2070",
      "amd-radeon-rx-5700-xt"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "directX": 12,

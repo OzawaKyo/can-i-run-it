@@ -59,7 +59,9 @@
      "AMD Radeon 5870"
     ],
     "ids": [
-     "nvidia-geforce-gtx-460-gf104-325"
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb"
     ]
    },
    "ramGb": 4,

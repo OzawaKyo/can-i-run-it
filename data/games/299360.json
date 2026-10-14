@@ -44,13 +44,15 @@
    },
    "gpu": {
     "raw": [
-     "Dedicated graphics card (GeForce GTX 650 / AMD Radeon HD 7770 series)."
+     "Nvidia GeForce GTX 650",
+     "AMD Radeon HD 7770 series"
     ],
     "ids": [
      "nvidia-geforce-gtx-650",
      "amd-radeon-hd-7770-ghz-edition-1gb",
      "amd-radeon-hd-7770-ghz-edition-2gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

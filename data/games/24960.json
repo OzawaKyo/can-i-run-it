@@ -18,7 +18,8 @@
     "raw": [
      "256 MB Video Card (GeForce 7800 GT / ATI X1900)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -49,7 +50,10 @@
      "512 MB Video Card (GeForce GTX 260/ ATI Radeon 4870)"
     ],
     "ids": [
-     "nvidia-geforce-gtx-260"
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb"
     ]
    },
    "ramGb": 2,

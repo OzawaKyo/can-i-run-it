@@ -16,12 +16,15 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA 7800GTX+",
-     "ATI 1950+ Video Card"
+     "Nvidia GeForce 7800 GTX",
+     "ATI Radeon 1950"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 30,
     "ssd": false

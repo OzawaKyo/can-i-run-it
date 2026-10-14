@@ -22,9 +22,11 @@
      "NVIDIA GeForce 6800 (7300, 7600 GS, and 8500 are below minimum system requirements)",
      "ATI X1600 Pro (X1300, X1300 Pro and HD2400 are below minimum system requirements)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 7.5,
     "ssd": false

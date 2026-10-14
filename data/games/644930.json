@@ -22,7 +22,9 @@
      "Nvidia card with shader model 3",
      "video ram. 1GB"
     ],
-    "ids": []
+    "ids": [
+     "intel-hd-graphics-3000"
+    ]
    },
    "ramGb": 4,
    "vramGb": 1,
@@ -55,6 +57,7 @@
      "Nvidia GTX 670. video ram. 4GB"
     ],
     "ids": [
+     "amd-radeon-hd-7950",
      "nvidia-geforce-gtx-670"
     ]
    },

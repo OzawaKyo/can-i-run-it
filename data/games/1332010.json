@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5-2300 | AMD FX-6350"
+     "Intel Core i5-2300",
+     "AMD FX-6350"
     ],
     "ids": [
      "intel-core-i5-2300",
@@ -18,8 +19,8 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 650 Ti",
-     "| AMD Radeon R7 360 2GB"
+     "NVIDIA GeForce GTX 650 Ti 2GB",
+     "AMD Radeon R7 360 2GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-650-ti",
@@ -46,21 +47,22 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-8400 | AMD Ryzen 5 2600"
+     "Intel Core i5-8400",
+     "AMD Ryzen 5 2600"
     ],
     "ids": [
+     "intel-core-i5-8400",
      "amd-ryzen-5-2600"
     ]
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 780",
-     "| AMD Radeon R9 290X 3GB"
+     "NVIDIA GeForce GTX 780 3GB",
+     "AMD Radeon R9 290X 4GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-780",
-     "amd-radeon-r9-290x-4gb",
-     "amd-radeon-r9-290x-8gb"
+     "amd-radeon-r9-290x-4gb"
     ]
    },
    "ramGb": 8,

@@ -20,9 +20,11 @@
      "Shader Model 3.0 required. Video card must have 256 MB",
      "NVIDIA GeForce 6800"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 8,
     "ssd": false

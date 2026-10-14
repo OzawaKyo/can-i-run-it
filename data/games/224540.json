@@ -16,10 +16,12 @@
    },
    "gpu": {
     "raw": [
-     "800 x 600 Minimum Resolution",
-     "OpenGL 2.0 Support."
+     "Nvidia GeForce 6800 GT",
+     "ATI Radeon X1600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 9,

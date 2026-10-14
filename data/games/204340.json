@@ -21,10 +21,8 @@
      "DirectX 8.0/8.1 compliant",
      "low-end DirectX 9 3D accelerator (nVidia GeForce3 and 4 series (not MX), GeForceFX 5200 through 5700 series, ATI Radeon 8500 through 9200 and X300 series, S3 DeltaChrome or XGI Volari)"
     ],
-    "ids": [
-     "nvidia-geforce-9200-c78",
-     "nvidia-geforce-9200-c79"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.25,
    "directX": 8,
@@ -55,7 +53,8 @@
     "raw": [
      "DirectX 9.0 high-end 3D accelerator (nVidia GeForce6 6800 and 7800 series, ATI Radeon X800 and X850 series)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

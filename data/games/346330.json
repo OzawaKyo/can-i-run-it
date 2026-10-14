@@ -19,7 +19,8 @@
      "ATI Radeon 9600",
      "Nvidia GeForce 500 series"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
    "directX": 9,
@@ -51,7 +52,8 @@
      "ATI X1600",
      "Nvidia GeForce 600 series"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

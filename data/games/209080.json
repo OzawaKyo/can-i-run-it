@@ -16,17 +16,15 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce 8600 GT",
-     "Intel Graphics HD 3000"
+     "Intel HD3000",
+     "Nvidia GeForce GT8600"
     ],
     "ids": [
-     "nvidia-geforce-8600-gt-512mb",
-     "nvidia-geforce-8600-gt-1gb"
-    ],
-    "source": "pcgamingwiki"
+     "intel-hd-graphics-3000"
+    ]
    },
    "ramGb": 2,
-   "directX": 90,
+   "directX": 9,
    "storage": {
     "gb": 3,
     "ssd": false

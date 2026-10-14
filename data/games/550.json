@@ -20,7 +20,8 @@
      "Shader model 2.0. ATI X800",
      "NVidia 6600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -51,7 +52,8 @@
      "Video Card Shader model 3.0. NVidia 7600",
      "ATI X1600"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

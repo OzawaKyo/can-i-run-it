@@ -51,14 +51,16 @@
    },
    "gpu": {
     "raw": [
-     "DX10 compatible graphics card with 512 MB of memory (Nvidia GeForce GTS 250 series/ ATI Radeon HD 5750 series)"
+     "ATI Radeon HD 5750 series",
+     "Nvidia GeForce GTS 250 series"
     ],
     "ids": [
-     "nvidia-geforce-gts-250-g92-426",
-     "nvidia-geforce-gts-250-g92-428",
      "amd-radeon-hd-5750-512mb",
-     "amd-radeon-hd-5750-1gb"
-    ]
+     "amd-radeon-hd-5750-1gb",
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 3,
    "directX": 10.1,

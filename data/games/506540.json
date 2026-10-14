@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5-2400 | AMD FX-6100"
+     "Intel Core i5-2400",
+     "AMD FX-6100"
     ],
     "ids": [
      "intel-core-i5-2400",
@@ -18,7 +19,8 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GTX 460 VRAM | AMD Radeon HD 7770 2 GB VRAM 2GB"
+     "NVIDIA GTX 460 VRAM 2GB",
+     "AMD Radeon HD 7770 VRAM 2GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-460-gf104-300-ka",
@@ -46,7 +48,8 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i7-3770 | AMD FX-8350"
+     "Intel Core i7-3770",
+     "AMD FX-8350"
     ],
     "ids": [
      "intel-core-i7-3770",
@@ -55,10 +58,12 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GTX 970 VRAM | AMD Radeon R9 390 4GB VRAM 4GB"
+     "NVIDIA GTX 970 VRAM 4GB",
+     "AMD Radeon R9 390 VRAM 4GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-970"
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-390"
     ]
    },
    "ramGb": 6,

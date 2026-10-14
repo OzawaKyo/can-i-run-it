@@ -16,11 +16,16 @@
    },
    "gpu": {
     "raw": [
-     "Pixel Shader 2.0"
+     "ATI Radeon 9500",
+     "Nvidia GeForce FX 5900",
+     "Intel GMA 950"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 0.75,
+   "directX": 9,
    "storage": {
     "gb": 0.1953125,
     "ssd": false

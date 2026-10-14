@@ -14204,5 +14204,19 @@
   "vramGb": 4,
   "directX": 12,
   "laptop": true
+ },
+ {
+  "id": "intel-hd-graphics-3000",
+  "kind": "gpu",
+  "name": "HD Graphics 3000",
+  "score": 101,
+  "directX": 10.1
+ },
+ {
+  "id": "intel-hd-graphics-2000",
+  "kind": "gpu",
+  "name": "HD Graphics 2000",
+  "score": 51,
+  "directX": 10.1
  }
 ]

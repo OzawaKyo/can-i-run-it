@@ -57,12 +57,15 @@
    "gpu": {
     "raw": [
      "NVIDIA GeForce GTX 1660/1060",
-     "AMD Radeon RX 580 AMD | For Ray Tracing: GeForce RTX 2060"
+     "AMD Radeon RX 580 AMD",
+     "For Ray Tracing: GeForce RTX 2060"
     ],
     "ids": [
      "nvidia-geforce-gtx-1660",
      "nvidia-geforce-gtx-1060",
      "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb",
      "nvidia-geforce-rtx-2060-tu106-200a-ka",
      "nvidia-geforce-rtx-2060-tu106-300-ka"
     ]

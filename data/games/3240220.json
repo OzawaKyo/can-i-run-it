@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i7-4770 | AMD FX-9590"
+     "Intel Core i7-4770",
+     "AMD FX-9590"
     ],
     "ids": [
      "intel-core-i7-4770",
@@ -18,10 +19,12 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 1630 ( VRAM) | AMD Radeon RX 6400 (4GB VRAM) 4GB"
+     "NVIDIA GeForce GTX 1630 ( VRAM) 4GB",
+     "AMD Radeon RX 6400 ( VRAM) 4GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-1630"
+     "nvidia-geforce-gtx-1630",
+     "amd-radeon-rx-6400"
     ]
    },
    "ramGb": 8,
@@ -43,17 +46,21 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-9600K | AMD Ryzen 5 3600"
+     "Intel Core i5-9600K",
+     "AMD Ryzen 5 3600"
     ],
     "ids": [
+     "intel-core-i5-9600k",
      "amd-ryzen-5-3600"
     ]
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce RTX 3060 ( VRAM) | AMD Radeon RX 6600XT (8GB VRAM) 8GB"
+     "NVIDIA GeForce RTX 3060 ( VRAM) 8GB",
+     "AMD Radeon RX 6600XT ( VRAM) 8GB"
     ],
     "ids": [
+     "nvidia-geforce-rtx-3060",
      "amd-radeon-rx-6600-xt"
     ]
    },

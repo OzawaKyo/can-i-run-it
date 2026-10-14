@@ -19,7 +19,9 @@
     "raw": [
      "Intel HD Graphics 3000"
     ],
-    "ids": []
+    "ids": [
+     "intel-hd-graphics-3000"
+    ]
    },
    "ramGb": 4,
    "directX": 10,

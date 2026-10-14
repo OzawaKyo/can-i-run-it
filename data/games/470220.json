@@ -9,15 +9,18 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core 2 Quad Q9550 | AMD Phenom II X4 945"
+     "Intel Core 2 Quad Q9550",
+     "AMD Phenom II X4 945"
     ],
     "ids": [
+     "intel-core-2-quad-q9550",
      "amd-phenom-ii-x4-945"
     ]
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTS 450 | AMD Radeon HD 5670"
+     "NVIDIA GeForce GTS 450",
+     "AMD Radeon HD 5670"
     ],
     "ids": [
      "nvidia-geforce-gts-450",

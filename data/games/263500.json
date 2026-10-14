@@ -19,7 +19,8 @@
      "NVIDIA GeForce 7600 GT",
      "ATI Radeon X800 XT"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

@@ -16,12 +16,14 @@
    },
    "gpu": {
     "raw": [
-     "(DirectX 11) AMD Radeon HD 5770 1024MB | NVIDIA GTS 450 1024MB | Intel HD4000 @720P"
+     "(DirectX 11) AMD Radeon HD 5770 1024MB",
+     "NVIDIA GTS 450 1024MB",
+     "Intel HD4000 @720P"
     ],
     "ids": [
-     "nvidia-geforce-gts-450",
      "amd-radeon-hd-5770-512mb",
-     "amd-radeon-hd-5770-1gb"
+     "amd-radeon-hd-5770-1gb",
+     "nvidia-geforce-gts-450"
     ]
    },
    "ramGb": 3,
@@ -51,7 +53,8 @@
    },
    "gpu": {
     "raw": [
-     "(DirectX 11) AMD Radeon R9 270X 2048MB | NVIDIA GeForce GTX 760 2048MB @1080P"
+     "(DirectX 11) AMD Radeon R9 270X 2048MB",
+     "NVIDIA GeForce GTX 760 2048MB @1080P"
     ],
     "ids": [
      "amd-radeon-r9-270x-2gb",

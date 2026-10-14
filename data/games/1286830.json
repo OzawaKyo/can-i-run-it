@@ -17,12 +17,19 @@
    },
    "gpu": {
     "raw": [
-     "Star Wars: The Old Republic requires a video card that has a minimum of of on-board RAM as well as support for Shader 3.0. Examples include: Intel HD 3000/AMD Radeon HD 7450/Nvidia GeForce 610 1GB"
+     "Nvidia GeForce 610",
+     "AMD Radeon HD 7450",
+     "Intel HD 3000"
     ],
     "ids": [
+     "nvidia-geforce-gt-610-gf119-300",
+     "nvidia-geforce-gt-610-gf119-300-2",
+     "nvidia-geforce-gt-610-gf119-300-3",
+     "amd-radeon-hd-7450-512mb",
      "amd-radeon-hd-7450-1gb",
-     "nvidia-geforce-gt-610-gf119-300-3"
-    ]
+     "intel-hd-graphics-3000"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 6,
    "vramGb": 1,

@@ -37,7 +37,7 @@
     ]
    },
    "ramGb": 1.5,
-   "directX": 9.29,
+   "directX": 9,
    "storage": {
     "gb": 25,
     "ssd": false
@@ -72,7 +72,7 @@
    },
    "ramGb": 3,
    "vramGb": 1,
-   "directX": 9.29,
+   "directX": 9,
    "storage": {
     "gb": 25,
     "ssd": false

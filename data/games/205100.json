@@ -16,14 +16,16 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 9 compatible with 512 MB video RAM (NVIDIA GeForce GTX 460 / ATI Radeon HD 5850)"
+     "Nvidia GeForce GTX 460",
+     "ATI Radeon HD 5850"
     ],
     "ids": [
      "nvidia-geforce-gtx-460-gf104-300-ka",
      "nvidia-geforce-gtx-460-gf104-325",
      "amd-radeon-hd-5850-1gb",
      "amd-radeon-hd-5850-2gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 3,
    "storage": {
@@ -51,14 +53,11 @@
     "raw": [
      "DirectX 9 compatible with 768 MB video RAM (NVIDIA GeForce GTX 460 / ATI Radeon HD 5850)"
     ],
-    "ids": [
-     "nvidia-geforce-gtx-460-gf104-300-ka",
-     "nvidia-geforce-gtx-460-gf104-325",
-     "amd-radeon-hd-5850-1gb",
-     "amd-radeon-hd-5850-2gb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
+   "directX": 9,
    "storage": {
     "gb": 9,
     "ssd": false

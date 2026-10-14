@@ -9,7 +9,8 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5-3470 | AMD FX 9370 (AVX support required)"
+     "Intel Core i5-3470",
+     "AMD FX 9370 (AVX support required)"
     ],
     "ids": [
      "intel-core-i5-3470",
@@ -18,11 +19,13 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 660 () | AMD Radeon R7 370 (2GB) 2GB",
+     "Nvidia GeForce GTX 660 () 2GB",
+     "AMD Radeon R7 370 () 2GB",
      "Intel Iris Xe Graphics",
      "AMD Radeon Vega 8"
     ],
     "ids": [
+     "nvidia-geforce-gtx-660",
      "amd-radeon-r7-370-2gb",
      "amd-radeon-r9-370-2gb",
      "intel-iris-xe-graphics"
@@ -45,18 +48,24 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-6600K | AMD Ryzen 5 2600X (AVX support required)"
+     "Intel Core i5-6600K",
+     "AMD Ryzen 5 2600X (AVX support required)"
     ],
     "ids": [
+     "intel-core-i5-6600k",
      "amd-ryzen-5-2600x"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 1660 () | AMD Radeon RX 5600 XT (6GB) | Intel Arc A580 (8GB) 6GB"
+     "Nvidia GeForce GTX 1660 () 6GB",
+     "AMD Radeon RX 5600 XT () 6GB",
+     "Intel Arc A580 () 8GB"
     ],
     "ids": [
-     "amd-radeon-rx-5600-xt"
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-5600-xt",
+     "intel-arc-a580"
     ]
    },
    "ramGb": 16,

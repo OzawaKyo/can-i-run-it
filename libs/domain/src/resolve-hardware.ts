@@ -62,6 +62,16 @@ function resolveOne(
     );
     return pickVram(prefixed, hints).map((model) => ({ model, confidence: 'partial' }));
   }
+
+  // "Radeon HD 7800", "GTX 1000": a whole series, every card whose number fills in the zeros.
+  const series = rawKey.match(/^(\D*\d{2})00$/);
+  if (series) {
+    const pattern = new RegExp(`^${series[1]}\\d{2}(?!\\d)`);
+    const members = catalog.filter(
+      (model) => pattern.test(matchKey(model.name)) && (laptopName || !model.laptop),
+    );
+    return pickVram(members, hints).map((model) => ({ model, confidence: 'partial' }));
+  }
   return [];
 }
 
@@ -136,6 +146,9 @@ function matchKey(name: string): string {
     name
       .replace(/\bR([3579])\s+(\d{4})/gi, 'Ryzen $1 $2')
       .toLowerCase()
+      // "ATI Radeon 3870" → "Radeon HD 3870"; "Nvidia 450 GTS" → "GTS 450".
+      .replace(/\b(radeon|ati)\s+(?=[2-7]\d{3}\b)/g, '$1 hd ')
+      .replace(/(^|\b(?:nvidia|geforce)\s+)(\d{3})\s*(gts|gtx|gt)\b/g, '$1$3 $2')
       .replace(/\([^)]*\)/g, ' ')
       // Clock speeds ("@ 3.3 GHz", "500 MHz"), but not model numbers ("HD 7870 GHz Edition").
       .replace(/@?\s*\b\d(?:\.\d+)?\s*ghz\b|@?\s*\b\d{2,4}\s*mhz\b|@/g, ' ')

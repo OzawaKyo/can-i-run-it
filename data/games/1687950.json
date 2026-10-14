@@ -10,7 +10,8 @@
    "cpu": {
     "raw": [
      "Intel Core i7-4790",
-     "3.4 GHz | AMD Ryzen 5 1500X",
+     "3.4 GHz",
+     "AMD Ryzen 5 1500X",
      "3.5 GHz"
     ],
     "ids": [
@@ -20,8 +21,8 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 650 Ti",
-     "| AMD Radeon R7 360 2GB"
+     "Nvidia GeForce GTX 650 Ti 2GB",
+     "AMD Radeon R7 360 2GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-650-ti",
@@ -50,7 +51,8 @@
    "cpu": {
     "raw": [
      "Intel Core i7-4790",
-     "3.4 GHz | AMD Ryzen 5 1500X 3.5 Ghz"
+     "3.4 GHz",
+     "AMD Ryzen 5 1500X 3.5 Ghz"
     ],
     "ids": [
      "intel-core-i7-4790",
@@ -59,8 +61,8 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 760",
-     "| AMD Radeon HD 7870 2GB"
+     "Nvidia GeForce GTX 760 2GB",
+     "AMD Radeon HD 7870 2GB"
     ],
     "ids": [
      "nvidia-geforce-gtx-760",

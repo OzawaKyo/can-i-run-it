@@ -10,7 +10,8 @@
    "cpu": {
     "raw": [
      "Intel Core i5-6300U",
-     "AMD Ryzen 5 2400G | CPU with AVX support required"
+     "AMD Ryzen 5 2400G",
+     "CPU with AVX support required"
     ],
     "ids": [
      "intel-core-i5-6300u",
@@ -45,7 +46,8 @@
    "cpu": {
     "raw": [
      "3.6 GHz 6-core (Intel i5)",
-     "AMD Ryzen 5 1600 | CPU with AVX support required"
+     "AMD Ryzen 5 1600",
+     "CPU with AVX support required"
     ],
     "ids": [
      "amd-ryzen-5-1600",

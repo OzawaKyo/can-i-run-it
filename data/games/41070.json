@@ -21,19 +21,8 @@
      "ATI/AMD Radeon HD2600/3600",
      "1800/X1900 series"
     ],
-    "ids": [
-     "nvidia-geforce-8600-gs",
-     "nvidia-geforce-8600-gt-512mb",
-     "nvidia-geforce-8600-gt-1gb",
-     "nvidia-geforce-8600-gt-mac-edition",
-     "nvidia-geforce-8600-gts-256mb",
-     "nvidia-geforce-8600-gts-512mb",
-     "nvidia-geforce-8600-gts-mac-edition",
-     "amd-radeon-hd-2600-pro-256mb",
-     "amd-radeon-hd-2600-pro-512mb",
-     "amd-radeon-hd-2600-xt-256mb",
-     "amd-radeon-hd-2600-xt-512mb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,
@@ -67,6 +56,7 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-480",
+     "nvidia-geforce-gtx-580",
      "amd-radeon-hd-5870-1gb",
      "amd-radeon-hd-5870-2gb",
      "amd-radeon-hd-6970"
