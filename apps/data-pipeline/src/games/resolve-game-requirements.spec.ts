@@ -90,4 +90,39 @@ describe('resolveGameRequirements', () => {
       expect(resolveMinimum([], ['NVidia 7600'])?.gpu.capabilityOnly).toBeUndefined();
     });
   });
+
+  describe('PCGamingWiki fallback', () => {
+    const steam = {
+      minimum: {
+        cpu: ['Intel Core i5'],
+        gpu: [{ name: 'GeForce GTX 1060', vramGb: 6 }],
+        ramGb: 8,
+        raw: {},
+      },
+    };
+    const pcgw = {
+      minimum: { cpu: ['Ryzen 5 1600'], gpu: [{ name: 'Radeon RX 580' }], raw: {} },
+    };
+    const { requirements, unresolved } = resolveGameRequirements(steam, catalog, pcgw);
+
+    it("replaces a component Steam doesn't name precisely, and says where it came from", () => {
+      expect(requirements.minimum?.cpu).toEqual({
+        raw: ['Ryzen 5 1600'],
+        ids: ['r5-1600'],
+        source: 'pcgamingwiki',
+      });
+    });
+
+    it('keeps what Steam resolved', () => {
+      expect(requirements.minimum?.gpu).toEqual({
+        raw: ['GeForce GTX 1060 6GB'],
+        ids: ['gtx-1060-6gb'],
+      });
+      expect(requirements.minimum?.ramGb).toBe(8);
+    });
+
+    it('only reports names that stay unresolved', () => {
+      expect(unresolved).toEqual([]);
+    });
+  });
 });

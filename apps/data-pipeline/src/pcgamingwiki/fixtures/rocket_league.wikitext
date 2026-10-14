@@ -1,0 +1,720 @@
+{{state|state=postdev}}
+{{Infobox game
+|cover        = Rocket League Cover.jpg
+|developers   = 
+{{Infobox game/row/developer|Psyonix}}
+{{Infobox game/row/porter|Timothee Besset|Linux|ref=<ref>{{Refsnip|url=https://twitter.com/TTimo/status/774047963505041408|title=Timothee Besset on Twitter|date=2016-09-09|snippet=( I am working on Linux ports again! )}}</ref>}}
+{{Infobox game/row/porter|Ryan C. Gordon|Linux}}
+|publishers   = 
+{{Infobox game/row/publisher|Psyonix}}
+|engines      = 
+{{Infobox game/row/engine|Unreal Engine 3|ref=<ref name="engineversion">{{Refcheck|user=Starz0r|date=2025-02-23}}</ref>|build=10897}}
+{{Infobox game/row/engine|Unreal Engine 6|Planned [2027]|ref=<ref>{{Refurl|url=https://x.com/RocketLeague/status/2101780241790464372|title=Straight from the pros: here’s the latest on the new era of Rocket League on UE6.|date=2026-09-21}}</ref>}}
+|release dates= 
+{{Infobox game/row/date|Windows|July 7, 2015}}
+{{Infobox game/row/date|OS X|September 8, 2016|ref=<ref name="osx and linux release">[http://www.rocketleaguegame.com/news/2016/09/rumble-update/ In-Depth with the Rumble Update]</ref>{{note|name=Linux_and_OSX_Removal|note=Linux and OS X were discontinued on '''March 10, 2020'''.<ref name="Linux_and_OSX_Removal_Ref">{{Refsnip|url=https://steamcommunity.com/games/252950/announcements/detail/1719751122119953694|title=Steam :: Rocket League :: March Update Releases March 10|date=2020-03-12|snippet=The March Update will be the final update for Mac and Linux versions of Rocket League.}}</ref>}}}}
+{{Infobox game/row/date|Linux|September 8, 2016|ref=<ref name="osx and linux release"/>{{note|name=Linux_and_OSX_Removal}}}}
+|reception    = 
+{{Infobox game/row/reception|Metacritic|rocket-league|86}}
+{{Infobox game/row/reception|OpenCritic|1055/rocket-league|87}}
+{{Infobox game/row/reception|IGDB|rocket-league|89}}
+|taxonomy     =
+{{Infobox game/row/taxonomy/monetization      | DLC, Free-to-play, Sponsored }}
+{{Infobox game/row/taxonomy/microtransactions | Currency }}
+{{Infobox game/row/taxonomy/modes             | Singleplayer, Multiplayer }}
+{{Infobox game/row/taxonomy/pacing            | Real-time }}
+{{Infobox game/row/taxonomy/perspectives      | Third-person }}
+{{Infobox game/row/taxonomy/controls          | Direct control }}
+{{Infobox game/row/taxonomy/genres            | Driving, Sports }}
+{{Infobox game/row/taxonomy/sports            | Football (Soccer) }}
+{{Infobox game/row/taxonomy/vehicles          | Automobile }}
+{{Infobox game/row/taxonomy/art styles        | Stylized }}
+{{Infobox game/row/taxonomy/themes            | Sci-fi }}
+{{Infobox game/row/taxonomy/series            | }}
+|steam appid  = 252950
+|steam appid side = 384260,391680,393580,399730,405170,408610,425610,438690,457160,457161,457162,457190,457191,457192,457193,457194,457195,457196,457197,457198,457199,675280,675290,772150,772820,823220,838770,848820,910940,919100,943740,971930,1002130,1018530,1077690,1351430,1351431
+|gogcom id    = 
+|official site= https://www.rocketleague.com/
+|hltb         = 27113
+|lutris       = rocket-league
+|strategywiki = Rocket League
+|mobygames    = 73767
+|wikipedia    = Rocket League
+|winehq       = 16963
+|license      = free-to-play
+}}
+
+{{Introduction
+|introduction      = '''''Rocket League''''' is a {{Glossary:singleplayer}} and {{Glossary:multiplayer}} {{Glossary:driving}} and {{Glossary:sports}} game developed and published by [[Company:Psyonix|Psyonix]].
+
+|release history   = The game was released on [[Steam]] on July 7, 2015. Support for cross-platform play with Xbox One was added in 2016, with further consoles added at later dates.<ref>{{Refurl|url=http://www.usgamer.net/articles/16-06-2017-rocket-league-nintendo-switch-ps4-xbox-one-pc-cross-play-release-date-features-everything-we-know USgamer • Rocket League - Nintendo Switch, PS4, Xbox One, PC, Cross-Play, Release Date, Features|title=Everything We Know|date=2017-07-02}}</ref><ref>{{Refsnip|url=http://www.gamasutra.com/view/news/299962/Rocket_League_to_offer_crossplatform_multiplayer_between_Xbox_One_PC_and_Switch.php|title=Gamasutra - Rocket League to offer cross-platform multiplayer between Xbox One, PC, and Switch|snippet=The PlayStation 4 however, which already allows Rocket League matches between Steam and PS4 players, was notably absent from that list until February 2019.|date=2017-07-02}}</ref>
+
+|current state     = MacOS and Linux support was discontinued on March 10, 2020.<ref name="Linux_and_OSX_Removal_Ref" /> Following the acquisition of the studio by [[Company:Epic Games|Epic Games]], the game was transitioned to a free-to-play model and was delisted from Steam while being released on [[Epic Games Store]] on September 23, 2020.
+}}
+
+'''General information'''
+{{mm}} [https://discord.gg/rocketleague Official Discord server]
+{{mm}} [https://steamcommunity.com/app/252950/discussions/ Steam Community Discussions]
+
+==Availability==
+{{Availability|
+{{Availability/row| Retail | | Steam | Collector's Edition; contains various DLC. |  | Windows }}
+{{Availability/row| Epic Games Store | rocket-league | drm-free | Online modes require Epic Games Launcher.<ref>{{Refcheck|user=Rose|date=2020-09-26|comment=Closed the launcher after installing the game, renamed its program and config folders, launched the game from the executable without issues and was able to play the single-player modes only.}}</ref><ref>{{Refurl|url=https://www.gog.com/forum/general/epic_store_games_you_can_play_without_the_epic_launcher/post265|title=Epic Store games you can play without the Epic Launcher|date=2020-09-29}}</ref> | | Windows }}
+{{Availability/row| Steam | 252950 | Steam, Account | [[Store:Epic Games Store|Epic Games]] account is required since September 16, 2020.<ref>{{Refurl|url=https://www.rocketleague.com/activate/|snippet=Can I play Rocket League without an Epic Games Account?<br>No. An Epic Games Account is required to play Rocket League. Log into your existing account, or make a new one when you log into Rocket League. You can create a new account with one button press in-game with no additional information needed.|title=Epic Games Account Linking|date=2020-09-16}}</ref> | | Windows, OS X, Linux | unavailable }}
+}}
+{{ii}} Online functionality is exclusive to Windows.<ref>{{Refurl|url=https://steamcommunity.com/games/252950/announcements/detail/1709614218556357755|title=Steam :: Rocket League :: Ending Support for macOS and Linux|date=2020-01-23}}</ref>
+
+==Monetization==
+{{Monetization
+|cross-game bonus    = Selected vehicle will be accessible in [[Fortnite]] and [[Rocket Racing]].{{note|Required the same Epic Games account credentials across Fortnite and Rocket League.}}<ref>{{Refurl|url=https://www.fortnite.com/news/use-items-across-fortnite-and-rocket-league-with-cross-game-ownership|title=Fortnite blog - Use Items Across Fortnite and Rocket League with Cross-Game Ownership!|date=2024-11-08}}</ref><ref>{{Refurl|url=https://www.rocketleague.com/en/news/patch-notes-v2-34|title=Rocket League v2.34 Patch Notes |date=2024-11-08}}</ref> <br>Compatible vehicles purchased in Rocket League will be accessible in [[Fortnite]] & [[Rocket Racing]].
+|dlc                 = 
+|expansion pack      = 
+|freeware            = 
+|free-to-play        = 
+|subscription        = Rocket Pass Premium is included with '''Fortnite Crew''' subscription service.<ref>{{Refurl|url=https://www.fortnite.com/fortnite-crew-subscription|title=Fortnite Crew website|date=2024-11-08}}</ref> 
+}}
+
+{{DLC|
+{{DLC/row| Official Game Soundtrack | | Windows, OS X, Linux}}
+{{DLC/row| Official Game Soundtrack, Vol. 2 | | Windows, OS X, Linux }}
+{{DLC/row| Rocket League x Monstercat Legacy | | Windows, OS X, Linux }}
+{{DLC/row| Rocket League x Monstercat Vol. 1 | | Windows, OS X, Linux }}
+{{DLC/row| Rocket League x Monstercat Vol. 2 | | Windows, OS X, Linux }}
+{{DLC/row| Rocket League x Monstercat Vol. 3 | | Windows, OS X, Linux }}
+{{DLC/row| Rocket League x Monstercat Vol. 4 | | Windows, OS X, Linux }}
+{{DLC/row| Rocket League x Monstercat Vol. 5 | | Windows, OS X, Linux }}
+{{DLC/row| Rocket League x Monstercat Vol. 6 | | Windows, OS X, Linux }}
+{{DLC/row| Rocket League x Monstercat Vol. 7 | | Windows, OS X, Linux }}
+{{DLC/row| Supersonic Fury DLC Pack | No longer available to purchase separately. Included in the base game since 2019. | Windows, OS X, Linux }}
+{{DLC/row| Revenge of the Battle-Cars DLC Pack | No longer available to purchase separately. Included in the base game since 2019. | Windows, OS X, Linux}}
+{{DLC/row| Back to the Future Car Pack | No longer available. | Windows, OS X, Linux}}
+{{DLC/row| Batman v Superman: Dawn of Justice Car Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Chaos Run DLC Pack | No longer available to purchase separately. Included in the base game since 2019. | Windows, OS X, Linux}}
+{{DLC/row| Aftershock | Part of the '''Collector’s Edition'''. | Windows, OS X, Linux }}
+{{DLC/row| Marauder | Part of the '''Collector’s Edition'''. | Windows, OS X, Linux }}
+{{DLC/row| Esper | Part of the '''Collector’s Edition'''. | Windows, OS X, Linux }}
+{{DLC/row| Masamune | Part of the '''Collector’s Edition'''. | Windows, OS X, Linux }}
+{{DLC/row| Proteus | No longer available. | Windows, OS X, Linux}}
+{{DLC/row| Triton | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Vulcan | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Hot Wheels Twin Mill III | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Hot Wheels Bone Shaker | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Fast & Furious Ice Charger | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| NBA Flag Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Fast & Furious '70 Dodge Charger R/T | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Fast & Furious '99 Nissan Skyline GT-R R34| No longer available. | Windows, OS X, Linux }}
+{{DLC/row| DC Super Heroes DLC Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Jurassic World Car Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Hot Wheels Triple Threat DLC Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| McLaren 570S Car Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| MLB Fan Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Ghostbusters Ecto-1 Car Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Knight Rider K.I.T.T. Car Pack | No longer available. | Windows, OS X, Linux }}
+{{DLC/row| Battle Bus (Titanium White) | Free. | Windows, OS X, Linux }}
+}}
+
+==Essential improvements==
+===Skip intro videos===
+{{Fixbox|description=Use the <code>-nomovie</code> [[Glossary:Command line arguments|command line argument]]<ref>
+{{Refurl|url=https://steamcommunity.com/sharedfiles/filedetails/?id=486470487|title=Steam Community Guides - Skip Intro Movies|date=May 2023}}</ref>}}
+{{ii}} Disabled loading screen will remove the loading screen background and faster load into the game.
+
+===Launch the Epic Games version with Steam===
+{{ii}} [https://github.com/jun-eau/Slipstream Slipstream] is a standalone launcher that allows the game to run without the Epic Games Launcher running in the background.
+{{ii}} Restores Steam Overlay, Steam Input controller configurations, and Steam Deck compatibility for the Epic Games version.
+
+{{Fixbox|description=Setup Slipstream|fix=
+# Navigate to the Slipstream repository (linked above) and download the latest executable from the '''Releases''' page.
+# Place the executable in a dedicated folder (this is where its config will be generated).
+# In Steam, click '''Add a Game''' -> '''Add a Non-Steam Game...''' and select the executable. (Linux/Steam Deck users have to go to Compatibility and force the use of the latest Proton).
+# Launch the shortcut through Steam and follow the prompts to locate <code>RocketLeague.exe</code> and authenticate your Epic account via the browser.
+}}
+
+==Game data==
+{{Image|Rocket League General.png|General settings (Launch)}}
+
+===Configuration file(s) location===
+{{Game data|
+{{Game data/config|Windows|{{P|userprofile\Documents}}\My Games\Rocket League\TAGame\Config\}}
+{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Rocket League/TAGame/}}
+{{Game data/config|Linux|{{P|xdgdatahome}}/Rocket League/TAGame/}}
+{{Game data/config|Steam|{{P|steam}}\userdata\{{P|uid}}\252950\}}
+{{Game data/config|Epic Games Store|}}
+}}
+{{XDG|true}}
+
+===Save game data location===
+{{Game data|
+{{Game data/saves|Windows|{{P|userprofile\Documents}}\My Games\Rocket League\TAGame\SaveData\}}
+{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Rocket League/TAGame/SaveData/}}
+{{Game data/saves|Linux|{{P|xdgdatahome}}/Rocket League/TAGame/SaveData/}}
+{{Game data/saves|Steam|{{P|steam}}\userdata\{{P|uid}}\252950\}}
+{{Game data/saves|Epic Games Store|{{P|userprofile\Documents}}\My Games\Rocket League\TAGame\SaveDataEpic\}}
+}}
+
+===[[Glossary:Save game cloud syncing|Save game cloud syncing]]===
+{{Save game cloud syncing
+|discord                   = 
+|discord notes             = 
+|epic games launcher       = false
+|epic games launcher notes = 
+|gog galaxy                = 
+|gog galaxy notes          = 
+|origin                    = 
+|origin notes              = 
+|icloud                    = 
+|icloud notes              = 
+|steam cloud               = true
+|steam cloud notes         = Save games are cross-platform, but are not automatically synced over.
+|ubisoft connect           = 
+|ubisoft connect notes     = 
+|xbox cloud                = 
+|xbox cloud notes          = 
+}}
+{{ii}} Save data is always stored on the global Rocket League servers, while video settings and replays are not.<ref>{{Refurl|url=https://support.rocketleague.com/hc/en-us/articles/360015578513-What-information-is-stored-locally-and-what-on-the-server-|title=What information is stored locally and what on the server?|date=2020-12-13}}</ref>
+
+==Video==
+{{Image|Rocket League Video.png|Video settings (Launch)}}
+{{Video
+|wsgf link                  = https://www.wsgf.org/dr/rocket-league/en
+|widescreen wsgf award      = gold
+|multimonitor wsgf award    = silver
+|ultrawidescreen wsgf award = gold
+|4k ultra hd wsgf award     = gold
+|widescreen resolution      = true
+|widescreen resolution notes= 
+|multimonitor               = true
+|multimonitor notes         = May need to set [[#Widescreen resolution|Widescreen resolution]].<ref name="resolution">[https://steamcommunity.com/app/252950/discussions/0/530646080865787429/ 21:9 and Multi-Monitor Support / Custom Resolution :: Rocket League General Discussions]</ref>
+|ultrawidescreen            = true
+|ultrawidescreen notes      =
+|4k ultra hd                = true
+|4k ultra hd notes          = May need to set [[#Widescreen resolution|Widescreen resolution]].<ref>{{Refurl|url=https://steamcommunity.com/app/252950/discussions/0/537402115079459635/|title=And 4k resolution? :: Rocket League General Discussions|date=May 2023}}</ref>
+|fov                        = true
+|fov notes                  = Between 60° and 110°.
+|windowed                   = true
+|windowed notes             = 
+|borderless windowed        = true
+|borderless windowed notes  = 
+|anisotropic                = always on
+|anisotropic notes          = 4x by default. See [[#Anisotropic filtering (AF)|Anisotropic filtering (AF)]].
+|antialiasing               = true
+|antialiasing notes         = [[FXAA]] <sup>(Low, Medium & High)</sup>, [[MLAA]], or [[SMAA]]. See [[#Anti-aliasing (AA)|Anti-aliasing (AA)]].
+|upscaling                  = false
+|upscaling tech             = 
+|upscaling notes            = 
+|framegen                   = false
+|framegen tech              = 
+|framegen notes             = 
+|vsync                      = true
+|vsync notes                = 
+|60 fps                     = true
+|60 fps notes               = 
+|120 fps                    = true
+|120 fps notes              = Built-in limiter is adjustable up to the maximum refresh rate of the monitor (360 Hz = 360 FPS cap)<ref>{{Refurl|url=https://steamcommunity.com/games/252950/announcements/detail/38643044308082301|title=Rocket League News: Dec. 18, 2015 – Ranked Rejoin Feature, UI Scalability/Max Frame Rate|date=9 June 2023}}</ref> or can be disabled, see [[#Frame rate (FPS)|Frame rate (FPS)]].
+|hdr                        = false
+|hdr notes                  = 
+|color blind                = true
+|color blind notes          = Forces all cars and team colors to the default, high-contrast orange and blue shades.
+}}
+
+===[[Glossary:Widescreen resolution|Widescreen resolution]]===
+{{ii}} [https://github.com/rex706/RocketLauncher RocketLauncher] allows easily changing Rocket League's resolution (including for dual-monitor split screen).
+
+{{Fixbox|description=Use launch options to set a custom resolution|ref=<ref>{{Refcheck|user=Rose|date=2020-09-26|comment=}}</ref>|fix=
+# Use the <code>-ResX=DesiredWidth -ResY=DesiredHeight</code> [[command line arguments]] and launch the game.
+}}
+
+===[[Glossary:Anisotropic filtering (AF)|Anisotropic filtering (AF)]]===
+{{Fixbox|description=Modify configuration file|ref={{cn|date=July 2016}}|fix=
+# Go to the [[#Game data|configuration file(s) location]].
+# Open {{File|TASystemSettings.ini}}.
+# Find the following line <code>MaxAnisotropy=</code> and set it to <code>16</code>.
+}}
+
+===[[Glossary:Anti-aliasing (AA)|Anti-aliasing (AA)]]===
+{{Fixbox|description=Enable [[MSAA]]|ref=<ref>{{Refurl|url=https://www.reddit.com/r/RocketLeague/comments/44dkar/how_to_use_msaa/|title=How to use MSAA: RocketLeague|date=May 2023}}</ref>|fix=
+# Go to the [[#Game data|configuration file(s) location]].
+# Open {{File|TASystemSettings.ini}}.
+# Find <code>bAllowD3D9MSAA</code> and set it to <code>True</code>. 
+# Find <code>MaxMultiSamples</code> (this should be directly above the line mentioned above) and set it to the preferred level of MSAA samples (<code>2</code>, <code>4</code>, <code>8</code> or <code>16</code>).
+
+'''Notes'''
+{{--}} MSAA is not officially supported and can cause bugs.<ref>{{Refurl|url=http://www.psyonix.com/forum/viewtopic.php?p=200677#p200677|title=Psyonix Forums • View topic - MSAA ini help|date=9 June 2023}}</ref>
+}}
+{{ii}} SSAA forced through the driver works (tested on AMD card). On Dropshot, requires tinkering with the in-game AA setting (disable/re-enable it) during gameplay to work again.
+
+===[[Glossary:Frame rate (FPS)|Frame rate (FPS)]]===
+{{ii}} The built-in FPS limiter can be adjusted up to 250 FPS, or disabled to allow an uncapped frame rate.
+
+{{Fixbox|description=Disable the FPS limiter by modifying the configuration file|ref=<ref>{{Refcheck|user=Aemony|date=2020-09-10|comment=}}</ref>|fix=
+# Go to the [[#Game data|configuration file(s) location]].
+# Open {{File|TASystemSettings.ini}}.
+# Find the following line <code>AllowPerFrameSleep=</code> and set it to <code>False</code>.
+}}
+
+==Input==
+{{Image|Rocket League Controls.png|General control settings (Launch)}}
+{{Image|Rocket League Camera.png|Camera settings (Launch)}}
+{{Image|Rocket League Remapping.png|Key/button map settings (Launch)}}
+{{Input
+|key remap                 = true
+|key remap notes           = 
+|acceleration option       = false
+|acceleration option notes = 
+|mouse sensitivity         = true
+|mouse sensitivity notes   = 
+|mouse menu                = true
+|mouse menu notes          = 
+|keyboard and mouse prompts = true
+|keyboard and mouse prompts notes =
+|invert mouse y-axis       = true
+|invert mouse y-axis notes = Under '''Camera''', the '''Invert Swivel Pitch''' checkbox.
+|touchscreen               = false
+|touchscreen notes         = 
+|controller support        = true
+|controller support notes  = On Windows: XInput, DirectInput and PlayStation Controllers. <br/>On OS X and Linux: any controller that works with the OS. May require configuration via Steam Big Picture.
+|full controller           = true
+|full controller notes     = 
+|controller remap          = true
+|controller remap notes    = 
+|controller sensitivity    = true
+|controller sensitivity notes= 
+|invert controller y-axis  = true
+|invert controller y-axis notes= Under '''Camera''', the '''Invert Swivel Pitch''' checkbox.
+|xinput controllers        = true
+|xinput controllers notes  = 
+|xbox prompts              = true
+|xbox prompts notes        = 
+|impulse triggers          = hackable
+|impulse triggers notes    = Use [https://github.com/araghon007/X1nput/releases X1nput]<ref>{{Refurl|url=https://www.reddit.com/r/pcgaming/comments/b31frk/x1nput_20_xbox_one_controller_impulse_triggers_on/|title=X1nput 2.0 - Xbox One Controller Impulse Triggers on (almost) any PC game|date=May 2023}}</ref>
+|directinput controllers       = 
+|directinput controllers notes = 
+|directinput prompts           = 
+|directinput prompts notes     = 
+|playstation controllers   = true
+|playstation controller models = ds4, ds, dse
+|playstation controllers notes = No rumble support.
+|playstation prompts       = true
+|playstation prompts notes = 
+|playstation motion sensors = false
+|playstation motion sensors modes =
+|playstation motion sensors notes =
+|light bar support         = hackable
+|light bar support notes   = Use [https://www.project-aurora.com/ Aurora] to add DS4 light bar support.
+|dualsense adaptive trigger support = hackable
+|dualsense adaptive trigger support modes = usb, bluetooth
+|dualsense adaptive trigger support notes = [https://github.com/josealissonbr/DualSenseAT Custom config] (requires [[Controller:DualSense#DSX|DSX]]).
+|dualsense haptics support  = false
+|dualsense haptics support notes =
+|playstation connection modes = wired, wireless
+|playstation connection modes notes = DualShock 4 V1 and V2 tested.<ref>{{Refcheck|user=Marioysikax|date=2018-05-11|comment=Tested with both V1 and V2 just to be sure.}}</ref> Bluetooth connectivity is also supported on DualShock 4, DualSense and DualSense Edge.<ref>{{Refcheck|user=Yuuyatails|date=2024-03-13|comment=Bluetooth connecitivty worked on my DualShock 4 and DualSense Edge.}}</ref>
+|nintendo controllers          = 
+|nintendo controller models    = 
+|nintendo controllers notes    = 
+|nintendo prompts              = 
+|nintendo prompts notes        = 
+|nintendo button layout        = 
+|nintendo button layout notes  = 
+|nintendo motion sensors       = 
+|nintendo motion sensors modes = 
+|nintendo motion sensors notes = 
+|nintendo connection modes     = 
+|nintendo connection modes notes = 
+|tracked motion controllers= false
+|tracked motion controllers notes = 
+|tracked motion prompts    = false
+|tracked motion prompts notes = 
+|other controllers         = true
+|other controllers notes   = 
+|peripheral devices            = 
+|peripheral device types       = 
+|peripheral devices notes      = 
+|other button prompts      = unknown
+|other button prompts notes= 
+|controller hotplug        = true
+|controller hotplug notes  = 
+|input prompt override  = unknown
+|input prompt override notes =
+|haptic feedback           = true
+|haptic feedback notes     = Only for XInput controllers.
+|haptic feedback hd        = 
+|haptic feedback hd notes  = 
+|haptic feedback hd controller models = 
+|digital movement supported = false
+|simultaneous input        = true
+|simultaneous input notes  = Rapidly changes button prompts.
+|steam input api           = true
+|steam input api notes     = Steam version only.
+|steam hook input          = unknown
+|steam hook input notes    = 
+|steam input prompts = unknown
+|steam input prompts icons =
+|steam input prompts styles =
+|steam input prompts notes =
+|steam deck prompts  = unknown
+|steam deck prompts notes = 
+|steam controller prompts  = unknown
+|steam controller prompts notes = 
+|steam input motion sensors = unknown
+|steam input motion sensors modes =
+|steam input motion sensors notes =
+|steam input presets       = true
+|steam input presets notes = Presets for DualShock 4, Xbox One, Xbox 360, Nintendo Switch Pro Controller, Steam Controller and generic controllers are available.
+|steam cursor detection    = unknown
+|steam cursor detection notes = 
+}}
+
+===Mouse===
+{{--}} Mouse axes are not bound to anything by default. Binding them to the camera will cause mouse movement to act like an analog stick, making the camera move at a constant speed and resetting to the default position instantly if movement stops.
+
+==Audio==
+{{Image|Rocket League Audio.png|Audio settings (Free to Play Launch)}}
+{{Audio
+|separate volume          = true
+|separate volume notes    = Master, gameplay, music, ambient, crowd.
+|surround sound           = true
+|surround sound notes     = Tested up to 7.1 output.<ref>{{Refurl|url=https://satsun.org/audio/|title=PC Gaming Surround Sound Round-up|date=May 2023}}</ref><br>Dolby Atmos only supported on Xbox, not PC.<ref>{{Refurl|url=https://www.dolby.com/experience/rocket-league/|title=Rocket League|date=March 2025}}</ref>
+|subtitles                = n/a
+|subtitles notes          = No spoken dialogue.
+|closed captions          = false
+|closed captions notes    = 
+|mute on focus lost       = true
+|mute on focus lost notes = '''Mute on unfocused''' toggle.
+|eax support              = 
+|eax support notes         = 
+|royalty free audio        = true
+|royalty free audio notes  = '''Streamer Safe Music''' toggle.
+}}
+
+{{L10n|content=
+{{L10n/switch
+ |language  = English
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Dutch
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = French
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = German
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Italian
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Japanese
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Korean
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Polish
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Brazilian Portuguese
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     = Mistakenly labeled on Steam as Portuguese. 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Russian
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Spanish
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Turkish
+ |interface = true
+ |audio     = n/a
+ |subtitles = n/a
+ |notes     =  
+ |fan       = 
+}}
+}}
+
+==Network==
+{{Network/Multiplayer
+|local play           = true
+|local play players   = 4
+|local play modes     = 
+|local play notes     = Each player needs a separate gamepad (or X360CE can be used to use keyboard + gamepads).
+|lan play             = true
+|lan play players     = 8
+|lan play modes       = 
+|lan play notes       = 
+|online play          = true
+|online play players  = 8
+|online play modes    = Versus
+|online play notes    = 
+|asynchronous         = false
+|asynchronous notes   = 
+|crossplay            = true
+|crossplay platforms  = Nintendo Switch, PlayStation 4, Xbox One
+|crossplay notes      = <ref>{{Refurl|url=https://www.rocketleague.com/en/news/full-cross-platform-play-now-live-in-rocket-league|title=Full Cross-Platform Play Now Live in Rocket League|date=2024-11-08}}</ref>
+}}{{Network/Connections
+|matchmaking        = true
+|matchmaking notes  = 
+|p2p                = false
+|p2p notes          = 
+|dedicated          = true
+|dedicated notes    = 
+|self-hosting       = false
+|self-hosting notes = 
+|direct ip          = false
+|direct ip notes    = 
+}}{{Network/Ports
+|tcp  = 80, 443
+|udp  = 7000 - 9000
+|upnp = false
+}}
+
+==VR support==
+{{VR support
+|gg3d name                   = 
+|native 3d gg3d award        = 
+|nvidia 3d vision gg3d award = 
+|tridef 3d gg3d award        = 
+|iz3d gg3d award             = 
+|native 3d                   = false
+|native 3d notes             = 
+|nvidia 3d vision            = hackable
+|nvidia 3d vision notes      = See [https://helixmod.blogspot.com/2015/07/rocket-league.html Rocket League on Nvidia 3D Vision]
+|tridef 3d                   = unknown
+|tridef 3d notes             = 
+|iz3d                        = unknown
+|iz3d notes                  = 
+|vorpx                       = true
+|vorpx modes                 = G3D
+|vorpx notes                 = Officially supported game, see [https://www.vorpx.com/supported-games/ official vorpx game list].
+|htc vive                    = 
+|htc vive notes              = 
+|oculus rift                 = 
+|oculus rift notes           = 
+|osvr                        = 
+|osvr notes                  = 
+|keyboard-mouse              = 
+|keyboard-mouse notes        = 
+|3rd space gaming vest       = 
+|3rd space gaming vest notes = 
+|novint falcon               = 
+|novint falcon notes         = 
+|trackir                     = 
+|trackir notes               = 
+|tobii eye tracking          = 
+|tobii eye tracking notes    = 
+|play area seated            = 
+|play area seated notes      = 
+|play area standing          = 
+|play area standing notes    = 
+|play area room-scale        = 
+|play area room-scale notes  = 
+}}
+
+==Issues unresolved==
+===Low FPS after alt-tabbing===
+On some systems, users may experience a severe FPS cap reducing the FPS from the maximum of 250 down to possibly 60. A relaunch solves the issue, and there is likely a fix on the way.{{cn|date=June 2025}}
+
+==Issues fixed==
+===Controller not working===
+{{ii}} As the game does support all controller standards, it might be picking up some peripheral as primary controller, which can include mouse, tablet, webcam, etc.
+
+{{Fixbox|description=Remove unused controllers|ref={{cn|date=July 2016}}|fix=
+# Push {{key|Win|R}} and type '''joy.cpl''' then push '''OK'''.
+# From '''Advanced settings...''' set the currently used controller as primary one and then push '''OK'''.
+# Locate all unused controllers listed and either unplug them physically, disable them from device manager or with virtual controllers uninstall from control panel. 
+}}
+
+===Not connected to servers under Linux===
+{{Fixbox|description=Create a symlink for the CA Certificates to where Rocket League expects them|ref=<ref>{{Refurl|url=https://steamcommunity.com/app/252950/discussions/0/350541595107667079/#c350541595110172118|title=Steam forums: Linux - Can not connect to servers|date=May 2023}}</ref>|fix=
+<code>sudo ln -s /etc/ssl/certs/ca-bundle.crt /etc/ssl/certs/ca-certificates.crt</code>
+}}
+
+===Game fails to launch and does not create an error message===
+{{ii}} Steam will adjust user status to 'playing game' for several seconds, but fail to create a process for Rocket League, possibly giving an error that MSVCR100.dll is missing.
+{{Fixbox|description=Repair Installation of Microsoft Visual C++ 2010 Redistributable Package|ref=<ref>http://www.psyonix.com/forums/viewtopic.php?f=34&t=13760</ref>|fix=
+# Go to {{Folder|{{p|steam}}\steamapps\common\Steamworks Shared\_CommonRedist\vcredist\2010}}.
+# Run {{file|vcredist_x86.exe}} (it doesn't matter if the operating system is 64-bit).
+# Choose to repair the installation.
+}}
+
+===Season 19 audio-related issues===
+With the season 19 update a bug related to audio handling was introduced.<ref>{{Refurl|url=https://fxtwitter.com/RL_Status/status/1935803360537665855|title=Rocket League Status on X|date=2025-06-19|snippet=Our Season 19 update introduced an audio issue that is causing client crashes for some players on PC.}}</ref> This can cause different issues from game freezes, to distorted audio to the game crashing.
+
+As a workaround switching audio devices seems to be able to resolve the issue most of the times. Specifically for users with Steelseries headsets, switching the output device from the "(Chat)" to "(Game)" output has fixed the crashes in most, if not all, cases.
+
+==Other information==
+===API===
+{{API
+|direct3d versions      = 11
+|direct3d notes         = 
+|directdraw versions    = 
+|directdraw notes       = 
+|opengl versions        = 4.1
+|opengl notes           = OS X and Linux only. No longer supported.
+|glide versions         = 
+|glide notes            = 
+|software mode          = 
+|software mode notes    = 
+|mantle support         = 
+|mantle support notes   = 
+|vulkan versions        = 
+|vulkan notes           = 
+|dos modes              = 
+|dos modes notes        = 
+|shader model versions  = 3
+|shader model notes     = 
+|windows 32-bit exe     = false
+|windows 64-bit exe     = true
+|windows arm app        = false
+|windows exe notes      = 
+|mac os x powerpc app   = unknown
+|macos intel 32-bit app = unknown
+|macos intel 64-bit app = true
+|macos arm app          = unknown
+|macos app notes        = 
+|linux powerpc app      = unknown
+|linux 32-bit executable= unknown
+|linux 64-bit executable= unknown
+|linux arm app          = unknown
+|linux executable notes = 
+}}
+
+===Middleware===
+{{Middleware
+|physics          = PhysX, Bullet
+|physics notes    = 
+|audio            = Wwise
+|audio notes      = 
+|interface        = Scaleform
+|interface notes  = 4.2.24<ref>{{Refcheck|user=Hawaii_Beach|date=2017-01-14|comment=Searching for "gfxVersion" in RocketLeague.exe}}</ref>
+|input            = 
+|input notes      = 
+|cutscenes        = 
+|cutscenes notes  = 
+|multiplayer      = Epic Online Services
+|multiplayer notes= 
+|anticheat        = Easy Anti-Cheat
+|anticheat notes  = Easy Anti-Cheat added on April 28 2026 Update.<ref>{{Refurl|url=https://www.rocketleague.com/en/news/easy-anti-cheat-comes-to-rocket-league-on-pc-today|title=Easy Anti-Cheat Comes to Rocket League on PC Today|date=2026-04-28}}</ref><br><br>Note: Launch without Easy-Anti Cheats will disabled Casual, Competitive and Private Match 
+}}
+==System requirements==
+{{System requirements
+|OSfamily = Windows
+
+|minOS    = 7
+|minCPU   = Dual Core 2.5 GHz
+|minRAM   = 4 GB
+|minHD    = 20 GB
+|minGPU   = Nvidia GeForce GTX 760
+|minGPU2  = AMD Radeon R7 270X
+|minDX    = 11
+|mincont  = 
+|minother = Broadband Internet connection
+
+|recOS    = 
+|recCPU   = Quad Core 3.0 GHz
+|recRAM   = 8 GB
+|recHD    = 
+|recGPU   = Nvidia GeForce GTX 1060
+|recGPU2  = AMD Radeon RX 470
+|recDX    = 
+|reccont  = Gamepad or Controller Recommended
+|recother = 
+}}
+
+{{System requirements
+|OSfamily = OS X
+|minOS    = 10.8.5
+|minCPU   = Intel Core i5 2.4 GHz
+|minRAM   = 8 GB
+|minHD    = 9 GB
+|minGPU   = ATI Radeon HD 5670
+|minGPU2  = Nvidia GeForce GT 640M
+|minGPU3  = Intel HD 4000 or Iris Pro
+|minOGL   = 4.1
+|mincont  = 
+|minother = Broadband Internet connection
+
+|recOS    = 
+|recCPU   = Intel Core i7 2.4 GHz
+|recRAM   = 
+|recHD    = 
+|recGPU   = 
+|reccont  = Gamepad or Controller Recommended
+|recother = 
+}}
+
+{{System requirements
+|OSfamily = Linux
+|minOS    = 
+|minCPU   = Dual Core 2.4 GHz
+|minRAM   = 2 GB
+|minHD    = 9 GB
+|minGPU   = Nvidia GeForce GTX 260
+|minGPU2  = ATI Radeon HD 4850
+|mincont  = 
+|minother = Broadband internet connection
+
+|recOS    = 
+|recCPU   = Quad Core 2.5 GHz
+|recRAM   = 4 GB
+|recHD    = 
+|recGPU   = Nvidia GeForce GTX 660
+|recGPU2  = AMD Radeon HD 7950
+|reccont  = Gamepad or controller recommended
+|recother = 
+}}
+
+{{References}}

@@ -21,7 +21,8 @@ import { VerdictBadge } from '../shared/verdict-badge';
 import { reportIssueUrl } from './report-issue';
 
 /** A value to show: free text, a size, or an i18n key with params. */
-type Shown = { text: string } | { size: Size; ssd?: boolean } | { key: string };
+/** A value to show: free text (with its source when not Steam), a size, or an i18n key. */
+type Shown = { text: string; viaPcgw?: boolean } | { size: Size; ssd?: boolean } | { key: string };
 
 interface Row {
   component: RequirementComponent;
@@ -90,7 +91,15 @@ export class GamePage {
     ) as string[];
   });
 
-  protected isText(shown: Shown): shown is { text: string } {
+  /** PCGamingWiki filled in a component Steam didn't name precisely: attribution required. */
+  protected readonly usesPcgw = computed(() => {
+    const { minimum, recommended } = this.game.value()?.requirements ?? {};
+    return [minimum, recommended].some(
+      (tier) => tier?.cpu.source === 'pcgamingwiki' || tier?.gpu.source === 'pcgamingwiki',
+    );
+  });
+
+  protected isText(shown: Shown): shown is { text: string; viaPcgw?: boolean } {
     return 'text' in shown;
   }
 
@@ -136,9 +145,9 @@ function required(
   switch (component) {
     case 'cpu':
     case 'gpu': {
-      const { raw, capabilityOnly } = tier[component];
+      const { raw, capabilityOnly, source } = tier[component];
       if (capabilityOnly) return { key: 'game.capabilityOnly' };
-      return raw.length ? { text: raw.join(' / ') } : undefined;
+      return raw.length ? { text: raw.join(' / '), viaPcgw: source === 'pcgamingwiki' } : undefined;
     }
     case 'ram':
       return tier.ramGb === undefined ? undefined : { size: size(tier.ramGb) };

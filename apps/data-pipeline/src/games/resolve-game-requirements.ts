@@ -3,7 +3,9 @@ import {
   type GameRecord,
   type GameRequirements,
   type HardwareModel,
+  type GpuRequirement,
   type RequirementTier,
+  type StoredComponent,
   type StoredTier,
 } from '@can-i-run-it/domain';
 import { scoreCpu } from '../hardware/score-cpu';
@@ -13,52 +15,125 @@ export interface UnresolvedName {
   name: string;
 }
 
-/** Resolves every CPU/GPU alternative of a parsed game against the hardware catalog. */
+type Catalog = { cpus: readonly HardwareModel[]; gpus: readonly HardwareModel[] };
+
+/**
+ * Resolves every CPU/GPU alternative of a parsed game against the hardware catalog.
+ * `fallback` (PCGamingWiki) stands in for a CPU or GPU that Steam doesn't name precisely
+ * enough to resolve; the component then records where it came from. Steam wins otherwise.
+ */
 export function resolveGameRequirements(
   parsed: GameRequirements,
-  catalog: { cpus: readonly HardwareModel[]; gpus: readonly HardwareModel[] },
+  catalog: Catalog,
+  fallback: GameRequirements = {},
 ): { requirements: GameRecord['requirements']; unresolved: UnresolvedName[] } {
   const unresolved: UnresolvedName[] = [];
-  const resolveTier = (tier: RequirementTier): StoredTier => {
-    const cpuIds = tier.cpu.flatMap((name) => {
-      const matches = resolveHardware(name, catalog.cpus);
-      if (matches.length === 0) unresolved.push({ kind: 'cpu', name });
-      return matches.map((match) => match.model.id);
-    });
-    const gpuIds = tier.gpu.flatMap((gpu) => {
-      const matches = resolveHardware(gpu.name, catalog.gpus, { vramGb: gpu.vramGb });
-      if (matches.length === 0) unresolved.push({ kind: 'gpu', name: gpu.name });
-      return matches.map((match) => match.model.id);
-    });
-    const statedVram = tier.gpu.map((gpu) => gpu.vramGb).filter((size) => size !== undefined);
-    const capabilityDirectX =
-      gpuIds.length === 0 ? directXFromCapabilities(tier.gpu.map((gpu) => gpu.name)) : undefined;
+
+  const resolveTier = (
+    tier: RequirementTier,
+    fallbackTier: RequirementTier | undefined,
+  ): StoredTier => {
+    let cpu = resolveCpus(tier.cpu, catalog);
+    let gpu = resolveGpus(tier.gpu, catalog);
+    if (fallbackTier) {
+      const fallbackCpu = resolveCpus(fallbackTier.cpu, catalog);
+      if (betterThan(fallbackCpu.component, cpu.component)) cpu = fromFallback(fallbackCpu);
+      const fallbackGpu = resolveGpus(fallbackTier.gpu, catalog);
+      if (betterThan(fallbackGpu.component, gpu.component)) gpu = fromFallback(fallbackGpu);
+    }
+    unresolved.push(
+      ...cpu.unresolved.map((name) => ({ kind: 'cpu' as const, name })),
+      ...gpu.unresolved.map((name) => ({ kind: 'gpu' as const, name })),
+    );
+    const statedVram = tier.gpu
+      .map((alternative) => alternative.vramGb)
+      .filter((gb) => gb !== undefined);
 
     return withoutUndefined({
-      cpu: withoutUndefined({
-        raw: tier.cpu,
-        ids: unique(cpuIds),
-        estimatedScore: cpuIds.length === 0 ? estimateGenericCpu(tier.cpu) : undefined,
-      }),
-      gpu: withoutUndefined({
-        raw: tier.gpu.map((gpu) =>
-          gpu.vramGb === undefined ? gpu.name : `${gpu.name} ${gpu.vramGb}GB`,
-        ),
-        ids: unique(gpuIds),
-        capabilityOnly: capabilityDirectX !== undefined ? (true as const) : undefined,
-      }),
+      cpu: cpu.component,
+      gpu: gpu.component,
       ramGb: tier.ramGb,
       vramGb: tier.vramGb ?? (statedVram.length > 0 ? Math.min(...statedVram) : undefined),
-      directX: tier.directX ?? capabilityDirectX,
+      directX: tier.directX ?? gpu.directX,
       storage: tier.storage,
       raw: tier.raw,
     });
   };
 
   const requirements: GameRecord['requirements'] = {};
-  if (parsed.minimum) requirements.minimum = resolveTier(parsed.minimum);
-  if (parsed.recommended) requirements.recommended = resolveTier(parsed.recommended);
+  for (const name of ['minimum', 'recommended'] as const) {
+    const tier = parsed[name];
+    if (tier) requirements[name] = resolveTier(tier, fallback[name]);
+    else if (fallback[name])
+      requirements[name] = markFallback(resolveTier(fallback[name], undefined));
+  }
   return { requirements, unresolved };
+}
+
+interface ResolvedComponent {
+  component: StoredComponent;
+  unresolved: string[];
+  directX?: number;
+}
+
+function resolveCpus(names: string[], catalog: Catalog): ResolvedComponent {
+  const unresolved: string[] = [];
+  const ids = names.flatMap((name) => {
+    const matches = resolveHardware(name, catalog.cpus);
+    if (matches.length === 0) unresolved.push(name);
+    return matches.map((match) => match.model.id);
+  });
+  return {
+    component: withoutUndefined({
+      raw: names,
+      ids: unique(ids),
+      estimatedScore: ids.length === 0 ? estimateGenericCpu(names) : undefined,
+    }),
+    unresolved,
+  };
+}
+
+function resolveGpus(gpus: GpuRequirement[], catalog: Catalog): ResolvedComponent {
+  const unresolved: string[] = [];
+  const ids = gpus.flatMap((gpu) => {
+    const matches = resolveHardware(gpu.name, catalog.gpus, { vramGb: gpu.vramGb });
+    if (matches.length === 0) unresolved.push(gpu.name);
+    return matches.map((match) => match.model.id);
+  });
+  const directX =
+    ids.length === 0 ? directXFromCapabilities(gpus.map((gpu) => gpu.name)) : undefined;
+  return {
+    component: withoutUndefined({
+      raw: gpus.map((gpu) => (gpu.vramGb === undefined ? gpu.name : `${gpu.name} ${gpu.vramGb}GB`)),
+      ids: unique(ids),
+      capabilityOnly: directX !== undefined ? (true as const) : undefined,
+    }),
+    unresolved,
+    directX,
+  };
+}
+
+/** Named models beat an estimate or a capability; anything usable beats nothing. */
+function betterThan(candidate: StoredComponent, current: StoredComponent): boolean {
+  const rank = (component: StoredComponent) =>
+    component.ids.length > 0
+      ? 2
+      : component.estimatedScore !== undefined || component.capabilityOnly
+        ? 1
+        : 0;
+  return rank(candidate) > rank(current);
+}
+
+function fromFallback(resolved: ResolvedComponent): ResolvedComponent {
+  return { ...resolved, component: { ...resolved.component, source: 'pcgamingwiki' } };
+}
+
+function markFallback(tier: StoredTier): StoredTier {
+  return {
+    ...tier,
+    cpu: tier.cpu.raw.length ? { ...tier.cpu, source: 'pcgamingwiki' } : tier.cpu,
+    gpu: tier.gpu.raw.length ? { ...tier.gpu, source: 'pcgamingwiki' } : tier.gpu,
+  };
 }
 
 /**

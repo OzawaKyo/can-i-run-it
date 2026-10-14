@@ -10,6 +10,8 @@ export interface StoredComponent {
   estimatedScore?: number;
   /** GPU named only by capabilities ("DirectX 11 card"): checked through `directX`/`vramGb` instead. */
   capabilityOnly?: true;
+  /** Set when Steam didn't name it precisely and PCGamingWiki's requirement was used instead. */
+  source?: 'pcgamingwiki';
 }
 
 export interface StoredTier {

@@ -125,7 +125,7 @@ function readGraphics(text: string | undefined): { gpus: GpuRequirement[]; loose
 }
 
 /** Splits "GeForce GTX 1060 6GB" into the model name and its VRAM. */
-function parseGpu(text: string): GpuRequirement {
+export function parseGpu(text: string): GpuRequirement {
   const vram = text.match(/\s*\b(\d+(?:\.\d+)?)\s*GB\b/i);
   if (!vram || vram.index === undefined) return { name: text };
   const name = (text.slice(0, vram.index) + text.slice(vram.index + vram[0].length)).trim();
@@ -192,7 +192,7 @@ function parseStorage(
   return { gb, ssd };
 }
 
-function parseSizeGb(text: string | undefined): number | undefined {
+export function parseSizeGb(text: string | undefined): number | undefined {
   const match = text?.match(/(\d+(?:\.\d+)?)\s*(GB|MB)/i);
   if (!match) return undefined;
   const value = Number(match[1]);

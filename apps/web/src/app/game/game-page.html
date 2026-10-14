@@ -119,6 +119,9 @@
 
   <p class="footnote">
     {{ 'game.estimates' | transloco }}
+    @if (usesPcgw()) {
+      <span [innerHTML]="'game.pcgwAttribution' | transloco"></span>
+    }
     <a routerLink="/about">{{ 'game.howItWorks' | transloco }}</a>
     @if (reportUrl(); as url) {
       ·
@@ -132,6 +135,9 @@
     <span class="muted">{{ missing | transloco }}</span>
   } @else if (isText(shown)) {
     {{ shown.text }}
+    @if (shown.viaPcgw) {
+      <span class="via">{{ 'game.viaPcgw' | transloco }}</span>
+    }
   } @else if (isSize(shown)) {
     {{ shown.size.key | transloco: { value: shown.size.value } }}
     @if (shown.ssd) {

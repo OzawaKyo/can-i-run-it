@@ -1,0 +1,808 @@
+{{Featured article}}
+{{Infobox game
+|cover        = The Witcher 3 Wild Hunt - cover.jpg
+|developers   = 
+{{Infobox game/row/developer|CD Projekt Red}}
+{{Infobox game/row/developer|Fool's Theory|Songs of the Past|ref=<ref>{{Refurl|url=https://www.cdprojekt.com/en/media/news/the-witcher-3-wild-hunt-songs-of-the-past-announced/|title=CD Projekt - The Witcher 3: Wild Hunt – Songs of the Past Announced|date=2026-05-27|snippet=CD PROJEKT RED is co-developing Songs of the Past with Fool’s Theory}}</ref>}}
+|publishers   = 
+{{Infobox game/row/publisher|CD Projekt}}
+|engines      = 
+{{Infobox game/row/engine|REDengine|name=REDengine 3}}
+|release dates= 
+{{Infobox game/row/date|Windows|May 19, 2015}}
+|reception    = 
+{{Infobox game/row/reception|Metacritic|the-witcher-3-wild-hunt|93}}
+{{Infobox game/row/reception|OpenCritic|463/the-witcher-3-wild-hunt|93}}
+{{Infobox game/row/reception|IGDB|the-witcher-3-wild-hunt|92}}
+|real ai level= 0
+|taxonomy     =
+{{Infobox game/row/taxonomy/monetization      | One-time game purchase, Expansion pack }}
+{{Infobox game/row/taxonomy/microtransactions | None }}
+{{Infobox game/row/taxonomy/modes             | Singleplayer }}
+{{Infobox game/row/taxonomy/pacing            | Real-time }}
+{{Infobox game/row/taxonomy/perspectives      | Third-person }}
+{{Infobox game/row/taxonomy/controls          | Direct control }}
+{{Infobox game/row/taxonomy/genres            | Action, RPG, Open world }}
+{{Infobox game/row/taxonomy/sports            | }}
+{{Infobox game/row/taxonomy/vehicles          | }}
+{{Infobox game/row/taxonomy/art styles        | Realistic}}
+{{Infobox game/row/taxonomy/themes            | Fantasy }}
+{{Infobox game/row/taxonomy/series            | The Witcher }}
+|steam appid  = 292030
+|steam appid side = 355880, 370000, 370001, 370002, 370003, 373950, 373951, 376390, 376391, 378640, 378641, 378642, 378643, 378644, 378645, 378646, 378647, 378648, 378649, 499450, 2684660
+|gogcom id    = 1495134320
+|gogcom id side = 1207664663,1207664643,1427195509,1441620909,1441355562,1427206931,1636895344,1640424747,1430743168,1441199941
+|official site= http://thewitcher.com/witcher3/
+|hltb         = 10270
+|lutris       = the-witcher-3-wild-hunt-game-of-the-year-edition
+|strategywiki = 
+|mobygames    = 73001
+|wikipedia    = The Witcher 3: Wild Hunt
+|winehq       = 16884
+|license      = commercial
+}}
+
+{{Introduction
+|introduction      = 
+
+|release history   = 
+
+|current state     = The Witcher 3's Next-Generation update released on 14 December 2022 for everyone who owns the game as a free update. This includes [[DLSS]] 3, [[FSR]] 2.1, ray-traced global illumination, ray-traced ambient occlusion, ray-traced shadows, ray-traced reflections (on some surfaces and bodies of water), dynamic resolution scaling, more broader implemented screen space reflections (previously exclusive to water surfaces), improved texture resolution, improved environmental geometric detail, high-resolution self-shadowing, with a new Ultra+ settings to significantly increase visual fidelity on several fronts: number of background characters, shadow quality, grass density, texture quality, foliage visibility range, terrain quality, water quality and detail level.<ref name="patch notes next-gen">{{Refurl|url=https://www.thewitcher.com/en/news/47105/next-gen-update-list-of-changes|title=Next-gen update list of changes - CDProjektRED|date=2022-12-13}}</ref>
+
+The next-gen update also featured a photo mode, cross-platform saves, new DLC quest (In The Eternal Fire's Shadow) and costumes based on the Netflix show, Quick Sign Casting option, tweaked fall damage, easier herb looting, dynamically hidden minimap, minimap filter to reduce icon clutter, scalable subtitles, expanded controller customization, pausable cutscenes, previously pre-rendered cutscenes are now real-time, Chinese Simplified and Korean audio, and several bugfixes related to quests, cutscenes and general gameplay.<ref name="patch notes next-gen"/>
+
+The game has received a couple of patches after the next-gen update, adding a performance mode for ray-traced global illumination, motion blur slider and refraction to water reflections. It additionally improved stability and performance, fixed various bugs and more, such as Screen Space Reflection not working, and horizon-based Ambient Occlusion missing on PC.<ref>{{Refurl|url=https://steamcommunity.com/games/292030/announcements/detail/3632751459961133387|title=Patch 4.01 — list of changes|date=2023-02-02}}</ref><ref>{{Refurl|url=https://store.steampowered.com/news/app/292030/view/3620362751664788837|title=Another PC Hotfix is available!|date=2023-02-02}}</ref><ref>{{Refurl|url=https://store.steampowered.com/news/app/292030/view/6363054385858005537|title=PC Hotfix is available!|date=2023-02-02}}</ref><ref>{{Refurl|url=https://steamcommunity.com/games/292030/announcements/detail/3659776227051559106|title=Patch 4.02 — list of changes|date=2023-03-13}}</ref>}}
+On August 26th, 2026, all versions of the game were been updated to be the '''Complete Edition''' for free.<ref>{{Refurl|url=https://store.steampowered.com/news/app/292030/view/676255623445218403|title=Announcing The Witcher 3: Wild Hunt - Remastered|date=2026-08-26}}</ref>
+On September 29th, 2026, the '''Remastered''' update was released, improving graphics and lighting, adding Path-Tracing, and updated animations among other changes.<ref name="Remastered">{{Refurl|url=https://www.thewitcher.com/us/en/news/52041/see-whats-new-in-the-witcher-3-wild-hunt-remastered|title=See what's new in The Witcher 3: Wild Hunt – Remastered!|date=2026-09-28}}</ref>
+
+'''General information'''
+{{mm}} [https://forums.cdprojektred.com/index.php?forums/the-witcher-series.22/ Official Forums]
+{{mm}} [https://witcher.fandom.com/wiki/Witcher_Wiki Official Witcher Wiki (Fandom)]
+{{mm}} [https://witcher-games.fandom.com/wiki/Witcher_Wiki Official Witcher Game Series Wiki (Gamepedia)]
+{{mm}} [https://www.nexusmods.com/witcher3 The Witcher 3 Nexus Mods]
+{{GOG.com links|1207664663|the_witcher_3_wild_hunt}}
+{{mm}} [https://steamcommunity.com/app/292030/discussions/ Steam Community Discussions]
+
+==Availability==
+{{Availability|
+{{Availability/row| Retail | | DRM-free | Initial retail release requires the [http://play.thewitcher.com launch file]. <br/ > Launch file requirement removed in later retail releases. <br/ > Patches and DLC are only available by activating on GOG.com.<ref name="retail">[https://forums.cdprojektred.com/index.php?threads/the-witcher-3-wild-hunt-retail-pc-version-faq.35581/ The Witcher 3: Wild Hunt - Retail PC Version FAQ]</ref> | GOG.com | Windows }}
+{{Availability/row| Epic Games Store | the-witcher-3-wild-hunt | DRM-free| Updated on September 29th with the '''Remastered''' update. | | Windows }}
+{{Availability/row| GOG.com | the_witcher_3_wild_hunt_game_of_the_year_edition | DRM-free | Updated on September 29th with the '''Remastered''' update. | | Windows }}
+{{Availability/row| Humble Store | the-witcher-3-wild-hunt | GOG.com | {{store link|Humble Store|the-witcher-3-complete-edition|Complete Edition}} also available. | | Windows }}
+{{Availability/row| Steam | 292030 | DRM-free | DRM-free when launched directly from executable.<ref>{{Refcheck|user=Aemony|date=2019-09-09|comment=Confirmed {{file|witcher3.exe}} can be launched directly through the game folder without the Steam client running or launching when using the executable.}}</ref><br />Updated on September 29th with the '''Remastered''' update. | | Windows }}
+{{Availability/row| Microsoft Store | C261457LCNMJ | unknown | Updated on September 29th with the '''Remastered''' update.<br/>{{store feature|Xbox Play Anywhere}}. | | Windows }}
+{{Availability/row| Battle.net | the-witcher-3-wild-hunt-remastered | Unknown | '''Remastered''' update. | | Windows }}
+{{Availability/row| Origin | witcher/the-witcher-wild-hunt | DRM-free | DRM-free.<ref>{{Refurl|url=https://www.origin.com/usa/en-us/store/witcher/the-witcher-wild-hunt|title=The Witcher® 3: Wild Hunt for PC | Origin|date=2020-04-24|snippet=Game uses DRM-free technology.}}</ref><br>Removed on June 13, 2022<ref>{{refurl|url=https://www.ea.com/ea-pc-third-party-titles-2022|title=Upcoming Changes to the EA Origin Catalog|date=2022-12-22}}</ref>, but nonetheless received the Next-Gen Update.<ref>{{Refurl|url=https://twitter.com/witchergame/status/1604841013197127682|title=WitcherGame on X - December 19, 2022|date=2024-04-03}}</ref> | | Windows | unavailable }}
+{{Availability/row| Amazon | B00XCRT0GS | GOG.com |  | | Windows | unavailable }}
+{{Availability/row| Gamesplanet | 2672-3 | GOG.com | |  | Windows | unavailable }}
+}}
+{{++}} All the digital distribution versions come with free bonuses that include the soundtrack in MP3 and FLAC formats.
+{{++}} No version of the game requires either GOG Galaxy or any type of authentication, activation, or digital distribution software.
+{{ii}} The initial 2015 release has 4 DVDs, while the 2016 Game of The Year release has 6 DVDs.
+{{ii}} The Legacy (pre Next-Gen) and Next-Gen versions are available on applicable store fronts<ref>{{Refurl|url=https://support.cdprojektred.com/en/witcher-3/pc/sp-technical/issue/2339/i-want-to-revert-to-an-earlier-version-of-the-game|title=I want to revert to an earlier version of the game|date=2022-12-16}}</ref>; on Steam, under the beta branch options; and for GOG.com, offline installers for the Legacy version (1.31) and Next-Gen version (4.04) were moved to the Extras section in the library as well. GOG.com version is missing 1.32 patch, which can be downloaded from [https://archive.org/download/TW3_1.32_Patch/patch_the_witcher_3_wild_hunt_-_game_of_the_year_edition_1.31_%28A%29_to_1.32.exe here].
+
+==Monetization==
+{{Monetization
+|ad-supported           = 
+|dlc                    = The minor DLC include cosmetics, items, quests, or the new game+ mode.
+|expansion pack         = Expansion packs include campaigns separate from the main one.
+|freeware               = 
+|free-to-play           = 
+|one-time game purchase = The game requires an upfront purchase to access.
+|sponsored              = 
+|subscription           = 
+}}
+
+{{DLC|
+{{DLC/row| Expansion Pass | Includes '''Hearts of Stone''' and '''Blood and Wine''' expansions. | Windows }}
+{{DLC/row| Hearts of Stone | Included in '''Game of the Year'''/'''Complete Edition'''/'''Remastered. | Windows }}
+{{DLC/row| Blood and Wine | Included in '''Game of the Year'''/'''Complete Edition'''/'''Remastered'''. | Windows }}
+{{DLC/row| Songs of the Past | Releasing 2027. | Windows }}
+{{DLC/row| 'Ballad Heroes' Neutral Gwent Card Set | Free. | Windows }}
+{{DLC/row| Alternative Look for Ciri | Free. | Windows }}
+{{DLC/row| Alternative Look for Triss | Free. | Windows }}
+{{DLC/row| Alternative Look for Yennifer | Free. | Windows }}
+{{DLC/row| Beard and Hairstyle Set | Free. | Windows }}
+{{DLC/row| Elite Crossbow Set | Free. | Windows }}
+{{DLC/row| New Finisher Animations | Free.| Windows }}
+{{DLC/row| New Game + | Free. | Windows }}
+{{DLC/row| New Quest 'Contract: Missing Miners' | Free. | Windows }}
+{{DLC/row| New Quest 'Contract: Skellige's Most Wanted' | Free. | Windows }}
+{{DLC/row| New Quest 'Fool's Gold' | Free. | Windows }}
+{{DLC/row| New Quest 'Scavenger Hunt: Wolf School Gear' | Free. | Windows }}
+{{DLC/row| New Quest 'Where the Cat and Wolf Play...' | Free. | Windows }}
+{{DLC/row| Nilfgaardian Armor Set | Free. | Windows }}
+{{DLC/row| Skellige Armor Set | Free. | Windows }}
+{{DLC/row| Temerian Armor Set | Free. | Windows }}
+{{DLC/row| REDkit | Official mod toolkit for The Witcher 3. Required to launch mods made with REDkit in mind. | Windows }}
+}}
+
+==Essential improvements==
+===[https://www.nexusmods.com/witcher3/mods/11260 Brothers in Arms]===
+{{ii}} A collection of 5,931 bug fixes and restored content for The Witcher 3, spanning the entire campaign and both expansion packs.
+{{++}} The fixes consist of a variety of categories and types, including: quest fixes, dialogue fixes, restoring of hidden / cut content, gameplay fixes, journal fixes, graphical issues, and more.
+{{ii}} A version for the Next-Gen update can be found in the "Old Files" section on the Files page.
+{{ii}} Also has a version for [https://www.nexusmods.com/witcher3/mods/5752 pre-Next Gen] release of the game.
+
+===Patches===
+{{ii}} The retail release requires a [https://play.thewitcher.com launch file] to play. Further patches require activating on GOG.com.<ref name="retail"/>
+
+===Skip intro videos===
+{{Fixbox|description=Use Skip Movies mod|ref=<ref>{{Refcheck|user=Klumb3r|date=2017-08-22}}</ref>|fix=
+# Download the [https://www.nexusmods.com/witcher3/mods/358 Skip Movies] mod
+# Extract the contents of the archive to {{folder|{{P|game}}\mods}}.
+}}
+
+===Skip loading screen narration videos===
+{{Fixbox|description=Edit user.settings or dx12user.settings config file (depending on whether you run DirectX 11 or DirectX 12 version of the game)
+
+Add this setting:
+
+<code>[LoadingScreen/Debug]<br>
+DisableVideos=true</code>
+
+It will auto-skip loading screen videos (which you can also skip by pressing space on a keyboard and square/X on PS4/Xbox controllers respectively).
+}}
+
+===Skip REDlauncher on start-up===
+{{Fixbox|description=Add <code>--launcher-skip</code> [[Glossary:Command line arguments|command line argument]]|ref=<ref>{{Refcheck|user=Shadowstealer7|date=2022-12-14|comment=Tested on Steam version of the game}}</ref>|fix=
+Do note that this will launch the DX12 version. This can be changed by editing the <code>launcher-configuration.json</code> file.
+# Open {{file|{{p|game}}\launcher-configuration.json}} with a text editor.
+# Change <code>"fallback": "DirectX 12"</code> to <code>"fallback": "DirectX 11"</code>.
+}}
+
+==Game data==
+===Configuration file(s) location===
+{{Game data|
+{{Game data/config|Windows|{{p|userprofile\Documents}}\The Witcher 3\*.settings}}
+}}
+
+===Save game data location===
+{{Game data|
+{{Game data/saves|Windows|{{p|userprofile\Documents}}\The Witcher 3\gamesaves\*.png|{{p|userprofile\Documents}}\The Witcher 3\gamesaves\*.sav}}
+}}
+
+===[[Glossary:Save game cloud syncing|Save game cloud syncing]]===
+{{Save game cloud syncing
+|discord                   = 
+|discord notes             = 
+|epic games launcher       = true
+|epic games launcher notes = 
+|gog galaxy                = true
+|gog galaxy notes          = 
+|origin                    = unknown
+|origin notes              = 
+|icloud                    = 
+|icloud notes              = 
+|steam cloud               = true
+|steam cloud notes         = 
+|ubisoft connect           = 
+|ubisoft connect notes     = 
+|xbox cloud                = true
+|xbox cloud notes          = 
+}}
+{{ii}} Cross-save is available with all console versions of the game.<ref>{{Refurl|url=https://www.ign.com/wikis/the-witcher-3-wild-hunt/Cross-Progression_and_Cross-Platform_Saves|title=IGN - Cross-Progression and Cross-Platform Saves|date=2022-12-14}}</ref>
+
+==Video==
+{{Image|Witcher3 remastered video.png|In-game graphics settings}}
+{{Video
+|wsgf link                  = https://www.wsgf.org/dr/witcher-3-wild-hunt/en
+|widescreen wsgf award      = gold
+|multimonitor wsgf award    = gold
+|ultrawidescreen wsgf award = silver
+|4k ultra hd wsgf award     = gold
+|widescreen resolution      = true
+|widescreen resolution notes= See [[#Widescreen resolution|Widescreen resolution]] for setting a custom resolution if needed.
+|multimonitor               = true
+|multimonitor notes         = Cutscenes are 16:9. See the [https://www.wsgf.org/phpBB3/viewtopic.php?p=173348#p173348 related WSGF thread].
+|ultrawidescreen            = true
+|ultrawidescreen notes      = Cutscenes are 16:9. See the [https://www.wsgf.org/phpBB3/viewtopic.php?p=173348#p173348 related WSGF thread]. Or use the display setting on 4.04
+|4k ultra hd                = true
+|4k ultra hd notes          = 
+|fov                        = hackable
+|fov notes                  = Default is 60°. Use [https://www.gog.com/forum/the_witcher_3_wild_hunt/fov_tweak_recommended FOV Tweak by wghost81].
+|windowed                   = true
+|windowed notes             = 
+|borderless windowed        = true
+|borderless windowed notes  = 
+|anisotropic                = true
+|anisotropic notes          = Controlled by '''Texture Quality''' setting.<br/>('''Low''' - 1x/'''Medium''' - 4x/'''High''' - 8x/'''Ultra''' - 16x)
+|upscaling                  = true
+|upscaling tech             = TAAU, FSR 2.1, XESS 1.1, DLSS 2.5, FSR 4.1, XeSS 2.1.1, DLSS 4.2
+|upscaling notes            = Dynamic resolution scaling is only available when using TAAU or [[FSR]] 2. [[FSR]] 2 and [[DLSS]] are only in DX12 version.<br/>'''FSR''' 4.1, '''XeSS''' 2.1.1 and '''DLSS''' 4.2.1 were added with the ''Remastered'' update.<ref name="Remastered"></ref>
+|framegen                   = true
+|framegen tech              = DLSS FG, DLSS MFG, FSR FG, XeSS FG
+|framegen notes             = Only in DX12 version.<br/>'''DLSS MFG''', '''FSR FG''' and '''XeFG''' were added with the ''Remastered'' update.<ref name="Remastered"></ref>
+|antialiasing               = true
+|antialiasing notes         = [[FXAA]], [[TAA]], [[DLAA]], [[XeSSAA]].
+|vsync                      = true
+|vsync notes                = 
+|60 fps                     = true
+|60 fps notes               = FPS cap can be configured to 30, 60, 75, 90, 120, 144 or unlimited in options menu.
+|120 fps                    = true
+|120 fps notes              = 
+|hdr                        = true
+|hdr notes                  = Automatically enabled when connected to an HDR screen. A calibration menu was added in Patch 4.04.<ref>{{Refurl|url=https://steamcommunity.com/games/292030/announcements/detail/3667669572520928649|title=HDR Support|date=2023-07-19}}</ref> [https://www.nexusmods.com/witcher3/mods/10900 RenoDX can greatly improve the native HDR presentation (DirectX 12 only). ]
+|color blind                = true
+|color blind notes          = Improves visibility of tracks, marks, footprints and scent clues.<ref>{{Refurl|url=https://en.cdprojektred.com/news/patch-1-05-for-pc-out-now/|title=The Witcher - Patch 1.05 for PC out now!|date=May 2023}}</ref>
+|ray tracing               = true
+|ray tracing notes         = '''Global Illumination''', '''Ambient Occlusion''', '''Shadows''' and '''Reflections'''.<br/>'''Path Tracing''' and '''Path-Traced HairWorks''' were added with the ''Remastered'' update <ref name="Remastered"></ref>
+}}
+
+===[[Glossary:Widescreen resolution|Widescreen resolution]]===
+{{Fixbox|description=Edit user.settings config file|ref={{cn|date=July 2016}}|fix=
+# Open {{file|{{p|userprofile\Documents}}\The Witcher 3\user.settings}} with a text editor.
+# Find <code>Resolution=XXxYY</code> and set your resolution (e.g. <code>Resolution=1152x648</code>).
+# If you want to use a resolution lower than 1024x768, also find <code>FullScreenMode=X</code> and change <code>X</code> to <code>1</code> or use borderless mode.
+# Save the file and launch the game.
+}}
+
+===Change in-game cinematic framerate===
+{{Fixbox|description=Modify user.settings file|ref={{cn|date=July 2016}}|fix=
+# Open {{file|{{p|userprofile\Documents}}\The Witcher 3\user.settings}} with a text editor.
+# Change <code>MovieFramerate</code> to which you desire (e.g. <code>60</code> or <code>120</code>).
+}}
+
+===Disable Cinematic Supersampling===
+{{Fixbox|description=Modify user.settings file|ref={{cn|date=July 2016}}|fix=
+# Open {{file|{{p|userprofile\Documents}}\The Witcher 3\user.settings}} with a text editor.
+# Add <code>MovieUbersampling=false</code> under <code>[Visuals]</code> section.
+}}
+
+===Disable radial blur when using Witcher Senses===
+{{Fixbox|description=Modify user.settings file|ref=<ref name="forums.cdprojektred.com">[https://forums.cdprojektred.com/index.php?threads/a-compendium-of-tweaks-and-fixes-for-the-pc-version.36300/page-34#post-1899959 A compendium of tweaks and fixes for the PC version]</ref>|fix=
+# Open {{file|{{p|userprofile\Documents}}\The Witcher 3\user.settings}} with a text editor.
+# Add <code>MotionSicknessFocusMode=true</code> under <code>[Gameplay]</code> section.
+}}
+
+==Input==
+{{Image|Witcher3 control settings.png|In-game control settings.}}
+{{Input
+|key remap                 = true
+|key remap notes           = Since version 1.04 all keys can be remapped.<ref>{{Refurl|url=https://en.cdprojektred.com/news/patch-1-04-for-pc-out-now/|title=The Witcher - Patch 1.04 for PC out now!|date=May 2023}}</ref>
+|acceleration option       = true
+|acceleration option notes = Under '''Video Options''', enable '''Hardware Cursor''' to disable mouse acceleration.
+|mouse sensitivity         = true
+|mouse sensitivity notes   = Can only be changed if Hardware Cursor is disabled. Can be set seperately for menus and gameplay.
+|mouse menu                = true
+|mouse menu notes          = 
+|invert mouse y-axis       = true
+|invert mouse y-axis notes = X-axis inversion is also possible.
+|touchscreen               = unknown
+|touchscreen notes         = 
+|controller support        = true
+|controller support notes  = 
+|full controller           = true
+|full controller notes     =
+|controller remap          = hackable
+|controller remap notes    = Possible by editing the input.settings file or with mods, some user-made presets are available on the Nexus.
+|controller sensitivity    = true
+|controller sensitivity notes= 
+|invert controller y-axis  = true
+|invert controller y-axis notes= X-axis inversion also possible.
+|xinput controllers        = true
+|xinput controllers notes  = 
+|xbox prompts              = true
+|xbox prompts notes        = 
+|impulse triggers          = unknown
+|impulse triggers notes    = 
+|directinput controllers       = 
+|directinput controllers notes = 
+|directinput prompts           = 
+|directinput prompts notes     = 
+|playstation controllers   = true
+|playstation controller models = DS4, DS
+|playstation controllers notes = 
+|playstation prompts       = true
+|playstation prompts notes = 
+|light bar support         = true
+|light bar support notes   = Blue on the Main Menu, Green in Gameplay, Red on Game Over.<ref>{{Refcheck|user=Eleventeen|date=2015-12-10}}</ref>
+|dualsense adaptive trigger support = true
+|dualsense adaptive trigger support modes = usb
+|dualsense adaptive trigger support notes = Added in Next-Gen (Patch 4.0) Update.
+|dualsense haptics support  = true
+|dualsense haptics support notes = Added in the ''Remastered'' update.<ref name="Remastered"></ref>
+|playstation connection modes = Wired, Wireless
+|playstation connection modes notes = 
+|nintendo controllers          = 
+|nintendo controller models    = 
+|nintendo controllers notes    = 
+|nintendo prompts              = 
+|nintendo prompts notes        = 
+|nintendo button layout        = 
+|nintendo button layout notes  = 
+|nintendo motion sensors       = 
+|nintendo motion sensors modes = 
+|nintendo motion sensors notes = 
+|nintendo connection modes     = 
+|nintendo connection modes notes = 
+|tracked motion controllers= unknown
+|tracked motion controllers notes = 
+|tracked motion prompts    = unknown
+|tracked motion prompts notes = 
+|other controllers         = unknown
+|other controllers notes   = 
+|peripheral devices            = 
+|peripheral device types       = 
+|peripheral devices notes      = 
+|other button prompts      = unknown
+|other button prompts notes= 
+|controller hotplug        = true
+|controller hotplug notes  = 
+|input prompt override         = 
+|input prompt override notes   = 
+|haptic feedback           = true
+|haptic feedback notes     = 
+|haptic feedback hd        = 
+|haptic feedback hd notes  = 
+|haptic feedback hd controller models = 
+|digital movement supported = 
+|digital movement supported notes = 
+|simultaneous input        = true
+|simultaneous input notes  = Rapidly changes button prompts. Prompts can be set to fixed by changing <code>LockControlScheme</code> in {{file|{{P|game}}\bin\config\base\hidden.ini}} to <code>1</code> (KB/M) or <code>2</code> (controller). <code>0</code> enables switching between prompts. Enable Steam Controller support [https://www.reddit.com/r/SteamController/wiki/game-guides/the-witcher-3#wiki_how_to_get_the_gamepad.2Bprecision_template_working_properly here].<ref>{{Refurl|url=https://www.reddit.com/r/SteamController/wiki/game-guides/the-witcher-3#wiki_how_to_get_the_gamepad.2Bprecision_template_working_properly|title=Enabling Steam Controller input icons (even on the GOG version)|date=May 2023}}</ref>
+|steam input api           = false
+|steam input api notes     = 
+|steam hook input          = unknown
+|steam hook input notes    = 
+|steam input motion sensors    = 
+|steam input motion sensors modes = 
+|steam input motion sensors notes = 
+|steam input presets       = true
+|steam input presets notes = [[Controller:Steam Controller|Steam Controller]].
+|steam input prompts           = 
+|steam input prompts icons     = 
+|steam input prompts styles    = 
+|steam input prompts notes     = 
+|steam deck prompts            = 
+|steam deck prompts notes      = 
+|steam controller prompts  = true
+|steam controller prompts notes = 
+|steam cursor detection    = unknown
+|steam cursor detection notes = 
+}}
+
+==Audio==
+{{Image|Witcher3 audio settings.png|In-game audio settings.}}
+{{Audio
+|separate volume          = true
+|separate volume notes    = Master, music, effects and voice.
+|surround sound           = limited
+|surround sound notes     = Up to 7.1 (no in-game option). Supports Spatial Audio API after 4.0 patch
+|subtitles                = true
+|subtitles notes          = 
+|closed captions          = true
+|closed captions notes    = 
+|mute on focus lost       = true
+|mute on focus lost notes = Loading screens and cinematics (FMVs) do not mute on focus lost.
+|eax support              = 
+|eax support notes         = 
+|royalty free audio        = unknown
+|royalty free audio notes  = 
+}}
+{{L10n|content=
+{{L10n/switch
+ |language  = English
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     = [https://www.nexusmods.com/witcher3/mods/7185 Grammar of the Path (Text Cleanup Mod) by PaulR0013] and [https://www.nexusmods.com/witcher3/mods/7187 Names from the Path (Full Names Mod) by PaulR0013]
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Arabic
+ |interface = true
+ |audio     = false
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Simplified Chinese
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     =Added in November 7, 2018 with patch 1.32 (announced in their official Sina Weibo). You can enable it from the game settings. Audio added in patch 4.0.
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Traditional Chinese
+ |interface = true
+ |audio     = false
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Czech
+ |interface = true
+ |audio     = false
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = French
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     = Very inaccurate translation. Use [https://www.nexusmods.com/witcher3/mods/9574 French Localisation Fix] to improve it.
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = German
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Hungarian
+ |interface = true
+ |audio     = false
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Italian
+ |interface = true
+ |audio     = false
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+|language  = Indonesian
+|interface = hackable
+|audio     = false
+|subtitles = hackable
+|fan       = true
+|notes     = Fan translation by [https://igtcid.blogspot.com/2022/12/the-witcher-3-wild-hunt-game-of-year.html IGTC Team (Indonesia Game Translator Community)]
+}}
+{{L10n/switch
+ |language  = Japanese
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Korean
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     = Audio added in patch 4.0.
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Polish
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Brazilian Portuguese
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Russian
+ |interface = true
+ |audio     = true
+ |subtitles = true
+ |notes     = [https://www.nexusmods.com/witcher3/mods/1616/ Russian Localization Fixes by DJ_Kovrik, download the updated optional file]
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Spanish
+ |interface = true
+ |audio     = false
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Turkish
+ |interface = true
+ |audio     = false
+ |subtitles = true
+ |notes     = 
+ |fan       = 
+}}
+{{L10n/switch
+ |language  = Ukrainian
+ |interface = true
+ |audio     = false
+ |subtitles = true
+ |notes     = Added with [https://steamcommunity.com/ogg/292030/announcements/detail/694273194214819727 The Witcher 3: Wild Hunt — Remastered] release.
+ |fan       = 
+}}
+}}
+{{ii}} Non-English versions also include the English voice files (''enpc.w3speech''), but those can be safely deleted if another language is used.
+
+==VR support==
+{{VR support
+|native 3d                   = hackable
+|native 3d notes             = '''Dual-View Rendering'''<br>Use [https://helixmod.blogspot.com/2016/06/the-witcher-3-wild-hunt.html Geo-11 fix].<br>
+*Uses [[Glossary:Native_3D#Side-by-Side_.28SBS.29|SBS]] by default, or with <code>direct_mode=sbs</code>.<ref name="Geo11">[https://helixmod.blogspot.com/2022/06/announcing-new-geo-11-3d-driver.html Helix Mod - Announcing: New Geo-11 3D driver]</ref>
+*For [[Glossary:Native_3D#Top-and-Bottom_.28TAB.29|TAB]] set <code>direct_mode = tab</code>.
+*For [[Glossary:Native_3D#Interleaved|Interleaved]] set <code>direct_mode=interlaced</code> or <code>direct_mode=checkerboard</code>.
+*For [[Glossary:Native_3D#Frame_Sequential|Frame Sequential]] set <code>direct_mode=nvidia_dx11</code>.
+*For [[Glossary:Native_3D#Eye-Tracked_Lightfield|Eye-Tracked Lightfield]] displays place files within [https://github.com/BramTeurlings/3DGameBridgeGUI/releases 3D Game Bridge GUI].
+*For [[Glossary:Native_3D#Anaglyph|Anaglyph]] use with [[ReShade]] shader [https://github.com/BlueSkyDefender/Depth3D/tree/master/Other%20%20Shaders 3DToElse].<br>
+'''Single-View Depth Reprojection''' (3D+).<br>Use [https://github.com/marcussacana/NewAxis NewAxis] on any [[Glossary:Native_3D#Eye-Tracked_Lightfield|Eye-Tracked Lightfield]] display.<br>Or use [https://www.acer.com/gb-en/spatiallabs/truegame TrueGame] for Acer SpatialLabs displays.
+|nvidia 3d vision            = hackable
+|nvidia 3d vision notes      = See '''Native 3D''' for '''Frame Sequential''' or '''Interleaved'''.
+|tridef 3d                   = true
+|tridef 3d notes             = UI is 2D by default, occasional rendering problems with distance shadows and decals.
+|iz3d notes                  = 
+|vorpx                       = true
+|vorpx modes                 = '''Dual-View Rendering''' (G3D), '''Single-View Depth Reprojection''' (Z3D) or '''Sequential-View Rendering''' (AFR-3D Enhanced Edition)
+|vorpx notes                 = [https://www.vorpx.com/supported-games/ Game officially supported by vorpX.]
+|htc vive                    = 
+|htc vive notes              = 
+|oculus rift                 = 
+|oculus rift notes           = 
+|osvr                        = 
+|osvr notes                  = 
+|keyboard-mouse              = 
+|keyboard-mouse notes        = 
+|3rd space gaming vest       = 
+|3rd space gaming vest notes = 
+|novint falcon               = 
+|novint falcon notes         = 
+|trackir                     = 
+|trackir notes               = 
+|tobii eye tracking          = 
+|tobii eye tracking notes    = 
+|play area seated            = 
+|play area seated notes      = 
+|play area standing          = 
+|play area standing notes    = 
+|play area room-scale        = 
+|play area room-scale notes  = 
+}}
+
+===Other Virtual Reality===
+{{Fixbox|description=Enable VR|ref=|fix=
+# Install [https://reshade.me/#download Reshade with full Add-On Support], inclusive the complete Effect Package Depth3D BlueSkyDefender
+# In the ingame Reshade menu activate SuperDepth3D_VR, follow instructions (Home-Key on keyboard for Menu)
+# Download [https://discord.gg/W2f7YhX/ Generic_Depth_Mod.Addon64], copy it next to your Game.exe
+# In the ingame Reshade menu install generic_depth_mod.addon64 (Add-On Tab)
+# Launch Side by Side 3D on your 3D Compatible TV/Monitor + 3D Glasses or Install [https://www.vorpx.com/ Vorpx Desktop Viewer] or [https://github.com/BlueSkyDefender/Depth3D Depth3D VR Companion App]
+}}
+
+==Issues fixed==
+
+===Axii's alternative mode not working===
+{{ii}} This bug occurs when points are spent both in Delusion and Puppet
+{{Fixbox|description=Disable the Delusion upgrade|ref={{cn|date=November 2016}}}}
+{{Fixbox|description=Alter the delay to use a sign's alternative mode for keyboard|ref=<ref>{{Refurl|url=https://forums.cdprojektred.com/index.php?threads/pc-holding-down-q-to-cast-axii-puppet-does-not-work-in-combat.37796/#post-1824038|title=PC holding down q to cast axii puppet does not work in combat|date=May 2023}}</ref>|fix=
+# Open {{file|{{p|userprofile\Documents}}\The Witcher 3\input.settings}} with a text editor.	
+# Find every instance of <code>IK_Q=(Action=CastSignHold,State=Duration,IdleTime=0.2)</code> and set <code>0.2</code> to <code>0.05</code>
+# Save changes.
+
+'''Notes'''
+{{ii}} This alters the delay to trigger alternative casting mode from 20ms to 5ms.
+}}
+
+{{Fixbox|description=Alter the delay to use a sign's alternative mode for gamepad|ref=<ref>{{Refurl|url=https://www.youtube.com/watch?v=VN8DcgDstk4|title=Credits goes to Luka B in comment section|date=May 2023}}</ref>|fix=
+# Open {{file|{{p|userprofile\Documents}}\The Witcher 3\input.settings}} with a text editor.
+# Find every instance of <code>IK_Pad_RightTrigger=(Action=CastSignHold,State=Duration,IdleTime=0.2)</code> and set <code>0.2</code> to <code>0.05</code>
+# Save changes.
+
+'''Notes'''
+{{ii}} This alters the delay to trigger alternative casting mode from 20ms to 5ms.
+}}
+
+===Proper HUD positioning for different aspect ratios===
+{{ii}} For 16:10 change the value of <code>uiVerticalFrameScale</code> to <code>1.1253</code>.
+{{ii}} For 21:9 change the value of <code>uiHorizontalFrameScale</code> to <code>1.3125</code>.
+
+{{Fixbox|description=Edit user.settings config file|ref={{cn|date=July 2016}}|fix=
+# Open {{file|{{p|userprofile\Documents}}\The Witcher 3\user.settings}} with a text editor.
+# If your aspect ratio is vertically greater than 16:9 increase the value of <code>uiVerticalFrameScale</code> above 1.
+# If your aspect ratio is horizontally greater than 16:9 increase the value of <code>uiHorizontalFrameScale</code> above 1.
+}}
+
+===Stutter while using a controller===
+{{Fixbox|description=Edit the config file hidden.ini|ref={{cn|date=July 2016}}|fix=
+# Open {{file|{{P|game}}\bin\config\base\hidden.ini}}.
+# Change <code>LockControlScheme=0</code> to <code>LockControlScheme=2</code>.
+# Save the file.
+
+'''Notes'''
+{{ii}} Stutter occurs because the game rapidly changes between controller and keyboard prompts.
+{{ii}} This forces the game to use controller prompts.
+{{ii}} There won't be any keyboard prompts even while using keyboard controls.
+}}
+
+===Increase shadow resolution distance===
+{{ii}} Applies only to cascaded shadows. Ray Traced shadows are not affected.
+{{Fixbox|description=Edit user.settings or dx12user.settings config file (depending on whether you run DirectX 11 or DirectX 12 version of the game)|fix=
+# Set desired graphics settings before patching, since opening the settings after this patch will reset it.
+# Set Shadow Quality to Ultra+
+# Open {{file|{{p|userprofile\Documents}}\The Witcher 3\dx12user.settings}} with a text editor.
+# Change the following values and save the file:
+<code>CascadeShadowmapSize=8192</code><br>
+<code>CascadeShadowDistanceScale0=8</code><br>
+<code>CascadeShadowDistanceScale1=4</code><br>
+<code>CascadeShadowDistanceScale2=2</code><br>
+<code>CascadeShadowDistanceScale3=1</code>
+}}
+
+===FPS loss after VRAM 95% usage===
+
+{{ii}} When Ray Tracing or Path Tracing is active, the game fails to clear cached asset data, causing VRAM to saturate. <br>This forces data into slow system RAM, which degrades performance.<ref>{{Refurl|url=https://forums.cdprojektred.com/index.php?threads/witcher-3-ng-ray-tracing-gpu-pci-e-bus-vram-overload-cause-of-fps-drop-stuttering-issue-fixed.11112562/page-3|title=Documentation of issue on CDPR Technical Forum|date=October 2026|s}}</ref><ref>{{Refurl|url=https://wccftech.com/the-witcher-3-next-gen-new-mod-fixes-ray-tracing-memory-leak-issues-increases-performance/|title=Detailed in performance analysis reviews on Wccftech.|date=October 2026}}</ref>
+
+{{Fixbox|description=Lower specific VRAM-heavy graphical settings to keep utilization under 95%.|fix=
+# Launch the game and go to '''Options''' > '''Video''' > '''Graphics'''.
+# Set '''Texture Quality''' to '''High''' or '''Ultra''' instead of '''Ultra+'''.<ref>{{Refurl|url=https://forums.cdprojektred.com/index.php?threads/witcher-3-ng-ray-tracing-gpu-pci-e-bus-vram-overload-cause-of-fps-drop-stuttering-issue-fixed.11112562/page-3|title=Witcher 3 NG Ray Tracing - GPU PCI-E Bus / VRAM Overload cause of FPS drop/stuttering issue|publisher=CD PROJEKT RED Forums|date=2023-01-07}}</ref>
+# Under the Ray Tracing section:
+#* Keep '''Ray Tracing Global Illumination''' set to '''Performance''' (if enabled).
+#* Disable '''Ray-Traced Reflections''' and '''Ray-Traced Shadows''', as each layer allocates significant additional VRAM buffers.
+# Under '''Display''', set '''NVIDIA DLSS''' / upscaling to '''Quality''' or '''Balanced''' to decrease the internal render resolution and corresponding frame buffer size.
+}}
+
+{{Fixbox|description=NVIDIA: Set "CUDA - Sysmem Fallback Policy" to "Prefer No Sysmem Fallback" within NVIDIA Control Panel.|ref=<ref>{{Refurl|url=https://web.archive.org/web/20250306190628/https://www.nexusmods.com/witcher3/mods/8083|title=Credit to user "vens162" in comment section |date=October 2026}}</ref>|fix=
+# Open the NVIDIA Control Panel.
+# Click on 	'''Manage 3D settings''' under the '''3D Settings''' list.
+# Select the '''Program Settings''' tab.
+# Select '''The Witcher 3''' (<code>witcher3.exe</code>) from the dropdown menu. <br>If it is not listed, click '''Add''' and locate the executable manually.
+# Scroll down the list of settings to find '''CUDA - Sysmem Fallback Policy'''.
+# Click the setting value and change it to '''Prefer No Sysmem Fallback'''.
+# Click Apply in the bottom right corner to save your changes.
+}}
+
+==Other information==
+===AI usage===
+{{AI usage
+|code         = 
+|2d graphics  = 
+|3d graphics  = 
+|animation    = 
+|audio        = 
+|speech       = 
+|video        = 
+|text         = 
+|localization = 
+|concept      = 
+}}
+{{ii}} No AI usage is disclosed on the game's Steam store page or for any of its DLC, which is required in order for any game to be listed on the platform.<ref>{{Refurl|url=https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt__Remastered/|title=The Witcher 3: Wild Hunt — Remastered on Steam|date=2026-10-07}}</ref>
+
+===API===
+{{API
+|direct3d versions      = 12
+|direct3d notes         = Direct3D 12 support added in December 2022 with patch 4.0. Direct3D 11 support was removed in September 2026 with patch 5.0.<ref>{{Refurl|url=https://support.cdprojektred.com/en/witcher-3/pc/sp-technical/issue/2973/upcoming-changes-to-minimum-requirements-for-the-witcher-3-wild-hunt|title=Upcoming changes to minimum requirements for The Witcher 3: Wild Hunt|date=2026-10-06}}</ref>
+|directdraw versions    = 
+|directdraw notes       = 
+|opengl versions        = 
+|opengl notes           = 
+|glide versions         = 
+|glide notes            = 
+|software mode          = 
+|software mode notes    = 
+|mantle support         = 
+|mantle support notes   = 
+|vulkan versions        = 
+|vulkan notes           = 
+|dos modes              = 
+|dos modes notes        = 
+|shader model versions  = 5
+|shader model notes     = 
+|windows 32-bit exe     = false
+|windows 64-bit exe     = true
+|windows arm app        = unknown
+|windows exe notes      = 
+|macos intel 32-bit app = 
+|macos intel 64-bit app = 
+|macos arm app          = unknown
+|macos app notes        = 
+|linux 32-bit executable= 
+|linux 64-bit executable= 
+|linux arm app          = unknown
+|linux executable notes = 
+}}
+
+===Middleware===
+{{Middleware
+|physics          = PhysX, SpeedTree
+|physics notes    = PhysX v3.3.0<br>Makes use of some Nvidia-accelerated effects ('''HairWorks''') that may cause slowdown on AMD GPUs. See [[#Improve HairWorks performance on AMD hardware]] to mitigate.
+|audio            = Wwise
+|audio notes      = 
+|interface        = Scaleform
+|interface notes  = 
+|input            = 
+|input notes      = 
+|cutscenes        = Criware
+|cutscenes notes  = 
+|multiplayer      = 
+|multiplayer notes= 
+}}
+
+===Enable Debug Console===
+{{Fixbox|description=Modify general.ini file|ref=<ref name="forums.cdprojektred.com">[https://forums.cdprojektred.com/index.php?threads/a-compendium-of-tweaks-and-fixes-for-the-pc-version.36300/page-34#post-1899959 A compendium of tweaks and fixes for the PC version]</ref>|fix=
+# Open {{file|{{p|game}}\bin\config\base\general.ini}} with a text editor.
+# Add <code>DBGConsoleOn=true</code> under <code>[General]</code> section.
+# You can open the console with ` (on an US layout keyboard, might differ for other layouts).
+}}
+
+===Improve HairWorks performance on AMD hardware===
+{{Fixbox|description=Create a profile via Catalyst Control Center|ref=<ref name="support.amd.com">[https://web.archive.org/web/20150619050328/http://support.amd.com/en-us/kb-articles/Pages/The-Witcher3.aspx Important Information about AMD Catalyst™ Driver Support for Project CARS and The Witcher 3: Wild Hunt]</ref>|fix=
+# Create a profile for {{file|witcher3.exe}} in the Catalyst Control Center.
+# Set '''Tessellation Mode''' to '''Override application settings'''.
+# Set the '''Maximum Tessellation Level''' to either '''2x''', '''4x''', '''8x''' or '''16x'''.
+}}
+
+===Installing mods===
+{{ii}} The [https://www.nexusmods.com/witcher3/mods/2678 Witcher 3 Mod Manager by stefan3372], which takes care of DLC/Mods folders and .ini files, is recommended for the not-so-tech-savvy. However, the ideal method is manual installation.
+{{ii}} After the Next Gen Update (version 4.00 and beyond) the following mods are now included with the game: The Witcher 3 HD Reworked Project, HD Monsters Reworked, Immersive Real-time Cutscenes, Nitpicker's Patch and World Map Fixes.<ref>{{Refurl|url=https://www.ign.com/wikis/the-witcher-3-wild-hunt/The_Witcher_3_Complete_Edition_Mods_List|title=The Witcher 3 Complete Edition Mods List|date=2022-12-20}}</ref>
+{{ii}} As of update 5.00, mod.io integration is built into the game.
+
+===[https://www.nexusmods.com/witcher3/mods/3268 NPC Physics 60 FPS Fix]===
+{{ii}} Community mod that fixes hair, fur, clothing, medallions, weapons, etc, behavior when the game runs at different than 30 fps speeds. The mod was built to run with the [https://www.nexusmods.com/witcher3/mods/3168 E3 Geralt Hair Physics 60FPS Fix] and [https://www.nexusmods.com/witcher3/mods/3738 Hairworks Hair Physics 60fps Fix] that fixes the same problem on Geralt's non-HairWorks and HairWorks hair.
+
+===[https://www.nexusmods.com/witcher3/mods/4989 True E3 Armour]===
+{{ii}} Aims to bring back the accurate E3 armor textures and mesh for the starting viper armour appearance presented in the pre-release 2014 gameplay demo into the final game. This includes "High definition broken chainmails with accurate leather strings, remodelled boots, pants, gloves, belt, 4k texture maps with realistic leather specular". Also as an optional "shortgloves" are added as dlc.
+
+===[https://www.nexusmods.com/witcher3/mods/4847 E3 Roach Collection]===
+{{ii}} Restores the E3 appearance of Roach with Improved skin, Fixed contact shadows, Improved colors & 4k texture maps. Available in multiple variants to choose from.
+
+===Performance fix for 2-4 core CPUs===
+{{ii}} [https://mion.yosei.fi/BES/ Battle Encoder Shirasé (BES)] + [https://www.nexusmods.com/witcher3/mods/556 instruction] -  After the patch 1.06-1.07, it's almost impossible to play with 2 core processor. It's a small tool that throttles the CPU usage of the process you “target”: for instance, you can limit the CPU usage of a process which would use CPU 100%, down to 99%, like in this case. As a result, the game becomes playable.
+
+==System requirements==
+{{System requirements
+|OSfamily = Windows
+
+|minTGT   = 1080p, 30fps
+|minOS    = 11
+|minCPU   = Intel Core i3-8400
+|minCPU2  = AMD Ryzen 5 2600
+|minRAM   = 12 GB
+|minHD    = 60 GB{{note|As of Update 5.00}}
+|minGPU   = Nvidia GeForce GTX 1660
+|minGPU2  = AMD Radeon RX 5500 XT 8GB
+|minGPU3  = Intel Arc A580
+|minVRAM  = 6 GB
+|minDX    = 
+|minSM    = 
+
+|recTGT   = 1080p, 60fps
+|recOS    = 
+|recCPU   = Intel Core i7-8700K
+|recCPU2  = AMD Ryzen 5 3600X
+|recRAM   = 16 GB
+|recHD    = 
+|recGPU   = Nvidia GeForce GTX 770
+|recGPU2  = AMD Radeon R9 290
+|recGPU3  = Intel Arc B580
+|recVRAM  = 8 GB
+|recDX    = 
+|recSM    = 
+
+|alt1Title = Ultra
+|alt1TGT   = 1440p, 60 fps
+|alt1OS    = 
+|alt1CPU   = Intel Core i7-13700K
+|alt1CPU2  = AMD Ryzen 7 7700X
+|alt1RAM   = 24 GB
+|alt1GPU   = Nvidia GeForce RTX 3070 Ti
+|alt1GPU2  = AMD Radeon RX 6800 XT
+|alt1GPU3  = Intel Arc B580 (w/ XeSS enabled)
+|alt1VRAM  = 
+|alt1DX    =
+|notes     =
+}}
+{{ii}} Both the Legacy pre-4.0 version of the game and the Next-Gen version have lower system requirements.
+{{ii}} System requirement for Ray-Tracing presets can be found [https://support.cdprojektred.com/en/witcher-3/pc/sp-technical/issue/3000/updated-pc-requirements-for-the-witcher-3-wild-hunt here].
+
+{{References}}
+{{GOG.com Enhancement Project}}

@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import type { GameIndexEntry, GameRecord, HardwareModel } from '@can-i-run-it/domain';
 import { resolveGameRequirements, type UnresolvedName } from './games/resolve-game-requirements';
 import { createPoliteFetch } from './http/polite-fetch';
+import { fetchPcgwRequirements } from './pcgamingwiki/fetch-pcgw-requirements';
 import { parseSteamRequirements } from './steam/parse-steam-requirements';
 import { steamImage } from './steam/steam-image';
 
@@ -29,6 +30,7 @@ async function main() {
   const index: GameIndexEntry[] = [];
   const unresolved = new Map<string, number>();
   let skipped = 0;
+  let completedByPcgw = 0;
 
   for (const [position, appid] of appids.entries()) {
     const body = await get(
@@ -43,10 +45,16 @@ async function main() {
       continue;
     }
 
-    const { requirements, unresolved: missing } = resolveGameRequirements(
-      parseSteamRequirements(details.data.pc_requirements),
-      catalog,
-    );
+    const steam = parseSteamRequirements(details.data.pc_requirements);
+    let { requirements, unresolved: missing } = resolveGameRequirements(steam, catalog);
+    // Steam didn't name a CPU or GPU precisely: try PCGamingWiki for that component.
+    if (needsFallback(requirements)) {
+      const pcgw = await fetchPcgwRequirements(appid, details.data.name);
+      if (pcgw) {
+        ({ requirements, unresolved: missing } = resolveGameRequirements(steam, catalog, pcgw));
+        if (usesFallback(requirements)) completedByPcgw++;
+      }
+    }
     countUnresolved(unresolved, missing);
 
     const record: GameRecord = {
@@ -78,7 +86,7 @@ async function main() {
     `${JSON.stringify({ skipped, unresolved: report }, null, 2)}\n`,
   );
   console.log(
-    `${index.length} games written, ${skipped} skipped, ${report.length} distinct unresolved names (details: .cache/pipeline/games-report.json)`,
+    `${index.length} games written (${completedByPcgw} completed by PCGamingWiki), ${skipped} skipped, ${report.length} distinct unresolved names (details: .cache/pipeline/games-report.json)`,
   );
 }
 
@@ -125,6 +133,20 @@ async function selectGames(): Promise<number[]> {
 /** SteamSpy gives owners as a range: "20,000,000 .. 50,000,000". */
 function ownersLowerBound(owners: string | undefined): number {
   return Number(owners?.split('..')[0]?.replace(/[^\d]/g, '') || 0);
+}
+
+/** True when a tier is missing, or names a CPU or GPU that matched no catalog model. */
+function needsFallback(requirements: GameRecord['requirements']): boolean {
+  if (!requirements.minimum) return true;
+  return [requirements.minimum, requirements.recommended].some(
+    (tier) => tier && [tier.cpu, tier.gpu].some((component) => component.ids.length === 0),
+  );
+}
+
+function usesFallback(requirements: GameRecord['requirements']): boolean {
+  return [requirements.minimum, requirements.recommended].some(
+    (tier) => tier && [tier.cpu, tier.gpu].some((component) => component.source === 'pcgamingwiki'),
+  );
 }
 
 function countUnresolved(counts: Map<string, number>, names: UnresolvedName[]) {

@@ -90,7 +90,9 @@
     "sharedMemory": "Partagée (graphique intégré)",
     "reportIssue": "Signaler une erreur",
     "estimates": "Les scores de performance sont des estimations (±20 %), d'où la zone « limite ».",
-    "howItWorks": "Comment ça marche ?"
+    "howItWorks": "Comment ça marche ?",
+    "viaPcgw": "(via PCGamingWiki)",
+    "pcgwAttribution": "Certaines exigences, imprécises sur Steam, viennent de <a href=\"https://www.pcgamingwiki.com/\" target=\"_blank\" rel=\"noopener\">PCGamingWiki</a> (CC BY-NC-SA 3.0)."
   },
   "about": {
     "title": "Sources et méthode",
@@ -109,7 +111,7 @@
     },
     "sources": {
       "title": "Sources et licences",
-      "body": "Configurations requises et images : Steam, chargées depuis Steam. Liste des jeux populaires : SteamSpy (sélection uniquement).\nCaractéristiques matérielles : Wikipédia, licence CC BY-SA 4.0 ; le catalogue dérivé est publié sous la même licence.\nCe site n'est affilié ni à Valve ni à aucun éditeur. Code source (MIT) : <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
+      "body": "Configurations requises et images : Steam, chargées depuis Steam. Quand Steam ne nomme pas précisément un processeur ou une carte graphique : PCGamingWiki, licence CC BY-NC-SA 3.0. Liste des jeux populaires : SteamSpy (sélection uniquement).\nCaractéristiques matérielles : Wikipédia, licence CC BY-SA 4.0 ; le catalogue dérivé est publié sous la même licence.\nCe site n'est affilié ni à Valve ni à aucun éditeur. Code source (MIT) : <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
     },
     "privacy": {
       "title": "Vie privée",

@@ -19,7 +19,7 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 ## Fiabilité des données
 
 - [ ] **P1 · Claude** — Brancher PCGamingWiki en secours de Steam quand la config Steam est illisible ou vague
-  _Prévu dans la conception, pas encore fait : aujourd'hui seul Steam alimente les jeux._
+  _Code fait et testé (parseur, fusion, attribution sur le site). Reste : finir la régénération des données, vérifier le gain, commiter les données._
 - [ ] **P1 · Claude** — Réduire les « ? » : aujourd'hui 14 % des CPU et 20 % des GPU minimaux non reconnus
   - [ ] Familles de cartes (« GeForce 500 series », « Radeon HD 6000 series »)
   - [ ] Cartes d'avant DirectX 10 (GeForce 6/7, Radeon X1000)
