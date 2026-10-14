@@ -18,10 +18,7 @@
     "raw": [
      "GeForce 7300/Radeon 9200"
     ],
-    "ids": [
-     "nvidia-geforce-9200-c78",
-     "nvidia-geforce-9200-c79"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "directX": 9,
@@ -60,9 +57,7 @@
      "nvidia-geforce-8800-gts-core-112",
      "nvidia-geforce-8800-gts-512",
      "nvidia-geforce-8800-gtx",
-     "nvidia-geforce-8800-ultra",
-     "nvidia-geforce-8800m-gts",
-     "nvidia-geforce-8800m-gtx"
+     "nvidia-geforce-8800-ultra"
     ]
    },
    "ramGb": 4,

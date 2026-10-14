@@ -46,12 +46,13 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-10400 2",
-     "9 GHz AMD Ryzen 5 3600 3",
-     "6 GHz"
+     "Intel Core i5-2500 3.3 GHz",
+     "AMD FX II 6350 3.9 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 62
+    "ids": [
+     "intel-core-i5-2500"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

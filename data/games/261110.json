@@ -53,7 +53,12 @@
     "ids": [
      "nvidia-geforce-gts-250-g92-426",
      "nvidia-geforce-gts-250-g92-428",
-     "intel-hd-graphics"
+     "amd-radeon-hd-2900-gt-256mb",
+     "amd-radeon-hd-2900-gt-512mb",
+     "amd-radeon-hd-2900-pro-512mb",
+     "amd-radeon-hd-2900-pro-1gb",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb"
     ]
    },
    "ramGb": 8,

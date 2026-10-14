@@ -18,10 +18,15 @@
    },
    "gpu": {
     "raw": [
-     "512 MB DirectX 10–compliant with Shader Model 4.0"
+     "Nvidia GeForce 8800 GT",
+     "ATI Radeon HD 3870"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 9,

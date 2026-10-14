@@ -48,9 +48,13 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Ryzen 5 CPU"
+     "AMD Ryzen 5",
+     "Intel Core i5-3570K"
     ],
-    "ids": []
+    "ids": [
+     "intel-core-i5-3570k"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

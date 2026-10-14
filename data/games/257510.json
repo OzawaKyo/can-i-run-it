@@ -16,9 +16,15 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 11 class GPU with VRAM (nVidia GeForce 480 GTX, AMD Radeon HD 5870) 1GB"
+     "Nvidia GeForce GTX 480",
+     "ATI Radeon HD 5870"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-480",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "vramGb": 1,

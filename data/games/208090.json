@@ -22,8 +22,7 @@
     "ids": [
      "amd-radeon-hd-4350-256mb",
      "amd-radeon-hd-4350-512mb",
-     "amd-radeon-hd-4350-1gb",
-     "amd-radeon-3000-graphics"
+     "amd-radeon-hd-4350-1gb"
     ]
    },
    "ramGb": 2,

@@ -20,9 +20,7 @@
      "ATI x800",
      "Intel HD3000 with 256MB VRAM"
     ],
-    "ids": [
-     "amd-radeon-3000-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "directX": 9,

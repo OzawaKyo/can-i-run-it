@@ -25,8 +25,7 @@
      "amd-radeon-hd-3650-256mb",
      "amd-radeon-hd-3650-512mb",
      "amd-radeon-hd-3650-1gb",
-     "nvidia-geforce-8800-gt",
-     "amd-radeon-3000-graphics"
+     "nvidia-geforce-8800-gt"
     ]
    },
    "ramGb": 2,
@@ -60,9 +59,7 @@
      "nVidia GT400 series",
      "or Intel IvyBridge integrated graphics"
     ],
-    "ids": [
-     "intel-hd-graphics-5000"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "directX": 11,

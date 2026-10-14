@@ -60,7 +60,8 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-660",
-     "intel-hd-graphics"
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
     ]
    },
    "ramGb": 8,

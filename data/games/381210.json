@@ -59,12 +59,14 @@
    },
    "gpu": {
     "raw": [
-     "DX11 Compatible GeForce 760",
-     "AMD HD 8800 with of RAM 4GB"
+     "NVIDIA GeForce GTX 760",
+     "AMD Radeon HD 8800",
+     "Higher GPU with at least VRAM 4GB"
     ],
     "ids": [
-     "intel-hd-graphics"
-    ]
+     "nvidia-geforce-gtx-760"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 4,

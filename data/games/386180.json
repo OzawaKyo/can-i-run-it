@@ -22,9 +22,7 @@
      "AMD Radeon HD 7000 series",
      "Nvidia GeForce 500 series"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "storage": {

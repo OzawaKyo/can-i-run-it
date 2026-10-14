@@ -64,8 +64,7 @@
      "AMD Radeon HD 7800 Series with VRAM 2GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-660",
-     "intel-hd-graphics"
+     "nvidia-geforce-gtx-660"
     ]
    },
    "ramGb": 6,

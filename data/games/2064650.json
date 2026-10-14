@@ -48,9 +48,13 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GT 1060 6GB"
+     "Nvidia GeForce GTX 1060"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 6,

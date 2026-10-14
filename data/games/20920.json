@@ -31,8 +31,6 @@
      "nvidia-geforce-8800-gts-512",
      "nvidia-geforce-8800-gtx",
      "nvidia-geforce-8800-ultra",
-     "nvidia-geforce-8800m-gts",
-     "nvidia-geforce-8800m-gtx",
      "amd-radeon-hd-3850-256mb",
      "amd-radeon-hd-3850-512mb",
      "amd-radeon-hd-3850-1gb"
@@ -68,7 +66,7 @@
      "Radeon HD 4850 (). Resolution: 1440x900. 1GB"
     ],
     "ids": [
-     "amd-radeon-r7-260",
+     "nvidia-geforce-gtx-260",
      "amd-radeon-hd-4850-1gb"
     ]
    },

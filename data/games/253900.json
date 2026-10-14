@@ -18,9 +18,8 @@
     "raw": [
      "3D graphics card with DirectX 9.0c support"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
    "directX": 9,
@@ -52,9 +51,8 @@
     "raw": [
      "3D graphics card with DirectX 9.0c support"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

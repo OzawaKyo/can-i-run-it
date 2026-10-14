@@ -47,10 +47,7 @@
     "raw": [
      "NVIDIA GeForce GTX 860"
     ],
-    "ids": [
-     "nvidia-geforce-gtx-860m-gm107",
-     "nvidia-geforce-gtx-860m-gk104"
-    ]
+    "ids": []
    },
    "ramGb": 8,
    "directX": 9,

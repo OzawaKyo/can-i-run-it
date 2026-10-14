@@ -40,6 +40,42 @@
     "other requirements": "Broadband Internet connection",
     "supported controls": ": Keyboard + Mouse, or Xbox 360 controller, Xbox One controller, or compatible XInput controller"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz quad core"
+    ],
+    "ids": [],
+    "estimatedScore": 33,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon HD 5850",
+     "Nvidia GeForce GTX 460"
+    ],
+    "ids": [
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb",
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 4,
+   "vramGb": 0.75,
+   "directX": 9,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "2.4 GHz quad core",
+    "graphics": "ATI Radeon HD 5850 / Nvidia GeForce GTX 460",
+    "memory": "4 GB",
+    "storage": "9 GB"
+   }
   }
  }
 }

@@ -20,11 +20,7 @@
      "ATI Radeon 8500",
      "Intel i915 chipset 1024x600 resolution"
     ],
-    "ids": [
-     "nvidia-geforce-8500-gt-256mb",
-     "nvidia-geforce-8500-gt-512mb",
-     "nvidia-geforce-8500-gt-1gb"
-    ]
+    "ids": []
    },
    "ramGb": 1,
    "directX": 9,

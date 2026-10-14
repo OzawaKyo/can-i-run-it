@@ -39,9 +39,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel(R) Core2 Duo CPU E4xxx"
+     "Intel Pentium 4 3.0 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 31,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

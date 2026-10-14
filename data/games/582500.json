@@ -9,9 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5 4000 series"
+     "Intel Core i3-4130"
     ],
-    "ids": []
+    "ids": [
+     "intel-core-i3-4130"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

@@ -47,9 +47,7 @@
     "raw": [
      "256 MB Video Card using Shader Model 3 (Nvidia GeForce 7800GT or any Nvidia GT200 series, ATI X1900 or any HD3600 series"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "storage": {

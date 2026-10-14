@@ -36,6 +36,36 @@
     "network": "Broadband Internet connection",
     "storage": "5 GB available space"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 660 Ti"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660-ti"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5",
+    "graphics": "Nvidia GeForce GTX 660 Ti",
+    "memory": "8 GB",
+    "storage": "10 GB"
+   }
   }
  }
 }

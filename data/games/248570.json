@@ -23,8 +23,7 @@
     ],
     "ids": [
      "intel-hd-graphics-4000",
-     "amd-radeon-630-laptop-2gb",
-     "amd-radeon-630-laptop-4gb",
+     "nvidia-geforce-gt-630",
      "amd-radeon-hd-7670-512mb",
      "amd-radeon-hd-7670-1gb"
     ]

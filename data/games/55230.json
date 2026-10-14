@@ -16,11 +16,22 @@
    },
    "gpu": {
     "raw": [
-     "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA GeForce 8800 series. ATI Radeon HD3800 series"
+     "Nvidia GeForce 8800",
+     "ATI Radeon HD 3800"
     ],
     "ids": [
-     "intel-hd-graphics"
-    ]
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 9,
@@ -42,10 +53,13 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Any Quad Core Processor (Intel Core i5 or AMD Phenom II X4)",
-     "3.0+ Dual Core CPU"
+     "Intel Core i5",
+     "AMD Phenom II X4",
+     "Quad Core Dual Core 3.0 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 42,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

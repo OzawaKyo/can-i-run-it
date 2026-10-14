@@ -21,9 +21,7 @@
     "raw": [
      "32 MB video card with DirectX 9.0 compatible drivers (\"GeForce\")"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 0.125,
    "storage": {
@@ -38,6 +36,37 @@
     "directx version": "Microsoft DirectX 9.0",
     "storage": "915 MB of free hard disk space (+ 635 MB if video card does NOT support DirectX Texture Compression)",
     "sound card": "Sound Card with DirectX 9.0"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon XP",
+     "Intel Pentium 4"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon 8500",
+     "Nvidia GeForce 3"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 0.25,
+   "vramGb": 0.0625,
+   "directX": 9,
+   "storage": {
+    "gb": 1.55,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "AMD Athlon XP / Intel Pentium 4",
+    "graphics": "ATI Radeon 8500 / Nvidia GeForce 3",
+    "memory": "256 MB",
+    "storage": "1.55 GB"
    }
   }
  }

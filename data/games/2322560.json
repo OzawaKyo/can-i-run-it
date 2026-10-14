@@ -15,9 +15,12 @@
    },
    "gpu": {
     "raw": [
-     "Discrete graphics card"
+     "Intel UHD Graphics 730"
     ],
-    "ids": []
+    "ids": [
+     "intel-uhd-graphics-730"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

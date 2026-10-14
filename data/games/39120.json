@@ -38,6 +38,32 @@
     "sound": "DirectX 8.1 compliant card",
     "other": ": Broadband internet connection (DSL, cable modem or other high speed connection)"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTS 250"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 4,
+   "raw": {
+    "processor": "Dual Core 2.2 GHz",
+    "graphics": "Nvidia GeForce GTS 250",
+    "memory": "4 GB"
+   }
   }
  }
 }

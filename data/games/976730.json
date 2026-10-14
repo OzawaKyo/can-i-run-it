@@ -41,12 +41,27 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "AMD Ryzen 7 2700U 2.20 GHz",
+     "Intel Core i7-8750H 2.20 GHz"
+    ],
+    "ids": [
+     "amd-ryzen-7-2700u",
+     "intel-core-i7-8750h"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "AMD Radeon R7 360",
+     "Nvidia GeForce GTX 560 Ti"
+    ],
+    "ids": [
+     "amd-radeon-r7-360",
+     "amd-radeon-r9-360",
+     "nvidia-geforce-gtx-560-ti"
+    ],
+    "source": "pcgamingwiki"
    },
    "raw": {}
   }

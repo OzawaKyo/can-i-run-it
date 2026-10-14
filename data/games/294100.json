@@ -34,6 +34,26 @@
     "graphics": "Intel HD Graphics 4000 or other shader model 4.0",
     "storage": "1 GB available space"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-2600K"
+    ],
+    "ids": [
+     "intel-core-i7-2600k"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "raw": {
+    "processor": "Intel Core i7-2600K",
+    "memory": "8 GB"
+   }
   }
  }
 }

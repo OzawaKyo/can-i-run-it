@@ -22,24 +22,7 @@
      "NVIDIA 7200",
      "Intel 965"
     ],
-    "ids": [
-     "nvidia-geforce-9600-gs",
-     "nvidia-geforce-9600-gso-384mb",
-     "nvidia-geforce-9600-gso-768mb",
-     "nvidia-geforce-9600-gso-1.5gb",
-     "nvidia-geforce-9600-gso-512",
-     "nvidia-geforce-9600-gt-green-edition-512mb",
-     "nvidia-geforce-9600-gt-green-edition-1gb",
-     "nvidia-geforce-9600-gt-512mb",
-     "nvidia-geforce-9600-gt-1gb",
-     "nvidia-geforce-9600-gt-rev-2-512mb",
-     "nvidia-geforce-9600-gt-rev-2-1gb",
-     "nvidia-geforce-9600-gt-mac-edition",
-     "nvidia-geforce-9600-gtx",
-     "nvidia-geforce-9600m-gs",
-     "nvidia-geforce-9600m-gt-512mb",
-     "nvidia-geforce-9600m-gt-1gb"
-    ]
+    "ids": []
    },
    "ramGb": 0.5,
    "raw": {
@@ -72,11 +55,7 @@
      "nvidia-geforce-8600-gt-mac-edition",
      "nvidia-geforce-8600-gts-256mb",
      "nvidia-geforce-8600-gts-512mb",
-     "nvidia-geforce-8600-gts-mac-edition",
-     "nvidia-geforce-8600m-gs-256mb",
-     "nvidia-geforce-8600m-gs-512mb",
-     "nvidia-geforce-8600m-gt-256mb",
-     "nvidia-geforce-8600m-gt-512mb"
+     "nvidia-geforce-8600-gts-mac-edition"
     ]
    },
    "ramGb": 1,

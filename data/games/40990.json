@@ -18,9 +18,8 @@
     "raw": [
      "3D Graphics card compatible with DirectX 9.0"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -36,6 +35,26 @@
     "directx": "Version 9.0",
     "storage": "3 GB available space",
     "sound card": "DirectX 9.0c compatible sound card Compatibility notice: Windows 8 and above require DirectPlay. Windows XP 64-bit is not supported."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium III 700 MHz",
+     "AMD Athlon 700 MHz"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.125,
+   "vramGb": 0.0625,
+   "raw": {
+    "processor": "Intel Pentium III 700 MHz / AMD Athlon 700 MHz",
+    "memory": "128 MB"
    }
   }
  }

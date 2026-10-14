@@ -9,11 +9,13 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel E6750 Core 2 Duo 2.66 GHz",
-     "AMD Athlon X2 2.7 GHZ"
+     "Intel Core 2 Duo E6750 2.66 GHz",
+     "AMD Athlon X2 2.7 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 28
+    "ids": [
+     "intel-core-2-duo-e6750"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -21,7 +23,7 @@
      "NVIDIA GeForce GTX 670 2GB"
     ],
     "ids": [
-     "intel-hd-graphics",
+     "amd-radeon-hd-7770-ghz-edition-2gb",
      "nvidia-geforce-gtx-670"
     ]
    },

@@ -8,8 +8,13 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium 4 1.7 GHz",
+     "AMD Athlon XP 1700+"
+    ],
+    "ids": [],
+    "estimatedScore": 18,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],
@@ -22,8 +27,13 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium 4 3.0 GHz",
+     "AMD Athlon XP 3000+"
+    ],
+    "ids": [],
+    "estimatedScore": 31,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],

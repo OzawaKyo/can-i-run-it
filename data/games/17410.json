@@ -35,6 +35,41 @@
     "storage": "8 GB free space",
     "sound": "DirectX 9.0c compatible sound card"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 8800"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "raw": {
+    "processor": "Intel Core 2 Duo 2.0 GHz",
+    "graphics": "Nvidia GeForce 8800",
+    "memory": "2 GB"
+   }
   }
  }
 }

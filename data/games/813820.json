@@ -9,11 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Core 2 Duo 2.4 GHz",
-     "Athlon X2 2.7 GHz"
+     "Intel Core i5-2320 3.0 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 25
+    "ids": [
+     "intel-core-i5-2320"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

@@ -8,8 +8,13 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium 4 2.4 GHz",
+     "AMD Athlon XP 2800+"
+    ],
+    "ids": [],
+    "estimatedScore": 25,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],

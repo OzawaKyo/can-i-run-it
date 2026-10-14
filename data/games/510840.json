@@ -18,13 +18,13 @@
    },
    "gpu": {
     "raw": [
-     "DirectX10 Compatible GPU",
-     "NVIDIA GeForce 470 GTX",
-     "AMD Radeon 6870 HD series card"
+     "Nvidia GeForce GTX 470",
+     "AMD Radeon 6870 HD"
     ],
     "ids": [
-     "intel-hd-graphics"
-    ]
+     "nvidia-geforce-gtx-470"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 10,

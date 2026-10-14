@@ -18,9 +18,7 @@
     "raw": [
      "Graphics card with DX10 capabilities. Anything made since 2009 should work."
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "directX": 10,
@@ -49,9 +47,7 @@
     "raw": [
      "Graphics card with DX10 capabilities. Anything made since 2009 should work."
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "directX": 10,

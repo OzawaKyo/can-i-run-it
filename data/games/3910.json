@@ -5,5 +5,44 @@
  "source": "steam",
  "updatedAt": "2026-10-14",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3910/header.jpg?t=1569013660",
- "requirements": {}
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium II 400 MHz"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.03125,
+   "directX": 8,
+   "storage": {
+    "gb": 1.8,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Pentium II 400 MHz",
+    "memory": "32 MB (base game), 128 MB (Conquests)",
+    "storage": "1.8 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.25,
+   "raw": {
+    "memory": "256 MB"
+   }
+  }
+ }
 }

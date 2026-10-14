@@ -24,7 +24,8 @@
      "nvidia-geforce-gtx-660",
      "nvidia-geforce-gtx-1050-gp107-300",
      "nvidia-geforce-gtx-1050-gp107-301-k1",
-     "intel-hd-graphics"
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb"
     ]
    },
    "ramGb": 8,

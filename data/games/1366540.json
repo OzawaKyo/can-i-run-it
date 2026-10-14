@@ -9,10 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "i3-530 2.93GHZ 2 Core"
+     "Intel Core i3-530 2.93 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 34
+    "ids": [
+     "intel-core-i3-530"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -52,10 +54,12 @@
    },
    "gpu": {
     "raw": [
-     "Dedicated graphics card",
-     "GTX 2070"
+     "Nvidia GeForce RTX 2070"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-rtx-2070"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 32,
    "directX": 11,

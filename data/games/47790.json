@@ -31,6 +31,25 @@
     "graphics": "GeForce 7800 GT / ATI X1900",
     "graphics memory": "256MB"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz Quad Core"
+    ],
+    "ids": [],
+    "estimatedScore": 28,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "vramGb": 0.5,
+   "directX": 10,
+   "raw": {
+    "processor": "2.0 GHz Quad Core"
+   }
   }
  }
 }

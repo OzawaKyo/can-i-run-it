@@ -36,6 +36,25 @@
     "sound": "DirectX 9.0c compatible",
     "storage": "15GB"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 8800 GTS/640"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-gt-640"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "raw": {
+    "graphics": "Nvidia GeForce 8800 GTS/640"
+   }
   }
  }
 }

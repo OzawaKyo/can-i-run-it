@@ -17,9 +17,16 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 10.1 (e.g. AMD Radeon HD 6450, Nvidia GeForce GT 460)"
+     "AMD Radeon HD 6450",
+     "Nvidia GeForce GT 460"
     ],
-    "ids": []
+    "ids": [
+     "amd-radeon-hd-6450",
+     "amd-radeon-hd-6450-512mb",
+     "amd-radeon-hd-6450-1gb",
+     "amd-radeon-hd-6450-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 11,
@@ -49,9 +56,15 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 11 (e.g. AMD Radeon 290x, Nvidia GeForce GTX 970)"
+     "AMD Radeon HD 7870",
+     "Nvidia GeForce GTX 660"
     ],
-    "ids": []
+    "ids": [
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt",
+     "nvidia-geforce-gtx-660"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 6,
    "directX": 11,

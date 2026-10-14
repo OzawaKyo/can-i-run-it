@@ -16,9 +16,15 @@
    },
    "gpu": {
     "raw": [
-     "512MB Direct3D 10 capable video card (GeForce 8800 GT or Radeon HD 2900XT)"
+     "Nvidia GeForce 8800 GT",
+     "ATI Radeon HD 2900 XT"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "storage": {
@@ -44,9 +50,15 @@
    },
    "gpu": {
     "raw": [
-     "1024 MB Direct3D 11 capable video card (GeForce GTX 470 or Radeon HD 5850)"
+     "Nvidia GeForce GTX 470",
+     "ATI Radeon HD 5850"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "storage": {

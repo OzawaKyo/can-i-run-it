@@ -48,9 +48,16 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GTX 1050 2048 VRAM; Radeon RX 460 4096 VRAM"
+     "Nvidia GeForce GTX 1050",
+     "AMD Radeon RX 460"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "storage": {

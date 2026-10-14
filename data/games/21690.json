@@ -28,12 +28,8 @@
      "nvidia-geforce-9800-gtx",
      "nvidia-geforce-9800-gtxplus",
      "nvidia-geforce-9800-gx2",
-     "nvidia-geforce-9800m-gs",
-     "nvidia-geforce-9800m-gts-512mb",
-     "nvidia-geforce-9800m-gts-1gb",
-     "nvidia-geforce-9800m-gt",
-     "nvidia-geforce-9800m-gtx",
-     "intel-hd-graphics"
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb"
     ]
    },
    "ramGb": 4,
@@ -72,7 +68,8 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-650",
-     "intel-hd-graphics"
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb"
     ]
    },
    "ramGb": 4,

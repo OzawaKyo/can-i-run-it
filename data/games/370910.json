@@ -38,10 +38,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "1 gigahertz (GHz) 32-bit (x86)",
-     "64-bit (x64) processor"
+     "1 GHz (32 or 64-bit)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

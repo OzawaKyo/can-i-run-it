@@ -22,18 +22,17 @@
      "with Shader Model 3 support"
     ],
     "ids": [
-     "intel-hd-graphics",
+     "amd-radeon-hd-2600-pro-256mb",
+     "amd-radeon-hd-2600-pro-512mb",
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb",
      "nvidia-geforce-8600-gs",
      "nvidia-geforce-8600-gt-512mb",
      "nvidia-geforce-8600-gt-1gb",
      "nvidia-geforce-8600-gt-mac-edition",
      "nvidia-geforce-8600-gts-256mb",
      "nvidia-geforce-8600-gts-512mb",
-     "nvidia-geforce-8600-gts-mac-edition",
-     "nvidia-geforce-8600m-gs-256mb",
-     "nvidia-geforce-8600m-gs-512mb",
-     "nvidia-geforce-8600m-gt-256mb",
-     "nvidia-geforce-8600m-gt-512mb"
+     "nvidia-geforce-8600-gts-mac-edition"
     ]
    },
    "ramGb": 3,
@@ -57,10 +56,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5",
-     "AMD Quad-Core"
+     "3 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 31,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

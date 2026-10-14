@@ -17,9 +17,18 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce 8600 VRAM 256MB *3"
+     "Nvidia GeForce 8600"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 1.5,
    "storage": {
@@ -47,9 +56,21 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce 8800 VRAM 512MB *3"
+     "Nvidia GeForce 8800"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "storage": {

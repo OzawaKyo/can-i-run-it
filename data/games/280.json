@@ -8,8 +8,12 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "1.2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 12,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],
@@ -22,8 +26,12 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],

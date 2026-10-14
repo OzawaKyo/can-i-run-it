@@ -16,9 +16,26 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA & AMD ( VRAM) 1GB"
+     "Nvidia GeForce 8800",
+     "ATI Radeon HD 2600"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "amd-radeon-hd-2600-pro-256mb",
+     "amd-radeon-hd-2600-pro-512mb",
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,
@@ -48,9 +65,16 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA & AMD ( VRAM) 2GB"
+     "Nvidia GeForce GTX 460",
+     "ATI Radeon HD 5850"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 2,

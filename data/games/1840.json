@@ -39,6 +39,25 @@
     "storage": "At least 15 GB of Space",
     "sound": "DirectX 9.0c compatible USB headset with mic (suggested)"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 400 series",
+     "AMD Radeon 5000 series"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 4,
+   "raw": {
+    "graphics": "Nvidia GeForce 400 series / AMD Radeon 5000 series",
+    "memory": "4 GB"
+   }
   }
  }
 }

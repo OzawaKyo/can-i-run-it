@@ -19,9 +19,7 @@
      "NVIDIA GeForce 8000 series",
      "ATI Radeon HD 2000 series"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "directX": 9,

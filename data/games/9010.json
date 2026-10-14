@@ -5,5 +5,46 @@
  "source": "steam",
  "updatedAt": "2026-10-14",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9010/header.jpg?t=1786459095",
- "requirements": {}
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon",
+     "Intel Pentium II 400 MHz"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.125,
+   "vramGb": 0.015625,
+   "directX": 8,
+   "storage": {
+    "gb": 1.1,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "AMD Athlon / Intel Pentium II 400 MHz",
+    "memory": "128 MB",
+    "storage": "1.1 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.25,
+   "raw": {
+    "memory": "256 MB"
+   }
+  }
+ }
 }

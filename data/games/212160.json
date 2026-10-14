@@ -9,10 +9,14 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Dual-Core 3.0 GHz"
+     "Intel Core i3-530, 2.93 GHz",
+     "AMD Phenom II X4 945, 3.0 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 35
+    "ids": [
+     "intel-core-i3-530",
+     "amd-phenom-ii-x4-945"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -47,10 +51,13 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "8th Gen Intel Core i5",
-     "AMD Ryzen 5 2000 Series"
+     "Intel Core i5-2300, 2.80 GHz",
+     "AMD Phenom II 1055T X6, 2.8 GHz"
     ],
-    "ids": []
+    "ids": [
+     "intel-core-i5-2300"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

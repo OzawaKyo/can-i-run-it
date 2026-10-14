@@ -23,8 +23,7 @@
      "AMD Radeon HD 7770 graphics card (min. VRAM, DX11 support) 2GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-650",
-     "intel-hd-graphics"
+     "nvidia-geforce-gtx-650"
     ]
    },
    "ramGb": 4,

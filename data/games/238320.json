@@ -21,8 +21,7 @@
     ],
     "ids": [
      "nvidia-geforce-9800-gtx",
-     "nvidia-geforce-9800-gtxplus",
-     "intel-hd-graphics"
+     "nvidia-geforce-9800-gtxplus"
     ]
    },
    "ramGb": 2,

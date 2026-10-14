@@ -19,9 +19,15 @@
    },
    "gpu": {
     "raw": [
-     "Direct X 11.0 compliant video card with RAM (NVIDIA GeForce 560 or AMD Radeon 6870) 1GB"
+     "Nvidia GeForce GTX 460",
+     "AMD Radeon HD 6850"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-6850"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,
@@ -54,9 +60,16 @@
    },
    "gpu": {
     "raw": [
-     "Direct X 11.0 compliant video card with of RAM (NVIDIA GeForce GTX 970 or AMD Radeon RX 570) 4GB"
+     "Nvidia GeForce GTX 750",
+     "AMD Radeon HD 7850"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 4,

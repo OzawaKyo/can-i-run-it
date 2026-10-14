@@ -39,9 +39,12 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "2.5+ GHz Quad Core"
+     "Intel Core 2 Quad 2.7 GHz",
+     "AMD Phenom II X4 3.0 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 31,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

@@ -9,9 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i3 M380"
+     "Intel Core i3-380M"
     ],
-    "ids": []
+    "ids": [
+     "intel-core-i3-380m"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

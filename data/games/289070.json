@@ -22,14 +22,7 @@
      "Intel Integrated Graphics 530"
     ],
     "ids": [
-     "amd-radeon-r7-450-2gb",
-     "amd-radeon-r7-450-4gb",
-     "amd-radeon-530-1gb-weston",
-     "amd-radeon-530-1gb-weston-2",
-     "amd-radeon-530-2gb-weston",
-     "amd-radeon-530-2gb-weston-2",
-     "amd-radeon-530-4gb-weston",
-     "amd-radeon-530-4gb-weston-2"
+     "nvidia-geforce-gts-450"
     ]
    },
    "ramGb": 4,

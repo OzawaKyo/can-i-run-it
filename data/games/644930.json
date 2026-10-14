@@ -22,9 +22,7 @@
      "Nvidia card with shader model 3",
      "video ram. 1GB"
     ],
-    "ids": [
-     "amd-radeon-3000-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "vramGb": 1,

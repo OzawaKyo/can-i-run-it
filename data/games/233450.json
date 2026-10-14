@@ -27,11 +27,7 @@
      "nvidia-geforce-8600-gt-mac-edition",
      "nvidia-geforce-8600-gts-256mb",
      "nvidia-geforce-8600-gts-512mb",
-     "nvidia-geforce-8600-gts-mac-edition",
-     "nvidia-geforce-8600m-gs-256mb",
-     "nvidia-geforce-8600m-gs-512mb",
-     "nvidia-geforce-8600m-gt-256mb",
-     "nvidia-geforce-8600m-gt-512mb"
+     "nvidia-geforce-8600-gts-mac-edition"
     ]
    },
    "ramGb": 6,

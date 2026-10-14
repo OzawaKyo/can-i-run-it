@@ -19,9 +19,7 @@
     "raw": [
      "Intel HD Graphics 3000"
     ],
-    "ids": [
-     "amd-radeon-3000-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "directX": 10,

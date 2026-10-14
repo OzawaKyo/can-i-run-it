@@ -21,7 +21,10 @@
      "Radeon HD 2600"
     ],
     "ids": [
-     "intel-hd-graphics"
+     "amd-radeon-hd-2600-pro-256mb",
+     "amd-radeon-hd-2600-pro-512mb",
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb"
     ]
    },
    "ramGb": 2,
@@ -56,9 +59,7 @@
      "GeForce 2xx Series",
      "Radeon HD 6xxx series"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "directX": 90,

@@ -9,19 +9,26 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "AMD",
-     "Intel",
-     "3 GHz (AMD A10 7850K, Intel i3-2000)"
+     "Intel Core i3-2000 3.0 GHz",
+     "AMD A10-7850K 3.0 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 31
+    "ids": [
+     "amd-a10-7850k"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "AMD/NVIDIA dedicated GPU",
-     "dedicated VRAM (Radeon HD 7870, Geforce GTX 750) 2GB"
+     "Nvidia GeForce GTX 750",
+     "AMD Radeon HD 7870"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 2,
@@ -42,19 +49,26 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "AMD",
-     "Intel",
-     "3.3 GHz (AMD FX 8300, Intel i5 3000)"
+     "Intel Core i5-3000 3.3 GHz",
+     "AMD FX-8300 3.3 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 34
+    "ids": [
+     "amd-fx-8300"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "AMD/NVIDIA dedicated GPU",
-     "dedicated VRAM (Radeon R9 380, Geforce GTX 960) 4GB"
+     "Nvidia GeForce GTX 960",
+     "AMD Radeon R9 380"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r9-380",
+     "amd-radeon-r9-380-2gb",
+     "amd-radeon-r9-380-4gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 4,

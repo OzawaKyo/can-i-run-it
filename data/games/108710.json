@@ -49,10 +49,15 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 10 compatible with RAM 1GB"
+     "Nvidia GeForce GTX 260",
+     "ATI Radeon HD 4890"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4890-1gb",
+     "amd-radeon-hd-4890-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,

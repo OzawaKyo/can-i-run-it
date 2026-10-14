@@ -21,9 +21,8 @@
      "12",
      "OpenGL support"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

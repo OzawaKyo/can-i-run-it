@@ -17,9 +17,8 @@
     "raw": [
      "Graphics card with DirectX 10 support"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 10,
@@ -48,11 +47,11 @@
     "raw": [
      "Graphics card with DirectX 10 support"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
+   "directX": 10,
    "raw": {
     "os": "Windows 10 or 11 (64-bit)",
     "processor": "Intel/AMD CPU with SSE2",

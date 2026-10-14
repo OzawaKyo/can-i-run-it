@@ -16,11 +16,12 @@
    },
    "gpu": {
     "raw": [
-     "Video Card with DX11 support 2GB"
+     "Intel HD Graphics 4600"
     ],
     "ids": [
-     "intel-hd-graphics"
-    ]
+     "intel-hd-graphics-4600"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "vramGb": 2,
@@ -41,10 +42,12 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "3.2 GHz"
+     "Intel Core i5-6600"
     ],
-    "ids": [],
-    "estimatedScore": 33
+    "ids": [
+     "intel-core-i5-6600"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

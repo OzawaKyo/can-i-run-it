@@ -40,6 +40,43 @@
     "online gameplay": "Broadband connection for online activation and online gameplay - 512 Kbps or faster",
     "direct x": "DirectX 9.0c"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.8 GHz",
+     "AMD Phenom II X3 720"
+    ],
+    "ids": [
+     "amd-phenom-ii-x3-720"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 9800",
+     "ATI Radeon HD 4850"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb",
+     "nvidia-geforce-9800-gt-rebrand",
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "nvidia-geforce-9800-gx2",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "raw": {
+    "processor": "Intel Core 2 Duo 2.8 GHz / AMD Phenom II X3 720",
+    "graphics": "Nvidia GeForce 9800 / ATI Radeon HD 4850",
+    "memory": "2 GB"
+   }
   }
  }
 }

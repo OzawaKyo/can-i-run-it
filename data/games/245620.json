@@ -53,9 +53,7 @@
      "GeForce 500",
      "AMD Radeon HD 5000"
     ],
-    "ids": [
-     "intel-hd-graphics-5000"
-    ]
+    "ids": []
    },
    "ramGb": 8,
    "directX": 11,

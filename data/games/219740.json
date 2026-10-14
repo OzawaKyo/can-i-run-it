@@ -9,9 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "1.7+ GHz"
+     "1.7 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 18,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

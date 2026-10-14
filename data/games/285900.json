@@ -21,8 +21,7 @@
      "Intel HD 3000"
     ],
     "ids": [
-     "nvidia-geforce-8800-gt",
-     "amd-radeon-3000-graphics"
+     "nvidia-geforce-8800-gt"
     ]
    },
    "ramGb": 4,

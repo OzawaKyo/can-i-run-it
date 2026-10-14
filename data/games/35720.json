@@ -21,8 +21,10 @@
      "with Shader Model 3.0 support. Does not run on the Intel graphics solutions used in 2004-2009; runs on Intel HD Graphics 3000 (2010 onwards)."
     ],
     "ids": [
-     "intel-hd-graphics",
-     "amd-radeon-3000-graphics"
+     "amd-radeon-hd-2400-pro-128mb",
+     "amd-radeon-hd-2400-pro-256mb",
+     "amd-radeon-hd-2400-pro-512mb",
+     "amd-radeon-hd-2400-xt"
     ]
    },
    "ramGb": 1,
@@ -40,6 +42,22 @@
     "directx": "Version 9.0c",
     "sound": "DirectX 9.0c compatible sound card",
     "note": "Your purchase includes the macOS and Linux versions at no extra cost."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual core"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {
+    "processor": "Dual core"
    }
   }
  }

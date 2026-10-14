@@ -18,9 +18,7 @@
     "raw": [
      "Hardware Accelerated Graphics with dedicated memory"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 1,
    "storage": {
@@ -47,9 +45,7 @@
     "raw": [
      "Hardware Accelerated Graphics with dedicated memory"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "storage": {

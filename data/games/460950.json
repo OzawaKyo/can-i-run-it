@@ -9,9 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Pentium E2180 (2 * 2000)"
+     "Intel Pentium E2180 2.0 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

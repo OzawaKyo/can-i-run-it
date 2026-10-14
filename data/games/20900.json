@@ -28,12 +28,7 @@
      "nvidia-geforce-9800-gt-rebrand",
      "nvidia-geforce-9800-gtx",
      "nvidia-geforce-9800-gtxplus",
-     "nvidia-geforce-9800-gx2",
-     "nvidia-geforce-9800m-gs",
-     "nvidia-geforce-9800m-gts-512mb",
-     "nvidia-geforce-9800m-gts-1gb",
-     "nvidia-geforce-9800m-gt",
-     "nvidia-geforce-9800m-gtx"
+     "nvidia-geforce-9800-gx2"
     ]
    },
    "ramGb": 1,
@@ -49,6 +44,31 @@
     "memory": "1 GB RAM (2 GB RAM recommended)",
     "sound": "DirectX version 9.0c-compatible sound card",
     "storage": "15 GB Free"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 3.0 GHz",
+     "AMD Athlon 64 3000+"
+    ],
+    "ids": [],
+    "estimatedScore": 31,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 7800 GTX",
+     "ATI Radeon X1950 XT"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 2,
+   "raw": {
+    "processor": "Intel Pentium 4 3.0 GHz / AMD Athlon 64 3000+",
+    "graphics": "Nvidia GeForce 7800 GTX / ATI Radeon X1950 XT",
+    "memory": "2 GB"
    }
   }
  }

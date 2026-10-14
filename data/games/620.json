@@ -20,9 +20,7 @@
     "raw": [
      "Video card must be 128 MB and with support for Pixel Shader 2.0b (ATI Radeon X800 / NVIDIA GeForce 7600 / Intel HD Graphics 2000)."
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "directX": 9,

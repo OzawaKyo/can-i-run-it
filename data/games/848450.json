@@ -52,8 +52,7 @@
      "AMD Radeon 570 4GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-1050-ti",
-     "nvidia-geforce-gtx-570"
+     "nvidia-geforce-gtx-1050-ti"
     ]
    },
    "ramGb": 8,

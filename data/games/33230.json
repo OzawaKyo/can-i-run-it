@@ -9,18 +9,24 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core 2 Duo 1.8 GHZ",
-     "AMD Athlon X2 64 2.4GHZ"
+     "AMD Athlon 64 X2 4600+ 2.4 GHz",
+     "Intel Core 2 Duo E4300 1.8 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 19
+    "ids": [
+     "intel-core-2-duo-e4300"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "256 MB DirectX 9.0–compliant card with Shader Model 3.0 (see supported list)"
+     "ATI Radeon X1950",
+     "ATI Radeon HD 2000/3000/4000/5000 series",
+     "Nvidia GeForce 7/8/9/100/200 series"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "amd-radeon-3000-graphics"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 1.5,
    "directX": 9,
@@ -55,8 +61,7 @@
      "ATI Radeon HD 4700"
     ],
     "ids": [
-     "nvidia-geforce-8800-gt",
-     "intel-hd-graphics"
+     "nvidia-geforce-8800-gt"
     ]
    },
    "ramGb": 1.5,

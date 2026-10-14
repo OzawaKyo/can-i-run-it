@@ -33,6 +33,31 @@
     "storage": "10GB free space",
     "graphics": "NVIDIA GeForce 6 series, ATI 1300XT series"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 23,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon X1300 XT series",
+     "Nvidia GeForce 6 series"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "raw": {
+    "processor": "2.0 GHz Dual Core",
+    "graphics": "ATI Radeon X1300 XT series / Nvidia GeForce 6 series",
+    "memory": "2 GB"
+   }
   }
  }
 }

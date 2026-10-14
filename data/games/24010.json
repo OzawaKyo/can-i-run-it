@@ -23,8 +23,7 @@
      "AMD Radeon R9 Graphics with Dedicated VRAM 1GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-750-ti",
-     "intel-hd-graphics"
+     "nvidia-geforce-gtx-750-ti"
     ]
    },
    "ramGb": 4,

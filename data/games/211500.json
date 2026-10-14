@@ -16,9 +16,14 @@
    },
    "gpu": {
     "raw": [
-     "VRAM 512MB"
+     "Nvidia GeForce GTX 460",
+     "AMD equivalent"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 9,
@@ -46,8 +51,14 @@
     "estimatedScore": 42
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce GTX 760",
+     "AMD equivalent"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 8,

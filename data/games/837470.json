@@ -8,8 +8,16 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Core i5-6600",
+     "AMD Ryzen 3 1300"
+    ],
+    "ids": [
+     "intel-core-i5-6600",
+     "amd-ryzen-3-1300x",
+     "amd-ryzen-3-1300-pro"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],

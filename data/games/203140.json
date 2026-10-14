@@ -15,9 +15,19 @@
    },
    "gpu": {
     "raw": [
-     "NV8600 512 Mb RAM"
+     "Nvidia GeForce 8600",
+     "AMD equivalent"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 10,

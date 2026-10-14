@@ -46,12 +46,26 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "AMD FX 8350 equivalent"
+    ],
+    "ids": [
+     "amd-fx-8350"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce GTX 1060",
+     "AMD Radeon RX 480 equivalent"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "raw": {}
   }

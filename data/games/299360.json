@@ -16,9 +16,12 @@
    },
    "gpu": {
     "raw": [
-     "Dedicated graphics card (NVidia GeForce 8800 GT)"
+     "Nvidia GeForce 8800 GT"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8800-gt"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 3,
    "directX": 11,
@@ -45,7 +48,8 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-650",
-     "intel-hd-graphics"
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb"
     ]
    },
    "ramGb": 4,

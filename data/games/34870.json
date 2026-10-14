@@ -38,6 +38,35 @@
     "directx": "9.0c",
     "sound": "DirectX Compatible Sound Card"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2.6 GHz",
+     "AMD Phenom X4"
+    ],
+    "ids": [],
+    "estimatedScore": 27,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 560",
+     "AMD 6850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "raw": {
+    "processor": "Intel Core i5 2.6 GHz / AMD Phenom X4",
+    "graphics": "Nvidia GeForce GTX 560 / AMD 6850",
+    "memory": "4 GB"
+   }
   }
  }
 }

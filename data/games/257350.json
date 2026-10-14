@@ -9,9 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Dual Core Processor"
+     "1 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

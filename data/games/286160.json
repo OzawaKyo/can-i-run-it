@@ -17,9 +17,8 @@
     "raw": [
      "Graphics card with DX10 (shader model 4.0) capabilities."
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 10,

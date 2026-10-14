@@ -42,12 +42,28 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Core i5",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce GTX 1060",
+     "AMD Radeon RX 480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "raw": {}
   }

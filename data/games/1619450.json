@@ -17,10 +17,7 @@
     "raw": [
      "NVIDIA Quadro P520"
     ],
-    "ids": [
-     "amd-radeon-520-1gb",
-     "amd-radeon-520-2gb"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "directX": 11,
@@ -48,10 +45,7 @@
     "raw": [
      "NVIDIA Quadro P520"
     ],
-    "ids": [
-     "amd-radeon-520-1gb",
-     "amd-radeon-520-2gb"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "directX": 11,

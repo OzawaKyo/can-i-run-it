@@ -22,8 +22,6 @@
     ],
     "ids": [
      "nvidia-geforce-gt-420-oem",
-     "nvidia-geforce-gt-420m-512mb",
-     "nvidia-geforce-gt-420m-1gb",
      "amd-radeon-hd-6850",
      "intel-hd-graphics-4000"
     ]

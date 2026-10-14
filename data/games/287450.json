@@ -9,15 +9,23 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "1.6"
+     "1.6 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 17,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "Direct X 10+ Capable GPU"
+     "Nvidia GeForce 8600 GT",
+     "AMD Radeon X1950",
+     "Intel HD 3000"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 1,
    "directX": 10,
@@ -46,9 +54,14 @@
    },
    "gpu": {
     "raw": [
-     "Direct X 11+"
+     "Nvidia GeForce 9800 GTX",
+     "AMD Radeon 4850"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

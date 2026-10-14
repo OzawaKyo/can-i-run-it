@@ -30,6 +30,42 @@
     "graphics": "nVidia GeForce 7600, ATI Radeon X1600 (Shader Model 3.0 Highly Recommended)",
     "directx": "DirectX 9.0c August 2009 Edition or newer"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.0 GHz",
+     "AMD Athlon64 X2 4000+"
+    ],
+    "ids": [],
+    "estimatedScore": 21,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 9800",
+     "ATI Radeon HD 4850"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb",
+     "nvidia-geforce-9800-gt-rebrand",
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "nvidia-geforce-9800-gx2",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "raw": {
+    "processor": "Intel Core 2 Duo 2.0 GHz / AMD Athlon64 X2 4000+",
+    "graphics": "Nvidia GeForce 9800 / ATI Radeon HD 4850",
+    "memory": "2 GB"
+   }
   }
  }
 }

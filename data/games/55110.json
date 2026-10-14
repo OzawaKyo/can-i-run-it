@@ -16,14 +16,23 @@
    },
    "gpu": {
     "raw": [
-     "320MB Video RAM",
-     "GPU w/ Shader Model 3.0 support",
-     "NVIDIA GeForce 88xx series",
-     "ATI Radeon HD30xx series"
+     "ATI Radeon HD 3000 series",
+     "Nvidia GeForce 8800 series"
     ],
     "ids": [
-     "intel-hd-graphics"
-    ]
+     "amd-radeon-3000-graphics",
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 9,
@@ -55,9 +64,7 @@
      "NVIDIA GeForce GTX 400 series",
      "ATI Radeon HD5000 series"
     ],
-    "ids": [
-     "intel-hd-graphics-5000"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "vramGb": 1,

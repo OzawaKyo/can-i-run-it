@@ -5,5 +5,59 @@
  "source": "steam",
  "updatedAt": "2026-10-14",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/34330/header.jpg?t=1787768538",
- "requirements": {}
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Dual Core or 2.6 GHz Single Core"
+    ],
+    "ids": [],
+    "estimatedScore": 23,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "vramGb": 0.25,
+   "directX": 9,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "2 GHz Dual Core or 2.6 GHz Single Core",
+    "memory": "1 GB (XP) 2 GB (Vista, 7)",
+    "storage": "20 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2xxx series",
+     "AMD Phenom II X4 series"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GT 240",
+     "ATI Radeon HD 5000 series"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-240"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "raw": {
+    "processor": "Intel Core i5-2xxx series / AMD Phenom II X4 series",
+    "graphics": "Nvidia GeForce GT 240 / ATI Radeon HD 5000 series",
+    "memory": "2 GB (XP) 4 GB (Vista, 7)"
+   }
+  }
+ }
 }

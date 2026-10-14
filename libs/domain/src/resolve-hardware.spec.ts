@@ -37,6 +37,12 @@ const catalog: HardwareModel[] = [
   cpu('i5-8400', 'Intel Core i5-8400'),
   gpu('r9-270x-2gb', 'AMD Radeon R9 270X 2GB', 2),
   gpu('gtx-760', 'NVIDIA GeForce GTX 760', 2),
+  { id: 'nvidia-geforce-8500-gt', kind: 'gpu', name: 'GeForce 8500 GT' },
+  { id: 'intel-hd-graphics', kind: 'gpu', name: 'HD Graphics' },
+  { id: 'amd-radeon-hd-7870-ghz-edition', kind: 'gpu', name: 'Radeon HD 7870 GHz Edition' },
+  { id: 'nvidia-geforce-9800-gt', kind: 'gpu', name: 'GeForce 9800 GT' },
+  { id: 'nvidia-geforce-9800m-gs', kind: 'gpu', name: 'GeForce 9800M GS', laptop: true },
+  { id: 'intel-hd-graphics-4000', kind: 'gpu', name: 'HD Graphics 4000' },
 ];
 
 const ids = (raw: string, vramGb?: number) =>
@@ -118,5 +124,23 @@ describe('resolveHardware', () => {
   it('reads processor names as Windows reports them', () => {
     expect(ids('AMD Ryzen 5 3600 6-Core Processor')).toEqual(['ryzen-5-3600']);
     expect(ids('Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz')).toEqual(['i5-8400']);
+  });
+
+  it('only matches models of the vendor the name gives', () => {
+    expect(ids('ATI Radeon 8500')).toEqual([]);
+    expect(ids('NVIDIA GeForce 8500 GT')).toEqual(['nvidia-geforce-8500-gt']);
+  });
+
+  it('does not take a bare family name for the model that happens to carry it', () => {
+    expect(ids('Intel HD Graphics')).toEqual([]);
+    expect(ids('Intel HD Graphics 4000')).toEqual(['intel-hd-graphics-4000']);
+  });
+
+  it('keeps model numbers followed by "GHz Edition"', () => {
+    expect(ids('AMD Radeon HD 7870')).toEqual(['amd-radeon-hd-7870-ghz-edition']);
+  });
+
+  it('leaves laptop chips out of a desktop family name', () => {
+    expect(ids('Nvidia GeForce 9800')).toEqual(['nvidia-geforce-9800-gt']);
   });
 });

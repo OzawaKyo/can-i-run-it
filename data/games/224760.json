@@ -19,9 +19,7 @@
      "2nd Generation Intel Core HD Graphics (2000/3000)",
      "or dedicated GPU with OpenGL 3.0 Support"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "storage": {

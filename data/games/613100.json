@@ -9,13 +9,13 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i3 3",
-     "20GHz",
-     "AMD Phenom II X4 955 3",
-     "2 GHz"
+     "Intel Core i3 3.2 GHz",
+     "AMD Phenom II X4 955 3.2 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 21
+    "ids": [
+     "amd-phenom-ii-x4-955"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

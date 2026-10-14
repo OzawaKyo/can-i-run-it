@@ -5,5 +5,54 @@
  "source": "steam",
  "updatedAt": "2026-10-14",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100/header.jpg?t=1790190232",
- "requirements": {}
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium IV 2.6 GHz",
+     "AMD Athlon 2.6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 27,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "vramGb": 0.125,
+   "directX": 9,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Pentium IV 2.6 GHz / AMD Athlon 2.6 GHz",
+    "memory": "512 MB",
+    "storage": "7 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium IV 3.2 GHz",
+     "AMD Athlon 3.2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 33,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "vramGb": 0.25,
+   "raw": {
+    "processor": "Intel Pentium IV 3.2 GHz / AMD Athlon 3.2 GHz",
+    "memory": "1 GB"
+   }
+  }
+ }
 }

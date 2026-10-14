@@ -49,24 +49,7 @@
      "NVIDIA GeForce FX 5200",
      "ATI Radeon 9600"
     ],
-    "ids": [
-     "nvidia-geforce-9600-gs",
-     "nvidia-geforce-9600-gso-384mb",
-     "nvidia-geforce-9600-gso-768mb",
-     "nvidia-geforce-9600-gso-1.5gb",
-     "nvidia-geforce-9600-gso-512",
-     "nvidia-geforce-9600-gt-green-edition-512mb",
-     "nvidia-geforce-9600-gt-green-edition-1gb",
-     "nvidia-geforce-9600-gt-512mb",
-     "nvidia-geforce-9600-gt-1gb",
-     "nvidia-geforce-9600-gt-rev-2-512mb",
-     "nvidia-geforce-9600-gt-rev-2-1gb",
-     "nvidia-geforce-9600-gt-mac-edition",
-     "nvidia-geforce-9600-gtx",
-     "nvidia-geforce-9600m-gs",
-     "nvidia-geforce-9600m-gt-512mb",
-     "nvidia-geforce-9600m-gt-1gb"
-    ]
+    "ids": []
    },
    "ramGb": 1,
    "storage": {

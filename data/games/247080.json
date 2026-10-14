@@ -32,6 +32,20 @@
     "graphics": "512MB VRAM",
     "storage": "1600 MB available space"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "raw": {
+    "memory": "8 GB"
+   }
   }
  }
 }

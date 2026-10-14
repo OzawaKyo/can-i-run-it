@@ -23,7 +23,8 @@
     ],
     "ids": [
      "nvidia-geforce-gtx-650-ti",
-     "intel-hd-graphics"
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb"
     ]
    },
    "ramGb": 4,

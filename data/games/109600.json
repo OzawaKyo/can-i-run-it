@@ -20,9 +20,7 @@
      "ATI/AMD Radeon HD 5xxx",
      "or Intel HD Graphics 4xxx (Direct3D Hardware Feature Level 11)"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "directX": 11,

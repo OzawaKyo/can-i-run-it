@@ -44,9 +44,12 @@
    },
    "gpu": {
     "raw": [
-     "nVidia GTX 555 w/ VRAM 1GB"
+     "Nvidia GeForce GTX 555"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-555-oem"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 1,

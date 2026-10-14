@@ -25,11 +25,7 @@
      "nvidia-geforce-8600-gt-mac-edition",
      "nvidia-geforce-8600-gts-256mb",
      "nvidia-geforce-8600-gts-512mb",
-     "nvidia-geforce-8600-gts-mac-edition",
-     "nvidia-geforce-8600m-gs-256mb",
-     "nvidia-geforce-8600m-gs-512mb",
-     "nvidia-geforce-8600m-gt-256mb",
-     "nvidia-geforce-8600m-gt-512mb"
+     "nvidia-geforce-8600-gts-mac-edition"
     ]
    },
    "ramGb": 0.25,
@@ -51,10 +47,12 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Quad core CPU 2.8 GHz"
+     "Intel Quad Core i7-860 2.8 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 39
+    "ids": [
+     "intel-core-i7-860"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

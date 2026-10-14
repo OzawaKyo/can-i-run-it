@@ -9,10 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core Duo E6600 @ 2.4GHz"
+     "Intel Core 2 Duo E6600 2.4 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 25
+    "ids": [
+     "intel-core-2-duo-e6600"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

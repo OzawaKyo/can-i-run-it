@@ -17,9 +17,22 @@
    },
    "gpu": {
     "raw": [
-     "(AMD Radeon HD 5550 or Nvidia GeForce GT 430) 1GB"
+     "Nvidia GeForce GT 430",
+     "AMD Radeon HD 5550"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gt-430-gf108-300",
+     "nvidia-geforce-gt-430-gf108-300-2",
+     "nvidia-geforce-gt-430-512mb",
+     "nvidia-geforce-gt-430-1gb-gf108-300",
+     "nvidia-geforce-gt-430-1gb-gf108-300-2",
+     "nvidia-geforce-gt-430-2gb",
+     "nvidia-geforce-gt-430-4gb",
+     "amd-radeon-hd-5550-512mb",
+     "amd-radeon-hd-5550-1gb",
+     "amd-radeon-hd-5550-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,
@@ -42,19 +55,25 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "AMD: Phenom II X4 955 - 4 Core",
-     "3.2 GHz",
-     "Intel: Core 2 Quad Q9650 - 4 Core",
-     "3.0 GHz"
+     "Intel Core 2 Quad Q9650 3.0 GHz",
+     "AMD Phenom II X4 955 3.2 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 31
+    "ids": [
+     "intel-core-2-quad-q9650",
+     "amd-phenom-ii-x4-955"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "(AMD GPU: AMD Radeon R9 200 Series or Nvidia GPU: Nvidia GeForce GTX660) 2GB"
+     "Nvidia GeForce GTX 660",
+     "AMD Radeon R9 270"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-r9-270"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 2,

@@ -8,8 +8,12 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel i3 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],

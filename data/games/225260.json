@@ -22,8 +22,9 @@
      "Intel HD 3000 Graphics"
     ],
     "ids": [
-     "amd-radeon-r5-220",
-     "amd-radeon-3000-graphics"
+     "nvidia-geforce-gt-220-512mb",
+     "nvidia-geforce-gt-220-1gb",
+     "nvidia-geforce-gt-220"
     ]
    },
    "ramGb": 1,

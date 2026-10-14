@@ -9,11 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel(R) Core2Duo CPU 6700 CPU",
-     "~2.7GHz"
+     "Intel Core 2 Duo E6750 2.66 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 28
+    "ids": [
+     "intel-core-2-duo-e6750"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

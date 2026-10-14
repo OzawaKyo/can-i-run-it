@@ -8,14 +8,42 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium IV 1.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 16,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],
     "ids": []
    },
    "raw": {}
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium IV 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 6800",
+     "ATI Radeon X800"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 1,
+   "raw": {
+    "processor": "Intel Pentium IV 2.4 GHz",
+    "graphics": "Nvidia GeForce 6800 / ATI Radeon X800",
+    "memory": "1 GB"
+   }
   }
  }
 }

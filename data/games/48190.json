@@ -56,8 +56,7 @@
      "ATI Radeon HD 4700"
     ],
     "ids": [
-     "nvidia-geforce-8800-gt",
-     "intel-hd-graphics"
+     "nvidia-geforce-8800-gt"
     ]
    },
    "ramGb": 1.5,

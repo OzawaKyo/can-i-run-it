@@ -24,8 +24,7 @@
     "ids": [
      "amd-radeon-hd-3870-512mb",
      "amd-radeon-hd-3870-1gb",
-     "nvidia-geforce-8800-gt",
-     "amd-radeon-3000-graphics"
+     "nvidia-geforce-8800-gt"
     ]
    },
    "ramGb": 2,

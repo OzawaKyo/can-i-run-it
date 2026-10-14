@@ -38,6 +38,44 @@
     "sound": "Microsoft DirectX 10.0 compatible sound card or better",
     "directx": "Microsoft DirectX 11.0"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual-core CPU with SSE3 (Intel Pentium D 3 GHz / AMD Athlon 64 X2 4200) or better"
+    ],
+    "ids": [],
+    "estimatedScore": 35,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon HD 3870",
+     "Nvidia GeForce 8800 series"
+    ],
+    "ids": [
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb",
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "raw": {
+    "processor": "Dual-core CPU with SSE3 (Intel Pentium D 3 GHz / AMD Athlon 64 X2 4200) or better",
+    "graphics": "ATI Radeon HD 3870 / Nvidia GeForce 8800 series",
+    "memory": "4 GB"
+   }
   }
  }
 }

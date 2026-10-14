@@ -9,16 +9,23 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Dual Core CPU (2.2+ GHz Dual Core CPU)"
+     "2.2 GHz Dual Core"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 25,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "DirectX 10",
-     "Shader Model 4 compliant graphics cards (GeForce 8800 GT 512 MB, GeForce GTS 250, etc)"
+     "Nvidia GeForce 8800 GT",
+     "Nvidia GeForce GTS 250"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 10,
@@ -39,16 +46,21 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Any Quad Core",
-     "3.0+ GHz Dual Core CPU"
+     "Quad Core",
+     "3.0 GHz Dual Core"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 35,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "DirectX 11 compliant graphics card (GeForce GTX 480 and above)"
+     "Nvidia GeForce GTX 480"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-480"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

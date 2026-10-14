@@ -15,8 +15,12 @@
     "estimatedScore": 21
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "DirectX 9 level Graphics Card"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,

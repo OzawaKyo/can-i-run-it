@@ -17,10 +17,19 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 11 compatible dedicated video card with VRAM 2GB"
+     "ATI Radeon X800",
+     "Nvidia GeForce 8600"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 6,
    "vramGb": 2,
@@ -50,10 +59,14 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 11 compatible dedicated video card with VRAM 4GB"
+     "AMD Radeon HD 5770",
+     "Nvidia GeForce GTX 450"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 4,

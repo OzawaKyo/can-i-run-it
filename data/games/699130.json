@@ -27,9 +27,7 @@
      "amd-radeon-r5-240-1gb",
      "amd-radeon-r5-240-2gb",
      "amd-radeon-r7-240-2gb",
-     "amd-radeon-r7-240-4gb",
-     "amd-radeon-630-laptop-2gb",
-     "amd-radeon-630-laptop-4gb"
+     "amd-radeon-r7-240-4gb"
     ]
    },
    "ramGb": 8,

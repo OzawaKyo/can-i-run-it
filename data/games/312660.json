@@ -21,7 +21,8 @@
      "NVIDIA GeForce GTX 660 () 2GB"
     ],
     "ids": [
-     "intel-hd-graphics",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt",
      "nvidia-geforce-gtx-660"
     ]
    },

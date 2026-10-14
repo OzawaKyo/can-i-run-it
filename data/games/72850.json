@@ -44,10 +44,13 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 9.0c compatible NVIDIA",
-     "AMD ATI video card with of RAM (Nvidia GeForce GTX 260; ATI Radeon 4890) 1GB"
+     "AMD Radeon 4890",
+     "Nvidia GeForce GTX 260"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-260"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,

@@ -35,6 +35,25 @@
     "storage": "300 MB",
     "controller support": "Microsoft Xbox 360 Controller or Direct Input compatible controller"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "1.4 GHz or faster"
+    ],
+    "ids": [],
+    "estimatedScore": 14,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "raw": {
+    "processor": "1.4 GHz or faster",
+    "memory": "1 GB"
+   }
   }
  }
 }

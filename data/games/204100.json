@@ -8,14 +8,57 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Dual Core 2.4 GHz",
+     "AMD Dual Core 2.6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 28,
+    "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce 8600 GT",
+     "AMD Radeon HD 3400"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "raw": {}
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 Quad Core 2.8 GHz",
+     "AMD equivalent"
+    ],
+    "ids": [],
+    "estimatedScore": 39,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 480",
+     "AMD Radeon HD 5870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-480",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 3,
+   "vramGb": 1,
+   "directX": 11,
+   "raw": {
+    "processor": "Intel i7 Quad Core 2.8 GHz / AMD equivalent",
+    "graphics": "Nvidia GeForce GTX 480 / AMD Radeon HD 5870",
+    "memory": "3 GB"
+   }
   }
  }
 }

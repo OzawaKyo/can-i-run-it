@@ -8,14 +8,45 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium 4 1.4 GHz",
+     "AMD Athlon XP 1600+ (+1700 Steam)"
+    ],
+    "ids": [],
+    "estimatedScore": 14,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],
     "ids": []
    },
    "raw": {}
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.8 GHz",
+     "AMD Athlon XP 2800+"
+    ],
+    "ids": [],
+    "estimatedScore": 29,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 7 Series",
+     "ATI Radeon X1800"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 1,
+   "vramGb": 0.25,
+   "raw": {
+    "processor": "Intel Pentium 4 2.8 GHz / AMD Athlon XP 2800+",
+    "graphics": "Nvidia GeForce 7 Series / ATI Radeon X1800",
+    "memory": "1 GB 512 MB (Steam)"
+   }
   }
  }
 }

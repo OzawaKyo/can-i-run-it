@@ -45,11 +45,22 @@
    },
    "gpu": {
     "raw": [
-     "nVidia GeForce 9500; ATI Radeon HD2600"
+     "Nvidia GeForce 9500",
+     "ATI Radeon HD 2600"
     ],
     "ids": [
-     "intel-hd-graphics"
-    ]
+     "nvidia-geforce-9500-gs",
+     "nvidia-geforce-9500-gs-rev-2",
+     "nvidia-geforce-9500-gt",
+     "nvidia-geforce-9500-gt-rev-2",
+     "nvidia-geforce-9500-gt-rev-3",
+     "nvidia-geforce-9500-gt-mac-edition",
+     "amd-radeon-hd-2600-pro-256mb",
+     "amd-radeon-hd-2600-pro-512mb",
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 9,

@@ -21,8 +21,7 @@
      "ATI 3850HD with 512Mb RAM"
     ],
     "ids": [
-     "nvidia-geforce-8800-gt",
-     "intel-hd-graphics"
+     "nvidia-geforce-8800-gt"
     ]
    },
    "ramGb": 2,

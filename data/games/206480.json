@@ -9,10 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Core 2 Duo",
-     "AMD Athlon II"
+     "Intel Pentium 4 1.6 GHz or AMD equivalent with SSE"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 17,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -54,9 +55,7 @@
      "Nvidia Geforce 8XXX",
      "AMD Radeon HD 6### series with of dedicated video memory 1GB"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "vramGb": 1,

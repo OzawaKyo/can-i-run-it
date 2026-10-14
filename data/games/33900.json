@@ -44,9 +44,13 @@
    },
    "gpu": {
     "raw": [
-     "Fast GPU (Nvidia Geforce 8800GT or ATI Radeon 4850) with Shader Model 3 and 512 MB VRAM"
+     "Nvidia GeForce 8800GT",
+     "ATI Radeon 4850"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8800-gt"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "storage": {

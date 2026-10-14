@@ -8,8 +8,12 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium 2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -42,8 +46,7 @@
      "ATI Radeon HD 6630 DirectX 9c VRam 1GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-280",
-     "intel-hd-graphics"
+     "nvidia-geforce-gtx-280"
     ]
    },
    "vramGb": 1,

@@ -54,9 +54,7 @@
      "Nvidia Geforce 8XXX",
      "AMD Radeon HD 6### series with of dedicated video memory 1GB"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "vramGb": 1,

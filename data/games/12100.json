@@ -33,6 +33,26 @@
     "storage": "500 MB uncompressed free hard disk space",
     "sound card": "Fully DirectX compatible Sound Card"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 1024 MHz",
+     "Intel Pentium III 1000 MHz 700 MHz (Steam)"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.25,
+   "vramGb": 0.0625,
+   "raw": {
+    "processor": "AMD Athlon 1024 MHz / Intel Pentium III 1000 MHz 700 MHz (Steam)",
+    "memory": "256 MB 128 MB (Steam)"
+   }
   }
  }
 }

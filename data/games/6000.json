@@ -36,6 +36,31 @@
     "storage": "2.0GB",
     "sound": "100% Directx 9.0c"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.8 GHz",
+     "AMD Athlon XP 2400 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 29,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce FX 5700"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 1,
+   "vramGb": 0.25,
+   "raw": {
+    "processor": "Intel Pentium 4 2.8 GHz / AMD Athlon XP 2400 2.8 GHz",
+    "graphics": "Nvidia GeForce FX 5700",
+    "memory": "1 GB"
+   }
   }
  }
 }

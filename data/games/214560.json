@@ -54,8 +54,7 @@
     ],
     "ids": [
      "nvidia-geforce-9600-gt-512mb",
-     "nvidia-geforce-9600-gt-1gb",
-     "intel-hd-graphics-5000"
+     "nvidia-geforce-9600-gt-1gb"
     ]
    },
    "ramGb": 2,

@@ -51,9 +51,12 @@
    "cpu": {
     "raw": [
      "Intel CPU 8th Gen 8700",
-     "AMD Ryzen 5 2700"
+     "AMD Ryzen 7 2700"
     ],
-    "ids": []
+    "ids": [
+     "amd-ryzen-7-2700"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

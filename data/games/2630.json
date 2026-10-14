@@ -8,14 +8,37 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium IV 1.4 GHz",
+     "AMD Athlon XP 1700+"
+    ],
+    "ids": [],
+    "estimatedScore": 14,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],
     "ids": []
    },
    "raw": {}
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 7 series"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 0.5,
+   "raw": {
+    "graphics": "Nvidia GeForce 7 series",
+    "memory": "512 MB"
+   }
   }
  }
 }

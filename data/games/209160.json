@@ -8,12 +8,27 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Core 2 Duo E8200 2.66 GHz",
+     "AMD Phenom X3 8750 2.4 GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8200",
+     "amd-phenom-x3-8750"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce GTS 450",
+     "ATI Radeon HD 5870"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "raw": {
     "os": ": Windows 7 64-Bit / Windows 8 64-Bit CPU : Intel Core 2 Duo E8200 2.66 GHZ / AMD Phenom X3 8750 2.4 GHZ or better RAM : 6 GB RAM HDD : 40 GB HD space Video : NVIDIA GeForce GTS 450 / ATI Radeon HD 5870 or better Sound : DirectX compatible sound card DirectX : DirectX 11 Internet : Broadband connection and service required for Multiplayer Connectivity. Internet connection required for activation."
@@ -21,12 +36,22 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Core i5-680 3.6 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-680"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce GTX 760"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760"
+    ],
+    "source": "pcgamingwiki"
    },
    "raw": {
     "os": ": Windows 7 64-Bit / Windows 8 64-Bit CPU : Intel Core i5 – 680 @ 3.6GHz RAM : 8 GB RAM HDD : 40 GB HD space Video : NVIDIA GeForce GTX 760 @ 4GB Sound : DirectX compatible sound card DirectX : DirectX 11 Internet : Broadband connection and service required for Multiplayer Connectivity. Internet connection required for activation."

@@ -37,6 +37,45 @@
     "sound card": "5.1 Channel Audio Card",
     "other requirements": "Initial activation requires internet connection; Online play requires log-in to Games For Windows - Live and Rockstar Games Social Club (13+ to register); software installations required including Sony DADC SecuROM, Adobe Flash, DirectX, Games for Windows - LIVE, and Internet Explorer."
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Phenom X3 2.1 GHz",
+     "Intel Core 2 Quad 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 22,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon 3870",
+     "Nvidia GeForce 8600"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 2.5,
+   "vramGb": 0.5,
+   "storage": {
+    "gb": 18,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "AMD Phenom X3 2.1 GHz / Intel Core 2 Quad 2.4 GHz",
+    "graphics": "ATI Radeon 3870 / Nvidia GeForce 8600",
+    "memory": "2.5 GB",
+    "storage": "18 GB"
+   }
   }
  }
 }

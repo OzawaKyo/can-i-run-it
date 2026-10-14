@@ -19,10 +19,7 @@
     ],
     "ids": [
      "intel-hd-graphics-4600",
-     "amd-radeon-620-laptop-2gb-polaris-24",
-     "amd-radeon-620-laptop-2gb-polaris-24-2",
-     "amd-radeon-620-laptop-4gb-polaris-24",
-     "amd-radeon-620-laptop-4gb-polaris-24-2",
+     "nvidia-geforce-gt-620",
      "amd-radeon-r7-450-2gb",
      "amd-radeon-r7-450-4gb"
     ]
@@ -50,9 +47,12 @@
    },
    "gpu": {
     "raw": [
-     "Geforce 750 Ti with of video RAM 4GB"
+     "Nvidia GeForce GTX 750 Ti"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-750-ti"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 4,

@@ -19,24 +19,7 @@
      "nVidia GeForce 6 series",
      "ATI Radeon 9600"
     ],
-    "ids": [
-     "nvidia-geforce-9600-gs",
-     "nvidia-geforce-9600-gso-384mb",
-     "nvidia-geforce-9600-gso-768mb",
-     "nvidia-geforce-9600-gso-1.5gb",
-     "nvidia-geforce-9600-gso-512",
-     "nvidia-geforce-9600-gt-green-edition-512mb",
-     "nvidia-geforce-9600-gt-green-edition-1gb",
-     "nvidia-geforce-9600-gt-512mb",
-     "nvidia-geforce-9600-gt-1gb",
-     "nvidia-geforce-9600-gt-rev-2-512mb",
-     "nvidia-geforce-9600-gt-rev-2-1gb",
-     "nvidia-geforce-9600-gt-mac-edition",
-     "nvidia-geforce-9600-gtx",
-     "nvidia-geforce-9600m-gs",
-     "nvidia-geforce-9600m-gt-512mb",
-     "nvidia-geforce-9600m-gt-1gb"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "directX": 9,
@@ -64,11 +47,14 @@
    },
    "gpu": {
     "raw": [
-     "nVidia GeForce 9",
-     "ATI X1600",
-     "Intel 4000"
+     "Nvidia GeForce 9 series",
+     "ATI Radeon X1600",
+     "Intel HD Graphics 4000"
     ],
-    "ids": []
+    "ids": [
+     "intel-hd-graphics-4000"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 9,

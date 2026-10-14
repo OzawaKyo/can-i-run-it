@@ -16,9 +16,15 @@
    },
    "gpu": {
     "raw": [
-     "Graphics card (AMD): DirectX 10.1 compatible with 512 MB RAM (ATI Radeon 3000, 4000, 5000 or 6000 series, with ATI Radeon 3870 performance) Graphics card (NVIDIA): DirectX 10.0 compatible with 512 MB RAM (NVIDIA GeForce 8, 9, 200, 300, 400 or 500 series with NVIDIA GeForce 8800 GT performance)"
+     "ATI Radeon HD 3870",
+     "Nvidia GeForce 8800 GT"
     ],
-    "ids": []
+    "ids": [
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb",
+     "nvidia-geforce-8800-gt"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 10,
@@ -45,9 +51,15 @@
    },
    "gpu": {
     "raw": [
-     "Graphics Card: DirectX 11 compatible with 1024 MB RAM (NVIDIA GeForce GTX 560 or ATI Radeon 6950)"
+     "AMD Radeon HD 6950",
+     "Nvidia GeForce GTX 560"
     ],
-    "ids": []
+    "ids": [
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb",
+     "nvidia-geforce-gtx-560"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

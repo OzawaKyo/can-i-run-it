@@ -16,9 +16,15 @@
    },
    "gpu": {
     "raw": [
-     "Direct X 10+ Capable GPU"
+     "Nvidia GeForce 8600 GT",
+     "ATI Radeon X1950",
+     "Intel HD Graphics 3000"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 1,
    "directX": 10,
@@ -47,9 +53,17 @@
    },
    "gpu": {
     "raw": [
-     "Direct X 11+"
+     "Nvidia GeForce 9800 GTX",
+     "ATI Radeon HD 4850"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

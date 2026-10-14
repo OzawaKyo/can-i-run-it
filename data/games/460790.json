@@ -57,7 +57,8 @@
      "Geforce GTX 760 (VRAM) 2GB"
     ],
     "ids": [
-     "intel-hd-graphics",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt",
      "nvidia-geforce-gtx-760"
     ]
    },

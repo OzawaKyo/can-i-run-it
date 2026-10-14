@@ -16,12 +16,12 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce 450 with Memory 1GB"
+     "Nvidia GeForce 450"
     ],
     "ids": [
-     "amd-radeon-r7-450-2gb",
-     "amd-radeon-r7-450-4gb"
-    ]
+     "nvidia-geforce-gts-450"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 6,
    "vramGb": 1,

@@ -9,17 +9,26 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Dual core with HyperThreading technology",
-     "quad core CPU (4+ logical processors)"
+     "Intel Core i3-3220T 2.8 GHz",
+     "AMD Phenom II X4 945 3.2 GHz"
     ],
-    "ids": []
+    "ids": [
+     "intel-core-i3-3220t",
+     "amd-phenom-ii-x4-945"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "DirectX 11 graphics card with video RAM 1GB"
+     "Nvidia GeForce GTX 560",
+     "AMD Radeon HD 7770"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,
@@ -41,17 +50,29 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Quad Core",
-     "Six Core CPU (6+ logical processors)"
+     "Intel Core i5-2500K 3.3 GHz",
+     "AMD FX-6350 3.9 GHz"
     ],
-    "ids": []
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-fx-6350"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "DirectX 11 graphics card with video RAM 2GB"
+     "Nvidia GeForce GTX 660 Ti",
+     "AMD Radeon HD 7850",
+     "AMD Radeon R7 260X"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "nvidia-geforce-gtx-660-ti",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb",
+     "amd-radeon-r7-260x-1gb",
+     "amd-radeon-r7-260x-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 2,

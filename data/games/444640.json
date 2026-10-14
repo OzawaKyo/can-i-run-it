@@ -49,9 +49,7 @@
      "Nvidia",
      "Intel HD"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 1,
    "storage": {

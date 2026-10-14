@@ -23,6 +23,14 @@ function resolveOne(
   hints: ResolveHints,
 ): HardwareMatch[] {
   const rawKey = matchKey(raw);
+  // A name that gives its vendor only matches that vendor's models ("Radeon 8500" ≠ "GeForce 8500 GT"),
+  // and bare family names ("HD Graphics") never stand for one model.
+  const vendor = vendorOf(raw);
+  catalog = catalog.filter(
+    (model) =>
+      !GENERIC_FAMILY.test(model.name) &&
+      (!vendor || !modelVendor(model) || modelVendor(model) === vendor),
+  );
   let best: HardwareModel[] = [];
   let bestLength = 0;
   for (const model of catalog) {
@@ -39,7 +47,11 @@ function resolveOne(
     return pickVram(best, hints).map((model) => ({ model, confidence: 'exact' }));
 
   // "GeForce 8600" names a family ("8600 GT", "8600 GTS"): accept the variants, flagged as partial.
-  const variants = catalog.filter((model) => isVariantOf(matchKey(model.name), rawKey));
+  // A family ("GeForce 9800") means desktop cards unless the name says laptop.
+  const laptopName = /\b(?:laptop|mobile|mobility|notebook)\b|\d+m\b/i.test(raw);
+  const variants = catalog.filter(
+    (model) => isVariantOf(matchKey(model.name), rawKey) && (laptopName || !model.laptop),
+  );
   if (variants.length > 0)
     return pickVram(variants, hints).map((model) => ({ model, confidence: 'partial' }));
 
@@ -54,6 +66,27 @@ function resolveOne(
 }
 
 const GEFORCE_SERIES = ['gtx', 'gts', 'gt', 'rtx'];
+
+/** Integrated GPU families sold under one generic name across many generations. */
+const GENERIC_FAMILY =
+  /^(?:intel\s+)?(?:u?hd|iris(?:\s+pro)?)\s+graphics$|^(?:amd\s+)?radeon\s+graphics$/i;
+
+type Vendor = 'nvidia' | 'amd' | 'intel';
+
+function vendorOf(raw: string): Vendor | undefined {
+  const nvidia = /nvidia|geforce|\bgtx\b|\brtx\b|quadro/i.test(raw);
+  const amd = /\bati\b|\bamd\b|radeon|ryzen|athlon|phenom|\bfx-/i.test(raw);
+  const intel = /intel|\bcore\s+i\d|pentium|celeron|\biris\b|\barc\b/i.test(raw);
+  // Several vendors in one name ("NVIDIA or AMD equivalent"): no constraint.
+  return [nvidia && 'nvidia', amd && 'amd', intel && 'intel'].filter(Boolean).length === 1
+    ? (((nvidia && 'nvidia') || (amd && 'amd') || 'intel') as Vendor)
+    : undefined;
+}
+
+/** Catalog ids start with the vendor ("nvidia-geforce-…"). */
+function modelVendor(model: HardwareModel): Vendor | undefined {
+  return model.id.match(/^(nvidia|amd|intel)-/)?.[1] as Vendor | undefined;
+}
 
 function pickVram(models: HardwareModel[], hints: ResolveHints): HardwareModel[] {
   const sameVram = models.filter((model) => model.vramGb === hints.vramGb);
@@ -104,7 +137,8 @@ function matchKey(name: string): string {
       .replace(/\bR([3579])\s+(\d{4})/gi, 'Ryzen $1 $2')
       .toLowerCase()
       .replace(/\([^)]*\)/g, ' ')
-      .replace(/@?\s*\d+(?:\.\d+)?\s*[gm]hz\b|@/g, ' ')
+      // Clock speeds ("@ 3.3 GHz", "500 MHz"), but not model numbers ("HD 7870 GHz Edition").
+      .replace(/@?\s*\b\d(?:\.\d+)?\s*ghz\b|@?\s*\b\d{2,4}\s*mhz\b|@/g, ' ')
       // Windows appends the core count: "Ryzen 5 3600 6-Core Processor".
       .replace(/\b\d+-core\b/g, ' ')
       // Radeon R5/R7/R9 three-digit numbers are unique across tiers, and games mix them up.

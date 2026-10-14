@@ -18,9 +18,7 @@
     "raw": [
      "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT/INTEL HD 3000"
     ],
-    "ids": [
-     "amd-radeon-3000-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "storage": {

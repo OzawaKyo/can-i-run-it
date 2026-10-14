@@ -18,11 +18,19 @@
    },
    "gpu": {
     "raw": [
-     "512MB Video RAM ( Video RAM) 1GB",
-     "DirectX9c (DirectX11) Shader Model 3.0 (Shader Model 5.0)"
+     "Nvidia GeForce 8800 GTX",
+     "ATI Radeon HD 2900"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "nvidia-geforce-8800-gtx",
+     "amd-radeon-hd-2900-gt-256mb",
+     "amd-radeon-hd-2900-gt-512mb",
+     "amd-radeon-hd-2900-pro-512mb",
+     "amd-radeon-hd-2900-pro-1gb",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,
@@ -45,16 +53,27 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Core i3-530 2.9 GHz",
+     "AMD Phenom II X2 565 3.1 GHz"
+    ],
+    "ids": [
+     "intel-core-i3-530",
+     "amd-phenom-ii-x2-565-black-edition"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
-     "512MB Video RAM ( Video RAM) 1GB",
-     "DirectX9c (DirectX11) Shader Model 3.0 (Shader Model 5.0)"
+     "Nvidia GeForce GTX 480",
+     "ATI Radeon HD 5770"
     ],
-    "ids": [],
-    "capabilityOnly": true
+    "ids": [
+     "nvidia-geforce-gtx-480",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 1,

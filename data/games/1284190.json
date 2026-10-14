@@ -41,8 +41,13 @@
     "ids": []
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel HD Graphics 5000"
+    ],
+    "ids": [
+     "intel-hd-graphics-5000"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 6,

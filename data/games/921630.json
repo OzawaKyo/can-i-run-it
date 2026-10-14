@@ -43,8 +43,7 @@
      "Intel Core I5-7400/AMD Rayzen 3 1300X"
     ],
     "ids": [
-     "intel-core-i5-7400",
-     "intel-intel-processor-300"
+     "intel-core-i5-7400"
     ]
    },
    "gpu": {

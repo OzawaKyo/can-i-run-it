@@ -9,12 +9,13 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i3",
-     "AMD Phenom II X4",
-     "AMD FX",
-     "AMD Ryzen"
+     "AMD Athlon 64 X2 Dual Core 4200",
+     "Intel Core 2 Duo E4400 2.0 GHz"
     ],
-    "ids": []
+    "ids": [
+     "intel-core-2-duo-e4400"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

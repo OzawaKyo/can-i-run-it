@@ -48,11 +48,22 @@
    },
    "gpu": {
     "raw": [
-     "Shader Model 3.0 (Geforce 8800, Radeon HD4000-Series)",
-     "512 MB",
-     "DirectX 9.0c"
+     "Nvidia GeForce 8800",
+     "AMD Radeon HD4000-Series"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 9,

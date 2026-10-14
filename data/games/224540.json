@@ -46,10 +46,13 @@
    },
    "gpu": {
     "raw": [
-     "800 x 600 Minimum Resolution",
-     "OpenGL 2.0 Support."
+     "Nvidia GeForce GTX 460"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 9,

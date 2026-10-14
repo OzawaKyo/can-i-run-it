@@ -21,9 +21,7 @@
      "Nvidia",
      "Intel HD"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "storage": {
@@ -54,9 +52,7 @@
      "Nvidia",
      "Intel HD"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 8,
    "storage": {

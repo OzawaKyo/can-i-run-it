@@ -9,11 +9,14 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core2Quad Q6600 2",
-     "40 GHz"
+     "Intel Core 2 Duo E8600 3.3 GHz",
+     "Intel Core 2 Quad Q6600 2.4 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 414
+    "ids": [
+     "intel-core-2-duo-e8600",
+     "intel-core-2-quad-q6600"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -39,11 +42,12 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core I5-4440 3",
-     "10 GHz"
+     "Intel Core i5-4440 3.10 GHz"
     ],
-    "ids": [],
-    "estimatedScore": 103
+    "ids": [
+     "intel-core-i5-4440"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

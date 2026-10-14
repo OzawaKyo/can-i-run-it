@@ -20,9 +20,7 @@
      "GeForce 6 Series",
      "Radeon R7 Series"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 4,
    "storage": {

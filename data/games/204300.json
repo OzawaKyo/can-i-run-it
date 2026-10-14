@@ -19,9 +19,7 @@
      "NVIDIA videocard with at least 512MB",
      "or Intel HD Graphics"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "storage": {

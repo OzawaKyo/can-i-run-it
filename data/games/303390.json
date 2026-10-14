@@ -34,6 +34,25 @@
     "graphics": "NVIDIA GeForce GT 240 (or better)",
     "storage": "1 GB available space"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.20 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 33,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "raw": {
+    "processor": "3.20 GHz",
+    "memory": "4 GB"
+   }
   }
  }
 }

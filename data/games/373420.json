@@ -52,8 +52,7 @@
      "ATI Radeon HD 6XXX"
     ],
     "ids": [
-     "nvidia-geforce-gtx-550-ti",
-     "intel-hd-graphics"
+     "nvidia-geforce-gtx-550-ti"
     ]
    },
    "ramGb": 4,

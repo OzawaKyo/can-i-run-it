@@ -36,6 +36,23 @@
     "built-in graphics": "Intel Integrated Chipset, GMA X3000 or above.",
     "supported video cards": "Nvidia GeForce series: FX5900 or greater, G100, GT 120, GT 130, GTS 150, GTS 250, GTX 260, GTX 275, GTX 280, GTX 285, GTX 295; ATI Radeon series: ATI Radeon 9500 series of greater, X300, X600, X700, X800, X850, X1300, X1600, X1800, X1900, X1950, 2400, 2600, 2900, 3450, 3650, 3850, 3870, 4850, 4870 series or greater; Intel Graphics Media Accelerator (GMA): GMA 3-Series, GMA 4-Series"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "storage": "32 GB (with all DLC)"
+   }
   }
  }
 }

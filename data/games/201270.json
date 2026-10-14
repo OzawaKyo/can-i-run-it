@@ -50,9 +50,7 @@
     "raw": [
      "AMD Radeon HD 5000 and 6000 series graphics card DirectX 11 compatible card"
     ],
-    "ids": [
-     "intel-hd-graphics-5000"
-    ]
+    "ids": []
    },
    "ramGb": 2,
    "directX": 9,

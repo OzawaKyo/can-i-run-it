@@ -18,9 +18,8 @@
     "raw": [
      "3D graphics card compatible with DirectX 9 and 256 MB VRAM"
     ],
-    "ids": [
-     "intel-hd-graphics"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

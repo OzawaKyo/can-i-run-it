@@ -36,6 +36,21 @@
     "other requirements": "Broadband Internet connection",
     "additional": "Supports Direct Input compatible controllers"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 0.5,
+   "raw": {
+    "memory": "4 GB"
+   }
   }
  }
 }

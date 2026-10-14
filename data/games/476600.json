@@ -53,12 +53,28 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Core i5-4430 3.0 GHz",
+     "AMD Ryzen 5 1600X"
+    ],
+    "ids": [
+     "intel-core-i5-4430",
+     "amd-ryzen-5-1600x"
+    ],
+    "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Nvidia GeForce GTX 970 or GTX 1060",
+     "AMD Radeon R9 390 or RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "raw": {}
   }

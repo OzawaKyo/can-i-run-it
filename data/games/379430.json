@@ -23,8 +23,7 @@
      "AMD GPU Radeon HD 7870"
     ],
     "ids": [
-     "nvidia-geforce-gtx-660",
-     "intel-uhd-graphics"
+     "nvidia-geforce-gtx-660"
     ]
    },
    "ramGb": 8,

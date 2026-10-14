@@ -16,9 +16,13 @@
    },
    "gpu": {
     "raw": [
-     "Dedicated video card is required 1GB"
+     "Nvidia GeForce GTX 750"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 1,

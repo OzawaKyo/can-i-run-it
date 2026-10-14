@@ -8,8 +8,12 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "1.7 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 18,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],
@@ -22,8 +26,12 @@
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium 4 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],

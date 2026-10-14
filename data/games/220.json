@@ -34,6 +34,31 @@
     "graphics": "DirectX 8.1 level Graphics Card (requires support for SSE)",
     "storage": "6500 MB available space"
    }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 6800",
+     "ATI Radeon X800"
+    ],
+    "ids": [],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 1,
+   "vramGb": 0.5,
+   "raw": {
+    "processor": "2.0 GHz",
+    "graphics": "Nvidia GeForce 6800 / ATI Radeon X800",
+    "memory": "1 GB"
+   }
   }
  }
 }

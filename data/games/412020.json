@@ -25,7 +25,8 @@
      "nvidia-geforce-gtx-670",
      "nvidia-geforce-gtx-1050-gp107-300",
      "nvidia-geforce-gtx-1050-gp107-301-k1",
-     "intel-hd-graphics"
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
     ]
    },
    "ramGb": 8,

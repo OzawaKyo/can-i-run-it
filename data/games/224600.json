@@ -16,9 +16,27 @@
    },
    "gpu": {
     "raw": [
-     "512MB video card (NVIDIA GeForce 8600, ATI Radeon HD 2900, or Intel HD 4000 integrated graphics)"
+     "Nvidia GeForce 8600",
+     "ATI Radeon HD 2900",
+     "Intel HD 4000"
     ],
-    "ids": []
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "amd-radeon-hd-2900-gt-256mb",
+     "amd-radeon-hd-2900-gt-512mb",
+     "amd-radeon-hd-2900-pro-512mb",
+     "amd-radeon-hd-2900-pro-1gb",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb",
+     "intel-hd-graphics-4000"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "directX": 9,
@@ -35,6 +53,35 @@
     "storage": "15 GB free hard drive space",
     "sound": "DirectX 8.1 compatible sound card",
     "internet": "Broadband internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25,
+    "source": "pcgamingwiki"
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTS 250",
+     "ATI Radeon HD 4750"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428",
+     "amd-radeon-hd-4750"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "raw": {
+    "processor": "Intel Core i5 2.4 GHz",
+    "graphics": "Nvidia GeForce GTS 250 / ATI Radeon HD 4750",
+    "memory": "4 GB"
    }
   }
  }

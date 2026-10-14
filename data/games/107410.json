@@ -9,10 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core quad-core",
-     "AMD Athlon quad-core"
+     "AMD dual-core Athlon 2.5 GHz",
+     "Intel dual-core 2.4 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

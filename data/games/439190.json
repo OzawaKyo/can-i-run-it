@@ -66,8 +66,7 @@
      "GPU Radeon HD 7870"
     ],
     "ids": [
-     "nvidia-geforce-gtx-770",
-     "intel-uhd-graphics"
+     "nvidia-geforce-gtx-770"
     ]
    },
    "ramGb": 8,
