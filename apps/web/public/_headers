@@ -4,8 +4,9 @@
 /*.css
   Cache-Control: public, max-age=31536000, immutable
 
-# Data and translations change with each weekly refresh.
+# Data and translations keep their names across releases: revalidate on every visit (a
+# cheap 304 thanks to the ETag), so new code never runs against stale files.
 /data/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=0, must-revalidate
 /i18n/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=0, must-revalidate
