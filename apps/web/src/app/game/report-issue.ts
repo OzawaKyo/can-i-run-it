@@ -1,7 +1,7 @@
 import type { GameRecord } from '@can-i-run-it/domain';
 
 /** "owner/name" of the GitHub repository that takes data error reports; empty hides the button. */
-export const ISSUE_REPOSITORY = '';
+export const ISSUE_REPOSITORY = 'OzawaKyo/can-i-run-it';
 
 /**
  * A link that opens a pre-filled GitHub issue about a game's data. It carries only the game
