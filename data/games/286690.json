@@ -9,11 +9,10 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "2.2 GHz Dual Core"
+     "Dual Core CPU (2.2+ GHz Dual Core CPU)"
     ],
     "ids": [],
-    "estimatedScore": 25,
-    "source": "pcgamingwiki"
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [
@@ -46,12 +45,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Quad Core",
-     "3.0 GHz Dual Core"
+     "Any Quad Core",
+     "3.0+ GHz Dual Core CPU"
     ],
     "ids": [],
-    "estimatedScore": 35,
-    "source": "pcgamingwiki"
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [

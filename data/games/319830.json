@@ -18,9 +18,11 @@
     "raw": [
      "1500MB video RAM with pixel shader 3.0 support"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 1.46484375,
    "directX": 9,
    "storage": {
     "gb": 1,

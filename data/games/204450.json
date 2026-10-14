@@ -13,7 +13,7 @@
      "2 GHz AMD Athlon 64 X2"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -23,6 +23,7 @@
     "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.5,
    "directX": 9,
    "storage": {
     "gb": 5,
@@ -46,7 +47,7 @@
      "3 GHz AMD Athlon 64 X2"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -56,6 +57,7 @@
     "capabilityOnly": true
    },
    "ramGb": 4,
+   "vramGb": 1,
    "directX": 10,
    "storage": {
     "gb": 5,

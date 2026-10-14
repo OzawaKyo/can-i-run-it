@@ -12,7 +12,7 @@
      "Dual Core CPU (Intel Pentium 4 3.0 GHz, Intel Core 2.0 GHz, AMD Athlon 3200+)"
     ],
     "ids": [],
-    "estimatedScore": 35
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -42,7 +42,7 @@
      "fast Dual Core CPU (Intel Core 2.8 GHz or AMD Athlon 64 X2 4400+)"
     ],
     "ids": [],
-    "estimatedScore": 32
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

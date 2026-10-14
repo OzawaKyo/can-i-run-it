@@ -19,8 +19,10 @@
     "raw": [
      "32 MB with Hardware T&L"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
+   "vramGb": 0.03125,
    "directX": 9,
    "storage": {
     "gb": 3.5,

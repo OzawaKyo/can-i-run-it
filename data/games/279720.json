@@ -43,13 +43,15 @@
      "Intel",
      "AMD Dual Core CPU"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [
      "Shader 3.0"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 8,

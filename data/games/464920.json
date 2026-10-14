@@ -9,11 +9,10 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "4th Generation Intel Core i3"
+     "4th Generation Intel i3 CPU"
     ],
     "ids": [],
-    "estimatedScore": 41,
-    "source": "pcgamingwiki"
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -48,11 +47,10 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "5th Generation Intel Core i5"
+     "5th Generation Intel i5 CPU"
     ],
     "ids": [],
-    "estimatedScore": 50,
-    "source": "pcgamingwiki"
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

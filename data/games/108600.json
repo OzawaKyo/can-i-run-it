@@ -19,10 +19,12 @@
      "Dedicated graphics card with of VRAM minimum 4GB",
      "OpenGL 2.1 and GLSL 1.2 support (generally 2012)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
    "vramGb": 4,
+   "directX": 9,
    "storage": {
     "gb": 10,
     "ssd": false

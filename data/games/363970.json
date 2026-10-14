@@ -45,7 +45,8 @@
     "raw": [
      "Any GPU"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "storage": {

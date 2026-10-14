@@ -14,15 +14,17 @@
      "AMD Athlon 2800+ (3200+ for Vista)"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "256 MB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.25,
    "storage": {
     "gb": 15,
     "ssd": false

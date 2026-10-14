@@ -35,7 +35,24 @@
      "Radeon RX 6000 series",
      "Arc series"
     ],
-    "ids": []
+    "ids": [
+     "amd-radeon-rx-6300",
+     "amd-radeon-rx-6400",
+     "amd-radeon-rx-6500-xt-4gb",
+     "amd-radeon-rx-6500-xt-8gb",
+     "amd-radeon-rx-6600",
+     "amd-radeon-rx-6600-xt",
+     "amd-radeon-rx-6650-xt",
+     "amd-radeon-rx-6700",
+     "amd-radeon-rx-6750-gre-10gb",
+     "amd-radeon-rx-6700-xt",
+     "amd-radeon-rx-6750-gre-12gb",
+     "amd-radeon-rx-6750-xt",
+     "amd-radeon-rx-6800",
+     "amd-radeon-rx-6800-xt",
+     "amd-radeon-rx-6900-xt",
+     "amd-radeon-rx-6950-xt"
+    ]
    },
    "directX": 11,
    "raw": {

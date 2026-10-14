@@ -9,11 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i3 4th generation / i5 2nd generation / A6 series"
+     "i3 4th generation",
+     "i5 2nd generation",
+     "A6 series"
     ],
     "ids": [],
-    "estimatedScore": 41,
-    "source": "pcgamingwiki"
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [

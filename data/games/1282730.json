@@ -50,8 +50,8 @@
    },
    "gpu": {
     "raw": [
-     "GeForce 8600 GT (512 MB)",
-     "Radeon HD 4650 (1024 MB)"
+     "Nvidia GeForce 8600 GT",
+     "ATI Radeon HD 4650"
     ],
     "ids": [
      "nvidia-geforce-8600-gt-512mb",
@@ -59,7 +59,8 @@
      "amd-radeon-hd-4650-256mb",
      "amd-radeon-hd-4650-512mb",
      "amd-radeon-hd-4650-1gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 2,
    "storage": {

@@ -60,13 +60,19 @@ function resolveOne(
     const prefixed = catalog.filter((model) =>
       GEFORCE_SERIES.some((series) => matchKey(model.name) === series + rawKey),
     );
-    return pickVram(prefixed, hints).map((model) => ({ model, confidence: 'partial' }));
+    if (prefixed.length > 0)
+      return pickVram(prefixed, hints).map((model) => ({ model, confidence: 'partial' }));
   }
 
-  // "Radeon HD 7800", "GTX 1000": a whole series, every card whose number fills in the zeros.
-  const series = rawKey.match(/^(\D*\d{2})00$/);
+  // A whole series, every card whose number fills in the zeros: "Radeon HD 7800" (78xx),
+  // "Radeon 3000 series" (3xxx), "GeForce 200 series" (any prefix + 2xx).
+  const generation = rawKey.match(/^(\D*\d)000$/) ?? rawKey.match(/^(\D*\d{2})00$/);
+  const hundreds = rawKey.match(/^(\d)00$/);
+  const series = generation ?? hundreds;
   if (series) {
-    const pattern = new RegExp(`^${series[1]}\\d{2}(?!\\d)`);
+    const pattern = generation
+      ? new RegExp(`^${generation[1]}\\d{${4 - generation[1].replace(/\D/g, '').length}}(?!\\d)`)
+      : new RegExp(`^[a-z]*${series[1]}\\d{2}(?!\\d)`);
     const members = catalog.filter(
       (model) => pattern.test(matchKey(model.name)) && (laptopName || !model.laptop),
     );

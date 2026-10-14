@@ -18,9 +18,11 @@
     "raw": [
      "Support for OpenGL 3.3"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 10,
    "storage": {
     "gb": 1,
     "ssd": false

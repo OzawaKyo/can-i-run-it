@@ -12,7 +12,8 @@
      "AMD Phenom 9750",
      "Pentium D 800+"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -45,7 +46,7 @@
      "AMD Athlon 64 X2 5600+"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -54,7 +55,31 @@
     ],
     "ids": [
      "nvidia-geforce-9600-gt-512mb",
-     "nvidia-geforce-9600-gt-1gb"
+     "nvidia-geforce-9600-gt-1gb",
+     "amd-radeon-hd-5450-512mb",
+     "amd-radeon-hd-5450-1gb",
+     "amd-radeon-hd-5450-2gb",
+     "amd-radeon-hd-5550-512mb",
+     "amd-radeon-hd-5550-1gb",
+     "amd-radeon-hd-5550-2gb",
+     "amd-radeon-hd-5570-512mb",
+     "amd-radeon-hd-5570-1gb",
+     "amd-radeon-hd-5570-2gb",
+     "amd-radeon-hd-5610",
+     "amd-radeon-hd-5670-512mb",
+     "amd-radeon-hd-5670-1gb",
+     "amd-radeon-hd-5670-2gb",
+     "amd-radeon-hd-5750-512mb",
+     "amd-radeon-hd-5750-1gb",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb",
+     "amd-radeon-hd-5830",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb",
+     "amd-radeon-hd-5870-eyefinity-edition",
+     "amd-radeon-hd-5970"
     ]
    },
    "ramGb": 2,

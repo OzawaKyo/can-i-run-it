@@ -16,13 +16,10 @@
    },
    "gpu": {
     "raw": [
-     "ATI Radeon 9500",
-     "Nvidia GeForce FX 5900",
-     "Intel GMA 950"
+     "Pixel Shader 2.0"
     ],
     "ids": [],
-    "capabilityOnly": true,
-    "source": "pcgamingwiki"
+    "capabilityOnly": true
    },
    "ramGb": 0.75,
    "directX": 9,

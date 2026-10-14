@@ -11,7 +11,8 @@
     "raw": [
      "x86-compatible 800MHz processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 8
    },
    "gpu": {
     "raw": [

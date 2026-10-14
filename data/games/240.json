@@ -9,17 +9,20 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "1.7 GHz"
+     "1.7 GHz Processor"
     ],
     "ids": [],
-    "estimatedScore": 18,
-    "source": "pcgamingwiki"
+    "estimatedScore": 18
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "DirectX 8.1 level Graphics Card (Requires support for SSE)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "directX": 8,
    "raw": {
     "text": "1.7 GHz Processor, 512MB RAM, DirectX 8.1 level Graphics Card (Requires support for SSE), Windows 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection"
    }
@@ -27,17 +30,20 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "3.0 GHz Pentium 4"
+     "Pentium 4 processor (3.0GHz"
     ],
     "ids": [],
-    "estimatedScore": 31,
-    "source": "pcgamingwiki"
+    "estimatedScore": 10
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "DirectX 9 level Graphics Card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "raw": {
     "text": "Pentium 4 processor (3.0GHz, or better), 1GB RAM, DirectX 9 level Graphics Card, Windows 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection"
    }

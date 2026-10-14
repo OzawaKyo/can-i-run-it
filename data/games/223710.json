@@ -18,9 +18,11 @@
     "raw": [
      "128MB Video Card with OpenGL support"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.125,
    "storage": {
     "gb": 5,
     "ssd": false
@@ -46,9 +48,11 @@
     "raw": [
      "512MB Video Card with OpenGL support"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.5,
    "storage": {
     "gb": 7,
     "ssd": false

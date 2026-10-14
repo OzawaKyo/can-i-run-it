@@ -25,6 +25,7 @@
     "capabilityOnly": true
    },
    "ramGb": 4,
+   "vramGb": 0.5,
    "directX": 9,
    "storage": {
     "gb": 10,
@@ -48,9 +49,11 @@
     "raw": [
      "Video card 2048 MB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
+   "vramGb": 2,
    "storage": {
     "gb": 10,
     "ssd": true

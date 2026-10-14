@@ -12,7 +12,8 @@
      "High-Performance Dual Core CPU",
      "Quad Core CPU"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [
@@ -58,11 +59,22 @@
    "cpu": {
     "raw": [
      "AMD FX 8000 series",
-     "Intel Core i7 Quad Core"
+     "Intel Quad i7 Core CPU"
     ],
-    "ids": [],
-    "estimatedScore": 53,
-    "source": "pcgamingwiki"
+    "ids": [
+     "amd-fx-8100",
+     "amd-fx-8120",
+     "amd-fx-8140",
+     "amd-fx-8150",
+     "amd-fx-8170",
+     "amd-fx-8300",
+     "amd-fx-8310",
+     "amd-fx-8320e",
+     "amd-fx-8320",
+     "amd-fx-8350",
+     "amd-fx-8370e",
+     "amd-fx-8370"
+    ]
    },
    "gpu": {
     "raw": [

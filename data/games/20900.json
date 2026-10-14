@@ -15,7 +15,7 @@
      "is not supported"
     ],
     "ids": [],
-    "estimatedScore": 25
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -48,7 +48,7 @@
      "AMD Athlon 64 3000+"
     ],
     "ids": [],
-    "estimatedScore": 31,
+    "estimatedScore": 10,
     "source": "pcgamingwiki"
    },
    "gpu": {

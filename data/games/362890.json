@@ -9,17 +9,17 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "2.6 GHz Dual Core"
+     "2.6 Dual Core Processor"
     ],
     "ids": [],
-    "estimatedScore": 30,
-    "source": "pcgamingwiki"
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [
      "Dedicated Video Card 2GB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 6,
    "vramGb": 2,
@@ -41,17 +41,17 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "3.2 GHz Quad Core"
+     "3.2 Quad Core Processor"
     ],
     "ids": [],
-    "estimatedScore": 45,
-    "source": "pcgamingwiki"
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [
      "Dedicated Video Card 4GB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
    "vramGb": 4,

@@ -43,7 +43,8 @@
     "raw": [
      "Processor (AMD): Six-core CPU Processor (Intel): Quad-core CPU"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [

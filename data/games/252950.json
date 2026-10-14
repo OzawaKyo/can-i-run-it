@@ -44,11 +44,10 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Quad Core 3.0 GHz"
+     "3.0+ GHz Quad core"
     ],
     "ids": [],
-    "estimatedScore": 42,
-    "source": "pcgamingwiki"
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [

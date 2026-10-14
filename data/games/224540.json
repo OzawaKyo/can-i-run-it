@@ -16,12 +16,11 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce 6800 GT",
-     "ATI Radeon X1600"
+     "800 x 600 Minimum Resolution",
+     "OpenGL 2.0 Support."
     ],
     "ids": [],
-    "capabilityOnly": true,
-    "source": "pcgamingwiki"
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,
@@ -44,7 +43,8 @@
     "raw": [
      "2.6+ GHz Intel Quad Core Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [

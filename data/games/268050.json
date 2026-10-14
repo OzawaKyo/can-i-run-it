@@ -9,11 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i7 or an equivalent 4+ core"
+     "i7",
+     "an equivalent with four plus core processor"
     ],
     "ids": [],
-    "estimatedScore": 53,
-    "source": "pcgamingwiki"
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [
@@ -45,7 +45,8 @@
     "raw": [
      "i7 with four plus cores"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

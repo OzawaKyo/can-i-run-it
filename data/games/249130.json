@@ -9,12 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "AMD Athlon 64 X2 3800+ 2 GHz",
-     "Intel Pentium Dual Core E2180 2 GHz"
+     "AMD Athlon 64 X2 EE 3800+ (2*2000 Mhz) Intel CPU",
+     "such as Intel Pentium Dual Core E2180 (2*2000 Mhz)"
     ],
     "ids": [],
-    "estimatedScore": 21,
-    "source": "pcgamingwiki"
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -43,11 +42,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Quad-core 2.6 GHz"
+     "AMD",
+     "Intel Quad Core running at 4*2600 Mhz"
     ],
     "ids": [],
-    "estimatedScore": 36,
-    "source": "pcgamingwiki"
+    "estimatedScore": 36
    },
    "gpu": {
     "raw": [

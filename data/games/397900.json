@@ -11,7 +11,8 @@
     "raw": [
      "1500 MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 16
    },
    "gpu": {
     "raw": [],
@@ -30,7 +31,8 @@
     "raw": [
      "1500 MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 16
    },
    "gpu": {
     "raw": [],

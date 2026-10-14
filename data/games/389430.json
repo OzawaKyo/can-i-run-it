@@ -11,13 +11,15 @@
     "raw": [
      "Pentium 3 600MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "3D Acceleration"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
    "storage": {

@@ -8,8 +8,12 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Dual-core"
+    ],
+    "ids": [],
+    "estimatedScore": 23,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],
@@ -22,7 +26,8 @@
     "raw": [
      "Quad-core 64-bit"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [],

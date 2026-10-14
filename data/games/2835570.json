@@ -18,7 +18,8 @@
     "raw": [
      "Relatively modern dedicated graphics card (Vulkan support required)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "storage": {
@@ -46,7 +47,8 @@
     "raw": [
      "Relatively modern dedicated graphics card (Vulkan support required)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "storage": {

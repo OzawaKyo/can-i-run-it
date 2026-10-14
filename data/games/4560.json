@@ -13,7 +13,7 @@
      "AMD Athlon XP"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -23,6 +23,7 @@
     "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "vramGb": 0.0625,
    "directX": 9,
    "storage": {
     "gb": 9,
@@ -43,7 +44,7 @@
      "3.0 Ghz Intel Pentium IV"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

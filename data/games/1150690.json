@@ -9,9 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel N4100 (or similar)"
+     "Intel Celeron N4100"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -49,7 +51,8 @@
     "raw": [
      "OpenGL ES 2.0 hardware driver support required for WebGL acceleration"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
    "directX": 9,

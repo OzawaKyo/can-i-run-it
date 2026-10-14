@@ -9,11 +9,10 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5"
+     "Intel i5 Quad Core"
     ],
     "ids": [],
-    "estimatedScore": 50,
-    "source": "pcgamingwiki"
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [
@@ -43,11 +42,10 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i7"
+     "Intel i7 Quad Core"
     ],
     "ids": [],
-    "estimatedScore": 53,
-    "source": "pcgamingwiki"
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

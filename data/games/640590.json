@@ -19,8 +19,8 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GT 430 (1024 MB)",
-     "Radeon HD 5570 (1024 MB)"
+     "Nvidia GeForce GT 430",
+     "ATI Radeon HD 5570"
     ],
     "ids": [
      "nvidia-geforce-gt-430-gf108-300",
@@ -33,7 +33,8 @@
      "amd-radeon-hd-5570-512mb",
      "amd-radeon-hd-5570-1gb",
      "amd-radeon-hd-5570-2gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

@@ -12,13 +12,14 @@
      "Intel Pentium 4 2.0 GHz equivalent"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "Card capable of 1024 x 768 pixels desktop resolution"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
    "storage": {

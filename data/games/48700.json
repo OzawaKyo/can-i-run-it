@@ -13,15 +13,17 @@
      "AMD 2.5 GHz"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "3D graphics card with 64MB RAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "vramGb": 0.0625,
    "storage": {
     "gb": 0.09765625,
     "ssd": false
@@ -42,7 +44,7 @@
      "AMD Athlon 64 X2 3600+"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

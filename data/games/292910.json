@@ -19,9 +19,11 @@
     "raw": [
      "OpenGL 2.0 compatible with 256 MB RAM (Shared Memory is not recommended)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.25,
    "directX": 9,
    "storage": {
     "gb": 8,
@@ -50,9 +52,11 @@
     "raw": [
      "OpenGL 2.0 compatible with 512 MB RAM (Shared Memory is not recommended)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.5,
    "directX": 9,
    "storage": {
     "gb": 8,

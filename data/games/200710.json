@@ -18,9 +18,11 @@
     "raw": [
      "DirectX compatible 3D graphics card with at least 256MB of addressable memory."
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.25,
    "directX": 9,
    "storage": {
     "gb": 1.7,

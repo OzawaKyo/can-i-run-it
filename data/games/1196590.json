@@ -18,11 +18,17 @@
    },
    "gpu": {
     "raw": [
-     "AMD Radeon RX 560 with VRAM ／ NVIDIA GeForce GTX 1050 Ti with 4GB VRAM 4GB"
+     "Nvidia GeForce GTX 1050 Ti",
+     "AMD Radeon RX 560"
     ],
     "ids": [
-     "nvidia-geforce-gtx-1050-ti"
-    ]
+     "nvidia-geforce-gtx-1050-ti",
+     "amd-radeon-rx-560-2gb-polaris-21",
+     "amd-radeon-rx-560-2gb-polaris-21-2",
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 4,

@@ -12,7 +12,8 @@
      "P4 3",
      "0 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

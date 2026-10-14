@@ -13,15 +13,17 @@
      "AMD CPU 2 GHz"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "3D graphics card with 128 MB Ram and Shader 1.4"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.125,
    "directX": 9,
    "storage": {
     "gb": 5,
@@ -44,7 +46,7 @@
      "AMD Athlon 64 4000+"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

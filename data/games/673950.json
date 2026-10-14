@@ -11,7 +11,8 @@
     "raw": [
      "Dual Core processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [
@@ -35,7 +36,8 @@
     "raw": [
      "Quad core processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [

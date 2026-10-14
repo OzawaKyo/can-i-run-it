@@ -42,7 +42,8 @@
      "Intel Pentium 4",
      "AMD Athlon XP Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

@@ -188,4 +188,62 @@ describe('resolveGameRequirements', () => {
       expect(cpuOf(['Intel Core i5', 'AMD Ryzen 5'])?.estimatedScore).toBe(55);
     });
   });
+
+  describe('vague requirements found on old and small games', () => {
+    const tier = (cpu: string[], gpu: string[]) =>
+      resolveGameRequirements(
+        { minimum: { cpu, gpu: gpu.map((name) => ({ name })), raw: {} } },
+        catalog,
+      ).requirements.minimum;
+
+    it('gives processors from before the Core era a minimal score', () => {
+      for (const name of [
+        'Intel Pentium 4 (3+ GHZ)',
+        'AMD Athlon 3000+',
+        'Pentium III 450 MHz CPU',
+        'Intel Celeron',
+        'Pentium D 800+',
+      ]) {
+        expect(tier([name], [])?.cpu.estimatedScore, name).toBeLessThan(20);
+      }
+    });
+
+    it('estimates a processor given only by its core count', () => {
+      const quad = tier(['Quad Core CPU'], [])?.cpu.estimatedScore;
+      const dual = tier(['Any processor with 2 Cores'], [])?.cpu.estimatedScore;
+      expect(quad).toBeGreaterThan(dual ?? Infinity);
+      expect(tier(['True dual core CPU (Intel, AMD)'], [])?.cpu.estimatedScore).toBe(dual);
+    });
+
+    it('reads clock speeds in MHz', () => {
+      expect(tier(['500 MHz processor'], [])?.cpu.estimatedScore).toBeGreaterThan(0);
+    });
+
+    it('turns DirectX, shader and OpenGL levels written in many ways into a DirectX requirement', () => {
+      expect(tier([], ['Direct X9.0c Compatible Card'])).toMatchObject({
+        gpu: { capabilityOnly: true },
+        directX: 9,
+      });
+      expect(tier([], ['DX11 / DX12 capable'])).toMatchObject({ directX: 11 });
+      expect(
+        tier([], ['Graphics Card that supports Pixel Shader 2.0 and Vertex Shader 2.0']),
+      ).toMatchObject({ directX: 9 });
+      expect(tier([], ['Support for OpenGL 3.3'])).toMatchObject({ directX: 10 });
+    });
+
+    it('treats a bare memory size or a generic card as a capability-only requirement', () => {
+      expect(tier([], ['256 MB**'])).toMatchObject({ gpu: { capabilityOnly: true }, vramGb: 0.25 });
+      expect(tier([], ['128 MB Video Card'])).toMatchObject({
+        gpu: { capabilityOnly: true },
+        vramGb: 0.125,
+      });
+      expect(tier([], ['16 MB Direct 3D Video Card'])?.gpu.capabilityOnly).toBe(true);
+    });
+
+    it('recognises "Radeon 1600XT" as a pre-DirectX 10 card', () => {
+      expect(tier([], ['256 MB NVIDIA GeForce 6600GT', 'ATI Radeon 1600XT'])).toMatchObject({
+        directX: 9,
+      });
+    });
+  });
 });

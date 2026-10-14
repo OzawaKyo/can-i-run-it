@@ -12,7 +12,8 @@
      "Intel i5",
      "3rd gen (or equivalent)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [
@@ -47,7 +48,8 @@
      "Intel i5",
      "7th gen (or equivalent)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

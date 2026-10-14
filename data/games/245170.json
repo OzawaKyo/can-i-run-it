@@ -11,7 +11,8 @@
     "raw": [
      "Dual-core CPU"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [

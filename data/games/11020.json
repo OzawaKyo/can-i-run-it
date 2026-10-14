@@ -13,7 +13,7 @@
      "AthlonXP 1600+"
     ],
     "ids": [],
-    "estimatedScore": 17
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -23,6 +23,7 @@
     "capabilityOnly": true
    },
    "ramGb": 0.25,
+   "vramGb": 0.015625,
    "directX": 9,
    "storage": {
     "gb": 0.732421875,

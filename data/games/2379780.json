@@ -19,9 +19,11 @@
      "OpenGL 2.1 compatible graphics card",
      "integrated graphics"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 0.146484375,
     "ssd": false

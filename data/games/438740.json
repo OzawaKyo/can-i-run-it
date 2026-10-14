@@ -18,14 +18,15 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GTX 650 Ti (1024 MB)",
-     "Radeon HD 7770 (1024 MB)"
+     "Nvidia GeForce GTX 650 Ti",
+     "AMD Radeon HD 7770"
     ],
     "ids": [
      "nvidia-geforce-gtx-650-ti",
      "amd-radeon-hd-7770-ghz-edition-1gb",
      "amd-radeon-hd-7770-ghz-edition-2gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 11,

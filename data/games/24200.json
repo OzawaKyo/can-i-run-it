@@ -12,16 +12,15 @@
      "P4 3.0GHz"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce 7800 GTX",
-     "ATI Radeon 1950"
+     "NVIDIA 7800GTX+",
+     "ATI 1950+ Video Card"
     ],
     "ids": [],
-    "capabilityOnly": true,
-    "source": "pcgamingwiki"
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

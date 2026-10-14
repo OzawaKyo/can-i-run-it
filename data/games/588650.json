@@ -9,11 +9,10 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5"
+     "Intel i5+"
     ],
     "ids": [],
-    "estimatedScore": 50,
-    "source": "pcgamingwiki"
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [
@@ -45,7 +44,8 @@
     "raw": [
      "Intel i5+"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

@@ -146,9 +146,9 @@ describe('parseSteamRequirements', () => {
       expect(requirements.recommended?.ramGb).toBe(128 / 1024);
     });
 
-    it('leaves processor and graphics unresolved rather than guessing', () => {
-      expect(requirements.minimum?.cpu).toEqual([]);
-      expect(requirements.minimum?.gpu).toEqual([]);
+    it('reads the segments that name the processor and the video card', () => {
+      expect(requirements.minimum?.cpu).toEqual(['500 mhz processor']);
+      expect(requirements.minimum?.gpu).toEqual([{ name: '16mb video card' }]);
     });
   });
 

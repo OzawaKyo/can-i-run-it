@@ -35,13 +35,16 @@ const catalog: HardwareModel[] = [
   cpu('i3-n305', 'Intel Core i3-N305'),
   cpu('ryzen-5-3600', 'AMD Ryzen 5 3600'),
   cpu('i5-8400', 'Intel Core i5-8400'),
-  gpu('r9-270x-2gb', 'AMD Radeon R9 270X 2GB', 2),
+  gpu('amd-radeon-r9-270x-2gb', 'AMD Radeon R9 270X 2GB', 2),
   gpu('gtx-760', 'NVIDIA GeForce GTX 760', 2),
   { id: 'nvidia-geforce-8500-gt', kind: 'gpu', name: 'GeForce 8500 GT' },
   { id: 'intel-hd-graphics', kind: 'gpu', name: 'HD Graphics' },
   { id: 'amd-radeon-hd-7870-ghz-edition', kind: 'gpu', name: 'Radeon HD 7870 GHz Edition' },
   { id: 'nvidia-geforce-9800-gt', kind: 'gpu', name: 'GeForce 9800 GT' },
   { id: 'amd-radeon-hd-3870', kind: 'gpu', name: 'Radeon HD 3870' },
+  { id: 'amd-radeon-hd-3450', kind: 'gpu', name: 'Radeon HD 3450' },
+  { id: 'nvidia-geforce-gt-220', kind: 'gpu', name: 'GeForce GT 220' },
+  { id: 'nvidia-geforce-gtx-260', kind: 'gpu', name: 'GeForce GTX 260' },
   { id: 'nvidia-geforce-gts-450', kind: 'gpu', name: 'GeForce GTS 450' },
   { id: 'amd-radeon-hd-7850', kind: 'gpu', name: 'Radeon HD 7850' },
   { id: 'amd-radeon-hd-7870', kind: 'gpu', name: 'Radeon HD 7870' },
@@ -112,7 +115,7 @@ describe('resolveHardware', () => {
   });
 
   it('ignores the R5/R7/R9 tier of a Radeon, whose three-digit numbers are unique', () => {
-    expect(ids('AMD Radeon R7 270X')).toEqual(['r9-270x-2gb']);
+    expect(ids('AMD Radeon R7 270X')).toEqual(['amd-radeon-r9-270x-2gb']);
   });
 
   it('accepts a GeForce number without its GTX prefix, as a partial match', () => {
@@ -160,6 +163,17 @@ describe('resolveHardware', () => {
       ['amd-radeon-hd-7850', 'partial'],
       ['amd-radeon-hd-7870', 'partial'],
       ['amd-radeon-hd-7870-ghz-edition', 'partial'],
+    ]);
+  });
+
+  it('reads "200 series" and "3000 series" as every card of that generation', () => {
+    expect(ids('Nvidia GeForce 200 series').sort()).toEqual([
+      'nvidia-geforce-gt-220',
+      'nvidia-geforce-gtx-260',
+    ]);
+    expect(ids('AMD Radeon 3000 series').sort()).toEqual([
+      'amd-radeon-hd-3450',
+      'amd-radeon-hd-3870',
     ]);
   });
 });

@@ -17,15 +17,15 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 11 compatible GPU",
-     "dedicated VRAM (Intel Arc A580 / GeForce GTX 1060 / Radeon RX 580) 6GB"
+     "Nvidia GeForce GTX 970",
+     "AMD Radeon RX 480"
     ],
     "ids": [
-     "intel-arc-a580",
-     "nvidia-geforce-gtx-1060-6-gb",
-     "amd-radeon-rx-580-4gb",
-     "amd-radeon-rx-580-8gb"
-    ]
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "vramGb": 6,
@@ -56,14 +56,16 @@
    },
    "gpu": {
     "raw": [
-     "DirectX 12 compatible GPU",
-     "dedicated VRAM (Intel Arc A750 / GeForce GTX 1660 / Radeon RX 590) 8GB"
+     "Nvidia GeForce GTX 1060",
+     "AMD Radeon RX 580"
     ],
     "ids": [
-     "intel-arc-a750",
-     "nvidia-geforce-gtx-1660",
-     "amd-radeon-rx-590"
-    ]
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 8,

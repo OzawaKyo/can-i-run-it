@@ -13,7 +13,7 @@
      "any Dual Core processor"
     ],
     "ids": [],
-    "estimatedScore": 33
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -45,7 +45,7 @@
      "any Intel Core 2 Duo"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

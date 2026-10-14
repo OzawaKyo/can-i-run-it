@@ -18,7 +18,8 @@
     "raw": [
      "Dedicated GPU recommended"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
    "storage": {

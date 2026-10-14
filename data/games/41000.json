@@ -12,7 +12,8 @@
      "Intel Pentium 4 3+ Ghz",
      "AMD Athlon64 3500+"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -39,7 +40,7 @@
      "AMD Athlon64 X2 4000+"
     ],
     "ids": [],
-    "estimatedScore": 21,
+    "estimatedScore": 10,
     "source": "pcgamingwiki"
    },
    "gpu": {

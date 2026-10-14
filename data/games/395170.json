@@ -18,9 +18,11 @@
     "raw": [
      "512 MB card capable of shader 3.0"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.5,
    "directX": 9,
    "storage": {
     "gb": 0.1708984375,

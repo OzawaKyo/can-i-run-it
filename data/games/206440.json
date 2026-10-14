@@ -11,7 +11,8 @@
     "raw": [
      "Intel Pentium III 800 MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

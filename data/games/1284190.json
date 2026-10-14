@@ -15,8 +15,12 @@
     "estimatedScore": 21
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "OpenGL compatible"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "vramGb": 3,

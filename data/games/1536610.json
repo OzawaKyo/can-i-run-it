@@ -9,9 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Yes"
+     "Intel Pentium MMX 233 MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 2,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],
@@ -27,9 +29,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "2+ GHz"
+     "Intel Pentium III 500 MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],

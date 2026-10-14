@@ -56,11 +56,15 @@
    },
    "gpu": {
     "raw": [
-     "1920×1080; Intel UHD 630 AMD Radeon R7 240 NvidiaGeforce GTX 770 AMD Radeon RX 570"
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon R9 270X"
     ],
     "ids": [
-     "nvidia-geforce-gtx-770"
-    ]
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-r9-270x-2gb",
+     "amd-radeon-r9-270x-4gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "directX": 11,

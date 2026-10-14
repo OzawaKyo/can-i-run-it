@@ -18,15 +18,16 @@
    },
    "gpu": {
     "raw": [
-     "GeForce 240 GT",
-     "Radeon HD 6570 – 1024 MB (1 gig)"
+     "Nvidia GeForce GT 240",
+     "AMD Radeon HD 6570"
     ],
     "ids": [
      "nvidia-geforce-gt-240",
      "amd-radeon-hd-6570",
      "amd-radeon-hd-6570-2gb",
      "amd-radeon-hd-6570-4gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 4,
    "directX": 9,

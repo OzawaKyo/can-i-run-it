@@ -17,13 +17,10 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce 8600 GT",
-     "AMD Radeon X1950",
-     "Intel HD 3000"
+     "Direct X 10+ Capable GPU"
     ],
     "ids": [],
-    "capabilityOnly": true,
-    "source": "pcgamingwiki"
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 10,

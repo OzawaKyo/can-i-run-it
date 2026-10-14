@@ -53,13 +53,17 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GTX 1050 (2048 VRAM); Radeon R9 380 (2048 VRAM)"
+     "Nvidia GeForce GTX 1050",
+     "AMD AMD Radeon R9 380"
     ],
     "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
      "amd-radeon-r9-380",
      "amd-radeon-r9-380-2gb",
      "amd-radeon-r9-380-4gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "storage": {

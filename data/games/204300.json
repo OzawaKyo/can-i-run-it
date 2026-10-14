@@ -11,7 +11,8 @@
     "raw": [
      "Any processor with 2 Cores"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [
@@ -40,7 +41,8 @@
     "raw": [
      "Any processor with 2 Cores"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [

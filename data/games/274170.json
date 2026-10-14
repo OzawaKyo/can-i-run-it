@@ -18,9 +18,11 @@
     "raw": [
      "OpenGL 3.2 compatible GPU with at least 256MB of VRAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.25,
    "directX": 9,
    "storage": {
     "gb": 0.5859375,
@@ -48,9 +50,11 @@
     "raw": [
      "OpenGL 3.2 compatible GPU with at least 512MB of VRAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.5,
    "directX": 9,
    "storage": {
     "gb": 0.5859375,

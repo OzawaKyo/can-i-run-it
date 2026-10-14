@@ -20,13 +20,16 @@
    },
    "gpu": {
     "raw": [
-     "Minimum VRAM (AMD Radeon RX 570 / Nvidia GeForce GTX 1060) 6GB"
+     "Nvidia GeForce GTX 1060",
+     "AMD Radeon RX 570"
     ],
     "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
      "amd-radeon-rx-570-4gb",
-     "amd-radeon-rx-570-8gb",
-     "nvidia-geforce-gtx-1060-6-gb"
-    ]
+     "amd-radeon-rx-570-8gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 6,

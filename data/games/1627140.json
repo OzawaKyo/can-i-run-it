@@ -11,7 +11,8 @@
     "raw": [
      "Pentium 4"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

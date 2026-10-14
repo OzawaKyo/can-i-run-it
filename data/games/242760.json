@@ -45,7 +45,8 @@
     "raw": [
      "Quad Core Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [

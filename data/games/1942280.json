@@ -19,9 +19,12 @@
      "128MB",
      "OpenGL 3+"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
+   "vramGb": 0.125,
+   "directX": 10,
    "storage": {
     "gb": 0.1953125,
     "ssd": false

@@ -12,7 +12,8 @@
      "Intel",
      "AMD Dual Core CPU"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [

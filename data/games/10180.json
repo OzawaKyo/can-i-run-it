@@ -13,14 +13,15 @@
      "AMD Athlon 64 3200+ processor supported"
     ],
     "ids": [],
-    "estimatedScore": 33
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "256 MB NVIDIA GeForce 6600GT",
      "ATI Radeon 1600XT"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

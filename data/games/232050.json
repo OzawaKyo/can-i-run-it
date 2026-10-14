@@ -12,7 +12,8 @@
      "Intel Pentium 2",
      "0 GHz/AMD 2000+"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

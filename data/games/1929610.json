@@ -12,7 +12,8 @@
      "Intel i5",
      "new-gen i3"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -46,7 +47,8 @@
      "Intel i7",
      "AMD equivalent (AMD FX 9500+ Series)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

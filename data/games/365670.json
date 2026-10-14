@@ -11,16 +11,19 @@
     "raw": [
      "4 cores with SSE4.2 support"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [
      "OpenGL 4.3"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
    "vramGb": 2,
+   "directX": 11,
    "storage": {
     "gb": 1,
     "ssd": false

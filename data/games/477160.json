@@ -21,13 +21,11 @@
      "GeForce GT 740 (2048 MB)",
      "Radeon HD 5770 (1024 MB)"
     ],
-    "ids": [
-     "nvidia-geforce-gt-740",
-     "amd-radeon-hd-5770-512mb",
-     "amd-radeon-hd-5770-1gb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 0.48828125,
     "ssd": false
@@ -56,14 +54,11 @@
      "GeForce GTX 460 (1024 MB)",
      "Radeon HD 7770 (1024 MB)"
     ],
-    "ids": [
-     "nvidia-geforce-gtx-460-gf104-300-ka",
-     "nvidia-geforce-gtx-460-gf104-325",
-     "amd-radeon-hd-7770-ghz-edition-1gb",
-     "amd-radeon-hd-7770-ghz-edition-2gb"
-    ]
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 9,
    "storage": {
     "gb": 0.48828125,
     "ssd": false

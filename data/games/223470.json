@@ -12,7 +12,8 @@
      "Pentium 3 1133MHz",
      "AMD Athlon 733MHz Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 8
    },
    "gpu": {
     "raw": [

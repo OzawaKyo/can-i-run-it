@@ -13,15 +13,17 @@
      "3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "1024 MB video card"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 1,
    "directX": 11,
    "storage": {
     "gb": 40,

@@ -17,15 +17,16 @@
    },
    "gpu": {
     "raw": [
-     "1024 MB 100% DirectX 11 compatible AMD Radeon HD 7790",
-     "NVIDIA GeForce 460 GTX"
+     "Nvidia GeForce GTX 460",
+     "AMD Radeon HD 7790"
     ],
     "ids": [
-     "amd-radeon-hd-7790-1gb",
-     "amd-radeon-hd-7790-2gb",
      "nvidia-geforce-gtx-460-gf104-300-ka",
-     "nvidia-geforce-gtx-460-gf104-325"
-    ]
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-7790-1gb",
+     "amd-radeon-hd-7790-2gb"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 6,
    "directX": 11,

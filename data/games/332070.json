@@ -11,15 +11,18 @@
     "raw": [
      "Pentium 4+"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "256 MB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.25,
    "directX": 9,
    "storage": {
     "gb": 5,

@@ -18,7 +18,8 @@
     "raw": [
      "Discreet video card"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "storage": {

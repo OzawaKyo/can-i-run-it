@@ -8,18 +8,18 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "2.4 GHz Quad Core"
+     "2.4+ GHz Quad Core CPU"
     ],
     "ids": [],
-    "estimatedScore": 33,
-    "source": "pcgamingwiki"
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [
      "Direct X 9.0c compliant",
      "Shader 3.0 enabled video card with 512MB RAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 9,
@@ -52,7 +52,8 @@
      "Direct X 9.0c compliant",
      "Shader 3.0 enabled video card with RAM 1GB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
    "vramGb": 1,

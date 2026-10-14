@@ -8,28 +8,42 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "500 mhz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 5
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "16mb video card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.09375,
+   "vramGb": 0.015625,
    "raw": {
     "text": "500 mhz processor, 96mb ram, 16mb video card, Windows XP, Mouse, Keyboard, Internet Connection"
    }
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "800 mhz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 8
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "32mb+ video card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.125,
+   "vramGb": 0.03125,
    "raw": {
     "text": "800 mhz processor, 128mb ram, 32mb+ video card, Windows XP, Mouse, Keyboard, Internet Connection"
    }

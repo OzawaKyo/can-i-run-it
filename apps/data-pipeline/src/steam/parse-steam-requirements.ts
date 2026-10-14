@@ -27,8 +27,8 @@ export function parseSteamRequirements(pcRequirements: unknown): GameRequirement
 }
 
 /**
- * Old store pages put both tiers in `minimum` as `<p><strong>Minimum:</strong> free text</p>`.
- * Only the RAM can be read reliably from such text; processor and graphics are left empty.
+ * Old store pages put both tiers in `minimum` as `<p><strong>Minimum:</strong> free text</p>`,
+ * a comma-separated list: the RAM, and the segments naming a processor or video card, are read.
  */
 function readParagraphTiers(html: string): Map<string, RequirementTier> {
   const tiers = new Map<string, RequirementTier>();
@@ -36,9 +36,15 @@ function readParagraphTiers(html: string): Map<string, RequirementTier> {
     const match = paragraph.match(/<strong>\s*(minimum|recommended)\s*:?\s*<\/strong>(.*)/is);
     if (!match) continue;
     const text = stripTags(match[2]);
+    // The text is a comma-separated list; keep the segments that say what they are.
+    const segments = text.split(/\s*,\s*/);
+    const cpu = segments.filter(
+      (part) => /\b(?:processor|cpu)\b/i.test(part) && !/\b(?:ram|memory)\b/i.test(part),
+    );
+    const gpu = segments.filter((part) => /\b(?:video|graphics)\s*card\b|\bgpu\b/i.test(part));
     tiers.set(match[1].toLowerCase(), {
-      cpu: [],
-      gpu: [],
+      cpu,
+      gpu: gpu.map((name) => ({ name })),
       ramGb: parseSizeGb(
         text.match(/\d+(?:\.\d+)?\s*(?:GB|MB)\s*(?:of\s+)?(?:RAM|memory)\b/i)?.[0],
       ),

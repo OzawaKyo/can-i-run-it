@@ -49,11 +49,10 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i7 (7th generation)"
+     "Intel i7 7th generation"
     ],
     "ids": [],
-    "estimatedScore": 53,
-    "source": "pcgamingwiki"
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

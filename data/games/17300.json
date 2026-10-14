@@ -19,9 +19,11 @@
     "raw": [
      "256 MB**"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.25,
    "storage": {
     "gb": 12,
     "ssd": false
@@ -43,7 +45,7 @@
      "AMD Athlon 64 X2 4400+"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

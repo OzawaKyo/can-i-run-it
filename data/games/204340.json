@@ -14,7 +14,7 @@
      "2 Ghz Pentium 4"
     ],
     "ids": [],
-    "estimatedScore": 16
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -47,7 +47,7 @@
      "or 3 GHz Pentium 4"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

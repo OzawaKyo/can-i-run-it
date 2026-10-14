@@ -62,13 +62,18 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 1060/AMD Radeon RX 580 8GB 6GB"
+     "AMD Radeon RX 580",
+     "Nvidia GeForce GTX 1060",
+     "Nvidia GeForce RTX 2080 (DXR)"
     ],
     "ids": [
-     "nvidia-geforce-gtx-1060-6-gb",
      "amd-radeon-rx-580-4gb",
-     "amd-radeon-rx-580-8gb"
-    ]
+     "amd-radeon-rx-580-8gb",
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "nvidia-geforce-rtx-2080"
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 12,
    "vramGb": 6,

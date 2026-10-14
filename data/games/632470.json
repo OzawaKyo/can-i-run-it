@@ -22,6 +22,7 @@
     "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.5,
    "directX": 11,
    "storage": {
     "gb": 20,

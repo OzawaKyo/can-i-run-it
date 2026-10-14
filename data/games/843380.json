@@ -19,9 +19,11 @@
      "256mb video memory",
      "DX11"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
+   "directX": 11,
    "storage": {
     "gb": 0.87890625,
     "ssd": false

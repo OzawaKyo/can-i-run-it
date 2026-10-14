@@ -19,9 +19,11 @@
     "raw": [
      "OpenGL 3.0 compliant video card"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 10,
    "storage": {
     "gb": 0.146484375,
     "ssd": false
@@ -47,9 +49,11 @@
     "raw": [
      "OpenGL 3.0 compliant video card"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "directX": 10,
    "storage": {
     "gb": 0.146484375,
     "ssd": false

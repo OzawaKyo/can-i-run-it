@@ -17,7 +17,8 @@
     "raw": [
      "Dedicated Card"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "storage": {

@@ -12,16 +12,18 @@
      "2.0 GHz Intel Pentium 4"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "128 MB Video Card",
      "with support for Pixel Shader 2.0"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "vramGb": 0.125,
    "directX": 9,
    "storage": {
     "gb": 4,

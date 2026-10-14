@@ -11,7 +11,8 @@
     "raw": [
      "300 MHz Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 3
    },
    "gpu": {
     "raw": [

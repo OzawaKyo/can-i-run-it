@@ -12,7 +12,8 @@
      "Intel Celeron",
      "AMD Phenom"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

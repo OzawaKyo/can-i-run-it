@@ -9,10 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel",
-     "AMD Single Core CPU"
+     "Intel Pentium III 600 MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -50,9 +51,11 @@
     "raw": [
      "with Shader 2.0 support and 256 MB RAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.25,
    "directX": 9,
    "storage": {
     "gb": 5,

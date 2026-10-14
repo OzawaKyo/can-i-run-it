@@ -16,8 +16,12 @@
     "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "3D-compatible Video Card"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "raw": {
     "os": "Windows 10 or later",

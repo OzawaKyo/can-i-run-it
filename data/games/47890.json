@@ -12,19 +12,17 @@
      "(XP) 2.0 GHz P4 processor; (Vista) 2.4 GHz P4 processor"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce FX 5900 series",
-     "ATI Radeon 9500 series",
-     "Intel GMA 3000 series"
+     "128 MB Video Card with support for Pixel Shader 2.0"
     ],
     "ids": [],
-    "capabilityOnly": true,
-    "source": "pcgamingwiki"
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.125,
    "directX": 9,
    "storage": {
     "gb": 6.5,

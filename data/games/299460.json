@@ -13,7 +13,7 @@
      "AMD Dual-Core Athlon 3.0 GHz"
     ],
     "ids": [],
-    "estimatedScore": 30
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -49,7 +49,8 @@
     "raw": [
      "Quad-Core Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [

@@ -49,7 +49,8 @@
      "ATI",
      "NVidia card w/ 1024 MB RAM (NVIDIA GeForce GTX 260 or ATI HD 4890)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

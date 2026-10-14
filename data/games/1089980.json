@@ -44,8 +44,12 @@
     "estimatedScore": 27
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Dedicated"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "storage": {

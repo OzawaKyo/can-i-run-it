@@ -18,7 +18,8 @@
     "raw": [
      "Graphics Card that supports Pixel Shader 2.0 and Vertex Shader 2.0(Vertex Shader Support can be supported with software emulation)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "directX": 9,
    "storage": {
@@ -45,7 +46,8 @@
     "raw": [
      "Graphics Card that supports Pixel Shader 3.0 and Vertex Shader 2.0(Vertex Shader Support can be supported with software emulation)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "directX": 9,
    "storage": {

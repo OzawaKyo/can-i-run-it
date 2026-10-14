@@ -17,9 +17,11 @@
     "raw": [
      "OpenGL 2.0 support"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "directX": 9,
    "storage": {
     "gb": 0.09765625,
     "ssd": false

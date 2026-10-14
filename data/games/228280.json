@@ -11,15 +11,18 @@
     "raw": [
      "Dual Core Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [
      "OpenGL 2.0 compatible"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "storage": {
     "gb": 5,
     "ssd": false

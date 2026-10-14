@@ -18,9 +18,11 @@
     "raw": [
      "128 MB Graphics Card that supports Shader Model 1.1"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "vramGb": 0.125,
    "directX": 9,
    "storage": {
     "gb": 0.048828125,

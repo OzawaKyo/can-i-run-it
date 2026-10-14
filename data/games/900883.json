@@ -12,7 +12,7 @@
      "2 Ghz Intel Pentium 4"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -22,6 +22,7 @@
     "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "vramGb": 0.125,
    "directX": 9,
    "storage": {
     "gb": 4.6,

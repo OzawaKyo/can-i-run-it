@@ -18,9 +18,11 @@
      "DX11",
      "DX12 capable"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 11,
    "storage": {
     "gb": 2.44140625,
     "ssd": false

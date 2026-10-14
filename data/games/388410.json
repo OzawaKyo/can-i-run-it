@@ -45,7 +45,8 @@
      "Any Quad-core AMD",
      "Intel Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [

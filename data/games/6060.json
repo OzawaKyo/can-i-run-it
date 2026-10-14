@@ -13,15 +13,17 @@
      "Athlon XP 1500+"
     ],
     "ids": [],
-    "estimatedScore": 16
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "64MB 3d Graphics card with Vertex Shader and Pixel Shader (VS/PS) Capability"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.25,
+   "vramGb": 0.0625,
    "directX": 9,
    "storage": {
     "gb": 4.3,

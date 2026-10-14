@@ -13,7 +13,7 @@
      "2.6 GHz (AMD Athlon or FX)"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -46,7 +46,7 @@
      "3.6 GHz (AMD Ryzen, FX or Athlon)"
     ],
     "ids": [],
-    "estimatedScore": 37
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

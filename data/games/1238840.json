@@ -56,12 +56,16 @@
    },
    "gpu": {
     "raw": [
-     "Graphics card (AMD): AMD Radeon RX 480 Graphics card (NVIDIA): NVIDIA GeForce GTX 1060 3GB 4GB"
+     "AMD Radeon RX 480",
+     "Nvidia GeForce GTX 1060"
     ],
     "ids": [
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb",
      "nvidia-geforce-gtx-1060",
      "nvidia-geforce-gtx-1060-6-gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 4,

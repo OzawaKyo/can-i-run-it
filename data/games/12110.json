@@ -15,7 +15,7 @@
      "1.2 GHz AMD Duron processor"
     ],
     "ids": [],
-    "estimatedScore": 12
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -45,6 +45,7 @@
      "Intel Pentium 4"
     ],
     "ids": [],
+    "estimatedScore": 10,
     "source": "pcgamingwiki"
    },
    "gpu": {

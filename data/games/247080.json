@@ -18,9 +18,11 @@
     "raw": [
      "512MB VRAM"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.9765625,
+   "vramGb": 0.5,
    "storage": {
     "gb": 1.5625,
     "ssd": false

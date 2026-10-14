@@ -17,12 +17,12 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce 7900 GS",
-     "ATI Radeon X1900 XT"
+     "Shader Model 3.0 graphics card with 256MB of memory",
+     "NVIDIA GeForce 7900GS",
+     "ATI Radeon 1900XT"
     ],
     "ids": [],
-    "capabilityOnly": true,
-    "source": "pcgamingwiki"
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "directX": 9,

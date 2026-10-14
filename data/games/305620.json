@@ -12,7 +12,7 @@
      "Dual-Core Intel i5 CPU @ 2GHz+"
     ],
     "ids": [],
-    "estimatedScore": 23
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [
@@ -40,7 +40,7 @@
      "Intel i7 CPU @ 2.6GHz"
     ],
     "ids": [],
-    "estimatedScore": 27
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

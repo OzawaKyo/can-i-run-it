@@ -12,7 +12,8 @@
      "Intel Core 2",
      "AMD Athlon 64 X2"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

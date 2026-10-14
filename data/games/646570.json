@@ -18,10 +18,12 @@
     "raw": [
      "capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "vramGb": 1,
+   "directX": 10,
    "storage": {
     "gb": 1,
     "ssd": false

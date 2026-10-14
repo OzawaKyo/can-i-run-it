@@ -17,7 +17,8 @@
     "raw": [
      "DirectX capable GPU"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 4,
    "directX": 10,

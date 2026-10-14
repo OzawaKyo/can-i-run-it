@@ -9,18 +9,20 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Pentium 4 2.4 GHz",
-     "AMD Athlon XP 2800+"
+     "Pentium 4 2.4GHz or AMD 2800+ Processor"
     ],
     "ids": [],
-    "estimatedScore": 25,
-    "source": "pcgamingwiki"
+    "estimatedScore": 10
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "DirectX 9 level graphics card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "directX": 9,
    "raw": {
     "text": "Pentium 4 2.4GHz or AMD 2800+ Processor, 1GB RAM, DirectX 9 level graphics card, Windows XP, Mouse, Keyboard, Internet Connection"
    }

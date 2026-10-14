@@ -19,12 +19,14 @@
    },
    "gpu": {
     "raw": [
-     "GeForce GT 560Ti (1024 MB)",
-     "Radeon HD 6850 (1024 MB)"
+     "Nvidia GeForce GTX 560 Ti",
+     "AMD Radeon HD 6850"
     ],
     "ids": [
+     "nvidia-geforce-gtx-560-ti",
      "amd-radeon-hd-6850"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 8,
    "storage": {

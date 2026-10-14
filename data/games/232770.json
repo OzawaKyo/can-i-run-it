@@ -11,7 +11,8 @@
     "raw": [
      "90mhz processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 1
    },
    "gpu": {
     "raw": [],
@@ -36,7 +37,8 @@
     "raw": [
      "166mhz processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 2
    },
    "gpu": {
     "raw": [],

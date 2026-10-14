@@ -50,7 +50,8 @@
     "raw": [
      "Dedicated graphic card with VRAM 2GB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 16,
    "vramGb": 2,

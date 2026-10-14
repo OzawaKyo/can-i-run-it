@@ -12,15 +12,17 @@
      "Intel Pentium 2.0 GHz"
     ],
     "ids": [],
-    "estimatedScore": 21,
+    "estimatedScore": 10,
     "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
      "32MB graphics card"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
+   "vramGb": 0.03125,
    "directX": 9,
    "raw": {
     "os": "Windows XP or higher",

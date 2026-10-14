@@ -9,17 +9,20 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "1.2 GHz"
+     "1.2 GHz Processor"
     ],
     "ids": [],
-    "estimatedScore": 12,
-    "source": "pcgamingwiki"
+    "estimatedScore": 12
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "DirectX 7 level graphics card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.25,
+   "directX": 7,
    "raw": {
     "text": "1.2 GHz Processor, 256MB RAM, DirectX 7 level graphics card, Windows XP, Mouse, Keyboard, Internet Connection"
    }
@@ -27,17 +30,20 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "2.4 GHz"
+     "2.4 GHz Processor"
     ],
     "ids": [],
-    "estimatedScore": 25,
-    "source": "pcgamingwiki"
+    "estimatedScore": 25
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "DirectX 9 level graphics card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.5,
+   "directX": 9,
    "raw": {
     "text": "2.4 GHz Processor, 512MB RAM, DirectX 9 level graphics card, Windows XP, Mouse, Keyboard, Internet Connection"
    }

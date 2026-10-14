@@ -18,7 +18,8 @@
     "raw": [
      "Hardware Accelerated Graphics with dedicated memory"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "storage": {
@@ -45,7 +46,8 @@
     "raw": [
      "Hardware Accelerated Graphics with dedicated memory"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "storage": {

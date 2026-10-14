@@ -54,13 +54,15 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GTX 1080 /Radeon RX Vega 64"
+     "Nvidia GeForce GTX 1080",
+     "AMD Radeon RX Vega 64"
     ],
     "ids": [
      "nvidia-geforce-gtx-1080-gp104-400",
      "nvidia-geforce-gtx-1080-gp104-410",
      "amd-radeon-rx-vega-64"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "directX": 12,

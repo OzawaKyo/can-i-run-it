@@ -57,7 +57,7 @@
      "3.0+ Dual Core CPU"
     ],
     "ids": [],
-    "estimatedScore": 50
+    "estimatedScore": 23
    },
    "gpu": {
     "raw": [
@@ -65,7 +65,32 @@
      "NVIDIA GeForce GTX 400 series",
      "ATI Radeon HD5000 series"
     ],
-    "ids": []
+    "ids": [
+     "amd-radeon-hd-5450-512mb",
+     "amd-radeon-hd-5450-1gb",
+     "amd-radeon-hd-5450-2gb",
+     "amd-radeon-hd-5550-512mb",
+     "amd-radeon-hd-5550-1gb",
+     "amd-radeon-hd-5550-2gb",
+     "amd-radeon-hd-5570-512mb",
+     "amd-radeon-hd-5570-1gb",
+     "amd-radeon-hd-5570-2gb",
+     "amd-radeon-hd-5610",
+     "amd-radeon-hd-5670-512mb",
+     "amd-radeon-hd-5670-1gb",
+     "amd-radeon-hd-5670-2gb",
+     "amd-radeon-hd-5750-512mb",
+     "amd-radeon-hd-5750-1gb",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb",
+     "amd-radeon-hd-5830",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb",
+     "amd-radeon-hd-5870-eyefinity-edition",
+     "amd-radeon-hd-5970"
+    ]
    },
    "ramGb": 4,
    "vramGb": 1,

@@ -23,6 +23,7 @@
     "capabilityOnly": true
    },
    "ramGb": 0.25,
+   "vramGb": 0.0625,
    "directX": 9,
    "storage": {
     "gb": 4,
@@ -47,7 +48,7 @@
      "Pentium 4 2-3 GHz"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

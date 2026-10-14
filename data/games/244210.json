@@ -52,7 +52,8 @@
      "AMD Six-Core CPU",
      "Intel Quad-Core CPU"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [

@@ -55,12 +55,15 @@
    },
    "gpu": {
     "raw": [
-     "NVIDIA GeForce GTX 1060 /AMD Radeon RX 590 8GB 6GB"
+     "Nvidia GeForce GTX 1060",
+     "AMD Radeon RX 590"
     ],
     "ids": [
+     "nvidia-geforce-gtx-1060",
      "nvidia-geforce-gtx-1060-6-gb",
      "amd-radeon-rx-590"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 6,

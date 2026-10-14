@@ -13,7 +13,7 @@
      "or any dual core processor"
     ],
     "ids": [],
-    "estimatedScore": 33
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -44,7 +44,7 @@
      "AMD Athlon 64 X2 4400+"
     ],
     "ids": [],
-    "estimatedScore": 21,
+    "estimatedScore": 10,
     "source": "pcgamingwiki"
    },
    "gpu": {

@@ -11,13 +11,15 @@
     "raw": [
      "An Intel Pentium 4 processor that's SSE3 capable"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "Hardware Accelerated Graphics with dedicated memory"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
    "storage": {

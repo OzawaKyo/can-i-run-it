@@ -9,12 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core i5 (2nd Generation)",
-     "AMD Bulldozer (4 cores)"
+     "Intel i5 gen 2",
+     "AMD Bulldozer {4 cores)"
     ],
     "ids": [],
-    "estimatedScore": 50,
-    "source": "pcgamingwiki"
+    "estimatedScore": 28
    },
    "gpu": {
     "raw": [
@@ -47,12 +46,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i7 (2nd Generation)",
+     "Intel i7 gen 2",
      "AMD Ryzen"
     ],
     "ids": [],
-    "estimatedScore": 53,
-    "source": "pcgamingwiki"
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

@@ -11,7 +11,8 @@
     "raw": [
      "Pentium 90Mhz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 1
    },
    "gpu": {
     "raw": [

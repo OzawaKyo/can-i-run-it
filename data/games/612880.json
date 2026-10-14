@@ -56,13 +56,16 @@
    },
    "gpu": {
     "raw": [
-     "Nvidia GTX 1060/AMD Radeon RX 470 4GB 6GB"
+     "Nvidia GeForce GTX 1060",
+     "AMD Radeon RX 470"
     ],
     "ids": [
+     "nvidia-geforce-gtx-1060",
      "nvidia-geforce-gtx-1060-6-gb",
      "amd-radeon-rx-470-4gb",
      "amd-radeon-rx-470-8gb"
-    ]
+    ],
+    "source": "pcgamingwiki"
    },
    "ramGb": 16,
    "vramGb": 6,

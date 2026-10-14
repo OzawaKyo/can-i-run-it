@@ -9,10 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel",
-     "AMD Singlecore CPU"
+     "Intel Pentium 233 MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 2,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -42,10 +43,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel",
-     "AMD Singlecore CPU"
+     "Intel Pentium 300 MHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 3,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

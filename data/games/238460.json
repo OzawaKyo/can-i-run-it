@@ -18,9 +18,11 @@
     "raw": [
      "512 MB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.5,
    "directX": 10,
    "storage": {
     "gb": 2,

@@ -11,7 +11,8 @@
     "raw": [
      "Intel i3 Dual-Core with Hyper-Threading (required)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -44,7 +45,8 @@
      "Intel i5 Quad Core",
      "AMD Phenom II X6"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

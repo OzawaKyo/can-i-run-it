@@ -58,7 +58,8 @@
     "raw": [
      "video card memory 4GB"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 8,
    "vramGb": 4,

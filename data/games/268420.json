@@ -12,7 +12,7 @@
      "Intel Pentium4 2.8 GHz; AMD K8 2600"
     ],
     "ids": [],
-    "estimatedScore": 29
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -42,7 +42,7 @@
      "Intel Core2 Duo 2.66 GHz; AMD Athlon 64 X2 6000"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [

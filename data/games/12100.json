@@ -11,15 +11,18 @@
     "raw": [
      "Pentium III 450 MHz CPU"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
      "16 MB Direct 3D Video Card"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 0.09375,
+   "vramGb": 0.015625,
    "storage": {
     "gb": 0.48828125,
     "ssd": false
@@ -41,6 +44,7 @@
      "Intel Pentium III 1000 MHz 700 MHz (Steam)"
     ],
     "ids": [],
+    "estimatedScore": 10,
     "source": "pcgamingwiki"
    },
    "gpu": {

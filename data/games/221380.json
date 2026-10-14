@@ -18,7 +18,8 @@
     "raw": [
      "Direct X 9.0c Capable GPU"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 1,
    "directX": 9,

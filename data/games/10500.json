@@ -13,7 +13,7 @@
      "AMD Athlon equivalent CPU"
     ],
     "ids": [],
-    "estimatedScore": 25
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -24,6 +24,7 @@
     "capabilityOnly": true
    },
    "ramGb": 1,
+   "vramGb": 0.25,
    "directX": 9,
    "storage": {
     "gb": 15,

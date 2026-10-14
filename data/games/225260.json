@@ -13,7 +13,7 @@
      "or AMD Athlon 64 at 2.2 GHz"
     ],
     "ids": [],
-    "estimatedScore": 21
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -55,7 +55,7 @@
      "or AMD FX 3.5 GHz"
     ],
     "ids": [],
-    "estimatedScore": 26
+    "estimatedScore": 36
    },
    "gpu": {
     "raw": [
@@ -63,7 +63,43 @@
      "Radeon 7000"
     ],
     "ids": [
-     "nvidia-geforce-gtx-650"
+     "nvidia-geforce-gtx-650",
+     "amd-radeon-hd-7350-256mb",
+     "amd-radeon-hd-7350-512mb",
+     "amd-radeon-hd-7450-512mb",
+     "amd-radeon-hd-7450-1gb",
+     "amd-radeon-hd-7470-512mb",
+     "amd-radeon-hd-7470-1gb",
+     "amd-radeon-hd-7510",
+     "amd-radeon-hd-7570-512mb",
+     "amd-radeon-hd-7570-1gb",
+     "amd-radeon-hd-7670-512mb",
+     "amd-radeon-hd-7670-1gb",
+     "amd-radeon-hd-7730",
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb",
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "amd-radeon-hd-7770-ghz-edition-2gb",
+     "amd-radeon-hd-7790-1gb",
+     "amd-radeon-hd-7790-2gb",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt",
+     "amd-radeon-hd-7950",
+     "amd-radeon-hd-7950-boost",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb",
+     "amd-radeon-hd-7970-ghz-edition-3gb",
+     "amd-radeon-hd-7970-ghz-edition-6gb",
+     "amd-radeon-hd-7990",
+     "amd-radeon-hd-7310",
+     "amd-radeon-hd-7340",
+     "amd-radeon-hd-7480d",
+     "amd-radeon-hd-7540d",
+     "amd-radeon-hd-7560d",
+     "amd-radeon-hd-7660d"
     ]
    },
    "ramGb": 2,

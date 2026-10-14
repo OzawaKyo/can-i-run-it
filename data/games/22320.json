@@ -13,7 +13,8 @@
      "Celeron",
      "or AMD Athlon"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -23,6 +24,7 @@
     "capabilityOnly": true
    },
    "ramGb": 0.25,
+   "vramGb": 0.03125,
    "directX": 8,
    "storage": {
     "gb": 1,

@@ -8,19 +8,34 @@
  "requirements": {
   "minimum": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel 486 DX4 100 MHz",
+     "Intel Pentium 75 MHz"
+    ],
+    "ids": [],
+    "estimatedScore": 1,
+    "source": "pcgamingwiki"
    },
    "gpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "VGA (WinQuake)",
+     "OpenGL 1.0 compatible (GLQuake)"
+    ],
+    "ids": [],
+    "capabilityOnly": true,
+    "source": "pcgamingwiki"
    },
+   "directX": 9,
    "raw": {}
   },
   "recommended": {
    "cpu": {
-    "raw": [],
-    "ids": []
+    "raw": [
+     "Intel Pentium 133 MHz"
+    ],
+    "ids": [],
+    "estimatedScore": 1,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [],

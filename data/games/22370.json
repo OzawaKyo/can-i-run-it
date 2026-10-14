@@ -12,7 +12,7 @@
      "2.4 Ghz Intel Pentium 4 processor"
     ],
     "ids": [],
-    "estimatedScore": 25
+    "estimatedScore": 10
    },
    "gpu": {
     "raw": [
@@ -51,9 +51,11 @@
     "raw": [
      "Direct X 9.0c compliant video card with 512MB RAM (NVIDIA 8800 series, ATI 3800 series)"
     ],
-    "ids": []
+    "ids": [],
+    "capabilityOnly": true
    },
    "ramGb": 2,
+   "vramGb": 0.5,
    "storage": {
     "gb": 7,
     "ssd": false
