@@ -8,7 +8,8 @@ import { scoreGpu } from './score-gpu';
 
 export type CatalogPage =
   | { kind: 'gpu'; vendor: GpuVendor; html: string }
-  | { kind: 'cpu'; vendor: CpuVendor; html: string };
+  /** `laptop`: every processor on the page is a mobile part (the mobile list's headings don't say so). */
+  | { kind: 'cpu'; vendor: CpuVendor; html: string; laptop?: boolean };
 
 export interface HardwareCatalog {
   gpus: HardwareModel[];
@@ -50,7 +51,7 @@ export function buildHardwareCatalog(
         rejected.push(...result.rejected);
         for (const gpu of result.gpus) if (!gpus.has(gpu.id)) gpus.set(gpu.id, gpu);
       } else {
-        const result = extractCpus(table, page.vendor);
+        const result = extractCpus(table, page.vendor, { laptop: page.laptop });
         rejected.push(...result.rejected);
         for (const cpu of result.cpus) if (!cpus.has(cpu.id)) cpus.set(cpu.id, cpu);
       }

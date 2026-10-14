@@ -43,7 +43,8 @@
      "AMD Phenom II X4",
      "Intel Core 2 Quad"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 25
    },
    "gpu": {
     "raw": [

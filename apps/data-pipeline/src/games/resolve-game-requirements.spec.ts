@@ -154,4 +154,38 @@ describe('resolveGameRequirements', () => {
       expect(gpuOf(['Radeon RX 7600'])?.directX).toBeUndefined();
     });
   });
+
+  describe('processor families without a model number', () => {
+    const familyCatalog = {
+      cpus: [
+        { id: 'i5-750', kind: 'cpu', name: 'Core i5-750', score: 55 },
+        { id: 'i5-8400', kind: 'cpu', name: 'Core i5-8400', score: 100 },
+        { id: 'i5-8250u', kind: 'cpu', name: 'Core i5-8250U', score: 40, laptop: true },
+        { id: 'r5-1600', kind: 'cpu', name: 'Ryzen 5 1600', score: 92 },
+        { id: 'c2d-e6400', kind: 'cpu', name: 'Core 2 Duo E6400', score: 30 },
+      ] satisfies HardwareModel[],
+      gpus: [],
+    };
+    const cpuOf = (names: string[]) =>
+      resolveGameRequirements({ minimum: { cpu: names, gpu: [], raw: {} } }, familyCatalog)
+        .requirements.minimum?.cpu;
+
+    it('scores a family as its weakest desktop member', () => {
+      expect(cpuOf(['Intel Core i5'])).toEqual({
+        raw: ['Intel Core i5'],
+        ids: [],
+        estimatedScore: 55,
+      });
+      expect(cpuOf(['AMD Ryzen 5'])?.estimatedScore).toBe(92);
+      expect(cpuOf(['Intel Core 2 Duo'])?.estimatedScore).toBe(30);
+    });
+
+    it('prefers the family over a bare clock speed', () => {
+      expect(cpuOf(['Intel Core i5 2.5 GHz'])?.estimatedScore).toBe(55);
+    });
+
+    it('takes the weakest of several family alternatives', () => {
+      expect(cpuOf(['Intel Core i5', 'AMD Ryzen 5'])?.estimatedScore).toBe(55);
+    });
+  });
 });

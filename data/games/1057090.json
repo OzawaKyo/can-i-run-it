@@ -50,7 +50,8 @@
      "AMD Ryzen 3",
      "Intel i5 Skylake"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 67
    },
    "gpu": {
     "raw": [

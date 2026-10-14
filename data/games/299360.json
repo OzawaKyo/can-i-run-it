@@ -12,7 +12,7 @@
      "Dual Core CPU 2.0 GHz (Intel Core 2 Duo or Athlon X2)"
     ],
     "ids": [],
-    "estimatedScore": 23
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [
@@ -40,7 +40,7 @@
      "Quad Core CPU 2.0 GHz (Core i5)"
     ],
     "ids": [],
-    "estimatedScore": 28
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

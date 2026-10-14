@@ -9,9 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel i5 Quad-Core"
+     "Intel Core i3 Dual-Core with Hyper-Threading"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

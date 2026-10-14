@@ -3218,541 +3218,631 @@
   "id": "intel-core-2-solo-ulv-u2100",
   "kind": "cpu",
   "name": "Core 2 Solo ULV U2100",
-  "score": 11
+  "score": 11,
+  "laptop": true
  },
  {
   "id": "intel-core-2-solo-ulv-u2200",
   "kind": "cpu",
   "name": "Core 2 Solo ULV U2200",
-  "score": 12
+  "score": 12,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5200",
   "kind": "cpu",
   "name": "Core 2 Duo T5200",
-  "score": 18
+  "score": 18,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5250",
   "kind": "cpu",
   "name": "Core 2 Duo T5250",
-  "score": 17
+  "score": 17,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5270",
   "kind": "cpu",
   "name": "Core 2 Duo T5270",
-  "score": 16
+  "score": 16,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5300",
   "kind": "cpu",
   "name": "Core 2 Duo T5300",
-  "score": 20
+  "score": 20,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5450",
   "kind": "cpu",
   "name": "Core 2 Duo T5450",
-  "score": 19
+  "score": 19,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5470",
   "kind": "cpu",
   "name": "Core 2 Duo T5470",
-  "score": 18
+  "score": 18,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5500",
   "kind": "cpu",
   "name": "Core 2 Duo T5500",
-  "score": 19
+  "score": 19,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5550",
   "kind": "cpu",
   "name": "Core 2 Duo T5550",
-  "score": 21
+  "score": 21,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5600",
   "kind": "cpu",
   "name": "Core 2 Duo T5600",
-  "score": 21
+  "score": 21,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5670",
   "kind": "cpu",
   "name": "Core 2 Duo T5670",
-  "score": 21
+  "score": 21,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5750",
   "kind": "cpu",
   "name": "Core 2 Duo T5750",
-  "score": 23
+  "score": 23,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5800",
   "kind": "cpu",
   "name": "Core 2 Duo T5800",
-  "score": 23
+  "score": 23,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5850",
   "kind": "cpu",
   "name": "Core 2 Duo T5850",
-  "score": 25
+  "score": 25,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5870",
   "kind": "cpu",
   "name": "Core 2 Duo T5870",
-  "score": 23
+  "score": 23,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t5900",
   "kind": "cpu",
   "name": "Core 2 Duo T5900",
-  "score": 25
+  "score": 25,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7100",
   "kind": "cpu",
   "name": "Core 2 Duo T7100",
-  "score": 21
+  "score": 21,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7200",
   "kind": "cpu",
   "name": "Core 2 Duo T7200",
-  "score": 23
+  "score": 23,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7250",
   "kind": "cpu",
   "name": "Core 2 Duo T7250",
-  "score": 23
+  "score": 23,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7300",
   "kind": "cpu",
   "name": "Core 2 Duo T7300",
-  "score": 23
+  "score": 23,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7400",
   "kind": "cpu",
   "name": "Core 2 Duo T7400",
-  "score": 25
+  "score": 25,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7500",
   "kind": "cpu",
   "name": "Core 2 Duo T7500",
-  "score": 25
+  "score": 25,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7600",
   "kind": "cpu",
   "name": "Core 2 Duo T7600",
-  "score": 27
+  "score": 27,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7600g",
   "kind": "cpu",
   "name": "Core 2 Duo T7600G",
-  "score": 27
+  "score": 27,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7700",
   "kind": "cpu",
   "name": "Core 2 Duo T7700",
-  "score": 28
+  "score": 28,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t7800",
   "kind": "cpu",
   "name": "Core 2 Duo T7800",
-  "score": 30
+  "score": 30,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sl7100",
   "kind": "cpu",
   "name": "Core 2 Duo SL7100",
-  "score": 14
+  "score": 14,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-l7200",
   "kind": "cpu",
   "name": "Core 2 Duo L7200",
-  "score": 15
+  "score": 15,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-l7300",
   "kind": "cpu",
   "name": "Core 2 Duo L7300",
-  "score": 16
+  "score": 16,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-l7400",
   "kind": "cpu",
   "name": "Core 2 Duo L7400",
-  "score": 17
+  "score": 17,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-l7500",
   "kind": "cpu",
   "name": "Core 2 Duo L7500",
-  "score": 18
+  "score": 18,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sp7500-failed-verification",
   "kind": "cpu",
   "name": "Core 2 Duo SP7500[failed verification]",
-  "score": 18
+  "score": 18,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-l7700",
   "kind": "cpu",
   "name": "Core 2 Duo L7700",
-  "score": 21
+  "score": 21,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sp7700-failed-verification",
   "kind": "cpu",
   "name": "Core 2 Duo SP7700[failed verification]",
-  "score": 21
+  "score": 21,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-u7500",
   "kind": "cpu",
   "name": "Core 2 Duo U7500",
-  "score": 12
+  "score": 12,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-u7600",
   "kind": "cpu",
   "name": "Core 2 Duo U7600",
-  "score": 14
+  "score": 14,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-u7700",
   "kind": "cpu",
   "name": "Core 2 Duo U7700",
-  "score": 15
+  "score": 15,
+  "laptop": true
  },
  {
   "id": "intel-core-2-extreme-x7800",
   "kind": "cpu",
   "name": "Core 2 Extreme X7800",
-  "score": 30
+  "score": 30,
+  "laptop": true
  },
  {
   "id": "intel-core-2-extreme-x7900",
   "kind": "cpu",
   "name": "Core 2 Extreme X7900",
-  "score": 32
+  "score": 32,
+  "laptop": true
  },
  {
   "id": "intel-core-2-solo-su3300",
   "kind": "cpu",
   "name": "Core 2 Solo SU3300",
-  "score": 13
+  "score": 13,
+  "laptop": true
  },
  {
   "id": "intel-core-2-solo-su3500",
   "kind": "cpu",
   "name": "Core 2 Solo SU3500",
-  "score": 16
+  "score": 16,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-e8135",
   "kind": "cpu",
   "name": "Core 2 Duo E8135",
-  "score": 30
+  "score": 30,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-e8235",
   "kind": "cpu",
   "name": "Core 2 Duo E8235",
-  "score": 35
+  "score": 35,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-e8335",
   "kind": "cpu",
   "name": "Core 2 Duo E8335",
-  "score": 37
+  "score": 37,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-e8435",
   "kind": "cpu",
   "name": "Core 2 Duo E8435",
-  "score": 38
+  "score": 38,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t6400",
   "kind": "cpu",
   "name": "Core 2 Duo T6400",
-  "score": 25
+  "score": 25,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t6500",
   "kind": "cpu",
   "name": "Core 2 Duo T6500",
-  "score": 26
+  "score": 26,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t6570",
   "kind": "cpu",
   "name": "Core 2 Duo T6570",
-  "score": 26
+  "score": 26,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t6600",
   "kind": "cpu",
   "name": "Core 2 Duo T6600",
-  "score": 27
+  "score": 27,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t6670",
   "kind": "cpu",
   "name": "Core 2 Duo T6670",
-  "score": 27
+  "score": 27,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t6900",
   "kind": "cpu",
   "name": "Core 2 Duo T6900",
-  "score": 31
+  "score": 31,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t6970",
   "kind": "cpu",
   "name": "Core 2 Duo T6970",
-  "score": 31
+  "score": 31,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t8100",
   "kind": "cpu",
   "name": "Core 2 Duo T8100",
-  "score": 26
+  "score": 26,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t8300",
   "kind": "cpu",
   "name": "Core 2 Duo T8300",
-  "score": 30
+  "score": 30,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t9300",
   "kind": "cpu",
   "name": "Core 2 Duo T9300",
-  "score": 31
+  "score": 31,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t9400",
   "kind": "cpu",
   "name": "Core 2 Duo T9400",
-  "score": 32
+  "score": 32,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t9500",
   "kind": "cpu",
   "name": "Core 2 Duo T9500",
-  "score": 32
+  "score": 32,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t9550",
   "kind": "cpu",
   "name": "Core 2 Duo T9550",
-  "score": 33
+  "score": 33,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t9600",
   "kind": "cpu",
   "name": "Core 2 Duo T9600",
-  "score": 35
+  "score": 35,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t9800",
   "kind": "cpu",
   "name": "Core 2 Duo T9800",
-  "score": 37
+  "score": 37,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-t9900",
   "kind": "cpu",
   "name": "Core 2 Duo T9900",
-  "score": 38
+  "score": 38,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p7350",
   "kind": "cpu",
   "name": "Core 2 Duo P7350",
-  "score": 25
+  "score": 25,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p7370",
   "kind": "cpu",
   "name": "Core 2 Duo P7370",
-  "score": 25
+  "score": 25,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p7450",
   "kind": "cpu",
   "name": "Core 2 Duo P7450",
-  "score": 27
+  "score": 27,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p7550",
   "kind": "cpu",
   "name": "Core 2 Duo P7550",
-  "score": 28
+  "score": 28,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p7570",
   "kind": "cpu",
   "name": "Core 2 Duo P7570",
-  "score": 28
+  "score": 28,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p8400",
   "kind": "cpu",
   "name": "Core 2 Duo P8400",
-  "score": 28
+  "score": 28,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p8600",
   "kind": "cpu",
   "name": "Core 2 Duo P8600",
-  "score": 30
+  "score": 30,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p8700",
   "kind": "cpu",
   "name": "Core 2 Duo P8700",
-  "score": 32
+  "score": 32,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p8800",
   "kind": "cpu",
   "name": "Core 2 Duo P8800",
-  "score": 33
+  "score": 33,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p9500",
   "kind": "cpu",
   "name": "Core 2 Duo P9500",
-  "score": 32
+  "score": 32,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p9600",
   "kind": "cpu",
   "name": "Core 2 Duo P9600",
-  "score": 33
+  "score": 33,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-p9700",
   "kind": "cpu",
   "name": "Core 2 Duo P9700",
-  "score": 35
+  "score": 35,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sp9300",
   "kind": "cpu",
   "name": "Core 2 Duo SP9300",
-  "score": 28
+  "score": 28,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sp9400",
   "kind": "cpu",
   "name": "Core 2 Duo SP9400",
-  "score": 30
+  "score": 30,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sp9600",
   "kind": "cpu",
   "name": "Core 2 Duo SP9600",
-  "score": 32
+  "score": 32,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sl9300",
   "kind": "cpu",
   "name": "Core 2 Duo SL9300",
-  "score": 20
+  "score": 20,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sl9380",
   "kind": "cpu",
   "name": "Core 2 Duo SL9380",
-  "score": 22
+  "score": 22,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sl9400",
   "kind": "cpu",
   "name": "Core 2 Duo SL9400",
-  "score": 23
+  "score": 23,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-sl9600",
   "kind": "cpu",
   "name": "Core 2 Duo SL9600",
-  "score": 27
+  "score": 27,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-su7300",
   "kind": "cpu",
   "name": "Core 2 Duo SU7300",
-  "score": 16
+  "score": 16,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-su9300",
   "kind": "cpu",
   "name": "Core 2 Duo SU9300",
-  "score": 15
+  "score": 15,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-su9400",
   "kind": "cpu",
   "name": "Core 2 Duo SU9400",
-  "score": 17
+  "score": 17,
+  "laptop": true
  },
  {
   "id": "intel-core-2-duo-su9600",
   "kind": "cpu",
   "name": "Core 2 Duo SU9600",
-  "score": 20
+  "score": 20,
+  "laptop": true
  },
  {
   "id": "intel-core-2-extreme-x9000",
   "kind": "cpu",
   "name": "Core 2 Extreme X9000",
-  "score": 35
+  "score": 35,
+  "laptop": true
  },
  {
   "id": "intel-core-2-extreme-x9100",
   "kind": "cpu",
   "name": "Core 2 Extreme X9100",
-  "score": 38
+  "score": 38,
+  "laptop": true
  },
  {
   "id": "intel-core-2-quad-q9000",
   "kind": "cpu",
   "name": "Core 2 Quad Q9000",
-  "score": 30
+  "score": 30,
+  "laptop": true
  },
  {
   "id": "intel-core-2-quad-q9100",
   "kind": "cpu",
   "name": "Core 2 Quad Q9100",
-  "score": 34
+  "score": 34,
+  "laptop": true
  },
  {
   "id": "intel-core-2-extreme-qx9300",
   "kind": "cpu",
   "name": "Core 2 Extreme QX9300",
-  "score": 38
+  "score": 38,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-940xm",
@@ -3800,19 +3890,22 @@
   "id": "intel-core-i7-680um",
   "kind": "cpu",
   "name": "Core i7-680UM",
-  "score": 35
+  "score": 35,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-660lm",
   "kind": "cpu",
   "name": "Core i7-660LM",
-  "score": 44
+  "score": 44,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-660um",
   "kind": "cpu",
   "name": "Core i7-660UM",
-  "score": 33
+  "score": 33,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-640m",
@@ -3825,13 +3918,15 @@
   "id": "intel-core-i7-640lm",
   "kind": "cpu",
   "name": "Core i7-640LM",
-  "score": 42
+  "score": 42,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-640um",
   "kind": "cpu",
   "name": "Core i7-640UM",
-  "score": 31
+  "score": 31,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-620m",
@@ -3844,13 +3939,15 @@
   "id": "intel-core-i7-620lm",
   "kind": "cpu",
   "name": "Core i7-620LM",
-  "score": 40
+  "score": 40,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-620um",
   "kind": "cpu",
   "name": "Core i7-620UM",
-  "score": 29
+  "score": 29,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-580m",
@@ -3870,7 +3967,8 @@
   "id": "intel-core-i5-560um",
   "kind": "cpu",
   "name": "Core i5-560UM",
-  "score": 30
+  "score": 30,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-540m",
@@ -3883,7 +3981,8 @@
   "id": "intel-core-i5-540um",
   "kind": "cpu",
   "name": "Core i5-540UM",
-  "score": 28
+  "score": 28,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-520m",
@@ -3896,7 +3995,8 @@
   "id": "intel-core-i5-520um",
   "kind": "cpu",
   "name": "Core i5-520UM",
-  "score": 26
+  "score": 26,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-480m",
@@ -3909,7 +4009,8 @@
   "id": "intel-core-i5-470um",
   "kind": "cpu",
   "name": "Core i5-470UM",
-  "score": 26
+  "score": 26,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-460m",
@@ -3936,7 +4037,8 @@
   "id": "intel-core-i5-430um",
   "kind": "cpu",
   "name": "Core i5-430UM",
-  "score": 25
+  "score": 25,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-390m",
@@ -3956,7 +4058,8 @@
   "id": "intel-core-i3-380um",
   "kind": "cpu",
   "name": "Core i3-380UM",
-  "score": 20
+  "score": 20,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-370m",
@@ -3983,7 +4086,8 @@
   "id": "intel-core-i3-330um",
   "kind": "cpu",
   "name": "Core i3-330UM",
-  "score": 18
+  "score": 18,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-2960xm",
@@ -4542,13 +4646,15 @@
   "id": "intel-core-i7-4940mx",
   "kind": "cpu",
   "name": "Core i7-4940MX",
-  "score": 84
+  "score": 84,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-4930mx",
   "kind": "cpu",
   "name": "Core i7-4930MX",
-  "score": 82
+  "score": 82,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-4910mq",
@@ -5219,43 +5325,50 @@
   "id": "intel-core-m-5y71",
   "kind": "cpu",
   "name": "Core M 5Y71",
-  "score": 49
+  "score": 49,
+  "laptop": true
  },
  {
   "id": "intel-core-m-5y70",
   "kind": "cpu",
   "name": "Core M 5Y70",
-  "score": 44
+  "score": 44,
+  "laptop": true
  },
  {
   "id": "intel-core-m-5y51",
   "kind": "cpu",
   "name": "Core M 5Y51",
-  "score": 44
+  "score": 44,
+  "laptop": true
  },
  {
   "id": "intel-core-m-5y31",
   "kind": "cpu",
   "name": "Core M 5Y31",
-  "score": 41
+  "score": 41,
+  "laptop": true
  },
  {
   "id": "intel-core-m-5y10c",
   "kind": "cpu",
   "name": "Core M 5Y10c",
-  "score": 34
+  "score": 34,
+  "laptop": true
  },
  {
   "id": "intel-core-m-5y10a",
   "kind": "cpu",
   "name": "Core M 5Y10a",
-  "score": 34
+  "score": 34,
+  "laptop": true
  },
  {
   "id": "intel-core-m-5y10",
   "kind": "cpu",
   "name": "Core M 5Y10",
-  "score": 34
+  "score": 34,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-6660u",
@@ -5303,7 +5416,8 @@
   "id": "intel-core-i7-6498du",
   "kind": "cpu",
   "name": "Core i7-6498DU",
-  "score": 60
+  "score": 60,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-6360u",
@@ -5351,7 +5465,8 @@
   "id": "intel-core-i5-6198du",
   "kind": "cpu",
   "name": "Core i5-6198DU",
-  "score": 54
+  "score": 54,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-6167u",
@@ -5462,25 +5577,29 @@
   "id": "intel-core-m7-6y75",
   "kind": "cpu",
   "name": "Core m7 6Y75",
-  "score": 57
+  "score": 57,
+  "laptop": true
  },
  {
   "id": "intel-core-m5-6y57",
   "kind": "cpu",
   "name": "Core m5 6Y57",
-  "score": 52
+  "score": 52,
+  "laptop": true
  },
  {
   "id": "intel-core-m5-6y54",
   "kind": "cpu",
   "name": "Core m5 6Y54",
-  "score": 50
+  "score": 50,
+  "laptop": true
  },
  {
   "id": "intel-core-m3-6y30",
   "kind": "cpu",
   "name": "Core m3 6Y30",
-  "score": 41
+  "score": 41,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-7660u",
@@ -5640,31 +5759,36 @@
   "id": "intel-core-i7-7y75",
   "kind": "cpu",
   "name": "Core i7-7Y75",
-  "score": 66
+  "score": 66,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-7y57",
   "kind": "cpu",
   "name": "Core i5-7Y57",
-  "score": 61
+  "score": 61,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-7y54",
   "kind": "cpu",
   "name": "Core i5-7Y54",
-  "score": 59
+  "score": 59,
+  "laptop": true
  },
  {
   "id": "intel-core-m3-7y32",
   "kind": "cpu",
   "name": "Core m3 7Y32",
-  "score": 55
+  "score": 55,
+  "laptop": true
  },
  {
   "id": "intel-core-m3-7y30",
   "kind": "cpu",
   "name": "Core m3 7Y30",
-  "score": 48
+  "score": 48,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-8569u",
@@ -5782,25 +5906,29 @@
   "id": "intel-core-i7-8700b",
   "kind": "cpu",
   "name": "Core i7-8700B",
-  "score": 126
+  "score": 126,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-8500b",
   "kind": "cpu",
   "name": "Core i5-8500B",
-  "score": 103
+  "score": 103,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-8400b",
   "kind": "cpu",
   "name": "Core i5-8400B",
-  "score": 100
+  "score": 100,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-8100b",
   "kind": "cpu",
   "name": "Core i3-8100B",
-  "score": 82
+  "score": 82,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-8650u",
@@ -5841,31 +5969,36 @@
   "id": "intel-core-i7-8809g",
   "kind": "cpu",
   "name": "Core i7-8809G",
-  "score": 99
+  "score": 99,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-8709g",
   "kind": "cpu",
   "name": "Core i7-8709G",
-  "score": 97
+  "score": 97,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-8706g",
   "kind": "cpu",
   "name": "Core i7-8706G",
-  "score": 97
+  "score": 97,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-8705g",
   "kind": "cpu",
   "name": "Core i7-8705G",
-  "score": 97
+  "score": 97,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-8305g",
   "kind": "cpu",
   "name": "Core i5-8305G",
-  "score": 77
+  "score": 77,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-8500y",
@@ -5975,7 +6108,8 @@
   "id": "intel-core-i7-9750hf",
   "kind": "cpu",
   "name": "Core i7-9750HF",
-  "score": 120
+  "score": 120,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-9400h",
@@ -5995,7 +6129,8 @@
   "id": "intel-core-i5-9300hf",
   "kind": "cpu",
   "name": "Core i5-9300HF",
-  "score": 93
+  "score": 93,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-10810u",
@@ -6120,91 +6255,106 @@
   "id": "intel-core-i7-1068ng7",
   "kind": "cpu",
   "name": "Core i7-1068NG7",
-  "score": 107
+  "score": 107,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-1068g7",
   "kind": "cpu",
   "name": "Core i7-1068G7",
-  "score": 107
+  "score": 107,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-1065g7",
   "kind": "cpu",
   "name": "Core i7-1065G7",
-  "score": 97
+  "score": 97,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1038ng7",
   "kind": "cpu",
   "name": "Core i5-1038NG7",
-  "score": 98
+  "score": 98,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1035g7",
   "kind": "cpu",
   "name": "Core i5-1035G7",
-  "score": 91
+  "score": 91,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1035g4",
   "kind": "cpu",
   "name": "Core i5-1035G4",
-  "score": 91
+  "score": 91,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1035g1",
   "kind": "cpu",
   "name": "Core i5-1035G1",
-  "score": 88
+  "score": 88,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-1005g1",
   "kind": "cpu",
   "name": "Core i3-1005G1",
-  "score": 72
+  "score": 72,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-1060g7",
   "kind": "cpu",
   "name": "Core i7-1060G7",
-  "score": 93
+  "score": 93,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1030ng7",
   "kind": "cpu",
   "name": "Core i5-1030NG7",
-  "score": 86
+  "score": 86,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1030g7",
   "kind": "cpu",
   "name": "Core i5-1030G7",
-  "score": 85
+  "score": 85,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1030g4",
   "kind": "cpu",
   "name": "Core i5-1030G4",
-  "score": 84
+  "score": 84,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-1000ng4",
   "kind": "cpu",
   "name": "Core i3-1000NG4",
-  "score": 67
+  "score": 67,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-1000g4",
   "kind": "cpu",
   "name": "Core i3-1000G4",
-  "score": 67
+  "score": 67,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-1000g1",
   "kind": "cpu",
   "name": "Core i3-1000G1",
-  "score": 67
+  "score": 67,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-10510y",
@@ -6245,85 +6395,99 @@
   "id": "intel-core-i7-1195g7",
   "kind": "cpu",
   "name": "Core i7-1195G7",
-  "score": 127
+  "score": 127,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-1185g7",
   "kind": "cpu",
   "name": "Core i7-1185G7",
-  "score": 122
+  "score": 122,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-1165g7",
   "kind": "cpu",
   "name": "Core i7-1165G7",
-  "score": 119
+  "score": 119,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1155g7",
   "kind": "cpu",
   "name": "Core i5-1155G7",
-  "score": 113
+  "score": 113,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1145g7",
   "kind": "cpu",
   "name": "Core i5-1145G7",
-  "score": 112
+  "score": 112,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1135g7",
   "kind": "cpu",
   "name": "Core i5-1135G7",
-  "score": 106
+  "score": 106,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-1125g4",
   "kind": "cpu",
   "name": "Core i3-1125G4",
-  "score": 94
+  "score": 94,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-1115g4",
   "kind": "cpu",
   "name": "Core i3-1115G4",
-  "score": 91
+  "score": 91,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-1180g7",
   "kind": "cpu",
   "name": "Core i7-1180G7",
-  "score": 115
+  "score": 115,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-1160g7",
   "kind": "cpu",
   "name": "Core i7-1160G7",
-  "score": 110
+  "score": 110,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1140g7",
   "kind": "cpu",
   "name": "Core i5-1140G7",
-  "score": 105
+  "score": 105,
+  "laptop": true
  },
  {
   "id": "intel-core-i5-1130g7",
   "kind": "cpu",
   "name": "Core i5-1130G7",
-  "score": 100
+  "score": 100,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-1120g4",
   "kind": "cpu",
   "name": "Core i3-1120G4",
-  "score": 88
+  "score": 88,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-1110g4",
   "kind": "cpu",
   "name": "Core i3-1110G4",
-  "score": 87
+  "score": 87,
+  "laptop": true
  },
  {
   "id": "intel-core-i9-11980hk",
@@ -6644,13 +6808,15 @@
   "id": "intel-core-i3-n305",
   "kind": "cpu",
   "name": "Core i3-N305",
-  "score": 82
+  "score": 82,
+  "laptop": true
  },
  {
   "id": "intel-core-i3-n300",
   "kind": "cpu",
   "name": "Core i3-N300",
-  "score": 75
+  "score": 75,
+  "laptop": true
  },
  {
   "id": "intel-core-i7-1365u",
@@ -7062,55 +7228,64 @@
   "id": "intel-core-ultra-9-288v",
   "kind": "cpu",
   "name": "Core Ultra 9 288V",
-  "score": 167
+  "score": 167,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-7-268v",
   "kind": "cpu",
   "name": "Core Ultra 7 268V",
-  "score": 156
+  "score": 156,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-7-266v",
   "kind": "cpu",
   "name": "Core Ultra 7 266V",
-  "score": 156
+  "score": 156,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-7-258v",
   "kind": "cpu",
   "name": "Core Ultra 7 258V",
-  "score": 151
+  "score": 151,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-7-256v",
   "kind": "cpu",
   "name": "Core Ultra 7 256V",
-  "score": 151
+  "score": 151,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-5-238v",
   "kind": "cpu",
   "name": "Core Ultra 5 238V",
-  "score": 147
+  "score": 147,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-5-236v",
   "kind": "cpu",
   "name": "Core Ultra 5 236V",
-  "score": 147
+  "score": 147,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-5-228v",
   "kind": "cpu",
   "name": "Core Ultra 5 228V",
-  "score": 141
+  "score": 141,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-5-226v",
   "kind": "cpu",
   "name": "Core Ultra 5 226V",
-  "score": 141
+  "score": 141,
+  "laptop": true
  },
  {
   "id": "intel-core-9-270h",
@@ -7200,7 +7375,8 @@
   "id": "intel-core-ultra-9-290hx-plus",
   "kind": "cpu",
   "name": "Core Ultra 9 290HX Plus",
-  "score": 195
+  "score": 195,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-9-285hx",
@@ -7220,7 +7396,8 @@
   "id": "intel-core-ultra-7-270hx-plus",
   "kind": "cpu",
   "name": "Core Ultra 7 270HX Plus",
-  "score": 186
+  "score": 186,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-7-265hx",
@@ -7254,13 +7431,15 @@
   "id": "intel-core-3-n355",
   "kind": "cpu",
   "name": "Core 3 N355",
-  "score": 84
+  "score": 84,
+  "laptop": true
  },
  {
   "id": "intel-core-3-n350",
   "kind": "cpu",
   "name": "Core 3 N350",
-  "score": 77
+  "score": 77,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-x9-388h",
@@ -7301,7 +7480,8 @@
   "id": "intel-core-ultra-7-365",
   "kind": "cpu",
   "name": "Core Ultra 7 365",
-  "score": 136
+  "score": 136,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-x7-358h",
@@ -7321,7 +7501,8 @@
   "id": "intel-core-ultra-7-355",
   "kind": "cpu",
   "name": "Core Ultra 7 355",
-  "score": 133
+  "score": 133,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-5-338h",
@@ -7341,55 +7522,65 @@
   "id": "intel-core-ultra-5-335",
   "kind": "cpu",
   "name": "Core Ultra 5 335",
-  "score": 130
+  "score": 130,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-5-325",
   "kind": "cpu",
   "name": "Core Ultra 5 325",
-  "score": 127
+  "score": 127,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-5-332",
   "kind": "cpu",
   "name": "Core Ultra 5 332",
-  "score": 108
+  "score": 108,
+  "laptop": true
  },
  {
   "id": "intel-core-ultra-5-322",
   "kind": "cpu",
   "name": "Core Ultra 5 322",
-  "score": 108
+  "score": 108,
+  "laptop": true
  },
  {
   "id": "intel-core-7-360",
   "kind": "cpu",
-  "name": "Core 7 360"
+  "name": "Core 7 360",
+  "laptop": true
  },
  {
   "id": "intel-core-7-350",
   "kind": "cpu",
-  "name": "Core 7 350"
+  "name": "Core 7 350",
+  "laptop": true
  },
  {
   "id": "intel-core-5-330",
   "kind": "cpu",
-  "name": "Core 5 330"
+  "name": "Core 5 330",
+  "laptop": true
  },
  {
   "id": "intel-core-5-320",
   "kind": "cpu",
-  "name": "Core 5 320"
+  "name": "Core 5 320",
+  "laptop": true
  },
  {
   "id": "intel-core-5-315",
   "kind": "cpu",
-  "name": "Core 5 315"
+  "name": "Core 5 315",
+  "laptop": true
  },
  {
   "id": "intel-core-3-304",
   "kind": "cpu",
-  "name": "Core 3 304"
+  "name": "Core 3 304",
+  "laptop": true
  },
  {
   "id": "intel-xeon-6plus-6990eplus",
@@ -8337,7 +8528,8 @@
   "id": "amd-ryzen-7-4700le",
   "kind": "cpu",
   "name": "Ryzen 7 4700LE",
-  "score": 139
+  "score": 139,
+  "laptop": true
  },
  {
   "id": "amd-ryzen-5-4500",

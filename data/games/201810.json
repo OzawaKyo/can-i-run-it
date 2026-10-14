@@ -11,7 +11,8 @@
     "raw": [
      "Intel Core i7 AMD"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

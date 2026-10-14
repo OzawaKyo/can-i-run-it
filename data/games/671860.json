@@ -44,7 +44,8 @@
     "raw": [
      "Intel Core i5 4th Generation and above"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

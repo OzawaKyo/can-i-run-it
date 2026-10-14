@@ -26,6 +26,7 @@ export interface CpuSpec extends HardwareModel {
 export function extractCpus(
   table: WikiTable,
   vendor: CpuVendor,
+  options: { laptop?: boolean } = {},
 ): { cpus: CpuSpec[]; rejected: RejectedRow[] } {
   const columns = findColumns(table.columns);
   const section = table.section.join(' > ');
@@ -76,6 +77,7 @@ export function extractCpus(
       baseGhz: base,
       turboGhz: Math.max(turbo, base),
       laptop:
+        options.laptop === true ||
         /mobile|laptop|notebook/i.test(section) ||
         MOBILE_SUFFIX.test(name) ||
         isMobileApu(vendor, section, name),
@@ -95,8 +97,8 @@ const CORE_COUNT_WORDS: Record<string, number> = {
   eight: 8,
 };
 
-/** Intel and AMD mobile suffixes ("4800H", "8250U", "4710HQ"); a bare "G" is a desktop APU. */
-const MOBILE_SUFFIX = /\d(?:H|HS|HX|HK|HQ|U|Y|M|MQ|QM|XM|P)$/;
+/** Intel and AMD mobile suffixes ("4800H", "8250U", "4710HQ", "430UM"); a bare "G" is a desktop APU. */
+const MOBILE_SUFFIX = /\d(?:H|HS|HX|HK|HQ|U|Y|M|MQ|QM|XM|P|UM|LM|UE|LE)$/;
 
 function isMobileApu(vendor: CpuVendor, section: string, name: string): boolean {
   return (

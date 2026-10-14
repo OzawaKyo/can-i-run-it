@@ -56,11 +56,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "3 GHz"
+     "Intel Core i5",
+     "AMD Quad-Core"
     ],
     "ids": [],
-    "estimatedScore": 31,
-    "source": "pcgamingwiki"
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

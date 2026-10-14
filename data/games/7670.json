@@ -37,7 +37,8 @@
     "raw": [
      ": Intel Core 2 Duo processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

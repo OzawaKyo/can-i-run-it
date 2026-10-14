@@ -45,7 +45,8 @@
      "Intel Core 2 Duo",
      "AMD Athlon X2"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

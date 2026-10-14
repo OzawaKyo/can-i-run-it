@@ -46,7 +46,8 @@
     "raw": [
      "Intel Core i5"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

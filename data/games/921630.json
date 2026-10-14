@@ -11,7 +11,8 @@
     "raw": [
      "Intel Core 2 Duo/AMD AthlonII X2"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

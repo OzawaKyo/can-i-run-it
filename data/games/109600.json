@@ -12,7 +12,7 @@
      "Core 2 Duo 2.2Ghz (or equivalent AMD CPU)"
     ],
     "ids": [],
-    "estimatedScore": 23
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [
@@ -46,7 +46,8 @@
     "raw": [
      "Core i5-6xxx Quad Core"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

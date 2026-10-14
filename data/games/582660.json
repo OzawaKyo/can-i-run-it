@@ -11,7 +11,8 @@
     "raw": [
      "Intel Core i3 (4th Generation)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -45,7 +46,8 @@
      "Intel Core i5 (8th Generation)",
      "AMD Ryzen 5 2000 Series"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

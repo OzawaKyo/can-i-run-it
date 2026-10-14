@@ -44,7 +44,8 @@
     "raw": [
      "2nd Generation Intel Core i5 processor (or greater)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

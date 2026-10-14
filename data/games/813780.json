@@ -12,7 +12,8 @@
      "Intel Core 2 Duo",
      "AMD Athlon 64x2 5600+"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

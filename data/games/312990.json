@@ -9,9 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Core Duo"
+     "Intel Core 2 Duo"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -39,7 +41,7 @@
      "3.1 GHz Intel Core 2 Duo"
     ],
     "ids": [],
-    "estimatedScore": 32
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

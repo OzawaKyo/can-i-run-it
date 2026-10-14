@@ -7,12 +7,17 @@ import {
 import { createPoliteFetch, HttpError, MissingContactError } from './http/polite-fetch';
 
 /** Wikipedia list pages, most trusted first: a model listed twice keeps the first page's data. */
-const PAGES: { title: string; kind: CatalogPage['kind']; vendor: CatalogPage['vendor'] }[] = [
+const PAGES: {
+  title: string;
+  kind: CatalogPage['kind'];
+  vendor: CatalogPage['vendor'];
+  laptop?: boolean;
+}[] = [
   { title: 'List_of_Nvidia_graphics_processing_units', kind: 'gpu', vendor: 'nvidia' },
   { title: 'List_of_AMD_graphics_processing_units', kind: 'gpu', vendor: 'amd' },
   { title: 'List_of_Intel_graphics_processing_units', kind: 'gpu', vendor: 'intel' },
   { title: 'List_of_Intel_Core_desktop_processors', kind: 'cpu', vendor: 'intel' },
-  { title: 'List_of_Intel_Core_mobile_processors', kind: 'cpu', vendor: 'intel' },
+  { title: 'List_of_Intel_Core_mobile_processors', kind: 'cpu', vendor: 'intel', laptop: true },
   { title: 'List_of_Intel_processors', kind: 'cpu', vendor: 'intel' },
   { title: 'List_of_AMD_Ryzen_processors', kind: 'cpu', vendor: 'amd' },
   { title: 'List_of_AMD_accelerated_processing_units', kind: 'cpu', vendor: 'amd' },
@@ -30,13 +35,13 @@ async function main() {
     requireContact: true,
   });
   const pages: CatalogPage[] = [];
-  for (const { title, kind, vendor } of PAGES) {
+  for (const { title, kind, vendor, laptop } of PAGES) {
     try {
       const html = await get(
         `https://en.wikipedia.org/api/rest_v1/page/html/${title}`,
         `wikipedia/${title}.html`,
       );
-      pages.push({ kind, vendor, html } as CatalogPage);
+      pages.push({ kind, vendor, html, laptop } as CatalogPage);
     } catch (error) {
       if (error instanceof HttpError && error.status === 404)
         console.warn(`skipped ${title}: not found`);

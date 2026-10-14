@@ -13,7 +13,7 @@
      "AMD @ 3.5GHz"
     ],
     "ids": [],
-    "estimatedScore": 34
+    "estimatedScore": 36
    },
    "gpu": {
     "raw": [
@@ -52,7 +52,7 @@
      "Ryzen 5 @ 4GHz"
     ],
     "ids": [],
-    "estimatedScore": 41
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

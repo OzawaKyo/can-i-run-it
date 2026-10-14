@@ -42,7 +42,8 @@
     "raw": [
      "Intel Core 2 Duo 1.6/AMD 3000+"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

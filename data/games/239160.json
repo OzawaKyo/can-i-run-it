@@ -58,9 +58,11 @@
    "cpu": {
     "raw": [
      "AMD FX 8000 series",
-     "Intel Quad i7 Core CPU"
+     "Intel Core i7 Quad Core"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 53,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

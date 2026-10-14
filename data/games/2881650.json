@@ -12,7 +12,7 @@
      "Intel Core i5 @ 2.5 GHz"
     ],
     "ids": [],
-    "estimatedScore": 26
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [
@@ -50,7 +50,7 @@
      "AMD Ryzen 5"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

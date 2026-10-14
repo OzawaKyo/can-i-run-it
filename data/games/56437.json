@@ -40,10 +40,12 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Any Core 2",
-     "Athlon X2"
+     "Intel Core 2 Duo series",
+     "AMD Athlon 64 X2 4400+"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

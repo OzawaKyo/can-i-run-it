@@ -12,7 +12,8 @@
      "AMD FX Series",
      "Intel Core i3 Series"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [

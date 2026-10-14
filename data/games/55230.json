@@ -12,7 +12,7 @@
      "2GHz Dual Core Processor (Intel Core 2 Duo or AMD Athlon X2)"
     ],
     "ids": [],
-    "estimatedScore": 23
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [
@@ -61,13 +61,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5",
-     "AMD Phenom II X4",
-     "Quad Core Dual Core 3.0 GHz"
+     "Any Quad Core Processor (Intel Core i5 or AMD Phenom II X4)",
+     "3.0+ Dual Core CPU"
     ],
     "ids": [],
-    "estimatedScore": 42,
-    "source": "pcgamingwiki"
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

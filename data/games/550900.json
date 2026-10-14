@@ -9,11 +9,10 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Pentium 3 1.0 GHz"
+     "2nd Generation Intel Processors (Intel Core i3/i5/i7-2xxx)"
     ],
     "ids": [],
-    "estimatedScore": 10,
-    "source": "pcgamingwiki"
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -41,11 +40,10 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Pentium 4 1.8 GHz"
+     "7th Generation Intel Processors (Intel Core i3/i5/i7-7xxx)"
     ],
     "ids": [],
-    "estimatedScore": 19,
-    "source": "pcgamingwiki"
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [

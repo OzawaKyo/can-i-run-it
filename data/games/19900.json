@@ -47,7 +47,8 @@
      "AMD 64 X2 5200+",
      "AMD Phenom"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

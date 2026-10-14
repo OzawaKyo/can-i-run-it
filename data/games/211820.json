@@ -11,7 +11,8 @@
     "raw": [
      "Core 2 Duo"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [
@@ -41,7 +42,8 @@
     "raw": [
      "Core i3"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [

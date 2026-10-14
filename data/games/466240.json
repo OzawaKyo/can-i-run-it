@@ -12,7 +12,8 @@
      "Intel Core i3",
      "AMD Ryzen 3"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -47,7 +48,8 @@
      "Intel Core i5",
      "AMD Ryzen 5"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

@@ -11,7 +11,8 @@
     "raw": [
      "Intel Core i3 Dual Core"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -47,7 +48,8 @@
      "Intel Core i5 (Hexa Core)",
      "i7 (Quad Core)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

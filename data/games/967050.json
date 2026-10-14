@@ -9,10 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel i5",
-     "AMD equivalent (AMD FX 8500+ Series)"
+     "Intel Core i5",
+     "AMD FX-8500 series"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

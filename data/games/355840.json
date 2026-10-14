@@ -57,7 +57,8 @@
      "AMD FX",
      "AMD Ryzen"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 25
    },
    "gpu": {
     "raw": [

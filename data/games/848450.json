@@ -13,7 +13,7 @@
      "AMD Ryzen 3 2.6ghz+"
     ],
     "ids": [],
-    "estimatedScore": 27
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -44,7 +44,7 @@
      "Intel Core i5 4XXX series/ AMD Ryzen 5 @ 3Ghz +"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

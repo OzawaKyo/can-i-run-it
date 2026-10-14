@@ -12,7 +12,8 @@
      "Intel Core i3",
      "AMD FX"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -43,7 +44,8 @@
      "Intel Core i7",
      "AMD Ryzen 7"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

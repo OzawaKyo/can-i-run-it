@@ -46,7 +46,8 @@
     "raw": [
      "Intel Core i7 (64bit)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

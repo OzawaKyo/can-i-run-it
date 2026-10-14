@@ -45,9 +45,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel(R) Core(TM) i5"
+     "Intel Core i5"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

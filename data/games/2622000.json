@@ -11,7 +11,8 @@
     "raw": [
      "intel core i5"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [
@@ -43,7 +44,8 @@
     "raw": [
      "intel core i7"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 53
    },
    "gpu": {
     "raw": [

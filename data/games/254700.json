@@ -13,7 +13,7 @@
      "AMD Athlon X2 2.8 Ghz"
     ],
     "ids": [],
-    "estimatedScore": 25
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [
@@ -50,7 +50,7 @@
      "AMD Phenom II X4 3 Ghz"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 25
    },
    "gpu": {
     "raw": [

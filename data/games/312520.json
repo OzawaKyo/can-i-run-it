@@ -9,10 +9,12 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "4th Gen i3",
-     "1st Gen Ryzen"
+     "Intel Core i3 (4th Generation)",
+     "AMD Ryzen (1st Generation)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [
@@ -38,10 +40,12 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "6th Gen i5",
-     "2nd Gen Ryzen (or better)"
+     "Intel Core i5 (6th Generation)",
+     "AMD Ryzen (2nd Generation)"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

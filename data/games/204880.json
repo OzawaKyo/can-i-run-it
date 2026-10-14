@@ -43,7 +43,8 @@
     "raw": [
      "Intel Core i5/i7 Processor"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

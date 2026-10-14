@@ -9,11 +9,11 @@
   "minimum": {
    "cpu": {
     "raw": [
-     "Intel Pentium 4 1.6 GHz or AMD equivalent with SSE"
+     "Core 2 Duo",
+     "AMD Athlon II"
     ],
     "ids": [],
-    "estimatedScore": 17,
-    "source": "pcgamingwiki"
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

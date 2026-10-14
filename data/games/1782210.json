@@ -12,7 +12,8 @@
      "Intel Core i3 2",
      "00 GHz"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [

@@ -88,10 +88,44 @@ function resolveCpus(names: string[], catalog: Catalog): ResolvedComponent {
     component: withoutUndefined({
       raw: names,
       ids: unique(ids),
-      estimatedScore: ids.length === 0 ? estimateGenericCpu(names) : undefined,
+      estimatedScore: ids.length === 0 ? estimateCpu(names, catalog.cpus) : undefined,
     }),
     unresolved,
   };
+}
+
+/** Each alternative estimated from its family, else its clock; the weakest sets the bar. */
+function estimateCpu(names: string[], cpus: readonly HardwareModel[]): number | undefined {
+  const estimates = names.flatMap(
+    (name) => familyScore(name, cpus) ?? estimateGenericCpu([name]) ?? [],
+  );
+  return estimates.length > 0 ? Math.min(...estimates) : undefined;
+}
+
+/** Processor families games name without a model: pattern in the requirement → catalog models. */
+const CPU_FAMILIES: [RegExp, (match: RegExpMatchArray) => RegExp][] = [
+  [/\bcore\s*i([3579])\b(?![\s-]*\d{3})/i, (m) => new RegExp(`^Core i${m[1]}-\\d`)],
+  [/\bryzen\s*([3579])\b(?!\s*\d{3})/i, (m) => new RegExp(`^Ryzen ${m[1]} \\d`)],
+  [/\bcore\s*2\s*duo\b(?!\s*[a-z]?\d{3})/i, () => /^Core 2 Duo /],
+  [/\bcore\s*2\s*quad\b(?!\s*[a-z]?\d{3})/i, () => /^Core 2 Quad /],
+  [/\bphenom\s*(?:ii\s*)?x4\b(?!\s*\d{3})/i, () => /^Phenom (?:II )?X4 /],
+];
+
+/**
+ * "Intel Core i5" with no model: any i5 meets it, so the bar is the weakest desktop i5 in
+ * the catalog. Undefined when the name isn't a known family.
+ */
+function familyScore(name: string, cpus: readonly HardwareModel[]): number | undefined {
+  for (const [pattern, members] of CPU_FAMILIES) {
+    const match = name.match(pattern);
+    if (!match) continue;
+    const memberPattern = members(match);
+    const scores = cpus
+      .filter((cpu) => !cpu.laptop && cpu.score !== undefined && memberPattern.test(cpu.name))
+      .map((cpu) => cpu.score as number);
+    if (scores.length > 0) return Math.min(...scores);
+  }
+  return undefined;
 }
 
 function resolveGpus(gpus: GpuRequirement[], catalog: Catalog): ResolvedComponent {

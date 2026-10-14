@@ -39,11 +39,10 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Quadcore 2.0 GHz"
+     "Intel Core 2 Quad"
     ],
     "ids": [],
-    "estimatedScore": 28,
-    "source": "pcgamingwiki"
+    "estimatedScore": 30
    },
    "gpu": {
     "raw": [

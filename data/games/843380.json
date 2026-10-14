@@ -11,7 +11,8 @@
     "raw": [
      "Core i3 and up"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [

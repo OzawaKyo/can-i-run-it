@@ -226,4 +226,36 @@ describe('extractCpus', () => {
       turboGhz: 3.4,
     });
   });
+
+  describe('laptop processors', () => {
+    const table: WikiTable = {
+      section: ['Core i (1st gen)', 'Arrandale'],
+      columns: [
+        'Processor branding',
+        'Model',
+        'Cores (Threads)',
+        'Clock rate (GHz) / Base',
+        'Clock rate (GHz) / Turbo',
+      ],
+      rows: [
+        ['Core i5', '430UM', '2 (4)', '1.2', '1.73'],
+        ['Core i7', '620LM', '2 (4)', '2.0', '2.8'],
+        ['Core i5', '750', '4 (4)', '2.66', '3.2'],
+      ],
+    };
+
+    it('recognises ultra-low-voltage suffixes', () => {
+      expect(extractCpus(table, 'intel').cpus.map((cpu) => [cpu.name, cpu.laptop])).toEqual([
+        ['Core i5-430UM', true],
+        ['Core i7-620LM', true],
+        ['Core i5-750', false],
+      ]);
+    });
+
+    it('marks every processor of a mobile-only page as a laptop part', () => {
+      expect(extractCpus(table, 'intel', { laptop: true }).cpus.every((cpu) => cpu.laptop)).toBe(
+        true,
+      );
+    });
+  });
 });

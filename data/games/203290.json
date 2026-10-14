@@ -42,11 +42,10 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5 3.3 GHz"
+     "3.3+GHz Core i5 CPU"
     ],
     "ids": [],
-    "estimatedScore": 34,
-    "source": "pcgamingwiki"
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

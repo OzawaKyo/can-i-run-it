@@ -12,7 +12,7 @@
      "Intel Core i3 with 2.8 GHz"
     ],
     "ids": [],
-    "estimatedScore": 29
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [
@@ -48,7 +48,7 @@
      "Intel Core i5 with 3.0 GHz"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

@@ -41,9 +41,11 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel i7 quad-core"
+     "Intel Core i7 Quad Core"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 53,
+    "source": "pcgamingwiki"
    },
    "gpu": {
     "raw": [

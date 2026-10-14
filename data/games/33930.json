@@ -49,7 +49,8 @@
      "Intel Core i5",
      "AMD Athlon Phenom X4"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 25
    },
    "gpu": {
     "raw": [

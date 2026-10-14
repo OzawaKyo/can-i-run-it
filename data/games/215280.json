@@ -12,7 +12,7 @@
      "2.6 GHZ Intel Core 2 DUO AMD CPU"
     ],
     "ids": [],
-    "estimatedScore": 27
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [
@@ -46,7 +46,7 @@
      "Intel Core i5 3.0Ghz"
     ],
     "ids": [],
-    "estimatedScore": 31
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

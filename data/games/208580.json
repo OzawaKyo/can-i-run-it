@@ -12,7 +12,8 @@
      "Intel Core i3 (2 Cores)",
      "AMD A10"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 41
    },
    "gpu": {
     "raw": [],

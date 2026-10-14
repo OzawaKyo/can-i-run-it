@@ -18,13 +18,15 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 
 ## Fiabilité des données
 
-- [ ] **P1 · Claude** — Réduire les « ? » : aujourd'hui 12 % des CPU et 13 % des GPU minimaux non reconnus
+- [ ] **P1 · Claude** — Réduire les « ? » : aujourd'hui 7 % des CPU et 13 % des GPU minimaux non reconnus ; ~190 jeux sur 998 ont encore un verdict global « ? »
   - [x] Cartes d'avant DirectX 10 (ATI X1600, GeForce 6800/7900, Radeon 9600, Intel GMA) : traitées comme une exigence DirectX 9
   - [x] Noms abrégés (« ATI Radeon 3870 » sans « HD », « Nvidia 450 GTS »)
   - [x] iGPU Intel HD 2000 / HD 3000 ajoutés
   - [x] Séries de cartes (« Radeon HD 7800 », « GTX 1000 »)
-  - [ ] Familles écrites en toutes lettres (« GeForce 500 series », « AMD Ryzen 5 »)
-  - [ ] Athlon, Pentium et Celeron manquants (côté CPU, le prochain gros gain)
+  - [x] Familles de processeurs sans modèle (« Intel Core i5 », « AMD Ryzen 5 », « Core 2 Duo ») : seuil = le plus faible modèle de bureau de la famille
+  - [ ] Familles de cartes écrites en toutes lettres (« GeForce 500 series »)
+  - [ ] Analyser les ~190 verdicts « ? » restants pour cibler la suite
+  - [ ] Athlon, Pentium et Celeron manquants
 - [ ] **P1 · Claude** — Revoir les ~200 lignes Wikipédia rejetées et compléter les corrections manuelles (ex. portables RTX 50)
 
 ## Fonctionnalités
@@ -59,4 +61,5 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 - [x] PCGamingWiki en secours de Steam : ~170 jeux complétés, mention « via PCGamingWiki » sur le site
 - [x] Reconnaissance plus stricte : plus de confusion de marque (« Radeon 8500 » ≠ « GeForce 8500 GT »), ni de famille générique (« Intel HD Graphics »), ni de puce portable dans une famille desktop
 - [x] Lecture de DirectX corrigée (« dx90c » était lu 90, « DirectX (November 2007) » était lu 2007, d'où de faux « Insuffisant » sur de vieux jeux)
-- [x] GPU minimaux reconnus : de 79 % à 87 %
+- [x] GPU minimaux reconnus : de 79 % à 87 % ; CPU : de 88 % à 93 %
+- [x] Processeurs portables mieux repérés (page mobile Intel, suffixes UM/LM)

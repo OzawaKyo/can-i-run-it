@@ -12,7 +12,8 @@
      "Core 2 Duo",
      "AMD Athlon II"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 21
    },
    "gpu": {
     "raw": [

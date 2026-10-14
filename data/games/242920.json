@@ -40,11 +40,10 @@
   "recommended": {
    "cpu": {
     "raw": [
-     "2 GHz Dual Core (or greater)"
+     "Intel Core i5 processor (or greater)"
     ],
     "ids": [],
-    "estimatedScore": 23,
-    "source": "pcgamingwiki"
+    "estimatedScore": 50
    },
    "gpu": {
     "raw": [

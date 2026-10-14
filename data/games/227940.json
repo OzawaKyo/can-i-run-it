@@ -48,7 +48,8 @@
      "Intel i5",
      "AMD Ryzen 5"
     ],
-    "ids": []
+    "ids": [],
+    "estimatedScore": 73
    },
    "gpu": {
     "raw": [
