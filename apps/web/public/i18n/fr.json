@@ -107,7 +107,7 @@
     },
     "limits": {
       "title": "Limites",
-      "body": "Les scores sont des estimations (environ ±20 %) : ils ne remplacent pas un benchmark. Les configurations publiées par les éditeurs sont elles-mêmes approximatives, parfois anciennes. Les FPS ne sont pas estimés pour l'instant.\nUne donnée vous semble fausse ? Le lien « Signaler une erreur » en bas de chaque page de jeu ouvre un ticket sur GitHub."
+      "body": "Les scores sont des estimations (environ ±20 %) : ils ne remplacent pas un benchmark. Les configurations publiées par les éditeurs sont elles-mêmes approximatives, parfois anciennes. Les FPS affichés sont une estimation : on suppose que la config minimale d'un jeu vise ~30 FPS en réglages bas et la recommandée ~60 FPS en élevé (1080p), puis on compare votre carte graphique à celles demandées. Le processeur ne réduit l'estimation que s'il est sous le minimum, car les éditeurs surestiment souvent le processeur recommandé.\nUne donnée vous semble fausse ? Le lien « Signaler une erreur » en bas de chaque page de jeu ouvre un ticket sur GitHub."
     },
     "sources": {
       "title": "Sources et licences",
@@ -139,5 +139,13 @@
     "doneBody": "Votre configuration est remplie ci-dessous : vérifiez-la, puis cherchez un jeu.",
     "unmatched": "Non reconnu : {{ names }}. Choisissez-le dans la liste ci-dessous.",
     "again": "Relancer la détection"
+  },
+  "fps": {
+    "title": "Performances estimées · 1080p",
+    "low": "Réglages bas",
+    "high": "Réglages élevés",
+    "range": "≈ {{ from }}–{{ to }} FPS",
+    "open": "{{ from }}+ FPS",
+    "note": "Estimation : on suppose que la config minimale du jeu vise ~30 FPS en réglages bas et la recommandée ~60 FPS en élevé. Certains jeux limitent aussi leurs FPS (souvent à 60)."
   }
 }

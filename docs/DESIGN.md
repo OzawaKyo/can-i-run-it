@@ -20,7 +20,7 @@ Décisions prises lors de la session de cadrage du 2026-10-13.
   - VRAM exigée = celle écrite dans la config, sinon la plus petite VRAM des GPU listés.
   - Ordre du pire au meilleur : ❌ < ? < limite < ⚠️ < ✅. Composant non mentionné par le jeu = omis.
 - **Alternatives** (« GTX 970 / RX 290 ») : on retient la **plus faible**, toutes sont affichées.
-- **FPS (v2)** : fourchette indicative, hypothèse min ≈ 30 FPS bas/1080p, recommandé ≈ 60 FPS élevé/1080p, extrapolée selon le score. Toujours étiquetée « estimation ». Livrée seulement une fois le verdict fiabilisé.
+- **FPS** (`libs/domain/src/estimate-fps.ts`, livré le 2026-10-14) : hypothèse min ≈ 30 FPS bas / recommandé ≈ 60 FPS élevé, en 1080p. Le GPU porte l'estimation (rapport à la carte la plus faible du palier) ; le CPU ne la réduit que s'il est sous le CPU *minimum* (les éditeurs surestiment le CPU recommandé). Réglages bas ≥ 1,5 × élevés. Fourchette −20 % / +25 %, arrondie à 5, plafond « 144+ ». Rien d'affiché si un score manque.
 
 ## Config utilisateur
 

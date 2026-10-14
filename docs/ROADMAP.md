@@ -25,7 +25,6 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 
 ## Fonctionnalités
 
-- [ ] **P2 · Claude** — Estimation des FPS : fourchette indicative du type « ≈ 45-60 FPS en moyen, 1080p »
 - [ ] **P2 · Claude** — Partager un verdict : lien « mon PC vs ce jeu » à envoyer à un ami _(idée)_
 
 ## Finitions
@@ -58,4 +57,5 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 - [x] GPU minimaux reconnus : de 79 % à 87 % ; CPU : de 88 % à 93 %
 - [x] Processeurs portables mieux repérés (page mobile Intel, suffixes UM/LM)
 - [x] Exigences vagues traitées : CPU d'avant l'ère Core (Pentium 4, Athlon XP…), nombre de cœurs seul, « Intel i5 », DirectX / Pixel Shader / OpenGL écrits de mille façons, mémoire seule (« 256 MB »), séries (« GeForce 200 series »), ancien format en paragraphe
+- [x] Estimation des FPS (1080p, réglages bas et élevés) sur chaque page de jeu, expliquée dans « Sources & méthode »
 - [x] Reconnaissance : CPU 99 %, GPU 96 % ; verdicts « ? » de 232 à 66 jeux, sans nouveau faux « Insuffisant »

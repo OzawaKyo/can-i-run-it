@@ -4,6 +4,7 @@ import { Component, computed, inject, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import {
   computeVerdict,
+  estimateFps,
   hydrateRequirements,
   type Component as RequirementComponent,
   type GameRecord,
@@ -53,13 +54,23 @@ export class GamePage {
     /^\d+$/.test(this.appId()) ? `data/games/${this.appId()}.json` : undefined,
   );
 
-  protected readonly verdict = computed(() => {
+  /** The game's requirements with catalog models in place of ids. */
+  private readonly resolved = computed(() => {
     const game = this.game.value();
     if (!game || this.catalog.loading()) return undefined;
-    return computeVerdict(
-      this.store.config(),
-      hydrateRequirements(game.requirements, this.catalog.byId()),
-    );
+    return hydrateRequirements(game.requirements, this.catalog.byId());
+  });
+
+  protected readonly verdict = computed(() => {
+    const resolved = this.resolved();
+    return resolved && computeVerdict(this.store.config(), resolved);
+  });
+
+  protected readonly fpsSettings = ['low', 'high'] as const;
+
+  protected readonly fps = computed(() => {
+    const resolved = this.resolved();
+    return resolved ? estimateFps(this.store.config(), resolved) : {};
   });
 
   protected readonly rows = computed<Row[]>(() => {

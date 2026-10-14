@@ -58,6 +58,28 @@
         </div>
       </section>
 
+      @if (fps().low || fps().high) {
+        <section class="card fps">
+          <h2 class="section-title">{{ 'fps.title' | transloco }}</h2>
+          <dl>
+            @for (setting of fpsSettings; track setting) {
+              @if (fps()[setting]; as range) {
+                <div>
+                  <dt>{{ 'fps.' + setting | transloco }}</dt>
+                  <dd>
+                    {{
+                      (range.to ? 'fps.range' : 'fps.open')
+                        | transloco: { from: range.from, to: range.to }
+                    }}
+                  </dd>
+                </div>
+              }
+            }
+          </dl>
+          <p class="hint">{{ 'fps.note' | transloco }}</p>
+        </section>
+      }
+
       <table>
         <caption class="visually-hidden">
           {{

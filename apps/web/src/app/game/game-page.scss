@@ -200,3 +200,26 @@ tbody th {
   font-size: 0.75rem;
   color: var(--text-muted);
 }
+
+.fps {
+  margin-bottom: 20px;
+
+  dl {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 40px;
+    margin: 0 0 10px;
+  }
+
+  dt {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+
+  dd {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+}
