@@ -1,5 +1,7 @@
 # Can I Run It?
 
+**Live: https://can-i-run-it.ozawakyo.workers.dev**
+
 Can my PC run this game? Compares your PC with the system requirements PC games publish on Steam, component by component, with an honest verdict: below, borderline, minimum, recommended, or "can't tell" — never a false ✅.
 
 Static Angular app, hosted for free on Cloudflare (Workers static assets). All data is built ahead of time by a Node pipeline and versioned as JSON in `data/`. Design decisions: [`docs/DESIGN.md`](docs/DESIGN.md).
