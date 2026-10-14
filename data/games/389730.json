@@ -1,0 +1,81 @@
+{
+ "appid": 389730,
+ "name": "TEKKEN 7",
+ "slug": "tekken-7",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4160 @ 3.60GHz"
+    ],
+    "ids": [
+     "intel-core-i3-4160"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660 2GB",
+     "GTX 750Ti 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "nvidia-geforce-gtx-750-ti"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 (64-bit OS required)",
+    "processor": "Intel Core i3-4160 @ 3.60GHz or equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 2GB, GTX 750Ti 2GB, or equivalent",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space",
+    "sound card": "DirectX compatible soundcard or onboard chipset"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4690 3.5 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-4690"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 equivalent"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 (64-bit OS required)",
+    "processor": "Intel Core i5-4690 3.5 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 equivalent or higher",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space",
+    "sound card": "DirectX compatible soundcard or onboard chipset"
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "appid": 704850,
+ "name": "Thief Simulator",
+ "slug": "thief-simulator",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GeForce GTX 750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core i5",
+    "memory": "8 GB RAM",
+    "graphics": "NVidia GeForce GTX 750",
+    "directx": "Version 10",
+    "storage": "5 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GeForce GTX 1050"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7",
+    "memory": "8 GB RAM",
+    "graphics": "NVidia GeForce GTX 1050",
+    "directx": "Version 10",
+    "storage": "5 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  }
+ }
+}

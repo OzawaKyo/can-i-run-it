@@ -1,0 +1,75 @@
+{
+ "appid": 302830,
+ "name": "BLOCKADE 3D",
+ "slug": "blockade-3d",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 4 2000MHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT520"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-520",
+     "nvidia-geforce-gt-520-1gb",
+     "nvidia-geforce-gt-520-2gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 0.68359375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7,8.1,10",
+    "processor": "Pentium 4 2000MHz",
+    "memory": "2048 MB RAM",
+    "graphics": "GeForce GT520",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "700 MB available space",
+    "sound card": "any"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1050Ti"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 0.68359375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7,8.1,10",
+    "processor": "Core i5",
+    "memory": "4096 MB RAM",
+    "graphics": "GeForce GTX 1050Ti",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "700 MB available space",
+    "sound card": "any"
+   }
+  }
+ }
+}

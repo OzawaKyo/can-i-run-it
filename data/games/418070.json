@@ -1,0 +1,37 @@
+{
+ "appid": 418070,
+ "name": "Turbo Pug",
+ "slug": "turbo-pug",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [
+     "256 Mb"
+    ],
+    "ids": []
+   },
+   "directX": 5.2,
+   "storage": {
+    "gb": 0.0439453125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Windows Vista/Windows 7/8/10 32-bit",
+    "processor": "1.6 GHz",
+    "graphics": "256 Mb",
+    "directx": "Version 5.2",
+    "storage": "45 MB available space",
+    "sound card": "DirectX 9.0 Compatible Sound"
+   }
+  }
+ }
+}

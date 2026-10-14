@@ -1,0 +1,85 @@
+{
+ "appid": 1203220,
+ "name": "NARAKA: BLADEPOINT",
+ "slug": "naraka-bladepoint",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 4th generation",
+     "AMD FX 6300"
+    ],
+    "ids": [
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750TI",
+     "Intel Arc A380",
+     "AMD HD 6950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "intel-arc-a380",
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit or newer",
+    "processor": "Intel i5 4th generation or AMD FX 6300 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750TI, Intel Arc A380, AMD HD 6950 or equivalent",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "90 GB available space",
+    "additional notes": "a) Can run at 720p/60fps; b) We advise you install the game on an SSD for a more streamlined experience. c) Requires “Windows Memory integrity and VBS enablement” to be disabled"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 7th generation"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 6G",
+     "Intel Arc A750",
+     "AMD RX480"
+    ],
+    "ids": [
+     "intel-arc-a750",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel i7 7th generation or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 6G, Intel Arc A750, AMD RX480 or equivalent",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "90 GB available space",
+    "additional notes": "a) Can run at 1080p/60fps; b) We advise you install the game on an SSD for a more streamlined experience. c) Requires “Windows Memory integrity and VBS enablement” to be disabled"
+   }
+  }
+ }
+}

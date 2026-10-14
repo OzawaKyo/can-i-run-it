@@ -1,0 +1,40 @@
+{
+ "appid": 6060,
+ "name": "STAR WARS™ Battlefront II (Classic, 2005)",
+ "slug": "star-wars-battlefront-ii-classic-2005",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 1.5 GHz",
+     "Athlon XP 1500+"
+    ],
+    "ids": [],
+    "estimatedScore": 16
+   },
+   "gpu": {
+    "raw": [
+     "64MB 3d Graphics card with Vertex Shader and Pixel Shader (VS/PS) Capability"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.25,
+   "directX": 9,
+   "storage": {
+    "gb": 4.3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 2000, XP, Vista, 8, or 10",
+    "processor": "Intel Pentium 4 1.5 GHz or Athlon XP 1500+",
+    "memory": "256 MB",
+    "graphics": "64MB 3d Graphics card with Vertex Shader and Pixel Shader (VS/PS) Capability",
+    "directx": "9.0c",
+    "storage": "4.3 GB",
+    "sound": "100% DirectX 9.0c compatible Sound Card"
+   }
+  }
+ }
+}

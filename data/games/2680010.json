@@ -1,0 +1,89 @@
+{
+ "appid": 2680010,
+ "name": "The First Berserker: Khazan",
+ "slug": "the-first-berserker-khazan",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-6300",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-core-i3-6300",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 970",
+     "Radeon RX 580",
+     "Arc A580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb",
+     "intel-arc-a580"
+    ]
+   },
+   "ramGb": 12,
+   "directX": 11,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit 22H2",
+    "processor": "Intel Core i3-6300 or AMD Ryzen 3 1200",
+    "memory": "12 GB RAM",
+    "graphics": "GeForce GTX 970 or Radeon RX 580 or Arc A580",
+    "directx": "Version 11",
+    "storage": "70 GB available space",
+    "additional notes": "Requires SSD, 1080p resolution 30fps with low graphics options"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700K",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i7-6700k",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce RTX 2070",
+     "Radeon RX 5700XT",
+     "Arc A750"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-5700-xt",
+     "intel-arc-a750"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 21H2",
+    "processor": "Intel Core i7-6700K or AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce RTX 2070 or Radeon RX 5700XT or Arc A750",
+    "directx": "Version 12",
+    "storage": "70 GB available space",
+    "additional notes": "Requires SSD, 1080p resolution 60fps with \bhigh graphics options"
+   }
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "appid": 1150690,
+ "name": "OMORI",
+ "slug": "omori",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel N4100 (or similar)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9/OpenGL 4.1 capable GPU"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 8.1 (32bit/64bit)",
+    "processor": "Intel N4100 (or similar) or better",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 9/OpenGL 4.1 capable GPU",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "additional notes": "1280x720 display is recommended at x2 resolution but is not required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-6100"
+    ],
+    "ids": [
+     "intel-core-i3-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL ES 2.0 hardware driver support required for WebGL acceleration"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 10 (32bit/64bit)",
+    "processor": "Intel Core i3-6100 or better",
+    "memory": "8 GB RAM",
+    "graphics": "OpenGL ES 2.0 hardware driver support required for WebGL acceleration",
+    "directx": "Version 9.0",
+    "storage": "2 GB available space",
+    "additional notes": "1280x720 display is recommended at x2 resolution but is not required"
+   }
+  }
+ }
+}

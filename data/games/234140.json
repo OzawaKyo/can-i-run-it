@@ -1,0 +1,89 @@
+{
+ "appid": 234140,
+ "name": "Mad Max",
+ "slug": "mad-max",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-650",
+     "3.2 GHz",
+     "AMD Phenom II X4 965",
+     "3.4 Ghz"
+    ],
+    "ids": [
+     "intel-core-i5-650",
+     "amd-phenom-ii-x4-965-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660ti ( Memory) 2GB",
+     "AMD Radeon HD 7870 ( Memory) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660-ti",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64 bit: Vista, Win 7, Win 8, Win 10",
+    "processor": "Intel Core i5-650, 3.2 GHz or AMD Phenom II X4 965, 3.4 Ghz",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660ti (2 GB Memory or higher) or AMD Radeon HD 7870 (2 GB Memory or higher)",
+    "directx": "Version 11",
+    "storage": "32 GB available space",
+    "additional notes": "PlayStation 4 controller support"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770",
+     "3.4 GHz",
+     "AMD FX-8350",
+     "4.0 GHz"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760 ( Memory) 3GB",
+     "AMD Radeon HD 7970 ( Memory) 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-7970-3gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64 bit: Win 7 SP1, Win 8.1, Win 10",
+    "processor": "Intel Core i7-3770, 3.4 GHz or AMD FX-8350, 4.0 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 (3 GB Memory or higher) or AMD Radeon HD 7970 (3 GB Memory or higher)",
+    "directx": "Version 11",
+    "storage": "32 GB available space",
+    "additional notes": "PlayStation 4 controller support"
+   }
+  }
+ }
+}

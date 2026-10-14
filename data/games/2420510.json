@@ -1,0 +1,49 @@
+{
+ "appid": 2420510,
+ "name": "HoloCure - Save the Fans!",
+ "slug": "holocure-save-the-fans",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.29296875,
+   "storage": {
+    "gb": 0.244140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "memory": "300 MB RAM",
+    "storage": "250 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.48828125,
+   "storage": {
+    "gb": 0.244140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10+",
+    "memory": "500 MB RAM",
+    "storage": "250 MB available space"
+   }
+  }
+ }
+}

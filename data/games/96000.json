@@ -1,0 +1,39 @@
+{
+ "appid": 96000,
+ "name": "The Tiny Bang Story",
+ "slug": "the-tiny-bang-story",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.5 GHz equivalent processor"
+    ],
+    "ids": [],
+    "estimatedScore": 16
+   },
+   "gpu": {
+    "raw": [
+     "Standard"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.17578125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP SP1 or newer",
+    "processor": "1.5 GHz equivalent or higher processor",
+    "memory": "512 MB",
+    "storage": "180 MB",
+    "graphics": "Standard",
+    "directx": "DirectX 9.0c",
+    "sound": "Standard"
+   }
+  }
+ }
+}

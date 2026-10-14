@@ -1,0 +1,95 @@
+{
+ "appid": 356190,
+ "name": "Middle-earth™: Shadow of War™",
+ "slug": "middle-earth-shadow-of-war",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-4350",
+     "4.2 GHz",
+     "Intel Core i5-2300",
+     "2.80 GHz"
+    ],
+    "ids": [
+     "amd-fx-4350",
+     "intel-core-i5-2300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD HD 7870 2GB",
+     "NVIDIA GTX 660 2GB"
+    ],
+    "ids": [
+     "intel-hd-graphics",
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 with Platform Update",
+    "processor": "AMD FX-4350, 4.2 GHz / Intel Core i5-2300, 2.80 GHz",
+    "memory": "6 GB RAM",
+    "graphics": "AMD HD 7870, 2 GB / NVIDIA GTX 660, 2 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "70 GB available space",
+    "additional notes": "X64 required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX-8350",
+     "4.0 GHz",
+     "Intel Core i7-3770",
+     "3.4 GHz"
+    ],
+    "ids": [
+     "amd-fx-8350",
+     "intel-core-i7-3770"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 480 4GB",
+     "RX580 4GB",
+     "NVIDIA GTX 970 4GB",
+     "GTX1060 6GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-580-4gb",
+     "nvidia-geforce-gtx-970",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Creators Update",
+    "processor": "AMD FX-8350, 4.0 GHz / Intel Core i7-3770, 3.4 GHz",
+    "memory": "12 GB RAM",
+    "graphics": "AMD RX 480, 4 GB or RX580, 4GB / NVIDIA GTX 970, 4GB or GTX1060, 6GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "70 GB available space",
+    "additional notes": "X64 required"
+   }
+  }
+ }
+}

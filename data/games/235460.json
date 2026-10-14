@@ -1,0 +1,75 @@
+{
+ "appid": 235460,
+ "name": "METAL GEAR RISING: REVENGEANCE",
+ "slug": "metal-gear-rising-revengeance",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2400"
+    ],
+    "ids": [
+     "intel-core-i5-2400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce GTS 450"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "XP or Vista or 7 or 8",
+    "processor": "Intel Core i5 2400",
+    "memory": "2 GB RAM",
+    "graphics": "Nvidia Geforce GTS 450",
+    "directx": "Version 9.0c",
+    "storage": "25 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 3770"
+    ],
+    "ids": [
+     "intel-core-i7-3770"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce GTX 650"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "XP or Vista or 7 or 8",
+    "processor": "Intel Core i7 3770",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia Geforce GTX 650",
+    "directx": "Version 9.0c",
+    "storage": "25 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  }
+ }
+}

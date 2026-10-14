@@ -1,0 +1,70 @@
+{
+ "appid": 1167630,
+ "name": "Teardown",
+ "slug": "teardown",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Quad Core CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060. VRAM. 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Quad Core CPU",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 or similar. 4 Gb VRAM.",
+    "storage": "12 GB available space",
+    "additional notes": "Integrated graphics cards not supported."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1080. VRAM. 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7 or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1080 or similar. 4 Gb VRAM.",
+    "storage": "12 GB available space"
+   }
+  }
+ }
+}

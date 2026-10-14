@@ -1,0 +1,90 @@
+{
+ "appid": 699130,
+ "name": "World War Z",
+ "slug": "world-war-z",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD A10-5700",
+     "Intel Core i3-3220"
+    ],
+    "ids": [
+     "amd-a10-5700",
+     "intel-core-i3-3220"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD R7-240",
+     "GForce 650Ti",
+     "Intel 630"
+    ],
+    "ids": [
+     "amd-radeon-r5-240-1gb",
+     "amd-radeon-r5-240-2gb",
+     "amd-radeon-r7-240-2gb",
+     "amd-radeon-r7-240-4gb",
+     "amd-radeon-630-laptop-2gb",
+     "amd-radeon-630-laptop-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "AMD A10-5700 / Intel Core i3-3220",
+    "memory": "8 GB RAM",
+    "graphics": "AMD R7-240 / GForce 650Ti / Intel 630",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space",
+    "sound card": "Yes"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 2400G",
+     "Intel core i7-3970"
+    ],
+    "ids": [
+     "amd-ryzen-5-2400g",
+     "intel-core-i7-3970x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R9 280",
+     "Nvidia GeForce GTX 960"
+    ],
+    "ids": [
+     "amd-radeon-r9-280",
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "AMD Ryzen 5 2400G / Intel core i7-3970",
+    "memory": "16 GB RAM",
+    "graphics": "AMD Radeon R9 280 / Nvidia GeForce GTX 960",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space",
+    "sound card": "Yes"
+   }
+  }
+ }
+}

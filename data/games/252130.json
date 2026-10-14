@@ -1,0 +1,35 @@
+{
+ "appid": 252130,
+ "name": "Divide By Sheep",
+ "slug": "divide-by-sheep",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated Card"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/9",
+    "processor": "2.5",
+    "memory": "2 GB RAM",
+    "graphics": "Dedicated Card",
+    "storage": "256 MB available space"
+   }
+  }
+ }
+}

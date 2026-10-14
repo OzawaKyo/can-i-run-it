@@ -1,0 +1,48 @@
+{
+ "appid": 237930,
+ "name": "Transistor",
+ "slug": "transistor",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core CPU - 2.6ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 30
+   },
+   "gpu": {
+    "raw": [
+     "of VRAM: Intel HD 3000 GPU 1GB",
+     "AMD HD 5450",
+     "Nvidia 9400 GT"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics",
+     "amd-radeon-hd-5450-512mb",
+     "amd-radeon-hd-5450-1gb",
+     "amd-radeon-hd-5450-2gb",
+     "nvidia-geforce-9400-gt-128mb",
+     "nvidia-geforce-9400-gt-256mb",
+     "nvidia-geforce-9400-gt-512mb",
+     "nvidia-geforce-9400-gt"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 32-bit",
+    "processor": "Dual Core CPU - 2.6ghz",
+    "memory": "4 GB RAM",
+    "graphics": "1GB of VRAM: Intel HD 3000 GPU / AMD HD 5450 / Nvidia 9400 GT",
+    "storage": "3 GB available space"
+   }
+  }
+ }
+}

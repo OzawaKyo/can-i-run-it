@@ -1,0 +1,52 @@
+{
+ "appid": 225080,
+ "name": "Brothers - A Tale of Two Sons",
+ "slug": "brothers-a-tale-of-two-sons",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Dual Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8600 /ATI Radeon HD 2600"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3",
+    "processor": "2.4 GHz Dual Core Processor",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 8600 /ATI Radeon HD 2600",
+    "directx": "Version 9.0",
+    "storage": "2 GB available space",
+    "additional notes": "Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include Steam Client, DirectX 9, Microsoft .NET 4 Framework, Visual C++ Redistributable 2010, and AMD CPU Drivers (XP Only/AMD Only)"
+   }
+  }
+ }
+}

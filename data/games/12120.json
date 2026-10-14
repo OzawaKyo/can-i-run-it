@@ -1,0 +1,66 @@
+{
+ "appid": 12120,
+ "name": "Grand Theft Auto: San Andreas",
+ "slug": "grand-theft-auto-san-andreas",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1Ghz Pentium III",
+     "AMD Athlon Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "64MB Video Card (Geforce 3)"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.25,
+   "storage": {
+    "gb": 3.6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 2000/XP",
+    "processor": "1Ghz Pentium III or AMD Athlon Processor",
+    "memory": "256MB of RAM",
+    "graphics": "64MB Video Card (Geforce 3 or better)",
+    "storage": "3.6GB of free hard disk space (minimal install)",
+    "other requirements": "Software installations required including DirectX and Sony DADC SecuROM",
+    "partner requirements": "Please check the terms of service of this site before purchasing this software."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4",
+     "AMD Athlon XP Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "128MB (or greater) Video Card (Geforce 6 Series Recommended)"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.375,
+   "storage": {
+    "gb": 4.7,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Pentium 4 or AMD Athlon XP Processor",
+    "memory": "384MB of RAM (the more the better!)",
+    "graphics": "128MB (or greater) Video Card (Geforce 6 Series Recommended)",
+    "storage": "4.7GB of free hard disk space (full install)",
+    "sound card": "DirectX 9 compatible Sound Card (Sound Blaster Auidgy 2 Recommended)"
+   }
+  }
+ }
+}

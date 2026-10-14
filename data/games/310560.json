@@ -1,0 +1,93 @@
+{
+ "appid": 310560,
+ "name": "DiRT Rally",
+ "slug": "dirt-rally",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX Series",
+     "Intel Core i3 Series"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "AMD HD5450",
+     "Nvidia GT430",
+     "Intel HD4000 with of VRAM (DirectX 11 graphics card required) 1GB"
+    ],
+    "ids": [
+     "amd-radeon-hd-5450-512mb",
+     "amd-radeon-hd-5450-1gb",
+     "amd-radeon-hd-5450-2gb",
+     "nvidia-geforce-gt-430-gf108-300",
+     "nvidia-geforce-gt-430-gf108-300-2",
+     "nvidia-geforce-gt-430-512mb",
+     "nvidia-geforce-gt-430-1gb-gf108-300",
+     "nvidia-geforce-gt-430-1gb-gf108-300-2",
+     "nvidia-geforce-gt-430-2gb",
+     "nvidia-geforce-gt-430-4gb",
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit Versions of Windows 7, Windows 8, Windows 10",
+    "processor": "AMD FX Series or Intel Core i3 Series",
+    "memory": "4 GB RAM",
+    "graphics": "AMD HD5450 or Nvidia GT430 or Intel HD4000 with 1GB of VRAM (DirectX 11 graphics card required)",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "sound card": "DirectX Compatible soundcard",
+    "additional notes": "Supported Graphics Cards: AMD HD5000 Series, HD6000 Series, HD7000 Series, R7 Series, R9 Series Nvidia GTX400 Series, GTX500 Series, GTX600 Series, GTX700 Series, GTX900 Series Intel HD4000 Series, HD5000 Series"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX-8150",
+     "Intel Core i5 4670K"
+    ],
+    "ids": [
+     "amd-fx-8150",
+     "intel-core-i5-4670k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD R9 290",
+     "Nvidia GTX780"
+    ],
+    "ids": [
+     "amd-radeon-r9-290",
+     "nvidia-geforce-gtx-780"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit Versions of Windows 7, Windows 8, Windows 10",
+    "processor": "AMD FX-8150 or Intel Core i5 4670K",
+    "memory": "8 GB RAM",
+    "graphics": "AMD R9 290 or Nvidia GTX780",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "sound card": "Direct X compatible soundcard",
+    "additional notes": "Supported Graphics Cards: AMD HD5000 Series, HD6000 Series, HD7000 Series, R7 Series, R9 Series Nvidia GTX400 Series, GTX500 Series, GTX600 Series, GTX700 Series, GTX900 Series Intel HD4000 Series, HD5000 Series, HD6000 Series"
+   }
+  }
+ }
+}

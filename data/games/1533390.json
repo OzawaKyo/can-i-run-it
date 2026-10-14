@@ -1,0 +1,58 @@
+{
+ "appid": 1533390,
+ "name": "Gorilla Tag",
+ "slug": "gorilla-tag",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4590",
+     "AMD FX 8350"
+    ],
+    "ids": [
+     "intel-core-i5-4590",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 970",
+     "AMD Radeon R9 290"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 0.13671875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-4590 / AMD FX 8350",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GTX 970 / AMD Radeon R9 290",
+    "network": "Broadband Internet connection",
+    "storage": "140 MB available space",
+    "sound card": "n/a",
+    "vr support": "SteamVR or Oculus PC",
+    "additional notes": "This runs on a Quest, so it should probably run on any reasonable computer that can run Oculus or SteamVR at all that isn't literally a toaster"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

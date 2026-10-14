@@ -1,0 +1,43 @@
+{
+ "appid": 620,
+ "name": "Portal 2",
+ "slug": "portal-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.0 GHz P4",
+     "Dual Core 2.0 (or higher)",
+     "AMD64X2 (or higher)"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "Video card must be 128 MB and with support for Pixel Shader 2.0b (ATI Radeon X800 / NVIDIA GeForce 7600 / Intel HD Graphics 2000)."
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / Vista / XP",
+    "processor": "3.0 GHz P4, Dual Core 2.0 (or higher) or AMD64X2 (or higher)",
+    "memory": "2 GB RAM",
+    "graphics": "Video card must be 128 MB or more and with support for Pixel Shader 2.0b (ATI Radeon X800 or higher / NVIDIA GeForce 7600 or higher / Intel HD Graphics 2000 or higher).",
+    "directx": "Version 9.0c",
+    "storage": "8 GB available space",
+    "sound card": "DirectX 9.0c compatible"
+   }
+  }
+ }
+}

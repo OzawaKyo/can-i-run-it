@@ -1,0 +1,77 @@
+{
+ "appid": 364360,
+ "name": "Total War: WARHAMMER",
+ "slug": "total-war-warhammer",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 3.0Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "(DirectX 11) AMD Radeon HD 5770 1024MB | NVIDIA GTS 450 1024MB | Intel HD4000 @720P"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64Bit",
+    "processor": "Intel Core 2 Duo 3.0Ghz",
+    "memory": "3 GB RAM",
+    "graphics": "(DirectX 11) AMD Radeon HD 5770 1024MB | NVIDIA GTS 450 1024MB | Intel HD4000 @720P",
+    "directx": "Version 11",
+    "storage": "35 GB available space",
+    "additional notes": "*PC Integrated graphics chipsets require 4 GB RAM, e.g. Intel HD series. Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4570 3.20GHz"
+    ],
+    "ids": [
+     "intel-core-i5-4570"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "(DirectX 11) AMD Radeon R9 270X 2048MB | NVIDIA GeForce GTX 760 2048MB @1080P"
+    ],
+    "ids": [
+     "amd-radeon-r9-270x-2gb",
+     "amd-radeon-r9-270x-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 64Bit",
+    "processor": "Intel Core i5-4570 3.20GHz",
+    "memory": "8 GB RAM",
+    "graphics": "(DirectX 11) AMD Radeon R9 270X 2048MB | NVIDIA GeForce GTX 760 2048MB @1080P",
+    "directx": "Version 11",
+    "storage": "35 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ }
+}

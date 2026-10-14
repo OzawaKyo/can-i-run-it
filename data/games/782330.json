@@ -1,0 +1,92 @@
+{
+ "appid": 782330,
+ "name": "DOOM Eternal",
+ "slug": "doom-eternal",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 @ 3.3 GHz",
+     "or AMD Ryzen 3 @ 3.1 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 32
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050Ti () 4GB",
+     "GTX 1060 () 3GB",
+     "GTX 1650 () 4GB",
+     "AMD Radeon R9 280() 3GB",
+     "AMD Radeon R9 290 () 4GB",
+     "RX 470 () 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti",
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-r9-280",
+     "amd-radeon-r9-290",
+     "amd-radeon-rx-470-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7 / 64-Bit Windows 10",
+    "processor": "Intel Core i5 @ 3.3 GHz or better, or AMD Ryzen 3 @ 3.1 GHz or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050Ti (4GB), GTX 1060 (3GB), GTX 1650 (4GB) or AMD Radeon R9 280(3GB), AMD Radeon R9 290 (4GB), RX 470 (4GB)",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space",
+    "additional notes": "( 1080p / 60 FPS / Low Quality Settings )"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700K",
+     "or AMD Ryzen 7 1800X"
+    ],
+    "ids": [
+     "intel-core-i7-6700k",
+     "amd-ryzen-7-1800x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 () 6GB",
+     "NVIDIA GeForce 970 () 4GB",
+     "AMD RX 480 () 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Intel Core i7-6700K or better, or AMD Ryzen 7 1800X or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (6GB), NVIDIA GeForce 970 (4GB), AMD RX 480 (8GB)",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space",
+    "additional notes": "( 1080p / 60 FPS / High Quality Settings ) - *On NVIDIA GTX 970 cards Texture Quality should be set to Medium"
+   }
+  }
+ }
+}

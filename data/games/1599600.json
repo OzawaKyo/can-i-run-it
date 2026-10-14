@@ -1,0 +1,64 @@
+{
+ "appid": 1599600,
+ "name": "PlateUp!",
+ "slug": "plateup",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Quad Core I5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 530"
+    ],
+    "ids": [
+     "intel-hd-graphics-530"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Quad Core I5 or AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Intel HD Graphics 530 or AMD equivalent",
+    "storage": "2 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core I5",
+     "Ryzen 5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GTX 960"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Quad Core I5 / Ryzen 5",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 960 or AMD equivalent",
+    "storage": "2 GB available space"
+   }
+  }
+ }
+}

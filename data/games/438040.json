@@ -1,0 +1,38 @@
+{
+ "appid": 438040,
+ "name": "Shakes and Fidget",
+ "slug": "shakes-and-fidget",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "x64 with SSE2 support"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX capable GPU"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 version 21H1 or newer",
+    "processor": "x64 with SSE2 support",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX capable GPU",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "3 GB available space"
+   }
+  }
+ }
+}

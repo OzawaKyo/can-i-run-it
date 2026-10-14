@@ -1,0 +1,33 @@
+{
+ "appid": 977950,
+ "name": "A Dance of Fire and Ice",
+ "slug": "a-dance-of-fire-and-ice",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Intel Graphics 4000 2GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "vramGb": 2,
+   "storage": {
+    "gb": 1.46484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or later",
+    "memory": "2 GB RAM",
+    "graphics": "Intel Graphics 4000, 2GB VRAM",
+    "storage": "1500 MB available space"
+   }
+  }
+ }
+}

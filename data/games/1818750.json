@@ -1,0 +1,72 @@
+{
+ "appid": 1818750,
+ "name": "MultiVersus",
+ "slug": "multiversus",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3470",
+     "AMD Ryzen 5 1400"
+    ],
+    "ids": [
+     "intel-core-i5-3470",
+     "amd-ryzen-5-1400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 650 Ti",
+     "AMD Radeon HD 7850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-3470 / AMD Ryzen 5 1400",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 650 Ti / AMD Radeon HD 7850",
+    "additional notes": "HDD"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 3100",
+     "Intel Core i5-3570"
+    ],
+    "ids": [
+     "amd-ryzen-3-3100",
+     "intel-core-i5-3570"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 760",
+     "AMD Radeon R9 280",
+     "Intel Arc A310"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-r9-280",
+     "intel-arc-a310"
+    ]
+   },
+   "ramGb": 8,
+   "raw": {
+    "os": "Windows 10 / Windows 11",
+    "processor": "AMD Ryzen 3 3100 / Intel Core i5-3570",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 760 / AMD Radeon R9 280 / Intel Arc A310",
+    "additional notes": "SSD"
+   }
+  }
+ }
+}

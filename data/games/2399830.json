@@ -1,0 +1,87 @@
+{
+ "appid": 2399830,
+ "name": "ARK: Survival Ascended",
+ "slug": "ark-survival-ascended",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 2600X",
+     "Intel Core i7-6800K"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600x",
+     "intel-core-i7-6800k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 5600 XT",
+     "NVIDIA GeForce 1080"
+    ],
+    "ids": [
+     "amd-radeon-rx-5600-xt",
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 180,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10/11 with updates",
+    "processor": "AMD Ryzen 5 2600X, Intel Core i7-6800K",
+    "memory": "16 GB RAM",
+    "graphics": "AMD Radeon RX 5600 XT, NVIDIA GeForce 1080",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "180 GB available space",
+    "additional notes": "SSD Required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 3600X",
+     "Intel i5-10600K"
+    ],
+    "ids": [
+     "amd-ryzen-5-3600x",
+     "intel-core-i5-10600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 6800",
+     "NVIDIA GeForce RTX 3080"
+    ],
+    "ids": [
+     "amd-radeon-rx-6800",
+     "nvidia-geforce-rtx-3080",
+     "nvidia-geforce-rtx-3080-12-gb"
+    ]
+   },
+   "ramGb": 32,
+   "directX": 12,
+   "storage": {
+    "gb": 180,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10/11 with updates",
+    "processor": "AMD Ryzen 5 3600X, Intel i5-10600K",
+    "memory": "32 GB RAM",
+    "graphics": "AMD Radeon RX 6800, NVIDIA GeForce RTX 3080",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "180 GB available space",
+    "additional notes": "SSD Required"
+   }
+  }
+ }
+}

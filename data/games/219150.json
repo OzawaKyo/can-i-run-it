@@ -1,0 +1,71 @@
+{
+ "appid": 219150,
+ "name": "Hotline Miami",
+ "slug": "hotline-miami",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.2GHz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 12
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 8-compatible graphics card with at least 32MB of video memory"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.244140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP / Vista / 7",
+    "processor": "1.2GHz processor",
+    "memory": "512 MB RAM",
+    "graphics": "DirectX 8-compatible graphics card with at least 32MB of video memory",
+    "directx": "9.0c",
+    "storage": "250 MB HD space",
+    "additional": "Microsoft Xbox 360 Controller or Direct Input compatible controller, OpenGL 2.x or better highly recommended."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "1.4GHz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 14
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 8-compatible graphics card with at least 32MB of video memory"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 0.244140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP / Vista / 7",
+    "processor": "1.4GHz processor or faster",
+    "memory": "1 GB RAM",
+    "graphics": "DirectX 8-compatible graphics card with at least 32MB of video memory",
+    "directx": "9.0c",
+    "storage": "250 MB HD space",
+    "additional": "Microsoft Xbox 360 Controller or Direct Input compatible controller"
+   }
+  }
+ }
+}

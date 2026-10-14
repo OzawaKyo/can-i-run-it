@@ -1,0 +1,87 @@
+{
+ "appid": 2669320,
+ "name": "EA SPORTS FC™ 25",
+ "slug": "ea-sports-fc-25",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 1600",
+     "Intel Core i5 6600k"
+    ],
+    "ids": [
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af",
+     "intel-core-i5-6600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 570",
+     "Nvidia GTX 1050 Ti"
+    ],
+    "ids": [
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb",
+     "nvidia-geforce-gtx-1050-ti"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64-Bit (Latest Update)",
+    "processor": "AMD Ryzen 5 1600 or Intel Core i5 6600k",
+    "memory": "8 GB RAM",
+    "graphics": "AMD RX 570 or Nvidia GTX 1050 Ti",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "sound card": "DirectX: 12 Compatible video card or equivalent (feature level 12_0)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 7 2700X",
+     "Intel Core i7 6700"
+    ],
+    "ids": [
+     "amd-ryzen-7-2700x",
+     "intel-core-i7-6700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 5600 XT",
+     "Nvidia GTX 1660"
+    ],
+    "ids": [
+     "amd-radeon-rx-5600-xt",
+     "nvidia-geforce-gtx-1660"
+    ]
+   },
+   "ramGb": 12,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64-Bit (Latest Update).",
+    "processor": "AMD Ryzen 7 2700X or Intel Core i7 6700",
+    "memory": "12 GB RAM",
+    "graphics": "AMD RX 5600 XT or Nvidia GTX 1660",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "sound card": "DirectX: 12 Compatible video card or equivalent (feature level 12_0)"
+   }
+  }
+ }
+}

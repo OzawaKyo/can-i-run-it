@@ -1,0 +1,78 @@
+{
+ "appid": 1266680,
+ "name": "STROBO | Rave Horror",
+ "slug": "strobo-rave-horror",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon X4 | |Intel Core i5 2500k"
+    ],
+    "ids": [
+     "intel-core-i5-2500k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 950 | AMD R7 370"
+    ],
+    "ids": [
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r7-370-4gb",
+     "amd-radeon-r9-370-2gb",
+     "amd-radeon-r9-370-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 8 or 7",
+    "processor": "AMD Athlon X4 | |Intel Core i5 2500k",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GTX 950 | AMD R7 370",
+    "directx": "Version 10",
+    "storage": "6 GB available space",
+    "sound card": "Any"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 | |Intel Core i5 2500k"
+    ],
+    "ids": [
+     "intel-core-i5-2500k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 970 | AMD RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "AMD Ryzen 3 | |Intel Core i5 2500k",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 970 | AMD RX 570",
+    "directx": "Version 11",
+    "storage": "6 GB available space",
+    "sound card": "Any"
+   }
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "appid": 1771300,
+ "name": "Kingdom Come: Deliverance II",
+ "slug": "kingdom-come-deliverance-ii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400",
+     "AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 () 6GB",
+     "AMD Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 100,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (or newer)",
+    "processor": "Intel Core i5-8400, AMD Ryzen 5 2600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (6GB), AMD Radeon RX 580",
+    "storage": "100 GB available space",
+    "additional notes": "SSD required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-13700K",
+     "AMD Ryzen 7 7800X3D"
+    ],
+    "ids": [
+     "intel-core-i7-13700k",
+     "amd-ryzen-7-7800x3d"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 4070",
+     "AMD Radeon RX 7800 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-4070",
+     "amd-radeon-rx-7800-xt"
+    ]
+   },
+   "ramGb": 32,
+   "storage": {
+    "gb": 100,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (or newer)",
+    "processor": "Intel Core i7-13700K, AMD Ryzen 7 7800X3D",
+    "memory": "32 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 4070, AMD Radeon RX 7800 XT",
+    "storage": "100 GB available space",
+    "additional notes": "SSD required"
+   }
+  }
+ }
+}

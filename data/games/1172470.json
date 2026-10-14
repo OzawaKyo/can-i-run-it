@@ -1,0 +1,82 @@
+{
+ "appid": 1172470,
+ "name": "Apex Legends™",
+ "slug": "apex-legends",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX 4350",
+     "Intel Core i3 6300"
+    ],
+    "ids": [
+     "amd-fx-4350",
+     "intel-core-i3-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 7790 () 2GB",
+     "NVIDIA GeForce GTX 950"
+    ],
+    "ids": [
+     "amd-radeon-hd-7790-2gb",
+     "nvidia-geforce-gtx-950"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 12,
+   "storage": {
+    "gb": 75,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "AMD Radeon HD 7790 (2 GB), NVIDIA GeForce GTX 950",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "75 GB available space",
+    "additional notes": "~3.8GB for 1 localized language"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Ryzen 5 CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R9 290",
+     "NVIDIA GeForce GTX 970"
+    ],
+    "ids": [
+     "amd-radeon-r9-290",
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 75,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Ryzen 5 CPU or Equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon R9 290, NVIDIA GeForce GTX 970",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "75 GB available space",
+    "additional notes": "~3.8GB for 1 localized language"
+   }
+  }
+ }
+}

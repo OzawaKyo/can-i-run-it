@@ -1,0 +1,78 @@
+{
+ "appid": 1056960,
+ "name": "Wolfenstein: Youngblood",
+ "slug": "wolfenstein-youngblood",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-8350/Ryzen 5 1400",
+     "Intel Core i5-3570/i7-3770"
+    ],
+    "ids": [
+     "amd-fx-8350",
+     "amd-ryzen-5-1400",
+     "intel-core-i5-3570",
+     "intel-core-i7-3770"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 770 (Current available GPU GTX1650) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-770"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win7, 8.1, or 10 (64-Bit versions)",
+    "processor": "AMD FX-8350/Ryzen 5 1400 or Intel Core i5-3570/i7-3770",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 770 4GB (Current available GPU GTX1650) or AMD equivalent",
+    "storage": "40 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX-9370/Ryzen 5 1600X",
+     "Intel Core i7-4770"
+    ],
+    "ids": [
+     "amd-fx-9370",
+     "amd-ryzen-5-1600x",
+     "intel-core-i7-4770"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1060 (Current available GPU RTX2060) 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win7, 8.1, or 10 64-Bit",
+    "processor": "AMD FX-9370/Ryzen 5 1600X or Intel Core i7-4770",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GTX 1060 6GB (Current available GPU RTX2060) or AMD equivalent",
+    "storage": "40 GB available space"
+   }
+  }
+ }
+}

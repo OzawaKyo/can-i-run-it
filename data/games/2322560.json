@@ -1,0 +1,69 @@
+{
+ "appid": 2322560,
+ "name": "Love Is All Around",
+ "slug": "love-is-all-around",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Discrete graphics card"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i3",
+    "memory": "4 GB RAM",
+    "graphics": "Discrete graphics card",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "16 GB available space",
+    "additional notes": ""
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Discrete graphics card"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/Windows 11",
+    "processor": "Intel Core i5 or AMD equivalent or above",
+    "memory": "4 GB RAM",
+    "graphics": "Discrete graphics card",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "16 GB available space",
+    "additional notes": ""
+   }
+  }
+ }
+}

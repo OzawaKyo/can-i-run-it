@@ -1,0 +1,87 @@
+{
+ "appid": 1363080,
+ "name": "Manor Lords",
+ "slug": "manor-lords",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4670 (quad-core)",
+     "AMD FX-Series FX-4350 (quad-core)"
+    ],
+    "ids": [
+     "intel-core-i5-4670",
+     "amd-fx-4350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050 () 2GB",
+     "AMD Radeon RX-460 () 4GB",
+     "Intel Arc A380 () 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "amd-radeon-rx-460-4gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 12,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i5-4670 (quad-core) / AMD FX-Series FX-4350 (quad-core)",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050 (2 GB) / AMD Radeon RX-460 (4 GB) / Intel Arc A380 (6 GB)",
+    "directx": "Version 12",
+    "storage": "15 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7600 (quad-core)",
+     "AMD Ryzen 3 2200G (quad-core)"
+    ],
+    "ids": [
+     "intel-core-i5-7600",
+     "amd-ryzen-3-2200g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 () 6GB",
+     "AMD Radeon RX 580 () 8GB",
+     "Intel Arc A580 () 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-8gb",
+     "intel-arc-a580"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i5-7600 (quad-core) / AMD Ryzen 3 2200G (quad-core)",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (6 GB) / AMD Radeon RX 580 (8 GB) / Intel Arc A580 (8 GB)",
+    "directx": "Version 12",
+    "storage": "15 GB available space"
+   }
+  }
+ }
+}

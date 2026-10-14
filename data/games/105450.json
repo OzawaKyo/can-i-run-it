@@ -1,0 +1,40 @@
+{
+ "appid": 105450,
+ "name": "Age of Empires® III (2007)",
+ "slug": "age-of-empires-iii-2007",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.2 GHz",
+     "AMD Athlon 64 X2 2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "64 MB NVIDIA GeForce 6800",
+     "ATI Radeon X1300"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 90,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "Intel Core 2 Duo 2.2 GHz or AMD Athlon 64 X2 2.0 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "64 MB NVIDIA GeForce 6800 or ATI Radeon X1300",
+    "directx": "dx90c",
+    "storage": "12 GB HD space"
+   }
+  }
+ }
+}

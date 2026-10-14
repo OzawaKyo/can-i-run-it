@@ -1,0 +1,58 @@
+{
+ "appid": 368230,
+ "name": "Kingdom: Classic",
+ "slug": "kingdom-classic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 0.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "Dual Core",
+    "memory": "1 GB RAM",
+    "directx": "Version 9.0c",
+    "storage": "512 MB available space",
+    "additional notes": "32-bit Only: Does Not Support 64-bit"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1",
+    "memory": "4 GB RAM",
+    "directx": "Version 10",
+    "storage": "1 GB available space",
+    "additional notes": "32-bit Only: Does Not Support 64-bit"
+   }
+  }
+ }
+}

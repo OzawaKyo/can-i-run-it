@@ -1,0 +1,68 @@
+{
+ "appid": 273110,
+ "name": "Counter-Strike Nexon",
+ "slug": "counter-strike-nexon",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Pentium 4 CPU 2.80GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 6xxx"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "Intel(R) Pentium 4 CPU 2.80GHz or higher",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 6xxx or higher",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "5 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core2 Duo CPU E4xxx"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8xxx"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel(R) Core2 Duo CPU E4xxx or higher",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce 8xxx or higher",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

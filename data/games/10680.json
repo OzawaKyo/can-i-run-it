@@ -1,0 +1,38 @@
+{
+ "appid": 10680,
+ "name": "Aliens vs. Predator™",
+ "slug": "aliens-vs-predator",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.4 GHz Intel Pentium 4 processor"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c compliant video card with 128 MB RAM (NVIDIA 7900, ATI X1800)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista",
+    "processor": "3.4 GHz Intel Pentium 4 or equivalent processor",
+    "memory": "1 GB System RAM (XP)/ 2 GB System RAM (Vista)",
+    "graphics": "DirectX 9.0c compliant video card with 128 MB RAM (NVIDIA 7900 or better, ATI X1800 or better)",
+    "storage": "16 GB free hard drive space",
+    "directx": "DirectX 9.0c"
+   }
+  }
+ }
+}

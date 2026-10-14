@@ -1,0 +1,88 @@
+{
+ "appid": 286570,
+ "name": "F1 2015",
+ "slug": "f1-2015",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad @ 3.0GHz",
+     "AMD Phenom II X4 @ 3.2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "Intel 4th Gen Iris Graphics",
+     "AMD HD5770",
+     "NVIDIA GTS450"
+    ],
+    "ids": [
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb",
+     "nvidia-geforce-gts-450"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 bit or Windows 8 64 bit",
+    "processor": "Intel Core 2 Quad @ 3.0GHz or AMD Phenom II X4 @ 3.2GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Intel 4th Gen Iris Graphics or AMD HD5770 or NVIDIA GTS450",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "DirectX Compatible soundcard",
+    "additional notes": "Supported Graphics Cards: DirectX 11 Graphics Card Required Intel: 4th Gen Iris or Higher, Intel Iris Pro Series AMD: HD5770 or Higher, HD6770 or Higher, HD7750 or Higher, R7 250 or Higher, R9 Series Nvidia: GTS450 or Higher, GT545 or Higher, GT640 or Higher, GT740 or Higher, GTX900 Series"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 4770",
+     "AMD FX 9370"
+    ],
+    "ids": [
+     "intel-core-i7-4770",
+     "amd-fx-9370"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel 5th Gen Iris Pro",
+     "AMD R9 290",
+     "Nvidia GTX970"
+    ],
+    "ids": [
+     "amd-radeon-r9-290",
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 bit or Windows 8 64 bit",
+    "processor": "Intel Core i7 4770 or AMD FX 9370",
+    "memory": "8 GB RAM",
+    "graphics": "Intel 5th Gen Iris Pro or AMD R9 290 or Nvidia GTX970",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "Direct X compatible soundcard",
+    "additional notes": "Intel, the Intel logo and Iris are trademarks of Intel Corporation in the U.S. and/or other countries."
+   }
+  }
+ }
+}

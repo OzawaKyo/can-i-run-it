@@ -1,0 +1,77 @@
+{
+ "appid": 24240,
+ "name": "PAYDAY™ The Heist",
+ "slug": "payday-the-heist",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 3 GHz",
+     "AMD Athlon XP 3400+"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 7800 GTX",
+     "ATI Radeon X1900"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7",
+    "processor": "Intel Pentium 4 3 GHz / AMD Athlon XP 3400+",
+    "memory": "1 GB RAM",
+    "graphics": "NVIDIA GeForce 7800 GTX / ATI Radeon X1900",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo",
+     "AMD Athlon X2"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 260",
+     "ATI Radeon HD 4850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7",
+    "processor": "Intel Core 2 Duo / AMD Athlon X2",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 260 / ATI Radeon HD 4850",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space"
+   }
+  }
+ }
+}

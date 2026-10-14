@@ -1,0 +1,85 @@
+{
+ "appid": 48700,
+ "name": "Mount & Blade: Warband",
+ "slug": "mount-blade-warband",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.0 GHz",
+     "AMD 2.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "3D graphics card with 64MB RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 0.09765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "Intel Pentium 4 2.0 GHz or AMD 2.5 GHz",
+    "memory": "512MB RAM",
+    "graphics": "3D graphics card with 64MB RAM",
+    "storage": "100 MB available space",
+    "sound": "Standard audio"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core Duo 2.0 GHz",
+     "AMD Athlon 64 X2 3600+"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce FX 5200",
+     "ATI Radeon 9600"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gs",
+     "nvidia-geforce-9600-gso-384mb",
+     "nvidia-geforce-9600-gso-768mb",
+     "nvidia-geforce-9600-gso-1.5gb",
+     "nvidia-geforce-9600-gso-512",
+     "nvidia-geforce-9600-gt-green-edition-512mb",
+     "nvidia-geforce-9600-gt-green-edition-1gb",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "nvidia-geforce-9600-gt-rev-2-512mb",
+     "nvidia-geforce-9600-gt-rev-2-1gb",
+     "nvidia-geforce-9600-gt-mac-edition",
+     "nvidia-geforce-9600-gtx",
+     "nvidia-geforce-9600m-gs",
+     "nvidia-geforce-9600m-gt-512mb",
+     "nvidia-geforce-9600m-gt-1gb"
+    ]
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.09765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or greater",
+    "processor": "Intel Core Duo 2.0 GHz or AMD Athlon 64 X2 3600+",
+    "memory": "1GB RAM",
+    "graphics": "NVIDIA GeForce FX 5200, ATI Radeon 9600, or better",
+    "storage": "100MB available space",
+    "sound": "Standard audio"
+   }
+  }
+ }
+}

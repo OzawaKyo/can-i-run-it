@@ -1,0 +1,67 @@
+{
+ "appid": 15620,
+ "name": "Warhammer 40,000: Dawn of War II - Anniversary Edition (Classic)",
+ "slug": "warhammer-40-000-dawn-of-war-ii-anniversary-edition-classic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "P4 3.2 GHz (single core)",
+     "any Dual Core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "A 128MB Video Card (Shader Model 3) - Nvidia GeForce 6600 GT",
+     "ATI X1600"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 6.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2 or Windows Vista SP1",
+    "processor": "P4 3.2 GHz (single core) or any Dual Core processor",
+    "memory": "1 GB RAM (XP), 1.5 GB RAM (Vista)",
+    "graphics": "A 128MB Video Card (Shader Model 3) - Nvidia GeForce 6600 GT / ATI X1600, or equivalent",
+    "storage": "6.5 GB of uncompressed Hard Drive space",
+    "required for multiplayer": "INTERNET: Cable modem, DSL modem, or 56.6kbps modem for online multiplayer play: Network: TCP/IP compliant network"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 64x2 4400+",
+     "any Intel Core 2 Duo"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "A 256MB Video Card (Shader Model 3) - Nvidia GeForce 7800 GT",
+     "ATI X1900"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 6.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2 or Windows Vista SP1",
+    "processor": "AMD Athlon 64x2 4400+ or any Intel Core 2 Duo",
+    "memory": "2 GB RAM (XP and Vista)",
+    "graphics": "A 256MB Video Card (Shader Model 3) - Nvidia GeForce 7800 GT / ATI X1900, or equivalent",
+    "storage": "6.5 GB of uncompressed Hard Drive space"
+   }
+  }
+ }
+}

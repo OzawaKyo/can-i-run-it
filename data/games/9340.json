@@ -1,0 +1,41 @@
+{
+ "appid": 9340,
+ "name": "Company of Heroes: Opposing Fronts",
+ "slug": "company-of-heroes-opposing-fronts",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0Ghz Intel Pentium IV",
+     "AMD Athlon XP. SSE capable processor required."
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c compatible 64MB video card with Pixel Shader 1.1 support and latest manufacturer drivers"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Windows XP or Vista.",
+    "processor": "2.0Ghz Intel Pentium IV or equivalent or AMD Athlon XP or equivalent. SSE capable processor required.",
+    "memory": "512MB RAM; Vista users require 1GB of RAM to play the game",
+    "graphics": "DirectX 9.0c compatible 64MB video card with Pixel Shader 1.1 support or equivalent and latest manufacturer drivers",
+    "sound": "DirectX 9.0c compatible 16-bit sound card",
+    "input devices": "Keyboard, Mouse",
+    "storage": "9GB of uncompressed free hard drive space"
+   }
+  }
+ }
+}

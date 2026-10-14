@@ -1,0 +1,84 @@
+{
+ "appid": 918570,
+ "name": "Century: Age of Ashes",
+ "slug": "century-age-of-ashes",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2.6Ghz",
+     "AMD FX-8350"
+    ],
+    "ids": [
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 760",
+     "AMD RX 560"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-rx-560-2gb-polaris-21",
+     "amd-radeon-rx-560-2gb-polaris-21-2",
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Intel Core i5 2.6Ghz or AMD FX-8350",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GTX 760 or AMD RX 560",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 2.8Ghz",
+     "AMD Ryzen 5 3.2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 970",
+     "AMD RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Intel Core i7 2.8Ghz or AMD Ryzen 5 3.2Ghz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 970 or AMD RX 580",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

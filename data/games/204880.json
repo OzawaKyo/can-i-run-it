@@ -1,0 +1,64 @@
+{
+ "appid": 204880,
+ "name": "Sins of a Solar Empire®: Rebellion",
+ "slug": "sins-of-a-solar-empire-rebellion",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3 GHz Intel Pentium 4 Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "256 MB Video Card w/Pixel Shader 3.0 Support (Radeon X1650 / GeForce 6800*)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 / 8 / Windows 7 SP1",
+    "processor": "3 GHz Intel Pentium 4 Processor or Equivalent",
+    "memory": "2 GB Available System Memory",
+    "graphics": "256 MB Video Card w/Pixel Shader 3.0 Support (Radeon X1650 / GeForce 6800* or Better)",
+    "directx": "9.0c",
+    "storage": "5 GB HD space",
+    "sound": "DirectX 9.0c Compatible Sound Card",
+    "other requirements": "Keyboard and Mouse (w/scroll wheel), Broadband Internet connection for Multiplayer"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5/i7 Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Video Card w/Pixel Shader 3.0 Support (Radeon X3000 Series / GeForce 8000* Series) 1GB"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "raw": {
+    "processor": "Intel Core i5/i7 Processor or Equivalent",
+    "memory": "4 GB Available System Memory",
+    "graphics": "1 GB Video Card w/Pixel Shader 3.0 Support (Radeon X3000 Series / GeForce 8000* Series or Better)",
+    "other requirements": "Broadband Internet connection."
+   }
+  }
+ }
+}

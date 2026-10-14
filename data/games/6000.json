@@ -1,0 +1,40 @@
+{
+ "appid": 6000,
+ "name": "STAR WARS™ Republic Commando™",
+ "slug": "star-wars-republic-commando",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium III",
+     "Athlon 1.0 GHz CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "64MB 3D Graphics card with Vertex Shader and Pixel Shader (VS/PS) capability"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.25,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 2000, XP or Vista",
+    "processor": "Pentium III or Athlon 1.0 GHz or faster CPU",
+    "memory": "256MB RAM",
+    "graphics": "64MB 3D Graphics card with Vertex Shader and Pixel Shader (VS/PS) capability",
+    "directx": "9.0b",
+    "storage": "2.0GB",
+    "sound": "100% Directx 9.0c"
+   }
+  }
+ }
+}

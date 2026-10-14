@@ -1,0 +1,84 @@
+{
+ "appid": 613100,
+ "name": "House Flipper",
+ "slug": "house-flipper",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 3",
+     "20GHz",
+     "AMD Phenom II X4 955 3",
+     "2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 560",
+     "AMD R7-260X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-r7-260x-1gb",
+     "amd-radeon-r7-260x-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (64-bit) or newer",
+    "processor": "Intel Core i3 3,20GHz / AMD Phenom II X4 955 3,2 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 560 / AMD R7-260X",
+    "directx": "Version 11",
+    "storage": "6 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400",
+     "AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 970",
+     "AMD Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 970 / AMD Radeon RX 580",
+    "directx": "Version 11",
+    "storage": "6 GB available space"
+   }
+  }
+ }
+}

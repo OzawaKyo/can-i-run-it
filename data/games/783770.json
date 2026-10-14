@@ -1,0 +1,74 @@
+{
+ "appid": 783770,
+ "name": "Ironsight",
+ "slug": "ironsight",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E7500"
+    ],
+    "ids": [
+     "intel-core-2-duo-e7500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 9600 GT"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit",
+    "processor": "Intel Core2 Duo E7500",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce 9600 GT",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 650"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit",
+    "processor": "Intel Core i5",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 650",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "appid": 268050,
+ "name": "The Evil Within",
+ "slug": "the-evil-within",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i7",
+     "an equivalent with four plus core processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GTX 460 VRAM card 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-325"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7 SP1/Windows 8.1",
+    "processor": "i7 or an equivalent with four plus core processor",
+    "memory": "4 GB RAM",
+    "graphics": "GTX 460 or equivalent 1 GB VRAM card",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "additional notes": "It’s worth noting that the 50 GB of space required is for the PC install. When the installation is complete, the game will take up ~41 GB of HDD space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i7 with four plus cores"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 670 with 4GBs of VRAM"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-670"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7 SP1/Windows 8.1",
+    "processor": "i7 with four plus cores",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 670 or equivalent with 4GBs of VRAM",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "additional notes": "It’s worth noting that the 50 GB of space required is for the PC install. When the installation is complete, the game will take up ~41 GB of HDD space"
+   }
+  }
+ }
+}

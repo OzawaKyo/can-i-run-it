@@ -1,0 +1,73 @@
+{
+ "appid": 582660,
+ "name": "Black Desert",
+ "slug": "black-desert",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 (4th Generation)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 970",
+     "Radeon RX 480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i3 (4th Generation)",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 970, Radeon RX 480",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space",
+    "additional notes": "80GB HDD (SSD recommended)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 (8th Generation)",
+     "AMD Ryzen 5 2000 Series"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1660 Super"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660-super"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i5 (8th Generation), AMD Ryzen 5 2000 Series",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GTX 1660 Super",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space",
+    "additional notes": "80GB SSD"
+   }
+  }
+ }
+}

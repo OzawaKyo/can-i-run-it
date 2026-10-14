@@ -1,0 +1,48 @@
+{
+ "appid": 311210,
+ "name": "Call of Duty®: Black Ops III",
+ "slug": "call-of-duty-black-ops-iii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-530 @ 2.93 GHz",
+     "AMD Phenom II X4 810 @ 2.60 GHz"
+    ],
+    "ids": [
+     "intel-core-i3-530",
+     "amd-phenom-ii-x4-810"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 470 @ 1GB",
+     "ATI Radeon HD 6970 @ 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-hd-6970"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit",
+    "processor": "Intel Core i3-530 @ 2.93 GHz / AMD Phenom II X4 810 @ 2.60 GHz",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 470 @ 1GB / ATI Radeon HD 6970 @ 1GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ }
+}

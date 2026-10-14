@@ -1,0 +1,69 @@
+{
+ "appid": 211500,
+ "name": "RaceRoom Racing Experience",
+ "slug": "raceroom-racing-experience",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "VRAM 512MB"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Dual Core 2.4 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "VRAM 512MB",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "70 GB available space",
+    "vr support": "SteamVR. Keyboard or gamepad required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "Quad Core 3.0 GHz",
+    "memory": "16 GB RAM",
+    "graphics": "VRAM 8GB",
+    "network": "Broadband Internet connection",
+    "storage": "70 GB available space",
+    "vr support": "SteamVR. Keyboard or gamepad required.",
+    "additional notes": "To enhance your experience with the simulation aspect, we highly recommend using a steering wheel controller for optimal gameplay."
+   }
+  }
+ }
+}

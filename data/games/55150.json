@@ -1,0 +1,69 @@
+{
+ "appid": 55150,
+ "name": "Warhammer 40,000: Space Marine - Anniversary Edition",
+ "slug": "warhammer-40-000-space-marine-anniversary-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0Ghz Dual core CPU (any Core 2 Duo or AMD X2)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "256MB Video Card using Shader Model 3 (Nvidia GeForce 8800GT, AMD Radeon 3850 and above)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3, Windows Vista SP1, Windows 7",
+    "processor": "2.0Ghz Dual core CPU (any Core 2 Duo or AMD X2 or better)",
+    "memory": "1GB (XP), 2GB (Vista), 2GB (Windows 7)",
+    "graphics": "256MB Video Card using Shader Model 3 (Nvidia GeForce 8800GT, AMD Radeon 3850 and above)",
+    "directx": "9.0c",
+    "storage": "20 GB space free (10 GB free after install)",
+    "sound": "Laptop and Notebook users will need to download the newest Nvidia 280.26 or AMD Catalyst 11.8 drivers."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Any Quad-core Intel",
+     "AMD Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "512MB Video Card using Shader Model 3 (Performance equivalent to an AMD Radeon 5750)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Any Quad-core Intel or AMD Processor",
+    "memory": "1GB (XP), 2GB (Vista), 2GB (Windows 7)",
+    "graphics": "512MB Video Card using Shader Model 3 (Performance equivalent to an AMD Radeon 5750 or better)",
+    "directx": "9.0c",
+    "storage": "20 GB space free (10 GB free after install)",
+    "sound": "Laptop and Notebook users will need to download the newest Nvidia 280.26 or AMD Catalyst 11.8 drivers."
+   }
+  }
+ }
+}

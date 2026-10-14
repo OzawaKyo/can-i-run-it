@@ -1,0 +1,71 @@
+{
+ "appid": 638970,
+ "name": "Yakuza 0",
+ "slug": "yakuza-0",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3470 | AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-3470",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 560 | AMD Radeon HD 6870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "raw": {
+    "os": "Windows 7 64Bit",
+    "processor": "Intel Core i5-3470 | AMD FX-6300",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 560 | AMD Radeon HD 6870",
+    "additional notes": "GPU with a gpumark of : 2600 to 3100, CPU with a cpumark of 4500 to 6300. Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700",
+     "3.4 GHz",
+     "AMD Ryzen 7 1700",
+     "3.7 GHz"
+    ],
+    "ids": [
+     "intel-core-i7-6700",
+     "amd-ryzen-7-1700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1070 8GB",
+     "Radeon RX Vega 56 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-vega-56"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i7-6700, 3.4 GHz / AMD Ryzen 7 1700, 3.7 GHz",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GTX 1070, 8 GB / Radeon RX Vega 56, 8GB",
+    "additional notes": "Pre-set Graphics Setting: High - Target FPS: 60FPS @1080p. Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ }
+}

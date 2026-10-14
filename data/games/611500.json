@@ -1,0 +1,90 @@
+{
+ "appid": 611500,
+ "name": "Quake Champions",
+ "slug": "quake-champions",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-750",
+     "AMD Phenom II X4-810"
+    ],
+    "ids": [
+     "intel-core-i5-750",
+     "amd-phenom-ii-x4-810"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GT 730 2GB",
+     "AMD R7 240 2GB",
+     "Intel HD 530"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-730-gf108-400-2",
+     "amd-radeon-r5-240-2gb",
+     "amd-radeon-r7-240-2gb",
+     "intel-hd-graphics-530"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 and later",
+    "processor": "Intel Core i5-750 / AMD Phenom II X4-810",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GT 730 2 GB / AMD R7 240 2 GB / Intel HD 530",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-7700K",
+     "AMD Ryzen 5 PRO 3350GE"
+    ],
+    "ids": [
+     "intel-core-i7-7700k",
+     "amd-ryzen-5-pro-3350ge"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1080 8GB",
+     "AMD Radeon RX 5700 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410",
+     "amd-radeon-rx-5700"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 and later",
+    "processor": "Intel Core i7-7700K / AMD Ryzen 5 PRO 3350GE",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GTX 1080 8 GB / AMD Radeon RX 5700 8 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "NVME SSD storage recommended"
+   }
+  }
+ }
+}

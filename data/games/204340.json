@@ -1,0 +1,76 @@
+{
+ "appid": 204340,
+ "name": "Serious Sam II",
+ "slug": "serious-sam-ii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.5 GHz Athlon XP",
+     "Pentium M",
+     "2 Ghz Pentium 4"
+    ],
+    "ids": [],
+    "estimatedScore": 16
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 8.0/8.1 compliant",
+     "low-end DirectX 9 3D accelerator (nVidia GeForce3 and 4 series (not MX), GeForceFX 5200 through 5700 series, ATI Radeon 8500 through 9200 and X300 series, S3 DeltaChrome or XGI Volari)"
+    ],
+    "ids": [
+     "nvidia-geforce-9200-c78",
+     "nvidia-geforce-9200-c79"
+    ]
+   },
+   "ramGb": 0.25,
+   "directX": 8,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "1.5 GHz Athlon XP or Pentium M or 2 Ghz Pentium 4",
+    "memory": "256 MB RAM",
+    "graphics": "DirectX 8.0/8.1 compliant or low-end DirectX 9 3D accelerator (nVidia GeForce3 and 4 series (not MX), GeForceFX 5200 through 5700 series, ATI Radeon 8500 through 9200 and X300 series, S3 DeltaChrome or XGI Volari)",
+    "directx": "8.0",
+    "storage": "3 GB HD space",
+    "sound": "Any DirectSound compatible sound board"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2 GHz Athlon64",
+     "or 3 GHz Pentium 4"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0 high-end 3D accelerator (nVidia GeForce6 6800 and 7800 series, ATI Radeon X800 and X850 series)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "2 GHz Athlon64, or 3 GHz Pentium 4",
+    "memory": "1 GB RAM",
+    "graphics": "DirectX 9.0 high-end 3D accelerator (nVidia GeForce6 6800 and 7800 series, ATI Radeon X800 and X850 series)",
+    "directx": "9.0",
+    "storage": "3 GB HD space",
+    "sound": ": DirectSound3D with EAX 2.0+ sound board (Creative SoundBlaster Audigy series, nVidia SoundStorm)"
+   }
+  }
+ }
+}

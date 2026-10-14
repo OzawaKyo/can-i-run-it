@@ -1,0 +1,97 @@
+{
+ "appid": 323470,
+ "name": "DRAGON BALL XENOVERSE",
+ "slug": "dragon-ball-xenoverse",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.4Ghz",
+     "AMD Athlon 64 X2 5200+",
+     "2.6GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "512 MB Nvidia GeForce 8800",
+     "ATI Radeon HD 3870"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "nvidia-geforce-8800m-gts",
+     "nvidia-geforce-8800m-gtx",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista (x64) / Windows 7 (x64)",
+    "processor": "Intel Core 2 Duo 2.4Ghz / AMD Athlon 64 X2 5200+, 2.6GHz",
+    "memory": "2 GB RAM",
+    "graphics": "512 MB Nvidia GeForce 8800 / ATI Radeon HD 3870",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-530",
+     "2.93 GHz",
+     "AMD Phenom II X4 940",
+     "3.0GHz"
+    ],
+    "ids": [
+     "intel-core-i3-530",
+     "amd-phenom-ii-x4-940-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 550Ti 1GB",
+     "AMD Radeon HD 6790"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-550-ti",
+     "amd-radeon-hd-6790"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista (x64) / Windows 7 (x64) / Windows 8 (x64)",
+    "processor": "Intel Core i3-530, 2.93 GHz / AMD Phenom II X4 940, 3.0GHz",
+    "memory": "4 GB RAM",
+    "graphics": "1 GB Nvidia GeForce GTX 550Ti / AMD Radeon HD 6790",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

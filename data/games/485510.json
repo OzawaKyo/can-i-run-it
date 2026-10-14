@@ -1,0 +1,87 @@
+{
+ "appid": 485510,
+ "name": "Nioh: Complete Edition",
+ "slug": "nioh-complete-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 3550",
+     "over"
+    ],
+    "ids": [
+     "intel-core-i5-3550"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 780 VRAM 3GB",
+     "over AMD Radeon R9 280 VRAM 3GB",
+     "over"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-780",
+     "amd-radeon-r9-280"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i5 3550 or over",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 780 VRAM 3GB or over AMD Radeon R9 280 VRAM 3GB or over",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space",
+    "sound card": "16 bit stereo, 48KHz WAVE file can be played"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 4770K",
+     "over"
+    ],
+    "ids": [
+     "intel-core-i7-4770k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 VRAM 6GB",
+     "over AMD Radeon R9 380X VRAM 4GB",
+     "over"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-r9-380x"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i7 4770K or over",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 VRAM 6GB or over AMD Radeon R9 380X VRAM 4GB or over",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space",
+    "sound card": "16 bit stereo, 48KHz WAVE file can be played"
+   }
+  }
+ }
+}

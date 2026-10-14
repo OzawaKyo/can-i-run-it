@@ -1,0 +1,74 @@
+{
+ "appid": 1296830,
+ "name": "暖雪 Warm Snow",
+ "slug": "warm-snow",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3+"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 64bit",
+    "processor": "Intel i3+",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 750",
+    "directx": "Version 10",
+    "storage": "8 GB available space",
+    "sound card": "100% DirectX 9.0c compatible sound card",
+    "additional notes": "16:9 aspect ratio Recommended"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5+"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 64bit",
+    "processor": "Intel i5+",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 950",
+    "directx": "Version 10",
+    "storage": "8 GB available space",
+    "sound card": "100% DirectX 9.0c compatible sound card",
+    "additional notes": "16:9 aspect ratio Recommended"
+   }
+  }
+ }
+}

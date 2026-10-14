@@ -1,0 +1,47 @@
+{
+ "appid": 993090,
+ "name": "Lossless Scaling",
+ "slug": "lossless-scaling",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Modern integrated graphics"
+    ],
+    "ids": []
+   },
+   "directX": 11,
+   "raw": {
+    "os": "Windows 10 version 2004",
+    "graphics": "Modern integrated graphics",
+    "directx": "Version 11"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce RTX 30 series",
+     "Radeon RX 6000 series",
+     "Arc series"
+    ],
+    "ids": []
+   },
+   "directX": 11,
+   "raw": {
+    "os": "Windows 11 version 24H2",
+    "graphics": "GeForce RTX 30 series / Radeon RX 6000 series / Arc series",
+    "directx": "Version 11"
+   }
+  }
+ }
+}

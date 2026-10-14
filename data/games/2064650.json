@@ -1,0 +1,72 @@
+{
+ "appid": 2064650,
+ "name": "Tower of Fantasy",
+ "slug": "tower-of-fantasy",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 1030"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1",
+    "processor": "Intel Core i5 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT 1030",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "90 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 1060 6GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i7",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GT 1060 6GB",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "90 GB available space"
+   }
+  }
+ }
+}

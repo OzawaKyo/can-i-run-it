@@ -1,0 +1,61 @@
+{
+ "appid": 666220,
+ "name": "CS2D",
+ "slug": "cs2d",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1 GHZ"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "64 MB 3D video card with DirectX 9",
+     "11",
+     "12",
+     "OpenGL support"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 0.068359375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or newer, 64-Bit",
+    "processor": "1 GHZ",
+    "memory": "1 GB RAM",
+    "graphics": "64 MB 3D video card with DirectX 9, 11, 12 or OpenGL support",
+    "directx": "Version 9.0",
+    "storage": "70 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "storage": {
+    "gb": 0.09765625,
+    "ssd": false
+   },
+   "raw": {
+    "storage": "100 MB available space",
+    "sound card": "OpenAL compatible audio device for voice chat"
+   }
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "appid": 698780,
+ "name": "Doki Doki Literature Club!",
+ "slug": "doki-doki-literature-club",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.8GHz Dual-Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Integrated graphics"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 0.341796875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "1.8GHz Dual-Core CPU",
+    "memory": "4 GB RAM",
+    "graphics": "Integrated graphics",
+    "storage": "350 MB available space"
+   }
+  }
+ }
+}

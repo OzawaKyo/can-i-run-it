@@ -1,0 +1,41 @@
+{
+ "appid": 22320,
+ "name": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+ "slug": "the-elder-scrolls-iii-morrowind-game-of-the-year-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "500 MHz Intel Pentium III",
+     "Celeron",
+     "or AMD Athlon"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "32MB Direct3D Compatible video card with 32-bit color support and DirectX 8.1"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.25,
+   "directX": 8.1,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows ME/98/XP/2000",
+    "processor": "500 MHz Intel Pentium III, Celeron, or AMD Athlon",
+    "memory": "256 MB",
+    "graphics": "32MB Direct3D Compatible video card with 32-bit color support and DirectX 8.1",
+    "directx": "8.1",
+    "storage": "1GB free hard disk space",
+    "sound": "DirectX 8.1 compatible sound card"
+   }
+  }
+ }
+}

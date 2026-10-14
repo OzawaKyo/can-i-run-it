@@ -1,0 +1,87 @@
+{
+ "appid": 1049590,
+ "name": "Eternal Return",
+ "slug": "eternal-return",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6400",
+     "AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-6400",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 650 Ti",
+     "AMD Radeon HD 7770"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10 (64Bit)",
+    "processor": "Intel Core i5-6400, AMD Ryzen 5 2600",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 650 Ti, AMD Radeon HD 7770",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "Installing the game on an SSD improves loading times."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400",
+     "AMD Ryzen 5 3500X"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-3500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060",
+     "AMD Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 11 (64Bit)",
+    "processor": "Intel Core i5-8400, AMD Ryzen 5 3500X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060, AMD Radeon RX 580",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "Installing the game on an SSD improves loading times."
+   }
+  }
+ }
+}

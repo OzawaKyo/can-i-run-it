@@ -1,0 +1,73 @@
+{
+ "appid": 244210,
+ "name": "Assetto Corsa",
+ "slug": "assetto-corsa",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon X2 2.8 GHZ",
+     "Intel Core 2 Duo 2.4 GHZ"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 10.1 (e.g. AMD Radeon HD 6450, Nvidia GeForce GT 460)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 Sp1 - 8 - 8.1 - 10",
+    "processor": "AMD Athlon X2 2.8 GHZ, Intel Core 2 Duo 2.4 GHZ",
+    "memory": "2 GB RAM",
+    "graphics": "DirectX 10.1 (e.g. AMD Radeon HD 6450, Nvidia GeForce GT 460)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space",
+    "sound card": "Integrated",
+    "vr support": "SteamVR or Oculus PC. Keyboard or gamepad required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Six-Core CPU",
+     "Intel Quad-Core CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 (e.g. AMD Radeon 290x, Nvidia GeForce GTX 970)"
+    ],
+    "ids": []
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 Sp1 - 8 - 8.1 - 10",
+    "processor": "AMD Six-Core CPU, Intel Quad-Core CPU",
+    "memory": "6 GB RAM",
+    "graphics": "DirectX 11 (e.g. AMD Radeon 290x, Nvidia GeForce GTX 970)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "30 GB available space",
+    "sound card": "Integrated"
+   }
+  }
+ }
+}

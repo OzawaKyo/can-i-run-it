@@ -1,0 +1,75 @@
+{
+ "appid": 1250410,
+ "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+ "slug": "microsoft-flight-simulator-2020-40th-anniversary-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-4460 | AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 770 | AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-770"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 150,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i5-4460 | AMD Ryzen 3 1200",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 770 | AMD Radeon RX 570",
+    "directx": "Version 11",
+    "storage": "150 GB available space",
+    "vr support": "SteamVR, Oculus PC, or OpenXR. Keyboard and mouse required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5-8400 | AMD Ryzen 5 1500X"
+    ],
+    "ids": [
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 970 | AMD Radeon RX 590"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 150,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i5-8400 | AMD Ryzen 5 1500X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 970 | AMD Radeon RX 590",
+    "directx": "Version 11",
+    "storage": "150 GB available space"
+   }
+  }
+ }
+}

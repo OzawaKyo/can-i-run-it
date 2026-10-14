@@ -1,0 +1,75 @@
+{
+ "appid": 204450,
+ "name": "Call of Juarez: Gunslinger",
+ "slug": "call-of-juarez-gunslinger",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel Core2 Duo",
+     "2 GHz AMD Athlon 64 X2"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "512 MB DirectX 9.0c–compliant"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (SP3) / Windows Vista (SP2) / Windows 7 (SP1) / Windows 8",
+    "processor": "2 GHz Intel Core2 Duo or 2 GHz AMD Athlon 64 X2",
+    "memory": "2 GB RAM",
+    "graphics": "512 MB DirectX 9.0c–compliant",
+    "directx": "9.0c",
+    "storage": "5 GB HD space",
+    "sound": "DirectX 9.0c–compliant",
+    "additional": "Peripherals Supported: Windows-compatible keyboard, mouse, optional controller (Xbox 360 Controller for Windows recommended)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3 GHz Intel Core2 Duo",
+     "3 GHz AMD Athlon 64 X2"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "1024 MB DirectX 10–compliant"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (SP1)",
+    "processor": "3 GHz Intel Core2 Duo or 3 GHz AMD Athlon 64 X2 or better",
+    "memory": "4 GB RAM",
+    "graphics": "1024 MB DirectX 10–compliant or higher",
+    "directx": "10",
+    "storage": "5 GB HD space",
+    "sound": "5.1 surround sound",
+    "additional": "Peripherals Supported: Windows-compatible keyboard, mouse, optional controller (Xbox 360 Controller for Windows recommended)"
+   }
+  }
+ }
+}

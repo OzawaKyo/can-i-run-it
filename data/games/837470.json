@@ -1,0 +1,40 @@
+{
+ "appid": 837470,
+ "name": "Untitled Goose Game",
+ "slug": "untitled-goose-game",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "directX": 10,
+   "storage": {
+    "gb": 0.810546875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64-Bit",
+    "directx": "Version 10",
+    "storage": "830 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

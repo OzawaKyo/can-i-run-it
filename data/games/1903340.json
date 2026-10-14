@@ -1,0 +1,87 @@
+{
+ "appid": 1903340,
+ "name": "Clair Obscur: Expedition 33",
+ "slug": "clair-obscur-expedition-33",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-8700K",
+     "AMD Ryzen 5 1600X"
+    ],
+    "ids": [
+     "intel-core-i7-8700k",
+     "amd-ryzen-5-1600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 6GB",
+     "AMD Radeon RX 5600 XT 6GB",
+     "Intel Arc A380 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-5600-xt",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 55,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-8700K / AMD Ryzen 5 1600X",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 5600 XT 6 GB / Intel Arc A380 6 GB",
+    "directx": "Version 12",
+    "storage": "55 GB available space",
+    "additional notes": "SSD required. Minimum specs allow for 1080p 30FPS low settings gameplay."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-12700K",
+     "AMD Ryzen 7 5800X"
+    ],
+    "ids": [
+     "intel-core-i7-12700k",
+     "amd-ryzen-7-5800x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 3060 Ti 8GB",
+     "AMD Radeon RX 6800 XT 16GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060-ti",
+     "amd-radeon-rx-6800-xt"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 55,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "Intel Core i7-12700K / AMD Ryzen 7 5800X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 3060 Ti 8 GB / AMD Radeon RX 6800 XT 16 GB",
+    "directx": "Version 12",
+    "storage": "55 GB available space",
+    "additional notes": "SSD required. Recommended specs allow for 1080p 60FPS high settings gameplay."
+   }
+  }
+ }
+}

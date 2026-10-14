@@ -1,0 +1,72 @@
+{
+ "appid": 475150,
+ "name": "Titan Quest Anniversary Edition",
+ "slug": "titan-quest-anniversary-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "128 MB NVIDIA GeForce 6800 series",
+     "ATI Radeon X800 series"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP / Vista / 7 / 8 / 10 32 or 64 bit",
+    "processor": "2.0 GHz CPU",
+    "memory": "1 GB RAM",
+    "graphics": "128 MB NVIDIA GeForce 6800 series or ATI Radeon X800 series or equivalent",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.0 GHz CPU Dual",
+     "Quad Core"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "256MB NVIDIA",
+     "AMD card"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP / Vista / 7 / 8 /10 32 or 64 bit",
+    "processor": "3.0 GHz CPU Dual or Quad Core",
+    "memory": "2 GB RAM",
+    "graphics": "256MB NVIDIA or AMD card",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space",
+    "sound card": "DirectX compatible card"
+   }
+  }
+ }
+}

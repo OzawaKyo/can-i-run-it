@@ -1,0 +1,85 @@
+{
+ "appid": 307780,
+ "name": "Mortal Kombat X",
+ "slug": "mortal-kombat-x",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-750",
+     "2.67 GHz | AMD Phenom II X4 965",
+     "3.4 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-750",
+     "amd-phenom-ii-x4-965-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 460 | AMD Radeon HD 5850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 36,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit: Vista, Win 7, Win 8, Win 10",
+    "processor": "Intel Core i5-750, 2.67 GHz | AMD Phenom II X4 965, 3.4 GHz",
+    "memory": "3 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 460 | AMD Radeon HD 5850",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770",
+     "3.4 GHz | AMD FX-8350",
+     "4.0 GHz"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660 | AMD Radeon HD 7950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7950"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 44,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit: Win 7, Win 8, Win 10",
+    "processor": "Intel Core i7-3770, 3.4 GHz | AMD FX-8350, 4.0 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 | AMD Radeon HD 7950",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "44 GB available space"
+   }
+  }
+ }
+}

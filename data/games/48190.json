@@ -1,0 +1,81 @@
+{
+ "appid": 48190,
+ "name": "Assassin’s Creed® Brotherhood",
+ "slug": "assassin-s-creed-brotherhood",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 1.8 GHZ",
+     "AMD Athlon X2 64 2.4GHZ"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "256 MB DirectX 9.0–compliant card with Shader Model 3.0 (see supported list*)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1.5,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (32-64 bits) /Windows Vista(32-64 bits)",
+    "processor": "Intel Core 2 Duo 1.8 GHZ or AMD Athlon X2 64 2.4GHZ",
+    "memory": "1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
+    "graphics": "256 MB DirectX 9.0–compliant card with Shader Model 3.0 or higher (see supported list*)",
+    "directx": "9.0",
+    "storage": "8 GB",
+    "sound": "DirectX 9.0 –compliant sound card",
+    "peripherals": "Keyboard, mouse, optional controller",
+    "supported video cards": "ATI RADEON HD 2000/3000/4000/5000/6000 series, NVIDIA GeForce 8/9/100/200/300/400/500 series"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6700 2.6 GHz",
+     "AMD Athlon 64 X2 6000+"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8800 GT",
+     "ATI Radeon HD 4700"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 1.5,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (32-64 bits) /Windows Vista(32-64 bits)",
+    "processor": "Intel Core 2 Duo E6700 2.6 GHz or AMD Athlon 64 X2 6000+ or better",
+    "memory": "1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
+    "graphics": "GeForce 8800 GT or ATI Radeon HD 4700 or better",
+    "directx": "9.0",
+    "storage": "8 GB",
+    "sound": "5.1 sound card",
+    "peripherals": "Keyboard, mouse, joystick optional (Xbox 360 Controller for Windows recommended)",
+    "supported video cards": "ATI RADEON HD 2000/3000/4000/5000/6000 series, NVIDIA GeForce 8/9/100/200/300/400/500 series"
+   }
+  }
+ }
+}

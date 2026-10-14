@@ -1,0 +1,42 @@
+{
+ "appid": 383870,
+ "name": "Firewatch",
+ "slug": "firewatch",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 2.00 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 450 with Memory 1GB"
+    ],
+    "ids": [
+     "amd-radeon-r7-450-2gb",
+     "amd-radeon-r7-450-4gb"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or higher 64bit",
+    "processor": "Intel Core i3 2.00 GHz or AMD equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce 450 or higher with 1GB Memory",
+    "directx": "Version 11",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

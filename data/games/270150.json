@@ -1,0 +1,63 @@
+{
+ "appid": 270150,
+ "name": "RUNNING WITH RIFLES",
+ "slug": "running-with-rifles",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.6 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 18
+   },
+   "gpu": {
+    "raw": [
+     "NVidia Geforce 6600",
+     "ATI x800",
+     "Intel HD3000 with 256MB VRAM"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "1.6 GHz Dual Core",
+    "memory": "2 GB RAM",
+    "graphics": "NVidia Geforce 6600, ATI x800, Intel HD3000 or equivalent with 256MB VRAM",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "additional notes": "Try out the latest demo to see if the game will run fine for you."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "raw": {
+    "os": "Windows 10",
+    "processor": "2.4 GHz Dual Core",
+    "memory": "4 GB RAM",
+    "network": "Broadband Internet connection"
+   }
+  }
+ }
+}

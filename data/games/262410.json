@@ -1,0 +1,55 @@
+{
+ "appid": 262410,
+ "name": "World of Guns: Gun Disassembly",
+ "slug": "world-of-guns-gun-disassembly",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 0.390625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 11",
+    "memory": "1024 MB RAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "400 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 0.390625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 11",
+    "memory": "1024 MB RAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "400 MB available space"
+   }
+  }
+ }
+}

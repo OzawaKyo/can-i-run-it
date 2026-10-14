@@ -1,0 +1,77 @@
+{
+ "appid": 253900,
+ "name": "Knights and Merchants",
+ "slug": "knights-and-merchants",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD Singlecore CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "3D graphics card with DirectX 9.0c support"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP / Vista / 7 / 8",
+    "processor": "Intel or AMD Singlecore CPU",
+    "memory": "512 MB RAM",
+    "graphics": "3D graphics card with DirectX 9.0c support",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "500 MB available space",
+    "sound card": "DirectX compatible Stereo Soundcard",
+    "additional notes": "Keyboard, Mouse"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD Singlecore CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "3D graphics card with DirectX 9.0c support"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP / Vista / 7 / 8",
+    "processor": "Intel or AMD Singlecore CPU",
+    "memory": "1 GB RAM",
+    "graphics": "3D graphics card with DirectX 9.0c support",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "500 MB available space",
+    "sound card": "DirectX compatible Stereo Soundcard",
+    "additional notes": "Keyboard, Mouse"
+   }
+  }
+ }
+}

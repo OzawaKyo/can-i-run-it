@@ -1,0 +1,91 @@
+{
+ "appid": 298110,
+ "name": "Far Cry® 4",
+ "slug": "far-cry-4",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.6 GHz Intel Core i5-750",
+     "3.2 GHz AMD Phenom II X4 955"
+    ],
+    "ids": [
+     "intel-core-i5-750",
+     "amd-phenom-ii-x4-955"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 460",
+     "AMD Radeon HD5850 ( VRAM) 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5850-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "2.6 GHz Intel Core i5-750 or 3.2 GHz AMD Phenom II X4 955",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 460 or AMD Radeon HD5850 (1 GB VRAM)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "30 GB available space",
+    "sound card": "DirectX-compatible (5.1 surround sound recommended)",
+    "additional notes": "Windows-compatible keyboard, mouse, optional controller (Xbox 360 Controller for Windows recommended)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.5 GHz Intel Core i5-2400S",
+     "4.0 GHz AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i5-2400s",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 680",
+     "AMD Radeon R9 290X ( VRAM) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-680",
+     "amd-radeon-r9-290x-4gb",
+     "amd-radeon-r9-290x-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "2.5 GHz Intel Core i5-2400S or 4.0 GHz AMD FX-8350 or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 680 or AMD Radeon R9 290X or better (2 GB VRAM)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "30 GB available space",
+    "sound card": "DirectX-compatible (5.1 surround sound recommended)",
+    "additional notes": "Supported video cards at the time of release: NVIDIA GeForce GTX 460 or better, GeForce GTX 700 series; AMD Radeon HD5850 or better, Radeon R9 series. Note: Laptop versions of these cards may work but are NOT officially supported."
+   }
+  }
+ }
+}

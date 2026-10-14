@@ -1,0 +1,75 @@
+{
+ "appid": 55100,
+ "name": "Homefront",
+ "slug": "homefront",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium Core 2 Duo 2.4 GHz",
+     "AMD Athlon X2 2.8GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "Shader Model 3.0 graphics card with 256MB of memory",
+     "NVIDIA GeForce 7900GS",
+     "ATI Radeon 1900XT"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Windows Vista or Windows 7",
+    "processor": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz",
+    "memory": "2 GB RAM",
+    "graphics": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT",
+    "directx": "",
+    "storage": "10GB of free hard drive space",
+    "sound": ""
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD Quad Core 2 GHz+ CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 260",
+     "ATI Radeon 4850"
+    ],
+    "ids": [
+     "amd-radeon-r7-260"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista or Windows 7",
+    "processor": "Intel or AMD Quad Core 2 GHz+ CPU",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 260 or ATI Radeon 4850",
+    "directx": "",
+    "storage": "10GB of free hard drive space",
+    "sound": "",
+    "other": "3D Vision-Ready Display"
+   }
+  }
+ }
+}

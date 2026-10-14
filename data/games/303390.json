@@ -1,0 +1,38 @@
+{
+ "appid": 303390,
+ "name": "Dead Bits",
+ "slug": "dead-bits",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 240 (or better)"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-240"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/8.1/10 or compatible",
+    "processor": "2.0 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce GT 240 (or better)",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

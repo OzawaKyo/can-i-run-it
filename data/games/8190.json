@@ -1,0 +1,75 @@
+{
+ "appid": 8190,
+ "name": "Just Cause 2",
+ "slug": "just-cause-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual-core CPU with SSE3 (Athlon 64 X2 4200 / Pentium D 3GHz)"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "DX10 compatible graphics card with 256 MB of memory (Nvidia GeForce 8800 series/ ATI Radeon HD 2600 Pro)"
+    ],
+    "ids": [
+     "amd-radeon-hd-2600-pro-256mb",
+     "amd-radeon-hd-2600-pro-512mb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows Vista (Windows XP is unsupported)",
+    "processor": "Dual-core CPU with SSE3 (Athlon 64 X2 4200 / Pentium D 3GHz)",
+    "memory": "2GB System Memory",
+    "storage": "10GB of free drive space",
+    "graphics": "DX10 compatible graphics card with 256 MB of memory (Nvidia GeForce 8800 series/ ATI Radeon HD 2600 Pro)",
+    "sound": "100% DirectX 10 compatible sound card",
+    "directx": "Microsoft DirectX 10"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.6 GHz",
+     "AMD Phenom X3 2.4GHz",
+     "equivalen"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "DX10 compatible graphics card with 512 MB of memory (Nvidia GeForce GTS 250 series/ ATI Radeon HD 5750 series)"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428",
+     "amd-radeon-hd-5750-512mb",
+     "amd-radeon-hd-5750-1gb"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 10.1,
+   "raw": {
+    "os": "Microsoft Windows Vista SP1 or Windows 7",
+    "processor": "Intel Core 2 Duo 2.6 GHz or AMD Phenom X3 2.4GHz or equivalen",
+    "memory": "3GB system Memory",
+    "storage": "",
+    "graphics": "DX10 compatible graphics card with 512 MB of memory (Nvidia GeForce GTS 250 series/ ATI Radeon HD 5750 series)",
+    "sound": "100% DirectX 10 compatible Dolby Digital 5.1 sound card",
+    "directx": "Microsoft DirectX 10.1"
+   }
+  }
+ }
+}

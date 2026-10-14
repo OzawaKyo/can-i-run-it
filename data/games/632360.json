@@ -1,0 +1,84 @@
+{
+ "appid": 632360,
+ "name": "Risk of Rain 2",
+ "slug": "risk-of-rain-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-6100",
+     "AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i3-6100",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 580",
+     "AMD HD 7870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-580",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or newer, 64-bit",
+    "processor": "Intel Core i3-6100 / AMD FX-8350",
+    "memory": "4 GB RAM",
+    "graphics": "GTX 580 / AMD HD 7870",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4670K",
+     "AMD Ryzen 5 1500X"
+    ],
+    "ids": [
+     "intel-core-i5-4670k",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 680",
+     "AMD HD 7970"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-680",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or newer, 64-bit",
+    "processor": "Intel Core i5-4670K / AMD Ryzen 5 1500X",
+    "memory": "4 GB RAM",
+    "graphics": "GTX 680 / AMD HD 7970",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

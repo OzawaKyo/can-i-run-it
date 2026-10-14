@@ -1,0 +1,56 @@
+{
+ "appid": 1016920,
+ "name": "Unrailed!",
+ "slug": "unrailed",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 520"
+    ],
+    "ids": [
+     "intel-hd-graphics-520"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2 GHz Dual Core",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD Graphics 520",
+    "network": "Broadband Internet connection",
+    "storage": "2 GB available space",
+    "sound card": ""
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {
+    "os": "",
+    "processor": "",
+    "graphics": "",
+    "sound card": ""
+   }
+  }
+ }
+}

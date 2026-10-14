@@ -1,0 +1,85 @@
+{
+ "appid": 881020,
+ "name": "Granblue Fantasy: Relink",
+ "slug": "granblue-fantasy-relink",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-9100",
+     "AMD Ryzen 3 3200G"
+    ],
+    "ids": [
+     "intel-core-i3-9100",
+     "amd-ryzen-3-3200g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 6GB",
+     "AMD Radeon RX 580 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 (64-bit Required)",
+    "processor": "Intel Core i3-9100 / AMD Ryzen 3 3200G",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB",
+    "directx": "Version 11",
+    "storage": "90 GB available space",
+    "additional notes": "SSD recommended (Capable of 1080p/30fps when graphics are set to Standard.)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-8700",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i7-8700",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2080 8GB",
+     "AMD Radeon RX 6700 XT 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2080",
+     "amd-radeon-rx-6700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 (64-bit Required)",
+    "processor": "Intel Core i7-8700 / AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2080 8GB / AMD Radeon RX 6700 XT 8GB",
+    "directx": "Version 11",
+    "storage": "90 GB available space",
+    "additional notes": "SSD recommended (Capable of 1080p/60fps when graphics are set to Ultra.)"
+   }
+  }
+ }
+}

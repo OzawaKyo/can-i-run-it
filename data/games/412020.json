@@ -1,0 +1,87 @@
+{
+ "appid": 412020,
+ "name": "Metro Exodus",
+ "slug": "metro-exodus",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4440"
+    ],
+    "ids": [
+     "intel-core-i5-4440"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 670",
+     "GeForce GTX 1050",
+     "AMD Radeon HD 7870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-670",
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 59,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10",
+    "processor": "Intel Core i5-4440 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 670 / GeForce GTX 1050 / AMD Radeon HD 7870",
+    "directx": "Version 11",
+    "storage": "59 GB available space",
+    "sound card": "DirectX Compatible Sound Card",
+    "additional notes": "Enhanced Edition requires Nvidia RTX or AMD RX GPU"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4770k"
+    ],
+    "ids": [
+     "intel-core-i7-4770k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1070",
+     "GeForce RTX 2060",
+     "AMD RX VEGA 56"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-vega-56"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 59,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-4770k or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1070 / GeForce RTX 2060 / AMD RX VEGA 56",
+    "directx": "Version 12",
+    "storage": "59 GB available space",
+    "sound card": "DirectX Compatible Sound Card",
+    "additional notes": "Enhanced Edition requires Nvidia RTX or AMD RX GPU"
+   }
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "appid": 892970,
+ "name": "Valheim",
+ "slug": "valheim",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.6 GHz Quad Core"
+    ],
+    "ids": [],
+    "estimatedScore": 36
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 950",
+     "Radeon HD 7970"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or later",
+    "processor": "2.6 GHz Quad Core or similar",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 950 or Radeon HD 7970",
+    "directx": "Version 11",
+    "storage": "1 GB available space",
+    "additional notes": "The following languages have been partially translated by the community: Svenska, Italiano, Romanian, български, македонски, Suomi, Dansk, íslenska, Lietuvių kalba, čeština, Magyar nyelv, Português europeu, 한국어 (불완전한), Norsk, ภาษาไทย, ქართული ენა, Abenaki, Slovenčina"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i5 3GHz",
+     "Ryzen 5 3GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1060",
+     "Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or later",
+    "processor": "i5 3GHz or Ryzen 5 3GHz",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GTX 1060 or Radeon RX 580",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

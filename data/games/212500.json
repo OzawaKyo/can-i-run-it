@@ -1,0 +1,78 @@
+{
+ "appid": 212500,
+ "name": "The Lord of the Rings Online™",
+ "slug": "the-lord-of-the-rings-online",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo",
+     "AMD Athlon II"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 7XXX",
+     "ATI Radeon HD 3000 series with 512MB of dedicated video memory"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (64bit recommended for high resolution)",
+    "processor": "Core 2 Duo / AMD Athlon II or better",
+    "memory": "2GB",
+    "storage": "32GB for high resolution* (Allow for additional +3GB for international builds)",
+    "graphics": "GeForce 7XXX / ATI Radeon HD 3000 series with 512MB or more of dedicated video memory",
+    "directx": "9.0c",
+    "internet connection": "Cable or DSL Connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i7",
+     "AMD FX-8100"
+    ],
+    "ids": [
+     "amd-fx-8100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce 8XXX",
+     "AMD Radeon HD 6### series with of dedicated video memory 1GB"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Core i7 / AMD FX-8100 or better",
+    "memory": "4GB minimum",
+    "storage": "32GB for high resolution (Allow for additional +3GB for international builds)",
+    "graphics": "Nvidia Geforce 8XXX / AMD Radeon HD 6### series or newer with 1GB or more of dedicated video memory",
+    "directx": "9.0c",
+    "internet connection": "Cable or better"
+   }
+  }
+ }
+}

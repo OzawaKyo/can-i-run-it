@@ -1,0 +1,71 @@
+{
+ "appid": 207610,
+ "name": "The Walking Dead",
+ "slug": "the-walking-dead",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz Pentium 4"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "ATI",
+     "nVidia card with 512 MB RAM (not supported on Intel integrated graphics)"
+    ],
+    "ids": []
+   },
+   "ramGb": 3,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "XP Service Pack 3",
+    "processor": "2.0 GHz Pentium 4 or equivalent",
+    "memory": "3 GB RAM",
+    "storage": "2 GB",
+    "graphics": "ATI or nVidia card with 512 MB RAM (not supported on Intel integrated graphics)",
+    "directx": "Direct X 9.0c",
+    "sound": "Direct X 9.0c sound device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo 2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "ATI",
+     "nVidia card with 1024 MB RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 3,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Core 2 Duo 2GHz or equivalent",
+    "memory": "3 GB RAM",
+    "storage": "2 GB",
+    "graphics": "ATI or nVidia card with 1024 MB RAM",
+    "directx": "Direct X 9.0c",
+    "sound": "Direct X 9.0c sound device"
+   }
+  }
+ }
+}

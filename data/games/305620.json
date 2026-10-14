@@ -1,0 +1,66 @@
+{
+ "appid": 305620,
+ "name": "The Long Dark",
+ "slug": "the-long-dark",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual-Core Intel i5 CPU @ 2GHz+"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Intel 4xxx Series w/ 512MB VRAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Dual-Core Intel i5 CPU @ 2GHz+",
+    "memory": "4 GB RAM",
+    "graphics": "Intel 4xxx Series w/ 512MB VRAM or better",
+    "storage": "7 GB available space",
+    "sound card": "Any on-board chip will work."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 CPU @ 2.6GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GTX 555 w/ VRAM 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i7 CPU @ 2.6GHz or higher",
+    "memory": "8 GB RAM",
+    "graphics": "nVidia GTX 555 w/ 1GB VRAM or better",
+    "storage": "7 GB available space",
+    "sound card": "Ideally, something with Surround capabilities."
+   }
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "appid": 56437,
+ "name": "Warhammer 40,000: Dawn of War II: Retribution",
+ "slug": "warhammer-40-000-dawn-of-war-ii-retribution",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium IV 3.2Ghz",
+     "or any dual core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "128 MB Video Card using Shader Model 3 (Nvidia GeForce 6600 GT / ATI X1600)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 8.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2, Windows Vista, Windows 7",
+    "processor": "Pentium IV 3.2Ghz, or any dual core processor",
+    "memory": "1GB (XP), 1.5GB (Vista), 1.5 GB (Windows 7)",
+    "storage": "8.5GB space free",
+    "graphics": "128 MB Video Card using Shader Model 3 (Nvidia GeForce 6600 GT / ATI X1600)",
+    "other": "Online Steam Account"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Any Core 2",
+     "Athlon X2"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "256 MB Video Card using Shader Model 3 (Nvidia GeForce 7800GT or any Nvidia GT200 series, ATI X1900 or any HD3600 series"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 8.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2, Windows Vista, Windows 7",
+    "processor": "Any Core 2 , Athlon X2, or better",
+    "memory": "2GB RAM or higher (XP, Vista, Windows 7)",
+    "storage": "8.5GB space free",
+    "graphics": "256 MB Video Card using Shader Model 3 (Nvidia GeForce 7800GT or any Nvidia GT200 series or better, ATI X1900 or any HD3600 series or better",
+    "other": "Online Steam Account"
+   }
+  }
+ }
+}

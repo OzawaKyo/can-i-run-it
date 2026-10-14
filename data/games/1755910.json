@@ -1,0 +1,87 @@
+{
+ "appid": 1755910,
+ "name": "Capcom Arcade 2nd Stadium",
+ "slug": "capcom-arcade-2nd-stadium",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760",
+     "AMD Radeon R7 260x with Video RAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-r7-260x-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 12,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10 (64-BIT Required)",
+    "processor": "Intel Core i5-4460 or AMD FX-6300 or better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 or AMD Radeon R7 260x with 2GB Video RAM",
+    "directx": "Version 12",
+    "storage": "4 GB available space",
+    "additional notes": "Hardware specification target 720P/60FPS. *Xinput support Controllers recommended"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770",
+     "AMD FX-9590"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-9590"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060",
+     "AMD Radeon RX 480 with VRAM 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10 (64-BIT Required)",
+    "processor": "Intel Core i7-3770 or AMD FX-9590 or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 480 with 3GB VRAM",
+    "directx": "Version 12",
+    "storage": "4 GB available space",
+    "additional notes": "Hardware specification target 1080P/60FPS. *Xinput support Controllers recommended"
+   }
+  }
+ }
+}

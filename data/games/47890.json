@@ -1,0 +1,40 @@
+{
+ "appid": 47890,
+ "name": "The Sims™ 3",
+ "slug": "the-sims-3",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "(XP) 2.0 GHz P4 processor; (Vista) 2.4 GHz P4 processor"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "128 MB Video Card with support for Pixel Shader 2.0"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 6.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (Service Pack 2) or Windows Vista (Service Pack 1)",
+    "processor": "(XP) 2.0 GHz P4 processor or equivalent; (Vista) 2.4 GHz P4 processor or equivalent",
+    "memory": "(XP) 1 GB; (Vista) 1.5 GB",
+    "graphics": "128 MB Video Card with support for Pixel Shader 2.0",
+    "directx": "",
+    "storage": "At least 6.5 GB of hard drive space with at least 1 GB additional space for custom content",
+    "sound": "",
+    "built-in graphics": "Intel Integrated Chipset, GMA X3000 or above.",
+    "supported video cards": "Nvidia GeForce series: FX5900 or greater, G100, GT 120, GT 130, GTS 150, GTS 250, GTX 260, GTX 275, GTX 280, GTX 285, GTX 295; ATI Radeon series: ATI Radeon 9500 series of greater, X300, X600, X700, X800, X850, X1300, X1600, X1800, X1900, X1950, 2400, 2600, 2900, 3450, 3650, 3850, 3870, 4850, 4870 series or greater; Intel Graphics Media Accelerator (GMA): GMA 3-Series, GMA 4-Series"
+   }
+  }
+ }
+}

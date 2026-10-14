@@ -1,0 +1,64 @@
+{
+ "appid": 881100,
+ "name": "Noita",
+ "slug": "noita",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core CPU",
+     "Intel i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "512MB VRAM",
+     "OpenGL 3.0 support"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 1.5625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista, 7, 8/8.1, 10",
+    "processor": "Dual Core CPU, Intel i5 or better",
+    "memory": "4 GB RAM",
+    "graphics": "512MB VRAM, OpenGL 3.0 support",
+    "storage": "1600 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "The more cores the better"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "1024MB VRAM",
+     "OpenGL 3.0 support"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 2.44140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista, 7, 8/8.1, 10",
+    "processor": "The more cores the better",
+    "memory": "8 GB RAM",
+    "graphics": "1024MB VRAM, OpenGL 3.0 support",
+    "storage": "2500 MB available space"
+   }
+  }
+ }
+}

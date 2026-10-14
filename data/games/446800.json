@@ -1,0 +1,52 @@
+{
+ "appid": 446800,
+ "name": "Transport Fever",
+ "slug": "transport-fever",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 260",
+     "ATI Radeon HD 5670 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-5670-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8 or 10 (64­bit)",
+    "processor": "Intel Core 2 Duo 3.0 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 260, ATI Radeon HD 5670, 1 GB VRAM",
+    "storage": "12 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "appid": 242860,
+ "name": "Verdun",
+ "slug": "verdun",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel CPU Core i5-2500K 3.3GHz",
+     "AMD CPU Phenom II X4 940"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-phenom-ii-x4-940-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GTX 960M",
+     "Radeon HD 7750",
+     "video card memory 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960m-2gb",
+     "nvidia-geforce-gtx-960m-4gb",
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8/10",
+    "processor": "Intel CPU Core i5-2500K 3.3GHz, AMD CPU Phenom II X4 940",
+    "memory": "4 GB RAM",
+    "graphics": "Geforce GTX 960M / Radeon HD 7750 or higher, 1GB video card memory",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "12 GB available space",
+    "additional notes": "Multiplayer only, make sure you have a stable and fast internet connection."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "video card memory 4GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "raw": {
+    "memory": "8 GB RAM",
+    "graphics": "4GB video card memory"
+   }
+  }
+ }
+}

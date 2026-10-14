@@ -1,0 +1,71 @@
+{
+ "appid": 477160,
+ "name": "Human Fall Flat",
+ "slug": "human-fall-flat",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E6750 (2 * 2660) | AMD Athlon 64 X2 Dual Core 6000+ (2 * 3000)"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 740 (2048 MB) | Radeon HD 5770 (1024 MB)"
+    ],
+    "ids": [
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb"
+    ]
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7/8/8.1/10 x86 and x64",
+    "processor": "Intel Core2 Duo E6750 (2 * 2660) or equivalent | AMD Athlon 64 X2 Dual Core 6000+ (2 * 3000) or equivalent",
+    "memory": "1024 MB RAM",
+    "graphics": "GeForce GT 740 (2048 MB) or equivalent | Radeon HD 5770 (1024 MB)",
+    "storage": "500 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Quad Q9300 (4 * 2500) | AMD A10-5800K APU (4*3800)"
+    ],
+    "ids": [
+     "intel-core-2-quad-q9300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 460 (1024 MB) | Radeon HD 7770 (1024 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7/8/8.1/10 x86 and x64",
+    "processor": "Intel Core2 Quad Q9300 (4 * 2500) or equivalent | AMD A10-5800K APU (4*3800) or equivalent",
+    "memory": "2048 MB RAM",
+    "graphics": "GeForce GTX 460 (1024 MB) or equivalent | Radeon HD 7770 (1024 MB)",
+    "storage": "500 MB available space"
+   }
+  }
+ }
+}

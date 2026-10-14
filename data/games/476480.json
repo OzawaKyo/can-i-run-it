@@ -1,0 +1,68 @@
+{
+ "appid": 476480,
+ "name": "Heaven Forest - VR MMO",
+ "slug": "heaven-forest-vr-mmo",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Dual-Core 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-570"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista",
+    "processor": "Intel Dual-Core 2.4 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "Nvidia GTX 570",
+    "storage": "1 GB available space",
+    "additional notes": "The game runs even without VR devices"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 670"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-670"
+    ]
+   },
+   "ramGb": 6,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1",
+    "processor": "Quad-Core i5 or AMD equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "Nvidia GTX 670",
+    "storage": "1 GB available space",
+    "additional notes": "The game runs even without VR devices"
+   }
+  }
+ }
+}

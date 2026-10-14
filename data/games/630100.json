@@ -1,0 +1,80 @@
+{
+ "appid": 630100,
+ "name": "SoulWorker - Anime Action MMO",
+ "slug": "soulworker-anime-action-mmo",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 duo E8300"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GT440",
+     "Radeon HD 4850"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-440-1gb-gf108-400",
+     "nvidia-geforce-gt-440-1gb-gf108-400-2",
+     "nvidia-geforce-gt-440-2gb",
+     "nvidia-geforce-gt-440",
+     "nvidia-geforce-gt-440-512mb",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 32 bit",
+    "processor": "Intel Core2 duo E8300",
+    "memory": "2 GB RAM",
+    "graphics": "Geforce GT440 / Radeon HD 4850",
+    "directx": "Version 9.0c",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Pentium core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTS 250"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 bit",
+    "processor": "Pentium core i5",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTS 250",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space"
+   }
+  }
+ }
+}

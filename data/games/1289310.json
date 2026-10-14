@@ -1,0 +1,26 @@
+{
+ "appid": 1289310,
+ "name": "Helltaker",
+ "slug": "helltaker",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "storage": {
+    "gb": 0.341796875,
+    "ssd": false
+   },
+   "raw": {
+    "storage": "350 MB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "appid": 1089980,
+ "name": "The Henry Stickmin Collection",
+ "slug": "the-henry-stickmin-collection",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.3 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 4000"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1+",
+    "processor": "2.3 GHz Dual Core",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD 4000",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.3 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "2.3 GHz Dual Core",
+    "memory": "8 GB RAM",
+    "graphics": "Dedicated Graphics",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

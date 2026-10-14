@@ -1,0 +1,70 @@
+{
+ "appid": 242920,
+ "name": "Banished",
+ "slug": "banished",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel Dual Core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "512 MB DirectX 9.0c compatible card (shader model 2)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.244140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win XP SP3 / Vista / Windows 7 / Windows 8",
+    "processor": "2 GHz Intel Dual Core processor",
+    "memory": "512 MB RAM",
+    "graphics": "512 MB DirectX 9.0c compatible card (shader model 2)",
+    "directx": "Version 9.0c",
+    "storage": "250 MB available space",
+    "sound card": "Any"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 processor (or greater)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "512 MB DirectX 10 compatible card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 11,
+   "storage": {
+    "gb": 0.244140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / Windows 8",
+    "processor": "Intel Core i5 processor (or greater)",
+    "memory": "512 MB RAM",
+    "graphics": "512 MB DirectX 10 compatible card",
+    "directx": "Version 11",
+    "storage": "250 MB available space",
+    "sound card": "Any"
+   }
+  }
+ }
+}

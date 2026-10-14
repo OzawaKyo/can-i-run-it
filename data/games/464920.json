@@ -1,0 +1,71 @@
+{
+ "appid": 464920,
+ "name": "Surviving Mars",
+ "slug": "surviving-mars",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "4th Generation Intel i3 CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "HD 4600/Geforce 620/Radeon 6450 GPUs with of video RAM 1GB"
+    ],
+    "ids": [
+     "intel-hd-graphics-4600",
+     "amd-radeon-620-laptop-2gb-polaris-24",
+     "amd-radeon-620-laptop-2gb-polaris-24-2",
+     "amd-radeon-620-laptop-4gb-polaris-24",
+     "amd-radeon-620-laptop-4gb-polaris-24-2",
+     "amd-radeon-r7-450-2gb",
+     "amd-radeon-r7-450-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 Bit",
+    "processor": "4th Generation Intel i3 CPU or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "HD 4600/Geforce 620/Radeon 6450 or equivalent GPUs with 1 GB of video RAM",
+    "storage": "6 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "5th Generation Intel i5 CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Geforce 750 Ti with of video RAM 4GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 Bit",
+    "processor": "5th Generation Intel i5 CPU or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Geforce 750 Ti or equivalent with 4GB of video RAM",
+    "storage": "6 GB available space"
+   }
+  }
+ }
+}

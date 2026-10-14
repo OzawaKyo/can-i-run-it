@@ -1,0 +1,84 @@
+{
+ "appid": 374040,
+ "name": "Portal Knights",
+ "slug": "portal-knights",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Phenom(tm) 8450 Triple-Core Processor (3 CPUs)",
+     "~2.1GHz",
+     "Intel Core 2 Duo E8400 @ 3.0 GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Graphics: NVIDIA GeForce GTX 470 ( VRAM) 1GB",
+     "ATI Radeon TM HD 6870 ( VRAM) 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-hd-6870-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit Versions of Windows 7, Windows 8, Windows 10",
+    "processor": "AMD Phenom(tm) 8450 Triple-Core Processor (3 CPUs), ~2.1GHz or Intel Core 2 Duo E8400 @ 3.0 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Graphics: NVIDIA GeForce GTX 470 (1Gb VRAM) / ATI Radeon TM HD 6870 (1Gb VRAM)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "sound card": "On Board"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400",
+     "4.0 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Graphics: NVIDIA GeForce GTX 970 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit Versions of Windows 7, Windows 8, Windows 10",
+    "processor": "Intel Core i5-8400, 4.0 GHz",
+    "memory": "12 GB RAM",
+    "graphics": "Graphics: NVIDIA GeForce GTX 970, 4 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "sound card": "On Board"
+   }
+  }
+ }
+}

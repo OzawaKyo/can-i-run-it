@@ -1,0 +1,83 @@
+{
+ "appid": 368260,
+ "name": "Marvel's Midnight Suns",
+ "slug": "marvel-s-midnight-suns",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3-2200G",
+     "Intel Core i5-4430"
+    ],
+    "ids": [
+     "amd-ryzen-3-2200g",
+     "intel-core-i5-4430"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 470",
+     "GeForce GTX 960 - 4GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb",
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "AMD Ryzen 3-2200G / Intel Core i5-4430",
+    "memory": "8 GB RAM",
+    "graphics": "AMD RX 470 / GeForce GTX 960 - 4GB",
+    "directx": "Version 12",
+    "storage": "60 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5-2600X",
+     "Intel Core i7-6700"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600x",
+     "intel-core-i7-6700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 5700",
+     "GeForce GTX 1070"
+    ],
+    "ids": [
+     "amd-radeon-rx-5700",
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "AMD Ryzen 5-2600X / Intel Core i7-6700",
+    "memory": "16 GB RAM",
+    "graphics": "AMD RX 5700 / GeForce GTX 1070",
+    "directx": "Version 12",
+    "storage": "60 GB available space"
+   }
+  }
+ }
+}

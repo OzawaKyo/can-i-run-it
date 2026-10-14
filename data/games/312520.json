@@ -1,0 +1,68 @@
+{
+ "appid": 312520,
+ "name": "Rain World",
+ "slug": "rain-world",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "4th Gen i3",
+     "1st Gen Ryzen"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD (Integrated)",
+     "GeForce 6 Series",
+     "Radeon R7 Series"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "4th Gen i3 / 1st Gen Ryzen",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD (Integrated), GeForce 6 Series / Radeon R7 Series",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "6th Gen i5",
+     "2nd Gen Ryzen (or better)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 7 Series",
+     "Radeon RX400 Series (or better)"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "6th Gen i5 / 2nd Gen Ryzen (or better)",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce 7 Series / Radeon RX400 Series (or better)",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "appid": 233450,
+ "name": "Prison Architect",
+ "slug": "prison-architect",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo 2.4Ghz",
+     "AMD 3Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia 8600",
+     "Radeon equivalent (2009 era)"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb"
+    ]
+   },
+   "ramGb": 6,
+   "storage": {
+    "gb": 0.390625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 Bit",
+    "processor": "Intel Core2 Duo 2.4Ghz or Higher / AMD 3Ghz or Higher",
+    "memory": "6 GB RAM",
+    "graphics": "Nvidia 8600 / Radeon equivalent (2009 era)",
+    "storage": "400 MB HD space"
+   }
+  }
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "appid": 582010,
+ "name": "Monster Hunter: World",
+ "slug": "monster-hunter-world",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460",
+     "Intel Core i3-9100F",
+     "AMD FX-6300",
+     "AMD Ryzen 3 3200G"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "intel-core-i3-9100f",
+     "amd-fx-6300",
+     "amd-ryzen-3-3200g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760",
+     "NVIDIA GeForce GTX 1050",
+     "AMD Radeon R7 260x",
+     "AMD Radeon RX 560"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-r7-260x-1gb",
+     "amd-radeon-r7-260x-2gb",
+     "amd-radeon-rx-560-2gb-polaris-21",
+     "amd-radeon-rx-560-2gb-polaris-21-2",
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 52,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i5-4460 / Intel Core i3-9100F / AMD FX-6300 / AMD Ryzen 3 3200G",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 / NVIDIA GeForce GTX 1050 / AMD Radeon R7 260x / AMD Radeon RX 560",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "52 GB available space",
+    "sound card": "DirectSound",
+    "additional notes": "- These specs allow for the game to be played in 1080p/30fps with graphics settings at \"Low\". - 64-bit processor and operating system are required."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770",
+     "Intel Core i3-8350",
+     "Intel Core i3-9350F",
+     "AMD Ryzen 5 1500X",
+     "AMD Ryzen 5 3400G"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "intel-core-i3-8350k",
+     "amd-ryzen-5-1500x",
+     "amd-ryzen-5-3400g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 (VRAM) 3GB",
+     "NVIDIA GeForce GTX 1650",
+     "AMD Radeon RX 480",
+     "AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 52,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit) / Windows 11",
+    "processor": "Intel Core i7-3770 / Intel Core i3-8350 / Intel Core i3-9350F / AMD Ryzen 5 1500X / AMD Ryzen 5 3400G",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (VRAM 3GB) / NVIDIA GeForce GTX 1650 / AMD Radeon RX 480 / AMD Radeon RX 570",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "52 GB available space",
+    "sound card": "DirectSound",
+    "additional notes": "- These specs allow for the game to be played in 1080p/30fps with graphics settings at \"High\". - 64-bit processor and operating system are required. - Windows 10 (Version 1809 or later) and a 4GB VRAM GPU (graphics board or video card) are required for DirectX 12 API. ※ If you are using Windows 11, please ensure that your system meets the Windows 11 system requirements."
+   }
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "appid": 1888160,
+ "name": "ARMORED CORE™ VI FIRES OF RUBICON™",
+ "slug": "armored-core-vi-fires-of-rubicon",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4790K | Intel Core i5-8400",
+     "AMD Ryzen 7 1800X | AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i7-4790k",
+     "amd-ryzen-7-1800x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1650 4GB",
+     "AMD Radeon RX 480 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-480-4gb"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-4790K | Intel Core i5-8400 or AMD Ryzen 7 1800X | AMD Ryzen 5 2600",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1650, 4 GB or AMD Radeon RX 480, 4 GB",
+    "directx": "Version 12",
+    "storage": "60 GB available space",
+    "sound card": "Windows Compatible Audio Device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-7700 | Intel Core i5-10400",
+     "AMD Ryzen 7 2700X | AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i5-10400",
+     "amd-ryzen-7-2700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 6GB",
+     "AMD Radeon RX 590 8GB",
+     "Intel Arc A750 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-590",
+     "intel-arc-a750"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11",
+    "processor": "Intel Core i7-7700 | Intel Core i5-10400 or AMD Ryzen 7 2700X | AMD Ryzen 5 3600",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060, 6GB or AMD Radeon RX 590, 8GB or Intel Arc A750, 8GB",
+    "directx": "Version 12",
+    "storage": "60 GB available space",
+    "sound card": "Windows Compatible Audio Device"
+   }
+  }
+ }
+}

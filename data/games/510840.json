@@ -1,0 +1,82 @@
+{
+ "appid": 510840,
+ "name": "Evolvation",
+ "slug": "evolvation",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2400 | AMD FX-6100"
+    ],
+    "ids": [
+     "intel-core-i5-2400",
+     "amd-fx-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "DirectX10 Compatible GPU",
+     "NVIDIA GeForce 470 GTX",
+     "AMD Radeon 6870 HD series card"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-Bit or 32-Bit Windows 7",
+    "processor": "Intel Core i5-2400 | AMD FX-6100, or better",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX10 Compatible GPU, NVIDIA GeForce 470 GTX or AMD Radeon 6870 HD series card or higher",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "7 GB available space",
+    "additional notes": "It is possible to run the game on lower specs than what is noted as minimum, but we do not recommend it. These minimum specs are of really low graphics quality but it does not affect the gameplay, only the graphics."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770 | AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "DirectX11 Compatible GPU with Video RAM 2GB",
+     "NVIDIA GeForce GTX 560 with Video RAM (current equivalent NVIDIA GeForce GTX 760) | AMD Radeon HD 7770 with 2 GB Video RAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-Bit Windows 10",
+    "processor": "Intel Core i7-3770 | AMD FX-8350, or better",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX11 Compatible GPU with 2 GB Video RAM, NVIDIA GeForce GTX 560 with 2 GB Video RAM (current equivalent NVIDIA GeForce GTX 760) | AMD Radeon HD 7770 with 2 GB Video RAM, or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "7 GB available space"
+   }
+  }
+ }
+}

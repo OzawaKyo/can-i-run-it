@@ -1,0 +1,57 @@
+{
+ "appid": 1290000,
+ "name": "PowerWash Simulator",
+ "slug": "powerwash-simulator",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-760 (4*2800)",
+     "AMD Phenom II"
+    ],
+    "ids": [
+     "intel-core-i5-760"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 760",
+     "AMD R7-260X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-r7-260x-1gb",
+     "amd-radeon-r7-260x-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8 (64-bit) or newer",
+    "processor": "Intel i5-760 (4*2800), AMD Phenom II",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 760, AMD R7-260X",
+    "directx": "Version 11",
+    "storage": "6 GB available space",
+    "additional notes": "Requires a 64-bit processor and operating system"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

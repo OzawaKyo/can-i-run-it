@@ -1,0 +1,83 @@
+{
+ "appid": 1174180,
+ "name": "Red Dead Redemption 2",
+ "slug": "red-dead-redemption-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 770 2GB",
+     "AMD Radeon R9 280 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-770",
+     "amd-radeon-r9-280"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "storage": {
+    "gb": 150,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64-bit",
+    "processor": "Intel Core i5-2500K / AMD FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+    "network": "Broadband Internet connection",
+    "storage": "150 GB available space",
+    "sound card": "Direct X Compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4770K",
+     "AMD Ryzen 5 1500X"
+    ],
+    "ids": [
+     "intel-core-i7-4770k",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060 6GB",
+     "AMD Radeon RX 480 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-4gb"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 4,
+   "storage": {
+    "gb": 150,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64-bit",
+    "processor": "Intel Core i7-4770K / AMD Ryzen 5 1500X",
+    "memory": "12 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+    "network": "Broadband Internet connection",
+    "storage": "150 GB available space",
+    "sound card": "Direct X Compatible"
+   }
+  }
+ }
+}

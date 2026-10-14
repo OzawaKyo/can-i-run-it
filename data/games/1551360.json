@@ -1,0 +1,89 @@
+{
+ "appid": 1551360,
+ "name": "Forza Horizon 5",
+ "slug": "forza-horizon-5",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-4460",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GTX 970",
+     "AMD RX 470",
+     "OR Intel Arc A380"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 110,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 version 18362.0 or higher",
+    "processor": "Intel i5-4460 or AMD Ryzen 3 1200",
+    "memory": "8 GB RAM",
+    "graphics": "NVidia GTX 970, AMD RX 470, OR Intel Arc A380",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "110 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5-8400",
+     "AMD Ryzen 5 1500X"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GTX 1070",
+     "AMD RX 590",
+     "OR Intel Arc A750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-590",
+     "intel-arc-a750"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 110,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 version 18362.0 or higher",
+    "processor": "Intel i5-8400 or AMD Ryzen 5 1500X",
+    "memory": "16 GB RAM",
+    "graphics": "NVidia GTX 1070, AMD RX 590, OR Intel Arc A750",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "110 GB available space"
+   }
+  }
+ }
+}

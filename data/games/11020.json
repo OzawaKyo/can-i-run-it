@@ -1,0 +1,41 @@
+{
+ "appid": 11020,
+ "name": "TrackMania Nations Forever",
+ "slug": "trackmania-nations-forever",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium IV 1.6GHz",
+     "AthlonXP 1600+"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [
+     "3D accelerator 16 MB DirectX 9.0c compatible graphics card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.25,
+   "directX": 9,
+   "storage": {
+    "gb": 0.732421875,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Windows 2000/XP/XP-x64/Vista",
+    "processor": "Pentium IV 1.6GHz / AthlonXP 1600+",
+    "graphics": "3D accelerator 16 MB DirectX 9.0c compatible graphics card",
+    "directx version": "DirectX 9.0c or better",
+    "memory": "256 MB (512 MB with Vista)",
+    "sound": "16 bit DirectX compatible sound card",
+    "storage": "750 MB free disk space"
+   }
+  }
+ }
+}

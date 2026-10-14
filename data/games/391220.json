@@ -1,0 +1,78 @@
+{
+ "appid": 391220,
+ "name": "Rise of the Tomb Raider™",
+ "slug": "rise-of-the-tomb-raider",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-2100"
+    ],
+    "ids": [
+     "intel-core-i3-2100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 650 2GB",
+     "AMD HD7770 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64bit",
+    "processor": "Intel Core i3-2100 or AMD equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GTX 650 2GB or AMD HD7770 2GB",
+    "directx": "Version 11",
+    "storage": "25 GB available space",
+    "vr support": "SteamVR"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770K"
+    ],
+    "ids": [
+     "intel-core-i7-3770k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 980Ti 2560x1440",
+     "NVIDIA GTX 970 1920x1080"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-980-ti"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Intel Core i7-3770K",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 980Ti 2560x1440 or NVIDIA GTX 970 1920x1080",
+    "directx": "Version 11",
+    "storage": "25 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "appid": 945360,
+ "name": "Among Us",
+ "slug": "among-us",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "INTEL i3-4330"
+    ],
+    "ids": [
+     "intel-core-i3-4330"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "INTEL HD Graphics 4600"
+    ],
+    "ids": [
+     "intel-hd-graphics-4600"
+    ]
+   },
+   "ramGb": 1,
+   "raw": {
+    "os": "Windows 10 x32bit",
+    "processor": "INTEL i3-4330",
+    "memory": "1 GB RAM",
+    "graphics": "INTEL HD Graphics 4600"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "INTEL i3-4330"
+    ],
+    "ids": [
+     "intel-core-i3-4330"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 650"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650"
+    ]
+   },
+   "ramGb": 4,
+   "raw": {
+    "os": "Windows 10 x64bit",
+    "processor": "INTEL i3-4330",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GTX 650"
+   }
+  }
+ }
+}

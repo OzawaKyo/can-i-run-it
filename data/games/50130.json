@@ -1,0 +1,90 @@
+{
+ "appid": 50130,
+ "name": "Mafia II (Classic)",
+ "slug": "mafia-ii-classic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium D 3Ghz",
+     "AMD Athlon 64 X2 3600+ (Dual core)"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 8600",
+     "ATI HD2600 Pro"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "amd-radeon-hd-2600-pro-256mb",
+     "amd-radeon-hd-2600-pro-512mb"
+    ]
+   },
+   "ramGb": 1.5,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+    "processor": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+    "memory": "1.5 GB RAM",
+    "storage": "8GB",
+    "graphics": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+    "sound card": "100% DirectX 9.0c compatible sound card",
+    "peripherals": "Keyboard and mouse or Windows compatible gamepad",
+    "other requirements": "Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game)include nVidia PhysX_drivers 10.04.02_9.10.0522and nVidia GPU drivers 197.13 or latest, Steam Client and Microsoft DirectX."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Quad Core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 9800 GTX",
+     "ATI Radeon HD 3870"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+    "processor": "2.4 GHz Quad Core processor",
+    "memory": "2GB",
+    "storage": "10GB",
+    "graphics": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+    "sound card": "100% DirectX 9.0c compatible sound card",
+    "peripherals": "Keyboard and mouse or Windows compatible gamepad"
+   }
+  }
+ }
+}

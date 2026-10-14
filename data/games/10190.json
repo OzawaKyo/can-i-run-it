@@ -1,0 +1,43 @@
+{
+ "appid": 10190,
+ "name": "Call of Duty®: Modern Warfare® 2 (2009)",
+ "slug": "call-of-duty-modern-warfare-2-2009",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 3.2 GHz",
+     "AMD Athlon 64 3200+ processor supported"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "256 MB NVIDIA GeForce 6600GT",
+     "ATI Radeon 1600XT"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP or Windows Vista (Windows 95/98/ME/2000 are unsupported)",
+    "processor": "Intel Pentium 4 3.2 GHz or AMD Athlon 64 3200+ processor or better supported",
+    "memory": "1 GB RAM",
+    "graphics": "256 MB NVIDIA GeForce 6600GT or better or ATI Radeon 1600XT or better",
+    "directx": "Microsoft DirectX(R) 9.0c",
+    "storage": "12GB of free hard drive space",
+    "sound": "100% DirectX 9.0c compatible sound card",
+    "internet": "Broadband connection and service required for Multiplayer Connectivity. Internet Connection required for activation.",
+    "co-op/multiplayer hosting": "To host Co-op or MP matches, a 2Ghz dual-core or better processor is recommended."
+   }
+  }
+ }
+}

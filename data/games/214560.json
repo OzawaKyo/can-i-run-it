@@ -1,0 +1,77 @@
+{
+ "appid": 214560,
+ "name": "Mark of the Ninja",
+ "slug": "mark-of-the-ninja",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Phenom 9750",
+     "Pentium D 800+"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 7800 GT",
+     "ATI Radeon HD 3000+"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3, Windows Vista SP2, Windows 7 SP1",
+    "processor": "AMD Phenom 9750 or Pentium D 800+",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 7800 GT or ATI Radeon HD 3000+ or better",
+    "directx": "9.0c",
+    "storage": "2.5 GB HD space",
+    "sound": "100% DirectX9.0c compatible sound card and drivers"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo",
+     "AMD Athlon 64 X2 5600+"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 9600GT",
+     "ATI Radeon HD 5000+"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "intel-hd-graphics-5000"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3, Windows Vista SP2, Windows 7 SP1",
+    "processor": "Intel Core 2 Duo or AMD Athlon 64 X2 5600+",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA 9600GT or ATI Radeon HD 5000+ or better",
+    "directx": "9.0c",
+    "storage": "2.5 GB HD space",
+    "sound": "100% DirectX9.0c compatible sound card and drivers"
+   }
+  }
+ }
+}

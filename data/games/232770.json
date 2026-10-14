@@ -1,0 +1,59 @@
+{
+ "appid": 232770,
+ "name": "POSTAL",
+ "slug": "postal",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "90mhz processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.015625,
+   "directX": 7,
+   "storage": {
+    "gb": 0.390625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or higher",
+    "processor": "90mhz processor",
+    "memory": "16 MB RAM",
+    "directx": "7.0",
+    "storage": "400 MB HD space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "166mhz processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.03125,
+   "directX": 7,
+   "storage": {
+    "gb": 0.390625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or higher",
+    "processor": "166mhz processor",
+    "memory": "32 MB RAM",
+    "directx": "7.0",
+    "storage": "400 MB HD space"
+   }
+  }
+ }
+}

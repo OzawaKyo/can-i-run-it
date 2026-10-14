@@ -1,0 +1,43 @@
+{
+ "appid": 447020,
+ "name": "Farming Simulator 17",
+ "slug": "farming-simulator-17",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz Intel AMD dual-core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce GTS 450 Series",
+     "AMD Radeon HD 6770 graphics card (min VRAM) 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-6770-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8, Windows 10",
+    "processor": "2.0 GHz Intel or equivalent AMD dual-core processor",
+    "memory": "2 GB RAM",
+    "graphics": "Nvidia Geforce GTS 450 Series, AMD Radeon HD 6770 graphics card or better (min 1GB VRAM)",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "additional notes": "INTERNET CONNECTION REQUIRED FOR THE ONLINE GAME"
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "appid": 107100,
+ "name": "Bastion",
+ "slug": "bastion",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.7 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 20
+   },
+   "gpu": {
+    "raw": [
+     "512 MB DirectX 9.0c compatible graphics card (shader model 2)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7",
+    "processor": "1.7 GHz Dual Core or Greater",
+    "memory": "2 GB",
+    "storage": "1.0 GB",
+    "graphics": "512 MB DirectX 9.0c compatible graphics card (shader model 2)",
+    "directx": "9.0c",
+    "sound": "DirectX 9.0c compatible"
+   }
+  }
+ }
+}

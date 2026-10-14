@@ -1,0 +1,38 @@
+{
+ "appid": 96100,
+ "name": "Defy Gravity Extended",
+ "slug": "defy-gravity-extended",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.5Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 16
+   },
+   "gpu": {
+    "raw": [
+     "128 MB Graphics Card that supports Shader Model 1.1"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.048828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7/10",
+    "processor": "1.5Ghz",
+    "memory": "512Mb",
+    "storage": "50Mb",
+    "graphics": "128 MB Graphics Card that supports Shader Model 1.1",
+    "directx": "9.0c"
+   }
+  }
+ }
+}

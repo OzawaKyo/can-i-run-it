@@ -1,0 +1,39 @@
+{
+ "appid": 319830,
+ "name": "AX:EL - Air XenoDawn",
+ "slug": "ax-el-air-xenodawn",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.5 GHz dual core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 40
+   },
+   "gpu": {
+    "raw": [
+     "1500MB video RAM with pixel shader 3.0 support"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8",
+    "processor": "3.5 GHz dual core CPU or more",
+    "memory": "2 GB RAM",
+    "graphics": "1500MB video RAM with pixel shader 3.0 support",
+    "directx": "Version 9.0c",
+    "storage": "1 GB available space",
+    "sound card": "OpenAL capable sound device"
+   }
+  }
+ }
+}

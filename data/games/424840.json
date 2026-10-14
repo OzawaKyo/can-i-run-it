@@ -1,0 +1,74 @@
+{
+ "appid": 424840,
+ "name": "Little Nightmares",
+ "slug": "little-nightmares",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel CPU Core i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 460"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 64-bit",
+    "processor": "Intel CPU Core i3",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GTX 460",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "additional notes": "SSE4.2 required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel CPU Core i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GPU GeForce GTX 660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 64-bit",
+    "processor": "Intel CPU Core i7",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GPU GeForce GTX 660",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "additional notes": "SSE4.2 required"
+   }
+  }
+ }
+}

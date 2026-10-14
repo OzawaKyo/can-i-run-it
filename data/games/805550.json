@@ -1,0 +1,87 @@
+{
+ "appid": 805550,
+ "name": "Assetto Corsa Competizione",
+ "slug": "assetto-corsa-competizione",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460",
+     "AMD FX-8120"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "amd-fx-8120"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 750 4GB",
+     "Radeon RX 460 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 x64 20H2 (October 2020 Update)",
+    "processor": "Intel Core i5-4460 or AMD FX-8120",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 750 4GB, Radeon RX 460 4GB",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "sound card": "Integrated",
+    "vr support": "SteamVR or Oculus PC. Keyboard or gamepad required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8600K",
+     "AMD Ryzen 5 2600X"
+    ],
+    "ids": [
+     "intel-core-i5-8600k",
+     "amd-ryzen-5-2600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1070 8GB",
+     "Radeon RX 580 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 x64 - 21H2",
+    "processor": "Intel Core i5-8600K or AMD Ryzen 5 2600X",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GTX 1070 8 GB, Radeon RX 580 8GB",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "sound card": "Integrated"
+   }
+  }
+ }
+}

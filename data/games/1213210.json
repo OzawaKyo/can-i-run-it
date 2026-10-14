@@ -1,0 +1,88 @@
+{
+ "appid": 1213210,
+ "name": "Command & Conquer™ Remastered Collection",
+ "slug": "command-conquer-remastered-collection",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E4600 @ 2.4ghz",
+     "AMD Athlon 64 X2 6400 @ 2.4ghz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e4600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 420",
+     "ATI Radeon HD 5570"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-420-oem",
+     "nvidia-geforce-gt-420m-512mb",
+     "nvidia-geforce-gt-420m-1gb",
+     "amd-radeon-hd-5570-512mb",
+     "amd-radeon-hd-5570-1gb",
+     "amd-radeon-hd-5570-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1/10 (64-bit Version)",
+    "processor": "Intel Core 2 Duo E4600 @ 2.4ghz or AMD Athlon 64 X2 6400 @ 2.4ghz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GT 420 or ATI Radeon HD 5570",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "32 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 4690K",
+     "AMD Ryzen 7 1700"
+    ],
+    "ids": [
+     "intel-core-i5-4690k",
+     "amd-ryzen-7-1700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "ATI Radeon HD 7850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1/10 (64-bit Version)",
+    "processor": "Intel Core i5 4690K or AMD Ryzen 7 1700",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 or ATI Radeon HD 7850",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "32 GB available space",
+    "additional notes": "Hard Drive Space: 32 GB on SSD"
+   }
+  }
+ }
+}

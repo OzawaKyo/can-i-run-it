@@ -1,0 +1,94 @@
+{
+ "appid": 281990,
+ "name": "Stellaris",
+ "slug": "stellaris",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel iCore i3-530",
+     "AMD FX-6350"
+    ],
+    "ids": [
+     "intel-core-i3-530",
+     "amd-fx-6350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 460",
+     "AMD ATI Radeon HD 5870 ( VRAM) 1GB",
+     "or AMD Radeon RX Vega 11",
+     "Intel HD Graphics 4600"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5870-1gb",
+     "intel-hd-graphics-4600"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 Bit",
+    "processor": "Intel iCore i3-530 or AMD FX-6350",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 460 or AMD ATI Radeon HD 5870 (1GB VRAM), or AMD Radeon RX Vega 11 or Intel HD Graphics 4600",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "sound card": "Direct X 9.0c- compatible sound card",
+    "additional notes": "Controller support: 3-button mouse, keyboard and speakers. Special multiplayer requirements: Internet Connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel iCore i5-3570K",
+     "AMD Ryzen 5 2400G"
+    ],
+    "ids": [
+     "intel-core-i5-3570k",
+     "amd-ryzen-5-2400g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 560 Ti ( VRAM) 1GB",
+     "AMD Radeon R7 370 ( VRAM) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560-ti",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r9-370-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 12,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 Bit",
+    "processor": "Intel iCore i5-3570K or AMD Ryzen 5 2400G",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 560 Ti (1GB VRAM) or AMD Radeon R7 370 (2 GB VRAM)",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "sound card": "DirectX 9.0c-compatible sound card",
+    "additional notes": "Controller support: 3-button mouse, keyboard and speakers. Special multiplayer requirements: Internet Connection"
+   }
+  }
+ }
+}

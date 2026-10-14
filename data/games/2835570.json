@@ -1,0 +1,63 @@
+{
+ "appid": 2835570,
+ "name": "Buckshot Roulette",
+ "slug": "buckshot-roulette",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Relatively modern dedicated graphics card (Vulkan support required)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i3",
+    "memory": "2 GB RAM",
+    "graphics": "Relatively modern dedicated graphics card (Vulkan support required)",
+    "storage": "500 MB available space",
+    "additional notes": "Vulkan support required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Relatively modern dedicated graphics card (Vulkan support required)"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5",
+    "memory": "4 GB RAM",
+    "graphics": "Relatively modern dedicated graphics card (Vulkan support required)",
+    "storage": "500 MB available space",
+    "additional notes": "Vulkan support required"
+   }
+  }
+ }
+}

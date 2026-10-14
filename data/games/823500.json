@@ -1,0 +1,84 @@
+{
+ "appid": 823500,
+ "name": "BONEWORKS",
+ "slug": "boneworks",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "quad-core 3.0ghz minimum"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1060",
+     "970 for Rift CV1+Touch",
+     "Original Vive at 90hz",
+     "and RiftS at 80hz"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "quad-core 3.0ghz minimum",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 1060 / 970 for Rift CV1+Touch, Original Vive at 90hz, and RiftS at 80hz",
+    "directx": "Version 11",
+    "storage": "20 GB available space",
+    "vr support": "SteamVR",
+    "additional notes": "CPU performance required for physics calculations! These min specs are based on Rift CV1+Touch, Original Vive 90hz, and RiftS 80hz, ONLY."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 7700k",
+     "3.3ghz+"
+    ],
+    "ids": [
+     "intel-core-i7-7700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1080",
+     "2060super for Rift CV1+Touch",
+     "Original Vive 90hz",
+     "and RiftS 80hz"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i7 7700k or greater, 3.3ghz+",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 1080 / 2060super or greater for Rift CV1+Touch, Original Vive 90hz, and RiftS 80hz",
+    "directx": "Version 11",
+    "storage": "20 GB available space",
+    "additional notes": "CPU performance required for physics calculations!"
+   }
+  }
+ }
+}

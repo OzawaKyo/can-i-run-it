@@ -1,0 +1,76 @@
+{
+ "appid": 311340,
+ "name": "METAL GEAR SOLID V: GROUND ZEROES",
+ "slug": "metal-gear-solid-v-ground-zeroes",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i5-4460 (3.20GHz) *Quad-Core"
+    ],
+    "ids": [
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 650 () (DirectX 11 graphics card required) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista SP2 x64, Windows 7 x64, Windows 8 x64 (64-bit OS Required)",
+    "processor": "Core i5-4460 (3.20GHz) or better *Quad-Core or better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 650 (2GB) or better (DirectX 11 graphics card required)",
+    "directx": "Version 11",
+    "storage": "4 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i7-4790 (3.60GHz) *Quad-Core"
+    ],
+    "ids": [
+     "intel-core-i7-4790"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760 (DirectX 11 graphics card required)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 x64, Windows 8 x64 (64-bit OS Required)",
+    "processor": "Core i7-4790 (3.60GHz) or better *Quad-Core or better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 (DirectX 11 graphics card required)",
+    "directx": "Version 11",
+    "storage": "4 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card (Surround Sound 5.1)"
+   }
+  }
+ }
+}

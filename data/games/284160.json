@@ -1,0 +1,86 @@
+{
+ "appid": 284160,
+ "name": "BeamNG.drive",
+ "slug": "beamng-drive",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 1600",
+     "Intel Core i5 8400"
+    ],
+    "ids": [
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af",
+     "intel-core-i5-8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Minimum VRAM (AMD Radeon RX 570 / Nvidia GeForce GTX 1060) 6GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit",
+    "processor": "AMD Ryzen 5 1600 / Intel Core i5 8400",
+    "memory": "16 GB RAM",
+    "graphics": "Minimum 6GB VRAM (AMD Radeon RX 570 / Nvidia GeForce GTX 1060)",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "Installing game mods will increase required storage space. Gamepad recommended."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 7 3700X",
+     "Intel Core i7 9700"
+    ],
+    "ids": [
+     "amd-ryzen-7-3700x",
+     "intel-core-i7-9700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Minimum VRAM (AMD RX 6700 / Nvidia GeForce RTX 3060) 8GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-6700",
+     "nvidia-geforce-rtx-3060"
+    ]
+   },
+   "ramGb": 32,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit",
+    "processor": "AMD Ryzen 7 3700X / Intel Core i7 9700",
+    "memory": "32 GB RAM",
+    "graphics": "Minimum 8GB VRAM (AMD RX 6700 / Nvidia GeForce RTX 3060)",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "vr support": "10GB VRAM GPU with Vulkan support and OpenXR",
+    "additional notes": "Recommended spec based on 1080p resolution. Installing game mods will increase required storage space. Gamepad recommended."
+   }
+  }
+ }
+}

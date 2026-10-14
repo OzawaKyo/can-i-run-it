@@ -1,0 +1,34 @@
+{
+ "appid": 1454400,
+ "name": "Cookie Clicker",
+ "slug": "cookie-clicker",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.33GHz x86-compatible processor",
+     "or Intel Atom 1.6GHz processor for netbook class devices"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 0.341796875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows Server 2008, Windows 7, or Windows 8 Classic",
+    "processor": "2.33GHz or faster x86-compatible processor, or Intel Atom 1.6GHz or faster processor for netbook class devices",
+    "memory": "512 MB RAM",
+    "storage": "350 MB available space"
+   }
+  }
+ }
+}

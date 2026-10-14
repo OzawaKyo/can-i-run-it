@@ -1,0 +1,54 @@
+{
+ "appid": 201790,
+ "name": "Orcs Must Die! 2",
+ "slug": "orcs-must-die-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 6800",
+     "ATI Radeon x1950 with 256MB VRAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Windows Vista, Windows 7",
+    "processor": "2GHz Dual Core",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 6800 or ATI Radeon x1950 or better with 256MB VRAM",
+    "directx": "9.0c",
+    "storage": "9 GB HD space",
+    "additional": "Broadband Internet connection recommended for co-op play."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {
+    "other requirements": "Broadband Internet connection",
+    "additional": "Broadband Internet connection recommended for co-op play."
+   }
+  }
+ }
+}

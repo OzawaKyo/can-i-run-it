@@ -1,0 +1,32 @@
+{
+ "appid": 206440,
+ "name": "To the Moon",
+ "slug": "to-the-moon",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium III 800 MHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "1024x768 High Color +"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "raw": {
+    "os": "Windows 98, XP, Vista, 7, 8, 10, 11",
+    "processor": "Intel Pentium III 800 MHz",
+    "memory": "512 MB RAM",
+    "graphics": "1024x768 High Color +",
+    "directx": "9.0"
+   }
+  }
+ }
+}

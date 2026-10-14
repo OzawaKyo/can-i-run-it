@@ -1,0 +1,47 @@
+{
+ "appid": 115300,
+ "name": "Call of Duty®: Modern Warfare® 3 (2011)",
+ "slug": "call-of-duty-modern-warfare-3-2011",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6600",
+     "AMD Phenom X3 8750 processor"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600",
+     "amd-phenom-x3-8750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Shader 3.0 256 MB NVIDIA GeForce 8600GT",
+     "ATI Radeon X1950"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/ Windows Vista / Windows 7",
+    "processor": "Intel Core 2 Duo E6600 or AMD Phenom X3 8750 processor or better",
+    "memory": "2 GB RAM",
+    "graphics": "Shader 3.0 or better 256 MB NVIDIA GeForce 8600GT / ATI Radeon X1950 or better",
+    "directx": "Version 9.0c",
+    "storage": "16 GB available space",
+    "sound card": "DirectX 9.0c or later",
+    "additional notes": "Broadband connection and service required for Multiplayer Connectivity. Internet connection required for activation."
+   }
+  }
+ }
+}

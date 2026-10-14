@@ -1,0 +1,39 @@
+{
+ "appid": 1627140,
+ "name": "Sabre Team",
+ "slug": "sabre-team",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 4"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9 graphics device with WDDM 1.0 driver"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.25,
+   "directX": 9,
+   "storage": {
+    "gb": 0.04296875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "Pentium 4 or later",
+    "memory": "256 MB RAM",
+    "graphics": "DirectX 9 graphics device with WDDM 1.0 or higher driver",
+    "directx": "Version 9.0c",
+    "storage": "44 MB available space",
+    "additional notes": "This game is powered by DOSBox."
+   }
+  }
+ }
+}

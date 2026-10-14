@@ -1,0 +1,83 @@
+{
+ "appid": 289130,
+ "name": "ENDLESS Legend™",
+ "slug": "endless-legend",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.5Ghz Intel Core 2 Quad Q8300"
+    ],
+    "ids": [
+     "intel-core-2-quad-q8300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia Geforce GT460 1GB",
+     "500 MB ATI HD4850"
+    ],
+    "ids": [
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista / 7 / 8 / 8.1 / 10",
+    "processor": "2.5Ghz Intel Core 2 Quad Q8300 or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "1GB nVidia Geforce GT460 or equivalent, 500 MB ATI HD4850 or equivalent",
+    "directx": "Version 9.0c",
+    "storage": "6 GB available space",
+    "sound card": "DirectX 9 Compatible Audio",
+    "additional notes": "Minimum Resolution: 1280 x 720"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.5Ghz Intel Core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 36
+   },
+   "gpu": {
+    "raw": [
+     "nVidia Geforce GTX660 1GB",
+     "ATI HD7850 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-1gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista / 7 / 8 / 8.1 / 10",
+    "processor": "3.5Ghz Intel Core i5 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "1GB nVidia Geforce GTX660 or equivalent, 1GB ATI HD7850 or equivalent",
+    "directx": "Version 9.0c",
+    "storage": "6 GB available space",
+    "sound card": "DirectX 9 Compatible Audio",
+    "additional notes": "Minimum Resolution: 1280 x 720"
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "appid": 8980,
+ "name": "Borderlands Game of the Year",
+ "slug": "borderlands-game-of-the-year",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 Ghz processor with SSE2 support"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "256mb video ram (GeForce 7 series/Radeon HD3000 series)"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista",
+    "processor": "2.4 Ghz or equivalent processor with SSE2 support",
+    "memory": "1GB System RAM (2GB recommended with Vista)",
+    "graphics": "256mb video ram or better (GeForce 7 series or higher/Radeon HD3000 series or higher)",
+    "storage": "8 GB or more free space",
+    "sound": "Windows compatible sound card"
+   }
+  }
+ }
+}

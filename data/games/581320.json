@@ -1,0 +1,79 @@
+{
+ "appid": 581320,
+ "name": "Insurgency: Sandstorm",
+ "slug": "insurgency-sandstorm",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4440 (3.10GHz)/AMD FX-6300 (3.50GHz)"
+    ],
+    "ids": [
+     "intel-core-i5-4440",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760/AMD Radeon HD 7970"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 (64 bits)",
+    "processor": "Intel Core i5-4440 (3.10GHz)/AMD FX-6300 (3.50GHz)",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760/AMD Radeon HD 7970",
+    "directx": "Version 11",
+    "storage": "40 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-8700 (3.20GHz)/AMD Ryzen 7 2700 (3.20GHz)"
+    ],
+    "ids": [
+     "intel-core-i7-8700",
+     "amd-ryzen-7-2700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 980/AMD Radeon R9 390X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-980",
+     "amd-radeon-r9-390x"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 (64 bits)",
+    "processor": "Intel Core i7-8700 (3.20GHz)/AMD Ryzen 7 2700 (3.20GHz)",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 980/AMD Radeon R9 390X",
+    "directx": "Version 11",
+    "storage": "40 GB available space",
+    "additional notes": "SSD is recommended."
+   }
+  }
+ }
+}

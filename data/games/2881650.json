@@ -1,0 +1,84 @@
+{
+ "appid": 2881650,
+ "name": "Content Warning",
+ "slug": "content-warning",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 @ 2.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050 ti",
+     "AMD R9 380"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti",
+     "amd-radeon-r9-380",
+     "amd-radeon-r9-380-2gb",
+     "amd-radeon-r9-380-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 10",
+    "processor": "Intel Core i5 @ 2.5 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050 ti or AMD R9 380",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space",
+    "additional notes": "Only runs on 64 bit systems"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 @ 3.0 GHz",
+     "AMD Ryzen 5"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060",
+     "AMD RX 470"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 11",
+    "processor": "Intel Core i5 @ 3.0 GHz or AMD Ryzen 5 or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 or AMD RX 470 or equivalent",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "additional notes": "Only runs on 64 bit systems"
+   }
+  }
+ }
+}

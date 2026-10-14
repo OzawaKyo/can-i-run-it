@@ -1,0 +1,50 @@
+{
+ "appid": 407530,
+ "name": "ARK: The Survival Of The Fittest",
+ "slug": "ark-the-survival-of-the-fittest",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Dual-Core 64-bit CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "GTX 500 DirectX10 Compatible GPU with Video RAM 2GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 3.90625,
+   "vramGb": 2,
+   "directX": 10,
+   "storage": {
+    "gb": 36.1328125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-Bit Windows 7 Service Pack 1, or Windows 8/10",
+    "processor": "2 GHz Dual-Core 64-bit CPU",
+    "memory": "4000 MB RAM",
+    "graphics": "GTX 500 or Above DirectX10 Compatible GPU with 2 GB or More Video RAM",
+    "directx": "Version 10",
+    "storage": "37000 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

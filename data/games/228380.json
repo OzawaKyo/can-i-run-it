@@ -1,0 +1,79 @@
+{
+ "appid": 228380,
+ "name": "Wreckfest",
+ "slug": "wreckfest",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 with 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce GTX 560",
+     "AMD Radeon HD 7770"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i3 with 2.8 GHz or AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA Geforce GTX 560 or AMD Radeon HD 7770",
+    "directx": "Version 11",
+    "storage": "32 GB available space",
+    "sound card": "DirectX-compatible",
+    "additional notes": "This config will run the game with approx 30 FPS on 1080p"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 with 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD Radeon R9 380X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-380x"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5 with 3.0 GHz or AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 or AMD Radeon R9 380X",
+    "directx": "Version 11",
+    "storage": "32 GB available space",
+    "sound card": "DirectX-compatible",
+    "additional notes": "This config will run the game with approx 60 FPS on 1080p"
+   }
+  }
+ }
+}

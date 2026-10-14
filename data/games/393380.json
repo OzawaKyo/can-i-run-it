@@ -1,0 +1,86 @@
+{
+ "appid": 393380,
+ "name": "Squad",
+ "slug": "squad",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400",
+     "AMD Ryzen 3600"
+    ],
+    "ids": [
+     "intel-core-i5-8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1060 6GB",
+     "AMD Radeon RX 580 with at least of VRAM 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 65,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (x64)",
+    "processor": "Intel Core i5-8400, AMD Ryzen 3600",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 1060 6GB, AMD Radeon RX 580 with at least 6GB of VRAM",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "65 GB available space",
+    "additional notes": "A teamwork oriented mindset"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-12400",
+     "AMD Ryzen 5600"
+    ],
+    "ids": [
+     "intel-core-i5-12400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce RTX 3060",
+     "AMD Radeon RX 6600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb",
+     "amd-radeon-rx-6600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 65,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "Intel Core i5-12400, AMD Ryzen 5600",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GeForce RTX 3060, AMD Radeon RX 6600 XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "65 GB available space",
+    "additional notes": "A microphone"
+   }
+  }
+ }
+}

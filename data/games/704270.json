@@ -1,0 +1,73 @@
+{
+ "appid": 704270,
+ "name": "Generation Zero®",
+ "slug": "generation-zero",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 Quad Core"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GTX 660",
+     "ATI HD7870 - VRAM 2GB",
+     "Intel Iris Pro Graphics 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "intel-hd-graphics",
+     "intel-iris-pro-graphics-580"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit OS - Windows 7 with Service Pack 1",
+    "processor": "Intel i5 Quad Core",
+    "memory": "8 GB RAM",
+    "graphics": "nVidia GTX 660 / ATI HD7870 - 2GB VRAM / Intel Iris Pro Graphics 580",
+    "storage": "35 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 Quad Core"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GTX 960",
+     "R9 280 - VRAM 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r9-280"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit OS - Windows 10",
+    "processor": "Intel i7 Quad Core",
+    "memory": "16 GB RAM",
+    "graphics": "nVidia GTX 960 / R9 280 - 4GB VRAM",
+    "storage": "35 GB available space"
+   }
+  }
+ }
+}

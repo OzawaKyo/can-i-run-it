@@ -1,0 +1,50 @@
+{
+ "appid": 491950,
+ "name": "Orwell: Keeping an Eye On You",
+ "slug": "orwell-keeping-an-eye-on-you",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "GPU: DirectX 9 compatible"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2+",
+    "processor": "2.0 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "GPU: DirectX 9 compatible",
+    "directx": "Version 9.0",
+    "storage": "3 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

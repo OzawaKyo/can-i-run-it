@@ -1,0 +1,73 @@
+{
+ "appid": 201270,
+ "name": "Total War: SHOGUN 2",
+ "slug": "total-war-shogun-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel Dual Core processor",
+     "2.6 GHz Intel Single Core processor",
+     "or AMD equivalent (with SSE2)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "256 MB DirectX 9.0c compatible card (shader model 3)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / Vista / XP",
+    "processor": "2 GHz Intel Dual Core processor / 2.6 GHz Intel Single Core processor, or AMD equivalent (with SSE2)",
+    "memory": "1GB RAM (XP), 2GB RAM (Vista / Windows7)",
+    "graphics": "256 MB DirectX 9.0c compatible card (shader model 3)",
+    "directx": "DirectX 9.0c",
+    "storage": "32GB free hard disk space",
+    "screen resolution": "1024x768 minimum"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2nd Generation Intel Core i5 processor (or greater)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 5000 and 6000 series graphics card DirectX 11 compatible card"
+    ],
+    "ids": [
+     "intel-hd-graphics-5000"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / Vista / XP",
+    "processor": "2nd Generation Intel Core i5 processor (or greater), or AMD equivalent",
+    "memory": "2GB RAM (XP), 4GB RAM (Vista / Windows7)",
+    "graphics": "AMD Radeon HD 5000 and 6000 series graphics card or equivalent DirectX 11 compatible card",
+    "directx": "DirectX 9.0c",
+    "storage": "32GB free hard disk space",
+    "screen resolution": "1280x1024 minimum"
+   }
+  }
+ }
+}

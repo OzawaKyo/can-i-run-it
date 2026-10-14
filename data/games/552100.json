@@ -1,0 +1,45 @@
+{
+ "appid": 552100,
+ "name": "Brick Rigs",
+ "slug": "brick-rigs",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7300U 3.5 GHz",
+     "AMD Ryzen 3 3300U"
+    ],
+    "ids": [
+     "intel-core-i5-7300u",
+     "amd-ryzen-3-3300u"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 960",
+     "AMD R9 280"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r9-280"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 (64-bit)",
+    "processor": "Intel Core i5-7300U 3.5 GHz, AMD Ryzen 3 3300U or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 960, AMD R9 280 or equivalent",
+    "directx": "Version 11",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "appid": 304430,
+ "name": "INSIDE",
+ "slug": "inside",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad Q6600 @ 2.4 GHz",
+     "AMD FX 8120 @ 3.1 GHz"
+    ],
+    "ids": [
+     "intel-core-2-quad-q6600",
+     "amd-fx-8120"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GT 630",
+     "650m",
+     "AMD Radeon HD6570"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-630",
+     "amd-radeon-hd-6570",
+     "amd-radeon-hd-6570-2gb",
+     "amd-radeon-hd-6570-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit OS required)",
+    "processor": "Intel Core 2 Quad Q6600 @ 2.4 GHz, AMD FX 8120 @ 3.1 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GT 630 / 650m, AMD Radeon HD6570 or equivalent",
+    "directx": "Version 9.0c",
+    "storage": "3 GB available space",
+    "sound card": "100% DirectX 9.0c compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 920 @ 2.7 GHz",
+     "AMD Phenom II 945 @ 3.0 GHz"
+    ],
+    "ids": [
+     "intel-core-i7-920"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 660",
+     "Radeon R9-270"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-r9-270"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or later (64-bit OS required)",
+    "processor": "Intel i7 920 @ 2.7 GHz, AMD Phenom II 945 @ 3.0 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 660, Radeon R9-270",
+    "directx": "Version 11",
+    "storage": "3 GB available space",
+    "sound card": "100% DirectX 9.0c compatible sound card"
+   }
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "appid": 242050,
+ "name": "Assassin’s Creed® IV Black Flag™",
+ "slug": "assassin-s-creed-iv-black-flag",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2Quad Q8400 @ 2.6 GHz",
+     "AMD Athlon II X4 620 @ 2.6 GHz"
+    ],
+    "ids": [
+     "intel-core-2-quad-q8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce GTX 260",
+     "AMD Radeon HD 4870 (512MB VRAM with shader Model 4.0)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista SP2",
+    "processor": "Intel Core2Quad Q8400 @ 2.6 GHz or AMD Athlon II X4 620 @ 2.6 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "Nvidia Geforce GTX 260 or AMD Radeon HD 4870 (512MB VRAM with shader Model 4.0 or higher)",
+    "storage": "30 GB available space",
+    "sound card": "DirectX Compatible Sound Card with latest drivers",
+    "additional notes": "Windows-Compatible keyboard and mouse required, controller optional."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2400S @ 2.5 GHz",
+     "AMD Phenom II x4 940 @ 3.0 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-2400s",
+     "amd-phenom-ii-x4-940-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 470",
+     "AMD Radeon HD 5850 (1024MB VRAM with Shader Model 5.0)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista SP2",
+    "processor": "Intel Core i5 2400S @ 2.5 GHz or better or AMD Phenom II x4 940 @ 3.0 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 470 or AMD Radeon HD 5850 (1024MB VRAM with Shader Model 5.0) or better",
+    "storage": "30 GB available space",
+    "sound card": "DirectX Compatible Sound Card with latest drivers",
+    "additional notes": "Supported video cards at the time of release: Nvidia GeForce GTX 260 or better and GeForce GTX 400, GTX 500, GTX 600 and GTX 700 series. AMD Radeon HD4870 or better and Radeon HD5000, HD6000 and HD7000 series. Note: Latest GeForce drivers tested: 327.23 for all series. Latest Radeon drivers tested: 13.1 for Radeon HD4000, 13.4 for Radeon HD5000, HD6000 and HD7000 series on Vista and 13.9 for Radeon HD5000, HD6000 and HD7000 series on Win7 and Win8. Laptop versions of these cards may work but are NOT officially supported."
+   }
+  }
+ }
+}

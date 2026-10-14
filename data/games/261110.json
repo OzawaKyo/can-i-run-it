@@ -1,0 +1,74 @@
+{
+ "appid": 261110,
+ "name": "Killer is Dead - Nightmare Edition",
+ "slug": "killer-is-dead-nightmare-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad 2.3 Ghz",
+     "AMD Phenom X4 2.3 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 24
+   },
+   "gpu": {
+    "raw": [
+     "GPU that supports Shader Model 3.0"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista 64-bit",
+    "processor": "Intel Core 2 Quad 2.3 Ghz or AMD Phenom X4 2.3 Ghz or above",
+    "memory": "4 GB RAM",
+    "graphics": "GPU that supports Shader Model 3.0",
+    "directx": "Version 10",
+    "storage": "13 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel/AMD Quad Core 2.3 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 32
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTS 250",
+     "AMD Radeon HD 2900"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 Professional 64-bit, Windows 8 64-bit, Windows 8.1 64-bit",
+    "processor": "Intel/AMD Quad Core 2.3 Ghz or above",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTS 250 or AMD Radeon HD 2900",
+    "directx": "Version 11",
+    "storage": "13 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "appid": 1116170,
+ "name": "CyberCorp",
+ "slug": "cybercorp",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Celeron",
+     "AMD Phenom"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 4000",
+     "Radeon R3"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (64-bit)",
+    "processor": "Intel Celeron / AMD Phenom",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD 4000 / Radeon R3",
+    "storage": "6 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3",
+     "AMD Ryzen 3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 1030",
+     "AMD RX 550"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107",
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 (64-bit)",
+    "processor": "Intel Core i3 / AMD Ryzen 3",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GT 1030 / AMD RX 550",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

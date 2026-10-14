@@ -1,0 +1,91 @@
+{
+ "appid": 304390,
+ "name": "FOR HONOR™",
+ "slug": "for-honor",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4150 | AMD FX-4300"
+    ],
+    "ids": [
+     "intel-core-i3-4150",
+     "amd-fx-4300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX950",
+     "GTX1050 with VRAM | AMD Radeon R9 270 2GB",
+     "R9 370",
+     "RX460 with VRAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r7-370-4gb",
+     "amd-radeon-r9-370-2gb",
+     "amd-radeon-r9-370-4gb",
+     "amd-radeon-rx-460-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "Intel Core i3-4150 | AMD FX-4300 or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX950 / GTX1050 with 2 GB VRAM | AMD Radeon R9 270 / R9 370 / RX460 with 2 GB VRAM",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "90 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card",
+    "additional notes": "Mouse and Keyboard supported. Game contains EasyAntiCheat anti-cheat technology and Denuvo anti-tamper technology."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7500 | AMD Ryzen 5 1400"
+    ],
+    "ids": [
+     "amd-ryzen-5-1400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX1060 with VRAM | AMD Radeon RX580 with 4 GB VRAM 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 9,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, Windows 11 (64-bit versions only)",
+    "processor": "Intel Core i5-7500 | AMD Ryzen 5 1400 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX1060 with 3 GB VRAM or more | AMD Radeon RX580 with 4 GB VRAM or more",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "90 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card",
+    "additional notes": "Mouse and Keyboard supported. Game contains EasyAntiCheat anti-cheat technology and Denuvo anti-tamper technology."
+   }
+  }
+ }
+}

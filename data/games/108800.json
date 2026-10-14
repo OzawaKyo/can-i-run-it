@@ -1,0 +1,44 @@
+{
+ "appid": 108800,
+ "name": "Crysis 2 - Maximum Edition",
+ "slug": "crysis-2-maximum-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo at 2Ghz",
+     "or AMD Athlon 64 x2 2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVidia 8800GT with 512Mb RAM",
+     "ATI 3850HD with 512Mb RAM"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista or Windows 7, with the latest Service Pack",
+    "processor": "Intel Core 2 Duo at 2Ghz, or AMD Athlon 64 x2 2Ghz, or better",
+    "memory": "2GB",
+    "storage": "9Gb",
+    "graphics": "NVidia 8800GT with 512Mb RAM or better, ATI 3850HD with 512Mb RAM or better",
+    "sound": "DirectX Compatible Sound Card",
+    "directx": "9.0c"
+   }
+  }
+ }
+}

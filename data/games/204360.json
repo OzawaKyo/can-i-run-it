@@ -1,0 +1,40 @@
+{
+ "appid": 204360,
+ "name": "Castle Crashers®",
+ "slug": "castle-crashers",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2GHz+"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 0.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 10",
+    "processor": "Intel Core 2 Duo 2GHz+ or better",
+    "memory": "8 GB RAM",
+    "graphics": "2GB RAM",
+    "directx": "9.0c",
+    "storage": "512 MB HD space",
+    "sound": "DirectX compatible",
+    "other requirements": "Broadband Internet connection",
+    "additional": "Supports Direct Input compatible controllers"
+   }
+  }
+ }
+}

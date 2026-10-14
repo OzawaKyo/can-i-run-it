@@ -1,0 +1,50 @@
+{
+ "appid": 202970,
+ "name": "Call of Duty®: Black Ops II",
+ "slug": "call-of-duty-black-ops-ii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E8200 2.66 GHz",
+     "AMD Phenom X3 8750 2.4 GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8200",
+     "amd-phenom-x3-8750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 8800GT 512 MB",
+     "ATI Radeon HD 3870 512 MB"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista SP2 or Windows 7. Windows XP is not supported",
+    "processor": "Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz",
+    "memory": "2 GB for 32-bit OS or 4 GB for 64-bit OS",
+    "graphics": "Nvidia GeForce 8800GT 512 MB or ATI Radeon HD 3870 512 MB",
+    "directx": "Version 9.0c",
+    "storage": "16 GB",
+    "sound": "DirectX 11.0c compatible",
+    "additional": "Broadband connection required for activation and multiplayer gameplay",
+    "note": "Windows XP Operating System is not supported",
+    "further information": "Available here"
+   }
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "appid": 312530,
+ "name": "Duck Game",
+ "slug": "duck-game",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0GHZ"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Pixel Shader 2.0"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 0.146484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2.0GHZ",
+    "memory": "1 GB RAM",
+    "graphics": "Pixel Shader 2.0",
+    "directx": "Version 9.0",
+    "storage": "150 MB available space"
+   }
+  }
+ }
+}

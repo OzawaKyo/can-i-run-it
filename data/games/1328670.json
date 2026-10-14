@@ -1,0 +1,86 @@
+{
+ "appid": 1328670,
+ "name": "Mass Effect™ Legendary Edition",
+ "slug": "mass-effect-legendary-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 3570",
+     "AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i5-3570",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GPU: NVIDIA GTX 760",
+     "AMD Radeon 7970",
+     "R9280X GPU RAM: Video Memory 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "nvidia-xgpu",
+     "amd-radeon-r9-280x"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 120,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Intel Core i5 3570 or AMD FX-8350",
+    "memory": "8 GB RAM",
+    "graphics": "GPU: NVIDIA GTX 760, AMD Radeon 7970 / R9280X GPU RAM: 2 GB Video Memory",
+    "directx": "Version 11",
+    "storage": "120 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-7700",
+     "AMD Ryzen 7 3700X"
+    ],
+    "ids": [
+     "intel-core-i7-7700",
+     "amd-ryzen-7-3700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GPU: NVIDIA GTX 1070",
+     "RTX 200",
+     "Radeon Vega 56",
+     "GPU RAM: Video Memory 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 120,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Intel Core i7-7700 or AMD Ryzen 7 3700X",
+    "memory": "16 GB RAM",
+    "graphics": "GPU: NVIDIA GTX 1070 / RTX 200, Radeon Vega 56, GPU RAM: 4 GB Video Memory",
+    "directx": "Version 11",
+    "storage": "120 GB available space"
+   }
+  }
+ }
+}

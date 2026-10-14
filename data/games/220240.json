@@ -1,0 +1,76 @@
+{
+ "appid": 220240,
+ "name": "Far Cry 3",
+ "slug": "far-cry-3",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E6700 @ 2.6 GHz",
+     "AMD Athlon64 X2 6000+ @ 3.0Ghz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "512MB Video RAM ( Video RAM) 1GB",
+     "DirectX9c (DirectX11) Shader Model 3.0 (Shader Model 5.0)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Windows Vista",
+    "processor": "Intel Core2 Duo E6700 @ 2.6 GHz or AMD Athlon64 X2 6000+ @ 3.0Ghz or better",
+    "memory": "4 GB RAM",
+    "graphics": "512MB Video RAM (1GB Video RAM), DirectX9c (DirectX11) Shader Model 3.0 (Shader Model 5.0)",
+    "directx": "9.0c",
+    "storage": "15 GB HD space",
+    "sound": "DirectX Compatible (Recommended Surround Sound 5.1 capable)",
+    "other requirements": "Broadband Internet connection",
+    "additional": "*Supported Video Cards at Time of Release: AMD Radeon HD 2900 / 3000 / 4000 / 5000 / 6000 / 7000 series, NVIDIA GeForce 8800 GTX / 9 / 200 / 400 / 500 / 600 series. Laptop versions of these cards may work, but are not supported. These chipsets are the only ones that will run this game. For the most up-to-date minimum requirement listings, please visit the FAQ on our support website at . Requires a UPlay account"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "512MB Video RAM ( Video RAM) 1GB",
+     "DirectX9c (DirectX11) Shader Model 3.0 (Shader Model 5.0)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "memory": "4 GB RAM",
+    "graphics": "512MB Video RAM (1GB Video RAM), DirectX9c (DirectX11) Shader Model 3.0 (Shader Model 5.0)",
+    "directx": "11",
+    "storage": "15 GB HD space",
+    "sound": "DirectX Compatible (Recommended Surround Sound 5.1 capable)",
+    "other requirements": "Broadband Internet connection",
+    "additional": "*Supported Video Cards at Time of Release: AMD Radeon HD 2900 / 3000 / 4000 / 5000 / 6000 / 7000 series, NVIDIA GeForce 8800 GTX / 9 / 200 / 400 / 500 / 600 series. Laptop versions of these cards may work, but are not supported. These chipsets are the only ones that will run this game. For the most up-to-date minimum requirement listings, please visit the FAQ on our support website at . Requires a UPlay account"
+   }
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "appid": 254700,
+ "name": "Resident Evil 4 (2005)",
+ "slug": "resident-evil-4-2005",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.4 Ghz",
+     "AMD Athlon X2 2.8 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8800GTS",
+     "ATI Radeon HD 4850"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core 2 Duo 2.4 Ghz or better, AMD Athlon X2 2.8 Ghz or better",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 8800GTS or better, ATI Radeon HD 4850 or better",
+    "directx": "Version 9.0c",
+    "storage": "15 GB available space",
+    "sound card": "Standard audio device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad 2.7 Ghz",
+     "AMD Phenom II X4 3 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 560"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core 2 Quad 2.7 Ghz or better, AMD Phenom II X4 3 Ghz or better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 560 or better",
+    "directx": "Version 9.0c",
+    "storage": "15 GB available space"
+   }
+  }
+ }
+}

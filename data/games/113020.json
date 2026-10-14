@@ -1,0 +1,63 @@
+{
+ "appid": 113020,
+ "name": "Monaco: What's Yours Is Mine",
+ "slug": "monaco-what-s-yours-is-mine",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.2GHz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 12
+   },
+   "gpu": {
+    "raw": [
+     "Graphics Card that supports Pixel Shader 2.0 and Vertex Shader 2.0(Vertex Shader Support can be supported with software emulation)"
+    ],
+    "ids": []
+   },
+   "directX": 9,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or later",
+    "processor": "1.2GHz processor",
+    "graphics": "Graphics Card that supports Pixel Shader 2.0 and Vertex Shader 2.0(Vertex Shader Support can be supported with software emulation)",
+    "directx": "9.0",
+    "storage": "500 MB HD space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "1.4GHz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 14
+   },
+   "gpu": {
+    "raw": [
+     "Graphics Card that supports Pixel Shader 3.0 and Vertex Shader 2.0(Vertex Shader Support can be supported with software emulation)"
+    ],
+    "ids": []
+   },
+   "directX": 9,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or later",
+    "processor": "1.4GHz processor",
+    "graphics": "Graphics Card that supports Pixel Shader 3.0 and Vertex Shader 2.0(Vertex Shader Support can be supported with software emulation)",
+    "directx": "9.0",
+    "storage": "500 MB HD space"
+   }
+  }
+ }
+}

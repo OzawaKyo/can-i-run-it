@@ -1,0 +1,40 @@
+{
+ "appid": 224600,
+ "name": "Defiance",
+ "slug": "defiance",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.0 GHz CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "512MB video card (NVIDIA GeForce 8600, ATI Radeon HD 2900, or Intel HD 4000 integrated graphics)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2",
+    "processor": "Intel Core 2 Duo 2.0 GHz CPU or better",
+    "memory": "2 GB System RAM",
+    "graphics": "512MB video card (NVIDIA GeForce 8600, ATI Radeon HD 2900, or Intel HD 4000 integrated graphics or better)",
+    "directx": "9.0c",
+    "storage": "15 GB free hard drive space",
+    "sound": "DirectX 8.1 compatible sound card",
+    "internet": "Broadband internet connection"
+   }
+  }
+ }
+}

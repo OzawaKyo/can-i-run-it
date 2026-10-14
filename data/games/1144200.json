@@ -1,0 +1,83 @@
+{
+ "appid": 1144200,
+ "name": "Ready or Not",
+ "slug": "ready-or-not",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4430",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-4430",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 960 2GB",
+     "AMD Radeon R7 370 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r9-370-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, Windows 11",
+    "processor": "Intel Core i5-4430 / AMD FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
+    "directx": "Version 11",
+    "storage": "60 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5-1600",
+     "Intel Core i5-7600K"
+    ],
+    "ids": [
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af",
+     "intel-core-i5-7600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1060 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10, 64-bit Windows 11",
+    "processor": "AMD Ryzen 5-1600 / Intel Core i5-7600K",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 1060 6GB or better",
+    "directx": "Version 11",
+    "storage": "60 GB available space"
+   }
+  }
+ }
+}

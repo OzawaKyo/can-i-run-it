@@ -1,0 +1,70 @@
+{
+ "appid": 675010,
+ "name": "MudRunner",
+ "slug": "mudrunner",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium Dual Core 2.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 9600 GT"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista/7/8/10 (64-bit)",
+    "processor": "Intel Pentium Dual Core 2.0GHz or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 9600 GT or equivalent",
+    "storage": "1 GB available space",
+    "additional notes": "INTERNET CONNECTION REQUIRED FOR GAME ACTIVATION AND ONLINE GAME. Gamepad Microsoft Xbox Controller for Windows. Confirmed Steering Wheel support for Logitech G25/G27 - Other models have not been tested."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.5GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 470"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista/7/8/10 (64-bit)",
+    "processor": "Intel Core 2 Duo 2.5GHz or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 470 or equivalent",
+    "storage": "1 GB available space",
+    "additional notes": "INTERNET CONNECTION REQUIRED FOR GAME ACTIVATION AND ONLINE GAME. Gamepad Microsoft Xbox Controller for Windows. Confirmed Steering Wheel support for Logitech G25/G27 - Other models have not been tested."
+   }
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "appid": 13520,
+ "name": "Far Cry®",
+ "slug": "far-cry",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 1 GHz",
+     "Pentium III 1 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "64 MB DirectX 9.0b-compliant graphics card (see supported list*)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.25,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Windows 2000/XP (only)",
+    "processor": "AMD Athlon 1 GHz or Pentium III 1 GHz",
+    "memory": "256 MB",
+    "graphics": "64 MB DirectX 9.0b-compliant graphics card (see supported list*)",
+    "sound": "DirectX 9.0b compliant PCI card (Sound Blaster Audigy series recommended)",
+    "directx": "DirectX 9.0b or higher",
+    "storage": "4 GB",
+    "multiplay": "Broadband with 64 Kbps upstream (512 Kbps upstream to host 8 players)",
+    "mouse/keyboard": "Windows compatible mouse and keyboard required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 2-3 GHz",
+     "Pentium 4 2-3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "128 MB GeForce 4 128 MB to GeForce FX 5950; ATI Radeon 9500-9800 XT"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "raw": {
+    "supported os": "Windows 2000/XP (only)",
+    "processor": "AMD Athlon 2-3 GHz or Pentium 4 2-3 GHz",
+    "memory": "512-1024 MB",
+    "sound": "Sound Blaster Audigy series (see supported list*)",
+    "graphics": "128 MB GeForce 4 128 MB to GeForce FX 5950; ATI Radeon 9500-9800 XT",
+    "*supported video cards at time of retail release": "NVIDIA GeForce 2/3/4/FX families ( NVIDIA based cards must have ForceWare drivers 53.03 or later; GeForce 2 and GeForce 4 MX cards do not support all graphics features). ATI Radeon 8500/9000 families (ATI Radeon 9500-9800 XT recommended; ATI-based cards must have Catalyst drivers 3.9 or higher). Laptop models of the listed cards are not fully supported. For an up-to-date list of supported chipsets, video cards, and operating systems, please visit the FAQ for this game at: ."
+   }
+  }
+ }
+}

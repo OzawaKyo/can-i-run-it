@@ -1,0 +1,84 @@
+{
+ "appid": 232050,
+ "name": "Eador. Masters of the Broken World",
+ "slug": "eador-masters-of-the-broken-world",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 2",
+     "0 GHz/AMD 2000+"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 7300/Radeon 9200"
+    ],
+    "ids": [
+     "nvidia-geforce-9200-c78",
+     "nvidia-geforce-9200-c79"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP SP2 / Vista / 7",
+    "processor": "Intel Pentium 2,0 GHz/AMD 2000+",
+    "memory": "2 GB RAM",
+    "graphics": "GeForce 7300/Radeon 9200",
+    "directx": "9.0c",
+    "storage": "2 GB HD space",
+    "sound": "DirectX compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 1.6/AMD 3000+"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8800/Radeon X1900"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "nvidia-geforce-8800m-gts",
+     "nvidia-geforce-8800m-gtx"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP SP2 / Vista / 7",
+    "processor": "Intel Core 2 Duo 1.6/AMD 3000+",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce 8800/Radeon X1900",
+    "directx": "9.0c",
+    "storage": "4 GB HD space",
+    "sound": "DirectX compatible"
+   }
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "appid": 253960,
+ "name": "Jack Orlando: Director's Cut",
+ "slug": "jack-orlando-director-s-cut",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD Singlecore CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "any Windows compatible GA"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 0.68359375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7 or 8",
+    "processor": "Intel or AMD Singlecore CPU",
+    "memory": "1 GB RAM",
+    "graphics": "any Windows compatible GA",
+    "directx": "Version 9.0",
+    "storage": "700 MB available space",
+    "sound card": "Windows Compatible Sound Card",
+    "additional notes": "Mouse, Keyboard"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD Singlecore CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce",
+     "or ATI/AMD Radeon"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 0.68359375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7 or 8",
+    "processor": "Intel or AMD Singlecore CPU",
+    "memory": "2 GB RAM",
+    "graphics": "nVidia GeForce, or ATI/AMD Radeon",
+    "directx": "Version 9.0c",
+    "storage": "700 MB available space",
+    "sound card": "Windows Compatible Sound Card",
+    "additional notes": "Mouse, Keyboard"
+   }
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "appid": 282440,
+ "name": "Quake Live",
+ "slug": "quake-live",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 4 MX",
+     "ATI Radeon 8500",
+     "Intel i915 chipset 1024x600 resolution"
+    ],
+    "ids": [
+     "nvidia-geforce-8500-gt-256mb",
+     "nvidia-geforce-8500-gt-512mb",
+     "nvidia-geforce-8500-gt-1gb"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "2 GHz Intel Processor or better",
+    "memory": "1 GB RAM",
+    "graphics": "NVIDIA GeForce 4 MX or better, ATI Radeon 8500 or better, Intel i915 chipset or better 1024x600 resolution",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space",
+    "sound card": "Stereo Soundcard"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel Quad Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 7 Series",
+     "ATI Radeon X1800 series 1920x1080 resolution"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "2 GHz Intel Quad Core Processor or better",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 7 Series or better, ATI Radeon X1800 series or better 1920x1080 resolution",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "2 GB available space",
+    "sound card": "Stereo Soundcard"
+   }
+  }
+ }
+}

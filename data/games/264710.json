@@ -1,0 +1,75 @@
+{
+ "appid": 264710,
+ "name": "Subnautica",
+ "slug": "subnautica",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Haswell 2 cores",
+     "4 threads @ 2.5Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 4600 - This includes most GPUs scoring greater than 950 points in the 3DMark Fire Strike benchmark"
+    ],
+    "ids": [
+     "intel-hd-graphics-4600"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista SP2 or newer, 64-bit",
+    "processor": "Intel Haswell 2 cores / 4 threads @ 2.5Ghz or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD 4600 or equivalent - This includes most GPUs scoring greater than 950 points in the 3DMark Fire Strike benchmark",
+    "directx": "Version 11",
+    "storage": "20 GB available space",
+    "vr support": "SteamVR. Keyboard or gamepad required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Haswell 4 cores",
+     "4 threads @ 3.2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 550 Ti 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-550-ti"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista SP2 or newer, 64-bit",
+    "processor": "Intel Haswell 4 cores / 4 threads @ 3.2Ghz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 550 Ti or equivalent, 2GB VRAM",
+    "directx": "Version 11",
+    "storage": "20 GB available space"
+   }
+  }
+ }
+}

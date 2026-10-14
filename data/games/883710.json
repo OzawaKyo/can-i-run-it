@@ -1,0 +1,87 @@
+{
+ "appid": 883710,
+ "name": "Resident Evil 2",
+ "slug": "resident-evil-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 960",
+     "AMD Radeon RX 460"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 26,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10 (64-BIT Required)",
+    "processor": "Intel Core i5-4460 or AMD FX-6300 or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 960 or AMD Radeon RX 460",
+    "directx": "Version 12",
+    "storage": "26 GB available space",
+    "additional notes": "This game is expected to run at 1080p/30 FPS. If you have don't have enough graphics memory to run the game at your selected texture quality, you must go to Options > Graphics and lower the texture quality or shadow quality, or decrease the resolution. An internet connection is required for product activation. (Network connectivity uses Steam developed by Valve Corporation.)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770",
+     "AMD FX-9590"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-9590"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060",
+     "AMD Radeon RX 480 with VRAM 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 26,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10 (64-BIT Required)",
+    "processor": "Intel Core i7-3770 or AMD FX-9590 or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 480 with 3GB VRAM",
+    "directx": "Version 12",
+    "storage": "26 GB available space",
+    "additional notes": "This game is expected to run at 1080p/60 FPS. An internet connection is required for product activation. (Network connectivity uses Steam developed by Valve Corporation.)"
+   }
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "appid": 370910,
+ "name": "Kathy Rain",
+ "slug": "kathy-rain",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "300 MHz Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "320 x 240 32 bit"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.125,
+   "directX": 9,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "300 MHz Processor",
+    "memory": "128 MB RAM",
+    "graphics": "320 x 240 32 bit",
+    "directx": "Version 9.0",
+    "storage": "1 GB available space",
+    "additional notes": "Video: DirectX & Directdraw Supported"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "1 gigahertz (GHz) 32-bit (x86)",
+     "64-bit (x64) processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9 graphics device with WDDM 1.0 driver"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or higher",
+    "processor": "1 gigahertz (GHz) or faster 32-bit (x86) or 64-bit (x64) processor",
+    "memory": "2 GB RAM",
+    "graphics": "DirectX 9 graphics device with WDDM 1.0 or higher driver",
+    "directx": "Version 9.0",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

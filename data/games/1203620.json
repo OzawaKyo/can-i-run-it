@@ -1,0 +1,90 @@
+{
+ "appid": 1203620,
+ "name": "Enshrouded",
+ "slug": "enshrouded",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6400 (2.7 GHz 4 Core)",
+     "AMD Ryzen 5 1500X (3.5 GHz 4 Core)"
+    ],
+    "ids": [
+     "intel-core-i5-6400",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 (req. VRAM) 6GB",
+     "AMD Radeon RX 580 (req. VRAM) 6GB",
+     "Intel ARC A380"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-6400 (2.7 GHz 4 Core) / AMD Ryzen 5 1500X (3.5 GHz 4 Core) or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (req. 6GB VRAM) / AMD Radeon RX 580 (req. 6GB VRAM) / Intel ARC A380",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space",
+    "sound card": "on board"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7-8700 (3.7 GHz 6 Core)",
+     "AMD Ryzen 7 2700X (3.7 GHz 8 Core)"
+    ],
+    "ids": [
+     "intel-core-i7-8700",
+     "amd-ryzen-7-2700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA RTX 2070 Super (req. VRAM) 6GB",
+     "AMD Radeon RX 6700 XT (req. VRAM) 6GB",
+     "Intel ARC A770"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070-super",
+     "amd-radeon-rx-6700-xt",
+     "intel-arc-a770-8gb",
+     "intel-arc-a770-16gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i7-8700 (3.7 GHz 6 Core) / AMD Ryzen 7 2700X (3.7 GHz 8 Core) or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA RTX 2070 Super (req. 6GB VRAM) / AMD Radeon RX 6700 XT (req. 6GB VRAM) / Intel ARC A770",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space",
+    "sound card": "on board",
+    "additional notes": "SSD recommended."
+   }
+  }
+ }
+}

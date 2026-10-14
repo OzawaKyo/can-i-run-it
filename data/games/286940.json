@@ -1,0 +1,73 @@
+{
+ "appid": 286940,
+ "name": "S.K.I.L.L. - Special Force 2 (Shooter)",
+ "slug": "s-k-i-l-l-special-force-2-shooter",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "P4 3",
+     "0 GHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Geforce 6600"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "P4 3,0 GHz or comparable",
+    "memory": "1 GB RAM",
+    "graphics": "Geforce 6600 or comparable",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core2 Duo E6600"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce 8600 GT"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7",
+    "processor": "Core2 Duo E6600 or comparable",
+    "memory": "2 GB RAM",
+    "graphics": "Geforce 8600 GT or comparable",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "appid": 1491000,
+ "name": "War Robots: Frontiers",
+ "slug": "war-robots-frontiers",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3470 @ 3.20GHz"
+    ],
+    "ids": [
+     "intel-core-i5-3470"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660 VRAM 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i5-3470 @ 3.20GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 3GB VRAM",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-9600K @ 3.70GHz"
+    ],
+    "ids": [
+     "intel-core-i5-9600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2070 VRAM 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i5-9600K @ 3.70GHz",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2070 8GB VRAM",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "additional notes": "SSD is recommended"
+   }
+  }
+ }
+}

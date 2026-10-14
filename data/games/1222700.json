@@ -1,0 +1,73 @@
+{
+ "appid": 1222700,
+ "name": "A Way Out",
+ "slug": "a-way-out",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel core i3-2100T @ 2.5GHz/AMD FX 6100"
+    ],
+    "ids": [
+     "intel-core-i3-2100t",
+     "amd-fx-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 650Ti 2GB",
+     "AMD Radeon HD 7750 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti",
+     "amd-radeon-hd-7750-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit, 8.1 64-bit or Windows 10 64-bit",
+    "processor": "Intel core i3-2100T @ 2.5GHz/AMD FX 6100, or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 650Ti 2GB, AMD Radeon HD 7750 2GB",
+    "storage": "25 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 3570K; AMD Ryzen 3 1300x"
+    ],
+    "ids": [
+     "amd-ryzen-3-1300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 960; AMD R9 290"
+    ],
+    "ids": [
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit, 8.1 64-bit or Windows 10 64-bit",
+    "processor": "Intel Core i5 3570K; AMD Ryzen 3 1300x or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GTX 960; AMD R9 290 or equivalent",
+    "storage": "25 GB available space"
+   }
+  }
+ }
+}

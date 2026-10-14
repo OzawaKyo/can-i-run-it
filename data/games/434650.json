@@ -1,0 +1,53 @@
+{
+ "appid": 434650,
+ "name": "Lost Castle / 失落城堡",
+ "slug": "lost-castle",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.6 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8800",
+     "Radeon HD4800 series",
+     "512 MB of memory"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "nvidia-geforce-8800m-gts",
+     "nvidia-geforce-8800m-gtx",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows xp/7/8/10",
+    "processor": "1.6 Ghz",
+    "memory": "2 GB RAM",
+    "graphics": "GeForce 8800 or Radeon HD4800 series, 512 MB of memory",
+    "storage": "2 GB available space",
+    "sound card": "Any"
+   }
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "appid": 640590,
+ "name": "The LEGO® NINJAGO® Movie Video Game",
+ "slug": "the-lego-ninjago-movie-video-game",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Quad Q9300 (4 * 2500)",
+     "AMD A8-3850 (2 * 2900)"
+    ],
+    "ids": [
+     "intel-core-2-quad-q9300",
+     "amd-a8-3850"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 430 (1024 MB)",
+     "Radeon HD 5570 (1024 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-430-gf108-300",
+     "nvidia-geforce-gt-430-gf108-300-2",
+     "nvidia-geforce-gt-430-512mb",
+     "nvidia-geforce-gt-430-1gb-gf108-300",
+     "nvidia-geforce-gt-430-1gb-gf108-300-2",
+     "nvidia-geforce-gt-430-2gb",
+     "nvidia-geforce-gt-430-4gb",
+     "amd-radeon-hd-5570-512mb",
+     "amd-radeon-hd-5570-1gb",
+     "amd-radeon-hd-5570-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/8.1/10 x86 and x64",
+    "processor": "Intel Core2 Quad Q9300 (4 * 2500) or equivalent / AMD A8-3850 (2 * 2900) or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GT 430 (1024 MB) / Radeon HD 5570 (1024 MB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "Windows XP and DirectX 9.0 and below are not supported"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K (4 * 3300)",
+     "AMD FX-6100 (6 * 3300)"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-fx-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 750 Ti (2048 MB)",
+     "Radeon HD 7850 (2048 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/8.1/10 x86 and x64",
+    "processor": "Intel Core i5-2500K (4 * 3300) or equivalent / AMD FX-6100 (6 * 3300) or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 750 Ti (2048 MB) / Radeon HD 7850 (2048 MB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "Windows XP and DirectX 9.0 and below are not supported"
+   }
+  }
+ }
+}

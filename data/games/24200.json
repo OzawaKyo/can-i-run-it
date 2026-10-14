@@ -1,0 +1,39 @@
+{
+ "appid": 24200,
+ "name": "DC Universe™ Online",
+ "slug": "dc-universe-online",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "P4 3.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 7800GTX+",
+     "ATI 1950+ Video Card"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or newer",
+    "processor": "P4 3.0GHz or AMD equivalent",
+    "memory": "1GB RAM",
+    "storage": "30 GB of Free Hard Drive Space",
+    "graphics": "NVIDIA 7800GTX+ or ATI 1950+ Video Card",
+    "audio": "on Board",
+    "network": "Broadband Internet Connection required"
+   }
+  }
+ }
+}

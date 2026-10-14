@@ -1,0 +1,32 @@
+{
+ "appid": 424280,
+ "name": "Iron Snout",
+ "slug": "iron-snout",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "128MB"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 0.01953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7 or 8",
+    "memory": "512 MB RAM",
+    "graphics": "128MB",
+    "storage": "20 MB available space"
+   }
+  }
+ }
+}

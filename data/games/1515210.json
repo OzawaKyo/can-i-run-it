@@ -1,0 +1,53 @@
+{
+ "appid": 1515210,
+ "name": "The Past Within",
+ "slug": "the-past-within",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 9800",
+     "ATI Radeon HD 2600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb",
+     "nvidia-geforce-9800-gt-rebrand",
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "nvidia-geforce-9800-gx2",
+     "nvidia-geforce-9800m-gs",
+     "nvidia-geforce-9800m-gts-512mb",
+     "nvidia-geforce-9800m-gts-1gb",
+     "nvidia-geforce-9800m-gt",
+     "nvidia-geforce-9800m-gtx",
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8+",
+    "processor": "2.4GHz Dual Core",
+    "memory": "1 GB RAM",
+    "graphics": "NVIDIA GeForce 9800 / ATI Radeon HD 2600 XT",
+    "directx": "Version 10",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

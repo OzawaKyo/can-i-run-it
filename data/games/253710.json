@@ -1,0 +1,92 @@
+{
+ "appid": 253710,
+ "name": "theHunter Classic",
+ "slug": "thehunter-classic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel 2 GHz",
+     "AMD Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GeForce 8800",
+     "ATI/AMD Radeon HD 2400 (NVidia GeForce 8800, ATI/AMD Radeon HD 2400)"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "nvidia-geforce-8800m-gts",
+     "nvidia-geforce-8800m-gtx",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/8/7",
+    "processor": "Intel 2 GHz or AMD Dual Core",
+    "memory": "2 GB RAM",
+    "graphics": "NVidia GeForce 8800, ATI/AMD Radeon HD 2400 (NVidia GeForce 8800, ATI/AMD Radeon HD 2400)",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i7-2600 CPU",
+     "HigherIntel(R) Core(TM) i7-2600 CPU @ 3.40GHz (8 CPUs)",
+     "~3.4GHz"
+    ],
+    "ids": [
+     "intel-core-i7-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX760"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel(R) Core(TM) i7-2600 CPU or HigherIntel(R) Core(TM) i7-2600 CPU @ 3.40GHz (8 CPUs), ~3.4GHz or Higher",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX760 or Higher",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "16 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ }
+}

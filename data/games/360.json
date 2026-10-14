@@ -1,0 +1,37 @@
+{
+ "appid": 360,
+ "name": "Half-Life Deathmatch: Source",
+ "slug": "half-life-deathmatch-source",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.7 GHz Processor",
+     "requires support for SSE"
+    ],
+    "ids": [],
+    "estimatedScore": 18
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 8.1,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (32/64-bit)/Vista/XP",
+    "processor": "1.7 GHz Processor, requires support for SSE",
+    "memory": "1024 MB RAM",
+    "directx": "Version 8.1",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

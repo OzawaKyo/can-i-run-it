@@ -1,0 +1,73 @@
+{
+ "appid": 1229490,
+ "name": "ULTRAKILL",
+ "slug": "ultrakill",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Dual Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 560"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "2.4 GHz Dual Core Processor Or Higher",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 560 Or Equivalent",
+    "directx": "Version 11",
+    "storage": "3 GB available space",
+    "sound card": "No vocal interface detected."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.1 GHz Quad Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 43
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GTX 970"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "3.1 GHz Quad Core Processor Or Higher",
+    "memory": "8 GB RAM",
+    "graphics": "Geforce GTX 970 Or Equivalent",
+    "directx": "Version 12",
+    "storage": "3 GB available space",
+    "sound card": "Yet I must scream."
+   }
+  }
+ }
+}

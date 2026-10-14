@@ -1,0 +1,81 @@
+{
+ "appid": 1943950,
+ "name": "Escape the Backrooms",
+ "slug": "escape-the-backrooms",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Quad-core Intel",
+     "AMD 2.5 GHz",
+     "superior"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "Any DirectX 11",
+     "12 compatible card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Quad-core Intel or AMD 2.5 GHz or superior",
+    "memory": "8 GB RAM",
+    "graphics": "Any DirectX 11 or 12 compatible card",
+    "directx": "Version 11",
+    "storage": "25 GB available space",
+    "sound card": "Any",
+    "additional notes": ""
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-10400",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i5-10400",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2060",
+     "AMD Radeon RX 6600"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-6600"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 64-bit",
+    "processor": "Intel Core i5-10400 / AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 6600",
+    "directx": "Version 11",
+    "storage": "25 GB available space"
+   }
+  }
+ }
+}

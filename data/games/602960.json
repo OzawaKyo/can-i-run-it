@@ -1,0 +1,79 @@
+{
+ "appid": 602960,
+ "name": "Barotrauma",
+ "slug": "barotrauma",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "memory (dedicated VRAM or shared RAM) 2GB",
+     "Shader Model 2.0+"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 (64-bit versions)",
+    "processor": "Dual Core 2.4 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "2 GB memory (dedicated VRAM or shared RAM), Shader Model 2.0+",
+    "directx": "Version 11",
+    "storage": "2 GB available space",
+    "additional notes": "64-bit operating system is required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 950",
+     "Radeon R9 370 with at least VRAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r9-370-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 (64-bit versions)",
+    "processor": "Quad Core 3.0 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 950 or Radeon R9 370 or equivalent with at least 2 GB VRAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "2 GB available space",
+    "additional notes": "64-bit operating system is required"
+   }
+  }
+ }
+}

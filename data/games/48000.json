@@ -1,0 +1,39 @@
+{
+ "appid": 48000,
+ "name": "LIMBO",
+ "slug": "limbo",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Integrated graphics from 2020. Shader Model 3.0 required"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 0.146484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or later",
+    "processor": "2 GHz",
+    "memory": "4GB",
+    "storage": "150MB",
+    "graphics": "Integrated graphics from 2020 or later. Shader Model 3.0 required",
+    "directx": "9.0c"
+   }
+  }
+ }
+}

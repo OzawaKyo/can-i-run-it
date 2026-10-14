@@ -1,0 +1,89 @@
+{
+ "appid": 674020,
+ "name": "World War 3",
+ "slug": "world-war-3",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4340K",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i3-4340",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GTX 670/ GTX 1650",
+     "AMD Radeon HD 7950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-670",
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-hd-7950"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (x64)",
+    "processor": "Intel Core i3-4340K / AMD FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "Geforce GTX 670/ GTX 1650 or AMD Radeon HD 7950",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2500k",
+     "AMD Ryzen R5 1600X"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-ryzen-5-1600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GTX 1060",
+     "AMD Radeon R9 390",
+     "AMD RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-r9-390",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (x64)",
+    "processor": "Intel Core i5 2500k / AMD Ryzen R5 1600X",
+    "memory": "16 GB RAM",
+    "graphics": "Geforce GTX 1060 or AMD Radeon R9 390 / AMD RX 580",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "appid": 1172380,
+ "name": "STAR WARS Jedi: Fallen Order™",
+ "slug": "star-wars-jedi-fallen-order",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-6100/Intel i3-3220"
+    ],
+    "ids": [
+     "amd-fx-6100",
+     "intel-core-i3-3220"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 7750",
+     "NVIDIA GeForce GTX 650"
+    ],
+    "ids": [
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb",
+     "nvidia-geforce-gtx-650"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 55,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7/8.1/10",
+    "processor": "AMD FX-6100/Intel i3-3220 or Equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon HD 7750, NVIDIA GeForce GTX 650 or Equivalent",
+    "directx": "Version 11",
+    "storage": "55 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 7 1700/Intel i7-6700K"
+    ],
+    "ids": [
+     "amd-ryzen-7-1700",
+     "intel-core-i7-6700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX Vega 56",
+     "Nvidia GTX 1070/GTX1660Ti"
+    ],
+    "ids": [
+     "amd-radeon-rx-vega-56",
+     "nvidia-geforce-gtx-1070",
+     "nvidia-geforce-gtx-1660-ti"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 55,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7/8.1/10",
+    "processor": "AMD Ryzen 7 1700/Intel i7-6700K or Equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "AMD RX Vega 56, Nvidia GTX 1070/GTX1660Ti or Equivalent",
+    "directx": "Version 11",
+    "storage": "55 GB available space"
+   }
+  }
+ }
+}

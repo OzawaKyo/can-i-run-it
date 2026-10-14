@@ -1,0 +1,102 @@
+{
+ "appid": 102500,
+ "name": "Kingdoms of Amalur: Reckoning™",
+ "slug": "kingdoms-of-amalur-reckoning",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.2GHz Intel Core 2 Duo",
+     "2.6GHz AMD Athlon 64 X2 5000+"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8800",
+     "512MB RAM",
+     "ATI Radeon HD3850",
+     "512MB RAM (with Pixel Shader 3.0 support)",
+     "1280x720 minimum supported resolution"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "nvidia-geforce-8800m-gts",
+     "nvidia-geforce-8800m-gtx",
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb",
+     "amd-radeon-r9-280x"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 10.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 / Windows Vista SP2 / Windows 7 SP1",
+    "processor": "2.2GHz Intel Core 2 Duo or 2.6GHz AMD Athlon 64 X2 5000+",
+    "memory": "1 GB RAM for Windows XP / 2 GB Windows Vista and Windows 7",
+    "storage": "10.5 GB",
+    "graphics": "NVIDIA GeForce 8800 / 512MB RAM or better, ATI Radeon HD3850 / 512MB RAM (with Pixel Shader 3.0 support), 1280x720 minimum supported resolution",
+    "sound": "DirectX 9.0c compatible",
+    "directx": "DirectX 9.0c"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4GHz Intel Core 2 Quad",
+     "2.6GHz AMD Phenom X4"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX260 1GB",
+     "ATI Radeon HD4850",
+     "RAM (with Pixel Shader 3.0 support) 1GB",
+     "1280x720 minimum supported resolution"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb",
+     "amd-radeon-r9-280x"
+    ]
+   },
+   "ramGb": 3,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 10.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 / Windows Vista SP2 / Windows 7 SP1",
+    "processor": "2.4GHz Intel Core 2 Quad or 2.6GHz AMD Phenom X4",
+    "memory": "3 GB RAM for Windows XP / 4 GB Windows Vista and Windows 7",
+    "storage": "10.5 GB",
+    "graphics": "NVIDIA GeForce GTX260 / 1GB RAM or better, ATI Radeon HD4850 / 1GB RAM (with Pixel Shader 3.0 support), 1280x720 minimum supported resolution",
+    "sound": "DirectX 9.0c compatible",
+    "directx": "DirectX 9.0c"
+   }
+  }
+ }
+}

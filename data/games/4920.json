@@ -1,0 +1,75 @@
+{
+ "appid": 4920,
+ "name": "Natural Selection 2",
+ "slug": "natural-selection-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual-core processor 2.4 GHz (Intel Core 2 Duo, i3)",
+     "2.6 GHz (AMD Athlon or FX)"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 compatible dedicated video card with VRAM 2GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "7 64-Bit (SP1) or Windows 10 64-Bit",
+    "processor": "Dual-core processor 2.4 GHz (Intel Core 2 Duo, i3), 2.6 GHz (AMD Athlon or FX)",
+    "memory": "6 GB RAM",
+    "graphics": "DirectX 11 compatible dedicated video card with 2 GB VRAM",
+    "directx": "11.0",
+    "storage": "13 GB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-core processor 3.2 GHz (Intel i5, i7)",
+     "3.6 GHz (AMD Ryzen, FX or Athlon)"
+    ],
+    "ids": [],
+    "estimatedScore": 37
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 compatible dedicated video card with VRAM 4GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "7 64-Bit (SP1) or Windows 10 64-Bit",
+    "processor": "Quad-core processor 3.2 GHz (Intel i5, i7) or 3.6 GHz (AMD Ryzen, FX or Athlon)",
+    "memory": "8 GB RAM",
+    "graphics": "DirectX 11 compatible dedicated video card with 4GB VRAM",
+    "directx": "11.0",
+    "storage": "13 GB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ }
+}

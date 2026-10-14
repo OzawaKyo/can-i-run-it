@@ -1,0 +1,77 @@
+{
+ "appid": 443110,
+ "name": "Armored Warfare",
+ "slug": "armored-warfare",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core2Duo CPU 6700 CPU",
+     "~2.7GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 9500 GT"
+    ],
+    "ids": [
+     "nvidia-geforce-9500-gt"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 34,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11 (x64)",
+    "processor": "Intel(R) Core2Duo CPU 6700 CPU, ~2.7GHz or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce 9500 GT or equivalent",
+    "directx": "Version 9.0",
+    "storage": "34 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5-4440 CPU",
+     "~3.3GHz"
+    ],
+    "ids": [
+     "intel-core-i5-4440"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11 (x64)",
+    "processor": "Intel(R) Core(TM) i5-4440 CPU, ~3.3GHz or equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX660 or equivalent",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  }
+ }
+}

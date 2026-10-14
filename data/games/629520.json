@@ -1,0 +1,36 @@
+{
+ "appid": 629520,
+ "name": "Soundpad",
+ "slug": "soundpad",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD with 1 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 0.01953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or newer",
+    "processor": "Intel or AMD with 1 GHz or faster",
+    "memory": "512 MB RAM",
+    "storage": "20 MB available space",
+    "sound card": "A sound card must be installed",
+    "additional notes": "At least one audio recording device, e.g. microphone"
+   }
+  }
+ }
+}

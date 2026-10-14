@@ -1,0 +1,84 @@
+{
+ "appid": 359320,
+ "name": "Elite Dangerous",
+ "slug": "elite-dangerous",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Quad Core CPU (4 x 2Ghz)"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 470/AMD R7 240"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-r5-240-1gb",
+     "amd-radeon-r5-240-2gb",
+     "amd-radeon-r7-240-2gb",
+     "amd-radeon-r7-240-4gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8/10 64-bit",
+    "processor": "Quad Core CPU (4 x 2Ghz)",
+    "memory": "6 GB RAM",
+    "graphics": "Nvidia GTX 470/AMD R7 240",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "vr support": "SteamVR. Keyboard or gamepad required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770K Quad Core CPU",
+     "AMD FX 4350 Quad Core CPU"
+    ],
+    "ids": [
+     "intel-core-i7-3770k",
+     "amd-fx-4350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 770",
+     "AMD Radeon R9 280X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-770",
+     "amd-radeon-r9-280x"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8/10 64-bit",
+    "processor": "Intel Core i7-3770K Quad Core CPU or better / AMD FX 4350 Quad Core CPU or better",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 770 / AMD Radeon R9 280X",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "additional notes": "Supports SteamVR, Oculus Rift and TrackIR"
+   }
+  }
+ }
+}

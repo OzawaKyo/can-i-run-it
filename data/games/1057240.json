@@ -1,0 +1,87 @@
+{
+ "appid": 1057240,
+ "name": "Crucible Beta",
+ "slug": "crucible-beta",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-3570",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-3570",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 660",
+     "ATI Radeon HD 7850 ( versions) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit",
+    "processor": "Intel i5-3570 or AMD FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 660 or ATI Radeon HD 7850 (2GB versions)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space",
+    "additional notes": "7200 RPM HDD"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5-6500 (3.2 Ghz)",
+     "AMD Ryzen 3 2200G"
+    ],
+    "ids": [
+     "intel-core-i5-6500",
+     "amd-ryzen-3-2200g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1060",
+     "Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i5-6500 (3.2 Ghz) or AMD Ryzen 3 2200G",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 1060 or Radeon RX 570",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "appid": 436150,
+ "name": "Governor of Poker",
+ "slug": "governor-of-poker",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Reasonable"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 (64-bit)",
+    "processor": "2.0 GHz",
+    "memory": "1 GB RAM",
+    "graphics": "Reasonable",
+    "network": "Broadband Internet connection",
+    "storage": "500 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Reasonable"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 0.732421875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "2.0 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "Reasonable",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "750 MB available space"
+   }
+  }
+ }
+}

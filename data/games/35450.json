@@ -1,0 +1,75 @@
+{
+ "appid": 35450,
+ "name": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
+ "slug": "red-orchestra-2-heroes-of-stalingrad-with-rising-storm",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "256 MB SM 3.0 DX9 Compliant NVIDIA GeForce 7800 GTX ATI Radeon HD 2900 GT"
+    ],
+    "ids": [
+     "amd-radeon-hd-2900-gt-256mb",
+     "amd-radeon-hd-2900-gt-512mb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 23,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7",
+    "processor": "Dual Core 2.3 GHz or better",
+    "memory": "2 GB",
+    "graphics": "256 MB SM 3.0 DX9 Compliant NVIDIA GeForce 7800 GTX or better ATI Radeon HD 2900 GT or better",
+    "directx": "DirectX 9.0c",
+    "storage": "23 GB free hard drive space",
+    "sound": "Windows Supported Sound Card",
+    "other": "Broadband Internet Connection required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core 2.6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 36
+   },
+   "gpu": {
+    "raw": [
+     "512 MB SM 3.0 DX9 Compliant NVIDIA GeForce GTX 260 ATI Radeon HD 5750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-5750-512mb",
+     "amd-radeon-hd-5750-1gb"
+    ]
+   },
+   "ramGb": 3,
+   "storage": {
+    "gb": 23,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7",
+    "processor": "Quad Core 2.6 GHz or better",
+    "memory": "3 GB",
+    "graphics": "512 MB SM 3.0 DX9 Compliant NVIDIA GeForce GTX 260 or better ATI Radeon HD 5750 or better",
+    "storage": "23 GB free hard drive space",
+    "sound": "Sound Blaster Audigy or better"
+   }
+  }
+ }
+}

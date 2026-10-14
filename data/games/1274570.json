@@ -1,0 +1,77 @@
+{
+ "appid": 1274570,
+ "name": "DEVOUR",
+ "slug": "devour",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5",
+     "new-gen i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 970",
+     "AMD Radeon R9 290"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64 bit",
+    "processor": "Intel i5 or new-gen i3 / AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 970 / AMD Radeon R9 290",
+    "directx": "Version 11",
+    "storage": "10 GB available space",
+    "vr support": "OpenXR"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7",
+     "AMD equivalent (AMD FX 9500+ Series)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 970",
+     "AMD Radeon R9 290"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64 bit",
+    "processor": "Intel i7 or AMD equivalent (AMD FX 9500+ Series)",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 970 / AMD Radeon R9 290 or greater",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

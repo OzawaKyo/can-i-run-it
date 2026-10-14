@@ -1,0 +1,54 @@
+{
+ "appid": 1677740,
+ "name": "Stumble Guys",
+ "slug": "stumble-guys",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E8400 | AMD Phenom II X4 965"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 7750 | NVIDIA Geforce GTX 260"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 0.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core 2 Duo E8400 | AMD Phenom II X4 965",
+    "memory": "4 GB RAM",
+    "graphics": "AMD Radeon HD 7750 | NVIDIA Geforce GTX 260",
+    "network": "Broadband Internet connection",
+    "storage": "512 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

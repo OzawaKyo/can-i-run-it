@@ -23,7 +23,7 @@
      "nvidia-geforce-gtx-660",
      "amd-radeon-hd-7850-1gb",
      "amd-radeon-hd-7850-2gb",
-     "intel-hd-graphics"
+     "intel-hd-graphics-4000"
     ]
    },
    "ramGb": 8,

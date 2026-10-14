@@ -1,0 +1,75 @@
+{
+ "appid": 3241660,
+ "name": "R.E.P.O.",
+ "slug": "r-e-p-o",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i5 6600"
+    ],
+    "ids": [
+     "intel-core-i5-6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 970"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Core i5 6600",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 970",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 8700"
+    ],
+    "ids": [
+     "intel-core-i7-8700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1070"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "Intel Core i7 8700",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 1070",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "appid": 1536610,
+ "name": "OpenTTD",
+ "slug": "openttd",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Yes"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.25,
+   "raw": {
+    "os": "Windows 11, 10, 8, 7 (32 Bit and 64 Bit)",
+    "processor": "Yes",
+    "memory": "256 MB RAM"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2+ GHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "raw": {
+    "os": "Windows 10 (64 Bit)",
+    "processor": "2+ GHz",
+    "memory": "512 MB RAM"
+   }
+  }
+ }
+}

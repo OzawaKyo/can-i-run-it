@@ -1,0 +1,88 @@
+{
+ "appid": 335300,
+ "name": "DARK SOULS™ II: Scholar of the First Sin",
+ "slug": "dark-souls-ii-scholar-of-the-first-sin",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD A8 3870 3",
+     "6 Ghz",
+     "Intel Core i3 2100 3.1Ghz"
+    ],
+    "ids": [
+     "intel-core-i3-2100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 465",
+     "ATI Radeon TM HD 6870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-465",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 23,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64bit, Windows 8.1 64bit",
+    "processor": "AMD A8 3870 3,6 Ghz or Intel Core i3 2100 3.1Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 465 / ATI Radeon TM HD 6870",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "23 GB available space",
+    "sound card": "DirectX 11 sound device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX 8150 3.6 GHz",
+     "Intel Core i7 2600 3.4 GHz"
+    ],
+    "ids": [
+     "amd-fx-8150",
+     "intel-core-i7-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750",
+     "ATI Radeon HD 7850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 23,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64bit, Windows 8.1 64bit",
+    "processor": "AMD FX 8150 3.6 GHz or Intel Core i7 2600 3.4 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750, ATI Radeon HD 7850",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "23 GB available space",
+    "sound card": "DirectX 11 sound device"
+   }
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "appid": 24980,
+ "name": "Mass Effect 2 (2010 Edition)",
+ "slug": "mass-effect-2-2010-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.8GHz Intel Core 2 Duo AMD CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "256 MB (with Pixel Shader 3.0 support)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 / Windows Vista SP1 / Windows 7",
+    "processor": "1.8GHz Intel Core 2 Duo or equivalent AMD CPU",
+    "memory": "1 GB RAM for Windows XP / 2 GB RAM for Windows Vista and Windows 7",
+    "graphics": "256 MB (with Pixel Shader 3.0 support)",
+    "directx": "DirectX 9.0c August 2008 (included)",
+    "storage": "15 GB",
+    "sound": "DirectX 9.0c compatible",
+    "supported chipsets": "NVIDIA GeForce 6800 or greater; ATI Radeon X1600 Pro or greater. Please note that NVIDIA GeForce 7300, 8100, 8200, 8300, 8400, and 9300; ATI Radeon HD3200, and HD4350 are below minimum system requirements. Updates to your video and sound card drivers may be required."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.6+ GHz Core 2 Duo Intel AMD CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon HD 2900 XT",
+     "NVIDIA GeForce 8800 GT",
+     "recommended"
+    ],
+    "ids": [
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb",
+     "nvidia-geforce-8800-gt"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 / Windows Vista SP1 / Windows 7",
+    "processor": "2.6+ GHz Core 2 Duo Intel or equivalent AMD CPU",
+    "memory": "2 GB RAM",
+    "graphics": "ATI Radeon HD 2900 XT, NVIDIA GeForce 8800 GT, or better recommended",
+    "directx": "DirectX 9.0c August 2008 (included)",
+    "storage": "15 GB",
+    "sound": "DirectX 9.0c compatible"
+   }
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "appid": 319510,
+ "name": "Five Nights at Freddy's",
+ "slug": "five-nights-at-freddy-s",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel Pentium 4",
+     "AMD Athlon"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 0.244140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "XP,Vista,Windows7",
+    "processor": "2 GHz Intel Pentium 4 or AMD Athlon or equivalent",
+    "memory": "1 GB RAM",
+    "graphics": "1 GB",
+    "directx": "Version 9.0",
+    "storage": "250 MB available space"
+   }
+  }
+ }
+}

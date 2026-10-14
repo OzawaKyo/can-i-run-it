@@ -1,0 +1,101 @@
+{
+ "appid": 226840,
+ "name": "Age of Wonders III",
+ "slug": "age-of-wonders-iii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6600 @ 2.4 Ghz",
+     "AMD Athlon 64 X2 5000+ @2.6 Ghz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia 8800",
+     "ATi Radeon HD 3870 with 512MB",
+     "Laptop integrated Intel HD 3000 with system ram 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "nvidia-geforce-8800m-gts",
+     "nvidia-geforce-8800m-gtx",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb",
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 3,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1",
+    "processor": "Intel Core 2 Duo E6600 @ 2.4 Ghz or AMD Athlon 64 X2 5000+ @2.6 Ghz",
+    "memory": "2 GB RAM",
+    "graphics": "nVidia 8800 / ATi Radeon HD 3870 with 512MB or Laptop integrated Intel HD 3000 with 3GB system ram",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "sound card": "DirectX 9 Compatible",
+    "additional notes": "Requires a 1024x768 screen resolution."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad Q6600 @ 2.4 Ghz",
+     "AMD Phenom X4 9900 @ 2.6 Ghz"
+    ],
+    "ids": [
+     "intel-core-2-quad-q6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia Geforce 460 1GB",
+     "AMD Radeon HD 6850 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-6850"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista, Windows 7, Windows 8, Windows 8.1",
+    "processor": "Intel Core 2 Quad Q6600 @ 2.4 Ghz or AMD Phenom X4 9900 @ 2.6 Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "nVidia Geforce 460 1GB or AMD Radeon HD 6850 1GB",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "sound card": "DirectX 9 Compatible",
+    "additional notes": "A 1920x1080 screen resolution."
+   }
+  }
+ }
+}

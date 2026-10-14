@@ -1,0 +1,68 @@
+{
+ "appid": 1092790,
+ "name": "Inscryption",
+ "slug": "inscryption",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-760 (4 * 2800); AMD Athlon II X4 645 AM3 (4 * 3100)"
+    ],
+    "ids": [
+     "intel-core-i5-760"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 550 Ti (3072 VRAM); Radeon HD 6850 (1024 VRAM)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-550-ti"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core i5-760 (4 * 2800); AMD Athlon II X4 645 AM3 (4 * 3100)",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 550 Ti (3072 VRAM); Radeon HD 6850 (1024 VRAM)",
+    "storage": "3 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3470 (4 * 3200); AMD FX-4350 (4 * 4200)"
+    ],
+    "ids": [
+     "intel-core-i5-3470",
+     "amd-fx-4350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1050 2048 VRAM; Radeon RX 460 4096 VRAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-3470 (4 * 3200); AMD FX-4350 (4 * 4200)",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1050 2048 VRAM; Radeon RX 460 4096 VRAM",
+    "storage": "3 GB available space"
+   }
+  }
+ }
+}

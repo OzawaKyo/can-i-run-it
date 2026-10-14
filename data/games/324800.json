@@ -1,0 +1,82 @@
+{
+ "appid": 324800,
+ "name": "Shadow Warrior 2",
+ "slug": "shadow-warrior-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-6300 (2 * 3800)",
+     "AMD A10-5800K APU (4 * 3800)"
+    ],
+    "ids": [
+     "intel-core-i3-6300",
+     "amd-a10-5800k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 560Ti (1024 MB)",
+     "Radeon HD 6850 (1024 MB)"
+    ],
+    "ids": [
+     "amd-radeon-hd-6850"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/8.1/10 x64",
+    "processor": "Intel Core i3-6300 (2 * 3800) or AMD A10-5800K APU (4 * 3800) or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GT 560Ti (1024 MB) or Radeon HD 6850 (1024 MB) or better",
+    "network": "Broadband Internet connection",
+    "storage": "14 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-5675C (4 * 3100)",
+     "AMD A10-7850K APU (4 * 3700)"
+    ],
+    "ids": [
+     "intel-core-i5-5675c",
+     "amd-a10-7850k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX NVIDIA GeForce GTX 970",
+     "ATI Radeon R9 290 with of Video Memory (4096 MB) 4GB",
+     "Radeon HD 7970 (3072 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/8.1/10 x64",
+    "processor": "Intel Core i5-5675C (4 * 3100) or AMD A10-7850K APU (4 * 3700) or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX NVIDIA GeForce GTX 970 / ATI Radeon R9 290 with 4 GB of Video Memory (4096 MB) or Radeon HD 7970 (3072 MB)",
+    "network": "Broadband Internet connection",
+    "storage": "14 GB available space"
+   }
+  }
+ }
+}

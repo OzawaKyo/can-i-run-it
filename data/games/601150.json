@@ -1,0 +1,85 @@
+{
+ "appid": 601150,
+ "name": "Devil May Cry 5",
+ "slug": "devil-may-cry-5",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760",
+     "AMD Radeon R7 260x with Video RAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-r7-260x-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10 (64-BIT Required)",
+    "processor": "Intel Core i5-4460, AMD FX-6300, or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 or AMD Radeon R7 260x with 2GB Video RAM, or better",
+    "directx": "Version 11",
+    "storage": "35 GB available space",
+    "additional notes": "*Xinput support Controllers recommended *Internet connection required for game activation. (Network connectivity uses Steam developed by Valve Corporation.)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770",
+     "AMD FX-9590"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-9590"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 with VRAM 6GB",
+     "AMD Radeon RX 480 with VRAM 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10 / 11",
+    "processor": "Intel Core i7-3770, AMD FX-9590, or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 with 6GB VRAM, AMD Radeon RX 480 with 8GB VRAM, or better",
+    "directx": "Version 12",
+    "storage": "35 GB available space",
+    "additional notes": "*Xinput support Controllers recommended *Internet connection required for game activation. (Network connectivity uses Steam developed by Valve Corporation.)"
+   }
+  }
+ }
+}

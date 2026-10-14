@@ -1,0 +1,43 @@
+{
+ "appid": 314160,
+ "name": "Microsoft Flight Simulator X: Steam Edition",
+ "slug": "microsoft-flight-simulator-x-steam-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 Ghz (single core)"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "DirectX9 compliant video card",
+     "256 MB video RAM",
+     "Shader Model 1.1 (Laptop versions of these chipsets may work but are not supported. Updates to your video and sound card drivers may be required)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP Service Pack 2 or later",
+    "processor": "2.0 Ghz or higher (single core)",
+    "memory": "2 GB RAM",
+    "graphics": "DirectX9 compliant video card or greater, 256 MB video RAM or higher, Shader Model 1.1 or higher (Laptop versions of these chipsets may work but are not supported. Updates to your video and sound card drivers may be required)",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "30 GB available space",
+    "additional notes": "Broadband internet connection required for multiplayer features"
+   }
+  }
+ }
+}

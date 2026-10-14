@@ -1,0 +1,77 @@
+{
+ "appid": 2021910,
+ "name": "FPS Chess",
+ "slug": "fps-chess",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-4350",
+     "Intel Core i5-4460"
+    ],
+    "ids": [
+     "amd-fx-4350",
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R9 280X",
+     "GeForce GTX 760"
+    ],
+    "ids": [
+     "amd-radeon-r9-280x",
+     "nvidia-geforce-gtx-760"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11",
+    "processor": "AMD FX-4350 or Intel Core i5-4460",
+    "memory": "4 GB RAM",
+    "graphics": "AMD Radeon R9 280X or GeForce GTX 760",
+    "storage": "2 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX-6300",
+     "Intel Core i5-4590"
+    ],
+    "ids": [
+     "amd-fx-6300",
+     "intel-core-i5-4590"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R9 290",
+     "GeForce GTX 1050 Ti"
+    ],
+    "ids": [
+     "amd-radeon-r9-290",
+     "nvidia-geforce-gtx-1050-ti"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11",
+    "processor": "AMD FX-6300 or Intel Core i5-4590",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon R9 290 or GeForce GTX 1050 Ti",
+    "storage": "2 GB available space"
+   }
+  }
+ }
+}

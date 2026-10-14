@@ -1,0 +1,43 @@
+{
+ "appid": 1840,
+ "name": "Source Filmmaker",
+ "slug": "source-filmmaker",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.0 GHz P4",
+     "Dual Core 2.0 (or higher)",
+     "AMD64X2 (or higher)"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 200 series card",
+     "or AMD Radeon 3000 series (NVIDIA GeForce 400 series or AMD Radeon 5000 series preferred)"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / Vista (Windows 7 64 bit suggested)",
+    "processor": "3.0 GHz P4, Dual Core 2.0 (or higher) or AMD64X2 (or higher)",
+    "memory": "2GB (4 GB suggested)",
+    "graphics": "NVIDIA GeForce 200 series card or better, or AMD Radeon 3000 series or better (NVIDIA GeForce 400 series or AMD Radeon 5000 series preferred)",
+    "monitor": "1366 x 768 (1920 x 1080 suggested)",
+    "storage": "At least 15 GB of Space",
+    "sound": "DirectX 9.0c compatible USB headset with mic (suggested)"
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "appid": 386940,
+ "name": "Ultimate Chicken Horse",
+ "slug": "ultimate-chicken-horse",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.5GHZ +"
+    ],
+    "ids": [],
+    "estimatedScore": 16
+   },
+   "gpu": {
+    "raw": [
+     "512 MB VRAM Intel HD 4000",
+     "GeForce 200 Series",
+     "Radeon HD 4000 Series"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "1.5GHZ +",
+    "memory": "2 GB RAM",
+    "graphics": "512 MB VRAM Intel HD 4000 / GeForce 200 Series / Radeon HD 4000 Series",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "additional notes": "Broadband internet is required for online play."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.3 GHZ"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "1024 MB VRAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "Dual Core 2.3 GHZ",
+    "memory": "4 GB RAM",
+    "graphics": "1024 MB VRAM",
+    "directx": "Version 9.0",
+    "storage": "2 GB available space",
+    "additional notes": "Broadband internet is required for online play."
+   }
+  }
+ }
+}

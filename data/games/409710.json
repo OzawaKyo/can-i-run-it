@@ -1,0 +1,82 @@
+{
+ "appid": 409710,
+ "name": "BioShock™ Remastered",
+ "slug": "bioshock-remastered",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel E6750 Core 2 Duo 2.66 GHz",
+     "AMD Athlon X2 2.7 GHZ"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 7770 2GB",
+     "NVIDIA GeForce GTX 670 2GB"
+    ],
+    "ids": [
+     "intel-hd-graphics",
+     "nvidia-geforce-gtx-670"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 Service Pack 1 64-bit. Platform Update for Windows 7 SP1 and Windows Server 2008 R2 SP1",
+    "processor": "Intel E6750 Core 2 Duo 2.66 GHz / AMD Athlon X2 2.7 GHZ",
+    "memory": "4 GB RAM",
+    "graphics": "2GB AMD Radeon HD 7770 / 2GB NVIDIA GeForce GTX 670",
+    "directx": "Version 11",
+    "storage": "25 GB available space",
+    "sound card": "DirectX Compatible Sound Device",
+    "additional notes": "Other Requirements: Software installations required including DirectX and Microsoft Visual C++ 2010 & 2012 Redistributable Package. Some system components such as mobile chipsets, integrated, and AGP graphics cards may be incompatible. Unlisted specifications may not be supported by publisher."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3GHz Quad-Core"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon HD 7970 2GB",
+     "NVIDIA GeForce GTX 770 2GB"
+    ],
+    "ids": [
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb",
+     "nvidia-geforce-gtx-770"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 Service Pack 1 64-bit. Platform Update for Windows 7 SP1 and Windows Server 2008 R2 SP1",
+    "processor": "3GHz Quad-Core",
+    "memory": "8 GB RAM",
+    "graphics": "2GB ATI Radeon HD 7970, 2GB NVIDIA GeForce GTX 770 or better",
+    "directx": "Version 11",
+    "storage": "25 GB available space",
+    "sound card": "DirectX Compatible Sound Device"
+   }
+  }
+ }
+}

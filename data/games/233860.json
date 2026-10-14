@@ -1,0 +1,45 @@
+{
+ "appid": 233860,
+ "name": "Kenshi",
+ "slug": "kenshi",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-core 64-bit"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit",
+    "processor": "Quad-core 64-bit",
+    "memory": "16 GB RAM",
+    "directx": "11",
+    "storage": "14GB HD space"
+   }
+  }
+ }
+}

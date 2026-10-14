@@ -1,0 +1,38 @@
+{
+ "appid": 323850,
+ "name": "Move or Die",
+ "slug": "move-or-die",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "If it's a laptop with no dedicated GPU",
+     "CPU should be less than 5 years old."
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated GPU recommended"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "10",
+    "processor": "If it's a laptop with no dedicated GPU, CPU should be less than 5 years old.",
+    "memory": "8 GB RAM",
+    "graphics": "Dedicated GPU recommended",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space",
+    "additional notes": "Potential FPS drops on AMD"
+   }
+  }
+ }
+}

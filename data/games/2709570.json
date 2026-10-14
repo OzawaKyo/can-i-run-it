@@ -1,0 +1,70 @@
+{
+ "appid": 2709570,
+ "name": "Supermarket Together",
+ "slug": "supermarket-together",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GTX 960"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 960 or equivalent",
+    "directx": "Version 12",
+    "storage": "7 GB available space",
+    "additional notes": "Performance will ultimately depend on how many props are used to decorate the shop as this game doesn't limit the amount of decoration or lighting."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1070"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 1070 or equivalent",
+    "directx": "Version 12",
+    "storage": "7 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "appid": 1366540,
+ "name": "Dyson Sphere Program",
+ "slug": "dyson-sphere-program",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i3-530 2.93GHZ 2 Core"
+    ],
+    "ids": [],
+    "estimatedScore": 34
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated graphics card",
+     "GTX 750 Ti 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7(64-Bit)",
+    "processor": "i3-530 2.93GHZ 2 Core",
+    "memory": "8 GB RAM",
+    "graphics": "Dedicated graphics card, GTX 750 Ti 2GB",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "GPU must support Shader Model 5.0"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i9 11900KF8 Core"
+    ],
+    "ids": [
+     "intel-core-i9-11900kf"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated graphics card",
+     "GTX 2070"
+    ],
+    "ids": []
+   },
+   "ramGb": 32,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10(64-Bit)",
+    "processor": "i9 11900KF8 Core",
+    "memory": "32 GB RAM",
+    "graphics": "Dedicated graphics card, GTX 2070",
+    "directx": "Version 11",
+    "storage": "20 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "GPU must support Shader Model 5.0. Display Resolution 1080p +"
+   }
+  }
+ }
+}

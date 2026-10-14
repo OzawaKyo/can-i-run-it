@@ -1,0 +1,76 @@
+{
+ "appid": 287700,
+ "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+ "slug": "metal-gear-solid-v-the-phantom-pain",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460 (3.40 GHz); Quad-core"
+    ],
+    "ids": [
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 650 () (DirectX 11 card Required) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 28,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7x64, Windows 8x64, Windows 10x64 (64-bit OS Required)",
+    "processor": "Intel Core i5-4460 (3.40 GHz) or better; Quad-core or better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 650 (2GB) or better (DirectX 11 card Required)",
+    "directx": "Version 11",
+    "storage": "28 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4790 (3.60GHz); Quad-core"
+    ],
+    "ids": [
+     "intel-core-i7-4790"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760 (DirectX 11 graphic card required)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 28,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7x64, Windows 8x64, Windows 10x64 (64-bit OS Required)",
+    "processor": "Intel Core i7-4790 (3.60GHz) or better; Quad-core or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 (DirectX 11 graphic card required)",
+    "directx": "Version 11",
+    "storage": "28 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card (Surround Sound 5.1)"
+   }
+  }
+ }
+}

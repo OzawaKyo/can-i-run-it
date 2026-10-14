@@ -1,0 +1,74 @@
+{
+ "appid": 388410,
+ "name": "Darksiders II Deathinitive Edition",
+ "slug": "darksiders-ii-deathinitive-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0Ghz Intel Core2 Duo Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 9800 GT 512 MB Video Card"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Windows Vista SP1, Windows 7, Windows 8 or Windows 10 (64bit)",
+    "processor": "2.0Ghz Intel Core2 Duo Processor or AMD equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA 9800 GT 512 MB Video Card or AMD equivalent",
+    "directx": "Version 9.0c",
+    "storage": "13 GB available space",
+    "sound card": "DirectX compatible Sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Any Quad-core AMD",
+     "Intel Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 260 512MB Video Card"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8 or Windows 10 (64bit)",
+    "processor": "Any Quad-core AMD or Intel Processor",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 260 512MB Video Card or AMD equivalent",
+    "directx": "Version 9.0c",
+    "storage": "13 GB available space",
+    "sound card": "DirectX compatible Sound card"
+   }
+  }
+ }
+}

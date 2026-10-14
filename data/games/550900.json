@@ -1,0 +1,70 @@
+{
+ "appid": 550900,
+ "name": "Metin2",
+ "slug": "metin2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2nd Generation Intel Processors (Intel Core i3/i5/i7-2xxx)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Graphics device with 512MB RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2nd Generation Intel Processors (Intel Core i3/i5/i7-2xxx)",
+    "memory": "1 GB RAM",
+    "graphics": "Graphics device with 512MB RAM",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "7th Generation Intel Processors (Intel Core i3/i5/i7-7xxx)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Graphics device with RAM 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "7th Generation Intel Processors (Intel Core i3/i5/i7-7xxx)",
+    "memory": "2 GB RAM",
+    "graphics": "Graphics device with 1GB RAM",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ }
+}

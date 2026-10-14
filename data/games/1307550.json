@@ -1,0 +1,49 @@
+{
+ "appid": 1307550,
+ "name": "Craftopia",
+ "slug": "craftopia",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 or later",
+    "processor": "2.0 GHz Dual Core or similar",
+    "memory": "8 GB RAM",
+    "graphics": "VRAM 2GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "12 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "appid": 294100,
+ "name": "RimWorld",
+ "slug": "rimworld",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 4000",
+     "other shader model 4.0"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Core 2 Duo",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD Graphics 4000 or other shader model 4.0",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

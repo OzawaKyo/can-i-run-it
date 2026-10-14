@@ -1,0 +1,77 @@
+{
+ "appid": 246900,
+ "name": "Viscera Cleanup Detail",
+ "slug": "viscera-cleanup-detail",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4GHz Dual core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "512MB Shader Model 3.0 Nvidia GeForce 8800 GT",
+     "AMD Radeon HD 3870"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win XP SP3, Win 7",
+    "processor": "2.4GHz Dual core CPU",
+    "memory": "4 GB RAM",
+    "graphics": "512MB Shader Model 3.0 Nvidia GeForce 8800 GT or AMD Radeon HD 3870",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.6GHz Quad core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 36
+   },
+   "gpu": {
+    "raw": [
+     "GB Nvidia GeForce GTX 560",
+     "AMD Radeon HD 5850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win XP SP3, Win 7",
+    "processor": "2.6GHz Quad core CPU",
+    "memory": "8 GB RAM",
+    "graphics": "GB Nvidia GeForce GTX 560 or AMD Radeon HD 5850",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "appid": 668580,
+ "name": "Atomic Heart",
+ "slug": "atomic-heart",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 1200",
+     "Intel Core i5-2500"
+    ],
+    "ids": [
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af",
+     "intel-core-i5-2500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R9 380",
+     "NVIDIA GeForce GTX 960"
+    ],
+    "ids": [
+     "amd-radeon-r9-380",
+     "amd-radeon-r9-380-2gb",
+     "amd-radeon-r9-380-4gb",
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (20H1 version or newer, 64-bit versions)",
+    "processor": "AMD Ryzen 3 1200 or Intel Core i5-2500",
+    "memory": "8 GB RAM",
+    "graphics": "4 GB VRAM, AMD Radeon R9 380 or NVIDIA GeForce GTX 960",
+    "directx": "Version 12",
+    "storage": "90 GB available space",
+    "additional notes": "30 FPS, 1920x1080 in low"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 2600X",
+     "Intel Core i7-7700K"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600x",
+     "intel-core-i7-7700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 6700 XT",
+     "NVIDIA GeForce RTX 2070"
+    ],
+    "ids": [
+     "amd-radeon-rx-6700-xt",
+     "nvidia-geforce-rtx-2070"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 90,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (20H1 version or newer, 64-bit versions)",
+    "processor": "AMD Ryzen 5 2600X or Intel Core i7-7700K",
+    "memory": "16 GB RAM",
+    "graphics": "8 GB VRAM, AMD RX 6700 XT or NVIDIA GeForce RTX 2070",
+    "directx": "Version 12",
+    "storage": "90 GB available space",
+    "additional notes": "SSD recommended, 60 FPS, 1920x1080 in ultra"
+   }
+  }
+ }
+}

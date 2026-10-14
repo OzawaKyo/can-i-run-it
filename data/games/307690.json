@@ -1,0 +1,88 @@
+{
+ "appid": 307690,
+ "name": "Sleeping Dogs: Definitive Edition",
+ "slug": "sleeping-dogs-definitive-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo 2.4GHz",
+     "Athlon X2 2.7GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 10",
+     "11 compatible card",
+     "ATI Radeon 3870",
+     "NVIDIA GeForce 8800 GT with 512MB graphics memory",
+     "Intel HD Graphics 2500"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista 64bit, Window 7 64bit, Windows 8 64bit (32bit O/S not supported)",
+    "processor": "Core 2 Duo 2.4GHz or Athlon X2 2.7GHz",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 10 or 11 compatible card, ATI Radeon 3870 or higher, NVIDIA GeForce 8800 GT or higher with 512MB graphics memory, Intel HD Graphics 2500 or higher",
+    "directx": "Version 10",
+    "storage": "20 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i5-2300",
+     "Phenom II X4 940"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-phenom-ii-x4-940-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 10",
+     "11 compatible card",
+     "ATI Radeon 7750",
+     "NVIDIA GeForce GTX 560 with graphics memory 1GB",
+     "Intel HD Graphics 4000"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista 64bit, Window 7 64bit, Windows 8 64bit (32bit O/S not supported)",
+    "processor": "Core i5-2300, Phenom II X4 940 or better",
+    "memory": "8 GB RAM",
+    "graphics": "DirectX 10 or 11 compatible card, ATI Radeon 7750, NVIDIA GeForce GTX 560 or higher with 1GB graphics memory, Intel HD Graphics 4000 or higher",
+    "directx": "Version 11",
+    "storage": "20 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "appid": 1061910,
+ "name": "Metal: Hellsinger",
+ "slug": "metal-hellsinger",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3450"
+    ],
+    "ids": [
+     "intel-core-i5-3450"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050",
+     "AMD Radeon RX 550"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-3450 / AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050 / AMD Radeon RX 550",
+    "directx": "Version 11",
+    "storage": "12 GB available space",
+    "additional notes": "30 FPS in 1080p"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700K",
+     "AMD Ryzen 5 1500X"
+    ],
+    "ids": [
+     "intel-core-i7-6700k",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060",
+     "AMD Radeon RX 5700"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-5700"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-6700K / AMD Ryzen 5 1500X",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 5700",
+    "directx": "Version 11",
+    "storage": "15 GB available space",
+    "additional notes": "60 FPS in 1080p"
+   }
+  }
+ }
+}

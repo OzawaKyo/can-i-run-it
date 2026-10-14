@@ -1,0 +1,80 @@
+{
+ "appid": 1868140,
+ "name": "DAVE THE DIVER",
+ "slug": "dave-the-diver",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 Dual Core"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce GTS 450",
+     "AMD Radeon HD 5570"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-5570-512mb",
+     "amd-radeon-hd-5570-1gb",
+     "amd-radeon-hd-5570-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Intel Core i3 Dual Core",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA Geforce GTS 450 / AMD Radeon HD 5570",
+    "directx": "Version 11",
+    "storage": "10 GB available space",
+    "sound card": "Windows Compatible Audio Device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 (Hexa Core)",
+     "i7 (Quad Core)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1060 3GB",
+     "AMD RX 480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Intel Core i5 (Hexa Core) / i7 (Quad Core)",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 1060 3GB / AMD RX 480",
+    "directx": "Version 11",
+    "storage": "10 GB available space",
+    "sound card": "Windows Compatible Audio Device"
+   }
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "appid": 858820,
+ "name": "Tribes of Midgard",
+ "slug": "tribes-of-midgard",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Quad Core i5-2300",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 560 () 1GB",
+     "AMD Radeon HD 7770 () 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 Bits",
+    "processor": "Intel Quad Core i5-2300 or AMD FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 560 (1GB) or AMD Radeon HD 7770 (1GB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Quad Core i5-2300",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 780 Ti/970 (High Settings) and 1070 (Ultra Settings)",
+     "AMD R9 290/AMD RX480 (High Settings)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-780-ti",
+     "amd-radeon-r9-290",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bits",
+    "processor": "Intel Quad Core i5-2300 or AMD FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 780 Ti/970 (High Settings) and 1070 (Ultra Settings) or AMD R9 290/AMD RX480 (High Settings)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ }
+}

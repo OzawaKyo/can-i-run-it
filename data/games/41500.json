@@ -1,0 +1,37 @@
+{
+ "appid": 41500,
+ "name": "Torchlight",
+ "slug": "torchlight",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "x86-compatible 800MHz processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX-compatible 3D graphics with at least 64MB of addressable memory (such as an ATI Radeon 7200, NVIDIA GeForce 2, or Intel GMA 950)"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.390625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or later",
+    "processor": "x86-compatible 800MHz processor",
+    "memory": "512MB",
+    "graphics": "DirectX-compatible 3D graphics with at least 64MB of addressable memory (such as an ATI Radeon 7200, NVIDIA GeForce 2, or Intel GMA 950)",
+    "directx": "9.0c",
+    "storage": "400MB"
+   }
+  }
+ }
+}

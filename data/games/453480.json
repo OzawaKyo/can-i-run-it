@@ -1,0 +1,49 @@
+{
+ "appid": 453480,
+ "name": "Shadowverse CCG",
+ "slug": "shadowverse-ccg",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-6100",
+     "AMD Ryzen 3 2200G"
+    ],
+    "ids": [
+     "intel-core-i3-6100",
+     "amd-ryzen-3-2200g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT1030",
+     "AMD Radeon RX 550"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107",
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 15.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i3-6100 / AMD Ryzen 3 2200G",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT1030 / AMD Radeon RX 550",
+    "directx": "Version 11",
+    "storage": "15.5 GB available space",
+    "additional notes": "Resolution: 1024×768"
+   }
+  }
+ }
+}

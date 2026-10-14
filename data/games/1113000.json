@@ -1,0 +1,80 @@
+{
+ "appid": 1113000,
+ "name": "Persona 4 Golden",
+ "slug": "persona-4-golden",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E8400 | AMD Phenom II X2 550"
+    ],
+    "ids": [
+     "amd-phenom-ii-x2-550"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTS 450 | AMD Radeon HD 5770"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1",
+    "processor": "Intel Core 2 Duo E8400 | AMD Phenom II X2 550",
+    "memory": "2 GB RAM",
+    "graphics": "Nvidia GeForce GTS 450 | AMD Radeon HD 5770",
+    "directx": "Version 11",
+    "storage": "14 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-650 | AMD Phenom X4 940"
+    ],
+    "ids": [
+     "intel-core-i5-650"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 460 | AMD Radeon HD 6870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-650 | AMD Phenom X4 940",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 460 | AMD Radeon HD 6870",
+    "directx": "Version 11",
+    "storage": "14 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ }
+}

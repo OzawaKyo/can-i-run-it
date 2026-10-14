@@ -1,0 +1,74 @@
+{
+ "appid": 646910,
+ "name": "The Crew™ 2",
+ "slug": "the-crew-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2400s @ 2.5 GHz",
+     "AMD FX-6100 @ 3.3 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-2400s",
+     "amd-fx-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "AMD HD 7870 ( VRAM with Shader Model 5.0) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "raw": {
+    "os": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+    "processor": "Intel Core i5-2400s @ 2.5 GHz or AMD FX-6100 @ 3.3 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 or AMD HD 7870 (2GB VRAM with Shader Model 5.0 or better)",
+    "additional notes": "Game contains BattlEye anti-cheat technology and VMProtect anti-piracy technology."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4690k @ 3.5 GHz",
+     "AMD Ryzen 5 1600 @ 3.2 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-4690k",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 () 6GB",
+     "GTX 970 () 4GB",
+     "AMD RX 470 () 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-470-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "raw": {
+    "os": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+    "processor": "Intel Core i5-4690k @ 3.5 GHz or AMD Ryzen 5 1600 @ 3.2 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (6GB) or GTX 970 (4GB) or AMD RX 470 (8GB) or better",
+    "additional notes": "Game contains BattlEye anti-cheat technology and VMProtect anti-piracy technology."
+   }
+  }
+ }
+}

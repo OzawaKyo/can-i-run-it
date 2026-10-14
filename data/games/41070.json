@@ -1,0 +1,92 @@
+{
+ "appid": 41070,
+ "name": "Serious Sam 3: BFE",
+ "slug": "serious-sam-3-bfe",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual-core from Intel",
+     "AMD at 2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 7800/7900/8600 series",
+     "ATI/AMD Radeon HD2600/3600",
+     "1800/X1900 series"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP 32-bit (with service pack 2 or 3)",
+    "processor": "Dual-core from Intel or AMD at 2.0 GHz",
+    "memory": "1GB",
+    "graphics": "nVidia GeForce 7800/7900/8600 series, ATI/AMD Radeon HD2600/3600 or 1800/X1900 series",
+    "directx": "9.0c",
+    "storage": "4GB free hard drive space",
+    "sound": "DirectX9.0c Compatible Sound Card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-core from Intel (i5/i7-series)",
+     "AMD (Phenom II) at 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 480/580 GTX",
+     "ATI/AMD Radeon HD 5870/6970"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-480",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb",
+     "amd-radeon-hd-6970"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit",
+    "processor": "Quad-core from Intel (i5/i7-series) or AMD (Phenom II) at 3.0 GHz",
+    "memory": "4GB",
+    "graphics": "nVidia GeForce 480/580 GTX, ATI/AMD Radeon HD 5870/6970",
+    "directx": "9.0c",
+    "storage": "4GB free hard drive space",
+    "sound": "DirectX9.0c Compatible Sound Card"
+   }
+  }
+ }
+}

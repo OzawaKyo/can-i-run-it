@@ -1,0 +1,86 @@
+{
+ "appid": 380600,
+ "name": "Fishing Planet",
+ "slug": "fishing-planet",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-10100",
+     "AMD Ryzen 3 3100"
+    ],
+    "ids": [
+     "intel-core-i3-10100",
+     "amd-ryzen-3-3100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050/AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i3-10100 or AMD Ryzen 3 3100",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050/AMD Radeon RX 570 or higher",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "14 GB available space",
+    "additional notes": "External mouse or compatible XBOX/PlayStation controller required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-12700",
+     "AMD Ryzen 7 7700"
+    ],
+    "ids": [
+     "intel-core-i7-12700",
+     "amd-ryzen-7-7700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 4060",
+     "AMD Radeon RX 7700 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-4060",
+     "amd-radeon-rx-7700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "Intel Core i7-12700 or AMD Ryzen 7 7700",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 4060 or AMD Radeon RX 7700 XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "14 GB available space",
+    "additional notes": "External mouse or compatible XBOX/PlayStation controller required"
+   }
+  }
+ }
+}

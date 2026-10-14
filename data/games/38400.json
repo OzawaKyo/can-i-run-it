@@ -1,0 +1,37 @@
+{
+ "appid": 38400,
+ "name": "Fallout: A Post Nuclear Role Playing Game",
+ "slug": "fallout-a-post-nuclear-role-playing-game",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 90Mhz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "SVGA"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.015625,
+   "storage": {
+    "gb": 0.5517578125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows",
+    "processor": "Pentium 90Mhz or faster",
+    "memory": "16 MB",
+    "graphics": "SVGA",
+    "directx": "Any DirectX",
+    "storage": "565 MB",
+    "sound": "DirectSound or SoundBlaster Compatible"
+   }
+  }
+ }
+}

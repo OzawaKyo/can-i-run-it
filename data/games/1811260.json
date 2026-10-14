@@ -1,0 +1,85 @@
+{
+ "appid": 1811260,
+ "name": "EA SPORTS™ FIFA 23",
+ "slug": "ea-sports-fifa-23",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 6600k",
+     "AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-6600k",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050 Ti",
+     "AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64-Bit (Latest Update)",
+    "processor": "Intel Core i5 6600k or AMD Ryzen 5 1600",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 570",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 6700",
+     "AMD Ryzen 7 2700X"
+    ],
+    "ids": [
+     "intel-core-i7-6700",
+     "amd-ryzen-7-2700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660",
+     "AMD Radeon RX 5600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-5600-xt"
+    ]
+   },
+   "ramGb": 12,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64-Bit (Latest Update)",
+    "processor": "Intel Core i7 6700 or AMD Ryzen 7 2700X",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660 or AMD Radeon RX 5600 XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space"
+   }
+  }
+ }
+}

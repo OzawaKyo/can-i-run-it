@@ -1,0 +1,85 @@
+{
+ "appid": 750920,
+ "name": "Shadow of the Tomb Raider: Definitive Edition",
+ "slug": "shadow-of-the-tomb-raider-definitive-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i3-3220 INTEL"
+    ],
+    "ids": [
+     "intel-core-i3-3220"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 660/GTX 1050",
+     "AMD Radeon HD 7770"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 bit",
+    "processor": "i3-3220 INTEL or AMD Equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 660/GTX 1050 or AMD Radeon HD 7770",
+    "directx": "Version 11",
+    "storage": "40 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 4770K",
+     "3.40 Ghz",
+     "AMD Ryzen 5 1600",
+     "3.20 Ghz"
+    ],
+    "ids": [
+     "intel-core-i7-4770k",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1060 6GB",
+     "AMD Radeon RX 480 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i7 4770K, 3.40 Ghz or AMD Ryzen 5 1600, 3.20 Ghz",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GTX 1060 6GB or AMD Radeon RX 480, 8GB",
+    "directx": "Version 12",
+    "storage": "40 GB available space"
+   }
+  }
+ }
+}

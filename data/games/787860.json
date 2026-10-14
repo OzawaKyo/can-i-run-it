@@ -1,0 +1,57 @@
+{
+ "appid": 787860,
+ "name": "Farming Simulator 19",
+ "slug": "farming-simulator-19",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-2100T @ 2.5GHz",
+     "AMD FX-4100 @3.6 GHz"
+    ],
+    "ids": [
+     "intel-core-i3-2100t",
+     "amd-fx-4100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce GTX 650",
+     "AMD Radeon HD 7770 graphics card (min. VRAM, DX11 support) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7, Windows 8, Windows 10",
+    "processor": "Intel Core i3-2100T @ 2.5GHz or AMD FX-4100 @3.6 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia Geforce GTX 650, AMD Radeon HD 7770 graphics card or better (min. 2 GB VRAM, DX11 support)",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "INTERNET CONNECTION REQUIRED FOR THE ONLINE GAME"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

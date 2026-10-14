@@ -1,0 +1,78 @@
+{
+ "appid": 263500,
+ "name": "Dragons and Titans",
+ "slug": "dragons-and-titans",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium D",
+     "AMD Athlon 64 X2"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 7600 GT",
+     "ATI Radeon X800 XT"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Windows Vista/Windows 7/Windows 8 (latest service pack)",
+    "processor": "Intel Pentium D or AMD Athlon 64 X2",
+    "memory": "1 GB RAM",
+    "graphics": "NVIDIA GeForce 7600 GT or ATI Radeon X800 XT or better",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6600",
+     "AMD Athlon 64 X2 5000+"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8800 GT (512 MB)",
+     "ATI Radeon HD 4850"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/Windows 8 (latest service pack)",
+    "processor": "Intel Core 2 Duo E6600 or AMD Athlon 64 X2 5000+ or better",
+    "memory": "1 GB RAM",
+    "graphics": "NVIDIA GeForce 8800 GT (512 MB) or ATI Radeon HD 4850 or better",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

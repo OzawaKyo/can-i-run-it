@@ -1,0 +1,77 @@
+{
+ "appid": 439700,
+ "name": "Z1 Battle Royale: Test Server",
+ "slug": "z1-battle-royale-test-server",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3 Dual-Core with Hyper-Threading (required)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce GTX 275 series"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-275"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64 bit",
+    "processor": "Intel i3 Dual-Core with Hyper-Threading (required)",
+    "memory": "4 GB RAM",
+    "graphics": "nVidia GeForce GTX 275 series or higher",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "DirectX Compatible Sound Card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 Quad Core",
+     "AMD Phenom II X6"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce GTX 560 series",
+     "AMD HD 6870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64 bit",
+    "processor": "Intel i5 Quad Core or higher / AMD Phenom II X6 or higher",
+    "memory": "8 GB RAM",
+    "graphics": "nVidia GeForce GTX 560 series or higher / AMD HD 6870 or higher",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "DirectX Compatible Sound Card"
+   }
+  }
+ }
+}

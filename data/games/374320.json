@@ -1,0 +1,86 @@
+{
+ "appid": 374320,
+ "name": "DARK SOULS™ III",
+ "slug": "dark-souls-iii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-2100",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i3-2100",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750 Ti",
+     "ATI Radeon HD 7950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-hd-7950"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit",
+    "processor": "Intel Core i3-2100 / AMD FX-6300",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750 Ti / ATI Radeon HD 7950",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "sound card": "DirectX 11 sound device",
+    "additional notes": "Internet connection required for online play and product activation"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770",
+     "AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "ATI Radeon R9 series"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit",
+    "processor": "Intel Core i7-3770 / AMD FX-8350",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 / ATI Radeon R9 series",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "sound card": "DirectX 11 sound device",
+    "additional notes": "Internet connection required for online play and product activation"
+   }
+  }
+ }
+}

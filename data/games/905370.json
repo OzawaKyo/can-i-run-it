@@ -1,0 +1,86 @@
+{
+ "appid": 905370,
+ "name": "Conqueror's Blade",
+ "slug": "conqueror-s-blade",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460"
+    ],
+    "ids": [
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 750 2GB",
+     "AMD HD 5870 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-hd-5870-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 Bit",
+    "processor": "Intel Core i5-4460",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 750 2GB / AMD HD 5870 2GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "70 GB available space",
+    "additional notes": "Requires a 64-bit processor and operating system."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7-6700",
+     "AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i7-6700",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1060 6GB",
+     "AMD R9 380 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-r9-380",
+     "amd-radeon-r9-380-4gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit",
+    "processor": "Intel i7-6700 / AMD Ryzen 5 2600",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 1060 6GB / AMD R9 380 4GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "70 GB available space",
+    "additional notes": "Requires a 64-bit processor and operating system."
+   }
+  }
+ }
+}

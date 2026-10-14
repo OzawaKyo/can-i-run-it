@@ -1,0 +1,53 @@
+{
+ "appid": 976730,
+ "name": "Halo: The Master Chief Collection",
+ "slug": "halo-the-master-chief-collection",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Phenom II X4 960T ; Intel i3550"
+    ],
+    "ids": [
+     "amd-phenom-ii-x4-960t"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD HD 6850 ; NVIDIA GeForce GTS 450"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-6850"
+    ]
+   },
+   "directX": 11,
+   "storage": {
+    "gb": 43,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "AMD Phenom II X4 960T ; Intel i3550",
+    "graphics": "AMD HD 6850 ; NVIDIA GeForce GTS 450",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "43 GB available space",
+    "additional notes": "Direct3D feature Level 11.1"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

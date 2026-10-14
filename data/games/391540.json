@@ -1,0 +1,59 @@
+{
+ "appid": 391540,
+ "name": "Undertale",
+ "slug": "undertale",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "128MB"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7, 8, or 10",
+    "memory": "2 GB RAM",
+    "graphics": "128MB",
+    "storage": "200 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2GHz+"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "512MB"
+    ],
+    "ids": []
+   },
+   "ramGb": 3,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, 7, or 10",
+    "processor": "2GHz+",
+    "memory": "3 GB RAM",
+    "graphics": "512MB",
+    "storage": "200 MB available space"
+   }
+  }
+ }
+}

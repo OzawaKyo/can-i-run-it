@@ -1,0 +1,92 @@
+{
+ "appid": 1086940,
+ "name": "Baldur's Gate 3",
+ "slug": "baldur-s-gate-3",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel I5 4690",
+     "AMD FX 8350",
+     "Snapdragon X Elite"
+    ],
+    "ids": [
+     "intel-core-i5-4690",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 970",
+     "RX 480",
+     "Intel Arc A380",
+     "Qualcomm Adreno X1 (+ of VRAM) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 150,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 970 / RX 480 / Intel Arc A380 / Qualcomm Adreno X1 (4GB+ of VRAM)",
+    "directx": "Version 11",
+    "storage": "150 GB available space",
+    "additional notes": "SSD required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 8700K",
+     "AMD r5 3600"
+    ],
+    "ids": [
+     "intel-core-i7-8700k",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia 2060 Super",
+     "RX 5700 XT",
+     "Intel Arc A580 (+ of VRAM) 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-super",
+     "amd-radeon-rx-5700-xt",
+     "intel-arc-a580"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 150,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel i7 8700K / AMD r5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia 2060 Super / RX 5700 XT / Intel Arc A580 (8GB+ of VRAM)",
+    "directx": "Version 11",
+    "storage": "150 GB available space",
+    "additional notes": "SSD required"
+   }
+  }
+ }
+}

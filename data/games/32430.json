@@ -1,0 +1,63 @@
+{
+ "appid": 32430,
+ "name": "STAR WARS™ - The Force Unleashed™ Ultimate Sith Edition",
+ "slug": "star-wars-the-force-unleashed-ultimate-sith-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.4 GHz",
+     "AMD Athlon X2 5200+"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "3D Hardware Accelerator Card Required - 100% DirectX 9.0c compatible 256 MB Video Memory with Shader 2.0 support (Radeon HD 2900 or Geforce 8600)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win XP SP3, Windows Vista SP2 or Windows 7",
+    "processor": "Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 5200+",
+    "memory": "2 GB",
+    "graphics": "3D Hardware Accelerator Card Required - 100% DirectX 9.0c compatible 256 MB Video Memory with Shader 2.0 support (Radeon HD 2900 or Geforce 8600)",
+    "directx": "Directx 9.0c compatible",
+    "storage": "30GB",
+    "sound": "Directx 9.0c compatible",
+    "controller support": "XBox 360 Controller for Windows",
+    "supported ati chipsets": "ATI Radeon HD 2600, 2900, 3650, 3690, 3850, 3870, 4550, 4650, 4770, 4850, 4870, 5890",
+    "supported nvidia chipsets": "NVIDIA GeForce 8600, 8800, 9400, 9500, 9600, 9800, 250, 260, 275, 280, 285, 295"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.8 GHz",
+     "AMD Athlon X2 Dual-Core 6000+"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "512 MB 3D Hardware Accelerator Card (GeForce 9800 GT)"
+    ],
+    "ids": []
+   },
+   "raw": {
+    "processor": "Intel Core 2 Duo 2.8 GHz or AMD Athlon X2 Dual-Core 6000+",
+    "graphics": "512 MB 3D Hardware Accelerator Card (GeForce 9800 GT)"
+   }
+  }
+ }
+}

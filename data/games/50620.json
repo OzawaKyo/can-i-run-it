@@ -1,0 +1,87 @@
+{
+ "appid": 50620,
+ "name": "Darksiders™",
+ "slug": "darksiders",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 64 Processor 3800+ 2.4Ghz",
+     "Intel Pentium 4 530 3.0Ghz Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA (GeForce 8800/GeForce GT220) 256MB graphics card",
+     "ATI Radeon X1900 256MB graphics card ( must support pixel shader 3 )"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "nvidia-geforce-8800m-gts",
+     "nvidia-geforce-8800m-gtx",
+     "nvidia-geforce-gt-220-512mb",
+     "nvidia-geforce-gt-220-1gb",
+     "nvidia-geforce-gt-220"
+    ]
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3, Vista SP1, Windows 7, DirectX 9.0c",
+    "processor": "AMD Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0Ghz Processor or better",
+    "memory": "1GB XP, 2GB Vista / Windows 7",
+    "storage": "12GB",
+    "graphics": "NVIDIA (GeForce 8800/GeForce GT220) 256MB graphics card or better, ATI Radeon X1900 256MB graphics card or better ( must support pixel shader 3 )"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz",
+     "Intel Core 2 Duo E6420 Dual Core 2.13Ghz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6420"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA (GeForce GTS 240) 256MB graphics card",
+     "ATI Radeon HD3870 256MB graphics card ( must support pixel shader 3 )"
+    ],
+    "ids": [
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3, Vista SP1, Windows 7, DirectX 9.0c",
+    "processor": "AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz, Intel Core 2 Duo E6420 Dual Core 2.13Ghz",
+    "memory": "2GB XP, 3GB Vista / Windows 7",
+    "storage": "12GB",
+    "graphics": "NVIDIA (GeForce GTS 240) 256MB graphics card or better, ATI Radeon HD3870 256MB graphics card or better ( must support pixel shader 3 )"
+   }
+  }
+ }
+}

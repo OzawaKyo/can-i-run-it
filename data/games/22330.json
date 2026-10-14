@@ -1,0 +1,40 @@
+{
+ "appid": 22330,
+ "name": "The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009)",
+ "slug": "the-elder-scrolls-iv-oblivion-game-of-the-year-edition-2009",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 Ghz Intel Pentium 4"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "128 MB Direct3D compatible video card and DirectX 9.0 compatible driver"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 4.6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Windows 2000, Windows XP 64-Bit",
+    "processor": "2 Ghz Intel Pentium 4 or equivalent",
+    "memory": "512 MB",
+    "graphics": "128 MB Direct3D compatible video card and DirectX 9.0 compatible driver",
+    "directx": "DirectX 9.0c",
+    "storage": "4.6 GB",
+    "sound": "DirectX 8.1 compatible"
+   }
+  }
+ }
+}

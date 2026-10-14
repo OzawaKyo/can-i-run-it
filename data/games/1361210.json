@@ -1,0 +1,88 @@
+{
+ "appid": 1361210,
+ "name": "Warhammer 40,000: Darktide",
+ "slug": "warhammer-40-000-darktide",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-6600 (3.30GHz)",
+     "AMD Ryzen 2400G (3.6 GHz)"
+    ],
+    "ids": [
+     "intel-core-i5-6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 72,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64 bit) / Windows 11 (64 bit)",
+    "processor": "Intel i5-6600 (3.30GHz) OR AMD Ryzen 2400G (3.6 GHz)",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 OR AMD Radeon RX 570",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "72 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7-9700K (3.70GHz)",
+     "AMD Ryzen 5 3600 (4.2GHz)"
+    ],
+    "ids": [
+     "intel-core-i7-9700k",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 3060",
+     "RTX 2060",
+     "AMD Radeon RX 5700 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb",
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-5700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 72,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64 bit) / Windows 11 (64 bit)",
+    "processor": "Intel i7-9700K (3.70GHz) OR AMD Ryzen 5 3600 (4.2GHz)",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 3060 / RTX 2060 OR AMD Radeon RX 5700 XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "72 GB available space",
+    "additional notes": "An SSD storage device is highly recommended"
+   }
+  }
+ }
+}

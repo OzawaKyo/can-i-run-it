@@ -1,0 +1,54 @@
+{
+ "appid": 2231450,
+ "name": "Pizza Tower",
+ "slug": "pizza-tower",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD Dual Core CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 1030 () 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107"
+    ]
+   },
+   "ramGb": 0.5,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 0.29296875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel or AMD Dual Core CPU",
+    "memory": "512 MB RAM",
+    "graphics": "GeForce GT 1030 (2 GB) or equivalent",
+    "directx": "Version 11",
+    "storage": "300 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

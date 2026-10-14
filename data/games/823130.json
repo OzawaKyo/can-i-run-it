@@ -1,0 +1,82 @@
+{
+ "appid": 823130,
+ "name": "Totally Accurate Battlegrounds",
+ "slug": "totally-accurate-battlegrounds",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 @2.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "GTX 770",
+     "AMD R9 280"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-770",
+     "amd-radeon-r9-280"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 7 64 bit",
+    "processor": "Intel i5 @2.5 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 770 or AMD R9 280",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "5 GB available space",
+    "additional notes": "Only runs on 64 bit systems"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 @3.0 GHz",
+     "AMD Ryzen 5"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1650",
+     "AMD RX 470"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win10 64 bit",
+    "processor": "Intel i5 @3.0 GHz or AMD Ryzen 5",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1650 or AMD RX 470",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "5 GB available space",
+    "additional notes": "Only runs on 64 bit systems"
+   }
+  }
+ }
+}

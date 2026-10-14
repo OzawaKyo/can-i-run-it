@@ -1,0 +1,90 @@
+{
+ "appid": 1091500,
+ "name": "Cyberpunk 2077",
+ "slug": "cyberpunk-2077",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i7-6700",
+     "Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i7-6700",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1060 6GB",
+     "Radeon RX 580 8GB",
+     "Arc A380"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-8gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 70,
+    "ssd": true
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Core i7-6700 or Ryzen 5 1600",
+    "memory": "12 GB RAM",
+    "graphics": "GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380",
+    "directx": "Version 12",
+    "storage": "70 GB available space",
+    "additional notes": "SSD required. Attention: In this game you will encounter a variety of visual effects that may provide seizures or loss of consciousness in a minority of people. If you or someone you know experiences any of the above symptoms while playing, stop and seek medical attention immediately."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i7-12700",
+     "Ryzen 7 7800X3D"
+    ],
+    "ids": [
+     "intel-core-i7-12700",
+     "amd-ryzen-7-7800x3d"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce RTX 2060 SUPER",
+     "Radeon RX 5700 XT",
+     "Arc A770"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-super",
+     "amd-radeon-rx-5700-xt",
+     "intel-arc-a770-8gb",
+     "intel-arc-a770-16gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 70,
+    "ssd": true
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Core i7-12700 or Ryzen 7 7800X3D",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770",
+    "directx": "Version 12",
+    "storage": "70 GB available space",
+    "additional notes": "SSD required."
+   }
+  }
+ }
+}

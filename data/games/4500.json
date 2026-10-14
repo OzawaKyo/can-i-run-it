@@ -1,0 +1,93 @@
+{
+ "appid": 4500,
+ "name": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+ "slug": "s-t-a-l-k-e-r-shadow-of-chernobyl",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.0 Ghz",
+     "AMD XP 2200+"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "128 MB DirectX 8.0 compatible card",
+     "nVIDIA GeForce 5700",
+     "ATI Radeon 9600"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gs",
+     "nvidia-geforce-9600-gso-384mb",
+     "nvidia-geforce-9600-gso-768mb",
+     "nvidia-geforce-9600-gso-1.5gb",
+     "nvidia-geforce-9600-gso-512",
+     "nvidia-geforce-9600-gt-green-edition-512mb",
+     "nvidia-geforce-9600-gt-green-edition-1gb",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "nvidia-geforce-9600-gt-rev-2-512mb",
+     "nvidia-geforce-9600-gt-rev-2-1gb",
+     "nvidia-geforce-9600-gt-mac-edition",
+     "nvidia-geforce-9600-gtx",
+     "nvidia-geforce-9600m-gs",
+     "nvidia-geforce-9600m-gt-512mb",
+     "nvidia-geforce-9600m-gt-1gb"
+    ]
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP(Service Pack 2)/Microsoft Windows 2000 SP4",
+    "processor": "Intel Pentium 4 2.0 Ghz / AMD XP 2200+",
+    "graphics": "128 MB DirectX 8.0 compatible card / nVIDIA GeForce 5700 / ATI Radeon 9600",
+    "memory": "512 MB RAM",
+    "sound": "DirectX 9.0 compatible sound card",
+    "storage": "6 GB free hard disc space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6400",
+     "AMD 64 X2 4200+"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "256 MB DirectX 9.0c compatible card*",
+     "nVIDIA GeForce 8800 GT",
+     "ATI Radeon HD 2900 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP/Vista (SP1)",
+    "processor": "Intel Core 2 Duo E6400 / AMD 64 X2 4200+",
+    "graphics": "256 MB DirectX 9.0c compatible card* / nVIDIA GeForce 8800 GT / ATI Radeon HD 2900 XT",
+    "memory": "2 GB RAM",
+    "sound": "DirectX 9.0 compatible sound card",
+    "storage": "10 GB free hard disc space"
+   }
+  }
+ }
+}

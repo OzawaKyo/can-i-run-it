@@ -1,0 +1,84 @@
+{
+ "appid": 1030840,
+ "name": "Mafia: Definitive Edition",
+ "slug": "mafia-definitive-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core-i5 2550K 3.4GHz",
+     "AMD FX 8120 3.1 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-2550k",
+     "amd-fx-8120"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon HD 7870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core-i5 2550K 3.4GHz / AMD FX 8120 3.1 GHz",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core-i7 3770 3.4GHz",
+     "AMD FX-8350 4.2GHz"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1080",
+     "AMD Radeon RX 5700"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410",
+     "amd-radeon-rx-5700"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core-i7 3770 3.4GHz / AMD FX-8350 4.2GHz",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1080 / AMD Radeon RX 5700",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ }
+}

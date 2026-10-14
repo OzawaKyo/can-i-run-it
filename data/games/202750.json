@@ -1,0 +1,74 @@
+{
+ "appid": 202750,
+ "name": "Alan Wake's American Nightmare",
+ "slug": "alan-wake-s-american-nightmare",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2GHz Intel",
+     "2.8GHz AMD"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 10 compatible with 512MB RAM"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2",
+    "processor": "Dual Core 2GHz Intel or 2.8GHz AMD",
+    "memory": "2 GB RAM",
+    "graphics": "DirectX 10 compatible with 512MB RAM",
+    "directx": "10",
+    "storage": "8 GB HD space",
+    "sound": "DirectX 9.0c compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core 2.66GHz Intel",
+     "3.2GHz AMD"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 10 compatible with RAM 1GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Quad Core 2.66GHz Intel or 3.2GHz AMD",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 10 compatible or later with 1GB RAM",
+    "directx": "10",
+    "storage": "8 GB HD space",
+    "sound": "DirectX 9.0c compatible"
+   }
+  }
+ }
+}

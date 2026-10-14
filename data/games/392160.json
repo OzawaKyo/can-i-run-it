@@ -1,0 +1,76 @@
+{
+ "appid": 392160,
+ "name": "X4: Foundations",
+ "slug": "x4-foundations",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-4590 3.3GHz"
+    ],
+    "ids": [
+     "intel-core-i5-4590"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1060",
+     "AMD RX 5300 (Vulkan 1.4 support required)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-5300"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit) or higher",
+    "processor": "Intel i5-4590 3.3GHz or AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 1060 or AMD RX 5300 or equivalent (Vulkan 1.4 support required)",
+    "storage": "35 GB available space",
+    "additional notes": "Minimum: 8 GB RAM (base game) / 16 GB RAM (with all expansions installed)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700"
+    ],
+    "ids": [
+     "intel-core-i7-6700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA RTX 3060",
+     "AMD RX 6700 (Vulkan 1.4 support required)"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb",
+     "amd-radeon-rx-6700"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit) or higher",
+    "processor": "Intel Core i7-6700 or AMD equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA RTX 3060 or AMD RX 6700 or equivalent (Vulkan 1.4 support required)",
+    "storage": "50 GB available space"
+   }
+  }
+ }
+}

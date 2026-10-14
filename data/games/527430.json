@@ -1,0 +1,85 @@
+{
+ "appid": 527430,
+ "name": "Warhammer 40,000: Inquisitor - Martyr",
+ "slug": "warhammer-40-000-inquisitor-martyr",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel CPU Core i3-2120 (3.3 GHz)",
+     "AMD CPU FX-6300 (3.5 GHz)"
+    ],
+    "ids": [
+     "intel-core-i3-2120",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 760 () 2GB",
+     "AMD Radeon HD 7850 () 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 75,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7+ (8 / 8.1 / 10)",
+    "processor": "Intel CPU Core i3-2120 (3.3 GHz) / AMD CPU FX-6300 (3.5 GHz)",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 760 (2 GB) / AMD Radeon HD 7850 (2 GB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "75 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel CPU Core i7-2600 (3.4 GHz)",
+     "AMD CPU FX-8320 (3.5 GHz)"
+    ],
+    "ids": [
+     "intel-core-i7-2600",
+     "amd-fx-8320"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060 () 3GB",
+     "AMD Radeon RX 480 () 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "amd-radeon-rx-480-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 75,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7+ (8 / 8.1 / 10)",
+    "processor": "Intel CPU Core i7-2600 (3.4 GHz) / AMD CPU FX-8320 (3.5 GHz)",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1060 (3 GB) / AMD Radeon RX 480 (4 GB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "75 GB available space"
+   }
+  }
+ }
+}

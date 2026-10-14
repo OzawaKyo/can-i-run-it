@@ -1,0 +1,45 @@
+{
+ "appid": 880940,
+ "name": "Pummel Party",
+ "slug": "pummel-party",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.4Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8800 GT",
+     "AMD HD 6850",
+     "Intel HD Graphics 4400"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-6850",
+     "intel-hd-graphics-4400"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Dual Core 2.4Ghz",
+    "memory": "3 GB RAM",
+    "graphics": "GeForce 8800 GT / AMD HD 6850 / Intel HD Graphics 4400 or above",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

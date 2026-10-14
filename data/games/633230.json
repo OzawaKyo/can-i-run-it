@@ -1,0 +1,85 @@
+{
+ "appid": 633230,
+ "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
+ "slug": "naruto-to-boruto-shinobi-striker",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-8350K"
+    ],
+    "ids": [
+     "intel-core-i3-8350k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GT 640"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-640"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10",
+    "processor": "Intel Core i3-8350K",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GT 640",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "sound card": "DirectX 11 sound device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K @ 3.30GHz",
+     "AMD FX-6300 Six-Core"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R9 270X",
+     "R7 265 2GB",
+     "Nvidia GeForce GTX 660 2GB"
+    ],
+    "ids": [
+     "amd-radeon-r9-270x-2gb",
+     "amd-radeon-r9-270x-4gb",
+     "amd-radeon-r7-265",
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10",
+    "processor": "Intel Core i5-2500K @ 3.30GHz / AMD FX-6300 Six-Core",
+    "memory": "6 GB RAM",
+    "graphics": "AMD Radeon R9 270X / R7 265 2 GB / Nvidia GeForce GTX 660 2 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "sound card": "DirectX 11 sound device"
+   }
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "appid": 554620,
+ "name": "Life is Strange: Before the Storm",
+ "slug": "life-is-strange-before-the-storm",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-2100 (3.1GHz)",
+     "AMD Phenom X4 945 (3.0GHz)"
+    ],
+    "ids": [
+     "intel-core-i3-2100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R7 250",
+     "NVIDIA Geforce GTX 650"
+    ],
+    "ids": [
+     "amd-radeon-r7-250-1gb",
+     "amd-radeon-r7-250-2gb",
+     "nvidia-geforce-gtx-650"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or above (64-bit Operating System Required)",
+    "processor": "Intel Core i3-2100 (3.1GHz) or AMD Phenom X4 945 (3.0GHz)",
+    "memory": "3 GB RAM",
+    "graphics": "AMD Radeon R7 250 or NVIDIA Geforce GTX 650",
+    "directx": "Version 11",
+    "storage": "14 GB available space",
+    "additional notes": "Please note that 32-bit operating systems will not be supported."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-6100 (3.7GHz)",
+     "AMD Athlon X4 845 (3.5GHz)"
+    ],
+    "ids": [
+     "intel-core-i3-6100",
+     "amd-athlon-x4-845"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 460",
+     "NVIDIA Geforce 1050"
+    ],
+    "ids": [
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb",
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i3-6100 (3.7GHz) or AMD Athlon X4 845 (3.5GHz)",
+    "memory": "6 GB RAM",
+    "graphics": "AMD Radeon RX 460 or NVIDIA Geforce 1050",
+    "directx": "Version 11",
+    "storage": "14 GB available space",
+    "additional notes": "Please note that 32-bit operating systems will not be supported."
+   }
+  }
+ }
+}

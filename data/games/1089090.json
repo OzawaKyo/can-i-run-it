@@ -1,0 +1,87 @@
+{
+ "appid": 1089090,
+ "name": "ONE PIECE: PIRATE WARRIORS 4",
+ "slug": "one-piece-pirate-warriors-4",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 3450",
+     "AMD Ryzen 3 1300X"
+    ],
+    "ids": [
+     "intel-core-i5-3450",
+     "amd-ryzen-3-1300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660 () 2GB",
+     "AMD Radeon HD 7870 () 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 64bits",
+    "processor": "Intel Core i5 3450 / AMD Ryzen 3 1300X",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 (2GB) / AMD Radeon HD 7870 (2GB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "additional notes": "Graphics settings: All 'Low' or 'OFF'; Expected Framerate: 30 FPS @ 1280x720"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 3770",
+     "AMD Ryzen 5 1400"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-ryzen-5-1400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 () 3GB",
+     "AMD Radeon RX 580 () 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "amd-radeon-rx-580-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 64bits",
+    "processor": "Intel Core i7 3770 / AMD Ryzen 5 1400",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (3GB) / AMD Radeon RX 580 (4GB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "additional notes": "Graphics settings: All 'High' or 'ON'; 'Character display number' only set to 'Medium'; Expected Framerate: 60 FPS @ 1920x1080"
+   }
+  }
+ }
+}

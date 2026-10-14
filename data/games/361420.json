@@ -1,0 +1,73 @@
+{
+ "appid": 361420,
+ "name": "ASTRONEER",
+ "slug": "astroneer",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "X64 Dual Core CPU",
+     "2+ GHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Discrete Non Mobile GPU with Ram 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "X64 Dual Core CPU, 2+ GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Discrete Non Mobile GPU with 1 GB Ram",
+    "directx": "Version 11",
+    "storage": "2 GB available space",
+    "sound card": "Any",
+    "additional notes": "Internet connection required for online multiplayer"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "X64 Quad Core CPU",
+     "3+ GHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Discrete Non Mobile GPU with RAM 2GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 (64-bit)",
+    "processor": "X64 Quad Core CPU, 3+ GHz",
+    "memory": "8 GB RAM",
+    "graphics": "Discrete Non Mobile GPU with 2 GB RAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space",
+    "sound card": "Any"
+   }
+  }
+ }
+}

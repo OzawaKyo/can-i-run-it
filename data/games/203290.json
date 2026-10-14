@@ -1,0 +1,74 @@
+{
+ "appid": 203290,
+ "name": "America's Army: Proving Grounds",
+ "slug": "america-s-army-proving-grounds",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4+ GHz Quad Core CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Direct X 9.0c compliant",
+     "Shader 3.0 enabled video card with 512MB RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 9.765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista",
+    "processor": "2.4+ GHz Quad Core CPU",
+    "memory": "4096 MB RAM",
+    "graphics": "Direct X 9.0c compliant, Shader 3.0 enabled video card with 512MB RAM",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10000 MB available space",
+    "sound card": "Direct X 9.0c compliant sound card",
+    "additional notes": "Requires Internet Explorer 9 or later and the latest Windows Media Player"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.3+GHz Core i5 CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Direct X 9.0c compliant",
+     "Shader 3.0 enabled video card with RAM 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 9.765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 7 or higher",
+    "processor": "3.3+GHz Core i5 CPU",
+    "memory": "8192 MB RAM",
+    "graphics": "Direct X 9.0c compliant, Shader 3.0 enabled video card with 1GB RAM",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10000 MB available space",
+    "sound card": "Direct X 9.0c compliant sound card",
+    "additional notes": "Requires Internet Explorer 9 or later and the latest Windows Media Player"
+   }
+  }
+ }
+}

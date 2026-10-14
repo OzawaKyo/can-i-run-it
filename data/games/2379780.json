@@ -1,0 +1,47 @@
+{
+ "appid": 2379780,
+ "name": "Balatro",
+ "slug": "balatro",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 2.1 compatible graphics card",
+     "integrated graphics"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.146484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, 10, 11 x64",
+    "processor": "Intel Core i3",
+    "memory": "1 GB RAM",
+    "graphics": "OpenGL 2.1 compatible graphics card, integrated graphics",
+    "storage": "150 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

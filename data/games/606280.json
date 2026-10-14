@@ -1,0 +1,86 @@
+{
+ "appid": 606280,
+ "name": "Darksiders III",
+ "slug": "darksiders-iii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-8320 (3,5 GHz)",
+     "Intel i5-4690K (3,5 GHz)"
+    ],
+    "ids": [
+     "amd-fx-8320",
+     "intel-core-i5-4690k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 660",
+     "Radeon R7 370 with VRAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r9-370-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / 8 / 10 64 bit",
+    "processor": "AMD FX-8320 (3,5 GHz) / Intel i5-4690K (3,5 GHz) or better",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 660 / Radeon R7 370 with 2 GB VRAM",
+    "directx": "Version 11",
+    "storage": "25 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3930K (3.2 GHz)/AMD Ryzen 5 1600 (3.2 GHz)"
+    ],
+    "ids": [
+     "intel-core-i7-3930k",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 480",
+     "NVIDIA GeForce GTX 970 with VRAM 4GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb",
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / 8 / 10 64 bit",
+    "processor": "Intel Core i7-3930K (3.2 GHz)/AMD Ryzen 5 1600 (3.2 GHz) or better",
+    "memory": "16 GB RAM",
+    "graphics": "AMD Radeon RX 480 / NVIDIA GeForce GTX 970 with 4 GB VRAM",
+    "directx": "Version 11",
+    "storage": "25 GB available space",
+    "additional notes": "We recommend using a controller."
+   }
+  }
+ }
+}

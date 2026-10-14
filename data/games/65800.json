@@ -1,0 +1,74 @@
+{
+ "appid": 65800,
+ "name": "Dungeon Defenders",
+ "slug": "dungeon-defenders",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1 Ghz Dual-Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 12
+   },
+   "gpu": {
+    "raw": [
+     "Graphics Card with Shader Model 3 support",
+     "256 MB video memory"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "1 Ghz Dual-Core CPU",
+    "memory": "1 GB RAM",
+    "storage": "2GB",
+    "graphics": "Graphics Card with Shader Model 3 support, 256 MB video memory",
+    "directx": "9.0c",
+    "sound": "DirectSound-compatible sound device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2Ghz Dual-Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Graphics Card with Shader Model 3 support",
+     "512 MB video memory"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2Ghz Dual-Core CPU",
+    "memory": "2GB RAM",
+    "storage": "2GB",
+    "graphics": "Graphics Card with Shader Model 3 support, 512 MB video memory",
+    "directx": "9.0c",
+    "sound": "DirectSound-compatible sound device",
+    "additional": ""
+   }
+  }
+ }
+}

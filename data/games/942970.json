@@ -1,0 +1,77 @@
+{
+ "appid": 942970,
+ "name": "Unheard - Voices of Crime",
+ "slug": "unheard-voices-of-crime",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i3-3220"
+    ],
+    "ids": [
+     "intel-core-i3-3220"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 610"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-610-gf119-300",
+     "nvidia-geforce-gt-610-gf119-300-2",
+     "nvidia-geforce-gt-610-gf119-300-3"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10",
+    "processor": "Intel(R) Core(TM) i3-3220",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GT 610",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "sound card": "100% DirectX 9.0c compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5-3470"
+    ],
+    "ids": [
+     "intel-core-i5-3470"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 630"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-630"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10",
+    "processor": "Intel(R) Core(TM) i5-3470",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT 630",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "sound card": "100% DirectX 9.0c compatible sound card"
+   }
+  }
+ }
+}

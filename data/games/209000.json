@@ -1,0 +1,82 @@
+{
+ "appid": 209000,
+ "name": "Batman™: Arkham Origins",
+ "slug": "batman-arkham-origins",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo",
+     "2.4 GHz",
+     "AMD Athlon X2",
+     "2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8800 GTS",
+     "AMD Radeon HD 3850 with 512 MB of VRAM"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "raw": {
+    "os": "32-bit: Vista, Win 7, Win 8",
+    "processor": "Intel Core 2 Duo, 2.4 GHz / AMD Athlon X2, 2.8 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 8800 GTS / AMD Radeon HD 3850 or better with 512 MB of VRAM",
+    "directx": "9.0c",
+    "hard drive space": "20 GB",
+    "other requirements": "Broadband Internet connection",
+    "additional notes": "Windows XP and DirectX 9.0b and below not supported"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-750",
+     "2.67 GHz",
+     "AMD Phenom II X4 965",
+     "3.4 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-750",
+     "amd-phenom-ii-x4-965-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 560",
+     "AMD Radeon HD 6950 with 768 MB+ of VRAM (DirectX 11 Compatible)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "raw": {
+    "os": "64-bit: Vista, Win 7, Win 8",
+    "processor": "Intel Core i5-750, 2.67 GHz / AMD Phenom II X4 965, 3.4 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 560 / AMD Radeon HD 6950 or better with 768 MB+ of VRAM (DirectX 11 Compatible)",
+    "directx": "11",
+    "hard drive space": "20 GB",
+    "other requirements": "Broadband Internet connection",
+    "additional notes": "Windows XP and DirectX 9.0b and below not supported"
+   }
+  }
+ }
+}

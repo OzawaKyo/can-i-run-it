@@ -1,0 +1,90 @@
+{
+ "appid": 436520,
+ "name": "Line of Sight",
+ "slug": "line-of-sight",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.0GHz from Intel",
+     "AMD 2.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8600/9600GT",
+     "ATI/AMD Radeon HD2600/3600"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Dual Core 2.0GHz from Intel or AMD 2.0GHz",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.6 from Intel",
+     "AMD 2.6GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 460 GTX",
+     "ATI/AMD Radeon HD6850"
+    ],
+    "ids": [
+     "amd-radeon-hd-6850"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64bit",
+    "processor": "Dual Core 2.6 from Intel or AMD 2.6GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA 460 GTX, ATI/AMD Radeon HD6850",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space"
+   }
+  }
+ }
+}

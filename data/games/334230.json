@@ -1,0 +1,34 @@
+{
+ "appid": 334230,
+ "name": "Town of Salem",
+ "slug": "town-of-salem",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit",
+    "processor": "2 Ghz",
+    "memory": "2 GB RAM",
+    "network": "Broadband Internet connection",
+    "storage": "3 GB available space"
+   }
+  }
+ }
+}

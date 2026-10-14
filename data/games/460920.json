@@ -1,0 +1,86 @@
+{
+ "appid": 460920,
+ "name": "Steep™",
+ "slug": "steep",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2400S at 2.5 Ghz",
+     "AMD FX-4100 at 3.6 Ghz"
+    ],
+    "ids": [
+     "intel-core-i5-2400s",
+     "amd-fx-4100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 560TI",
+     "Radeon R7 260X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560-ti",
+     "amd-radeon-r7-260x-1gb",
+     "amd-radeon-r7-260x-2gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+    "processor": "Intel Core i5 2400S at 2.5 Ghz or AMD FX-4100 at 3.6 Ghz",
+    "memory": "6 GB RAM",
+    "graphics": "GeForce GTX 560TI or Radeon R7 260X",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "sound card": "DirectX compatible sound card with latest drivers",
+    "additional notes": "SUPPORTED VIDEO CARDS (at time of release): NVIDIA GeForce GTX660 or better, GeForce GTX700/900/1000 series, AMD Radeon R9 260X or better, AMD Radeon R9 300 series, Fury series. Laptop versions of these cards may work but are NOT officially supported. For an up-to-date list of supported chipsets, please visit the FAQ for this game on our website: . PERIPHERAL SUPPORTED: Windows-compatible keyboard and mouse required, optional controller"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 3770K at 3.5 Ghz",
+     "AMD FX-8350 at 4.0 Ghz"
+    ],
+    "ids": [
+     "intel-core-i7-3770k",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 970",
+     "Radeon R9 390"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-390"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+    "processor": "Intel Core i7 3770K at 3.5 Ghz or AMD FX-8350 at 4.0 Ghz",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 970 or Radeon R9 390",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "sound card": "DirectX compatible sound card with latest drivers",
+    "additional notes": "SUPPORTED VIDEO CARDS (at time of release): NVIDIA GeForce GTX660 or better, GeForce GTX700/900/1000 series, AMD Radeon R9 260X or better, AMD Radeon R9 300 series, Fury series. Laptop versions of these cards may work but are NOT officially supported. For an up-to-date list of supported chipsets, please visit the FAQ for this game on our website: . PERIPHERAL SUPPORTED: Windows-compatible keyboard and mouse required, optional controller"
+   }
+  }
+ }
+}

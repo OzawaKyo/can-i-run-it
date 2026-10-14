@@ -1,0 +1,36 @@
+{
+ "appid": 304670,
+ "name": "Aeon Command",
+ "slug": "aeon-command",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 7,
+   "storage": {
+    "gb": 0.09765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 or higher",
+    "processor": "1 GHz",
+    "memory": "1 GB RAM",
+    "directx": "Version 7.0",
+    "storage": "100 MB available space",
+    "additional notes": "Minimum Resolution: 1024x768"
+   }
+  }
+ }
+}

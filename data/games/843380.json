@@ -1,0 +1,49 @@
+{
+ "appid": 843380,
+ "name": "Super Animal Royale",
+ "slug": "super-animal-royale",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i3 and up"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "256mb video memory",
+     "DX11"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 0.87890625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7+",
+    "processor": "Core i3 and up",
+    "memory": "4 GB RAM",
+    "graphics": "256mb video memory, DX11",
+    "network": "Broadband Internet connection",
+    "storage": "900 MB available space",
+    "additional notes": "64 bit required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

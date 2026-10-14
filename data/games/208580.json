@@ -1,0 +1,39 @@
+{
+ "appid": 208580,
+ "name": "STAR WARS™ Knights of the Old Republic™ II - The Sith Lords™",
+ "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 (2 Cores)",
+     "AMD A10"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or newer",
+    "processor": "Intel Core i3 (2 Cores), AMD A10",
+    "cpu speed": "2.2 GHz",
+    "memory": "4GB RAM",
+    "storage": "10 GB",
+    "video card (ati)": "Radeon HD 5450",
+    "video card (nvidia)": "GeForce 260",
+    "video card (intel)": "HD 4400",
+    "video memory (vram)": "256MB",
+    "controller support": "Microsoft Xbox 360 Controller for Windows (Wired), Microsoft Xbox 360 Games for Windows Wireless Controller with Adapter, Microsoft Xbox One Controller (Wired), Razor Sabertooth – Gaming Controller for Xbox 360, Thrustmaster GPX, Logitech Gamepad F310, Logitech Wireless Gamepad F710"
+   }
+  }
+ }
+}

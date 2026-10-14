@@ -1,0 +1,86 @@
+{
+ "appid": 555570,
+ "name": "Infestation: The New Z",
+ "slug": "infestation-the-new-z",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD A8 3870 3",
+     "6 Ghz",
+     "Intel Core i3 2100 3.1Ghz"
+    ],
+    "ids": [
+     "intel-core-i3-2100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 465",
+     "ATI Radeon TM HD 6870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-465",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 - SP1 64bit",
+    "processor": "AMD A8 3870 3,6 Ghz or Intel Core i3 2100 3.1Ghz or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 465 / ATI Radeon TM HD 6870",
+    "directx": "Version 9.0",
+    "storage": "15 GB available space",
+    "sound card": "DirectX 9 Compatible Card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX 8150 3.6 GHz",
+     "Intel Core i7 2600 3.4 GHz"
+    ],
+    "ids": [
+     "amd-fx-8150",
+     "intel-core-i7-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 950",
+     "ATI Radeon R7 360"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-r7-360",
+     "amd-radeon-r9-360"
+    ]
+   },
+   "ramGb": 12,
+   "directX": 9,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - SP1 64bit",
+    "processor": "AMD FX 8150 3.6 GHz or Intel Core i7 2600 3.4 GHz or better",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 950, ATI Radeon R7 360 or better",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "DirectX 9 Compatible Card"
+   }
+  }
+ }
+}

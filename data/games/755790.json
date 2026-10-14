@@ -1,0 +1,76 @@
+{
+ "appid": 755790,
+ "name": "Ring of Elysium",
+ "slug": "ring-of-elysium",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3 8130U(2Cores, 2.3GHz)"
+    ],
+    "ids": [
+     "intel-core-i3-8130u"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 730"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-730-gk208-302",
+     "nvidia-geforce-gt-730-gf108-400",
+     "nvidia-geforce-gt-730-gf108-400-2"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8.1, Windows 10(64-bit version)",
+    "processor": "Intel i3 8130U(2Cores, 2.3GHz) or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GT 730 or equivalent",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "sound card": "DirectX-compatible using the latest drivers"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 2500(4 Core, 3.3HGz)"
+    ],
+    "ids": [
+     "intel-core-i5-2500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1"
+    ]
+   },
+   "ramGb": 6,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8.1, Windows 10 (64-bit version)",
+    "processor": "Intel i5 2500(4 Core, 3.3HGz) or equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050 or equivalent",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "sound card": "DirectX-compatible using the latest drivers"
+   }
+  }
+ }
+}

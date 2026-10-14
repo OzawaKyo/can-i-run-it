@@ -1,0 +1,80 @@
+{
+ "appid": 553850,
+ "name": "HELLDIVERS™ 2",
+ "slug": "helldivers-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4790K",
+     "AMD Ryzen 5 1500X"
+    ],
+    "ids": [
+     "intel-core-i7-4790k",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050 Ti",
+     "AMD Radeon RX 470"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti",
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 135,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-4790K or AMD Ryzen 5 1500X",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470",
+    "storage": "135 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-9700K",
+     "AMD Ryzen 7 3700X"
+    ],
+    "ids": [
+     "intel-core-i7-9700k",
+     "amd-ryzen-7-3700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2060",
+     "AMD Radeon RX 6600XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-6600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-9700K or AMD Ryzen 7 3700X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2060 or AMD Radeon RX 6600XT",
+    "storage": "40 GB available space",
+    "additional notes": "SSD Recommended"
+   }
+  }
+ }
+}

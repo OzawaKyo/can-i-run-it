@@ -1,0 +1,58 @@
+{
+ "appid": 1343400,
+ "name": "RuneScape ®",
+ "slug": "runescape",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {
+    "os": "Windows 10 or later",
+    "network": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i3-6100",
+     "any AMD Ryzen CPU"
+    ],
+    "ids": [
+     "intel-core-i3-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 600 series",
+     "Intel UHD Graphics 610",
+     "AMD Radeon R7 260"
+    ],
+    "ids": [
+     "intel-uhd-graphics-610",
+     "amd-radeon-r7-260"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or higher",
+    "processor": "Intel i3-6100 / any AMD Ryzen CPU",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 600 series, Intel UHD Graphics 610, AMD Radeon R7 260",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "appid": 1282100,
+ "name": "REMNANT II®",
+ "slug": "remnant-ii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7600",
+     "AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-7600",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1650",
+     "AMD Radeon RX 590"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 10",
+    "processor": "Intel Core i5-7600 / AMD Ryzen 5 2600",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GTX 1650 / AMD Radeon RX 590",
+    "storage": "80 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5-10600k",
+     "AMD R5 3600"
+    ],
+    "ids": [
+     "intel-core-i5-10600k",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce RTX 2060",
+     "AMD Radeon RX 5700"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-5700"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 10",
+    "processor": "Intel i5-10600k / AMD R5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce RTX 2060 / AMD Radeon RX 5700",
+    "storage": "80 GB available space"
+   }
+  }
+ }
+}

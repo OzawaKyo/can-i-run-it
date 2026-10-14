@@ -1,0 +1,38 @@
+{
+ "appid": 433340,
+ "name": "Slime Rancher",
+ "slug": "slime-rancher",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.2GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "512MB VRAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7+",
+    "processor": "2.2GHz Dual Core",
+    "memory": "4 GB RAM",
+    "graphics": "512MB VRAM",
+    "directx": "Version 11",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

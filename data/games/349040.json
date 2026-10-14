@@ -1,0 +1,39 @@
+{
+ "appid": 349040,
+ "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+ "slug": "naruto-shippuden-ultimate-ninja-storm-4",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo",
+     "3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "1024 MB video card"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows (64bit) 7 or higher up to date",
+    "processor": "Intel Core2 Duo, 3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz",
+    "memory": "2 GB RAM",
+    "graphics": "1024 MB video card",
+    "directx": "Version 11",
+    "storage": "40 GB available space"
+   }
+  }
+ }
+}

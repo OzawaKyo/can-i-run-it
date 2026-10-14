@@ -1,0 +1,89 @@
+{
+ "appid": 439190,
+ "name": "Stories: The Path of Destinies",
+ "slug": "stories-the-path-of-destinies",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel CPU Core i3-2500K 2.0GHz+",
+     "AMD CPU Phenom II 570"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8800 GTX",
+     "GT640",
+     "GT730",
+     "Radeon HD 5850",
+     "HD Graphics 530"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-gt-640",
+     "nvidia-geforce-gt-730-gk208-302",
+     "nvidia-geforce-gt-730-gf108-400",
+     "nvidia-geforce-gt-730-gf108-400-2",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb",
+     "intel-hd-graphics-530"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7, 64-bit Windows 8 (8.1) or 64-bit Windows 10",
+    "processor": "Intel CPU Core i3-2500K 2.0GHz+ / AMD CPU Phenom II 570",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce 8800 GTX, GT640, GT730, Radeon HD 5850, HD Graphics 530",
+    "directx": "Version 10",
+    "storage": "2 GB available space",
+    "sound card": "Stereo"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel CPU Core i5 3770 3.4 GHz",
+     "AMD CPU Phenom II X4 940"
+    ],
+    "ids": [
+     "amd-phenom-ii-x4-940-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 770",
+     "GPU Radeon HD 7870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-770",
+     "intel-uhd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7, 64-bit Windows 8 (8.1) or 64-bit Windows 10",
+    "processor": "Intel CPU Core i5 3770 3.4 GHz / AMD CPU Phenom II X4 940",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 770, GPU Radeon HD 7870",
+    "directx": "Version 11",
+    "storage": "2 GB available space",
+    "sound card": "Stereo"
+   }
+  }
+ }
+}

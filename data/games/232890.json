@@ -1,0 +1,79 @@
+{
+ "appid": 232890,
+ "name": "Stronghold Crusader 2",
+ "slug": "stronghold-crusader-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo 2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8800GT 512MB",
+     "AMD Radeon HD 2900XT 512MB"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11 with latest service packs",
+    "processor": "Intel Core2 Duo 2Ghz or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce 8800GT 512MB or AMD Radeon HD 2900XT 512MB or better",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 460 1GB",
+     "AMD Radeon HD 5830 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5830"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11 64-bit with latest service packs",
+    "processor": "Intel Core i5 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 460 1GB or AMD Radeon HD 5830 1GB or better",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space",
+    "additional notes": "This is the minimum spec recommended for hosting a multiplayer game."
+   }
+  }
+ }
+}

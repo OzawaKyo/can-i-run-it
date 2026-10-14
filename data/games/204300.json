@@ -1,0 +1,68 @@
+{
+ "appid": 204300,
+ "name": "Awesomenauts",
+ "slug": "awesomenauts",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Any processor with 2 Cores"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "AMD",
+     "NVIDIA videocard with at least 512MB",
+     "or Intel HD Graphics"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 3.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8, or Windows 10",
+    "processor": "Any processor with 2 Cores",
+    "memory": "2 GB RAM",
+    "graphics": "AMD or NVIDIA videocard with at least 512MB, or Intel HD Graphics",
+    "storage": "3.5 GB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Any processor with 2 Cores"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "AMD",
+     "NVIDIA videocard with at least 1024MB"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 3.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8, or Windows 10",
+    "processor": "Any processor with 2 Cores",
+    "memory": "4 GB RAM",
+    "graphics": "AMD or NVIDIA videocard with at least 1024MB",
+    "storage": "3.5 GB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "appid": 1569040,
+ "name": "Football Manager 2022",
+ "slug": "football-manager-2022",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2",
+     "AMD Athlon 64 1.8GHz+"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "Intel GMA X4500",
+     "NVIDIA GeForece 9600M GT",
+     "AMD/ATI Mobility Raedon HD 3650 - 256MB VRAM"
+    ],
+    "ids": [
+     "nvidia-geforce-9600m-gt-512mb",
+     "nvidia-geforce-9600m-gt-1gb",
+     "amd-radeon-hd-3650-256mb",
+     "amd-radeon-hd-3650-512mb",
+     "amd-radeon-hd-3650-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit, 8/8.1, 10",
+    "processor": "Intel Core 2 or AMD Athlon 64 1.8GHz+",
+    "memory": "4 GB RAM",
+    "graphics": "Intel GMA X4500, NVIDIA GeForece 9600M GT, AMD/ATI Mobility Raedon HD 3650 - 256MB VRAM",
+    "directx": "Version 11",
+    "storage": "7 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

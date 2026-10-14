@@ -1,0 +1,43 @@
+{
+ "appid": 1286830,
+ "name": "STAR WARS™: The Old Republic™",
+ "slug": "star-wars-the-old-republic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 64 X2 Dual-Core 4000+",
+     "Intel Core 2 Duo 2.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Star Wars: The Old Republic requires a video card that has a minimum of of on-board RAM as well as support for Shader 3.0. Examples include: Intel HD 3000/AMD Radeon HD 7450/Nvidia GeForce 610 1GB"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics",
+     "amd-radeon-hd-7450-1gb",
+     "nvidia-geforce-610m-1gb"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 1,
+   "storage": {
+    "gb": 75,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or later – 64-bit",
+    "processor": "AMD Athlon 64 X2 Dual-Core 4000+ or better / Intel Core 2 Duo 2.0GHz or better",
+    "memory": "6 GB RAM",
+    "graphics": "Star Wars: The Old Republic requires a video card that has a minimum of 1 GB of on-board RAM as well as support for Shader 3.0 or better. Examples include: Intel HD 3000 or better/AMD Radeon HD 7450/Nvidia GeForce 610",
+    "network": "Broadband Internet connection",
+    "storage": "75 GB available space"
+   }
+  }
+ }
+}

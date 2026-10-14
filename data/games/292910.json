@@ -1,0 +1,71 @@
+{
+ "appid": 292910,
+ "name": "Deponia: The Complete Journey",
+ "slug": "deponia-the-complete-journey",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.5 GHz Single Core Processor",
+     "2 GHz Dual Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 2.0 compatible with 256 MB RAM (Shared Memory is not recommended)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista/7/8",
+    "processor": "2.5 GHz Single Core Processor or 2 GHz Dual Core Processor",
+    "memory": "2 GB RAM",
+    "graphics": "OpenGL 2.0 compatible with 256 MB RAM (Shared Memory is not recommended)",
+    "directx": "Version 9.0c",
+    "storage": "8 GB available space",
+    "additional notes": "Mouse"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.5 GHz Single Core Processor",
+     "2 GHz Dual Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 2.0 compatible with 512 MB RAM (Shared Memory is not recommended)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista/7/8",
+    "processor": "2.5 GHz Single Core Processor or 2 GHz Dual Core Processor",
+    "memory": "2 GB RAM",
+    "graphics": "OpenGL 2.0 compatible with 512 MB RAM (Shared Memory is not recommended)",
+    "directx": "Version 9.0c",
+    "storage": "8 GB available space",
+    "additional notes": "Mouse"
+   }
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "appid": 2622000,
+ "name": "Astral Party ",
+ "slug": "astral-party",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "intel core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "intel core i5",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "intel core i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "intel core i7",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

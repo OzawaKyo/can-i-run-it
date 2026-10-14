@@ -1,0 +1,75 @@
+{
+ "appid": 435150,
+ "name": "Divinity: Original Sin 2 - Definitive Edition",
+ "slug": "divinity-original-sin-2-definitive-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 550",
+     "ATI Radeon HD 6XXX"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-550-ti",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64-bit or Windows 8.1 64-bit or Windows 10 64-bit",
+    "processor": "Intel Core i5 or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 550 or ATI Radeon HD 6XXX or higher",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "Minimum requirements may change during development."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 770",
+     "AMD R9 280"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-770",
+     "amd-radeon-r9-280"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64-bit or Windows 8.1 64-bit or Windows 10 64-bit",
+    "processor": "Intel Core i7 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 770 or AMD R9 280",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "Recommended requirements may change during development."
+   }
+  }
+ }
+}

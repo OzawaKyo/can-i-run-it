@@ -1,0 +1,53 @@
+{
+ "appid": 544810,
+ "name": "KARDS - The WW2 Card Game",
+ "slug": "kards-the-ww2-card-game",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i3-3225 3.3 GHz"
+    ],
+    "ids": [
+     "intel-core-i3-3225"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 4000 on PC; AMD Radeon Vega 8"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Core i3-3225 3.3 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "Intel HD 4000 on PC; AMD Radeon Vega 8",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "additional notes": "Not recommended for Intel integrated graphics"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

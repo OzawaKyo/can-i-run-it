@@ -1,0 +1,69 @@
+{
+ "appid": 319630,
+ "name": "Life is Strange - Episode 1",
+ "slug": "life-is-strange-episode-1",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "ATI",
+     "NVidia card w/ 512 MB RAM (not recommended for Intel HD Graphics cards)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista",
+    "processor": "Dual Core 2.0GHz or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "ATI or NVidia card w/ 512 MB RAM (not recommended for Intel HD Graphics cards)",
+    "directx": "Version 9.0",
+    "storage": "5 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual Core 3.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "ATI",
+     "NVidia card w/ 1024 MB RAM (NVIDIA GeForce GTX 260 or ATI HD 4890)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Dual Core 3.0GHz or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "ATI or NVidia card w/ 1024 MB RAM (NVIDIA GeForce GTX 260 or ATI HD 4890)",
+    "directx": "Version 9.0",
+    "storage": "14 GB available space"
+   }
+  }
+ }
+}

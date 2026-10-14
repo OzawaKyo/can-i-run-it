@@ -1,0 +1,27 @@
+{
+ "appid": 417860,
+ "name": "Emily is Away",
+ "slug": "emily-is-away",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "raw": {
+    "os": "Windows XP Service Pack 2+",
+    "processor": "Intel Pentium 4 or later",
+    "memory": "512 MB RAM"
+   }
+  }
+ }
+}

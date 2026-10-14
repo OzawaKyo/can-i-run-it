@@ -1,0 +1,92 @@
+{
+ "appid": 1604030,
+ "name": "V Rising",
+ "slug": "v-rising",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600",
+     "3.3 GHz",
+     "AMD Ryzen 5 1500X",
+     "3.5 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-6600",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750 Ti (Maxwell) 2GB",
+     "AMD Radeon R7 360 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-r7-360",
+     "amd-radeon-r9-360"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 19,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Intel Core i5-6600, 3.3 GHz or AMD Ryzen 5 1500X, 3.5 GHz",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750 Ti (Maxwell or newer), 2 GB or AMD Radeon R7 360, 2 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "19 GB available space",
+    "additional notes": "Minimum System Requirements might change in the future"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-11600K",
+     "3.9 GHz",
+     "AMD Ryzen 5 5600X",
+     "3.7 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-11600k",
+     "amd-ryzen-5-5600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1070 8GB",
+     "AMD Radeon RX 590 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 19,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Intel Core i5-11600K, 3.9 GHz or AMD Ryzen 5 5600X, 3.7 GHz",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1070, 8 GB or AMD Radeon RX 590, 8 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "19 GB available space",
+    "additional notes": "Recommended System Requirements might change in the future"
+   }
+  }
+ }
+}

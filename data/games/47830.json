@@ -1,0 +1,35 @@
+{
+ "appid": 47830,
+ "name": "Medal of Honor™",
+ "slug": "medal-of-honor",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium D 3.0GHz",
+     "Core 2 Duo 2.0GHz",
+     "Athlon X2"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 7800 GT",
+     "ATI X1900"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "raw": {
+    "os": "Windows XP, Vista, Windows 7",
+    "processor": "Pentium D 3.0GHz / Core 2 Duo 2.0GHz / Athlon X2",
+    "memory": "2GB",
+    "graphics": "GeForce 7800 GT / ATI X1900",
+    "graphics memory": "256MB"
+   }
+  }
+ }
+}

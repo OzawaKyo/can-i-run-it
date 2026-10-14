@@ -1,0 +1,76 @@
+{
+ "appid": 3240220,
+ "name": "Grand Theft Auto V Enhanced",
+ "slug": "grand-theft-auto-v-enhanced",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4770 | AMD FX-9590"
+    ],
+    "ids": [
+     "intel-core-i7-4770",
+     "amd-fx-9590"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1630 ( VRAM) | AMD Radeon RX 6400 (4GB VRAM) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1630"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 105,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 (latest service pack)",
+    "processor": "Intel Core i7-4770 | AMD FX-9590",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1630 (4GB VRAM) | AMD Radeon RX 6400 (4GB VRAM)",
+    "storage": "105 GB available space",
+    "sound card": "DirectX 10 Compatible",
+    "additional notes": "SSD Required | Over time downloadable content and programming changes will change the system requirements for this game. Please refer to your hardware manufacturer and for current compatibility information. Some system components such as mobile chipsets, integrated, and AGP graphics cards may be incompatible. Unlisted specifications may not be supported by publisher. Other requirements: Installation and online play requires log-in to Rockstar Games account (minimum age varies) network; internet connection required for activation, online play, and periodic entitlement verification; software installations required including Rockstar Games Launcher, DirectX, Chromium, and Microsoft Visual C++ 2008 sp1 Redistributable Package, and authentication and verification software that recognizes certain hardware attributes for entitlement, digital rights management, anti-cheat and moderation software, system, and other support purposes. *Compatible PC and/or device required. 3D Audio via Windows Spatial Sound compatible audio systems"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-9600K | AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 3060 ( VRAM) | AMD Radeon RX 6600XT (8GB VRAM) 8GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-6600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "storage": {
+    "gb": 105,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "Intel Core i5-9600K | AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 3060 (8GB VRAM) | AMD Radeon RX 6600XT (8GB VRAM)",
+    "storage": "105 GB available space",
+    "sound card": "Windows Spatial Sound-compatible audio system; solution containing Dolby Atmos support required for a Dolby Atmos experience",
+    "additional notes": "SSD with DirectStorage-compatibility"
+   }
+  }
+ }
+}

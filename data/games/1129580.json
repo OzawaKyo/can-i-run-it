@@ -1,0 +1,86 @@
+{
+ "appid": 1129580,
+ "name": "Medieval Dynasty",
+ "slug": "medieval-dynasty",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 @ 3.3GHz",
+     "AMD @ 3.5GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 34
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 compatible GPU",
+     "dedicated VRAM (Intel Arc A580 / GeForce GTX 1060 / Radeon RX 580) 6GB"
+    ],
+    "ids": [
+     "intel-arc-a580",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 11 (x64)",
+    "processor": "Intel Core i5 @ 3.3GHz or AMD @ 3.5GHz",
+    "memory": "8 GB RAM",
+    "graphics": "DirectX 11 compatible GPU, 6GB dedicated VRAM (Intel Arc A580 / GeForce GTX 1060 / Radeon RX 580)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "Though not required, SSD for storage and 16 GB of memory is recommended"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5/i7 @ 4GHz",
+     "Ryzen 5 @ 4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 12 compatible GPU",
+     "dedicated VRAM (Intel Arc A750 / GeForce GTX 1660 / Radeon RX 590) 8GB"
+    ],
+    "ids": [
+     "intel-arc-a750",
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 (x64)",
+    "processor": "Intel Core i5/i7 @ 4GHz or Ryzen 5 @ 4GHz",
+    "memory": "16 GB RAM",
+    "graphics": "DirectX 12 compatible GPU, 8GB dedicated VRAM (Intel Arc A750 / GeForce GTX 1660 / Radeon RX 590)",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "Though not required, SSD for storage is recommended"
+   }
+  }
+ }
+}

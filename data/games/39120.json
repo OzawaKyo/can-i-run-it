@@ -1,0 +1,42 @@
+{
+ "appid": 39120,
+ "name": "RIFT",
+ "slug": "rift",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce FX 5900",
+     "ATI/AMD Radeon X300",
+     "Intel GMA X4500."
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista or 7",
+    "processor": "Dual Core 2.0 GHz or better",
+    "memory": "2 GB",
+    "graphics": "Nvidia GeForce FX 5900, ATI/AMD Radeon X300, Intel GMA X4500 or better.",
+    "directx": "9.0c, June 2010 update",
+    "storage": "15.0 GB available",
+    "sound": "DirectX 8.1 compliant card",
+    "other": ": Broadband internet connection (DSL, cable modem or other high speed connection)"
+   }
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "appid": 1139900,
+ "name": "Ghostrunner",
+ "slug": "ghostrunner",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K (4 * 3300) AMD Phenom II X4 965 (4 * 3400)"
+    ],
+    "ids": [
+     "intel-core-i5-2500k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1050 (2048 MB)",
+     "Radeon RX 550 (4096 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 22,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8.1, 10 x64",
+    "processor": "Intel Core i5-2500K (4 * 3300) AMD Phenom II X4 965 (4 * 3400) or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1050 (2048 MB) / Radeon RX 550 (4096 MB)",
+    "storage": "22 GB available space",
+    "additional notes": "60FPS, Low settings, 720p)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700K (4 * 4000)",
+     "AMD Ryzen 5 1500X (4 * 3500)"
+    ],
+    "ids": [
+     "intel-core-i7-6700k",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 970 (4096 MB)",
+     "Radeon RX 5700 (8192 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-5700"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 22,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8.1, 10 x64",
+    "processor": "Intel Core i7-6700K (4 * 4000) or AMD Ryzen 5 1500X (4 * 3500) or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 970 (4096 MB) or Radeon RX 5700 (8192 MB)",
+    "storage": "22 GB available space",
+    "additional notes": "(60FPS, High settings, 1080p)"
+   }
+  }
+ }
+}

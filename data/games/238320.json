@@ -1,0 +1,82 @@
+{
+ "appid": 238320,
+ "name": "Outlast",
+ "slug": "outlast",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.2 GHz Dual Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "512 MB NVIDIA GeForce 9800GTX",
+     "ATI Radeon HD 3xxx series"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP / Vista / 7 / 8 - 64 bits *",
+    "processor": "2.2 GHz Dual Core CPU",
+    "memory": "2 GB RAM",
+    "graphics": "512 MB NVIDIA GeForce 9800GTX / ATI Radeon HD 3xxx series",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "5 GB available space",
+    "sound card": "DirectX Compatible",
+    "additional notes": "* 32 bits systems are not officially supported, but should work if configured to provide 3Gb of user-mode address space. See or"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.8 GHz Quad Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 39
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 460 1GB",
+     "ATI Radeon HD 6850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-6850"
+    ]
+   },
+   "ramGb": 3,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista / 7 / 8 - 64 bits",
+    "processor": "2.8 GHz Quad Core CPU",
+    "memory": "3 GB RAM",
+    "graphics": "1GB NVIDIA GTX 460 / ATI Radeon HD 6850 or better",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "5 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ }
+}

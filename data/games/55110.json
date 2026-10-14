@@ -1,0 +1,79 @@
+{
+ "appid": 55110,
+ "name": "Red Faction®: Armageddon™",
+ "slug": "red-faction-armageddon",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2GHz Dual Core Processor (Intel Core 2 Duo or AMD Athlon X2)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "320MB Video RAM",
+     "GPU w/ Shader Model 3.0 support",
+     "NVIDIA GeForce 88xx series",
+     "ATI Radeon HD30xx series"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 7.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "2GHz Dual Core Processor (Intel Core 2 Duo or AMD Athlon X2) or higher",
+    "memory": "2GB System RAM or more",
+    "graphics": "320MB Video RAM, GPU w/ Shader Model 3.0 support, NVIDIA GeForce 88xx series or better, ATI Radeon HD30xx series or better",
+    "directx": "9.0c",
+    "storage": "7.5 GB",
+    "sound": "100% DirectX 9.0C compliant sound card or equivalent onboard sound"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Any Quad Core Processor(Intel Core i5 or AMD Phenom II X4)",
+     "3.0+ Dual Core CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GPU w/ Shader Model 4.0 support",
+     "NVIDIA GeForce GTX 400 series",
+     "ATI Radeon HD5000 series"
+    ],
+    "ids": [
+     "intel-hd-graphics-5000"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 7.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 7",
+    "processor": "Any Quad Core Processor(Intel Core i5 or AMD Phenom II X4) or 3.0+ Dual Core CPU",
+    "memory": "4GB System RAM or more",
+    "graphics": "1GB Video RAM, GPU w/ Shader Model 4.0 support, NVIDIA GeForce GTX 400 series or better, ATI Radeon HD5000 series or better",
+    "directx": "11",
+    "storage": "7.5 GB",
+    "sound": "100% DirectX 9.0C compliant sound card or equivalent onboard sound"
+   }
+  }
+ }
+}

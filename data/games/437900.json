@@ -1,0 +1,39 @@
+{
+ "appid": 437900,
+ "name": "Party Jousting",
+ "slug": "party-jousting",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.6 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [
+     "128mb Video Memory",
+     "capable of Shader Model 3.0"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.244140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, 10",
+    "processor": "1.6 Ghz",
+    "memory": "512 MB RAM",
+    "graphics": "128mb Video Memory, capable of Shader Model 3.0",
+    "storage": "250 MB available space"
+   }
+  }
+ }
+}

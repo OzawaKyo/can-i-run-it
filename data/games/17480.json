@@ -1,0 +1,42 @@
+{
+ "appid": 17480,
+ "name": "Command & Conquer™ Red Alert™ 3",
+ "slug": "command-conquer-red-alert-3",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Any Intel Core Duo machine; XP: Intel Pentium 4 2.2 GHz",
+     "AMD Athlon XP 2100+; Vista: Intel Pentium 4 2.6 GHz",
+     "AMD Athlon XP 2800+"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c compatible video card",
+     "NVIDIA GeForce 6800",
+     "ATI Radeon X800"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP SP2, Windows Vista (32-bit)",
+    "processor": "Any Intel Core Duo machine; XP: Intel Pentium 4 2.2 GHz or better, AMD Athlon XP 2100+ or better; Vista: Intel Pentium 4 2.6 GHz or better, AMD Athlon XP 2800+ or better",
+    "memory": "1 GB RAM",
+    "graphics": "DirectX 9.0c compatible video card, NVIDIA GeForce 6800 or better, ATI Radeon X800 or better",
+    "storage": "At least 10 GB of free space",
+    "sound": "DirectX 9.0c compatible sound card (Yamaha Xwave-512 is not supported)",
+    "multiplayer": "2 - 6 players with optional voice support, network or Internet connection required (Cable, DSL or faster connection)."
+   }
+  }
+ }
+}

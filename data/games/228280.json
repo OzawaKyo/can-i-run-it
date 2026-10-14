@@ -1,0 +1,35 @@
+{
+ "appid": 228280,
+ "name": "Baldur's Gate: Enhanced Edition",
+ "slug": "baldur-s-gate-enhanced-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 2.0 compatible"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8.1, 10, 11 64 bit",
+    "processor": "Dual Core Processor",
+    "memory": "1 GB RAM",
+    "graphics": "OpenGL 2.0 compatible",
+    "storage": "5 GB available space"
+   }
+  }
+ }
+}

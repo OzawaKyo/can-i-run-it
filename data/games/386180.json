@@ -1,0 +1,79 @@
+{
+ "appid": 386180,
+ "name": "Crossout",
+ "slug": "crossout",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "4-core processor Intel Core i5-2310",
+     "AMD FX-4100"
+    ],
+    "ids": [
+     "intel-core-i5-2310",
+     "amd-fx-4100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 7000 series",
+     "Nvidia GeForce 500 series"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 18,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64 bit",
+    "processor": "4-core processor Intel Core i5-2310 or AMD FX-4100",
+    "memory": "4 GB RAM",
+    "graphics": "AMD Radeon HD 7000 series, Nvidia GeForce 500 series",
+    "network": "Broadband Internet connection",
+    "storage": "18 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7600",
+     "AMD Ryzen 7 2700 and higher"
+    ],
+    "ids": [
+     "intel-core-i5-7600",
+     "amd-ryzen-7-2700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 970",
+     "Radeon RX 570 and higher"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 18,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64 bit",
+    "processor": "Intel Core i5-7600 or AMD Ryzen 7 2700 and higher",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GeForce GTX 970 or Radeon RX 570 and higher",
+    "network": "Broadband Internet connection",
+    "storage": "18 GB available space"
+   }
+  }
+ }
+}

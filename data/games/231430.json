@@ -1,0 +1,65 @@
+{
+ "appid": 231430,
+ "name": "Company of Heroes 2",
+ "slug": "company-of-heroes-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2Ghz Intel Core2 Duo"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "512MB Direct3D 10 capable video card (GeForce 8800 GT or Radeon HD 2900XT)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "memory": "2GB RAM",
+    "processor": "2Ghz Intel Core2 Duo or equivalent",
+    "graphics": "512MB Direct3D 10 capable video card (GeForce 8800 GT or Radeon HD 2900XT)",
+    "os": "32bit Vista",
+    "internet": "Broadband Internet connection",
+    "storage": "30GB free Hard disc space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3Ghz Intel i5 quad core"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "1024 MB Direct3D 11 capable video card (GeForce GTX 470 or Radeon HD 5850)"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "memory": "4GB RAM",
+    "processor": "3Ghz Intel i5 quad core or equivalent",
+    "graphics": "1024 MB Direct3D 11 capable video card (GeForce GTX 470 or Radeon HD 5850)",
+    "os": "64bit Windows 7 and above",
+    "internet": "Broadband Internet connection",
+    "storage": "30GB free Hard disc space"
+   }
+  }
+ }
+}

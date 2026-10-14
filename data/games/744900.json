@@ -1,0 +1,77 @@
+{
+ "appid": 744900,
+ "name": "Dead Frontier 2",
+ "slug": "dead-frontier-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3",
+     "AMD FX"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Radeon HD 8550"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows",
+    "processor": "Intel Core i3 or AMD FX",
+    "memory": "8 GB RAM",
+    "graphics": "Radeon HD 8550 or equivalent",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "additional notes": "You will most likely need to play on Low graphics settings"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7",
+     "AMD Ryzen 7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1050 with dedicated memory 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows",
+    "processor": "Intel Core i7 or AMD Ryzen 7",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 1050 or equivalent with 6GB dedicated memory",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "additional notes": "This should allow you to play smoothly on High graphics settings"
+   }
+  }
+ }
+}

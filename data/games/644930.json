@@ -1,0 +1,80 @@
+{
+ "appid": 644930,
+ "name": "They Are Billions",
+ "slug": "they-are-billions",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "INTEL",
+     "AMD 2 cores CPU at 2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD3000",
+     "Radeon",
+     "Nvidia card with shader model 3",
+     "video ram. 1GB"
+    ],
+    "ids": [
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, 10 (32 and 64 bits)",
+    "processor": "INTEL, AMD 2 cores CPU at 2Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD3000, Radeon, Nvidia card with shader model 3, 1GB video ram.",
+    "directx": "Version 9.0c",
+    "storage": "4 GB available space",
+    "additional notes": "Minimum resolution: 1360x768, recomended FULL HD 1920x1080."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "INTEL. AMD 4 cores CPU at 3Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "Radeon 7950",
+     "Nvidia GTX 670. video ram. 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-670"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, 10 (64 bits)",
+    "processor": "INTEL. AMD 4 cores CPU at 3Ghz",
+    "memory": "8 GB RAM",
+    "graphics": "Radeon 7950 or above, Nvidia GTX 670 or above. 4GB video ram.",
+    "directx": "Version 9.0c",
+    "storage": "4 GB available space",
+    "additional notes": "4K Monitor (3840x2160)"
+   }
+  }
+ }
+}

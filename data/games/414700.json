@@ -1,0 +1,84 @@
+{
+ "appid": 414700,
+ "name": "Outlast 2",
+ "slug": "outlast-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-530"
+    ],
+    "ids": [
+     "intel-core-i3-530"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce GTX 260",
+     "ATI Radeon HD 4870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista / 7 / 8 / 10, 64-bits",
+    "processor": "Intel Core i3-530",
+    "memory": "4 GB RAM",
+    "graphics": "1GB VRAM, NVIDIA Geforce GTX 260 / ATI Radeon HD 4870",
+    "directx": "Version 10",
+    "storage": "30 GB available space",
+    "sound card": "DirectX Compatible",
+    "additional notes": "Targetting 720p @ 30 fps"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce GTX 660",
+     "ATI Radeon HD 7850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1.5,
+   "directX": 11,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista / 7 / 8 / 10, 64-bits",
+    "processor": "Intel Core i5",
+    "memory": "8 GB RAM",
+    "graphics": "1.5GB VRAM, NVIDIA Geforce GTX 660 / ATI Radeon HD 7850",
+    "directx": "Version 11",
+    "storage": "30 GB available space",
+    "sound card": "DirectX Compatible",
+    "additional notes": "Targetting 1080p @ 60 fps"
+   }
+  }
+ }
+}

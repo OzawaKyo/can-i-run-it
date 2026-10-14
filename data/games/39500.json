@@ -1,0 +1,71 @@
+{
+ "appid": 39500,
+ "name": "Gothic 3 Classic",
+ "slug": "gothic-3-classic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4",
+     "AMD CPU 2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "3D graphics card with 128 MB Ram and Shader 1.4"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/2000/Vista/7/8/10/11",
+    "processor": "Intel Pentium 4 or AMD CPU 2 GHz or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "3D graphics card with 128 MB Ram and Shader 1.4",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 3.0 GHz",
+     "AMD Athlon 64 4000+"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "3D graphics cardwith 256 MB (NVIDIA GeForce 6800 equivalent"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11",
+    "processor": "Intel Pentium 3.0 GHz or AMD Athlon 64 4000+",
+    "memory": "4 GB RAM",
+    "graphics": "3D graphics cardwith 256 MB (NVIDIA GeForce 6800 equivalent or better",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  }
+ }
+}

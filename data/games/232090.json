@@ -1,0 +1,88 @@
+{
+ "appid": 232090,
+ "name": "Killing Floor 2",
+ "slug": "killing-floor-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo E8200 2.66GHz",
+     "Phenom II X2 545"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8200",
+     "amd-phenom-ii-x2-545"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTS 250",
+     "Radeon HD 4830"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428",
+     "amd-radeon-hd-4830-512mb",
+     "amd-radeon-hd-4830-1gb"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 10,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win7 64-bit, Win8/8.1 64-bit",
+    "processor": "Core 2 Duo E8200 2.66GHz or Phenom II X2 545",
+    "memory": "3 GB RAM",
+    "graphics": "GeForce GTS 250 or Radeon HD 4830",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space",
+    "additional notes": "UNSUPPORTED HARDWARE: IntelHD Integrated Graphics Chips, 32-bit Operating Systems, NVIDIA FleX features require a GeForce GTX 770 or higher (GeForce GTX 980 recommended)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core 2 Quad Q9550 2.83GHz",
+     "Phenom II X4 955"
+    ],
+    "ids": [
+     "intel-core-2-quad-q9550",
+     "amd-phenom-ii-x4-955"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 560",
+     "Radeon HD 6950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Core 2 Quad Q9550 2.83GHz or Phenom II X4 955",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 560 or Radeon HD 6950",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "additional notes": "NVIDIA FleX features require a GeForce GTX 770 or higher (GeForce GTX 980 recommended)"
+   }
+  }
+ }
+}

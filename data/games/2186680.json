@@ -1,0 +1,77 @@
+{
+ "appid": 2186680,
+ "name": "Warhammer 40,000: Rogue Trader",
+ "slug": "warhammer-40-000-rogue-trader",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5-4590T CPU @ 2.00GHz"
+    ],
+    "ids": [
+     "intel-core-i5-4590t"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX Vega 6",
+     "Intel HD Graphics 630"
+    ],
+    "ids": [
+     "intel-hd-graphics-630"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win10",
+    "processor": "Intel(R) Core(TM) i5-4590T CPU @ 2.00GHz",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon RX Vega 6 / Intel HD Graphics 630",
+    "directx": "Version 11",
+    "storage": "40 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz"
+    ],
+    "ids": [
+     "intel-core-i5-6400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 570",
+     "NVIDIA GeForce GTX 1050 Ti"
+    ],
+    "ids": [
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb",
+     "nvidia-geforce-gtx-1050-ti"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win10",
+    "processor": "Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz",
+    "memory": "16 GB RAM",
+    "graphics": "AMD Radeon RX 570 / NVIDIA GeForce GTX 1050 Ti",
+    "directx": "Version 11",
+    "storage": "40 GB available space"
+   }
+  }
+ }
+}

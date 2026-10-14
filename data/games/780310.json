@@ -1,0 +1,79 @@
+{
+ "appid": 780310,
+ "name": "The Riftbreaker",
+ "slug": "the-riftbreaker",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 gen 2",
+     "AMD Bulldozer {4 cores)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 750 2GB",
+     "AMD R7 265 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-r7-265"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1",
+    "processor": "Intel i5 gen 2 or AMD Bulldozer {4 cores)",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 750 2GB or AMD R7 265 2GB",
+    "directx": "Version 11",
+    "storage": "12 GB available space",
+    "sound card": "DirectX compatible sound card",
+    "additional notes": "The recommended hardware spec. is required for hosting online games."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 gen 2",
+     "AMD Ryzen"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia RTX 2080 8GB",
+     "AMD Radeon 6800"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2080"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i7 gen 2 or AMD Ryzen",
+    "memory": "12 GB RAM",
+    "graphics": "Nvidia RTX 2080 8GB or AMD Radeon 6800",
+    "directx": "Version 11",
+    "storage": "12 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  }
+ }
+}

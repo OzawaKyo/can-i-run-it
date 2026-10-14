@@ -1,0 +1,72 @@
+{
+ "appid": 447820,
+ "name": "Day of Infamy",
+ "slug": "day-of-infamy",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6600",
+     "AMD Phenom X3 8750 processor"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600",
+     "amd-phenom-x3-8750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "1024MB VRAM",
+     "DirectX 9-compatible with support for Pixel Shader 3.0"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core 2 Duo E6600, AMD Phenom X3 8750 processor or better",
+    "memory": "4 GB RAM",
+    "graphics": "1024MB VRAM, DirectX 9-compatible with support for Pixel Shader 3.0",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "12 GB available space",
+    "additional notes": "Minimum Resolution: 1280x720"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "4+ cores"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "2048MB VRAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "4+ cores",
+    "memory": "8 GB RAM",
+    "graphics": "2048MB VRAM or more",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  }
+ }
+}

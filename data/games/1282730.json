@@ -1,0 +1,75 @@
+{
+ "appid": 1282730,
+ "name": "Loop Hero",
+ "slug": "loop-hero",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E4500 (2 * 2200)",
+     "AMD Athlon 64 X2 Dual Core 3600+ (2 * 1910)"
+    ],
+    "ids": [
+     "intel-core-2-duo-e4500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 7300 GT (512 MB)",
+     "Radeon X1300 Pro (256 MB)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.29296875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8.1, 10 x64",
+    "processor": "Intel Core2 Duo E4500 (2 * 2200) or equivalent, AMD Athlon 64 X2 Dual Core 3600+ (2 * 1910) or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "GeForce 7300 GT (512 MB), Radeon X1300 Pro (256 MB)",
+    "storage": "300 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E6750 (2 * 2660)",
+     "AMD Athlon 64 X2 Dual Core 5000+ (2 * 2600)"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8600 GT (512 MB)",
+     "Radeon HD 4650 (1024 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "amd-radeon-hd-4650-256mb",
+     "amd-radeon-hd-4650-512mb",
+     "amd-radeon-hd-4650-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.29296875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8.1, 10 x64",
+    "processor": "Intel Core2 Duo E6750 (2 * 2660) or equivalent, AMD Athlon 64 X2 Dual Core 5000+ (2 * 2600) or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "GeForce 8600 GT (512 MB), Radeon HD 4650 (1024 MB)",
+    "storage": "300 MB available space"
+   }
+  }
+ }
+}

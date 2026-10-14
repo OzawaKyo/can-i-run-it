@@ -1,0 +1,73 @@
+{
+ "appid": 302510,
+ "name": "Ryse: Son of Rome",
+ "slug": "ryse-son-of-rome",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual core with HyperThreading technology",
+     "quad core CPU (4+ logical processors)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 graphics card with video RAM 1GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 26,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista 64-bit / Windows 7 64-bit / Windows 8 64-bit",
+    "processor": "Dual core with HyperThreading technology or quad core CPU (4+ logical processors)",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 11 graphics card with 1 GB video RAM",
+    "directx": "Version 11",
+    "storage": "26 GB available space",
+    "sound card": "DirectX compatible Sound Card with latest drivers"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core",
+     "Six Core CPU (6+ logical processors)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 graphics card with video RAM 2GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 26,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista 64-bit / Windows 7 64-bit / Windows 8 64-bit",
+    "processor": "Quad Core or Six Core CPU (6+ logical processors)",
+    "memory": "8 GB RAM",
+    "graphics": "DirectX 11 graphics card with 2 GB video RAM",
+    "directx": "Version 11",
+    "storage": "26 GB available space",
+    "sound card": "DirectX compatible Sound Card with latest drivers"
+   }
+  }
+ }
+}

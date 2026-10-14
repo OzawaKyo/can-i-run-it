@@ -1,0 +1,84 @@
+{
+ "appid": 813780,
+ "name": "Age of Empires II: Definitive Edition",
+ "slug": "age-of-empires-ii-definitive-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo",
+     "AMD Athlon 64x2 5600+"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 420",
+     "ATI Radeon HD 6850",
+     "Intel HD Graphics 4000 with VRAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-420-oem",
+     "nvidia-geforce-gt-420m-512mb",
+     "nvidia-geforce-gt-420m-1gb",
+     "amd-radeon-hd-6850",
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core 2 Duo or AMD Athlon 64x2 5600+",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GT 420 or ATI Radeon HD 6850 or Intel HD Graphics 4000 or better with 2 GB VRAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space",
+    "additional notes": "2GB of video memory + 4GB of system memory required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 Ghz i5"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 650",
+     "AMD HD 5850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "2.4 Ghz i5 or greater or AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 650 or AMD HD 5850 or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "appid": 2694490,
+ "name": "Path of Exile 2",
+ "slug": "path-of-exile-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-7700",
+     "AMD Ryzen 5 2500x"
+    ],
+    "ids": [
+     "intel-core-i7-7700",
+     "amd-ryzen-5-2500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 960 () 3GB",
+     "Intel Arc A380",
+     "or ATI Radeon RX 470"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "intel-arc-a380",
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-7700 or AMD Ryzen 5 2500x",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 960 (3GB), Intel Arc A380, or ATI Radeon RX 470",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "additional notes": "A GPU with at least 3GB of VRAM is required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-10500",
+     "AMD Ryzen 5 3700X"
+    ],
+    "ids": [
+     "intel-core-i5-10500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2060",
+     "Intel Arc A770",
+     "or ATI Radeon RX 5600XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "intel-arc-a770-8gb",
+     "intel-arc-a770-16gb",
+     "amd-radeon-rx-5600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-10500 or AMD Ryzen 5 3700X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2060, Intel Arc A770, or ATI Radeon RX 5600XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "additional notes": "Solid State Storage is recommended"
+   }
+  }
+ }
+}

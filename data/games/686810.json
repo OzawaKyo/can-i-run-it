@@ -1,0 +1,82 @@
+{
+ "appid": 686810,
+ "name": "Hell Let Loose",
+ "slug": "hell-let-loose",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600/AMD Ryzen 3 1300X"
+    ],
+    "ids": [
+     "intel-core-i5-6600",
+     "amd-ryzen-3-1300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 960/AMD Radeon R9 380 4GB 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r9-380",
+     "amd-radeon-r9-380-4gb"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i5-6600/AMD Ryzen 3 1300X",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 960 4GB/AMD Radeon R9 380 4GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400/AMD Ryzen 5 2600X"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-2600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 /AMD Radeon RX 590 8GB 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i5-8400/AMD Ryzen 5 2600X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 6GB /AMD Radeon RX 590 8GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "appid": 24010,
+ "name": "Train Simulator Classic",
+ "slug": "train-simulator-classic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core-i3 4330 3.50 GHz Dual Core",
+     "AMD A8 6600K 3.90 GHz Quad Core"
+    ],
+    "ids": [
+     "intel-core-i3-4330",
+     "amd-a8-6600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750 Ti",
+     "AMD Radeon R9 Graphics with Dedicated VRAM 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "32-bit Windows 10*",
+    "processor": "Intel Core-i3 4330 3.50 GHz Dual Core or AMD A8 6600K 3.90 GHz Quad Core or Better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750 Ti or AMD Radeon R9 Graphics with 1 GB Dedicated VRAM or Better",
+    "directx": "9.0c",
+    "network": "Broadband Connection (May incur additional costs for use)",
+    "storage": "40 GB or more available space (Additional Add-Ons will require more)",
+    "sound card": "DirectX Compatible Audio Device",
+    "additional notes": "Requires mouse and keyboard or Xbox Controller"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core-i5 4690 3.50 GHz Quad Core",
+     "AMD Ryzen 7 1700 3.80 GHz Quad Core"
+    ],
+    "ids": [
+     "intel-core-i5-4690",
+     "amd-ryzen-7-1700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD Radeon RX 480 with Dedicated VRAM 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-4gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10, Windows 11 or later*",
+    "processor": "Intel Core-i5 4690 3.50 GHz Quad Core or AMD Ryzen 7 1700 3.80 GHz Quad Core or Better",
+    "memory": "16 GB or Better",
+    "graphics": "NVIDIA GeForce GTX 970 or AMD Radeon RX 480 with 4 GB Dedicated VRAM or Better",
+    "directx": "9.0c",
+    "network": "Broadband Connection (May incur additional costs for use)",
+    "storage": "40 GB or more available space (Additional Add-Ons will require more)",
+    "sound card": "DirectX Compatible Audio Device",
+    "additional notes": "Requires mouse and keyboard or Xbox Controller Laptop, Notebook, Mobile or Low Power versions of the above specifications (including Intel or Integrated Graphics) may work but are not supported. Updates to Chipset, Graphics and Audio Device Drivers may be required. *The Steam Client only supports Windows 10 and later."
+   }
+  }
+ }
+}

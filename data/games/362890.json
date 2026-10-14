@@ -1,0 +1,69 @@
+{
+ "appid": 362890,
+ "name": "Black Mesa",
+ "slug": "black-mesa",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.6 Dual Core Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated Video Card 2GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or Newer",
+    "processor": "2.6 Dual Core Processor or Greater",
+    "memory": "6 GB RAM",
+    "graphics": "2 GB Dedicated Video Card or Greater",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.2 Quad Core Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated Video Card 4GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or Newer",
+    "processor": "3.2 Quad Core Processor or Greater",
+    "memory": "8 GB RAM",
+    "graphics": "4 GB Dedicated Video Card or Greater",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space"
+   }
+  }
+ }
+}

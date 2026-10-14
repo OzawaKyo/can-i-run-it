@@ -1,0 +1,42 @@
+{
+ "appid": 301520,
+ "name": "Robocraft",
+ "slug": "robocraft",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Dual Core with SSE2 support AMD family"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Shader Model 3.0 Compatible GPU",
+     "DirectX 9.0c"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Vista/7/8/8.1/10",
+    "processor": "Intel Dual Core or better with SSE2 support or equivalent AMD family",
+    "memory": "4 GB RAM",
+    "graphics": "Shader Model 3.0 Compatible GPU, DirectX 9.0c",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "2 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "Min Resolution 1024x768"
+   }
+  }
+ }
+}

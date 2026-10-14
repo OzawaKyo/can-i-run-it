@@ -1,0 +1,65 @@
+{
+ "appid": 223710,
+ "name": "Cry of Fear",
+ "slug": "cry-of-fear",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1 ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "128MB Video Card with OpenGL support"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (32/64-bit)/Vista/XP",
+    "processor": "1 ghz",
+    "memory": "1024 MB RAM",
+    "graphics": "128MB Video Card with OpenGL support",
+    "storage": "5 GB HD space",
+    "additional": "Microsoft .NET Framework 4 Required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2 ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "512MB Video Card with OpenGL support"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (32/64-bit)/Vista/XP",
+    "processor": "2 ghz",
+    "memory": "2048 MB RAM",
+    "graphics": "512MB Video Card with OpenGL support",
+    "storage": "7 GB HD space",
+    "additional": "Microsoft .NET Framework 4 Required"
+   }
+  }
+ }
+}

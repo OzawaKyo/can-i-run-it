@@ -1,0 +1,82 @@
+{
+ "appid": 552990,
+ "name": "World of Warships",
+ "slug": "world-of-warships",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3210 3",
+     "2 GHz AMD Athlon X4 970 Quad Core 3",
+     "8 GHz"
+    ],
+    "ids": [
+     "amd-athlon-x4-970"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "1280x720; NvidiaGeforce GT 640 Intel UHD 630 AMD Radeon R7 240"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-640"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 67.2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 x64",
+    "processor": "Intel Core i3-3210 3,2 GHz AMD Athlon X4 970 Quad Core 3,8 GHz",
+    "memory": "6 GB RAM",
+    "graphics": "1280x720; NvidiaGeforce GT 640 Intel UHD 630 AMD Radeon R7 240",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "67.2 GB available space",
+    "sound card": "DirectX 11",
+    "additional notes": ""
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-10400 2",
+     "9 GHz AMD Ryzen 5 3600 3",
+     "6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 62
+   },
+   "gpu": {
+    "raw": [
+     "1920×1080; Intel UHD 630 AMD Radeon R7 240 NvidiaGeforce GTX 770 AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-770"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 67.2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 x64 / 8.1 / 10 / 11",
+    "processor": "Intel Core i5-10400 2,9 GHz AMD Ryzen 5 3600 3,6 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "1920×1080; Intel UHD 630 AMD Radeon R7 240 NvidiaGeforce GTX 770 AMD Radeon RX 570",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "67.2 GB available space",
+    "sound card": "DirectX 11",
+    "additional notes": ""
+   }
+  }
+ }
+}

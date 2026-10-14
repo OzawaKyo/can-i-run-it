@@ -1,0 +1,82 @@
+{
+ "appid": 1222670,
+ "name": "The Sims™ 4",
+ "slug": "the-sims-4",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.3 GHz Intel Core i3-3220 (2 cores, 4 threads)",
+     "AMD Ryzen 3 1200 3.1 GHz (4 cores)"
+    ],
+    "ids": [
+     "intel-core-i3-3220",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "128 MB of Video RAM and support for Pixel Shader 3.0. Supported Video Cards: NVIDIA GeForce 6600",
+     "ATI Radeon X1300",
+     "Intel GMA X4500"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 26,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64 Bit Required. Windows 10",
+    "processor": "3.3 GHz Intel Core i3-3220 (2 cores, 4 threads), AMD Ryzen 3 1200 3.1 GHz (4 cores) or better",
+    "memory": "4 GB RAM",
+    "graphics": "128 MB of Video RAM and support for Pixel Shader 3.0. Supported Video Cards: NVIDIA GeForce 6600 or better, ATI Radeon X1300 or better, Intel GMA X4500 or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "26 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel core i5 (4 cores)",
+     "AMD Ryzen 5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 650",
+     "AMD Radeon HD 7750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 51,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64 Bit Windows 10",
+    "processor": "Intel core i5 (4 cores), AMD Ryzen 5 or better",
+    "memory": "8 GB RAM",
+    "graphics": "1 GB of Video RAM, NVIDIA GTX 650, AMD Radeon HD 7750, or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "51 GB available space"
+   }
+  }
+ }
+}

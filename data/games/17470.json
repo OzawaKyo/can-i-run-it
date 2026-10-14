@@ -1,0 +1,41 @@
+{
+ "appid": 17470,
+ "name": "Dead Space (2008)",
+ "slug": "dead-space-2008",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c compatible video card",
+     "Shader Model 3.0 required",
+     "256 MB",
+     "NVIDIA GeForce 6800 (7300, 7600 GS, and 8500 are below minimum system requirements)",
+     "ATI X1600 Pro (X1300, X1300 Pro and HD2400 are below minimum system requirements)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 7.5,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP SP2 or Vista",
+    "processor": "2.8 GHz or faster",
+    "memory": "1 GB RAM or more for Windows XP (2 GB for Vista)",
+    "graphics": "DirectX 9.0c compatible video card, Shader Model 3.0 required, 256 MB or better, NVIDIA GeForce 6800 or better (7300, 7600 GS, and 8500 are below minimum system requirements), ATI X1600 Pro or better (X1300, X1300 Pro and HD2400 are below minimum system requirements)",
+    "storage": "7.5 GB free space",
+    "sound": "DirectX 9.0c compatible sound card"
+   }
+  }
+ }
+}

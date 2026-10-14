@@ -1,0 +1,69 @@
+{
+ "appid": 286690,
+ "name": "Metro 2033 Redux",
+ "slug": "metro-2033-redux",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core CPU (2.2+ GHz Dual Core CPU)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 10",
+     "Shader Model 4 compliant graphics cards (GeForce 8800 GT 512 MB, GeForce GTS 250, etc)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista, 7 or 8 (64-bit only)",
+    "processor": "Dual Core CPU (2.2+ GHz Dual Core CPU or better)",
+    "memory": "2 GB RAM",
+    "graphics": "DirectX 10, Shader Model 4 compliant graphics cards (GeForce 8800 GT 512 MB, GeForce GTS 250, etc)",
+    "directx": "Version 10",
+    "storage": "10 GB available space",
+    "additional notes": "64-bit only"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Any Quad Core",
+     "3.0+ GHz Dual Core CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 compliant graphics card (GeForce GTX 480 and above)"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or 8 (64-bit only)",
+    "processor": "Any Quad Core or 3.0+ GHz Dual Core CPU",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 11 compliant graphics card (GeForce GTX 480 and above)",
+    "directx": "Version 11",
+    "storage": "10 GB available space",
+    "additional notes": "64-bit only"
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "appid": 39140,
+ "name": "FINAL FANTASY VII",
+ "slug": "final-fantasy-vii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c-compatible graphic card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP/Vista/7 (32/64bits)",
+    "processor": "2GHz",
+    "memory": "1 GB RAM",
+    "graphics": "DirectX 9.0c-compatible graphic card",
+    "directx": "9.0c",
+    "storage": "3 GB HD space"
+   }
+  }
+ }
+}

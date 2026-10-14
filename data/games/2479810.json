@@ -1,0 +1,107 @@
+{
+ "appid": 2479810,
+ "name": "Gray Zone Warfare",
+ "slug": "gray-zone-warfare",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8600",
+     "AMD Ryzen 5 2600 (AVX2 support required)"
+    ],
+    "ids": [
+     "intel-core-i5-8600",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1080 8GB",
+     "2060 SUPER 8GB",
+     "RTX 3060 8GB",
+     "RTX 4060 8GB",
+     "AMD Radeon RX 5700 8GB",
+     "RX 6600 8GB",
+     "Intel Arc A770 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410",
+     "nvidia-geforce-rtx-2060-super",
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-4060",
+     "amd-radeon-rx-5700",
+     "amd-radeon-rx-6600",
+     "intel-arc-a770-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit (latest update)",
+    "processor": "Intel Core i5-8600 / AMD Ryzen 5 2600 (AVX2 support required)",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1080 8GB / 2060 SUPER 8GB / RTX 3060 8GB / RTX 4060 8GB / AMD Radeon RX 5700 8GB / RX 6600 8GB / Intel Arc A770 8GB",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "sound card": "",
+    "additional notes": "SSD required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-9700K",
+     "AMD Ryzen 5 3600X"
+    ],
+    "ids": [
+     "intel-core-i7-9700k",
+     "amd-ryzen-5-3600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2080 Ti 11GB",
+     "RTX 3080 10GB",
+     "RTX 4070 12GB",
+     "RTX 5070 12GB",
+     "AMD Radeon RX 6800 XT 16GB",
+     "RX 7800 XT 16GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2080-ti",
+     "nvidia-geforce-rtx-3080",
+     "nvidia-geforce-rtx-4070",
+     "nvidia-geforce-rtx-5070",
+     "amd-radeon-rx-6800-xt",
+     "amd-radeon-rx-7800-xt"
+    ]
+   },
+   "ramGb": 32,
+   "vramGb": 10,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit (latest update) / Windows 11 64 Bit (latest update)",
+    "processor": "Intel Core i7-9700K / AMD Ryzen 5 3600X",
+    "memory": "32 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2080 Ti 11GB / RTX 3080 10GB / RTX 4070 12GB / RTX 5070 12GB / AMD Radeon RX 6800 XT 16GB / RX 7800 XT 16GB",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "SSD required"
+   }
+  }
+ }
+}

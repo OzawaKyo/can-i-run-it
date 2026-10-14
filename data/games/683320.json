@@ -1,0 +1,50 @@
+{
+ "appid": 683320,
+ "name": "GRIS",
+ "slug": "gris",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E6750 (2 * 2660)",
+     "AMD Athlon 64 X2 Dual Core 5000+ (2 * 2600)"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GT 430 (1024 MB)",
+     "Radeon HD 5570 (1024 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-430-gf108-300",
+     "nvidia-geforce-gt-430-gf108-300-2",
+     "nvidia-geforce-gt-430-512mb",
+     "nvidia-geforce-gt-430-1gb-gf108-300",
+     "nvidia-geforce-gt-430-1gb-gf108-300-2",
+     "nvidia-geforce-gt-430-2gb",
+     "nvidia-geforce-gt-430-4gb",
+     "amd-radeon-hd-5570-512mb",
+     "amd-radeon-hd-5570-1gb",
+     "amd-radeon-hd-5570-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "Intel Core2 Duo E6750 (2 * 2660) or equivalent / AMD Athlon 64 X2 Dual Core 5000+ (2 * 2600) or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "Geforce GT 430 (1024 MB) / Radeon HD 5570 (1024 MB)",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

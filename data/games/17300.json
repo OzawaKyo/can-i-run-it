@@ -1,0 +1,65 @@
+{
+ "appid": 17300,
+ "name": "Crysis",
+ "slug": "crysis",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.8 GHz (XP)",
+     "3.2 GHz* (Vista)"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "256 MB**"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Windows XP or Windows Vista***",
+    "processor": "2.8 GHz or faster (XP) or 3.2 GHz or faster* (Vista)",
+    "memory": "1.0 GB RAM (XP) or 1.5 GB RAM (Vista)",
+    "graphics": "256 MB**",
+    "directx version": "DirectX 9.0c (included)",
+    "sound": "DirectX 9.0c compatible",
+    "storage": "12GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 DUO @ 2.2GHz",
+     "AMD Athlon 64 X2 4400+"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8800 GTS/640"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-gt-640"
+    ]
+   },
+   "ramGb": 2,
+   "raw": {
+    "supported os": "Windows XP or Windows Vista",
+    "processor": "Intel Core 2 DUO @ 2.2GHz or AMD Athlon 64 X2 4400+",
+    "memory": "2.0 GB RAM",
+    "graphics": "NVIDIA GeForce 8800 GTS/640 or similar"
+   }
+  }
+ }
+}

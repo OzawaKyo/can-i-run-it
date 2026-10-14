@@ -1,0 +1,73 @@
+{
+ "appid": 1286680,
+ "name": "Tiny Tina's Wonderlands",
+ "slug": "tiny-tina-s-wonderlands",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-8350 (Intel i5-3570)"
+    ],
+    "ids": [
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX470 (NVIDIA GeForce GTX 960) 4GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-470-4gb"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 4,
+   "storage": {
+    "gb": 75,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (latest service pack)",
+    "processor": "AMD FX-8350 (Intel i5-3570)",
+    "memory": "6 GB RAM",
+    "graphics": "AMD Radeon RX470 (NVIDIA GeForce GTX 960 4GB)",
+    "network": "Broadband Internet connection",
+    "storage": "75 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 2600 (Intel i7-4770)"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 590 (NVIDIA GeForce GTX 1060 6GB) 8GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "storage": {
+    "gb": 75,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (latest service pack)",
+    "processor": "AMD Ryzen 5 2600 (Intel i7-4770)",
+    "memory": "16 GB RAM",
+    "graphics": "AMD Radeon RX 590 8GB (NVIDIA GeForce GTX 1060 6GB)",
+    "network": "Broadband Internet connection",
+    "storage": "75 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "appid": 450390,
+ "name": "The Lab",
+ "slug": "the-lab",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-4590",
+     "AMD FX 8350 equivalent"
+    ],
+    "ids": [
+     "intel-core-i5-4590",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD Radeon R9 290 equivalent",
+     "Video Output: HDMI 1.4",
+     "DisplayPort 1.2"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "raw": {
+    "os": "Windows 7 SP1, Windows 8.1 or Windows 10",
+    "processor": "Intel i5-4590, AMD FX 8350 equivalent or better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970, AMD Radeon R9 290 equivalent or better, Video Output: HDMI 1.4, DisplayPort 1.2 or newer",
+    "vr support": "SteamVR. Standing or Room Scale",
+    "additional notes": "1x USB 2.0 or better port also required"
+   }
+  }
+ }
+}

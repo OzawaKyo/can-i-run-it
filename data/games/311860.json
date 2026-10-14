@@ -1,0 +1,37 @@
+{
+ "appid": 311860,
+ "name": "Data Hacker: Initiation",
+ "slug": "data-hacker-initiation",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.0 GHz equivalent"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Card capable of 1024 x 768 pixels desktop resolution"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 0.3125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7/8",
+    "processor": "Intel Pentium 4 2.0 GHz equivalent or faster",
+    "memory": "512 MB RAM",
+    "graphics": "Card capable of 1024 x 768 pixels or higher desktop resolution",
+    "storage": "320 MB available space",
+    "sound card": "Basic Sound Card"
+   }
+  }
+ }
+}

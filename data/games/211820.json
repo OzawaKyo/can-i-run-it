@@ -1,0 +1,69 @@
+{
+ "appid": 211820,
+ "name": "Starbound",
+ "slug": "starbound",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "256 MB graphics memory and directx 9.0c compatible gpu"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or later",
+    "processor": "Core 2 Duo",
+    "memory": "2 GB RAM",
+    "graphics": "256 MB graphics memory and directx 9.0c compatible gpu",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "3 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Discrete GPU capable of directx 9.0c"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or later",
+    "processor": "Core i3",
+    "memory": "4 GB RAM",
+    "graphics": "Discrete GPU capable of directx 9.0c",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "appid": 285900,
+ "name": "Gang Beasts",
+ "slug": "gang-beasts",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2nd generation Core i3",
+     "AMD A6"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia 8800 GT",
+     "AMD 5670",
+     "Intel HD 3000"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-3000-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2nd generation Core i3, AMD A6, or higher",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia 8800 GT, AMD 5670, Intel HD 3000",
+    "network": "Broadband Internet connection",
+    "storage": "2 GB available space",
+    "additional notes": "DirectX 10 or higher"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "SM4 VRAM 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Core i5",
+    "memory": "8 GB RAM",
+    "graphics": "SM4 1GB VRAM",
+    "network": "Broadband Internet connection",
+    "storage": "2 GB available space",
+    "additional notes": "DirectX 10 or higher"
+   }
+  }
+ }
+}

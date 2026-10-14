@@ -1,0 +1,76 @@
+{
+ "appid": 962130,
+ "name": "Grounded",
+ "slug": "grounded",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3225"
+    ],
+    "ids": [
+     "intel-core-i3-3225"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 650 Ti"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i3-3225",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GTX 650 Ti",
+    "storage": "8 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-7700K",
+     "Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i7-7700k",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1060 6GB",
+     "Radeon RX 470"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 64bit",
+    "processor": "Intel Core i7-7700K or Ryzen 5 1600",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1060 6GB or Radeon RX 470",
+    "storage": "8 GB available space"
+   }
+  }
+ }
+}

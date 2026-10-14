@@ -1,0 +1,81 @@
+{
+ "appid": 291650,
+ "name": "Pillars of Eternity",
+ "slug": "pillars-of-eternity",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-2100T @ 2.50 GHz",
+     "AMD Phenom II X3 B73"
+    ],
+    "ids": [
+     "intel-core-i3-2100t",
+     "amd-phenom-ii-x3-b73"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon HD 4850",
+     "NVIDIA GeForce 9600 GT"
+    ],
+    "ids": [
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista 64-bit or newer",
+    "processor": "Intel Core i3-2100T @ 2.50 GHz / AMD Phenom II X3 B73",
+    "memory": "4 GB RAM",
+    "graphics": "ATI Radeon HD 4850 or NVIDIA GeForce 9600 GT",
+    "storage": "14 GB available space",
+    "sound card": "DirectX Compatible Sound Card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2400 @ 3.10 GHz",
+     "AMD Phenom II X6 1100T"
+    ],
+    "ids": [
+     "intel-core-i5-2400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Radeon HD 7700",
+     "NVIDIA GeForce GTX 570"
+    ],
+    "ids": [
+     "intel-hd-graphics",
+     "nvidia-geforce-gtx-570"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista 64-bit or newer",
+    "processor": "Intel Core i5-2400 @ 3.10 GHz / AMD Phenom II X6 1100T",
+    "memory": "8 GB RAM",
+    "graphics": "Radeon HD 7700 or NVIDIA GeForce GTX 570",
+    "storage": "14 GB available space",
+    "sound card": "DirectX Compatible Sound Card"
+   }
+  }
+ }
+}

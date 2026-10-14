@@ -1,0 +1,78 @@
+{
+ "appid": 248570,
+ "name": "Toribash",
+ "slug": "toribash",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3220"
+    ],
+    "ids": [
+     "intel-core-i3-3220"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 4000",
+     "NVIDIA GeForce 630",
+     "AMD Radeon HD 7670"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000",
+     "amd-radeon-630-laptop-2gb",
+     "amd-radeon-630-laptop-4gb",
+     "amd-radeon-hd-7670-512mb",
+     "amd-radeon-hd-7670-1gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or newer",
+    "processor": "Intel Core i3-3220",
+    "memory": "8 GB RAM",
+    "graphics": "Intel HD 4000 / NVIDIA GeForce 630 / AMD Radeon HD 7670",
+    "storage": "500 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400"
+    ],
+    "ids": [
+     "intel-core-i5-8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 950",
+     "AMD RX 460 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or newer",
+    "processor": "Intel Core i5-8400",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 950 / AMD RX 460 4GB",
+    "storage": "5 GB available space"
+   }
+  }
+ }
+}

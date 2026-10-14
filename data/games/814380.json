@@ -1,0 +1,79 @@
+{
+ "appid": 814380,
+ "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+ "slug": "sekiro-shadows-die-twice-goty-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-2100 | AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i3-2100",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760 | AMD Radeon HD 7950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-7950"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit | Windows 8 64-bit | Windows 10 64-bit",
+    "processor": "Intel Core i3-2100 | AMD FX-6300",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 | AMD Radeon HD 7950",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "sound card": "DirectX 11 Compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K | AMD Ryzen 5 1400"
+    ],
+    "ids": [
+     "amd-ryzen-5-1400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970 | AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit | Windows 8 64-bit | Windows 10 64-bit",
+    "processor": "Intel Core i5-2500K | AMD Ryzen 5 1400",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 | AMD Radeon RX 570",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "sound card": "DirectX 11 Compatible"
+   }
+  }
+ }
+}

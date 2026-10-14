@@ -1,0 +1,92 @@
+{
+ "appid": 1475810,
+ "name": "Ghostwire: Tokyo",
+ "slug": "ghostwire-tokyo",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i7 4770K @3.5ghz",
+     "Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i7-4770k",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX1060",
+     "RX5500XT",
+     "Arc A380* (VRAM) 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-5500-xt-4gb",
+     "amd-radeon-rx-5500-xt-8gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 26,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit Windows10 (version 1909 or higher)",
+    "processor": "Core i7 4770K @3.5ghz / Ryzen 5 2600",
+    "memory": "12 GB RAM",
+    "graphics": "GTX1060 / RX5500XT / Arc A380* (VRAM 6GB or higher)",
+    "directx": "Version 12",
+    "storage": "26 GB available space",
+    "additional notes": "SSD Storage, *Please check Intel's website for Arc compatible CPU and motherboard requirements."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i7 6700 @3.4ghz",
+     "Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i7-6700",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX1080",
+     "RX5600XT",
+     "Arc A750* (VRAM) 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410",
+     "amd-radeon-rx-5600-xt",
+     "intel-arc-a750"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 26,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit Windows10 (version 1909 or higher)",
+    "processor": "Core i7 6700 @3.4ghz / Ryzen 5 2600",
+    "memory": "16 GB RAM",
+    "graphics": "GTX1080 / RX5600XT / Arc A750* (VRAM 6GB or higher)",
+    "directx": "Version 12",
+    "storage": "26 GB available space",
+    "additional notes": "SSD Storage, *Please check Intel's website for Arc compatible CPU and motherboard requirements."
+   }
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "appid": 1364780,
+ "name": "Street Fighter™ 6",
+ "slug": "street-fighter-6",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7500",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-core-i5-7500",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX1060 (VRAM) 6GB",
+     "Radeon RX 580 (VRAM) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64 bit required)",
+    "processor": "Intel Core i5-7500 / AMD Ryzen 3 1200",
+    "memory": "8 GB RAM",
+    "graphics": "GTX1060 (VRAM 6GB) / Radeon RX 580 (VRAM 4GB)",
+    "directx": "Version 12",
+    "storage": "60 GB available space",
+    "additional notes": "- The framerate may drop during graphic-intensive scenes. - Additional storage is required for each subsequent update."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 8700",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i7-8700",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "RTX2070",
+     "Radeon RX 5700XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-5700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64 bit)/Windows 11 (64 bit)",
+    "processor": "Intel Core i7 8700 / AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "RTX2070 / Radeon RX 5700XT",
+    "directx": "Version 12",
+    "storage": "60 GB available space",
+    "additional notes": "- The framerate may drop during graphic-intensive scenes. - Additional storage is required for each subsequent update."
+   }
+  }
+ }
+}

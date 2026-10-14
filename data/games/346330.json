@@ -1,0 +1,90 @@
+{
+ "appid": 346330,
+ "name": "BrainBread 2",
+ "slug": "brainbread-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.7 GHz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 18
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon 9600",
+     "Nvidia GeForce 500 series"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gs",
+     "nvidia-geforce-9600-gso-384mb",
+     "nvidia-geforce-9600-gso-768mb",
+     "nvidia-geforce-9600-gso-1.5gb",
+     "nvidia-geforce-9600-gso-512",
+     "nvidia-geforce-9600-gt-green-edition-512mb",
+     "nvidia-geforce-9600-gt-green-edition-1gb",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "nvidia-geforce-9600-gt-rev-2-512mb",
+     "nvidia-geforce-9600-gt-rev-2-1gb",
+     "nvidia-geforce-9600-gt-mac-edition",
+     "nvidia-geforce-9600-gtx",
+     "nvidia-geforce-9600m-gs",
+     "nvidia-geforce-9600m-gt-512mb",
+     "nvidia-geforce-9600m-gt-1gb"
+    ]
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7/8/10",
+    "processor": "1.7 GHz processor or equivalent",
+    "memory": "512 MB RAM",
+    "graphics": "ATI Radeon 9600 or Nvidia GeForce 500 series",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "sound card": "DirectX 9.0c compatible sound"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Pentium 4 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "ATI X1600",
+     "Nvidia GeForce 600 series"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7/8/10",
+    "processor": "Pentium 4 3.0 GHz or equivalent",
+    "memory": "1 GB RAM",
+    "graphics": "ATI X1600, Nvidia GeForce 600 series or higher",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "sound card": "DirectX 9.0c compatible sound"
+   }
+  }
+ }
+}

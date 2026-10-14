@@ -1,0 +1,93 @@
+{
+ "appid": 50300,
+ "name": "Spec Ops: The Line",
+ "slug": "spec-ops-the-line",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo @ 2Ghz",
+     "AMD Athlon 64 X2 equivalent"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8600",
+     "ATI Radeon HD 2600XT (256 MB memory)"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3",
+    "processor": "Intel Core 2 Duo @ 2Ghz / AMD Athlon 64 X2 equivalent",
+    "memory": "2 GB RAM",
+    "storage": "6 GB free",
+    "graphics": "NVIDIA GeForce 8600 / ATI Radeon HD 2600XT (256 MB memory)",
+    "directx": "9.0",
+    "sound": "DirectX Compatible",
+    "additional": "Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include: STEAM Client, Microsoft Direct X, Visual C++ 2008 Redistributable, Visual C++ 2005 SP1 RedistributableCompatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Quad Core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 9800 GTX/ATI Radeon HD 4850 (512+ MB memory)"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista/7",
+    "processor": "2.4 GHz Quad Core processor",
+    "memory": "3 GB RAM",
+    "storage": "10 GB free",
+    "graphics": "NVIDIA GeForce 9800 GTX/ATI Radeon HD 4850 (512+ MB memory)",
+    "directx": "9.0",
+    "sound": "DirectX Compatible",
+    "additional": "Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include: STEAM Client, Microsoft Direct X, Visual C++ 2008 Redistributable, Visual C++ 2005 SP1 RedistributableCompatible"
+   }
+  }
+ }
+}

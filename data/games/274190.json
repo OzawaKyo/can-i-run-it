@@ -1,0 +1,47 @@
+{
+ "appid": 274190,
+ "name": "Broforce",
+ "slug": "broforce",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core Duo"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 3.0 compliant video card"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 1.26953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista or Later",
+    "processor": "Intel Core Duo or faster",
+    "memory": "4 GB RAM",
+    "graphics": "OpenGL 3.0 compliant video card",
+    "storage": "1300 MB available space",
+    "additional notes": "Gamepad highly recommended."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

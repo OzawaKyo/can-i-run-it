@@ -1,0 +1,77 @@
+{
+ "appid": 1557740,
+ "name": "ROUNDS",
+ "slug": "rounds",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Intel Core i5-2400 @ 3.1 GHz",
+     "AMD FX-6300 @ 3.5 GHz"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "2.5",
+    "memory": "8 GB RAM",
+    "graphics": "Intel Core i5-2400 @ 3.1 GHz or AMD FX-6300 @ 3.5 GHz or equivalent",
+    "directx": "Version 10",
+    "storage": "4 GB available space",
+    "additional notes": "- Requires a 64-bit processor and operating system"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4770 @ 3.4 GHz",
+     "AMD Ryzen 5 1600 @ 3.2 GHz"
+    ],
+    "ids": [
+     "intel-core-i7-4770",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD R9 290X ( VRAM with Shader Model 5.0) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290x-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-4770 @ 3.4 GHz or AMD Ryzen 5 1600 @ 3.2 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 or AMD R9 290X (4GB VRAM with Shader Model 5.0 or better)",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "additional notes": "Requires a 64-bit processor and operating system"
+   }
+  }
+ }
+}

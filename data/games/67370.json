@@ -1,0 +1,85 @@
+{
+ "appid": 67370,
+ "name": "The Darkness II",
+ "slug": "the-darkness-ii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 @ 2GHz",
+     "AMD Athlon 64 X2 4200+"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "256MB NVIDIA GeForce 8600",
+     "ATI Radeon HD 2600"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 1.5,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7",
+    "processor": "Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+",
+    "memory": "1.5GB RAM",
+    "storage": "10GB",
+    "graphics": "256MB NVIDIA GeForce 8600 / ATI Radeon HD 2600",
+    "sound": "DirectX Compatible",
+    "additional": "Requires installation of Visual C++ 2008 Redistributable, DirectX and nVidia PhysX version 9.11.1107 (included with download)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Quad Core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "512+ MB NVIDIA GeForce 9800 GTX"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7",
+    "processor": "2.4 GHz Quad Core processor",
+    "memory": "2GB RAM",
+    "storage": "10GB",
+    "graphics": "512+ MB NVIDIA GeForce 9800 GTX",
+    "sound": "DirectX Compatible",
+    "additional": "Requires installation of Visual C++ 2008 Redistributable, DirectX and nVidia PhysX version 9.11.1107 (included with download)"
+   }
+  }
+ }
+}

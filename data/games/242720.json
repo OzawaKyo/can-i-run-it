@@ -1,0 +1,90 @@
+{
+ "appid": 242720,
+ "name": "GunZ 2: The Second Duel",
+ "slug": "gunz-2-the-second-duel",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual core from Intel",
+     "AMD at 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 8600/9600GT",
+     "ATI/AMD Radeon HD2600/3600"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "Dual core from Intel or AMD at 2.4 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual core from Intel",
+     "AMD at 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9 compatible video card",
+     "GeForce GTX 260"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7",
+    "processor": "Dual core from Intel or AMD at 2.8 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 9 compatible video card, GeForce GTX 260",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

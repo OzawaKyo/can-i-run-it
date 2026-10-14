@@ -1,0 +1,50 @@
+{
+ "appid": 1637320,
+ "name": "Dome Keeper",
+ "slug": "dome-keeper",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.5Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "Support for OpenGL 3.3"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or newer",
+    "processor": "2.5Ghz or better",
+    "memory": "2 GB RAM",
+    "graphics": "Support for OpenGL 3.3",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "raw": {
+    "memory": "4 GB RAM"
+   }
+  }
+ }
+}

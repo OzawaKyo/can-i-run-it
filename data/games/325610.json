@@ -1,0 +1,81 @@
+{
+ "appid": 325610,
+ "name": "Total War: ATTILA",
+ "slug": "total-war-attila",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "512 MB NVIDIA GeForce 8800 GT",
+     "AMD Radeon HD 2900 XT",
+     "Intel HD 4000"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb",
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 10,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista*",
+    "processor": "Intel Core 2 Duo 3 GHz",
+    "memory": "3 GB RAM",
+    "graphics": "512 MB NVIDIA GeForce 8800 GT, AMD Radeon HD 2900 XT or Intel HD 4000",
+    "directx": "Version 10",
+    "storage": "35 GB available space",
+    "additional notes": "PC integrated graphics chipsets require 64 bit Windows, e.g. Intel HD series.Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2nd Generation Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 560 Ti 2GB",
+     "AMD Radeon HD 5870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560-ti",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7*",
+    "processor": "2nd Generation Intel Core i5",
+    "memory": "4 GB RAM",
+    "graphics": "2 GB NVIDIA GeForce GTX 560 Ti or AMD Radeon HD 5870",
+    "directx": "Version 11",
+    "storage": "35 GB available space",
+    "additional notes": "PC integrated graphics chipsets require 64 bit Windows, e.g. Intel HD series.Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "appid": 884660,
+ "name": "CRSED: Cuisine Royale",
+ "slug": "crsed-cuisine-royale",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 560",
+     "AMD Radeon 77XX"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 10,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i3",
+    "memory": "10 GB RAM",
+    "graphics": "Nvidia GeForce 560 or better, AMD Radeon 77XX or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "12 GB available space",
+    "additional notes": "Please note, that for Nvidia GPUs second digit matters a lot, so 640 or 730 are much slower than 560!"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 1060",
+     "AMD Radeon RX480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 10,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i7",
+    "memory": "10 GB RAM",
+    "graphics": "Nvidia GeForce 1060 or better, AMD Radeon RX480 or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "12 GB available space"
+   }
+  }
+ }
+}

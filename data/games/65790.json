@@ -1,0 +1,70 @@
+{
+ "appid": 65790,
+ "name": "Arma: Cold War Assault Remastered",
+ "slug": "arma-cold-war-assault-remastered",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual-core 2.0 GHz (x86-64)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 3.3-capable GPU",
+     "512 MB VRAM (e.g. Intel HD 3000)"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Dual-core 2.0 GHz (x86-64)",
+    "memory": "4 GB RAM",
+    "graphics": "OpenGL 3.3-capable GPU, 512 MB VRAM (e.g. Intel HD 3000)",
+    "directx": "N/A",
+    "storage": "20 GB free space",
+    "sound": "OpenAL-compatible audio device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-core 3.0 GHz (x86-64)"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated GPU w/ OpenGL 4.x",
+     "VRAM (e.g. GeForce GT...) 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Quad-core 3.0 GHz (x86-64)",
+    "memory": "8 GB RAM",
+    "graphics": "Dedicated GPU w/ OpenGL 4.x, 1 GB VRAM (e.g. GeForce GT...)",
+    "directx": "N/A",
+    "storage": "20 GB free space",
+    "sound": "OpenAL-compatible audio device"
+   }
+  }
+ }
+}

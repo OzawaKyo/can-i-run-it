@@ -1,0 +1,74 @@
+{
+ "appid": 606150,
+ "name": "Moonlighter",
+ "slug": "moonlighter",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM)2 Quad 2.7 Ghz",
+     "AMD Phenom(TM)II X4 3 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 260",
+     "Radeon HD 5770",
+     "1024 MB",
+     "Shader Model 3.0"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel(R) Core(TM)2 Quad 2.7 Ghz, AMD Phenom(TM)II X4 3 Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 260, Radeon HD 5770, 1024 MB, Shader Model 3.0",
+    "storage": "4 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel(R) Core(TM) i5",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 660",
+    "storage": "4 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  }
+ }
+}

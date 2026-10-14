@@ -1,0 +1,49 @@
+{
+ "appid": 3146520,
+ "name": "WEBFISHING",
+ "slug": "webfishing",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "GTX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-580"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2Ghz",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 580",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

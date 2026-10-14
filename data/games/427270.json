@@ -1,0 +1,40 @@
+{
+ "appid": 427270,
+ "name": "Orcs Must Die! Unchained",
+ "slug": "orcs-must-die-unchained",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2Duo 2.66GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 4000"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3",
+    "processor": "Intel Core2Duo 2.66GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD Graphics 4000",
+    "directx": "Version 9.0c",
+    "storage": "8 GB available space"
+   }
+  }
+ }
+}

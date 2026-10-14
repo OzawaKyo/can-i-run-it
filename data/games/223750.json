@@ -1,0 +1,77 @@
+{
+ "appid": 223750,
+ "name": "DCS World Steam Edition",
+ "slug": "dcs-world-steam-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD 3.0Ghz+ with 4+ cores"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "Discrete AMD",
+     "NVIDIA+ 8GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 200,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 11",
+    "processor": "Intel or AMD 3.0Ghz+ with 4+ cores",
+    "memory": "16 GB RAM",
+    "graphics": "Discrete AMD or NVIDIA 8GB+",
+    "directx": "Version 11",
+    "storage": "200 GB available space",
+    "vr support": "SteamVR, Oculus VR",
+    "additional notes": "Input: Keyboard / Mouse / Joystick"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD 4.5Ghz+ with 8+ cores"
+    ],
+    "ids": [],
+    "estimatedScore": 47
+   },
+   "gpu": {
+    "raw": [
+     "Discrete AMD",
+     "NVIDIA+ 8GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 32,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 500,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 11",
+    "processor": "Intel or AMD 4.5Ghz+ with 8+ cores",
+    "memory": "32 GB RAM",
+    "graphics": "Discrete AMD or NVIDIA 8GB+",
+    "directx": "Version 11",
+    "storage": "500 GB available space",
+    "vr support": "SteamVR, Oculus VR, OpenXR",
+    "additional notes": "Input: Joystick / Pedals / VR / Track IR / Haptic Gloves"
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "appid": 32370,
+ "name": "STAR WARS™ Knights of the Old Republic™",
+ "slug": "star-wars-knights-of-the-old-republic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 3 1Ghz",
+     "AMD Athlon 1GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "32 MB with Hardware T&L"
+    ],
+    "ids": []
+   },
+   "directX": 9,
+   "storage": {
+    "gb": 3.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP and Windows Vista",
+    "processor": "Intel Pentium 3 1Ghz or AMD Athlon 1GHz",
+    "memory": "256 RAM",
+    "graphics": "32 MB with Hardware T&L",
+    "directx": "Directx 9.0b or better",
+    "storage": "3.5 GB",
+    "sound": "Directx 9.0b compatible"
+   }
+  }
+ }
+}

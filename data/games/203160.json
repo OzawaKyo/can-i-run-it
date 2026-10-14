@@ -1,0 +1,93 @@
+{
+ "appid": 203160,
+ "name": "Tomb Raider Game of the Year",
+ "slug": "tomb-raider-game-of-the-year",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual core CPU: AMD Athlon64 X2 2.1 Ghz (4050+)",
+     "Intel Core2 Duo 1.86 Ghz (E6300)"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9 graphics card with 512Mb Video RAM: AMD Radeon HD 2600 XT",
+     "nVidia 8600"
+    ],
+    "ids": [
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb",
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP Service Pack 3, Windows Vista,7,8 (32bit/64bit)",
+    "processor": "Dual core CPU: AMD Athlon64 X2 2.1 Ghz (4050+), Intel Core2 Duo 1.86 Ghz (E6300)",
+    "memory": "1GB Memory (2GB on Vista)",
+    "graphics": "DirectX 9 graphics card with 512Mb Video RAM: AMD Radeon HD 2600 XT, nVidia 8600",
+    "directx": "9.0c",
+    "storage": "12 GB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad core CPU: AMD Phenom II X4 955",
+     "Intel Core i5-750"
+    ],
+    "ids": [
+     "amd-phenom-ii-x4-955",
+     "intel-core-i5-750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 graphics card with Video RAM: AMD Radeon HD 5870 1GB",
+     "nVidia GTX 480"
+    ],
+    "ids": [
+     "amd-radeon-hd-5870-1gb",
+     "nvidia-geforce-gtx-480"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista, Windows 7 or Windows 8",
+    "processor": "Quad core CPU: AMD Phenom II X4 955, Intel Core i5-750",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 11 graphics card with 1GB Video RAM: AMD Radeon HD 5870, nVidia GTX 480",
+    "directx": "11",
+    "storage": "12 GB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "appid": 552520,
+ "name": "Far Cry® 5",
+ "slug": "far-cry-5",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2400 @ 3.1 GHz",
+     "AMD FX-6300 @ 3.5 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-2400",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 670",
+     "AMD R9 270 ( VRAM with Shader Model 5.0) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-670",
+     "amd-radeon-r9-270"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "Intel Core i5-2400 @ 3.1 GHz or AMD FX-6300 @ 3.5 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 670 or AMD R9 270 (2GB VRAM with Shader Model 5.0 or better)",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "Game contains EasyAntiCheat anti-cheat technology, and Denuvo and VMProtect anti-tamper technology."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4770 @ 3.4 GHz",
+     "AMD Ryzen 5 1600 @ 3.2 GHz"
+    ],
+    "ids": [
+     "intel-core-i7-4770",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD R9 290X ( VRAM with Shader Model 5.0) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290x-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "Intel Core i7-4770 @ 3.4 GHz or AMD Ryzen 5 1600 @ 3.2 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 or AMD R9 290X (4GB VRAM with Shader Model 5.0 or better)",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "Game contains EasyAntiCheat anti-cheat technology, and Denuvo and VMProtect anti-tamper technology."
+   }
+  }
+ }
+}

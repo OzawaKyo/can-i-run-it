@@ -1,0 +1,91 @@
+{
+ "appid": 678950,
+ "name": "DRAGON BALL FighterZ",
+ "slug": "dragon-ball-fighterz",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-4350",
+     "4.2 GHz",
+     "Intel Core i5-3470",
+     "3.20 GHz"
+    ],
+    "ids": [
+     "amd-fx-4350",
+     "intel-core-i5-3470"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Radeon HD 6870 1GB",
+     "GeForce GTX 650 Ti 1GB"
+    ],
+    "ids": [
+     "amd-radeon-hd-6870-1gb",
+     "nvidia-geforce-gtx-650-ti"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 (64-bit OS required)",
+    "processor": "AMD FX-4350, 4.2 GHz / Intel Core i5-3470, 3.20 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Radeon HD 6870, 1 GB / GeForce GTX 650 Ti, 1 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "sound card": "DirectX compatible soundcard or onboard chipset"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 1400",
+     "3.2 GHz",
+     "Intel Core i7-3770",
+     "3.40 GHz"
+    ],
+    "ids": [
+     "amd-ryzen-5-1400",
+     "intel-core-i7-3770"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Radeon HD 7870 2GB",
+     "GeForce GTX 660 2GB"
+    ],
+    "ids": [
+     "intel-hd-graphics",
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 (64-bit OS required)",
+    "processor": "AMD Ryzen 5 1400, 3.2 GHz / Intel Core i7-3770, 3.40 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "Radeon HD 7870, 2 GB / GeForce GTX 660, 2 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "sound card": "DirectX compatible soundcard or onboard chipset"
+   }
+  }
+ }
+}

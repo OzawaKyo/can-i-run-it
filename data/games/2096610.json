@@ -1,0 +1,74 @@
+{
+ "appid": 2096610,
+ "name": "Crysis 3 Remastered",
+ "slug": "crysis-3-remastered",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5-3470"
+    ],
+    "ids": [
+     "intel-core-i5-3470"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 18,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Intel(R) Core(TM) i5-3470",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060",
+    "directx": "Version 11",
+    "storage": "18 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5-8600"
+    ],
+    "ids": [
+     "intel-core-i5-8600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660 TI"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660-ti"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 18,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-Bit latest update",
+    "processor": "Intel(R) Core(TM) i5-8600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660 TI",
+    "directx": "Version 11",
+    "storage": "18 GB available space"
+   }
+  }
+ }
+}

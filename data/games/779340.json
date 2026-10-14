@@ -1,0 +1,76 @@
+{
+ "appid": 779340,
+ "name": "Total War: THREE KINGDOMS",
+ "slug": "total-war-three-kingdoms",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 3.00Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "GTX 650 Ti|HD 7850 1GB|Intel UHD Graphics 620 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 Bit",
+    "processor": "Intel Core 2 Duo 3.00Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "GTX 650 Ti 1GB|HD 7850 1GB|Intel UHD Graphics 620",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "6GB Memory if using integrated GPU."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5-6600 | Ryzen 5 2600X"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 970 | R9 Fury X VRAM 4GB"
+    ],
+    "ids": [
+     "amd-radeon-r9-fury-x"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit",
+    "processor": "Intel i5-6600 | Ryzen 5 2600X",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 970 | R9 Fury X 4GB VRAM",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ }
+}

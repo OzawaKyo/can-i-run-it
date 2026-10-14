@@ -1,0 +1,74 @@
+{
+ "appid": 373420,
+ "name": "Divinity: Original Sin - Enhanced Edition",
+ "slug": "divinity-original-sin-enhanced-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E6600"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 Compatible GPU"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 9.765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64-bit or Windows 8.1 64-bit or Windows 10 64-bit",
+    "processor": "Intel Core2 Duo E6600 or equivalent",
+    "memory": "2048 MB RAM",
+    "graphics": "DirectX 11 Compatible GPU",
+    "directx": "Version 11",
+    "storage": "10000 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 2400"
+    ],
+    "ids": [
+     "intel-core-i5-2400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 550",
+     "ATI Radeon HD 6XXX"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-550-ti",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 9.765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64-bit or Windows 8.1 64-bit or Windows 10 64-bit",
+    "processor": "Intel i5 2400 or higher",
+    "memory": "4096 MB RAM",
+    "graphics": "NVIDIA GeForce GTX 550 or ATI Radeon HD 6XXX or higher",
+    "directx": "Version 11",
+    "storage": "10000 MB available space"
+   }
+  }
+ }
+}

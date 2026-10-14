@@ -1,0 +1,94 @@
+{
+ "appid": 550650,
+ "name": "Black Squad",
+ "slug": "black-squad",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "CORE2 DUO 2.2GHZ",
+     "AMD Athlon 64 X2 2.66GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GEFORCE 8600",
+     "GT630",
+     "RADEON HD 6750"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "nvidia-geforce-gt-630",
+     "amd-radeon-hd-6750-512mb",
+     "amd-radeon-hd-6750-1gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "CORE2 DUO 2.2GHZ / AMD Athlon 64 X2 2.66GHz",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GEFORCE 8600 OR GT630 / RADEON HD 6750",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "CORE i3-4170",
+     "AMD FX-8300"
+    ],
+    "ids": [
+     "intel-core-i3-4170",
+     "amd-fx-8300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 760",
+     "AMD Radeon HD 7950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-7950"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "CORE i3-4170 / AMD FX-8300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 760 or AMD Radeon HD 7950",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space"
+   }
+  }
+ }
+}

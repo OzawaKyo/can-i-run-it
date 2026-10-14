@@ -1,0 +1,31 @@
+{
+ "appid": 346900,
+ "name": "AdVenture Capitalist",
+ "slug": "adventure-capitalist",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.05859375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "memory": "512 MB RAM",
+    "directx": "Version 9.0",
+    "storage": "60 MB available space"
+   }
+  }
+ }
+}

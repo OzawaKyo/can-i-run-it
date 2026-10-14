@@ -1,0 +1,80 @@
+{
+ "appid": 1238840,
+ "name": "Battlefield™ 1",
+ "slug": "battlefield-1",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Processor (AMD): AMD FX-6350 Processor (Intel): Intel Core i5 6600K"
+    ],
+    "ids": [
+     "intel-core-i5-6600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Graphics card (AMD): AMD Radeon HD 7850 Graphics card (NVIDIA): NVIDIA GeForce GTX 660 2GB 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Processor (AMD): AMD FX-6350 Processor (Intel): Intel Core i5 6600K",
+    "memory": "8 GB RAM",
+    "graphics": "Graphics card (AMD): AMD Radeon HD 7850 2GB Graphics card (NVIDIA): NVIDIA GeForce GTX 660 2GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Processor (AMD): AMD FX 8350 Wraith Processor (Intel): Intel Core i7 4790"
+    ],
+    "ids": [
+     "intel-core-i7-4790",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Graphics card (AMD): AMD Radeon RX 480 Graphics card (NVIDIA): NVIDIA GeForce GTX 1060 3GB 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10 or later",
+    "processor": "Processor (AMD): AMD FX 8350 Wraith Processor (Intel): Intel Core i7 4790 or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "Graphics card (AMD): AMD Radeon RX 480 4GB Graphics card (NVIDIA): NVIDIA GeForce GTX 1060 3GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space"
+   }
+  }
+ }
+}

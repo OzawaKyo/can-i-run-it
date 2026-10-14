@@ -1,0 +1,82 @@
+{
+ "appid": 212070,
+ "name": "Star Conflict",
+ "slug": "star-conflict",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.3 GHz",
+     "Intel Core 2 Duo",
+     "2.5 GHz",
+     "AMD A6-9220"
+    ],
+    "ids": [
+     "amd-a6-9220"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "512 MB",
+     "NVidia",
+     "AMD Radeon",
+     "Intel (HD 3000, HD 4000) with support for Pixel Shader 3.0 (AMD Radeon X1000 not supported)"
+    ],
+    "ids": []
+   },
+   "ramGb": 6,
+   "storage": {
+    "gb": 8.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "2.3 GHz, Intel Core 2 Duo / 2.5 GHz, AMD A6-9220",
+    "memory": "6 GB RAM",
+    "graphics": "512 MB, NVidia / AMD Radeon / Intel (HD 3000, HD 4000) with support for Pixel Shader 3.0 (AMD Radeon X1000 not supported)",
+    "storage": "8.5 GB",
+    "additional": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.3 GHz",
+     "Intel Core 2 Duo",
+     "2.5 GHz",
+     "AMD A6-9220"
+    ],
+    "ids": [
+     "amd-a6-9220"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "1024 MB",
+     "NVidia GeForce 650",
+     "AMD Radeon HD 5750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "amd-radeon-hd-5750-512mb",
+     "amd-radeon-hd-5750-1gb"
+    ]
+   },
+   "ramGb": 6,
+   "storage": {
+    "gb": 8.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "2.3 GHz, Intel Core 2 Duo / 2.5 GHz, AMD A6-9220",
+    "memory": "6 GB RAM",
+    "graphics": "1024 MB, NVidia GeForce 650 / AMD Radeon HD 5750",
+    "storage": "8.5 GB",
+    "additional": "Broadband Internet connection"
+   }
+  }
+ }
+}

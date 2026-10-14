@@ -1,0 +1,74 @@
+{
+ "appid": 636480,
+ "name": "Ravenfield",
+ "slug": "ravenfield",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "32-bit",
+     "2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 4000"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1",
+    "processor": "32-bit, 2 GHz or Faster",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD 4000",
+    "directx": "Version 10",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "64-bit",
+     "3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GTX 750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or Newer",
+    "processor": "64-bit, 3 GHz or Faster",
+    "memory": "8 GB RAM",
+    "graphics": "Geforce GTX 750",
+    "directx": "Version 12",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

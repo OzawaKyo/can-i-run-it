@@ -1,0 +1,85 @@
+{
+ "appid": 438740,
+ "name": "Friday the 13th: The Game",
+ "slug": "friday-the-13th-the-game",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-530 (2 * 2930)",
+     "AMD Athlon II X2 270 (2 * 3400)"
+    ],
+    "ids": [
+     "intel-core-i3-530"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 650 Ti (1024 MB)",
+     "Radeon HD 7770 (1024 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8, Windows 10",
+    "processor": "Intel Core i3-530 (2 * 2930), AMD Athlon II X2 270 (2 * 3400)",
+    "memory": "4096 MB RAM",
+    "graphics": "GeForce GTX 650 Ti (1024 MB), Radeon HD 7770 (1024 MB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space",
+    "additional notes": "64-Bit Operating System and CPU required."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3240 (2 * 3400)",
+     "AMD Athlon X4 860K (4 * 3700)"
+    ],
+    "ids": [
+     "intel-core-i3-3240",
+     "amd-athlon-x4-860k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 750 Ti (2048 MB)",
+     "Radeon R9 270X (2048 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-r9-270x-2gb",
+     "amd-radeon-r9-270x-4gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8, Windows 10",
+    "processor": "Intel Core i3-3240 (2 * 3400), AMD Athlon X4 860K (4 * 3700)",
+    "memory": "6144 MB RAM",
+    "graphics": "GeForce GTX 750 Ti (2048 MB), Radeon R9 270X (2048 MB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space",
+    "additional notes": "64-Bit Operating System and CPU required."
+   }
+  }
+ }
+}

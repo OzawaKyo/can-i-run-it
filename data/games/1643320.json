@@ -1,0 +1,84 @@
+{
+ "appid": 1643320,
+ "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+ "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-7700K",
+     "AMD Ryzen 5 1600X"
+    ],
+    "ids": [
+     "intel-core-i7-7700k",
+     "amd-ryzen-5-1600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060 6GB",
+     "AMD Radeon RX 580 8GB",
+     "Intel Arc A750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-8gb",
+     "intel-arc-a750"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 160,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 x64 / Windows 11 x64",
+    "processor": "Intel Core i7-7700K / AMD Ryzen 5 1600X",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB / Intel Arc A750",
+    "storage": "160 GB available space",
+    "additional notes": "Graphics Preset: LOW / Resolution: 1080p / Target FPS: 30. 16 GB Dual Channel RAM. SSD required. The listed specifications were evaluated using TSR and comparable technologies."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-11700",
+     "AMD Ryzen 7 5800X"
+    ],
+    "ids": [
+     "intel-core-i7-11700",
+     "amd-ryzen-7-5800x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce RTX 3070 Ti",
+     "Nvidia GeForce RTX 4070",
+     "AMD Radeon RX 6800 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3070-ti",
+     "nvidia-geforce-rtx-4070",
+     "amd-radeon-rx-6800-xt"
+    ]
+   },
+   "ramGb": 32,
+   "storage": {
+    "gb": 160,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 x64 / Windows 11 x64",
+    "processor": "Intel Core i7-11700 / AMD Ryzen 7 5800X",
+    "memory": "32 GB RAM",
+    "graphics": "Nvidia GeForce RTX 3070 Ti / Nvidia GeForce RTX 4070 / AMD Radeon RX 6800 XT",
+    "storage": "160 GB available space",
+    "additional notes": "Graphics Preset: HIGH / Resolution: 1440p / Target FPS: 60. 32 GB Dual Channel RAM. SSD required. The above specifications were tested with TSR, DLSS, FSR and XeSS."
+   }
+  }
+ }
+}

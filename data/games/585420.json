@@ -1,0 +1,74 @@
+{
+ "appid": 585420,
+ "name": "Trailmakers",
+ "slug": "trailmakers",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i5-4440 (3.1 GHz quad-core)"
+    ],
+    "ids": [
+     "intel-core-i5-4440"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit 20H1",
+    "processor": "i5-4440 (3.1 GHz quad-core)",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 660",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i7-7700K"
+    ],
+    "ids": [
+     "intel-core-i7-7700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1080"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit 20H1",
+    "processor": "i7-7700K",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 1080",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

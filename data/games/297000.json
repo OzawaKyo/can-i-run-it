@@ -1,0 +1,76 @@
+{
+ "appid": 297000,
+ "name": "Heroes® of Might & Magic® III - HD Edition",
+ "slug": "heroes-of-might-magic-iii-hd-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E4400 @ 2.0 GHz",
+     "AMD Athlon64 X2 3800+ @ 2.0 GHz (or better)"
+    ],
+    "ids": [
+     "intel-core-2-duo-e4400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 8800GT",
+     "AMD Radeon HD2900 (256MB VRAM with Shader Model 4.0)"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core2 Duo E4400 @ 2.0 GHz or AMD Athlon64 X2 3800+ @ 2.0 GHz (or better)",
+    "memory": "2 GB RAM",
+    "graphics": "nVidia GeForce 8800GT or AMD Radeon HD2900 (256MB VRAM or more with Shader Model 4.0)",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "sound card": "DirectX Compatible Sound Card with latest drivers",
+    "additional notes": "Windows-compatible keyboard and mouse required * This product does not support Windows 98/ME/2000/NT4.0 * Windows XP and Vista are not officially supported for this title although they may run the game properly. Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E6600 @ 2.4 GHz",
+     "AMD Athlon64 X2 5600+ @ 2.8 Ghz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 9800GT",
+     "AMD Radeon HD3870 (512MB VRAM with Shader Model 5.0)"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 10,
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core2 Duo E6600 @ 2.4 GHz or AMD Athlon64 X2 5600+ @ 2.8 Ghz",
+    "memory": "3 GB RAM",
+    "graphics": "nVidia GeForce 9800GT or AMD Radeon HD3870 (512MB VRAM with Shader Model 5.0)",
+    "directx": "Version 10",
+    "sound card": "DirectX Compatible Sound Card with latest drivers",
+    "additional notes": "Windows-compatible keyboard and mouse required. Supported video cards at time of release: nVidia GeForce 8800GT or better, GeForce 9, GT200, GT400, GT500, GT600, GT700 series AMD Radeon HD2900 or better, HD3000, HD4000, HD5000, HD6000, HD7000 series, R series Notes: Laptop versions of these cards may work but are NOT officially supported. Latest tested GeForce drivers: 337.88 for all nVidia series Latest tested Radeon drivers: Catalyst 13.9 for Radeon HD2000, HD3000, HD4000 and Catalyst 14.4 for Radeon HD5000, HD6000, HD7000, R series. Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS"
+   }
+  }
+ }
+}

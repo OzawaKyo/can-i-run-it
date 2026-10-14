@@ -1,0 +1,67 @@
+{
+ "appid": 8500,
+ "name": "EVE Online",
+ "slug": "eve-online",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Dual Core @ 2.0 GHz",
+     "AMD Dual Core @ 2.0 GHz)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon 5450",
+     "NVIDIA GeForce 420 with at least 1024 MB VRAM"
+    ],
+    "ids": [
+     "amd-radeon-r7-450-2gb",
+     "amd-radeon-r7-450-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Dual Core @ 2.0 GHz, AMD Dual Core @ 2.0 GHz)",
+    "memory": "4 GB or higher",
+    "graphics": "AMD Radeon 5450 or NVIDIA GeForce 420 or better with at least 1024 MB VRAM"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7-7700",
+     "AMD Ryzen 7 1700 @ 3.6 GHz"
+    ],
+    "ids": [
+     "intel-core-i7-7700",
+     "amd-ryzen-7-1700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce GTX 1060",
+     "AMD Radeon RX 580 with at least VRAM 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "raw": {
+    "os": "Windows 11",
+    "processor": "Intel i7-7700 or AMD Ryzen 7 1700 @ 3.6 GHz or greater",
+    "memory": "16 GB or greater",
+    "graphics": "NVIDIA Geforce GTX 1060, AMD Radeon RX 580 or better with at least 4 GB VRAM"
+   }
+  }
+ }
+}

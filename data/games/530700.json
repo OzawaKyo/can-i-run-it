@@ -1,0 +1,89 @@
+{
+ "appid": 530700,
+ "name": "Argo",
+ "slug": "argo",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Dual-Core 2.4 GHz",
+     "AMD Dual-Core Athlon 2.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 9800GT",
+     "AMD Radeon HD 5670",
+     "Intel HD Graphics 4000 with 512 MB VRAM"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb",
+     "amd-radeon-hd-5670-512mb",
+     "amd-radeon-hd-5670-1gb",
+     "amd-radeon-hd-5670-2gb",
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 / 8 / 10 (64bit)",
+    "processor": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce 9800GT / AMD Radeon HD 5670 / Intel HD Graphics 4000 with 512 MB VRAM",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "DirectX-compatible on-board"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460",
+     "AMD FX 4300"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "amd-fx-4300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon HD 7800 Series with VRAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 / 8 / 10 (64bit)",
+    "processor": "Intel Core i5-4460 or AMD FX 4300 or better",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7800 Series with 2 GB VRAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "DirectX-compatible soundcard"
+   }
+  }
+ }
+}

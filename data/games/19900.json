@@ -1,0 +1,69 @@
+{
+ "appid": 19900,
+ "name": "Far Cry® 2",
+ "slug": "far-cry-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 4 3.2 Ghz",
+     "Pentium D 2.66 Ghz",
+     "AMD Athlon 64 3500+"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "256 MB",
+     "Shader Model 3 required",
+     "NVidia 6800",
+     "ATI X1650*"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 3.5,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP or Windows Vista (64 is supported)",
+    "processor": "Pentium 4 3.2 Ghz, Pentium D 2.66 Ghz, AMD Athlon 64 3500+ or better",
+    "memory": "1 GB",
+    "graphics": "256 MB, Shader Model 3 required, NVidia 6800 or ATI X1650 or better*",
+    "storage": "3.5 GB (Multiple saves and user created maps will increase the amount of needed hard disk space.)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo Family",
+     "AMD 64 X2 5200+",
+     "AMD Phenom"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "512 MB",
+     "NVidia 8600 GTS",
+     "ATI X1900*"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb"
+    ]
+   },
+   "ramGb": 2,
+   "raw": {
+    "processor": "Intel Core 2 Duo Family, AMD 64 X2 5200+, AMD Phenom or better",
+    "memory": "2 GB RAM",
+    "graphics": "512 MB, NVidia 8600 GTS or better, ATI X1900 or better*",
+    "sound": "5.1 sound card recommended"
+   }
+  }
+ }
+}

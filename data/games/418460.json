@@ -1,0 +1,83 @@
+{
+ "appid": 418460,
+ "name": "Rising Storm 2: Vietnam",
+ "slug": "rising-storm-2-vietnam",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 @ 2.5GHz",
+     "AMD Phenom @ 2.5GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 460",
+     "ATI Radeon HD 5850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "Intel Core i3 @ 2.5GHz or AMD Phenom @ 2.5GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 460 or ATI Radeon HD 5850",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space",
+    "additional notes": "UNSUPPORTED HARDWARE: 32-bit Operating Systems"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 @ 3.2GHz",
+     "AMD @ 4.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760",
+     "AMD R9 270X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-r9-270x-2gb",
+     "amd-radeon-r9-270x-4gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "Intel Core i5 @ 3.2GHz or AMD @ 4.0GHz or better",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 or AMD R9 270X or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space"
+   }
+  }
+ }
+}

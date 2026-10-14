@@ -1,0 +1,87 @@
+{
+ "appid": 1245620,
+ "name": "ELDEN RING",
+ "slug": "elden-ring",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "INTEL CORE I5-8400",
+     "AMD RYZEN 3 3300X"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-3-3300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GEFORCE GTX 1060 3GB",
+     "AMD RADEON RX 580 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "amd-radeon-rx-580-4gb"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
+    "directx": "Version 12",
+    "storage": "60 GB available space",
+    "sound card": "Windows Compatible Audio Device",
+    "additional notes": ""
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "INTEL CORE I7-8700K",
+     "AMD RYZEN 5 3600X"
+    ],
+    "ids": [
+     "intel-core-i7-8700k",
+     "amd-ryzen-5-3600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GEFORCE GTX 1070 8GB",
+     "AMD RADEON RX VEGA 56 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-vega-56"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11",
+    "processor": "INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB",
+    "directx": "Version 12",
+    "storage": "60 GB available space",
+    "sound card": "Windows Compatible Audio Device",
+    "additional notes": ""
+   }
+  }
+ }
+}

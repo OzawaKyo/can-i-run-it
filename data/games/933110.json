@@ -1,0 +1,96 @@
+{
+ "appid": 933110,
+ "name": "Age of Empires III: Definitive Edition",
+ "slug": "age-of-empires-iii-definitive-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3-2105 @ 3.1GHz",
+     "AMD Phenom II X4 973 with an average CPU Passmark score of 1830"
+    ],
+    "ids": [
+     "intel-core-i3-2105"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 430",
+     "Radeon HD 5570",
+     "or Intel HD 4400 with an average Passmark G3D Mark of 570 @720p"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-430-gf108-300",
+     "nvidia-geforce-gt-430-gf108-300-2",
+     "nvidia-geforce-gt-430-512mb",
+     "nvidia-geforce-gt-430-1gb-gf108-300",
+     "nvidia-geforce-gt-430-1gb-gf108-300-2",
+     "nvidia-geforce-gt-430-2gb",
+     "nvidia-geforce-gt-430-4gb",
+     "amd-radeon-hd-5570-512mb",
+     "amd-radeon-hd-5570-1gb",
+     "amd-radeon-hd-5570-2gb",
+     "intel-hd-graphics-4400"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 42,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 version 18362.0 or higher",
+    "processor": "Intel i3-2105 @ 3.1GHz or AMD Phenom II X4 973 with an average CPU Passmark score of 1830 or better",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GT 430, Radeon HD 5570, or Intel HD 4400 with an average Passmark G3D Mark of 570 or better @720p",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "42 GB available space",
+    "additional notes": "2 GB VRAM"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5-3300 @ 3.0GHz",
+     "AMD FX-8350 with an average CPU Passmark score of 4100"
+    ],
+    "ids": [
+     "intel-intel-processor-300",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 980",
+     "Radeon R9 Fury with an average Passmark G3D Mark of 9500 @1080p"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-980",
+     "amd-radeon-r9-fury"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 42,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 version 18362.0 or higher",
+    "processor": "Intel i5-3300 @ 3.0GHz or AMD FX-8350 or equivalent with an average CPU Passmark score of 4100 or better",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GTX 980 or Radeon R9 Fury or equivalent with an average Passmark G3D Mark of 9500 or better @1080p",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "42 GB available space",
+    "additional notes": "4 GB VRAM"
+   }
+  }
+ }
+}

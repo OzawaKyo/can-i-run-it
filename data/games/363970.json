@@ -1,0 +1,63 @@
+{
+ "appid": 363970,
+ "name": "Clicker Heroes",
+ "slug": "clicker-heroes",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz dual-core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Integrated Graphics"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.09765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "2.0 GHz dual-core processor",
+    "memory": "1 GB RAM",
+    "graphics": "Integrated Graphics",
+    "storage": "100 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.5 GHz dual-core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "Any GPU"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.09765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "2.5 GHz dual-core processor",
+    "memory": "1 GB RAM",
+    "graphics": "Any GPU",
+    "storage": "100 MB available space"
+   }
+  }
+ }
+}

@@ -11,7 +11,8 @@
      "Intel Core i5-2300 2.8 GHz/AMD Phenom II X4 945 3.0 GHz"
     ],
     "ids": [
-     "intel-core-i5-2300"
+     "intel-core-i5-2300",
+     "amd-phenom-ii-x4-945"
     ]
    },
    "gpu": {

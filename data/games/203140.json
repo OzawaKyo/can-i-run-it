@@ -1,0 +1,63 @@
+{
+ "appid": 203140,
+ "name": "Hitman: Absolution™",
+ "slug": "hitman-absolution",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "True dual core CPU (Intel, AMD)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NV8600 512 Mb RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "raw": {
+    "os": "Windows Vista, 7",
+    "processor": "True dual core CPU (Intel, AMD)",
+    "hard drive space": "24GB",
+    "memory": "2 GB RAM",
+    "graphics": "NV8600 512 Mb RAM, or AMD equivalent",
+    "directx": "10"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7",
+     "AMD Athlon II X4"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 260",
+     "ATI Radeon HD 5770"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "raw": {
+    "os": "Windows 7 64-bit",
+    "processor": "Intel Core i7 or AMD Athlon II X4",
+    "hard drive space": "24GB",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 260 or ATI Radeon HD 5770",
+    "directx": "11"
+   }
+  }
+ }
+}

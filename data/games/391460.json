@@ -1,0 +1,70 @@
+{
+ "appid": 391460,
+ "name": "WARMODE",
+ "slug": "warmode",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 650Ti"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, 10",
+    "processor": "Core i3",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 650Ti",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "1024 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i5-i7"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, 10",
+    "processor": "Core i5-i7",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1060",
+    "network": "Broadband Internet connection",
+    "storage": "1024 MB available space"
+   }
+  }
+ }
+}

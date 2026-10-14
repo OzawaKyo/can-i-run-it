@@ -1,0 +1,41 @@
+{
+ "appid": 901583,
+ "name": "Grand Theft Auto IV: Complete Edition",
+ "slug": "grand-theft-auto-iv-complete-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 1.8GHz",
+     "AMD Athlon X2 64 2.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "256MB Nvidia 7900",
+     "256MB ATI X1900"
+    ],
+    "ids": []
+   },
+   "ramGb": 1.5,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista - Service Pack 1 / Windows XP - Service Pack 3",
+    "processor": "Intel Core 2 Duo 1.8GHz, AMD Athlon X2 64 2.4GHz",
+    "memory": "1.5GB XP / 1.5GB Vista",
+    "graphics": "256MB Nvidia 7900 / 256MB ATI X1900",
+    "directx version": "DirectX 9.0c Compliant Card",
+    "storage": "32GB of Hard Disc Space",
+    "sound card": "5.1 Channel Audio Card",
+    "other requirements": "Initial activation requires internet connection; Online play requires log-in to Games For Windows - Live and Rockstar Games Social Club (13+ to register); software installations required including Adobe Flash, DirectX, Microsoft’s .NET Framework 3.0, Games For Windows - LIVE, and Internet Explorer."
+   }
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "appid": 603850,
+ "name": "Age of History II",
+ "slug": "age-of-history-ii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.8 GHz Single Core"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "Hardware Accelerated Graphics with dedicated memory"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.37109375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows Vista/XP/7/8/10",
+    "processor": "1.8 GHz Single Core",
+    "memory": "1 GB RAM",
+    "graphics": "Hardware Accelerated Graphics with dedicated memory",
+    "storage": "380 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Single Core"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "Hardware Accelerated Graphics with dedicated memory"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.41015625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows Vista/XP/7/8/10",
+    "processor": "2.4 GHz Single Core",
+    "memory": "2 GB RAM",
+    "graphics": "Hardware Accelerated Graphics with dedicated memory",
+    "storage": "420 MB available space"
+   }
+  }
+ }
+}

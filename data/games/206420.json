@@ -1,0 +1,73 @@
+{
+ "appid": 206420,
+ "name": "Saints Row IV: Re-Elected",
+ "slug": "saints-row-iv-re-elected",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad Q6600 | AMD Athlon II x3"
+    ],
+    "ids": [
+     "intel-core-2-quad-q6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 260 | AMD Radeon HD 5800 series"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista (x86 or x64)",
+    "processor": "Intel Core 2 Quad Q6600 | AMD Athlon II x3",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GTX 260 | AMD Radeon HD 5800 series",
+    "directx": "Version 10",
+    "storage": "10 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i3 2100T | AMD Phenom II x4"
+    ],
+    "ids": [
+     "intel-core-i3-2100t"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 560 | AMD Radeon HD 6800 series"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (x86 or x64)",
+    "processor": "Intel i3 2100T | AMD Phenom II x4 or higher",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GTX 560 | AMD Radeon HD 6800 series or higher",
+    "directx": "Version 11",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

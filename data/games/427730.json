@@ -1,0 +1,56 @@
+{
+ "appid": 427730,
+ "name": "Who's Your Daddy?!",
+ "slug": "who-s-your-daddy",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 460/Radeon HD 5850/Intel HD 4600 with at least 1024 MB video RAM"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb",
+     "intel-hd-graphics-4600"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP 64",
+    "processor": "2 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce 460/Radeon HD 5850/Intel HD 4600 with at least 1024 MB video RAM",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

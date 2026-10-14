@@ -1,0 +1,79 @@
+{
+ "appid": 1237970,
+ "name": "Titanfall® 2",
+ "slug": "titanfall-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-6300t [4 hardware threads]"
+    ],
+    "ids": [
+     "intel-core-i3-6300t"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce GTX 660 2GB",
+     "AMD Radeon HD 7850 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 7/8/8.1/10 64bit",
+    "processor": "Intel Core i3-6300t or equivalent [4 or more hardware threads]",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA Geforce GTX 660 2GB or AMD Radeon HD 7850 2GB",
+    "directx": "Version 11",
+    "storage": "45 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600"
+    ],
+    "ids": [
+     "intel-core-i5-6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce GTX 1060 6GB",
+     "AMD Radeon RX 480 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 7/8/8.1/10 64bit",
+    "processor": "Intel Core i5-6600 or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA Geforce GTX 1060 6GB or AMD Radeon RX 480 8GB",
+    "directx": "Version 11",
+    "storage": "45 GB available space"
+   }
+  }
+ }
+}

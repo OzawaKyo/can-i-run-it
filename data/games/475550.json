@@ -1,0 +1,76 @@
+{
+ "appid": 475550,
+ "name": "Beholder",
+ "slug": "beholder",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium Dual CPU E2180 2.00GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 600M",
+     "ATI Radeon HD 5450 () 1GB"
+    ],
+    "ids": [
+     "amd-radeon-hd-5450-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 1.5625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10",
+    "processor": "Intel Pentium Dual CPU E2180 2.00GHz",
+    "memory": "2 GB RAM",
+    "graphics": "GeForce 600M / ATI Radeon HD 5450 (1GB)",
+    "directx": "Version 9.0c",
+    "storage": "1600 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 – 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 730 () 1GB",
+     "Radeon R7 A10-7700K"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-730-gk208-302",
+     "nvidia-geforce-gt-730-gf108-400"
+    ]
+   },
+   "ramGb": 3,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 1.5625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10",
+    "processor": "Intel Core i5 – 2.4 GHz",
+    "memory": "3 GB RAM",
+    "graphics": "GeForce GT 730 (1Gb) / Radeon R7 A10-7700K",
+    "directx": "Version 11",
+    "storage": "1600 MB available space"
+   }
+  }
+ }
+}

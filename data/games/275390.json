@@ -1,0 +1,41 @@
+{
+ "appid": 275390,
+ "name": "Guacamelee! Super Turbo Championship Edition",
+ "slug": "guacamelee-super-turbo-championship-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 Ghz+"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Shader Model 3.0",
+     "512 MB VRAM"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.78125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, XP, 2000 and Vista",
+    "processor": "2 Ghz+",
+    "memory": "512 MB RAM",
+    "graphics": "Shader Model 3.0, 512 MB VRAM",
+    "directx": "Version 9.0c",
+    "storage": "800 MB available space",
+    "additional notes": "Supports Xbox 360 Controller and other XInput-compatible controllers"
+   }
+  }
+ }
+}

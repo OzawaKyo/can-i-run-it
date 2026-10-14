@@ -1,0 +1,78 @@
+{
+ "appid": 3164500,
+ "name": "Schedule I",
+ "slug": "schedule-i",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3GHz 4-Core"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1060 6GB",
+     "Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "3GHz 4-Core or similar",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1060 6GB or Radeon RX 580",
+    "directx": "Version 11",
+    "storage": "8 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.5GHz 6-Core"
+    ],
+    "ids": [],
+    "estimatedScore": 57
+   },
+   "gpu": {
+    "raw": [
+     "GeForce RTX 3060",
+     "Radeon RX 6700"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb",
+     "amd-radeon-rx-6700"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "3.5GHz 6-Core or similar",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce RTX 3060 or Radeon RX 6700",
+    "directx": "Version 11",
+    "storage": "10 GB available space"
+   }
+  }
+ }
+}

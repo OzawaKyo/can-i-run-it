@@ -1,0 +1,85 @@
+{
+ "appid": 207230,
+ "name": "ArcheBlade™",
+ "slug": "archeblade",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 1.86 GHz",
+     "AMD Athlon 64 X2 2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "ATI HD3850",
+     "GTX250"
+    ],
+    "ids": [
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb",
+     "amd-radeon-r7-250-1gb",
+     "amd-radeon-r7-250-2gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 1.46484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP 32bit",
+    "processor": "Intel Core 2 Duo 1.86 GHz, AMD Athlon 64 X2 2GHz",
+    "memory": "2 GB RAM",
+    "graphics": "ATI HD3850, GTX250",
+    "directx": "9.0c",
+    "storage": "1500 MB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 3GHz",
+     "AMD Phenom II X2 3GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "ATI HD4870",
+     "GTX460"
+    ],
+    "ids": [
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb",
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 1.46484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 32/64bit",
+    "processor": "Intel Core i3 3GHz, AMD Phenom II X2 3GHz",
+    "memory": "4 GB RAM",
+    "graphics": "ATI HD4870, GTX460",
+    "directx": "9.0c",
+    "storage": "1500 MB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ }
+}

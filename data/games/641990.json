@@ -1,0 +1,86 @@
+{
+ "appid": 641990,
+ "name": "The Escapists 2",
+ "slug": "the-escapists-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core Duo E6600 @ 2.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "Intel 4400",
+     "GeForce GT 8800",
+     "AMD Radeon HD 4650"
+    ],
+    "ids": [
+     "amd-radeon-hd-4650-256mb",
+     "amd-radeon-hd-4650-512mb",
+     "amd-radeon-hd-4650-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 (32-bit versions)",
+    "processor": "Intel Core Duo E6600 @ 2.4GHz",
+    "memory": "2 GB RAM",
+    "graphics": "Intel 4400, GeForce GT 8800, AMD Radeon HD 4650",
+    "directx": "Version 11",
+    "storage": "4 GB available space",
+    "sound card": "Windows Compatible Sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i5-2500k@3.3GHz",
+     "AMD FX 6300 3.5GHz"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 750",
+     "AMD R7 370"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r7-370-4gb",
+     "amd-radeon-r9-370-2gb",
+     "amd-radeon-r9-370-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 (64-bit versions)",
+    "processor": "i5-2500k@3.3GHz, AMD FX 6300 3.5GHz",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 750, AMD R7 370",
+    "directx": "Version 11",
+    "storage": "4 GB available space",
+    "sound card": "Windows Compatible Sound card"
+   }
+  }
+ }
+}

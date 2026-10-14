@@ -1,0 +1,60 @@
+{
+ "appid": 72850,
+ "name": "The Elder Scrolls V: Skyrim",
+ "slug": "the-elder-scrolls-v-skyrim",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core 2.0GHz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Direct X 9.0c compliant video card with 512 MB of RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/Vista/XP PC (32 or 64 bit)",
+    "processor": "Dual Core 2.0GHz or equivalent processor",
+    "memory": "2GB System RAM",
+    "storage": "6GB free HDD Space",
+    "graphics": "Direct X 9.0c compliant video card with 512 MB of RAM",
+    "sound": "DirectX compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-core Intel",
+     "AMD CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c compatible NVIDIA",
+     "AMD ATI video card with of RAM (Nvidia GeForce GTX 260; ATI Radeon 4890) 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "raw": {
+    "processor": "Quad-core Intel or AMD CPU",
+    "memory": "4GB System RAM",
+    "graphics": "DirectX 9.0c compatible NVIDIA or AMD ATI video card with 1GB of RAM (Nvidia GeForce GTX 260 or higher; ATI Radeon 4890 or higher)"
+   }
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "appid": 442080,
+ "name": "Riders of Icarus",
+ "slug": "riders-of-icarus",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-2120 @ 3.3GHz",
+     "AMD A8-5500 @3.3GHz"
+    ],
+    "ids": [
+     "intel-core-i3-2120",
+     "amd-a8-5500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 260 () 1GB",
+     "Radeon HD 7670 () 1GB",
+     "bette"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-7670-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista (SP2) or later",
+    "processor": "Intel Core i3-2120 @ 3.3GHz or higher / AMD A8-5500 @3.3GHz or higher",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 260 (1GB) or better / Radeon HD 7670 (1GB) or bette",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "30 GB available space",
+    "sound card": "16-bit Sound Card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K @ 3.3GHz",
+     "AMD FX-6200 @3.3GHz"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-fx-6200"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 460 () 1GB",
+     "Radeon HD 6870 () 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-6870-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (SP1) or later",
+    "processor": "Intel Core i5-2500K @ 3.3GHz or higher / AMD FX-6200 @3.3GHz or higher",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 460 (1GB) or better / Radeon HD 6870 (1GB) or better",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "30 GB available space",
+    "sound card": "16-bit Sound Card"
+   }
+  }
+ }
+}

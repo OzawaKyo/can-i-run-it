@@ -1,0 +1,33 @@
+{
+ "appid": 487220,
+ "name": "Freebie",
+ "slug": "freebie",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.2 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 12
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 0.09765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or better",
+    "processor": "1.2 Ghz",
+    "memory": "512 MB RAM",
+    "storage": "100 MB available space"
+   }
+  }
+ }
+}

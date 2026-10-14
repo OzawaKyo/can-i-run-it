@@ -1,0 +1,37 @@
+{
+ "appid": 1942280,
+ "name": "Brotato",
+ "slug": "brotato",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "128MB",
+     "OpenGL 3+"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7+",
+    "processor": "2 Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "128MB, OpenGL 3+",
+    "storage": "200 MB available space"
+   }
+  }
+ }
+}

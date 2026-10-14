@@ -1,0 +1,73 @@
+{
+ "appid": 1483870,
+ "name": "Draw & Guess",
+ "slug": "draw-guess",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "SSE2 instruction set support",
+     "1.1 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 11
+   },
+   "gpu": {
+    "raw": [
+     "Graphics card with DX10 (shader model 4.0) capabilities"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 version 21H1",
+    "processor": "SSE2 instruction set support, 1.1 Ghz",
+    "memory": "1024 MB RAM",
+    "graphics": "Graphics card with DX10 (shader model 4.0) capabilities",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "SSE2 instruction set support"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Graphics card with DX10 (shader model 4.0) capabilities"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 version 21H1",
+    "processor": "SSE2 instruction set support",
+    "memory": "4096 MB RAM",
+    "graphics": "Graphics card with DX10 (shader model 4.0) capabilities",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

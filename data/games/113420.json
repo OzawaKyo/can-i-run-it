@@ -1,0 +1,40 @@
+{
+ "appid": 113420,
+ "name": "Fallen Earth Classic",
+ "slug": "fallen-earth-classic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 1.8 GHz",
+     "Athlon 64X2 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 6600",
+     "ATI Radeon X1300"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "XP SP3, Vista SP1, Windows 7",
+    "processor": "Intel Core 2 Duo 1.8 GHz or Athlon 64X2 2.4 GHz",
+    "memory": "2 GB for XP, 3 GB for Vista, 2 GB for Windows 7",
+    "storage": "10 GB",
+    "graphics": "nVidia GeForce 6600 or ATI Radeon X1300",
+    "directx": "9.0c (XP), 10 (Vista)"
+   }
+  }
+ }
+}

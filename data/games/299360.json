@@ -1,0 +1,62 @@
+{
+ "appid": 299360,
+ "name": "Block N Load",
+ "slug": "block-n-load",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core CPU 2.0 GHz (Intel Core 2 Duo or Athlon X2)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated graphics card (NVidia GeForce 8800 GT)"
+    ],
+    "ids": []
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "raw": {
+    "os": "Windows Vista, 7 (SP1 required) & 8",
+    "processor": "Dual Core CPU 2.0 GHz (Intel Core 2 Duo or Athlon X2) or better",
+    "memory": "3 GB RAM",
+    "graphics": "Dedicated graphics card (NVidia GeForce 8800 GT or better)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core CPU 2.0 GHz (Core i5)"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated graphics card (GeForce GTX 650 / AMD Radeon HD 7770 series)."
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "raw": {
+    "os": "Windows Vista, 7 (SP1 required) & 8",
+    "processor": "Quad Core CPU 2.0 GHz (Core i5) or better",
+    "memory": "4 GB RAM",
+    "graphics": "Dedicated graphics card (GeForce GTX 650 / AMD Radeon HD 7770 series or better).",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection"
+   }
+  }
+ }
+}

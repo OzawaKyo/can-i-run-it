@@ -1,0 +1,77 @@
+{
+ "appid": 214490,
+ "name": "Alien: Isolation",
+ "slug": "alien-isolation",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.16Ghz Intel Core 2 Duo E8500"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "(AMD Radeon HD 5550 or Nvidia GeForce GT 430) 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (32bit)",
+    "processor": "3.16Ghz Intel Core 2 Duo E8500",
+    "memory": "4 GB RAM",
+    "graphics": "1GB (AMD Radeon HD 5550 or Nvidia GeForce GT 430)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "35 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD: Phenom II X4 955 - 4 Core",
+     "3.2 GHz",
+     "Intel: Core 2 Quad Q9650 - 4 Core",
+     "3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "(AMD GPU: AMD Radeon R9 200 Series or Nvidia GPU: Nvidia GeForce GTX660) 2GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (64bit)",
+    "processor": "AMD: Phenom II X4 955 - 4 Core, 3.2 GHz or Intel: Core 2 Quad Q9650 - 4 Core, 3.0 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "2GB (AMD GPU: AMD Radeon R9 200 Series or Nvidia GPU: Nvidia GeForce GTX660)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "35 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions"
+   }
+  }
+ }
+}

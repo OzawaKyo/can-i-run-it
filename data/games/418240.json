@@ -1,0 +1,82 @@
+{
+ "appid": 418240,
+ "name": "Shadow Tactics: Blades of the Shogun",
+ "slug": "shadow-tactics-blades-of-the-shogun",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3 2nd-Generation 2.5GHz",
+     "AMD Quad-Core 2.5GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GT640",
+     "AMD Radeon HD7750 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-640",
+     "amd-radeon-hd-7750-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista 64-bit",
+    "processor": "Intel i3 2nd-Generation 2.5GHz, AMD Quad-Core 2.5GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GT640, AMD Radeon HD7750, 1GB Vram",
+    "directx": "Version 10",
+    "storage": "13 GB available space",
+    "sound card": "DirectX 9.0c Compatible Sound Card with Latest Drivers"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i3 4th-Generation 3.5GHz",
+     "AMD Quad-Core 3.9GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 36
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 570",
+     "AMD Radeon HD 6950 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-570",
+     "amd-radeon-hd-6950-2gb"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit or higher, Windows 8, Windows 10",
+    "processor": "Intel i3 4th-Generation 3.5GHz, AMD Quad-Core 3.9GHz",
+    "memory": "6 GB RAM",
+    "graphics": "Nvidia GTX 570, AMD Radeon HD 6950, 2GB Vram",
+    "directx": "Version 11",
+    "storage": "13 GB available space",
+    "sound card": "DirectX 9.0c Compatible Sound Card with Latest Drivers",
+    "additional notes": "Installing the game on an SSD improves loading times."
+   }
+  }
+ }
+}

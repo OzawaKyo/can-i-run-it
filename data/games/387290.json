@@ -1,0 +1,86 @@
+{
+ "appid": 387290,
+ "name": "Ori and the Blind Forest: Definitive Edition",
+ "slug": "ori-and-the-blind-forest-definitive-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E4500 @ 2.2GHz",
+     "AMD Athlon 64 X2 5600+ @ 2.8 GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e4500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 240 GT",
+     "Radeon HD 6570 – 1024 MB (1 gig)"
+    ],
+    "ids": [
+     "amd-radeon-r5-240-1gb",
+     "amd-radeon-r5-240-2gb",
+     "amd-radeon-r7-240-2gb",
+     "amd-radeon-r7-240-4gb",
+     "amd-radeon-hd-6570",
+     "amd-radeon-hd-6570-2gb",
+     "amd-radeon-hd-6570-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 11,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core 2 Duo E4500 @ 2.2GHz or AMD Athlon 64 X2 5600+ @ 2.8 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce 240 GT or Radeon HD 6570 – 1024 MB (1 gig)",
+    "directx": "Version 9.0c",
+    "storage": "11 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2300",
+     "AMD FX6120"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-fx-6120"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 550 Ti",
+     "Radeon HD 6770"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-550-ti",
+     "amd-radeon-hd-6770-512mb",
+     "amd-radeon-hd-6770-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 11,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core i5 2300 or AMD FX6120",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 550 Ti or Radeon HD 6770",
+    "directx": "Version 11",
+    "storage": "11 GB available space"
+   }
+  }
+ }
+}

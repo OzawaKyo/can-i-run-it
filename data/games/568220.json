@@ -1,0 +1,46 @@
+{
+ "appid": 568220,
+ "name": "Lobotomy Corporation | Monster Management Simulation",
+ "slug": "lobotomy-corporation-monster-management-simulation",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5-3570"
+    ],
+    "ids": [
+     "intel-core-i5-3570"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 550 ti",
+     "Radeon hd 6570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-550-ti",
+     "amd-radeon-hd-6570",
+     "amd-radeon-hd-6570-2gb",
+     "amd-radeon-hd-6570-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1 or later",
+    "processor": "Intel(R) Core(TM) i5-3570",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 550 ti or Radeon hd 6570",
+    "directx": "Version 9.0c",
+    "storage": "6 GB available space",
+    "sound card": "DirectX 9.0c compatible"
+   }
+  }
+ }
+}

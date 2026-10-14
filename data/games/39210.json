@@ -1,0 +1,85 @@
+{
+ "appid": 39210,
+ "name": "FINAL FANTASY XIV Online",
+ "slug": "final-fantasy-xiv-online",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Corei5-8400"
+    ],
+    "ids": [
+     "intel-core-i5-8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD Radeon RX 480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 140,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 64 bit",
+    "processor": "Intel Corei5-8400 or higher",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 or higher, AMD Radeon RX 480 or higher",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "140 GB available space",
+    "sound card": "DirectSound supported sound card",
+    "additional notes": "System Requirements may be subject to change. If you are using a router, please set up your ports so that the below packets can pass through. [Ports that may be used] TCP：80, 443, 54992～54994, 55006～55007, 55021～55040"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Corei7-9700"
+    ],
+    "ids": [
+     "intel-core-i7-9700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2060",
+     "AMD Radeon RX 5600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-5600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 140,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 64 bit",
+    "processor": "Intel Corei7-9700 or higher",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2060 or higher, AMD Radeon RX 5600 XT or higher",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "140 GB available space",
+    "sound card": "DirectSound supported sound card",
+    "additional notes": "System Requirements may be subject to change. If you are using a router, please set up your ports so that the below packets can pass through. [Ports that may be used] TCP：80, 443, 54992～54994, 55006～55007, 55021～55040"
+   }
+  }
+ }
+}

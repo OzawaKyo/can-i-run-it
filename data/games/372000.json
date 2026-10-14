@@ -1,0 +1,72 @@
+{
+ "appid": 372000,
+ "name": "Tree of Savior (English Ver.)",
+ "slug": "tree-of-savior-english-ver",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 200 Series"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (64-bit)",
+    "processor": "Intel i3",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce 200 Series or later",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "32 GB available space",
+    "additional notes": "Keyboard, Mouse"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 860"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-860m-gm107",
+     "nvidia-geforce-gtx-860m-gk104"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 9,
+   "storage": {
+    "gb": 32,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (64-bit) or later",
+    "processor": "Intel i5 or later",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 860 or later",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "32 GB available space",
+    "additional notes": "Joypad available"
+   }
+  }
+ }
+}

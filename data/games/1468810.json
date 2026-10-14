@@ -1,0 +1,41 @@
+{
+ "appid": 1468810,
+ "name": "鬼谷八荒 Tale of Immortal",
+ "slug": "tale-of-immortal",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.50GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "HD4400"
+    ],
+    "ids": [
+     "intel-hd-graphics-4400"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / Windows 8 / Windows 10 64 bit",
+    "processor": "2.50GHz",
+    "memory": "4 GB RAM",
+    "graphics": "HD4400",
+    "directx": "Version 11",
+    "storage": "25 GB available space",
+    "additional notes": ""
+   }
+  }
+ }
+}

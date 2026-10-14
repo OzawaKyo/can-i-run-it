@@ -1,0 +1,54 @@
+{
+ "appid": 20900,
+ "name": "The Witcher: Enhanced Edition Director's Cut",
+ "slug": "the-witcher-enhanced-edition-director-s-cut",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.4 GHz",
+     "Athlon 64 +2800 (Intel Pentium 4 3.0 GHz or AMD Athlon 64 +3000 recommended). Athlon XP series",
+     "such as the Athlon XP +2400",
+     "is not supported"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 6600",
+     "ATI Radeon 9800 (NVIDIA GeForce 7800 GTX or ATI Radeon X1950 XT recommended)"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb",
+     "nvidia-geforce-9800-gt-rebrand",
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "nvidia-geforce-9800-gx2",
+     "nvidia-geforce-9800m-gs",
+     "nvidia-geforce-9800m-gts-512mb",
+     "nvidia-geforce-9800m-gts-1gb",
+     "nvidia-geforce-9800m-gt",
+     "nvidia-geforce-9800m-gtx"
+    ]
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows /XP/Vista",
+    "directx version": "DirectX 9.0c (included) or higher",
+    "processor": "Intel Pentium 4 2.4 GHz or Athlon 64 +2800 (Intel Pentium 4 3.0 GHz or AMD Athlon 64 +3000 recommended). Athlon XP series, such as the Athlon XP +2400, is not supported",
+    "graphics": "NVIDIA GeForce 6600 or ATI Radeon 9800 or better (NVIDIA GeForce 7800 GTX or ATI Radeon X1950 XT or better recommended)",
+    "memory": "1 GB RAM (2 GB RAM recommended)",
+    "sound": "DirectX version 9.0c-compatible sound card",
+    "storage": "15 GB Free"
+   }
+  }
+ }
+}

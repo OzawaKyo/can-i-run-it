@@ -1,0 +1,38 @@
+{
+ "appid": 26800,
+ "name": "Braid",
+ "slug": "braid",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 14
+   },
+   "gpu": {
+    "raw": [
+     "Pixel Shader 2.0"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.75,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "operating system": "Microsoft Windows XP / Vista / 7",
+    "processor": "1.4GHz or faster",
+    "memory": "768 MB or more",
+    "storage": "200 MB or more",
+    "graphics": "Pixel Shader 2.0",
+    "directx version": "DirectX 9.0c",
+    "controller support": "Microsoft Xbox 360 Controller for Windows"
+   }
+  }
+ }
+}

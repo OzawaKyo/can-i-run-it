@@ -1,0 +1,93 @@
+{
+ "appid": 32470,
+ "name": "STAR WARS™ Empire at War - Gold Pack",
+ "slug": "star-wars-empire-at-war-gold-pack",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium III 1.0GHz",
+     "AMD Athlon 1.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "64 MB graphics card with Shader Model 2.0 support",
+     "ATI Radeon 9600",
+     "NVIDIA 7200",
+     "Intel 965"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gs",
+     "nvidia-geforce-9600-gso-384mb",
+     "nvidia-geforce-9600-gso-768mb",
+     "nvidia-geforce-9600-gso-1.5gb",
+     "nvidia-geforce-9600-gso-512",
+     "nvidia-geforce-9600-gt-green-edition-512mb",
+     "nvidia-geforce-9600-gt-green-edition-1gb",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "nvidia-geforce-9600-gt-rev-2-512mb",
+     "nvidia-geforce-9600-gt-rev-2-1gb",
+     "nvidia-geforce-9600-gt-mac-edition",
+     "nvidia-geforce-9600-gtx",
+     "nvidia-geforce-9600m-gs",
+     "nvidia-geforce-9600m-gt-512mb",
+     "nvidia-geforce-9600m-gt-1gb"
+    ]
+   },
+   "ramGb": 0.5,
+   "raw": {
+    "computer": "100% DirectX 9.0c compatible computer",
+    "processor": "Intel Pentium III 1.0GHz or AMD Athlon 1.0 GHz",
+    "os": "Windows XP SP3, Windows Vista SP2, Windows 7",
+    "memory": "512 MB",
+    "graphics": "64 MB graphics card with Shader Model 2.0 support / ATI Radeon 9600 / NVIDIA 7200 / Intel 965",
+    "sound card": "100% DirectX 9.0c compatible PCI, USB, or Onboard Audio Device",
+    "internet": "56kbps or faster connection (required for multiplayer only)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium Dual Core CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "256 MB graphics card with Shader Model 3.0 support",
+     "ATI Radeon X1900",
+     "NVIDIA 8600"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8600m-gs-256mb",
+     "nvidia-geforce-8600m-gs-512mb",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb"
+    ]
+   },
+   "ramGb": 1,
+   "raw": {
+    "computer": "100% DirectX 9.0c compatible computer",
+    "processor": "Intel Pentium Dual Core CPU",
+    "os": "Windows XP SP3, Windows Vista SP2, Windows 7",
+    "memory": "1 GB",
+    "graphics": "256 MB graphics card with Shader Model 3.0 support / ATI Radeon X1900 / NVIDIA 8600",
+    "sound card": "100% DirectX 9.0c compatible PCI, USB, or Onboard Audio Device",
+    "internet": "1.5Mb DSL/Cable connection (required for multiplayer only)"
+   }
+  }
+ }
+}

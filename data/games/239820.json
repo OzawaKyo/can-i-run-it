@@ -1,0 +1,53 @@
+{
+ "appid": 239820,
+ "name": "Game Dev Tycoon",
+ "slug": "game-dev-tycoon",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz dual core"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Hardware Accelerated Graphics with dedicated memory"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "raw": {
+    "os": "Windows XP SP3",
+    "processor": "2 GHz dual core",
+    "memory": "2 GB RAM",
+    "graphics": "Hardware Accelerated Graphics with dedicated memory",
+    "additional notes": "minimum resolution of 1024x768"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Hardware Accelerated Graphics with memory 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "raw": {
+    "os": "Windows 7/8",
+    "memory": "4 GB RAM",
+    "graphics": "Hardware Accelerated Graphics with 1GB memory"
+   }
+  }
+ }
+}

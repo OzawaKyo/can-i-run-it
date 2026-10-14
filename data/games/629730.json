@@ -1,0 +1,61 @@
+{
+ "appid": 629730,
+ "name": "Blade and Sorcery",
+ "slug": "blade-and-sorcery",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Quad Core 3GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1070"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 8,
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Quad Core 3GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 1070",
+    "vr support": "SteamVR or Oculus PCVR. Standing or Room Scale",
+    "additional notes": "Minimum 72Hz VR support"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "8-16 Core 4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 65
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA RTX 2070"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070"
+    ]
+   },
+   "ramGb": 16,
+   "raw": {
+    "os": "Windows 10",
+    "processor": "8-16 Core 4GHz",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA RTX 2070",
+    "vr support": "SteamVR or Oculus PCVR. Standing or Room Scale",
+    "additional notes": "Recommended VR 90Hz support"
+   }
+  }
+ }
+}

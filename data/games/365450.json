@@ -1,0 +1,36 @@
+{
+ "appid": 365450,
+ "name": "Hacknet",
+ "slug": "hacknet",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 3.0+ (2.1 with ARB extensions acceptable)"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "2.0 GHz",
+    "memory": "512 MB RAM",
+    "graphics": "OpenGL 3.0+ (2.1 with ARB extensions acceptable)",
+    "storage": "500 MB available space"
+   }
+  }
+ }
+}

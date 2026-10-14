@@ -1,0 +1,71 @@
+{
+ "appid": 214950,
+ "name": "Total War: ROME II - Emperor Edition",
+ "slug": "total-war-rome-ii-emperor-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel Dual Core processor",
+     "2.6 GHz Intel Single Core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "512 MB DirectX 9.0c compatible card (shader model 3, vertex texture fetch support)."
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "XP/ Vista / Windows 7 / Windows 8",
+    "processor": "2 GHz Intel Dual Core processor / 2.6 GHz Intel Single Core processor",
+    "memory": "2GB RAM",
+    "graphics": "512 MB DirectX 9.0c compatible card (shader model 3, vertex texture fetch support).",
+    "directx": "9.0c",
+    "storage": "35 GB HD space",
+    "additional": "Screen Resolution - 1024x768 Microsoft no longer supports Windows 10 or older versions"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2nd Generation Intel Core i5 processor (or greater)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "1024 MB DirectX 11 compatible graphics card."
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / Windows 8",
+    "processor": "2nd Generation Intel Core i5 processor (or greater)",
+    "memory": "4GB RAM",
+    "graphics": "1024 MB DirectX 11 compatible graphics card.",
+    "directx": "11",
+    "storage": "35 GB HD space",
+    "additional": "Screen Resolution - 1920x1080 Microsoft no longer supports Windows 10 or older versions"
+   }
+  }
+ }
+}

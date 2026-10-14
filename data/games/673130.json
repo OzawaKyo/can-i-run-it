@@ -1,0 +1,80 @@
+{
+ "appid": 673130,
+ "name": "AMID EVIL",
+ "slug": "amid-evil",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Quad Core 2.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 470",
+     "AMD Radeon 6870 HD"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit or later",
+    "processor": "Quad Core 2.5 GHz or faster",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 470 / AMD Radeon 6870 HD",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "sound card": "A Dank One",
+    "additional notes": "If you're unsure that your system meets the minimum requirements, please try the demo first!"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core 3.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 49
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1060",
+     "AMD Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Quad Core 3.5 GHz or faster",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 1060 / AMD Radeon RX 580",
+    "directx": "Version 12",
+    "storage": "5 GB available space",
+    "sound card": "A Really Dank One"
+   }
+  }
+ }
+}

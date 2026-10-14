@@ -1,0 +1,88 @@
+{
+ "appid": 637650,
+ "name": "FINAL FANTASY XV WINDOWS EDITION",
+ "slug": "final-fantasy-xv-windows-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500（3.3GHz and above）/ AMD FX-6100 （3.3GHz and above）"
+    ],
+    "ids": [
+     "intel-core-i5-2500",
+     "amd-fx-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760",
+     "NVIDIA GeForce GTX 1050",
+     "AMD Radeon R9 280"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-r9-280"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1/ Windows 8.1 / Windows 10 64-bit",
+    "processor": "Intel Core i5-2500（3.3GHz and above）/ AMD FX-6100 （3.3GHz and above）",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 / NVIDIA GeForce GTX 1050 / AMD Radeon R9 280",
+    "directx": "Version 11",
+    "storage": "100 GB available space",
+    "sound card": "DirectSound compatible sound card, Windows Sonic and Dolby Atmos support",
+    "additional notes": "720p 30fps"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770（3.4GHz and above）/ AMD FX-8350（4.0 GHz and above）"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 VRAM 6GB",
+     "Radeon RX 480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1/ Windows 8.1 / Windows 10 64-bit",
+    "processor": "Intel Core i7-3770（3.4GHz and above）/ AMD FX-8350（4.0 GHz and above）",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 6 GB VRAM / Radeon RX 480",
+    "directx": "Version 11",
+    "storage": "100 GB available space",
+    "sound card": "DirectSound compatible sound card, Windows Sonic and Dolby Atmos support",
+    "additional notes": "1080p 30fps"
+   }
+  }
+ }
+}

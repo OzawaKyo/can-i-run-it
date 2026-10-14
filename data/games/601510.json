@@ -1,0 +1,80 @@
+{
+ "appid": 601510,
+ "name": "Yu-Gi-Oh! Duel Links",
+ "slug": "yu-gi-oh-duel-links",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3210"
+    ],
+    "ids": [
+     "intel-core-i3-3210"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel(R) HD Graphics 4000"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 Home (64bit) latest revision",
+    "processor": "Intel Core i3-3210",
+    "memory": "4 GB RAM",
+    "graphics": "Intel(R) HD Graphics 4000",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "5 GB available space",
+    "sound card": "On Board",
+    "additional notes": "1280 x 720 monitor resolution"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-9400F"
+    ],
+    "ids": [
+     "intel-core-i5-9400f"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1650"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 Home (64bit) latest revision",
+    "processor": "Intel Core i5-9400F",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1650",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "16 GB available space",
+    "sound card": "On Board",
+    "additional notes": "1920 x 1080 monitor resolution"
+   }
+  }
+ }
+}

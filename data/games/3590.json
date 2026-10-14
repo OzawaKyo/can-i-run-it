@@ -1,0 +1,37 @@
+{
+ "appid": 3590,
+ "name": "Plants vs. Zombies GOTY Edition",
+ "slug": "plants-vs-zombies-goty-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.2GHz+ processor"
+    ],
+    "ids": [],
+    "estimatedScore": 12
+   },
+   "gpu": {
+    "raw": [
+     "128MB of video memory",
+     "16-bit",
+     "32-bit color quality"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 8,
+   "raw": {
+    "os": "Windows XP/Vista/7",
+    "processor": "1.2GHz+ processor",
+    "memory": "1GB of RAM",
+    "graphics": "128MB of video memory, 16-bit or 32-bit color quality",
+    "directx": "DirectX 8 or later",
+    "storage": "65+MB of free hard drive space",
+    "sound": "DirectX-compatible sound"
+   }
+  }
+ }
+}

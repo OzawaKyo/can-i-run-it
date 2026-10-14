@@ -1,0 +1,65 @@
+{
+ "appid": 346010,
+ "name": "Besiege",
+ "slug": "besiege",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.2Ghz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP 64bit (latest SP)",
+    "processor": "2.2Ghz Dual Core",
+    "memory": "4 GB RAM",
+    "graphics": "1 GB Dedicated VRAM",
+    "directx": "Version 9.0c",
+    "storage": "3 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "4Ghz Quad Core"
+    ],
+    "ids": [],
+    "estimatedScore": 56
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "4Ghz Quad Core",
+    "memory": "8 GB RAM",
+    "graphics": "3 GB Dedicated VRAM",
+    "directx": "Version 11",
+    "storage": "5 GB available space"
+   }
+  }
+ }
+}

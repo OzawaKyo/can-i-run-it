@@ -1,0 +1,41 @@
+{
+ "appid": 316010,
+ "name": "Magic Duels",
+ "slug": "magic-duels",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2GHz CPU (Pentium 4)"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "512MB DirectX 11.0 compatible video card with Pixelshader 3.0 support"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 2.44140625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8/7 (XP not supported)",
+    "processor": "2GHz CPU (Pentium 4 or equivalent)",
+    "memory": "1 GB RAM",
+    "graphics": "512MB DirectX 11.0 compatible video card with Pixelshader 3.0 support",
+    "directx": "Version 11",
+    "storage": "2500 MB available space",
+    "sound card": "DirectX 11.0 compatible sound card",
+    "additional notes": "1GB RAM (2GB for Windows 7)"
+   }
+  }
+ }
+}

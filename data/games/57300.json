@@ -1,0 +1,37 @@
+{
+ "appid": 57300,
+ "name": "Amnesia: The Dark Descent",
+ "slug": "amnesia-the-dark-descent",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0Ghz - Low budget CPUs such as Celeron",
+     "Duron needs to be at about twice the CPU speed"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Radeon X1000/GF 6 - Integrated graphics and very low budget cards might not work."
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7",
+    "processor": "2.0Ghz - Low budget CPUs such as Celeron or Duron needs to be at about twice the CPU speed",
+    "memory": "2 GB",
+    "storage": "3GB",
+    "graphics": "Radeon X1000/GF 6 - Integrated graphics and very low budget cards might not work."
+   }
+  }
+ }
+}

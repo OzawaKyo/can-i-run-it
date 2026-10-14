@@ -1,0 +1,92 @@
+{
+ "appid": 1304930,
+ "name": "The Outlast Trials",
+ "slug": "the-outlast-trials",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-3770",
+     "AMD Ryzen 5 1400"
+    ],
+    "ids": [
+     "intel-core-i7-3770",
+     "amd-ryzen-5-1400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 650 Ti 2GB",
+     "Radeon R7 360 2GB",
+     "Intel Arc A310 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti",
+     "amd-radeon-r7-360",
+     "amd-radeon-r9-360",
+     "intel-arc-a310"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-3770 or AMD Ryzen 5 1400",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 650 Ti, 2 GB or Radeon R7 360, 2 GB or Intel Arc A310, 4GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "Low 720p @ 30 FPS, DX11, Ray Tracing OFF"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700K",
+     "AMD Ryzen 5 2600X"
+    ],
+    "ids": [
+     "intel-core-i7-6700k",
+     "amd-ryzen-5-2600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660 6GB",
+     "AMD Radeon RX Vega 56 8GB",
+     "Intel Arc A580 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-vega-56",
+     "intel-arc-a580"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WIndows 10",
+    "processor": "Intel Core i7-6700K or AMD Ryzen 5 2600X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660, 6 GB or AMD Radeon RX Vega 56, 8 GB or Intel Arc A580, 8GB",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "High 1080p @ 60 FPS, DX12, Ray Tracing OFF"
+   }
+  }
+ }
+}

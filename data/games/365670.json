@@ -1,0 +1,56 @@
+{
+ "appid": 365670,
+ "name": "Blender",
+ "slug": "blender",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "4 cores with SSE4.2 support"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 4.3"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1",
+    "processor": "4 cores with SSE4.2 support",
+    "memory": "8 GB RAM",
+    "graphics": "2GB RAM, OpenGL 4.3",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "8 cores"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 32,
+   "vramGb": 8,
+   "raw": {
+    "os": "Windows 10 or Windows 11",
+    "processor": "8 cores",
+    "memory": "32 GB RAM",
+    "graphics": "8GB RAM"
+   }
+  }
+ }
+}

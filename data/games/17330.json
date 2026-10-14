@@ -1,0 +1,40 @@
+{
+ "appid": 17330,
+ "name": "Crysis Warhead®",
+ "slug": "crysis-warhead",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.8 GHz (3.2 GHz for Vista)",
+     "Intel Core 2.0 GHz (2.2 GHz for Vista)",
+     "AMD Athlon 2800+ (3200+ for Vista)"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "256 MB"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP with Service Pack 2 or Microsoft Vista",
+    "processor": "Intel Pentium 4 2.8 GHz (3.2 GHz for Vista), Intel Core 2.0 GHz (2.2 GHz for Vista), AMD Athlon 2800+ (3200+ for Vista) or better",
+    "memory": "1.0 GB RAM (XP) or 1.5 GB RAM (Vista)",
+    "graphics": "256 MB",
+    "directx version": "DirectX 9.0c or 10",
+    "sound": "DirectX 9.0c compatible",
+    "storage": "15GB"
+   }
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "appid": 2567870,
+ "name": "Chained Together",
+ "slug": "chained-together",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600@ 3.1 GHz",
+     "AMD R5 1600X @ 3.5 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-6600",
+     "amd-ryzen-5-1600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1650"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8/10/11 (64-Bit)",
+    "processor": "Intel Core i5-6600@ 3.1 GHz or AMD R5 1600X @ 3.5 GHz or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1650 or equivalent",
+    "storage": "8 GB available space",
+    "additional notes": "A high-speed internet connection and a good connection between players are required to play online"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 10400 3.1 GHz",
+     "AMD Ryzen 5 2600x 3.1 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-10400",
+     "amd-ryzen-5-2600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 3060"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8/10/11 (64-Bit)",
+    "processor": "Intel Core i5 10400 3.1 GHz or AMD Ryzen 5 2600x 3.1 GHz",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 3060 or equivalent",
+    "storage": "8 GB available space",
+    "additional notes": "A high-speed internet connection and a good connection between players are required to play online"
+   }
+  }
+ }
+}

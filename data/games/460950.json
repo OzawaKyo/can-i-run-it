@@ -1,0 +1,67 @@
+{
+ "appid": 460950,
+ "name": "Katana ZERO",
+ "slug": "katana-zero",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium E2180 (2 * 2000)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 7600 GT (256 MB)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, 8.1, 10 x64",
+    "processor": "Intel Pentium E2180 (2 * 2000) or equivalent",
+    "memory": "1 GB RAM",
+    "graphics": "GeForce 7600 GT (256 MB)",
+    "directx": "Version 10",
+    "storage": "200 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3240 (2 * 3400)"
+    ],
+    "ids": [
+     "intel-core-i3-3240"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8800 GTS (512 MB)"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8, 8.1, 10 x64",
+    "processor": "Intel Core i3-3240 (2 * 3400) or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "GeForce 8800 GTS (512 MB)",
+    "storage": "200 MB available space"
+   }
+  }
+ }
+}

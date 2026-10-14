@@ -1,0 +1,36 @@
+{
+ "appid": 247080,
+ "name": "Crypt of the NecroDancer",
+ "slug": "crypt-of-the-necrodancer",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "512MB VRAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.9765625,
+   "storage": {
+    "gb": 1.5625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, service pack 3",
+    "processor": "2GHz",
+    "memory": "1000 MB RAM",
+    "graphics": "512MB VRAM",
+    "storage": "1600 MB available space"
+   }
+  }
+ }
+}

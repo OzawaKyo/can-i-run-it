@@ -1,0 +1,76 @@
+{
+ "appid": 753640,
+ "name": "Outer Wilds",
+ "slug": "outer-wilds",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2300 | AMD FX-4350"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-fx-4350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 660",
+     "| AMD Radeon HD 7870 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-2300 | AMD FX-4350",
+    "memory": "6 GB RAM",
+    "graphics": "Nvidia GeForce GTX 660, 2 GB | AMD Radeon HD 7870, 2 GB",
+    "storage": "8 GB available space",
+    "additional notes": "Gamepad or Controller Recommended (Xbox and PS4 Natively Supported)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400 | AMD Ryzen 5 2600X"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060 | AMD Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-8400 | AMD Ryzen 5 2600X",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1060 | AMD Radeon RX 580",
+    "storage": "8 GB available space",
+    "additional notes": "Gamepad or Controller Recommended (Xbox and PS4 Natively Supported)"
+   }
+  }
+ }
+}

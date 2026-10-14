@@ -1,0 +1,38 @@
+{
+ "appid": 10090,
+ "name": "Call of Duty: World at War",
+ "slug": "call-of-duty-world-at-war",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 4 @ 3 GHz/AMD 64 3200+"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "256 MB (nVidia GeForce 6600/ATI Radeon X1600)"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Windows XP/Vista/7",
+    "processor": "Pentium 4 @ 3 GHz/AMD 64 3200+",
+    "memory": "512 MB (1 GB for Vista)",
+    "storage": "8 GB Free",
+    "directx version": "DirectX 9.0c",
+    "sound": "on-board or better",
+    "graphics": "256 MB (nVidia GeForce 6600/ATI Radeon X1600)"
+   }
+  }
+ }
+}

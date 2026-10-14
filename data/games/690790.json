@@ -1,0 +1,88 @@
+{
+ "appid": 690790,
+ "name": "DiRT Rally 2.0",
+ "slug": "dirt-rally-2-0",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX4300",
+     "Intel Core i3 2130"
+    ],
+    "ids": [
+     "amd-fx-4300",
+     "intel-core-i3-2130"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD HD7750",
+     "NVIDIA GTX650Ti"
+    ],
+    "ids": [
+     "amd-radeon-hd-7750-1gb",
+     "amd-radeon-hd-7750-2gb",
+     "amd-radeon-hd-7750-4gb",
+     "nvidia-geforce-gtx-650-ti"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit versions of Windows 7, Windows 8, Windows 10",
+    "processor": "AMD FX4300 or Intel Core i3 2130",
+    "memory": "8 GB RAM",
+    "graphics": "AMD HD7750 or NVIDIA GTX650Ti",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "sound card": "DirectX Compatible soundcard",
+    "vr support": "SteamVR or Oculus PC"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 2600X",
+     "Intel Core i5 8600K"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600x",
+     "intel-core-i5-8600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX Vega 56",
+     "NVIDIA GTX 1070"
+    ],
+    "ids": [
+     "amd-radeon-rx-vega-56",
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit versions of Windows 7, Windows 8, Windows 10",
+    "processor": "AMD Ryzen 5 2600X or Intel Core i5 8600K",
+    "memory": "8 GB RAM",
+    "graphics": "AMD RX Vega 56 or NVIDIA GTX 1070",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "sound card": "DirectX Compatible soundcard"
+   }
+  }
+ }
+}

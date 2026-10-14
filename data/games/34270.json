@@ -1,0 +1,59 @@
+{
+ "appid": 34270,
+ "name": "SEGA Mega Drive and Genesis Classics",
+ "slug": "sega-mega-drive-and-genesis-classics",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "32MB graphics card"
+    ],
+    "ids": []
+   },
+   "directX": 9,
+   "raw": {
+    "os": "Windows XP or higher",
+    "graphics": "32MB or greater graphics card",
+    "directx": "Version 9.0",
+    "vr support": "SteamVR or Oculus PC. Keyboard or gamepad required",
+    "additional notes": "System specs for classic launcher. Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i3-2100",
+     "AMD Phenom II X4 940 dual core CPU"
+    ],
+    "ids": [
+     "intel-core-i3-2100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GeForce GTX 280",
+     "ATI Radeon HD 6630 DirectX 9c VRam 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-280",
+     "intel-hd-graphics"
+    ]
+   },
+   "vramGb": 1,
+   "directX": 9,
+   "raw": {
+    "os": "Windows 10 or higher",
+    "processor": "Intel i3-2100 or AMD Phenom II X4 940 or equivalent dual core CPU",
+    "graphics": "NVidia GeForce GTX 280 or ATI Radeon HD 6630 or equivalent DirectX 9c or higher 1GB VRam",
+    "directx": "Version 9.0c",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ }
+}

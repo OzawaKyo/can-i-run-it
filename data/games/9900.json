@@ -1,0 +1,20 @@
+{
+ "appid": 9900,
+ "name": "Star Trek Online",
+ "slug": "star-trek-online",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

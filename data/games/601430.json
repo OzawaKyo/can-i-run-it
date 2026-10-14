@@ -1,0 +1,79 @@
+{
+ "appid": 601430,
+ "name": "The Evil Within 2",
+ "slug": "the-evil-within-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2400",
+     "AMD FX-8320"
+    ],
+    "ids": [
+     "intel-core-i5-2400",
+     "amd-fx-8320"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 660 2GB",
+     "AMD HD 7970 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7970-3gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 (64-bit versions)",
+    "processor": "Intel Core i5-2400 / AMD FX-8320 or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 660 2GB / AMD HD 7970 3GB or better",
+    "storage": "40 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4770",
+     "AMD Ryzen 5 1600X"
+    ],
+    "ids": [
+     "intel-core-i7-4770",
+     "amd-ryzen-5-1600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1060 6GB",
+     "AMD RX 480 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 (64-bit versions)",
+    "processor": "Intel Core i7-4770 / AMD Ryzen 5 1600X or better",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 1060 6GB / AMD RX 480 8GB or better",
+    "storage": "40 GB available space"
+   }
+  }
+ }
+}

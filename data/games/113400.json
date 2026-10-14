@@ -1,0 +1,74 @@
+{
+ "appid": 113400,
+ "name": "APB Reloaded",
+ "slug": "apb-reloaded",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6420 (2.13GHz)",
+     "AMD Athlon x2 5800+ (3.0GHz)"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6420"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 7800 with 256MB and support for Pixel Shader 3.0"
+    ],
+    "ids": []
+   },
+   "ramGb": 3,
+   "directX": 90,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit or Later",
+    "processor": "Intel Core 2 Duo E6420 (2.13GHz) or AMD Athlon x2 5800+ (3.0GHz)",
+    "memory": "3 GB RAM",
+    "graphics": "GeForce 7800 with 256MB and support for Pixel Shader 3.0, or AMD equivalent",
+    "directx": "dx90c",
+    "storage": "7 GB HD space",
+    "other requirements": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4GHz Intel Core 2 Quad AMD x4"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8800GT 512MB"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 90,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit or later",
+    "processor": "2.4GHz Intel Core 2 Quad or equivalent AMD x4",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce 8800GT 512MB or AMD equivalent",
+    "directx": "dx90c",
+    "storage": "7 GB HD space",
+    "sound": "Dedicated sound card with hardware acceleration.",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "appid": 355840,
+ "name": "Survarium",
+ "slug": "survarium",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3",
+     "AMD Phenom II X4",
+     "AMD FX",
+     "AMD Ryzen"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce: GTX 650",
+     "GT 1030",
+     "Radeon R7 250X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107",
+     "amd-radeon-r7-250x-1gb",
+     "amd-radeon-r7-250x-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (Service Pack 1), Windows 8.1 (64 bit)",
+    "processor": "Intel Core i3 / AMD Phenom II X4 / AMD FX / AMD Ryzen",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce: GTX 650 / GT 1030 or Radeon R7 250X",
+    "directx": "Version 10",
+    "network": "Broadband Internet connection",
+    "storage": "16 GB available space",
+    "additional notes": ""
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5",
+     "AMD Phenom II X4",
+     "AMD FX",
+     "AMD Ryzen"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce: GTX 960",
+     "GTX 1050Ti",
+     "AMD Radeon: R9 280X",
+     "RX 460"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "nvidia-geforce-gtx-1050-ti",
+     "amd-radeon-r9-280x",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64 bit)",
+    "processor": "Intel Core i5 / AMD Phenom II X4 / AMD FX / AMD Ryzen",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce: GTX 960 / GTX 1050Ti or AMD Radeon: R9 280X / RX 460",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "16 GB available space",
+    "additional notes": ""
+   }
+  }
+ }
+}

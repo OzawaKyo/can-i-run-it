@@ -1,0 +1,86 @@
+{
+ "appid": 924970,
+ "name": "Back 4 Blood",
+ "slug": "back-4-blood",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600 (3.3 GHz)",
+     "AMD Ryzen 5 2600 (3.4 GHz)"
+    ],
+    "ids": [
+     "intel-core-i5-6600",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1050 Ti",
+     "AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Intel Core i5-6600 (3.3 GHz) OR AMD Ryzen 5 2600 (3.4 GHz)",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1050 Ti OR AMD Radeon RX 570",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "1080p / 60fps / Low Quality Settings"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400 (2.8 GHz)",
+     "AMD Ryzen 7 1800X (3.6 GHz)"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-7-1800x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD Radeon RX 590"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 12,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "Intel Core i5-8400 (2.8 GHz) OR AMD Ryzen 7 1800X (3.6 GHz)",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 OR AMD Radeon RX 590",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "1080p / 60fps / High Quality Settings"
+   }
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "appid": 736220,
+ "name": "Squad 44",
+ "slug": "squad-44",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3 9th gen",
+     "AMD Ryzen 3 3300X"
+    ],
+    "ids": [
+     "amd-ryzen-3-3300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1080",
+     "Radeon RX 6600 with at least of VRAM 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410",
+     "amd-radeon-rx-6600"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (x64)",
+    "processor": "Intel i3 9th gen or AMD Ryzen 3 3300X",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GTX 1080 or Radeon RX 6600 with at least 8GB of VRAM",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "additional notes": "To fully experience our virtual battlefield, a microphone is strongly advised."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 11th gen",
+     "AMD Ryzen 5 7600"
+    ],
+    "ids": [
+     "amd-ryzen-5-7600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 3070",
+     "Radeon 6800 with at least of VRAM 8GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 32,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (x64)",
+    "processor": "Intel i5 11th gen or AMD Ryzen 5 7600",
+    "memory": "32 GB RAM",
+    "graphics": "Nvidia GTX 3070 or Radeon 6800 with at least 8GB of VRAM",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "100 GB available space",
+    "additional notes": "To fully experience our virtual battlefield, a microphone is strongly advised."
+   }
+  }
+ }
+}

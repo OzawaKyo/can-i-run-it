@@ -1,0 +1,82 @@
+{
+ "appid": 1665460,
+ "name": "eFootball™",
+ "slug": "efootball",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2300",
+     "/ AMD FX-4350"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-fx-4350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 660 Ti",
+     "Radeon HD 7790"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660-ti",
+     "amd-radeon-hd-7790-1gb",
+     "amd-radeon-hd-7790-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 - 64bit",
+    "processor": "Intel Core i5-2300, / AMD FX-4350",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 660 Ti / Radeon HD 7790",
+    "network": "Broadband Internet connection",
+    "storage": "70 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7600",
+     "AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-7600",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1060",
+     "AMD Radeon RX 590"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 - 64bit",
+    "processor": "Intel Core i5-7600 / AMD Ryzen 5 1600",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1060 / AMD Radeon RX 590",
+    "network": "Broadband Internet connection",
+    "storage": "70 GB available space"
+   }
+  }
+ }
+}

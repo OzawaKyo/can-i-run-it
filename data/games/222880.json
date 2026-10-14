@@ -1,0 +1,64 @@
+{
+ "appid": 222880,
+ "name": "Insurgency",
+ "slug": "insurgency",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6600",
+     "AMD Phenom X3 8750 processor"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600",
+     "amd-phenom-x3-8750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Video card must be 512 MB and should be a DirectX 9-compatible with support for Pixel Shader 3.0"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core 2 Duo E6600 or AMD Phenom X3 8750 processor or better",
+    "memory": "4 GB RAM",
+    "graphics": "Video card must be 512 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 3.0",
+    "storage": "10 GB HD space",
+    "directx": "9.0c"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Video card 2048 MB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 10,
+    "ssd": true
+   },
+   "raw": {
+    "memory": "8 GB RAM",
+    "graphics": "Video card 2048 MB or more",
+    "storage": "10 GB HD space on a SSD"
+   }
+  }
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "appid": 2001120,
+ "name": "Split Fiction",
+ "slug": "split-fiction",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600K",
+     "AMD Ryzen 5 2600X"
+    ],
+    "ids": [
+     "intel-core-i5-6600k",
+     "amd-ryzen-5-2600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970 - 4GB",
+     "Radeon RX 470 - 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-470-4gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 85,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64 bit Windows 10/11",
+    "processor": "Intel Core i5-6600K or AMD Ryzen 5 2600X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 - 4GB or Radeon RX 470 - 4GB",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "85 GB available space",
+    "additional notes": "Resolution: 1920x1080 Native FPS: 30 Graphics Settings Preset: Low"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-11700k",
+     "AMD Ryzen 7 5800X"
+    ],
+    "ids": [
+     "intel-core-i7-11700k",
+     "amd-ryzen-7-5800x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 3070 - 8GB",
+     "AMD Radeon 6700 XT - 12GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3070"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 85,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64 bit Windows 10/11",
+    "processor": "Intel Core i7-11700k or AMD Ryzen 7 5800X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 3070 - 8GB or AMD Radeon 6700 XT - 12GB",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "85 GB available space",
+    "additional notes": "Resolution: 2560x1440 Native FPS: 60 Graphics Settings Preset: High"
+   }
+  }
+ }
+}

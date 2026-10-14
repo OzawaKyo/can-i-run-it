@@ -1,0 +1,29 @@
+{
+ "appid": 431730,
+ "name": "Aseprite",
+ "slug": "aseprite",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.125,
+   "storage": {
+    "gb": 0.078125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 11",
+    "memory": "128 MB RAM",
+    "storage": "80 MB available space"
+   }
+  }
+ }
+}

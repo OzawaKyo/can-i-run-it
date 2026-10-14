@@ -1,0 +1,45 @@
+{
+ "appid": 391720,
+ "name": "Layers of Fear (2016)",
+ "slug": "layers-of-fear-2016",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Quad Q8400"
+    ],
+    "ids": [
+     "intel-core-2-quad-q8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 560 1GB",
+     "Radeon R7 250X 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-r7-250x-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core2 Quad Q8400",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 560 1GB / Radeon R7 250X 1GB",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "additional notes": "Supported Gamepads: Microsoft Xbox 360 Games for Windows (Wired), Microsoft Xbox One Controller (Wired), Sony PS4 DualShock 4 controller (wired), Steam Controller"
+   }
+  }
+ }
+}

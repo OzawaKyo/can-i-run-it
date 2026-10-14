@@ -1,0 +1,44 @@
+{
+ "appid": 47870,
+ "name": "Need For Speed: Hot Pursuit",
+ "slug": "need-for-speed-hot-pursuit",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.0 GHZ",
+     "AMD Athlon X2 64 2.4GHZ; 1.5 GB Windows XP",
+     "2 GB Windows Vista - Windows 7"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c Compatible 3D-accelerated 256 MB video card with Shader Model 3.0*"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3, Windows XP 64-bit SP2, Windows Vista SP2 (32- or 64-bit), or Windows 7 (32- or 64-bit). (Not Supported - Windows 95, Windows 98, Windows ME, Windows NT 4.0, and Windows 2000 are not supported.)",
+    "processor": "Intel Core 2 Duo 2.0 GHZ or AMD Athlon X2 64 2.4GHZ; 1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
+    "memory": "1GB (XP), 1.5GB (Vista), 1.5 GB (Windows 7)",
+    "storage": "8 GB free hard disk space. Additional space required for DirectX 9.0c installation and for saved games",
+    "graphics": "DirectX 9.0c Compatible 3D-accelerated 256 MB video card with Shader Model 3.0* or higher",
+    "sound card": "DirectX 9.0c Compatible Sound Card",
+    "dvd-rom": "8X speed DVD-ROM drive (Disc Users only)",
+    "online gameplay": "Broadband connection for online activation and online gameplay - 512 Kbps or faster",
+    "direct x": "DirectX 9.0c"
+   }
+  }
+ }
+}

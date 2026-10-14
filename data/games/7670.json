@@ -1,0 +1,55 @@
+{
+ "appid": 7670,
+ "name": "BioShock™",
+ "slug": "bioshock",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     ": Intel single-core Pentium 4 processor at 2.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     ": Direct X 9.0c compliant video card with 128MB RAM and Pixel Shader 3.0 (NVIDIA 6600/ATI X1300, excluding ATI X1550)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "raw": {
+    "operating system": ": Windows XP (with Service Pack 2) or Windows Vista",
+    "processor": ": Intel single-core Pentium 4 processor at 2.4GHz",
+    "memory": ": 1 GB",
+    "graphics": ": Direct X 9.0c compliant video card with 128MB RAM and Pixel Shader 3.0 (NVIDIA 6600 or better/ATI X1300 or better, excluding ATI X1550)",
+    "sound card": ": 100% direct X 9.0c compatible sound card",
+    "hard drive space": ": 8GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     ": Intel Core 2 Duo processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     ": DX 9 - Direct X 9.0c compliant video card with 512 MB RAM and Pixel Shader 3.0 (NVIDIA GeForce 7900 GT)",
+     "DX 10 - NVIDIA GeForce 8600"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "raw": {
+    "processor": ": Intel Core 2 Duo processor",
+    "memory": ": 2GB",
+    "graphics": ": DX 9 - Direct X 9.0c compliant video card with 512 MB RAM and Pixel Shader 3.0 (NVIDIA GeForce 7900 GT or better), DX 10 - NVIDIA GeForce 8600 or better",
+    "sound card": ": SoundBlaster(r) X-Fi(tm) series (optimized foruse with Creative Labs EAX ADVANCED HD 4.0 or EAX ADVANCED HD 5.0 compatible sound cards)"
+   }
+  }
+ }
+}

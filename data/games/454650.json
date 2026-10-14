@@ -1,0 +1,76 @@
+{
+ "appid": 454650,
+ "name": "DRAGON BALL XENOVERSE 2",
+ "slug": "dragon-ball-xenoverse-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3570",
+     "AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-3570",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1030",
+     "AMD Radeon HD 7770"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-3570 / AMD Ryzen 5 1600",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1030 / AMD Radeon HD 7770",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 3100",
+     "Intel Core i5-6400"
+    ],
+    "ids": [
+     "amd-ryzen-3-3100",
+     "intel-core-i5-6400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 750 Ti",
+     "AMD Radeon HD 7850",
+     "Intel Arc A380"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "raw": {
+    "os": "Windows 10 / Windows 11",
+    "processor": "AMD Ryzen 3 3100 / Intel Core i5-6400",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce 750 Ti / AMD Radeon HD 7850 / Intel Arc A380",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection"
+   }
+  }
+ }
+}

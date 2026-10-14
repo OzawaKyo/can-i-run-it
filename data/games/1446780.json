@@ -1,0 +1,91 @@
+{
+ "appid": 1446780,
+ "name": "MONSTER HUNTER RISE",
+ "slug": "monster-hunter-rise",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4130",
+     "Core i5-3470",
+     "AMD FX-6100"
+    ],
+    "ids": [
+     "intel-core-i3-4130",
+     "intel-core-i5-3470",
+     "amd-fx-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 1030 (DDR4)",
+     "AMD Radeon RX 550"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107",
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 36,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 （64-bit）",
+    "processor": "Intel Core i3-4130 or Core i5-3470 or AMD FX-6100",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT 1030 (DDR4) or AMD Radeon RX 550",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space",
+    "additional notes": "1080p/30fps when graphics settings are set to \"Low\"."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460",
+     "AMD FX-8300"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "amd-fx-8300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 (VRAM) 3GB",
+     "AMD Radeon RX 570 (VRAM) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "amd-radeon-rx-570-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 36,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 （64-bit）",
+    "processor": "Intel Core i5-4460 or AMD FX-8300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (VRAM 3GB) or AMD Radeon RX 570 (VRAM 4GB)",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space",
+    "additional notes": "1080p/30fps when graphics settings are set to \"Average\"."
+   }
+  }
+ }
+}

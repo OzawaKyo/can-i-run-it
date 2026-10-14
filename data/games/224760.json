@@ -1,0 +1,62 @@
+{
+ "appid": 224760,
+ "name": "FEZ",
+ "slug": "fez",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.8Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "2nd Generation Intel Core HD Graphics (2000/3000)",
+     "or dedicated GPU with OpenGL 3.0 Support"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "Intel Core 2 Duo 2.8Ghz or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "2nd Generation Intel Core HD Graphics (2000/3000), or dedicated GPU with OpenGL 3.0 Support",
+    "storage": "500 MB HD space",
+    "sound": "OpenAL-compatible",
+    "additional": "See for details on Intel HD Graphics support, not all models are supported. Latest graphics drivers are required to maximize OpenGL feature compatibility."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce GT 240"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-240"
+    ]
+   },
+   "ramGb": 4,
+   "raw": {
+    "os": "Windows 7",
+    "memory": "4 GB RAM",
+    "graphics": "nVidia GeForce GT 240 or better",
+    "additional": "See for details on Intel HD Graphics support, not all models are supported. Latest graphics drivers are required to maximize OpenGL feature compatibility."
+   }
+  }
+ }
+}

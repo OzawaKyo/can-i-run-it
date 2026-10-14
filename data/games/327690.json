@@ -1,0 +1,54 @@
+{
+ "appid": 327690,
+ "name": "Gigantic",
+ "slug": "gigantic",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.6Ghz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 580",
+     "DirectX 11.1-compatible video card (Nvidia or AMD only)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-580"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8, Windows 8.1, Windows 10 (64-bit)",
+    "processor": "2.6Ghz processor",
+    "memory": "6 GB RAM",
+    "graphics": "GeForce GTX 580, DirectX 11.1-compatible video card (Nvidia or AMD only)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "additional notes": "6 GB RAM requirement refers to usable memory only"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

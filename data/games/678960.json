@@ -1,0 +1,87 @@
+{
+ "appid": 678960,
+ "name": "CODE VEIN",
+ "slug": "code-vein",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2300"
+    ],
+    "ids": [
+     "intel-core-i5-2300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 760",
+     "Radeon HD 7850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 or Windows 10 (64-bit)",
+    "processor": "Intel Core i5-2300",
+    "memory": "6 GB RAM",
+    "graphics": "GeForce GTX 760 or Radeon HD 7850",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "35 GB available space",
+    "sound card": "DirectX compatible soundcard or onboard chipset",
+    "additional notes": "Estimated performance: 1080p/60fps with graphics settings at \"Low\". Framerate might drop in graphics-intensive scenes. - 64-bit processor and operating system are required."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7400",
+     "AMD Ryzen 3 2200G"
+    ],
+    "ids": [
+     "intel-core-i5-7400",
+     "amd-ryzen-3-2200g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 960",
+     "Radeon R9 380X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r9-380x"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 or Windows 10 (64-bit)",
+    "processor": "Intel Core i5-7400 or AMD Ryzen 3 2200G",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 960 or Radeon R9 380X",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "35 GB available space",
+    "sound card": "DirectX compatible soundcard or onboard chipset",
+    "additional notes": "Estimated performance: 1080p/60fps with graphics settings at \"High\". Framerate might drop in graphics-intensive scenes. - 64-bit processor and operating system are required. - Windows 10 (Version 1809 or later) and a 4GB VRAM GPU (graphics board or video card) are required for DirectX 12 API."
+   }
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "appid": 599140,
+ "name": "Graveyard Keeper",
+ "slug": "graveyard-keeper",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel core i5",
+     "1.5 GHz and up"
+    ],
+    "ids": [],
+    "estimatedScore": 16
+   },
+   "gpu": {
+    "raw": [
+     "dedicated video card 1GB",
+     "shader model 3.0+"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (SP1+)",
+    "processor": "Intel core i5, 1.5 GHz and up",
+    "memory": "4 GB RAM",
+    "graphics": "1 Gb dedicated video card, shader model 3.0+",
+    "directx": "Version 10",
+    "storage": "1 GB available space"
+   }
+  }
+ }
+}

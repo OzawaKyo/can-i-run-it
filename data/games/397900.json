@@ -1,0 +1,47 @@
+{
+ "appid": 397900,
+ "name": "Business Tour - Board Game with Online Multiplayer",
+ "slug": "business-tour-board-game-with-online-multiplayer",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1500 MHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "directX": 9,
+   "raw": {
+    "os": "Windows XP/Vista/7/8/10",
+    "processor": "1500 MHz",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "1500 MHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "directX": 9,
+   "raw": {
+    "os": "Windows XP/Vista/7/8/10",
+    "processor": "1500 MHz",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection"
+   }
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "appid": 24960,
+ "name": "Battlefield: Bad Company™ 2",
+ "slug": "battlefield-bad-company-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo @ 2.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "256 MB Video Card (GeForce 7800 GT / ATI X1900)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "Core 2 Duo @ 2.0GHz",
+    "memory": "2GB",
+    "graphics": "256 MB Video Card (GeForce 7800 GT / ATI X1900)",
+    "directx": "DirectX 9, 10, and 11 support",
+    "storage": "15 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "512 MB Video Card (GeForce GTX 260/ ATI Radeon 4870)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260"
+    ]
+   },
+   "ramGb": 2,
+   "raw": {
+    "os": "Windows Vista or Windows 7",
+    "processor": "Intel Core 2 Quad or higher",
+    "memory": "2GB",
+    "graphics": "512 MB Video Card (GeForce GTX 260/ ATI Radeon 4870)",
+    "controller support": "Support for Logitech G15 and G19 keyboard LCDs in multiplayer"
+   }
+  }
+ }
+}

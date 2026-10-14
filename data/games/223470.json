@@ -1,0 +1,71 @@
+{
+ "appid": 223470,
+ "name": "POSTAL 2",
+ "slug": "postal-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 3 1133MHz",
+     "AMD Athlon 733MHz Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "32MB GeForce 2",
+     "Radeon Video Card"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.125,
+   "directX": 8,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3/Vista/7/8/10",
+    "processor": "Pentium 3 1133MHz or AMD Athlon 733MHz Processor",
+    "memory": "128 MB RAM",
+    "graphics": "32MB GeForce 2 or Radeon Video Card",
+    "directx": "8.0",
+    "storage": "10 GB available space",
+    "other requirements": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "1.2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 12
+   },
+   "gpu": {
+    "raw": [
+     "64MB GeForce 3",
+     "Radeon 8500 Video Card"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.375,
+   "directX": 8,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3/Vista/7/8/10",
+    "processor": "1.2GHz",
+    "memory": "384 MB RAM",
+    "graphics": "64MB GeForce 3 or Radeon 8500 Video Card",
+    "directx": "8.0",
+    "storage": "10 GB available space",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ }
+}

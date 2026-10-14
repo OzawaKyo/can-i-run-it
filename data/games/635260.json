@@ -1,0 +1,92 @@
+{
+ "appid": 635260,
+ "name": "CarX Drift Racing Online",
+ "slug": "carx-drift-racing-online",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6400",
+     "AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-6400",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 960 4GB",
+     "AMD RX 470 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-rx-470-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or higher",
+    "processor": "Intel Core i5-6400 or AMD Ryzen 5 1600",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 960 4GB / AMD RX 470 4 GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "sound card": "Sound card compatible with DirectX 11",
+    "vr support": "Any devices supporting SteamVR or Oculus runtime",
+    "additional notes": "The application’s stability is not guaranteed on Intel HD Graphics and AMD HD Radeon on-board graphics cards."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core I5-9400F",
+     "AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-9400f",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1060 3GB",
+     "AMD RX 580 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "amd-radeon-rx-580-4gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or higher",
+    "processor": "Intel Core I5-9400F or AMD Ryzen 5 2600",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GTX 1060 3 Gb / AMD RX 580 4GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "sound card": "Sound card compatible with DirectX 11",
+    "vr support": "Any devices supporting SteamVR or Oculus runtime",
+    "additional notes": "The application’s stability is not guaranteed on Intel HD Graphics and AMD HD Radeon on-board graphics cards."
+   }
+  }
+ }
+}

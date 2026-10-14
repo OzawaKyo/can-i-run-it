@@ -1,0 +1,76 @@
+{
+ "appid": 1049410,
+ "name": "Superliminal",
+ "slug": "superliminal",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GTX 750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 3,
+   "directX": 10,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2.0GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVidia GTX 750",
+    "directx": "Version 10",
+    "storage": "12 GB available space",
+    "additional notes": "Minimum: 3GB VRAM"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1070"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "2.4GHz",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 1070",
+    "directx": "Version 10",
+    "storage": "12 GB available space",
+    "additional notes": "Recommended: 4GB VRAM"
+   }
+  }
+ }
+}

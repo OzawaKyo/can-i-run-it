@@ -1,0 +1,75 @@
+{
+ "appid": 109600,
+ "name": "Neverwinter",
+ "slug": "neverwinter",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo 2.2Ghz (or equivalent AMD CPU)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GeForce GTX 4xx",
+     "ATI/AMD Radeon HD 5xxx",
+     "or Intel HD Graphics 4xxx (Direct3D Hardware Feature Level 11)"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 21,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 (64-bit)",
+    "processor": "Core 2 Duo 2.2Ghz (or equivalent AMD CPU)",
+    "memory": "4 GB RAM",
+    "graphics": "NVidia GeForce GTX 4xx, ATI/AMD Radeon HD 5xxx, or Intel HD Graphics 4xxx (Direct3D Hardware Feature Level 11)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "21 GB available space",
+    "sound card": "DirectX 11 compatible sound chip or onboard audio capability with the latest sound drivers"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i5-6xxx Quad Core"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GeForce GTX 9xx",
+     "AMD Radeon RX 4xx"
+    ],
+    "ids": []
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 21,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 (64-bit)",
+    "processor": "Core i5-6xxx Quad Core or better",
+    "memory": "6 GB RAM",
+    "graphics": "NVidia GeForce GTX 9xx or AMD Radeon RX 4xx or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "21 GB available space",
+    "sound card": "DirectX 11 compatible sound chip or onboard audio capability with the latest sound drivers"
+   }
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "appid": 269210,
+ "name": "Hero Siege",
+ "slug": "hero-siege",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 8 Series+ 2GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce 8 Series 2 GB+",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7+"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 9 Series+ 4GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7+",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce 9 Series 4 GB+",
+    "storage": "5 GB available space"
+   }
+  }
+ }
+}

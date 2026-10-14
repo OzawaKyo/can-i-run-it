@@ -1,0 +1,82 @@
+{
+ "appid": 1260320,
+ "name": "Party Animals",
+ "slug": "party-animals",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 750-Ti",
+     "AMD RX 550 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-rx-550-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 64-bit / Windows 11, 64-bit",
+    "processor": "Intel Core i5 / AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 750-Ti / AMD RX 550, 2GB VRam",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "12 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 7500K"
+    ],
+    "ids": [
+     "intel-core-i5-7500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1060",
+     "AMD RX 580 4GB",
+     "Intel Arc A380"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, 64-bit / Windows 11, 64-bit",
+    "processor": "Intel Core i5 7500K / AMD equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 1060 / AMD RX 580, 4GB VRam / Intel Arc A380",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "12 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "appid": 17410,
+ "name": "Mirror's Edge™",
+ "slug": "mirror-s-edge",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c compatible video card",
+     "Shader Model 3.0 required. Video card must have 256 MB",
+     "NVIDIA GeForce 6800"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP SP2 or Vista",
+    "processor": "3.0 GHz or faster",
+    "memory": "1 GB RAM or more",
+    "graphics": "DirectX 9.0c compatible video card, Shader Model 3.0 required. Video card must have 256 MB, NVIDIA GeForce 6800 or better",
+    "storage": "8 GB free space",
+    "sound": "DirectX 9.0c compatible sound card"
+   }
+  }
+ }
+}

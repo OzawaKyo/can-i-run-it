@@ -1,0 +1,38 @@
+{
+ "appid": 207140,
+ "name": "SpeedRunners",
+ "slug": "speedrunners",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1Ghz and up"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated video card recommended"
+    ],
+    "ids": []
+   },
+   "ramGb": 3,
+   "storage": {
+    "gb": 0.78125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP and up",
+    "processor": "1Ghz and up",
+    "memory": "3 GB RAM",
+    "graphics": "Dedicated video card recommended",
+    "network": "Broadband Internet connection",
+    "storage": "800 MB available space",
+    "additional notes": "MAC Users: SpeedRunners runs great in Parallels Desktop"
+   }
+  }
+ }
+}

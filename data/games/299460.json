@@ -1,0 +1,81 @@
+{
+ "appid": 299460,
+ "name": "Woodle Tree Adventures",
+ "slug": "woodle-tree-adventures",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Dual-Core 2.6 GHz",
+     "AMD Dual-Core Athlon 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 30
+   },
+   "gpu": {
+    "raw": [
+     "SM 3.0 with 512MB VRAM; NVIDIA GeForce 8500 GT",
+     "AMD Radeon HD 4650"
+    ],
+    "ids": [
+     "nvidia-geforce-8500-gt-256mb",
+     "nvidia-geforce-8500-gt-512mb",
+     "nvidia-geforce-8500-gt-1gb",
+     "amd-radeon-hd-4650-256mb",
+     "amd-radeon-hd-4650-512mb",
+     "amd-radeon-hd-4650-1gb"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 0.17578125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3",
+    "processor": "Intel Dual-Core 2.6 GHz / AMD Dual-Core Athlon 3.0 GHz",
+    "memory": "1 GB RAM",
+    "graphics": "SM 3.0 with 512MB VRAM; NVIDIA GeForce 8500 GT / AMD Radeon HD 4650 or greater",
+    "directx": "Version 9.0",
+    "storage": "180 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-Core Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "SM 3.0 with VRAM; NVIDIA GeForce GTX 280 1GB",
+     "AMD Radeon HD 4830"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-280",
+     "amd-radeon-hd-4830-512mb",
+     "amd-radeon-hd-4830-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 0.17578125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or higher",
+    "processor": "Quad-Core Processor",
+    "memory": "2 GB RAM",
+    "graphics": "SM 3.0 with 1GB VRAM; NVIDIA GeForce GTX 280 / AMD Radeon HD 4830 or greater",
+    "directx": "Version 10",
+    "storage": "180 MB available space"
+   }
+  }
+ }
+}

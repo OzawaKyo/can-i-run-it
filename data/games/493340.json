@@ -1,0 +1,79 @@
+{
+ "appid": 493340,
+ "name": "Planet Coaster",
+ "slug": "planet-coaster",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-2300/AMD FX-4300"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-fx-4300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GTX 560 ()/AMD Radeon 7850 (2GB) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (SP1+)/8.1/10 64bit",
+    "processor": "Intel i5-2300/AMD FX-4300",
+    "memory": "8 GB RAM",
+    "graphics": "nVidia GTX 560 (2GB)/AMD Radeon 7850 (2GB)",
+    "directx": "Version 11",
+    "storage": "8 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7-4770/AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i7-4770",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GTX 980 ()/AMD R9 380 (4GB) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-980",
+     "amd-radeon-r9-380",
+     "amd-radeon-r9-380-4gb"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (SP1+)/8.1/10 64bit",
+    "processor": "Intel i7-4770/AMD FX-8350",
+    "memory": "12 GB RAM",
+    "graphics": "nVidia GTX 980 (4GB)/AMD R9 380 (4GB)",
+    "directx": "Version 11",
+    "storage": "8 GB available space"
+   }
+  }
+ }
+}

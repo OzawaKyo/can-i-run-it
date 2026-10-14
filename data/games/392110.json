@@ -1,0 +1,83 @@
+{
+ "appid": 392110,
+ "name": "ENDLESS Space™ 2",
+ "slug": "endless-space-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i3 4th generation",
+     "i5 2nd generation",
+     "A6 series"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 4000",
+     "AMD Radeon 5800 series",
+     "NVidia 550Ti"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000",
+     "nvidia-geforce-gtx-550-ti"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows (64bits only) 7 / 8 / 8.1 / 10",
+    "processor": "i3 4th generation / i5 2nd generation / A6 series",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD 4000 / AMD Radeon 5800 series / NVidia 550Ti",
+    "directx": "Version 11",
+    "storage": "8 GB available space",
+    "sound card": "DX11 compatible",
+    "additional notes": "Minimum Resolution: 1280 x 720"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i3 5th generation (or newer)",
+     "i5 3rd generation (or newer)",
+     "FX4170 (or newer)"
+    ],
+    "ids": [
+     "amd-fx-4170"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon 8000 series",
+     "NVidia GTX 660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows (64bits only) 7 / 8 / 8.1 / 10",
+    "processor": "i3 5th generation (or newer) / i5 3rd generation (or newer) / FX4170 (or newer)",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon 8000 series or newer / NVidia GTX 660 or newer",
+    "directx": "Version 11",
+    "storage": "8 GB available space",
+    "sound card": "DX11 compatible",
+    "additional notes": "Recommended Resolution: 1920 x 1080"
+   }
+  }
+ }
+}

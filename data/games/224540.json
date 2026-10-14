@@ -1,0 +1,70 @@
+{
+ "appid": 224540,
+ "name": "Ace of Spades: Battle Builder",
+ "slug": "ace-of-spades-battle-builder",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Intel Dual Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "800 x 600 Minimum Resolution",
+     "OpenGL 2.0 Support."
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP with SP3 / Vista / 7",
+    "processor": "2.4 GHz Intel Dual Core Processor or AMD equivalent",
+    "memory": "2 GB RAM",
+    "storage": "500 MB free",
+    "graphics": "800 x 600 Minimum Resolution, OpenGL 2.0 Support or better.",
+    "directx": "9.0",
+    "other requirements": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.6+ GHz Intel Quad Core Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "800 x 600 Minimum Resolution",
+     "OpenGL 2.0 Support."
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP with SP3 / Vista / 7",
+    "processor": "2.6+ GHz Intel Quad Core Processor or AMD equivalent",
+    "memory": "4 GB RAM",
+    "storage": "500 MB free",
+    "graphics": "800 x 600 Minimum Resolution, OpenGL 2.0 Support or better.",
+    "directx": "9.0",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ }
+}

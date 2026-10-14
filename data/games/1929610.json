@@ -1,0 +1,76 @@
+{
+ "appid": 1929610,
+ "name": "Demonologist",
+ "slug": "demonologist",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5",
+     "new-gen i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10, 64 Bit",
+    "processor": "Intel i5 or new-gen i3 / AMD equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 6GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "SSD Required / Not compatible with Mac Products"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7",
+     "AMD equivalent (AMD FX 9500+ Series)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1660S"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 20,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10, 64 Bit",
+    "processor": "Intel i7 or AMD equivalent (AMD FX 9500+ Series)",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 1660S",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "additional notes": "SSD Required / Not compatible with Mac Products"
+   }
+  }
+ }
+}

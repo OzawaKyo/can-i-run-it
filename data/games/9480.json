@@ -1,0 +1,73 @@
+{
+ "appid": 9480,
+ "name": "Saints Row 2",
+ "slug": "saints-row-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz Intel Dual-Core Pentium IV",
+     "AMD Dual-Core Athlon XP"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "128MB 3D graphics card with Shader Model 3.0 support (i.e. 7600 NVidia card, ATI X1300 card)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Windows XP or Vista.",
+    "processor": "2.0 GHz Intel Dual-Core Pentium IV or equivalent or AMD Dual-Core Athlon XP or equivalent",
+    "memory": "1 GB system RAM",
+    "graphics": "128MB 3D graphics card with Shader Model 3.0 support (i.e. 7600 NVidia card or better, ATI X1300 card or better)",
+    "directx version": "DirectX 9.0c",
+    "sound": "DirectX 9.0c compatible 16-bit sound card",
+    "storage": "15 GB of Hard Drive Space",
+    "display": "DirectX compatible display capable of 640x480 in 16-bit color"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.2 GHz Intel Dual-Core Pentium IV",
+     "AMD Dual-Core Athlon XP"
+    ],
+    "ids": [],
+    "estimatedScore": 37
+   },
+   "gpu": {
+    "raw": [
+     "256MB 3D graphics card with Shader Model 3.0 support (i.e. 8800 NVidia card, ATI HD3850 card)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Windows XP or Vista.",
+    "processor": "3.2 GHz Intel Dual-Core Pentium IV or equivalent or AMD Dual-Core Athlon XP or equivalent",
+    "memory": "2 GB system RAM",
+    "graphics": "256MB 3D graphics card with Shader Model 3.0 support (i.e. 8800 NVidia card or better, ATI HD3850 card or better)",
+    "directx version": "DirectX 9.0c",
+    "sound": "DirectX 9.0c compatible 16-bit sound card",
+    "storage": "15 GB of Hard Drive Space",
+    "display": "DirectX compatible display capable of 640x480 in 16-bit color"
+   }
+  }
+ }
+}

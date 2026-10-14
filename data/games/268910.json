@@ -1,0 +1,59 @@
+{
+ "appid": 268910,
+ "name": "Cuphead",
+ "slug": "cuphead",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E8400",
+     "3.0GHz",
+     "AMD Athlon 64 X2 6000+",
+     "3.0GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce 9600 GT",
+     "AMD HD 3870 512MB"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "amd-radeon-hd-3870-512mb",
+     "amd-radeon-hd-3870-1gb"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core2 Duo E8400, 3.0GHz or AMD Athlon 64 X2 6000+, 3.0GHz or higher",
+    "memory": "3 GB RAM",
+    "graphics": "Geforce 9600 GT or AMD HD 3870 512MB or higher",
+    "directx": "Version 11",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

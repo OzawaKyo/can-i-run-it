@@ -1,0 +1,75 @@
+{
+ "appid": 648800,
+ "name": "Raft",
+ "slug": "raft",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2.6GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 700 series"
+    ],
+    "ids": []
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "Intel Core i5 2.6GHz or similar",
+    "memory": "6 GB RAM",
+    "graphics": "GeForce GTX 700 series or similar",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "additional notes": "64-bit operating system is required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600 3.3GHz"
+    ],
+    "ids": [
+     "intel-core-i5-6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1050 series"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "Intel Core i5-6600 3.3GHz or similar",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1050 series or similar",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "additional notes": "64-bit operating system is required"
+   }
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "appid": 220440,
+ "name": "DmC: Devil May Cry",
+ "slug": "dmc-devil-may-cry",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM)2 Duo 2.4 Ghz",
+     "AMD Athlon(TM) X2 2.8 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA(R) GeForce(R) 8800GTS",
+     "ATI Radeon(TM) HD 3850"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista(R)/XP, Windows 7, Windows 8",
+    "processor": "Intel(R) Core(TM)2 Duo 2.4 Ghz or better, AMD Athlon(TM) X2 2.8 Ghz or better",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA(R) GeForce(R) 8800GTS or better, ATI Radeon(TM) HD 3850 or better",
+    "directx": "9.0c",
+    "storage": "9 GB HD space",
+    "sound": "Standard audio device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM)2 Quad 2.7 Ghz",
+     "AMD Phenom(TM)II X4 3 Ghz",
+     "Intel Core i7-9700 3.0GHz"
+    ],
+    "ids": [
+     "intel-core-i7-9700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon(TM) HD 6950"
+    ],
+    "ids": [
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista(R)/XP, Windows 7, Windows 8 / Windows11",
+    "processor": "Intel(R) Core(TM)2 Quad 2.7 Ghz or better, AMD Phenom(TM)II X4 3 Ghz or better / Intel Core i7-9700 3.0GHz, or better",
+    "memory": "4 GB RAM",
+    "graphics": "ATI Radeon(TM) HD 6950 or better",
+    "directx": "9.0c / Version 12",
+    "storage": "9 GB HD space",
+    "sound": "Standard audio device"
+   }
+  }
+ }
+}

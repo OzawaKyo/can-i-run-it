@@ -1,0 +1,73 @@
+{
+ "appid": 349700,
+ "name": "Romero's Aftermath",
+ "slug": "romero-s-aftermath",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i5 2.7ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce 660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 bit, Windows 8.1 64 bit",
+    "processor": "i5 2.7ghz",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA Geforce 660",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i7 2.4GHZ"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce 970"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 bit, Windows 8.1 64 bit",
+    "processor": "i7 2.4GHZ",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA Geforce 970",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space"
+   }
+  }
+ }
+}

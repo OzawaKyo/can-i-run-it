@@ -1,0 +1,70 @@
+{
+ "appid": 8850,
+ "name": "BioShock® 2",
+ "slug": "bioshock-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 64 Processor 3800+ 2.4Ghz",
+     "Intel Pentium 4 530 3.0Ghz Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 7800GT 256MB graphics card",
+     "ATI Radeon X1900 256MB graphics card"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 11,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Vista, Windows 7",
+    "processor": "AMD Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0Ghz Processor or better",
+    "memory": "2GB",
+    "graphics": "NVIDIA 7800GT 256MB graphics card or better, ATI Radeon X1900 256MB graphics card or better",
+    "directx": "DirectX 9.0c",
+    "storage": "11GB",
+    "sound": "100% DirectX 9.0C compliant sound card or onboard sound"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz",
+     "Intel Core 2 Duo E6420 Dual Core 2.13Ghz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6420"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 8800GT 512MB graphics card",
+     "ATI Radeon HD4830 512MB graphics card"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-4830-512mb",
+     "amd-radeon-hd-4830-1gb"
+    ]
+   },
+   "ramGb": 3,
+   "raw": {
+    "processor": "AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz, Intel Core 2 Duo E6420 Dual Core 2.13Ghz",
+    "memory": "3GB",
+    "graphics": "NVIDIA 8800GT 512MB graphics card or better, ATI Radeon HD4830 512MB graphics card or better",
+    "other requirements": "Initial installation requires one-time internet connection; software installations required including Microsoft Visual C++2008 Runtime Libraries, Microsoft DirectX."
+   }
+  }
+ }
+}

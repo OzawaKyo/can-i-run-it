@@ -1,0 +1,47 @@
+{
+ "appid": 482730,
+ "name": "Football Manager 2017",
+ "slug": "football-manager-2017",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4",
+     "Intel Core",
+     "AMD Athlon – 2.2 GHz +"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "Intel GMA X3100",
+     "NVIDIA GeForce 8600M GT",
+     "AMD/ATI Mobility Radeon HD 2400 – 256MB VRAM"
+    ],
+    "ids": [
+     "amd-radeon-3100-graphics",
+     "nvidia-geforce-8600m-gt-256mb",
+     "nvidia-geforce-8600m-gt-512mb",
+     "amd-mobility-radeon-hd-2400"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista (SP2), 7 (SP1), 8, 8.1, 10 (1607) – 64-bit or 32-bit",
+    "processor": "Intel Pentium 4, Intel Core or AMD Athlon – 2.2 GHz +",
+    "memory": "2 GB RAM",
+    "graphics": "Intel GMA X3100, NVIDIA GeForce 8600M GT or AMD/ATI Mobility Radeon HD 2400 – 256MB VRAM",
+    "directx": "Version 9.0c",
+    "storage": "3 GB available space"
+   }
+  }
+ }
+}

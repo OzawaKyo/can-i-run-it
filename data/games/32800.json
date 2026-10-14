@@ -1,0 +1,73 @@
+{
+ "appid": 32800,
+ "name": "Lord of the Rings: War in the North",
+ "slug": "lord-of-the-rings-war-in-the-north",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo 2.4 GHz",
+     "AMD 64 X2 4400"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "2006 GeForce 8600",
+     "Radeon HD 2600"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 90,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP, Windows Vista or Windows 7",
+    "processor": "Intel Core2 Duo 2.4 GHz or AMD 64 X2 4400",
+    "memory": "2 GB RAM",
+    "graphics": "2006 or later GeForce 8600 or Radeon HD 2600",
+    "directx": "dx90",
+    "storage": "10 GB HD space",
+    "sound": "100% DirectX 9 compatible Audio Device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo 3 GHz",
+     "AMD X2 5000",
+     "AMD Phenom X4 9600"
+    ],
+    "ids": [
+     "amd-phenom-x4-9600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 2xx Series",
+     "Radeon HD 6xxx series"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 90,
+   "raw": {
+    "processor": "Intel Core2 Duo 3 GHz or AMD X2 5000 or AMD Phenom X4 9600",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce 2xx Series or Radeon HD 6xxx series or greater",
+    "directx": "dx90",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ }
+}

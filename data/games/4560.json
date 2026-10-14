@@ -1,0 +1,62 @@
+{
+ "appid": 4560,
+ "name": "Company of Heroes - Legacy Edition",
+ "slug": "company-of-heroes-legacy-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 Ghz Intel Pentium IV",
+     "AMD Athlon XP"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0c compatible 64MB video card with Pixel Shader 1.1 support and latest manufacturer drivers"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or Vista",
+    "processor": "2.0 Ghz Intel Pentium IV or equivalent or AMD Athlon XP or equivalent",
+    "memory": "512 MB RAM",
+    "graphics": "DirectX 9.0c compatible 64MB video card with Pixel Shader 1.1 support or equivalent and latest manufacturer drivers",
+    "storage": "9 GB of uncompressed free hard drive space (We recommend having 1 gigabyte of free space after installation)",
+    "sound": "DirectX 9.0c compatible 16-bit sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.0 Ghz Intel Pentium IV"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "256 MB NVIDIA GeForce 6800 series"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "raw": {
+    "os": "Windows XP or Vista",
+    "processor": "3.0 Ghz Intel Pentium IV or equivalent",
+    "memory": "1 GB RAM",
+    "graphics": "256 MB NVIDIA GeForce 6800 series or better"
+   }
+  }
+ }
+}

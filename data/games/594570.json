@@ -1,0 +1,77 @@
+{
+ "appid": 594570,
+ "name": "Total War: WARHAMMER II",
+ "slug": "total-war-warhammer-ii",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 3.0Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 460 | AMD Radeon HD 5770 1GB | Intel HD4000 @720p 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5770-1gb"
+    ]
+   },
+   "ramGb": 5,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64Bit",
+    "processor": "Intel Core 2 Duo 3.0Ghz",
+    "memory": "5 GB RAM",
+    "graphics": "NVIDIA GTX 460 1GB | AMD Radeon HD 5770 1GB | Intel HD4000 @720p",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4570 3.20GHz"
+    ],
+    "ids": [
+     "intel-core-i5-4570"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 770 | AMD Radeon R9 290X 4GB @1080p 4GB"
+    ],
+    "ids": [
+     "amd-radeon-r9-290x-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / 8 (8.1)/ 10 64Bit",
+    "processor": "Intel Core i5-4570 3.20GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 770 4GB | AMD Radeon R9 290X 4GB @1080p",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ }
+}

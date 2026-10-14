@@ -1,0 +1,72 @@
+{
+ "appid": 657200,
+ "name": "Hand Simulator",
+ "slug": "hand-simulator",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4340",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i3-4340",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 4000",
+     "GeForce 8800",
+     "ATI 1950"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000",
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra",
+     "nvidia-geforce-8800m-gts",
+     "nvidia-geforce-8800m-gtx"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 3.61328125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7, Windows 8.1, Windows 10",
+    "processor": "Intel Core i3-4340 / AMD FX-6300",
+    "memory": "2 GB RAM",
+    "graphics": "Intel HD 4000, GeForce 8800, ATI 1950 or better",
+    "directx": "Version 9.0",
+    "network": "Broadband Internet connection",
+    "storage": "3700 MB available space",
+    "sound card": "100% DirectX 9.0c compatible audio device",
+    "vr support": "SteamVR or Oculus PC. Keyboard and mouse required",
+    "additional notes": "Keyboadr, Mouse (No need VR helmet, it is optional)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

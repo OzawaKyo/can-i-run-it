@@ -1,0 +1,75 @@
+{
+ "appid": 47810,
+ "name": "Dragon Age: Origins - Ultimate Edition",
+ "slug": "dragon-age-origins-ultimate-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Single 1.6 Ghz Processor (or equivalent)",
+     "AMD 64 2.0 GHz Processor (or equivalent)"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [
+     "ATI Radeon X850 256MB",
+     "NVIDIA GeForce 6600 GT 128MB (Windows Vista: Radeon X1550 256 MB or NVidia GeForce 7600GT 256MB)"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 2007,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (SP3) or Windows Vista (SP1) or Windows 7",
+    "processor": "Intel Core 2 Single 1.6 Ghz Processor (or equivalent) or AMD 64 2.0 GHz Processor (or equivalent)",
+    "memory": "1GB (1.5 GB Vista and Windows 7)",
+    "graphics": "ATI Radeon X850 256MB or NVIDIA GeForce 6600 GT 128MB or greater (Windows Vista: Radeon X1550 256 MB or NVidia GeForce 7600GT 256MB)",
+    "directx": "DirectX (November 2007)",
+    "storage": "20 GB HD space",
+    "sound": "Direct X Compatible Sound Card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.4 Ghz",
+     "AMD Phenom II X2 Dual-Core 2.7 Ghz Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "ATI 3850 512 MB",
+     "NVidia 8800GTS 512MB"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 2007,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (SP3) or Windows Vista (SP1) or Windows 7",
+    "processor": "Intel Core 2 Duo 2.4 Ghz or AMD Phenom II X2 Dual-Core 2.7 Ghz Processor or equivalent",
+    "memory": "2 GB (3GB Vista and Windows 7)",
+    "graphics": "ATI 3850 512 MB or NVidia 8800GTS 512MB or greater",
+    "directx": "DirectX (November 2007)",
+    "storage": "20 GB HD space",
+    "sound": "Direct X Compatible Sound Card"
+   }
+  }
+ }
+}

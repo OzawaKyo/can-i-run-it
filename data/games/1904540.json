@@ -1,0 +1,56 @@
+{
+ "appid": 1904540,
+ "name": "Football Manager 2023",
+ "slug": "football-manager-2023",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2",
+     "AMD Athlon 64 X2"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Intel GMA X4500",
+     "NVIDIA GeForce 9600M GT",
+     "AMD/ATI Mobility Radeon HD 3650"
+    ],
+    "ids": [
+     "nvidia-geforce-9600m-gt-512mb",
+     "nvidia-geforce-9600m-gt-1gb",
+     "amd-mobility-radeon-hd-3650-512mb",
+     "amd-mobility-radeon-hd-3650-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core 2 or AMD Athlon 64 X2",
+    "memory": "4 GB RAM",
+    "graphics": "Intel GMA X4500, NVIDIA GeForce 9600M GT, AMD/ATI Mobility Radeon HD 3650",
+    "directx": "Version 11",
+    "storage": "7 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

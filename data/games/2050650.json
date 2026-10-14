@@ -1,0 +1,78 @@
+{
+ "appid": 2050650,
+ "name": "Resident Evil 4",
+ "slug": "resident-evil-4",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 1200",
+     "Intel Core i5-7500"
+    ],
+    "ids": [
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af",
+     "intel-core-i5-7500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 560 with VRAM 4GB",
+     "NVIDIA GeForce GTX 1050 Ti with VRAM 4GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2",
+     "nvidia-geforce-gtx-1050-ti"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "raw": {
+    "os": "Windows 10 (64 bit)",
+    "processor": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "additional notes": "Estimated performance (when set to Prioritize Performance): 1080p/45fps. ・Framerate might drop in graphics-intensive scenes. ・AMD Radeon RX 6700 XT or NVIDIA GeForce RTX 2060 required to support ray tracing."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 3600",
+     "Intel Core i7 8700"
+    ],
+    "ids": [
+     "amd-ryzen-5-3600",
+     "intel-core-i7-8700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 5700",
+     "NVIDIA GeForce GTX 1070"
+    ],
+    "ids": [
+     "amd-radeon-rx-5700",
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "raw": {
+    "os": "Windows 10 (64 bit)/Windows 11 (64 bit)",
+    "processor": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+    "memory": "16 GB RAM",
+    "graphics": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "additional notes": "Estimated performance: 1080p/60fps ・Framerate might drop in graphics-intensive scenes. ・AMD Radeon RX 6700 XT or NVIDIA GeForce RTX 2070 required to support ray tracing."
+   }
+  }
+ }
+}

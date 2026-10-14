@@ -1,0 +1,85 @@
+{
+ "appid": 394360,
+ "name": "Hearts of Iron IV",
+ "slug": "hearts-of-iron-iv",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 750 | AMD FX 4300"
+    ],
+    "ids": [
+     "amd-fx-4300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 470 () | AMD HD 5850 (1GB) | Intel Iris Xe G7 (Tiger Lake) | AMD Radeon RX Vega 11 1.28GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb",
+     "intel-iris-xe-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1.28,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 Bit",
+    "processor": "Intel Core i5 750 | AMD FX 4300",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 470 (1.28GB) | AMD HD 5850 (1GB) | Intel Iris Xe G7 (Tiger Lake) | AMD Radeon RX Vega 11",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "sound card": "Direct X- compatible soundcard.",
+    "additional notes": "Mouse and keyboard are required. / Latest available WHQL drivers from both manufacturers/ Internet Connection or LAN for multiplayer, Up to 32 other players in multiplayer mode."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2500K | AMD Ryzen 3 2200G"
+    ],
+    "ids": [
+     "amd-ryzen-3-2200g"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 570 () | AMD Radeon HD 7970 (3GB) | Intel Iris Xe G7 (Tiger Lake) 1.28GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-570",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb",
+     "intel-iris-xe-graphics"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 1.28,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 bit",
+    "processor": "Intel Core i5 2500K | AMD Ryzen 3 2200G",
+    "memory": "6 GB RAM",
+    "graphics": "Nvidia GeForce GTX 570 (1.28GB) | AMD Radeon HD 7970 (3GB) | Intel Iris Xe G7 (Tiger Lake)",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "sound card": "Direct X- compatible soundcard.",
+    "additional notes": "Mouse and keyboard are required. / Latest available WHQL drivers from both manufacturers. / Internet Connection or LAN for multiplayer, Up to 32 other players in multiplayer mode."
+   }
+  }
+ }
+}

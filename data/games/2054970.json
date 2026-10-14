@@ -1,0 +1,76 @@
+{
+ "appid": 2054970,
+ "name": "Dragon's Dogma 2",
+ "slug": "dragon-s-dogma-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 8500",
+     "AMD Ryzen 5 3500"
+    ],
+    "ids": [
+     "intel-core-i5-8500",
+     "amd-ryzen-5-3500"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660",
+     "AMD Radeon RX 5500 XT with VRAM 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-5500-xt-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "raw": {
+    "os": "Windows 11 (64 bit)",
+    "processor": "Intel Core i5 8500 / AMD Ryzen 5 3500",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660 / AMD Radeon RX 5500 XT with 8GB VRAM",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "additional notes": "Supports 1080p gameplay (using upscaler)/45-60fps when selecting Prioritize Performance in Graphics Quality. Note: Frame rate may drop when the processing load is high. NVIDIA GeForce RTX 2080 Ti or AMD Radeon RX 6800 are required to support Ray Tracing. SSD recommended."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-10700",
+     "AMD Ryzen 5 3600X"
+    ],
+    "ids": [
+     "intel-core-i7-10700",
+     "amd-ryzen-5-3600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2070 Super",
+     "AMD Radeon RX 6600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070-super",
+     "amd-radeon-rx-6600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "raw": {
+    "os": "Windows 11 (64 bit)",
+    "processor": "Intel Core i7-10700 / AMD Ryzen 5 3600X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2070 Super / AMD Radeon RX 6600 XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "additional notes": "Supports 1080p gameplay (using upscaler)/60fps when selecting Prioritize Performance in Graphics Quality. Note: Frame rate may drop when the processing load is high. NVIDIA GeForce RTX 2080 Ti or AMD Radeon RX 6800 are required to support Ray Tracing. SSD recommended."
+   }
+  }
+ }
+}

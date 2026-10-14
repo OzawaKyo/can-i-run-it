@@ -1,0 +1,69 @@
+{
+ "appid": 351940,
+ "name": "The Descendant",
+ "slug": "the-descendant",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3 2.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "AMD",
+     "nVidia card with RAM 1GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista+",
+    "processor": "Intel i3 2.0GHz or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "AMD or nVidia card with 1GB RAM",
+    "directx": "Version 9.0c",
+    "storage": "12 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 2.5GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 26
+   },
+   "gpu": {
+    "raw": [
+     "nVidia 500 series"
+    ],
+    "ids": []
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel i5 2.5GHz or equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "nVidia 500 series or higher",
+    "directx": "Version 11",
+    "storage": "12 GB available space"
+   }
+  }
+ }
+}

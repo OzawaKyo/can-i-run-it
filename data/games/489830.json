@@ -1,0 +1,75 @@
+{
+ "appid": 489830,
+ "name": "The Elder Scrolls V: Skyrim Special Edition",
+ "slug": "the-elder-scrolls-v-skyrim-special-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-750/AMD Phenom II X4-945"
+    ],
+    "ids": [
+     "intel-core-i5-750",
+     "amd-phenom-ii-x4-945"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 470 /AMD HD 7870 2GB 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 (64-bit Version)",
+    "processor": "Intel i5-750/AMD Phenom II X4-945",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 470 1GB /AMD HD 7870 2GB",
+    "storage": "12 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5-2400/AMD FX-8320"
+    ],
+    "ids": [
+     "intel-core-i5-2400",
+     "amd-fx-8320"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 780 /AMD R9 290 4GB 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-780",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 (64-bit Version)",
+    "processor": "Intel i5-2400/AMD FX-8320",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 780 3GB /AMD R9 290 4GB",
+    "storage": "12 GB available space"
+   }
+  }
+ }
+}

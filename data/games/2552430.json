@@ -1,0 +1,87 @@
+{
+ "appid": 2552430,
+ "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+ "slug": "kingdom-hearts-hd-1-5-2-5-remix",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3210",
+     "AMD A8-7600"
+    ],
+    "ids": [
+     "intel-core-i3-3210",
+     "amd-a8-7600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750",
+     "AMD Radeon RX 460"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (ver.1909 or later)",
+    "processor": "Intel Core i3-3210 / AMD A8-7600",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750 / AMD Radeon RX 460",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "30FPS @1280×720"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3210",
+     "AMD A8-7600"
+    ],
+    "ids": [
+     "intel-core-i3-3210",
+     "amd-a8-7600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750",
+     "AMD Radeon RX 460"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (ver.1909 or later)",
+    "processor": "Intel Core i3-3210 / AMD A8-7600",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750 / AMD Radeon RX 460",
+    "directx": "Version 11",
+    "storage": "60 GB available space",
+    "additional notes": "60FPS @1920×1080"
+   }
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "appid": 1056640,
+ "name": "Phantasy Star Online 2 New Genesis",
+ "slug": "phantasy-star-online-2-new-genesis",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4150"
+    ],
+    "ids": [
+     "intel-core-i3-4150"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT430"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-430-gf108-300",
+     "nvidia-geforce-gt-430-gf108-300-2",
+     "nvidia-geforce-gt-430-512mb",
+     "nvidia-geforce-gt-430-1gb-gf108-300",
+     "nvidia-geforce-gt-430-1gb-gf108-300-2",
+     "nvidia-geforce-gt-430-2gb",
+     "nvidia-geforce-gt-430-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 103,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i3-4150",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT430",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "103 GB available space",
+    "sound card": "DirectX Compatible Soundcard (DirectX 9.0c and above)",
+    "additional notes": "Monitor Resolution: 1280ｘ720 pixels or higher Only XInput controllers are supported. Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i9-10900"
+    ],
+    "ids": [
+     "intel-core-i9-10900"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2070 SUPER"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070-super"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 103,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i9-10900",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2070 SUPER",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "103 GB available space",
+    "sound card": "DirectX Compatible Soundcard (DirectX 9.0c and above)",
+    "additional notes": "Monitor Resolution: 1920ｘ1080 pixels Only XInput controllers are supported. Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ }
+}

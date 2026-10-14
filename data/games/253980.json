@@ -1,0 +1,72 @@
+{
+ "appid": 253980,
+ "name": "Enclave",
+ "slug": "enclave",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD Single Core CPU"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "with TnL support and 128 MB RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP / Vista / 7 / 8 / 10",
+    "processor": "Intel or AMD Single Core CPU",
+    "memory": "1 GB RAM",
+    "graphics": "with TnL support and 128 MB RAM",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space",
+    "sound card": "required",
+    "additional notes": "Keyboard, Mouse"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD Multi-Core CPU with 2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "with Shader 2.0 support and 256 MB RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP / Vista / 7 / 8 / 10",
+    "processor": "Intel or AMD Multi-Core CPU with 2.0 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "with Shader 2.0 support and 256 MB RAM",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space",
+    "sound card": "required",
+    "additional notes": "Keyboard, Mouse"
+   }
+  }
+ }
+}

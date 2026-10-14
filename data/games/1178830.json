@@ -1,0 +1,79 @@
+{
+ "appid": 1178830,
+ "name": "Bright Memory: Infinite",
+ "slug": "bright-memory-infinite",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "INTEL E3-1230v2",
+     "AMD FX-8350"
+    ],
+    "ids": [
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX960(4G)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit（1903）",
+    "processor": "INTEL E3-1230v2 / AMD FX-8350",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX960(4G)",
+    "directx": "Version 11",
+    "storage": "13 GB available space",
+    "additional notes": ""
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "INTEL i7-4790K",
+     "AMD FX-9590"
+    ],
+    "ids": [
+     "intel-core-i7-4790k",
+     "amd-fx-9590"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX1060(6G)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 Bit（2004）",
+    "processor": "INTEL i7-4790K / AMD FX-9590",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX1060(6G)",
+    "directx": "Version 12",
+    "storage": "13 GB available space",
+    "additional notes": "(Hight Ray Tracing)：NVIDIA RTX 3080 / (Normal Ray Tracing)：NVIDIA RTX 3060"
+   }
+  }
+ }
+}

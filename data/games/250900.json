@@ -1,0 +1,71 @@
+{
+ "appid": 250900,
+ "name": "The Binding of Isaac: Rebirth",
+ "slug": "the-binding-of-isaac-rebirth",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Discreet video card"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 0.4384765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "XP",
+    "processor": "Core 2 Duo",
+    "memory": "2 GB RAM",
+    "graphics": "Discreet video card",
+    "storage": "449 MB available space",
+    "sound card": "Yes"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Quad Core 2.0 (or higher)"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 4000 and higher",
+     "ATI Radeon HD-Series 4650 and higher",
+     "Nvidia GeForce 2xx-Series and up"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000",
+     "amd-radeon-hd-4650-256mb",
+     "amd-radeon-hd-4650-512mb",
+     "amd-radeon-hd-4650-1gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 0.4384765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8 / 7 / Vista / XP",
+    "processor": "2.4 GHz Quad Core 2.0 (or higher)",
+    "memory": "8 GB RAM",
+    "graphics": "Intel HD Graphics 4000 and higher, ATI Radeon HD-Series 4650 and higher, Nvidia GeForce 2xx-Series and up",
+    "storage": "449 MB available space",
+    "sound card": "Yes"
+   }
+  }
+ }
+}

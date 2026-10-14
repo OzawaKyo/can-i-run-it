@@ -1,0 +1,44 @@
+{
+ "appid": 15100,
+ "name": "Assassin's Creed™: Director's Cut Edition",
+ "slug": "assassin-s-creed-director-s-cut-edition",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual core processor 2.6 GHz Intel Pentium D",
+     "AMD Athlon 64 X2 3800+ (Intel Core 2 Duo 2.2 GHz or AMD Athlon 64 X2 4400+ recommended)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "256 MB DirectX 10.0-compliant video card",
+     "DirectX 9.0-compliant card with Shader Model 3.0 (*see supported list)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Windows XP/Windows Vista (only)",
+    "processor": "Dual core processor 2.6 GHz Intel Pentium D or AMD Athlon 64 X2 3800+ (Intel Core 2 Duo 2.2 GHz or AMD Athlon 64 X2 4400+ or better recommended)",
+    "memory": "Windows XP: 1 GB RAM / Windows Vista: 2 GB RAM",
+    "graphics": "256 MB DirectX 10.0-compliant video card or DirectX 9.0-compliant card with Shader Model 3.0 or higher (*see supported list)",
+    "sound card": "DirectX 9.0 or 10.0-compliant sound card (5.1 sound card recommended)",
+    "directx version": "Direct X 9.0 (Windows XP) or 10.0 (Windows Vista) libraries",
+    "storage": "8 GB available hard disk space",
+    "supported peripherals": "Keyboard, mouse, optional controller (Xbox 360 Controller for Windows recommended)",
+    "*supported video cards at time of release": "ATI RADEON X1600** /1650**- 1950/ HD 2000/3000 series, NVIDIA GeForce 6800**/7/8/9 series. **PCI Express only supported. Laptop versions of these cards may work but are NOT supported. These chipsets are the only ones that will run this game. For the most up-to-date requirements, please visit the FAQ for this game at: ."
+   }
+  }
+ }
+}

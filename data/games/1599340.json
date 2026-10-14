@@ -1,0 +1,84 @@
+{
+ "appid": 1599340,
+ "name": "Lost Ark",
+ "slug": "lost-ark",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 – 10100 AMD Ryzen3 3100"
+    ],
+    "ids": [
+     "amd-ryzen-3-3100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce GTX 1050 Ti",
+     "AMD Radeon RX 560"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti",
+     "amd-radeon-rx-560-2gb-polaris-21",
+     "amd-radeon-rx-560-2gb-polaris-21-2",
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 110,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit only)",
+    "processor": "Intel Core i3 – 10100 AMD Ryzen3 3100",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia Geforce GTX 1050 Ti / AMD Radeon RX 560",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "110 GB available space",
+    "additional notes": "Internet connection required to play, offers in-game purchases. System requirements for this game may change over time."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 – 9400 AMD Ryzen5 2600"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce GTX 1660 Super",
+     "AMD Radeon RX 6600"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660-super",
+     "amd-radeon-rx-6600"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 110,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 (64-bit only)",
+    "processor": "Intel Core i5 – 9400 AMD Ryzen5 2600",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia Geforce GTX 1660 Super / AMD Radeon RX 6600",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "110 GB available space",
+    "additional notes": "Internet connection required to play, offers in-game purchases. System requirements for this game may change over time. The specifications listed are recommended for Full High Definition (FHD)."
+   }
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "appid": 492720,
+ "name": "Tropico 6",
+ "slug": "tropico-6",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD",
+     "Intel",
+     "3 GHz (AMD A10 7850K, Intel i3-2000)"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "AMD/NVIDIA dedicated GPU",
+     "dedicated VRAM (Radeon HD 7870, Geforce GTX 750) 2GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit",
+    "processor": "AMD or Intel, 3 GHz (AMD A10 7850K, Intel i3-2000)",
+    "memory": "8 GB RAM",
+    "graphics": "AMD/NVIDIA dedicated GPU, 2GB dedicated VRAM (Radeon HD 7870, Geforce GTX 750)",
+    "directx": "Version 11",
+    "storage": "16 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD",
+     "Intel",
+     "3.3 GHz (AMD FX 8300, Intel i5 3000)"
+    ],
+    "ids": [],
+    "estimatedScore": 34
+   },
+   "gpu": {
+    "raw": [
+     "AMD/NVIDIA dedicated GPU",
+     "dedicated VRAM (Radeon R9 380, Geforce GTX 960) 4GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "AMD or Intel, 3.3 GHz (AMD FX 8300, Intel i5 3000)",
+    "memory": "16 GB RAM",
+    "graphics": "AMD/NVIDIA dedicated GPU, 4GB dedicated VRAM (Radeon R9 380, Geforce GTX 960)"
+   }
+  }
+ }
+}

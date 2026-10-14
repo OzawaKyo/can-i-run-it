@@ -1,0 +1,75 @@
+{
+ "appid": 205100,
+ "name": "Dishonored",
+ "slug": "dishonored",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.0 GHz dual core"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9 compatible with 512 MB video RAM (NVIDIA GeForce GTX 460 / ATI Radeon HD 5850)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ]
+   },
+   "ramGb": 3,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista / Windows 7",
+    "processor": "3.0 GHz dual core or better",
+    "memory": "3 GB system RAM",
+    "storage": "9 GB",
+    "graphics": "DirectX 9 compatible with 512 MB video RAM or better (NVIDIA GeForce GTX 460 / ATI Radeon HD 5850)",
+    "sound": "Windows compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz quad core (enhanced for multi-core processors)"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9 compatible with 768 MB video RAM (NVIDIA GeForce GTX 460 / ATI Radeon HD 5850)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 9,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista / Windows 7 (enhanced for 64-bit OS)",
+    "processor": "2.4 GHz quad core or better (enhanced for multi-core processors)",
+    "memory": "4 GB system RAM",
+    "storage": "9 GB",
+    "graphics": "DirectX 9 compatible with 768 MB video RAM or better (NVIDIA GeForce GTX 460 / ATI Radeon HD 5850)",
+    "sound": "Windows compatible sound card"
+   }
+  }
+ }
+}

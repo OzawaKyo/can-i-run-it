@@ -1,0 +1,66 @@
+{
+ "appid": 215080,
+ "name": "WAKFU",
+ "slug": "wakfu",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium IV 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 4Ti"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or higher",
+    "processor": "Pentium IV 2.8 GHz or equivalent",
+    "memory": "2 GB RAM",
+    "graphics": "GeForce 4Ti or equivalent",
+    "network": "Broadband Internet connection",
+    "storage": "3 GB available space",
+    "additional notes": "OpenGL 2.1 and Java 11"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 6 series"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or higher",
+    "processor": "Intel Core i3 or higher",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce 6 series or higher",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space",
+    "additional notes": "OpenGL 2.1 and Java 11"
+   }
+  }
+ }
+}
