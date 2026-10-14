@@ -31,13 +31,13 @@ Décisions prises lors de la session de cadrage du 2026-10-13.
 
 ## Données jeux
 
-| Rôle | Source | Notes |
-|---|---|---|
-| Principale | Steam Store `appdetails` (`l=english`) | HTML libre à parser ; statut de l'endpoint non officiel |
-| Fallback + contrôle croisé | PCGamingWiki | Modèle `{{System requirements}}` structuré. Bot password, ≤ 1 req/s, User-Agent avec contact. CC BY-NC-SA 3.0 |
-| Dernier recours | GOG `api.gog.com/v2/games/{id}` | Non documenté |
-| Corrections | `overrides` manuels versionnés | Alimentés par les signalements |
-| Exclues | RAWG (CGU anti-redistribution), Epic (pas d'API) | IGDB n'a pas de configs requises |
+| Rôle                       | Source                                           | Notes                                                                                                         |
+| -------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| Principale                 | Steam Store `appdetails` (`l=english`)           | HTML libre à parser ; statut de l'endpoint non officiel                                                       |
+| Fallback + contrôle croisé | PCGamingWiki                                     | Modèle `{{System requirements}}` structuré. Bot password, ≤ 1 req/s, User-Agent avec contact. CC BY-NC-SA 3.0 |
+| Dernier recours            | GOG `api.gog.com/v2/games/{id}`                  | Non documenté                                                                                                 |
+| Corrections                | `overrides` manuels versionnés                   | Alimentés par les signalements                                                                                |
+| Exclues                    | RAWG (CGU anti-redistribution), Epic (pas d'API) | IGDB n'a pas de configs requises                                                                              |
 
 - **Catalogue** : ~1000 jeux de départ, top SteamSpy (jeux seulement, sans DLC ni logiciels), plus `extra-games.json` pour les ajouts manuels.
 - **Scalabilité** : un JSON par jeu chargé à la demande, plus un index de recherche léger.
@@ -98,8 +98,8 @@ Uniquement des sources **légalement réutilisables**. Sont exclus : PassMark, T
   - `libs/domain` : types, normalisation, verdict ; partagée par les deux apps
 - **UI** : Angular Material **uniquement** pour le thème et les tokens de couleur, design SCSS maison (pas le design system Material).
 - **i18n** : FR + EN via Transloco (runtime).
-- **Hébergement** : Firebase Hosting, plan Spark gratuit, rewrite SPA.
-- **CI** : repo GitHub public + Actions. Job hebdomadaire : pipeline → commit du JSON si diff → build → `firebase deploy`.
+- **Hébergement** : Cloudflare Workers, _static assets_ uniquement (aucun script → jamais facturé, bande passante illimitée), `not_found_handling: single-page-application`, en-têtes de cache dans `_headers`. Firebase Spark écarté le 2026-10-14 : 360 Mo/jour, et le site est coupé jusqu'à la fin du mois en cas de dépassement.
+- **CI** : repo GitHub public + Actions. Job hebdomadaire : pipeline → commit du JSON si diff → build → déploiement Cloudflare (`wrangler-action`).
 - **Signalement** : bouton « Signaler une erreur » → issue GitHub pré-remplie → correction dans les overrides.
 - **Tests** : TDD Vitest sur le parsing, la correspondance des noms et le verdict, avec des fixtures réelles. Tests UI légers.
 

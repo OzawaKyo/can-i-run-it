@@ -22,9 +22,7 @@
             "output": "data"
           }
         ],
-        "styles": [
-          "apps/web/src/styles.scss"
-        ],
+        "styles": ["apps/web/src/styles.scss"],
         "outputPath": "dist/apps/web",
         "inlineStyleLanguage": "scss"
       },
@@ -51,9 +49,7 @@
         }
       },
       "defaultConfiguration": "production",
-      "outputs": [
-        "{options.outputPath}"
-      ]
+      "outputs": ["{options.outputPath}"]
     },
     "serve": {
       "executor": "@angular/build:dev-server",

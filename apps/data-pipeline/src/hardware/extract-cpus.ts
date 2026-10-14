@@ -28,9 +28,17 @@ export function extractCpus(
   vendor: CpuVendor,
 ): { cpus: CpuSpec[]; rejected: RejectedRow[] } {
   const columns = findColumns(table.columns);
-  if (columns.model === -1 || columns.cores === -1) return { cpus: [], rejected: [] };
-
   const section = table.section.join(' > ');
+  const coresFromHeading =
+    CORE_COUNT_WORDS[
+      section.match(/\b(single|dual|tri|quad|hexa|six|octa|eight)-core\b/i)?.[1].toLowerCase() ?? ''
+    ];
+  // Older tables (Phenom) have no core column: the heading or the name ("X4") says it.
+  const hasCoreCount = columns.cores !== -1 || coresFromHeading !== undefined || columns.clockOnly;
+  if (columns.model === -1 || !hasCoreCount || (columns.base === -1 && columns.turbo === -1)) {
+    return { cpus: [], rejected: [] };
+  }
+
   const microarchitecture = readMicroarchitecture(section);
   const cpus: CpuSpec[] = [];
   const rejected: RejectedRow[] = [];
@@ -39,7 +47,11 @@ export function extractCpus(
     const name = modelName(cell(row, columns.branding), row[columns.model] ?? '');
     if (!name || /^(?:model|sku|branding)/i.test(name)) continue;
 
-    const [cores, threads = cores] = readNumbers(cell(row, columns.cores));
+    const fromColumn = readNumbers(cell(row, columns.cores));
+    const fromName = Number(name.match(/\bX(\d)\b/)?.[1]) || undefined;
+    const [cores, threads = cores] = fromColumn.length
+      ? fromColumn
+      : [fromName ?? coresFromHeading];
     const base = toGhz(readNumbers(cell(row, columns.base))[0]);
     const turbo = toGhz(Math.max(...readNumbers(cell(row, columns.turbo)))) ?? base;
     if (!cores) {
@@ -72,6 +84,17 @@ export function extractCpus(
   return { cpus, rejected };
 }
 
+const CORE_COUNT_WORDS: Record<string, number> = {
+  single: 1,
+  dual: 2,
+  tri: 3,
+  quad: 4,
+  hexa: 6,
+  six: 6,
+  octa: 8,
+  eight: 8,
+};
+
 /** Intel and AMD mobile suffixes ("4800H", "8250U", "4710HQ"); a bare "G" is a desktop APU. */
 const MOBILE_SUFFIX = /\d(?:H|HS|HX|HK|HQ|U|Y|M|MQ|QM|XM|P)$/;
 
@@ -90,6 +113,8 @@ interface Columns {
   efficiencyCores: number;
   base: number;
   turbo: number;
+  /** Tables listing only a model and its clock, where the core count comes from the model name. */
+  clockOnly: boolean;
 }
 
 function findColumns(labels: string[]): Columns {
@@ -100,7 +125,7 @@ function findColumns(labels: string[]): Columns {
   let branding = find((label) =>
     /^(?:processor )?(?:branding|family)$|^processor branding/.test(label),
   );
-  let model = find((label) => /^model$|^sku$/.test(label));
+  let model = find((label) => /^model(?: number| no\.?)?$|^sku$/.test(label));
   const split = find((label) => label === 'branding and model');
   if (split !== -1 && lower[split + 1] === 'branding and model') {
     branding = split;
@@ -108,7 +133,9 @@ function findColumns(labels: string[]): Columns {
   }
 
   const clock = (label: string) =>
-    /clock|frequency/.test(label) && !/gpu|graphics|memory|fsb/.test(label) && !isEfficiency(label);
+    /clock|frequency|speed/.test(label) &&
+    !/gpu|graphics|memory|fsb|hyper ?transport|bus/.test(label) &&
+    !isEfficiency(label);
   const base = find((label) => clock(label) && /base/.test(label));
   return {
     branding,
@@ -117,6 +144,7 @@ function findColumns(labels: string[]): Columns {
     efficiencyCores: find((label) => /cores/.test(label) && /e-core|efficiency|\/ e$/.test(label)),
     base: base !== -1 ? base : find((label) => clock(label) && !/turbo|boost/.test(label)),
     turbo: find((label) => clock(label) && /turbo|boost|pb2|pbo|max/.test(label)),
+    clockOnly: lower.some((label) => /^model(?: number| no\.?)?$/.test(label)),
   };
 }
 

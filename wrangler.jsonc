@@ -1,0 +1,9 @@
+// Cloudflare Workers, static assets only: no Worker script runs, so requests are never billed.
+{
+  "name": "can-i-run-it",
+  "compatibility_date": "2026-10-14",
+  "assets": {
+    "directory": "./dist/apps/web/browser",
+    "not_found_handling": "single-page-application",
+  },
+}

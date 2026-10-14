@@ -93,8 +93,12 @@ function splitAlternatives(input: string | undefined): string[] {
     start = i + 1;
   }
   parts.push(text.slice(start));
-  return parts.map((part) => part.trim()).filter(Boolean);
+  return parts.map((part) => part.trim()).filter((part) => part && !BARE_EQUIVALENT.test(part));
 }
+
+/** "AMD equivalent", "or equivalent": a hint, not an alternative that can be resolved. */
+const BARE_EQUIVALENT =
+  /^(?:or\s+)?(?:an?\s+)?(?:amd|intel|nvidia|ati|radeon|geforce)?\s*(?:equivalent|similar|comparable)$/i;
 
 /**
  * Graphics alternatives. A fragment that only states memory ("4 GB dedicated VRAM", split

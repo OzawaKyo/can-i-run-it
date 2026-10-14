@@ -1,0 +1,11 @@
+# Cloudflare static assets headers. Bundles are content-hashed: cache them for good.
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+# Data and translations change with each weekly refresh.
+/data/*
+  Cache-Control: public, max-age=3600
+/i18n/*
+  Cache-Control: public, max-age=3600

@@ -11502,6 +11502,405 @@
   "laptop": true
  },
  {
+  "id": "amd-a4-4355m",
+  "kind": "cpu",
+  "name": "A4-4355M",
+  "score": 20,
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-4455m",
+  "kind": "cpu",
+  "name": "A6-4455M",
+  "score": 22,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-4555m",
+  "kind": "cpu",
+  "name": "A8-4555M",
+  "score": 19,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-4557m",
+  "kind": "cpu",
+  "name": "A8-4557M",
+  "score": 23,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-4655m",
+  "kind": "cpu",
+  "name": "A10-4655M",
+  "score": 24,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-4657m",
+  "kind": "cpu",
+  "name": "A10-4657M",
+  "score": 27,
+  "laptop": true
+ },
+ {
+  "id": "amd-a4-4300m",
+  "kind": "cpu",
+  "name": "A4-4300M",
+  "score": 26,
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-4400m",
+  "kind": "cpu",
+  "name": "A6-4400M",
+  "score": 28,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-4500m",
+  "kind": "cpu",
+  "name": "A8-4500M",
+  "score": 23,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-4600m",
+  "kind": "cpu",
+  "name": "A10-4600M",
+  "score": 27,
+  "laptop": true
+ },
+ {
+  "id": "amd-a4-5145m",
+  "kind": "cpu",
+  "name": "A4-5145M",
+  "score": 21,
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-5345m",
+  "kind": "cpu",
+  "name": "A6-5345M",
+  "score": 23,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-5545m",
+  "kind": "cpu",
+  "name": "A8-5545M",
+  "score": 20,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-5745m",
+  "kind": "cpu",
+  "name": "A10-5745M",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-a4-5150m",
+  "kind": "cpu",
+  "name": "A4-5150M",
+  "score": 28,
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-5350m",
+  "kind": "cpu",
+  "name": "A6-5350M",
+  "score": 30,
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-5357m",
+  "kind": "cpu",
+  "name": "A6-5357M",
+  "score": 30,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-5550m",
+  "kind": "cpu",
+  "name": "A8-5550M",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-5557m",
+  "kind": "cpu",
+  "name": "A8-5557M",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-5750m",
+  "kind": "cpu",
+  "name": "A10-5750M",
+  "score": 30,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-5757m",
+  "kind": "cpu",
+  "name": "A10-5757M",
+  "score": 30,
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-7000",
+  "kind": "cpu",
+  "name": "A6-7000",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-pro-7050b",
+  "kind": "cpu",
+  "name": "A6 PRO - 7050B",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-7100",
+  "kind": "cpu",
+  "name": "A8-7100",
+  "score": 24,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-pro-7150b",
+  "kind": "cpu",
+  "name": "A8 PRO - 7150B",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-7300",
+  "kind": "cpu",
+  "name": "A10-7300",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-pro-7350b",
+  "kind": "cpu",
+  "name": "A10 PRO - 7350B",
+  "score": 28,
+  "laptop": true
+ },
+ {
+  "id": "amd-fx-7500",
+  "kind": "cpu",
+  "name": "FX-7500",
+  "score": 28,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-7200p",
+  "kind": "cpu",
+  "name": "A8-7200P",
+  "score": 32,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-7400p",
+  "kind": "cpu",
+  "name": "A10-7400P",
+  "score": 33,
+  "laptop": true
+ },
+ {
+  "id": "amd-fx-7600p",
+  "kind": "cpu",
+  "name": "FX-7600P",
+  "score": 35,
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-8500p",
+  "kind": "cpu",
+  "name": "A6-8500P",
+  "score": 20,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a6-8500b",
+  "kind": "cpu",
+  "name": "PRO A6-8500B",
+  "score": 20,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a6-8530b",
+  "kind": "cpu",
+  "name": "PRO A6-8530B",
+  "score": 28,
+  "laptop": true
+ },
+ {
+  "id": "amd-a8-8600p",
+  "kind": "cpu",
+  "name": "A8-8600P",
+  "score": 22,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a8-8600b",
+  "kind": "cpu",
+  "name": "PRO A8-8600B",
+  "score": 22,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-8700p",
+  "kind": "cpu",
+  "name": "A10-8700P",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a10-8700b",
+  "kind": "cpu",
+  "name": "PRO A10-8700B",
+  "score": 25,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a10-8730b",
+  "kind": "cpu",
+  "name": "PRO A10-8730B",
+  "score": 33,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-8780p",
+  "kind": "cpu",
+  "name": "A10-8780P",
+  "score": 28,
+  "laptop": true
+ },
+ {
+  "id": "amd-fx-8800p",
+  "kind": "cpu",
+  "name": "FX-8800P",
+  "score": 29,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a12-8800b",
+  "kind": "cpu",
+  "name": "PRO A12-8800B",
+  "score": 29,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a12-8830b",
+  "kind": "cpu",
+  "name": "PRO A12-8830B",
+  "score": 35,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a6-9500b",
+  "kind": "cpu",
+  "name": "Pro A6-9500B",
+  "score": 28,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a8-9600b",
+  "kind": "cpu",
+  "name": "Pro A8-9600B",
+  "score": 33,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-9600p",
+  "kind": "cpu",
+  "name": "A10-9600P",
+  "score": 33,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-9620p",
+  "kind": "cpu",
+  "name": "A10-9620P",
+  "score": 35,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a10-9700b",
+  "kind": "cpu",
+  "name": "Pro A10-9700B",
+  "score": 35,
+  "laptop": true
+ },
+ {
+  "id": "amd-a12-9700p",
+  "kind": "cpu",
+  "name": "A12-9700P",
+  "score": 35,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a8-9630b",
+  "kind": "cpu",
+  "name": "Pro A8-9630B",
+  "score": 36,
+  "laptop": true
+ },
+ {
+  "id": "amd-a10-9630p",
+  "kind": "cpu",
+  "name": "A10-9630P",
+  "score": 36,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a10-9730b",
+  "kind": "cpu",
+  "name": "Pro A10-9730B",
+  "score": 39,
+  "laptop": true
+ },
+ {
+  "id": "amd-a12-9730p",
+  "kind": "cpu",
+  "name": "A12-9730P",
+  "score": 39,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a12-9800b",
+  "kind": "cpu",
+  "name": "Pro A12-9800B",
+  "score": 38,
+  "laptop": true
+ },
+ {
+  "id": "amd-fx-9800p-a12-9720p",
+  "kind": "cpu",
+  "name": "FX-9800P A12-9720P",
+  "score": 38,
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a12-9830b",
+  "kind": "cpu",
+  "name": "Pro A12-9830B",
+  "score": 42,
+  "laptop": true
+ },
+ {
+  "id": "amd-fx-9830p",
+  "kind": "cpu",
+  "name": "FX-9830P",
+  "score": 42,
+  "laptop": true
+ },
+ {
   "id": "amd-athlon-pro-200u",
   "kind": "cpu",
   "name": "Athlon Pro 200U",
@@ -11848,6 +12247,132 @@
   "kind": "cpu",
   "name": "A4 PRO-3350B",
   "score": 32,
+  "laptop": true
+ },
+ {
+  "id": "amd-e2-9000e",
+  "kind": "cpu",
+  "name": "E2-9000e",
+  "laptop": true
+ },
+ {
+  "id": "amd-e2-9000",
+  "kind": "cpu",
+  "name": "E2-9000",
+  "laptop": true
+ },
+ {
+  "id": "amd-e2-9010",
+  "kind": "cpu",
+  "name": "E2-9010",
+  "laptop": true
+ },
+ {
+  "id": "amd-a4-9120",
+  "kind": "cpu",
+  "name": "A4-9120",
+  "laptop": true
+ },
+ {
+  "id": "amd-a4-9125",
+  "kind": "cpu",
+  "name": "A4-9125",
+  "laptop": true
+ },
+ {
+  "id": "amd-a4-9120c",
+  "kind": "cpu",
+  "name": "A4-9120C",
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-9200e",
+  "kind": "cpu",
+  "name": "A6-9200e",
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-9200",
+  "kind": "cpu",
+  "name": "A6-9200",
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-9210",
+  "kind": "cpu",
+  "name": "A6-9210",
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-9220",
+  "kind": "cpu",
+  "name": "A6-9220",
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-9225",
+  "kind": "cpu",
+  "name": "A6-9225",
+  "laptop": true
+ },
+ {
+  "id": "amd-a6-9220c",
+  "kind": "cpu",
+  "name": "A6-9220C",
+  "laptop": true
+ },
+ {
+  "id": "amd-a9-9400",
+  "kind": "cpu",
+  "name": "A9-9400",
+  "laptop": true
+ },
+ {
+  "id": "amd-a9-9410",
+  "kind": "cpu",
+  "name": "A9-9410",
+  "laptop": true
+ },
+ {
+  "id": "amd-a9-9420",
+  "kind": "cpu",
+  "name": "A9-9420",
+  "laptop": true
+ },
+ {
+  "id": "amd-a9-9425",
+  "kind": "cpu",
+  "name": "A9-9425",
+  "laptop": true
+ },
+ {
+  "id": "amd-a9-9430",
+  "kind": "cpu",
+  "name": "A9-9430",
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a4-4350b",
+  "kind": "cpu",
+  "name": "Pro A4-4350B",
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a4-5350b",
+  "kind": "cpu",
+  "name": "Pro A4-5350B",
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a6-7350b",
+  "kind": "cpu",
+  "name": "Pro A6-7350B",
+  "laptop": true
+ },
+ {
+  "id": "amd-pro-a6-8350b",
+  "kind": "cpu",
+  "name": "Pro A6-8350B",
   "laptop": true
  },
  {
@@ -12458,5 +12983,762 @@
   "kind": "cpu",
   "name": "FX-9590",
   "score": 74
+ },
+ {
+  "id": "amd-phenom-x4-9100e",
+  "kind": "cpu",
+  "name": "Phenom X4 9100e",
+  "score": 25
+ },
+ {
+  "id": "amd-phenom-x4-9150e",
+  "kind": "cpu",
+  "name": "Phenom X4 9150e",
+  "score": 25
+ },
+ {
+  "id": "amd-phenom-x4-9350e",
+  "kind": "cpu",
+  "name": "Phenom X4 9350e",
+  "score": 27
+ },
+ {
+  "id": "amd-phenom-x4-9450e",
+  "kind": "cpu",
+  "name": "Phenom X4 9450e",
+  "score": 29
+ },
+ {
+  "id": "amd-phenom-x4-9500",
+  "kind": "cpu",
+  "name": "Phenom X4 9500",
+  "score": 30
+ },
+ {
+  "id": "amd-phenom-x4-9550",
+  "kind": "cpu",
+  "name": "Phenom X4 9550",
+  "score": 30
+ },
+ {
+  "id": "amd-phenom-x4-9600",
+  "kind": "cpu",
+  "name": "Phenom X4 9600",
+  "score": 32
+ },
+ {
+  "id": "amd-phenom-x4-9600-black-edition",
+  "kind": "cpu",
+  "name": "Phenom X4 9600 Black Edition",
+  "score": 32
+ },
+ {
+  "id": "amd-phenom-x4-9650",
+  "kind": "cpu",
+  "name": "Phenom X4 9650",
+  "score": 32
+ },
+ {
+  "id": "amd-phenom-x4-9750",
+  "kind": "cpu",
+  "name": "Phenom X4 9750",
+  "score": 33
+ },
+ {
+  "id": "amd-phenom-x4-9850",
+  "kind": "cpu",
+  "name": "Phenom X4 9850",
+  "score": 34
+ },
+ {
+  "id": "amd-phenom-x4-9850-black-edition",
+  "kind": "cpu",
+  "name": "Phenom X4 9850 Black Edition",
+  "score": 34
+ },
+ {
+  "id": "amd-phenom-x4-9950-black-edition",
+  "kind": "cpu",
+  "name": "Phenom X4 9950 Black Edition",
+  "score": 36
+ },
+ {
+  "id": "amd-phenom-x4-9600b",
+  "kind": "cpu",
+  "name": "Phenom X4 9600B",
+  "score": 32
+ },
+ {
+  "id": "amd-phenom-x4-9750b",
+  "kind": "cpu",
+  "name": "Phenom X4 9750B",
+  "score": 33
+ },
+ {
+  "id": "amd-phenom-x4-9850b",
+  "kind": "cpu",
+  "name": "Phenom X4 9850B",
+  "score": 34
+ },
+ {
+  "id": "amd-phenom-x3-8250e",
+  "kind": "cpu",
+  "name": "Phenom X3 8250e",
+  "score": 24
+ },
+ {
+  "id": "amd-phenom-x3-8400",
+  "kind": "cpu",
+  "name": "Phenom X3 8400",
+  "score": 26
+ },
+ {
+  "id": "amd-phenom-x3-8450",
+  "kind": "cpu",
+  "name": "Phenom X3 8450",
+  "score": 26
+ },
+ {
+  "id": "amd-phenom-x3-8450e",
+  "kind": "cpu",
+  "name": "Phenom X3 8450e",
+  "score": 26
+ },
+ {
+  "id": "amd-phenom-x3-8550",
+  "kind": "cpu",
+  "name": "Phenom X3 8550",
+  "score": 28
+ },
+ {
+  "id": "amd-phenom-x3-8600",
+  "kind": "cpu",
+  "name": "Phenom X3 8600",
+  "score": 29
+ },
+ {
+  "id": "amd-phenom-x3-8650",
+  "kind": "cpu",
+  "name": "Phenom X3 8650",
+  "score": 29
+ },
+ {
+  "id": "amd-phenom-x3-8750",
+  "kind": "cpu",
+  "name": "Phenom X3 8750",
+  "score": 30
+ },
+ {
+  "id": "amd-phenom-x3-8750-black-edition",
+  "kind": "cpu",
+  "name": "Phenom X3 8750 Black Edition",
+  "score": 30
+ },
+ {
+  "id": "amd-phenom-x3-8850",
+  "kind": "cpu",
+  "name": "Phenom X3 8850",
+  "score": 31
+ },
+ {
+  "id": "amd-phenom-x3-8600b",
+  "kind": "cpu",
+  "name": "Phenom X3 8600B",
+  "score": 29
+ },
+ {
+  "id": "amd-phenom-x3-8750b",
+  "kind": "cpu",
+  "name": "Phenom X3 8750B",
+  "score": 30
+ },
+ {
+  "id": "amd-phenom-ii-x6-1035t",
+  "kind": "cpu",
+  "name": "Phenom II X6 1035T",
+  "score": 48
+ },
+ {
+  "id": "amd-phenom-ii-x6-1045t",
+  "kind": "cpu",
+  "name": "Phenom II X6 1045T",
+  "score": 50
+ },
+ {
+  "id": "amd-phenom-ii-x6-1055t",
+  "kind": "cpu",
+  "name": "Phenom II X6 1055T",
+  "score": 51
+ },
+ {
+  "id": "amd-phenom-ii-x6-1065t",
+  "kind": "cpu",
+  "name": "Phenom II X6 1065T",
+  "score": 53
+ },
+ {
+  "id": "amd-phenom-ii-x6-1075t",
+  "kind": "cpu",
+  "name": "Phenom II X6 1075T",
+  "score": 54
+ },
+ {
+  "id": "amd-phenom-ii-x6-1075t-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X6 1075T Black Edition",
+  "score": 54
+ },
+ {
+  "id": "amd-phenom-ii-x6-1090t-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X6 1090T Black Edition",
+  "score": 56
+ },
+ {
+  "id": "amd-phenom-ii-x6-1100t-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X6 1100T Black Edition",
+  "score": 58
+ },
+ {
+  "id": "amd-phenom-ii-x4-650t",
+  "kind": "cpu",
+  "name": "Phenom II X4 650T",
+  "score": 43
+ },
+ {
+  "id": "amd-phenom-ii-x4-840t",
+  "kind": "cpu",
+  "name": "Phenom II X4 840T",
+  "score": 43
+ },
+ {
+  "id": "amd-phenom-ii-x4-960t-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X4 960T Black Edition",
+  "score": 46
+ },
+ {
+  "id": "amd-phenom-ii-x4-960t",
+  "kind": "cpu",
+  "name": "Phenom II X4 960T",
+  "score": 46
+ },
+ {
+  "id": "amd-phenom-ii-x4-970-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X4 970 Black Edition",
+  "score": 48
+ },
+ {
+  "id": "amd-phenom-ii-x4-805",
+  "kind": "cpu",
+  "name": "Phenom II X4 805",
+  "score": 34
+ },
+ {
+  "id": "amd-phenom-ii-x4-810",
+  "kind": "cpu",
+  "name": "Phenom II X4 810",
+  "score": 36
+ },
+ {
+  "id": "amd-phenom-ii-x4-820",
+  "kind": "cpu",
+  "name": "Phenom II X4 820",
+  "score": 38
+ },
+ {
+  "id": "amd-phenom-ii-x4-830",
+  "kind": "cpu",
+  "name": "Phenom II X4 830",
+  "score": 38
+ },
+ {
+  "id": "amd-phenom-ii-x4-900e",
+  "kind": "cpu",
+  "name": "Phenom II X4 900e",
+  "score": 33
+ },
+ {
+  "id": "amd-phenom-ii-x4-905e",
+  "kind": "cpu",
+  "name": "Phenom II X4 905e",
+  "score": 34
+ },
+ {
+  "id": "amd-phenom-ii-x4-910",
+  "kind": "cpu",
+  "name": "Phenom II X4 910",
+  "score": 36
+ },
+ {
+  "id": "amd-phenom-ii-x4-910e",
+  "kind": "cpu",
+  "name": "Phenom II X4 910e",
+  "score": 36
+ },
+ {
+  "id": "amd-phenom-ii-x4-920",
+  "kind": "cpu",
+  "name": "Phenom II X4 920",
+  "score": 38
+ },
+ {
+  "id": "amd-phenom-ii-x4-925",
+  "kind": "cpu",
+  "name": "Phenom II X4 925",
+  "score": 38
+ },
+ {
+  "id": "amd-phenom-ii-x4-940-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X4 940 Black Edition",
+  "score": 41
+ },
+ {
+  "id": "amd-phenom-ii-x4-945",
+  "kind": "cpu",
+  "name": "Phenom II X4 945",
+  "score": 41
+ },
+ {
+  "id": "amd-phenom-ii-x4-955",
+  "kind": "cpu",
+  "name": "Phenom II X4 955",
+  "score": 44
+ },
+ {
+  "id": "amd-phenom-ii-x4-955-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X4 955 Black Edition",
+  "score": 44
+ },
+ {
+  "id": "amd-phenom-ii-x4-965-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X4 965 Black Edition",
+  "score": 47
+ },
+ {
+  "id": "amd-phenom-ii-x4-975-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X4 975 Black Edition",
+  "score": 49
+ },
+ {
+  "id": "amd-phenom-ii-x4-980-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X4 980 Black Edition",
+  "score": 51
+ },
+ {
+  "id": "amd-phenom-ii-x4-b93",
+  "kind": "cpu",
+  "name": "Phenom II X4 B93",
+  "score": 38
+ },
+ {
+  "id": "amd-phenom-ii-x4-b95",
+  "kind": "cpu",
+  "name": "Phenom II X4 B95",
+  "score": 41
+ },
+ {
+  "id": "amd-phenom-ii-x4-b97",
+  "kind": "cpu",
+  "name": "Phenom II X4 B97",
+  "score": 44
+ },
+ {
+  "id": "amd-phenom-ii-x4-b99",
+  "kind": "cpu",
+  "name": "Phenom II X4 B99",
+  "score": 45
+ },
+ {
+  "id": "amd-phenom-ii-x4-840",
+  "kind": "cpu",
+  "name": "Phenom II X4 840",
+  "score": 44
+ },
+ {
+  "id": "amd-phenom-ii-x4-850",
+  "kind": "cpu",
+  "name": "Phenom II X4 850",
+  "score": 45
+ },
+ {
+  "id": "amd-phenom-ii-x3-700e",
+  "kind": "cpu",
+  "name": "Phenom II X3 700e",
+  "score": 30
+ },
+ {
+  "id": "amd-phenom-ii-x3-705e",
+  "kind": "cpu",
+  "name": "Phenom II X3 705e",
+  "score": 31
+ },
+ {
+  "id": "amd-phenom-ii-x3-710",
+  "kind": "cpu",
+  "name": "Phenom II X3 710",
+  "score": 33
+ },
+ {
+  "id": "amd-phenom-ii-x3-715-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X3 715 Black Edition",
+  "score": 35
+ },
+ {
+  "id": "amd-phenom-ii-x3-720",
+  "kind": "cpu",
+  "name": "Phenom II X3 720",
+  "score": 35
+ },
+ {
+  "id": "amd-phenom-ii-x3-720-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X3 720 Black Edition",
+  "score": 35
+ },
+ {
+  "id": "amd-phenom-ii-x3-740-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X3 740 Black Edition",
+  "score": 38
+ },
+ {
+  "id": "amd-phenom-ii-x3-b73",
+  "kind": "cpu",
+  "name": "Phenom II X3 B73",
+  "score": 35
+ },
+ {
+  "id": "amd-phenom-ii-x3-b75",
+  "kind": "cpu",
+  "name": "Phenom II X3 B75",
+  "score": 38
+ },
+ {
+  "id": "amd-phenom-ii-x3-b77",
+  "kind": "cpu",
+  "name": "Phenom II X3 B77",
+  "score": 40
+ },
+ {
+  "id": "amd-phenom-ii-x2-545",
+  "kind": "cpu",
+  "name": "Phenom II X2 545",
+  "score": 34
+ },
+ {
+  "id": "amd-phenom-ii-x2-550-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X2 550 Black Edition",
+  "score": 35
+ },
+ {
+  "id": "amd-phenom-ii-x2-550",
+  "kind": "cpu",
+  "name": "Phenom II X2 550",
+  "score": 35
+ },
+ {
+  "id": "amd-phenom-ii-x2-555-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X2 555 Black Edition",
+  "score": 36
+ },
+ {
+  "id": "amd-phenom-ii-x2-560-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X2 560 Black Edition",
+  "score": 37
+ },
+ {
+  "id": "amd-phenom-ii-x2-565-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X2 565 Black Edition",
+  "score": 39
+ },
+ {
+  "id": "amd-phenom-ii-x2-570-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II X2 570 Black Edition",
+  "score": 40
+ },
+ {
+  "id": "amd-phenom-ii-x2-b53",
+  "kind": "cpu",
+  "name": "Phenom II X2 B53",
+  "score": 32
+ },
+ {
+  "id": "amd-phenom-ii-x2-b55",
+  "kind": "cpu",
+  "name": "Phenom II X2 B55",
+  "score": 34
+ },
+ {
+  "id": "amd-phenom-ii-x2-b57",
+  "kind": "cpu",
+  "name": "Phenom II X2 B57",
+  "score": 36
+ },
+ {
+  "id": "amd-phenom-ii-x2-b59",
+  "kind": "cpu",
+  "name": "Phenom II X2 B59",
+  "score": 39
+ },
+ {
+  "id": "amd-phenom-ii-x2-b60",
+  "kind": "cpu",
+  "name": "Phenom II X2 B60",
+  "score": 40
+ },
+ {
+  "id": "amd-phenom-ii-x2-511",
+  "kind": "cpu",
+  "name": "Phenom II X2 511",
+  "score": 39
+ },
+ {
+  "id": "amd-phenom-ii-x2-521",
+  "kind": "cpu",
+  "name": "Phenom II X2 521",
+  "score": 40
+ },
+ {
+  "id": "amd-phenom-ii-42-twkr-black-edition",
+  "kind": "cpu",
+  "name": "Phenom II 42 TWKR Black Edition"
+ },
+ {
+  "id": "amd-turion-ii-ultra-m600",
+  "kind": "cpu",
+  "name": "Turion II Ultra M600",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-ultra-m620",
+  "kind": "cpu",
+  "name": "Turion II Ultra M620",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-ultra-m640",
+  "kind": "cpu",
+  "name": "Turion II Ultra M640",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-ultra-m660",
+  "kind": "cpu",
+  "name": "Turion II Ultra M660",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-m500",
+  "kind": "cpu",
+  "name": "Turion II M500",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-m520",
+  "kind": "cpu",
+  "name": "Turion II M520",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-m540",
+  "kind": "cpu",
+  "name": "Turion II M540",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-m560",
+  "kind": "cpu",
+  "name": "Turion II M560",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-p920",
+  "kind": "cpu",
+  "name": "Phenom II P920",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-p940",
+  "kind": "cpu",
+  "name": "Phenom II P940",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-p960",
+  "kind": "cpu",
+  "name": "Phenom II P960",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-n930",
+  "kind": "cpu",
+  "name": "Phenom II N930",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-n950",
+  "kind": "cpu",
+  "name": "Phenom II N950",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-n970",
+  "kind": "cpu",
+  "name": "Phenom II N970",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-x920-be",
+  "kind": "cpu",
+  "name": "Phenom II X920 BE",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-x940-be",
+  "kind": "cpu",
+  "name": "Phenom II X940 BE",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-p650",
+  "kind": "cpu",
+  "name": "Phenom II P650",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-n620",
+  "kind": "cpu",
+  "name": "Phenom II N620",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-n640",
+  "kind": "cpu",
+  "name": "Phenom II N640",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-n660",
+  "kind": "cpu",
+  "name": "Phenom II N660",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-x620-be",
+  "kind": "cpu",
+  "name": "Phenom II X620 BE",
+  "laptop": true
+ },
+ {
+  "id": "amd-phenom-ii-x640-be",
+  "kind": "cpu",
+  "name": "Phenom II X640 BE",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-p520",
+  "kind": "cpu",
+  "name": "Turion II P520",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-p540",
+  "kind": "cpu",
+  "name": "Turion II P540",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-p560",
+  "kind": "cpu",
+  "name": "Turion II P560",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-n530",
+  "kind": "cpu",
+  "name": "Turion II N530",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-n550",
+  "kind": "cpu",
+  "name": "Turion II N550",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-n570",
+  "kind": "cpu",
+  "name": "Turion II N570",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-neo-n40l",
+  "kind": "cpu",
+  "name": "Turion II Neo N40L",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-k625",
+  "kind": "cpu",
+  "name": "Turion II K625",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-k645",
+  "kind": "cpu",
+  "name": "Turion II K645",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-k665",
+  "kind": "cpu",
+  "name": "Turion II K665",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-k685",
+  "kind": "cpu",
+  "name": "Turion II K685",
+  "laptop": true
+ },
+ {
+  "id": "amd-turion-ii-neo-n54l",
+  "kind": "cpu",
+  "name": "Turion II Neo N54L",
+  "laptop": true
+ },
+ {
+  "id": "amd-v120",
+  "kind": "cpu",
+  "name": "V120"
+ },
+ {
+  "id": "amd-v140",
+  "kind": "cpu",
+  "name": "V140"
+ },
+ {
+  "id": "amd-v160",
+  "kind": "cpu",
+  "name": "V160"
+ },
+ {
+  "id": "amd-v105",
+  "kind": "cpu",
+  "name": "V105"
  }
 ]

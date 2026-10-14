@@ -203,4 +203,12 @@ describe('parseSteamRequirements', () => {
       expect(tier('Dedicated Memory 2GB')?.vramGb).toBe(2);
     });
   });
+
+  it('drops a bare "AMD equivalent" alternative', () => {
+    const minimum = parseSteamRequirements({
+      minimum:
+        '<ul class="bb_ul"><li><strong>Processor:</strong> Intel Core i5-4590 / AMD equivalent</li></ul>',
+    }).minimum;
+    expect(minimum?.cpu).toEqual(['Intel Core i5-4590']);
+  });
 });

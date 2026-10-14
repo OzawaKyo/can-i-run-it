@@ -193,4 +193,37 @@ describe('extractCpus', () => {
     expect(microarchitecture('Dalí (2020)')).toBe('Zen');
     expect(microarchitecture('Pollock (2020)')).toBe('Zen');
   });
+
+  it('reads Phenom tables: "Model number", cores from "X4" or the heading, "Turbo speed"', () => {
+    const table: WikiTable = {
+      section: ['Phenom II series', '"Thuban" (E0, 45 nm, Hexa-core)'],
+      columns: [
+        'Model Number',
+        'Step.',
+        'Clock speed',
+        'Turbo speed',
+        'L2 cache',
+        'Hyper Transport',
+      ],
+      rows: [['Phenom II X6 1090T', 'E0', '3.2 GHz', '3.6 GHz', '6×512 KB', '2.0 GHz']],
+    };
+    expect(extractCpus(table, 'amd').cpus[0]).toMatchObject({
+      name: 'Phenom II X6 1090T',
+      microarchitecture: 'K10',
+      cores: 6,
+      threads: 6,
+      baseGhz: 3.2,
+      turboGhz: 3.6,
+    });
+    const deneb: WikiTable = {
+      section: ['Phenom II series', '"Deneb" (C2/C3, 45 nm, Quad-core)'],
+      columns: ['Model number', 'Step.', 'Clock speed', 'L2 cache'],
+      rows: [['Phenom II 965 Black Edition', 'C3', '3.4 GHz', '4×512 KB']],
+    };
+    expect(extractCpus(deneb, 'amd').cpus[0]).toMatchObject({
+      cores: 4,
+      baseGhz: 3.4,
+      turboGhz: 3.4,
+    });
+  });
 });
