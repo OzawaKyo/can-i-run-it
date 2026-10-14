@@ -1,0 +1,70 @@
+{
+ "id": "arknights-endfield",
+ "name": "Arknights: Endfield",
+ "slug": "arknights-endfield",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://endfield.gryphline.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar5ohx.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-9400F"
+    ],
+    "ids": [
+     "intel-core-i5-9400f"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5-9400F",
+    "graphics": "Nvidia GeForce GTX 1060",
+    "memory": "16 GB",
+    "storage": "50 GB (HDD)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-10700K"
+    ],
+    "ids": [
+     "intel-core-i7-10700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce RTX 2060"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka"
+    ]
+   },
+   "storage": {
+    "gb": 50,
+    "ssd": true
+   },
+   "raw": {
+    "processor": "Intel Core i7-10700K",
+    "graphics": "Nvidia GeForce RTX 2060",
+    "storage": "50 GB (SSD)"
+   }
+  }
+ }
+}

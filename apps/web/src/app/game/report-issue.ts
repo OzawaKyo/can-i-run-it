@@ -10,7 +10,7 @@ export const ISSUE_REPOSITORY = 'OzawaKyo/can-i-run-it';
 export function reportIssueUrl(game: GameRecord): string | undefined {
   if (!ISSUE_REPOSITORY) return undefined;
   const lines = [
-    `Game: ${game.name} (Steam app ${game.appid})`,
+    `Game: ${game.name} (${game.appid ? `Steam app ${game.appid}` : game.id})`,
     `Data updated: ${game.updatedAt}`,
     '',
     '**What is wrong?**',

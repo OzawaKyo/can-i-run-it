@@ -1,0 +1,72 @@
+{
+ "id": "hearthstone",
+ "name": "Hearthstone",
+ "slug": "hearthstone",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://hearthstone.blizzard.com/en-us",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar5zjl.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium D",
+     "AMD Athlon 64 X2"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 8600 GT",
+     "ATI Radeon HD 2600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb"
+    ]
+   },
+   "ramGb": 3,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Pentium D / AMD Athlon 64 X2",
+    "graphics": "Nvidia GeForce 8600 GT / ATI Radeon HD 2600 XT",
+    "memory": "3 GB",
+    "storage": "3 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.2 GHz",
+     "AMD Athlon 64 X2 2.6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GT 240",
+     "ATI Radeon HD 4850"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-240",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "raw": {
+    "processor": "Intel Core 2 Duo 2.2 GHz / AMD Athlon 64 X2 2.6 GHz",
+    "graphics": "Nvidia GeForce GT 240 / ATI Radeon HD 4850",
+    "memory": "4 GB"
+   }
+  }
+ }
+}

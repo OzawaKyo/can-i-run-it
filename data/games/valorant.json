@@ -1,0 +1,78 @@
+{
+ "id": "valorant",
+ "name": "Valorant",
+ "slug": "valorant",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://playvalorant.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar5iqo.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-540",
+     "AMD Athlon 200GE"
+    ],
+    "ids": [
+     "intel-core-i3-540",
+     "amd-athlon-200ge"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 4000",
+     "AMD Radeon R5 220"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000",
+     "amd-radeon-r5-220"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i3-540 / AMD Athlon 200GE",
+    "graphics": "Intel HD Graphics 4000 / AMD Radeon R5 220",
+    "memory": "4 GB",
+    "storage": "35 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4150",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-core-i3-4150",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GT 730",
+     "AMD Radeon R7 240"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-730-gk208-302",
+     "nvidia-geforce-gt-730-gf108-400",
+     "nvidia-geforce-gt-730-gf108-400-2",
+     "amd-radeon-r5-240-1gb",
+     "amd-radeon-r5-240-2gb",
+     "amd-radeon-r7-240-2gb",
+     "amd-radeon-r7-240-4gb"
+    ]
+   },
+   "vramGb": 1,
+   "raw": {
+    "processor": "Intel Core i3-4150 / AMD Ryzen 3 1200",
+    "graphics": "Nvidia GeForce GT 730 / AMD Radeon R7 240"
+   }
+  }
+ }
+}

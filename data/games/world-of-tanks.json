@@ -1,0 +1,80 @@
+{
+ "id": "world-of-tanks",
+ "name": "World of Tanks",
+ "slug": "world-of-tanks",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://worldoftanks.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar3qaj.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3330",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-3330",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 660",
+     "AMD Radeon R9 270"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-r9-270"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5-3330 / AMD FX-6300",
+    "graphics": "Nvidia GTX 660 / AMD Radeon R9 270",
+    "memory": "8 GB",
+    "storage": "70 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-9100F",
+     "AMD Ryzen 3 3100"
+    ],
+    "ids": [
+     "intel-core-i3-9100f",
+     "amd-ryzen-3-3100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1650",
+     "AMD Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 120,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i3-9100F / AMD Ryzen 3 3100",
+    "graphics": "Nvidia GTX 1650 / AMD Radeon RX 580",
+    "memory": "16 GB",
+    "storage": "120 GB"
+   }
+  }
+ }
+}

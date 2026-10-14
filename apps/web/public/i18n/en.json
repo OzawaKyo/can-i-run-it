@@ -85,14 +85,18 @@
     "notStated": "—",
     "capabilityOnly": "Any compatible card (see DirectX and video memory)",
     "publishedAs": "As published:",
-    "source": "Source: Steam, updated {{ date }}.",
+    "source": {
+      "steam": "Source: Steam, updated {{ date }}.",
+      "pcgamingwiki": "Source: PCGamingWiki (CC BY-NC-SA 3.0), updated {{ date }}."
+    },
     "steamPage": "Steam page",
     "sharedMemory": "Shared (integrated graphics)",
     "reportIssue": "Report an error",
     "estimates": "Performance scores are estimates (±20%), hence the \"borderline\" zone.",
     "howItWorks": "How does it work?",
     "viaPcgw": "(via PCGamingWiki)",
-    "pcgwAttribution": "Some requirements, vague on Steam, come from <a href=\"https://www.pcgamingwiki.com/\" target=\"_blank\" rel=\"noopener\">PCGamingWiki</a> (CC BY-NC-SA 3.0)."
+    "pcgwAttribution": "Some requirements, vague on Steam, come from <a href=\"https://www.pcgamingwiki.com/\" target=\"_blank\" rel=\"noopener\">PCGamingWiki</a> (CC BY-NC-SA 3.0).",
+    "officialSite": "Official site"
   },
   "about": {
     "title": "Sources & method",
@@ -111,7 +115,7 @@
     },
     "sources": {
       "title": "Sources & licences",
-      "body": "System requirements and images: Steam, loaded from Steam. When Steam doesn't name a processor or graphics card precisely: PCGamingWiki, CC BY-NC-SA 3.0. Popular games list: SteamSpy (selection only).\nHardware specs: Wikipedia, CC BY-SA 4.0; the derived catalog is published under the same licence.\nThis site is not affiliated with Valve or any publisher. Source code (MIT): <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
+      "body": "System requirements and images: Steam, loaded from Steam. When Steam doesn't name a processor or graphics card precisely: PCGamingWiki, CC BY-NC-SA 3.0. Popular games list: SteamSpy (selection only). Games outside Steam (League of Legends, Valorant, Fortnite…): requirements from PCGamingWiki, images and official site from IGDB.\nHardware specs: Wikipedia, CC BY-SA 4.0; the derived catalog is published under the same licence.\nThis site is not affiliated with Valve or any publisher. Source code (MIT): <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
     },
     "privacy": {
       "title": "Privacy",

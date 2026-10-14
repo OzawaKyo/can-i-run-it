@@ -1,0 +1,77 @@
+{
+ "id": "trackmania-2020",
+ "name": "Trackmania (2020)",
+ "slug": "trackmania-2020",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://trackmania.com",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar5jk3.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K",
+     "AMD FX-6100"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-fx-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 660",
+     "AMD Radeon R9 270X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-r9-270x-2gb",
+     "amd-radeon-r9-270x-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5-2500K / AMD FX-6100",
+    "graphics": "Nvidia GeForce GTX 660 / AMD Radeon R9 270X",
+    "memory": "8 GB",
+    "storage": "2 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4690K",
+     "AMD Ryzen 5 1500X"
+    ],
+    "ids": [
+     "intel-core-i5-4690k",
+     "amd-ryzen-5-1500x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 970",
+     "AMD Radeon RX 480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "raw": {
+    "processor": "Intel Core i5-4690K / AMD Ryzen 5 1500X",
+    "graphics": "Nvidia GeForce GTX 970 / AMD Radeon RX 480",
+    "memory": "8 GB (Dual-channel)"
+   }
+  }
+ }
+}

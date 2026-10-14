@@ -1,0 +1,70 @@
+{
+ "id": "diablo-iii",
+ "name": "Diablo III",
+ "slug": "diablo-iii",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://diablo3.blizzard.com/en-us/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/c6wh9x1t7wdublidmuus.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo",
+     "AMD Athlon 64 X2 4400+"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 8800 GT",
+     "ATI Radeon X1950 Pro",
+     "Intel HD Graphics 4000"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core 2 Duo / AMD Athlon 64 X2 4400+",
+    "graphics": "Nvidia GeForce 8800 GT / ATI Radeon X1950 Pro / Intel HD Graphics 4000",
+    "memory": "4 GB",
+    "storage": "25 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.4 GHz",
+     "AMD Athlon 64 X2 5600+ 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 260",
+     "ATI Radeon HD 4870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-4870-512mb",
+     "amd-radeon-hd-4870-1gb",
+     "amd-radeon-hd-4870-2gb"
+    ]
+   },
+   "ramGb": 6,
+   "raw": {
+    "processor": "Intel Core 2 Duo 2.4 GHz / AMD Athlon 64 X2 5600+ 2.8 GHz",
+    "graphics": "Nvidia GeForce GTX 260 / ATI Radeon HD 4870",
+    "memory": "6 GB"
+   }
+  }
+ }
+}

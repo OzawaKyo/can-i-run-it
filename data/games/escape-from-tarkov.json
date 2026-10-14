@@ -1,0 +1,73 @@
+{
+ "id": "escape-from-tarkov",
+ "name": "Escape from Tarkov",
+ "slug": "escape-from-tarkov",
+ "source": "pcgamingwiki",
+ "officialUrl": "http://www.escapefromtarkov.com",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar526d.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "AMD Ryzen 5 3600",
+    "graphics": "GTX 1660",
+    "memory": "16 GB",
+    "storage": "80 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-14700F"
+    ],
+    "ids": [
+     "intel-core-i7-14700f"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "RTX 4070"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-4070"
+    ]
+   },
+   "ramGb": 64,
+   "vramGb": 12,
+   "directX": 11,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i7-14700F",
+    "graphics": "RTX 4070",
+    "memory": "64 GB",
+    "storage": "80 GB"
+   }
+  }
+ }
+}

@@ -25,26 +25,33 @@ export interface StoredTier {
   raw: Record<string, string>;
 }
 
-/** One `data/games/<appid>.json` file. */
+/** One `data/games/<id>.json` file. */
 export interface GameRecord {
-  appid: number;
+  /** Route and file key: the Steam app id for Steam games, else a slug ("valorant"). */
+  id: string;
+  /** Steam games only. */
+  appid?: number;
   name: string;
   slug: string;
-  source: 'steam';
+  /** Where the requirements come from: Steam (PCGamingWiki filling gaps), or PCGamingWiki alone. */
+  source: 'steam' | 'pcgamingwiki';
+  /** Official site, for games not on Steam. */
+  officialUrl?: string;
   updatedAt: string;
-  /** Banner served by Steam's CDN (460×215). */
+  /** Banner: Steam's (460×215) for Steam games, else IGDB artwork. */
   headerImage?: string;
   requirements: { minimum?: StoredTier; recommended?: StoredTier };
 }
 
 /** One entry of `data/games/index.json`, the search index. */
 export interface GameIndexEntry {
-  appid: number;
+  id: string;
+  appid?: number;
   name: string;
   slug: string;
   /** Popularity, 1 = most popular; the index is sorted by it. */
   rank: number;
-  /** Small capsule served by Steam's CDN (231×87). */
+  /** Small landscape image: Steam's capsule (231×87), else IGDB artwork. */
   capsuleImage?: string;
 }
 

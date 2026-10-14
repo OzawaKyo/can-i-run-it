@@ -1,0 +1,74 @@
+{
+ "id": "alan-wake-ii",
+ "name": "Alan Wake II",
+ "slug": "alan-wake-ii",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://www.alanwake.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar3nuh.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-7600K",
+     "AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-7600k",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1070",
+     "AMD Radeon RX 5600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-5600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 90,
+    "ssd": true
+   },
+   "raw": {
+    "processor": "Intel i5-7600K / AMD Ryzen 5 1600",
+    "graphics": "Nvidia GeForce GTX 1070 / AMD Radeon RX 5600 XT",
+    "memory": "16 GB",
+    "storage": "90 GB (SSD)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-10700K",
+     "AMD Ryzen 7 3700X"
+    ],
+    "ids": [
+     "intel-core-i7-10700k",
+     "amd-ryzen-7-3700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce RTX 3060",
+     "AMD Radeon RX 6600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb",
+     "amd-radeon-rx-6600-xt"
+    ]
+   },
+   "vramGb": 8,
+   "raw": {
+    "processor": "Intel Core i7-10700K / AMD Ryzen 7 3700X",
+    "graphics": "Nvidia GeForce RTX 3060 / AMD Radeon RX 6600 XT"
+   }
+  }
+ }
+}

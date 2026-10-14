@@ -1,0 +1,71 @@
+{
+ "id": "minecraft-bedrock-edition",
+ "name": "Minecraft: Bedrock Edition",
+ "slug": "minecraft-bedrock-edition",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://minecraft.net/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar1or8.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Celeron J4105",
+     "AMD FX-4100"
+    ],
+    "ids": [
+     "amd-fx-4100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R5 series",
+     "Intel HD Graphics 4000"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Celeron J4105 / AMD FX-4100",
+    "graphics": "AMD Radeon R5 series / Intel HD Graphics 4000",
+    "memory": "4 GB",
+    "storage": "1 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6500U",
+     "AMD A8-6600K"
+    ],
+    "ids": [
+     "intel-core-i7-6500u",
+     "amd-a8-6600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 940M",
+     "AMD Radeon HD 8570D"
+    ],
+    "ids": [
+     "nvidia-geforce-940m",
+     "amd-radeon-hd-8570"
+    ]
+   },
+   "ramGb": 8,
+   "raw": {
+    "processor": "Intel Core i7-6500U / AMD A8-6600K",
+    "graphics": "Nvidia GeForce 940M / AMD Radeon HD 8570D",
+    "memory": "8 GB"
+   }
+  }
+ }
+}

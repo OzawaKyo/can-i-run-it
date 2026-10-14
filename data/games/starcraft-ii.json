@@ -1,0 +1,71 @@
+{
+ "id": "starcraft-ii",
+ "name": "StarCraft II",
+ "slug": "starcraft-ii",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://us.battle.net/shop/en/product/starcraft-ii-heart-of-the-swarm",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/g8spbmpb4dfquceafjes.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo",
+     "AMD Athlon 64 X2 5600+"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 7600 GT",
+     "ATI Radeon HD 2600 XT",
+     "Intel HD Graphics 3000"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "vramGb": 0.125,
+   "directX": 9,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core 2 Duo / AMD Athlon 64 X2 5600+",
+    "graphics": "Nvidia GeForce 7600 GT / ATI Radeon HD 2600 XT / Intel HD Graphics 3000",
+    "memory": "2 GB",
+    "storage": "30 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 series",
+     "AMD FX series"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 650",
+     "AMD Radeon HD 7790"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "amd-radeon-hd-7790-1gb",
+     "amd-radeon-hd-7790-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "raw": {
+    "processor": "Intel Core i5 series / AMD FX series",
+    "graphics": "Nvidia GeForce GTX 650 / AMD Radeon HD 7790",
+    "memory": "4 GB"
+   }
+  }
+ }
+}

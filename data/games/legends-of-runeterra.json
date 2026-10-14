@@ -1,0 +1,30 @@
+{
+ "id": "legends-of-runeterra",
+ "name": "Legends of Runeterra",
+ "slug": "legends-of-runeterra",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://playruneterra.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar6rx.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 0.5,
+   "raw": {
+    "processor": "3.0 GHz",
+    "memory": "4 GB"
+   }
+  }
+ }
+}

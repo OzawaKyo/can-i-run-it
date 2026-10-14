@@ -1,0 +1,66 @@
+{
+ "id": "honkai-star-rail",
+ "name": "Honkai: Star Rail",
+ "slug": "honkai-star-rail",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://act.hoyoverse.com/sr/event/e20240426version-48v1wy/index.html",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs30i.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1050"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 70,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5",
+    "graphics": "Nvidia GeForce GTX 1050",
+    "memory": "8 GB",
+    "storage": "70 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7"
+    ],
+    "ids": [],
+    "estimatedScore": 53
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "raw": {
+    "processor": "Intel Core i7",
+    "graphics": "Nvidia GeForce GTX 1060",
+    "memory": "16 GB"
+   }
+  }
+ }
+}

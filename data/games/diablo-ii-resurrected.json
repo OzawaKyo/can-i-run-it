@@ -1,0 +1,75 @@
+{
+ "id": "diablo-ii-resurrected",
+ "name": "Diablo II: Resurrected",
+ "slug": "diablo-ii-resurrected",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://diablo2.blizzard.com",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar7g6.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-3250",
+     "AMD FX-4350"
+    ],
+    "ids": [
+     "intel-core-i3-3250",
+     "amd-fx-4350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 660",
+     "AMD Radeon HD 7850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i3-3250 / AMD FX-4350",
+    "graphics": "Nvidia GeForce GTX 660 / AMD Radeon HD 7850",
+    "memory": "8 GB",
+    "storage": "30 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-9600K",
+     "AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-9600k",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060",
+     "AMD Radeon RX 5500 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-5500-xt-4gb",
+     "amd-radeon-rx-5500-xt-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "raw": {
+    "processor": "Intel Core i5-9600K / AMD Ryzen 5 2600",
+    "graphics": "Nvidia GeForce GTX 1060 / AMD Radeon RX 5500 XT",
+    "memory": "16 GB"
+   }
+  }
+ }
+}

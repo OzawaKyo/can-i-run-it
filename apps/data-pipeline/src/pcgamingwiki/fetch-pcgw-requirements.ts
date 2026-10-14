@@ -45,3 +45,22 @@ export async function fetchPcgwRequirements(
     throw error;
   }
 }
+
+/**
+ * The wikitext of a PCGamingWiki page by title (redirects followed), or undefined when the
+ * page doesn't exist or PCGamingWiki can't be reached.
+ */
+export async function fetchPcgwPage(title: string): Promise<string | undefined> {
+  try {
+    const page = JSON.parse(
+      await get(
+        `${API}?action=parse&page=${encodeURIComponent(title)}&prop=wikitext&format=json&formatversion=2&redirects=1`,
+        `pcgamingwiki/page-${title.replace(/[^\w.-]+/g, '_')}.json`,
+      ),
+    ) as { parse?: { wikitext?: string } };
+    return page.parse?.wikitext;
+  } catch (error) {
+    if (error instanceof MissingContactError || error instanceof HttpError) return undefined;
+    throw error;
+  }
+}

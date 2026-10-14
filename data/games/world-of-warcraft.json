@@ -1,0 +1,69 @@
+{
+ "id": "world-of-warcraft",
+ "name": "World of Warcraft",
+ "slug": "world-of-warcraft",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://worldofwarcraft.com",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar583d.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core Haswell 4th generation 3.0 GHz",
+     "AMD Ryzen Zen 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 900 series",
+     "AMD GCN 4th generation",
+     "Intel Iris Xe Graphics"
+    ],
+    "ids": [
+     "intel-iris-xe-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 128,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core Haswell 4th generation 3.0 GHz / AMD Ryzen Zen 3.0 GHz",
+    "graphics": "Nvidia GeForce GTX 900 series / AMD GCN 4th generation / Intel Iris Xe Graphics",
+    "memory": "8 GB",
+    "storage": "128 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core Coffee Lake 8th generation 3.5 GHz",
+     "AMD Ryzen Zen 2 3.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 36
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce RTX",
+     "AMD RDNA 2",
+     "Intel Arc 7 Graphics"
+    ],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "raw": {
+    "processor": "Intel Core Coffee Lake 8th generation 3.5 GHz / AMD Ryzen Zen 2 3.5 GHz",
+    "graphics": "Nvidia GeForce RTX / AMD RDNA 2 / Intel Arc 7 Graphics",
+    "memory": "16 GB"
+   }
+  }
+ }
+}

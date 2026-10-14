@@ -1,0 +1,63 @@
+{
+ "id": "star-citizen",
+ "name": "Star Citizen",
+ "slug": "star-citizen",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://robertsspaceindustries.com/star-citizen/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar4d58.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Quad Core CPU - Intel: i7 (Haswell or later), AMD: Excavator or later"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVidia 1060",
+     "AMD RX 5700, RX Vega 56, RX 460",
+     "Intel A380, UHD Graphics 730"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-vega-56",
+     "intel-uhd-graphics-730"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 11,
+   "raw": {
+    "processor": "Quad Core CPU - Intel: i7 (Haswell or later), AMD: Excavator or later",
+    "graphics": "NVidia 1060 / AMD RX 5700, RX Vega 56, RX 460 / Intel A380, UHD Graphics 730",
+    "memory": "16 GB",
+    "storage": "150+ GB SSD required"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad/Eight Core CPU - Intel: i7 (Haswell or later), AMD: Ryzen 5 or later"
+    ],
+    "ids": [],
+    "estimatedScore": 73
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 32,
+   "vramGb": 8,
+   "directX": 12,
+   "raw": {
+    "processor": "Quad/Eight Core CPU - Intel: i7 (Haswell or later), AMD: Ryzen 5 or later",
+    "memory": "32 GB DDR4",
+    "storage": "150+ GB SSD required"
+   }
+  }
+ }
+}

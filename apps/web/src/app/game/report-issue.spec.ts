@@ -2,6 +2,7 @@ import type { GameRecord } from '@can-i-run-it/domain';
 import { ISSUE_REPOSITORY, reportIssueUrl } from './report-issue';
 
 const game: GameRecord = {
+  id: '292030',
   appid: 292030,
   name: 'The Witcher 3',
   slug: 'the-witcher-3',

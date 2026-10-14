@@ -1,0 +1,40 @@
+{
+ "id": "2xko",
+ "name": "2XKO",
+ "slug": "2xko",
+ "source": "pcgamingwiki",
+ "officialUrl": "http://2xko.riotgames.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar61hf.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4790"
+    ],
+    "ids": [
+     "intel-core-i7-4790"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 960"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 5.5,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i7-4790",
+    "graphics": "Nvidia GeForce GTX 960",
+    "memory": "8 GB",
+    "storage": "5.5 GB"
+   }
+  }
+ }
+}

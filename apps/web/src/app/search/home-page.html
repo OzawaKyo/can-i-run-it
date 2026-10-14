@@ -27,9 +27,9 @@
       <h2 class="section-title">{{ 'home.results' | transloco }}</h2>
       @if (results().length) {
         <ul class="list">
-          @for (game of results(); track game.appid) {
+          @for (game of results(); track game.id) {
             <li>
-              <a [routerLink]="['/game', game.appid, game.slug]">
+              <a [routerLink]="gameLink(game)">
                 @if (game.capsuleImage) {
                   <img
                     [src]="game.capsuleImage"
@@ -53,9 +53,9 @@
     } @else {
       <h2 class="section-title">{{ 'home.popular' | transloco }}</h2>
       <ul class="grid">
-        @for (game of popular(); track game.appid) {
+        @for (game of popular(); track game.id) {
           <li>
-            <a [routerLink]="['/game', game.appid, game.slug]">
+            <a [routerLink]="gameLink(game)">
               @if (game.capsuleImage) {
                 <img
                   [src]="game.capsuleImage"

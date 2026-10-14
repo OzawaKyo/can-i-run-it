@@ -45,13 +45,13 @@ const ORDER: RequirementComponent[] = ['cpu', 'gpu', 'ram', 'vram', 'directX', '
 })
 export class GamePage {
   /** Route parameter. */
-  readonly appId = input.required<string>();
+  readonly id = input.required<string>();
 
   private readonly catalog = inject(HardwareCatalog);
   protected readonly store = inject(UserConfigStore);
 
   protected readonly game = httpResource<GameRecord>(() =>
-    /^\d+$/.test(this.appId()) ? `data/games/${this.appId()}.json` : undefined,
+    /^[a-z0-9-]+$/.test(this.id()) ? `data/games/${this.id()}.json` : undefined,
   );
 
   /** The game's requirements with catalog models in place of ids. */

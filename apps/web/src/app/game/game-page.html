@@ -24,13 +24,19 @@
     <div class="title">
       <h1>{{ game.name }}</h1>
       <p class="muted">
-        {{ 'game.source' | transloco: { date: game.updatedAt } }}
-        <a
-          [href]="'https://store.steampowered.com/app/' + game.appid"
-          target="_blank"
-          rel="noopener"
-          >{{ 'game.steamPage' | transloco }}</a
-        >
+        {{ 'game.source.' + game.source | transloco: { date: game.updatedAt } }}
+        @if (game.appid) {
+          <a
+            [href]="'https://store.steampowered.com/app/' + game.appid"
+            target="_blank"
+            rel="noopener"
+            >{{ 'game.steamPage' | transloco }}</a
+          >
+        } @else if (game.officialUrl) {
+          <a [href]="game.officialUrl" target="_blank" rel="noopener">{{
+            'game.officialSite' | transloco
+          }}</a>
+        }
       </p>
     </div>
   </header>

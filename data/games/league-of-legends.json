@@ -1,0 +1,90 @@
+{
+ "id": "league-of-legends",
+ "name": "League of Legends",
+ "slug": "league-of-legends",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://www.leagueoflegends.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar57t1.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-530",
+     "AMD A6-3650"
+    ],
+    "ids": [
+     "intel-core-i3-530",
+     "amd-a6-3650"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 9600 GT",
+     "AMD Radeon HD 6570",
+     "Intel HD Graphics 4600"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "amd-radeon-hd-6570",
+     "amd-radeon-hd-6570-2gb",
+     "amd-radeon-hd-6570-4gb",
+     "intel-hd-graphics-4600"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 16,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i3-530 / AMD A6-3650",
+    "graphics": "Nvidia GeForce 9600 GT / AMD Radeon HD 6570 / Intel HD Graphics 4600",
+    "memory": "2 GB",
+    "storage": "16 GB (HDD)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3300",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-intel-processor-300",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 560",
+     "AMD Radeon HD 6950",
+     "Intel UHD Graphics 630"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6950-1gb",
+     "amd-radeon-hd-6950-2gb",
+     "intel-uhd-graphics-630"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 16,
+    "ssd": true
+   },
+   "raw": {
+    "processor": "Intel Core i5-3300 / AMD Ryzen 3 1200",
+    "graphics": "Nvidia GeForce GTX 560 / AMD Radeon HD 6950 / Intel UHD Graphics 630",
+    "memory": "4 GB",
+    "storage": "16 GB (SSD)"
+   }
+  }
+ }
+}

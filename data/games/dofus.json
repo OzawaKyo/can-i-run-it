@@ -1,0 +1,50 @@
+{
+ "id": "dofus",
+ "name": "Dofus",
+ "slug": "dofus",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://www.dofus.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/rptkldfmtivsmyyqwhfq.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "raw": {
+    "processor": "Intel Pentium 4 2.8 GHz",
+    "memory": "1 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 4Ti"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "raw": {
+    "processor": "Intel Core 2 Duo",
+    "graphics": "Nvidia GeForce 4Ti",
+    "memory": "2 GB"
+   }
+  }
+ }
+}

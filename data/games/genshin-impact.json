@@ -1,0 +1,75 @@
+{
+ "id": "genshin-impact",
+ "name": "Genshin Impact",
+ "slug": "genshin-impact",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://act.hoyoverse.com/ys/event/e20230302preview-2hu94k/index.html",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar2s3x.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 6th Gen",
+     "AMD Ryzen"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1050",
+     "Intel Iris Xe"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "intel-iris-xe-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 140,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5 6th Gen / AMD Ryzen",
+    "graphics": "Nvidia GeForce GTX 1050 / Intel Iris Xe",
+    "memory": "8 GB",
+    "storage": "140 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 7th Gen",
+     "AMD Ryzen 5000 series"
+    ],
+    "ids": [],
+    "estimatedScore": 53
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1060"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 150,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i7 7th Gen / AMD Ryzen 5000 series",
+    "graphics": "Nvidia GeForce GTX 1060",
+    "memory": "16 GB",
+    "storage": "150 GB"
+   }
+  }
+ }
+}

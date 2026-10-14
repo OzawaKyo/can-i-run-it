@@ -1,0 +1,75 @@
+{
+ "id": "minecraft-java-edition",
+ "name": "Minecraft: Java Edition",
+ "slug": "minecraft-java-edition",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://minecraft.net/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar30cw.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-10100",
+     "AMD Ryzen 3 3100"
+    ],
+    "ids": [
+     "intel-core-i3-10100",
+     "amd-ryzen-3-3100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 950",
+     "AMD Radeon RX 460",
+     "Intel Arc A310"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb",
+     "intel-arc-a310"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "raw": {
+    "processor": "Intel Core i3-10100 / AMD Ryzen 3 3100",
+    "graphics": "Nvidia GeForce GTX 950 / AMD Radeon RX 460 / Intel Arc A310",
+    "memory": "8 GB (discrete GPU) 12 GB (integrated GPU)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-12400",
+     "AMD Ryzen 5 5600"
+    ],
+    "ids": [
+     "intel-core-i5-12400",
+     "amd-ryzen-5-5600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce RTX 2060",
+     "AMD Radeon RX 5600 XT",
+     "Intel Arc A580"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-5600-xt",
+     "intel-arc-a580"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "raw": {
+    "processor": "Intel Core i5-12400 / AMD Ryzen 5 5600",
+    "graphics": "Nvidia GeForce RTX 2060 / AMD Radeon RX 5600 XT / Intel Arc A580",
+    "memory": "16 GB"
+   }
+  }
+ }
+}

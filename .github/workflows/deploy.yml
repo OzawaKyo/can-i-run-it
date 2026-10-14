@@ -41,6 +41,8 @@ jobs:
         if: github.event_name != 'push'
         env:
           PIPELINE_CONTACT: ${{ secrets.PIPELINE_CONTACT }}
+          IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
+          IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
         run: |
           npx nx run data-pipeline:build-hardware --skip-nx-cache
           npx nx run data-pipeline:build-games --skip-nx-cache

@@ -1,0 +1,75 @@
+{
+ "id": "heroes-of-the-storm",
+ "name": "Heroes of the Storm",
+ "slug": "heroes-of-the-storm",
+ "source": "pcgamingwiki",
+ "officialUrl": "http://us.battle.net/heroes/en/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar6n77.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6600",
+     "AMD Phenom X4"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 8600 GT",
+     "ATI Radeon HD 4650",
+     "Intel HD Graphics 3000"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "amd-radeon-hd-4650-256mb",
+     "amd-radeon-hd-4650-512mb",
+     "amd-radeon-hd-4650-1gb",
+     "intel-hd-graphics-3000"
+    ]
+   },
+   "ramGb": 3,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core 2 Duo E6600 / AMD Phenom X4",
+    "graphics": "Nvidia GeForce 8600 GT / ATI Radeon HD 4650 / Intel HD Graphics 3000",
+    "memory": "3 GB",
+    "storage": "20 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5",
+     "AMD FX series"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 650",
+     "AMD Radeon HD 7790"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "amd-radeon-hd-7790-1gb",
+     "amd-radeon-hd-7790-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "raw": {
+    "processor": "Intel Core i5 / AMD FX series",
+    "graphics": "Nvidia GeForce GTX 650 / AMD Radeon HD 7790",
+    "memory": "4 GB"
+   }
+  }
+ }
+}

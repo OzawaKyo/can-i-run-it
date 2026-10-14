@@ -1,0 +1,35 @@
+{
+ "id": "roblox",
+ "name": "Roblox",
+ "slug": "roblox",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://www.roblox.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar4fu7.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 0.29296875,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "1.6 GHz",
+    "memory": "1 GB",
+    "storage": "300 MB"
+   }
+  }
+ }
+}

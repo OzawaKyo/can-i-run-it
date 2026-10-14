@@ -1,0 +1,73 @@
+{
+ "id": "warcraft-iii-reforged",
+ "name": "Warcraft III: Reforged",
+ "slug": "warcraft-iii-reforged",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://playwarcraft3.com",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc5jl4.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-530",
+     "AMD Phenom II X4 910"
+    ],
+    "ids": [
+     "intel-core-i3-530",
+     "amd-phenom-ii-x4-910"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTS 450",
+     "ATI Radeon HD 5750"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-5750-512mb",
+     "amd-radeon-hd-5750-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i3-530 / AMD Phenom II X4 910",
+    "graphics": "Nvidia GeForce GTS 450 / ATI Radeon HD 5750",
+    "memory": "4 GB",
+    "storage": "30 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6400",
+     "AMD Ryzen 7 1700X"
+    ],
+    "ids": [
+     "intel-core-i5-6400",
+     "amd-ryzen-7-1700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 960",
+     "AMD Radeon R9 280X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r9-280x"
+    ]
+   },
+   "ramGb": 8,
+   "raw": {
+    "processor": "Intel Core i5-6400 / AMD Ryzen 7 1700X",
+    "graphics": "Nvidia GeForce GTX 960 / AMD Radeon R9 280X",
+    "memory": "8 GB"
+   }
+  }
+ }
+}

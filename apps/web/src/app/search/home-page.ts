@@ -1,6 +1,6 @@
 import { Component, computed, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { searchByName } from '@can-i-run-it/domain';
+import { searchByName, type GameIndexEntry } from '@can-i-run-it/domain';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideScanSearch, lucideSearch } from '@ng-icons/lucide';
 import { TranslocoPipe } from '@jsverse/transloco';
@@ -24,4 +24,9 @@ export class HomePage {
   protected readonly results = computed(() => searchByName(this.index.games(), this.query(), 12));
   /** The index is sorted by popularity. */
   protected readonly popular = computed(() => this.index.games().slice(0, 12));
+
+  /** `/game/292030/the-witcher-3` for Steam games, `/game/valorant` when the id is the slug. */
+  protected gameLink(game: GameIndexEntry): string[] {
+    return game.id === game.slug ? ['/game', game.id] : ['/game', game.id, game.slug];
+  }
 }

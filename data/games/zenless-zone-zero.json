@@ -1,0 +1,60 @@
+{
+ "id": "zenless-zone-zero",
+ "name": "Zenless Zone Zero",
+ "slug": "zenless-zone-zero",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://zenless.hoyoverse.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar4qbk.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 (7th Generation)"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 970"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5 (7th Generation)",
+    "graphics": "Nvidia GeForce GTX 970",
+    "memory": "8 GB",
+    "storage": "60 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 (10th Generation)"
+    ],
+    "ids": [],
+    "estimatedScore": 53
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660"
+    ]
+   },
+   "raw": {
+    "processor": "Intel Core i7 (10th Generation)",
+    "graphics": "Nvidia GeForce GTX 1660"
+   }
+  }
+ }
+}

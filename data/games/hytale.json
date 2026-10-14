@@ -1,0 +1,89 @@
+{
+ "id": "hytale",
+ "name": "Hytale",
+ "slug": "hytale",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://hytale.com/",
+ "updatedAt": "2026-10-14",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar6bld.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-7500",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-core-i5-7500",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 900 series",
+     "AMD Radeon 400 series",
+     "Intel Arc A-Series"
+    ],
+    "ids": [
+     "amd-radeon-r5-430-1gb",
+     "amd-radeon-r5-430-2gb",
+     "amd-radeon-r5-435",
+     "amd-radeon-r7-430-1gb",
+     "amd-radeon-r7-430-2gb",
+     "amd-radeon-r7-430-4gb",
+     "amd-radeon-r7-435",
+     "amd-radeon-r7-450-2gb",
+     "amd-radeon-r7-450-4gb",
+     "amd-radeon-rx-455",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb",
+     "amd-radeon-rx-470d",
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "storage": {
+    "gb": 20,
+    "ssd": true
+   },
+   "raw": {
+    "processor": "Intel Core i5-7500 / AMD Ryzen 3 1200",
+    "graphics": "Nvidia GeForce GTX 900 series / AMD Radeon 400 series / Intel Arc A-Series",
+    "memory": "8 GB, 12 GB",
+    "storage": "20 GB (SATA SSD)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-10400",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i5-10400",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "storage": {
+    "gb": 20,
+    "ssd": true
+   },
+   "raw": {
+    "processor": "Intel Core i5-10400 / AMD Ryzen 5 3600",
+    "memory": "16 GB",
+    "storage": "20 GB (NVMe SSD)"
+   }
+  }
+ }
+}

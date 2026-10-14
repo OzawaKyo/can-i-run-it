@@ -2,7 +2,12 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import type { GameIndexEntry, GameRecord, HardwareModel } from '@can-i-run-it/domain';
 import { resolveGameRequirements, type UnresolvedName } from './games/resolve-game-requirements';
 import { createPoliteFetch } from './http/polite-fetch';
-import { fetchPcgwRequirements } from './pcgamingwiki/fetch-pcgw-requirements';
+import { fetchIgdbMedia } from './igdb/fetch-igdb-media';
+import { fetchPcgwPage, fetchPcgwRequirements } from './pcgamingwiki/fetch-pcgw-requirements';
+import {
+  parsePcgwRequirements,
+  steamAppIds as pcgwSteamAppIds,
+} from './pcgamingwiki/parse-pcgw-requirements';
 import { parseSteamRequirements } from './steam/parse-steam-requirements';
 import { steamImage } from './steam/steam-image';
 
@@ -58,6 +63,7 @@ async function main() {
     countUnresolved(unresolved, missing);
 
     const record: GameRecord = {
+      id: String(appid),
       appid,
       name: details.data.name,
       slug: slug(details.data.name),
@@ -68,6 +74,7 @@ async function main() {
     };
     await writeFile(`${OUT_DIR}/${appid}.json`, `${JSON.stringify(record, null, 1)}\n`);
     index.push({
+      id: String(appid),
       appid,
       name: record.name,
       slug: record.slug,
@@ -75,6 +82,13 @@ async function main() {
       capsuleImage: steamImage(details.data.capsule_image),
     });
   }
+
+  const nonSteam = await addNonSteamGames(
+    catalog,
+    new Set(index.map((game) => game.appid)),
+    index,
+    unresolved,
+  );
 
   index.sort((a, b) => a.rank - b.rank);
   await writeFile(`${OUT_DIR}/index.json`, `${JSON.stringify(index, null, 1)}\n`);
@@ -86,7 +100,7 @@ async function main() {
     `${JSON.stringify({ skipped, unresolved: report }, null, 2)}\n`,
   );
   console.log(
-    `${index.length} games written (${completedByPcgw} completed by PCGamingWiki), ${skipped} skipped, ${report.length} distinct unresolved names (details: .cache/pipeline/games-report.json)`,
+    `${index.length} games written (${nonSteam} from outside Steam, ${completedByPcgw} completed by PCGamingWiki), ${skipped} skipped, ${report.length} distinct unresolved names (details: .cache/pipeline/games-report.json)`,
   );
 }
 
@@ -133,6 +147,72 @@ async function selectGames(): Promise<number[]> {
 /** SteamSpy gives owners as a range: "20,000,000 .. 50,000,000". */
 function ownersLowerBound(owners: string | undefined): number {
   return Number(owners?.split('..')[0]?.replace(/[^\d]/g, '') || 0);
+}
+
+/**
+ * Popular games sold outside Steam (`non-steam-games.json`, most popular first): requirements
+ * from PCGamingWiki, images and official site from IGDB. A game PCGamingWiki says is on Steam
+ * and already written is skipped. They are interleaved with the Steam ranking, one every
+ * other place, so the most played of them show among the popular games.
+ */
+async function addNonSteamGames(
+  catalog: { cpus: HardwareModel[]; gpus: HardwareModel[] },
+  steamAppIds: Set<number | undefined>,
+  index: GameIndexEntry[],
+  unresolved: Map<string, number>,
+): Promise<number> {
+  const list = JSON.parse(await readFile('apps/data-pipeline/non-steam-games.json', 'utf8')) as {
+    title: string;
+  }[];
+  let written = 0;
+  for (const [position, { title }] of list.entries()) {
+    const wikitext = await fetchPcgwPage(title);
+    if (!wikitext) {
+      console.warn(`skipped ${title}: no PCGamingWiki page`);
+      continue;
+    }
+    if (pcgwSteamAppIds(wikitext).some((appid) => steamAppIds.has(appid))) continue;
+
+    const parsed = parsePcgwRequirements(wikitext);
+    if (!parsed.minimum) {
+      console.warn(`skipped ${title}: no Windows requirements on PCGamingWiki`);
+      continue;
+    }
+    const { requirements, unresolved: missing } = resolveGameRequirements(parsed, catalog);
+    countUnresolved(unresolved, missing);
+
+    const id = slug(title);
+    const media = await fetchIgdbMedia(title, id);
+    const record: GameRecord = {
+      id,
+      name: title,
+      slug: id,
+      source: 'pcgamingwiki',
+      officialUrl: media.officialUrl,
+      updatedAt: new Date().toISOString().slice(0, 10),
+      headerImage: media.headerImage,
+      requirements,
+    };
+    await writeFile(
+      `${OUT_DIR}/${id}.json`,
+      `${JSON.stringify(withoutUndefined(record), null, 1)}\n`,
+    );
+    index.push(
+      withoutUndefined({
+        id,
+        name: title,
+        slug: id,
+        rank: 2 * position + 1.5,
+        capsuleImage: media.capsuleImage,
+      }),
+    );
+    written++;
+  }
+  return written;
+}
+
+function withoutUndefined<T extends object>(value: T): T {
+  return Object.fromEntries(Object.entries(value).filter(([, field]) => field !== undefined)) as T;
 }
 
 /** True when a tier is missing, or names a CPU or GPU that matched no catalog model. */

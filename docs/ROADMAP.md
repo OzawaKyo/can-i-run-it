@@ -57,5 +57,6 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 - [x] GPU minimaux reconnus : de 79 % à 87 % ; CPU : de 88 % à 93 %
 - [x] Processeurs portables mieux repérés (page mobile Intel, suffixes UM/LM)
 - [x] Exigences vagues traitées : CPU d'avant l'ère Core (Pentium 4, Athlon XP…), nombre de cœurs seul, « Intel i5 », DirectX / Pixel Shader / OpenGL écrits de mille façons, mémoire seule (« 256 MB »), séries (« GeForce 200 series »), ancien format en paragraphe
+- [x] 29 jeux populaires hors Steam (League of Legends, Valorant, Fortnite, Minecraft, Roblox, Genshin…) : configs PCGamingWiki, images IGDB ; liste modifiable dans `apps/data-pipeline/non-steam-games.json`
 - [x] Estimation des FPS (1080p, réglages bas et élevés) sur chaque page de jeu, expliquée dans « Sources & méthode »
 - [x] Reconnaissance : CPU 99 %, GPU 96 % ; verdicts « ? » de 232 à 66 jeux, sans nouveau faux « Insuffisant »
