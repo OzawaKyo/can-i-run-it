@@ -1,30 +1,17 @@
 <h1>{{ 'config.title' | transloco }}</h1>
 <p class="lead">{{ 'config.intro' | transloco }}</p>
 
+<app-auto-detect [autoStart]="!!detect()" />
+
+<h2 class="section-title">{{ 'config.manual' | transloco }}</h2>
 <form class="card" (submit)="$event.preventDefault()">
-  <div class="row">
-    <app-hardware-picker
-      [label]="'config.gpu' | transloco"
-      [placeholder]="'config.gpuPlaceholder' | transloco"
-      [models]="catalog.gpus()"
-      [selected]="config().gpu"
-      (picked)="store.update({ gpuId: $event })"
-    />
-    <button type="button" class="secondary" (click)="detectGpu()">
-      {{ 'config.detect' | transloco }}
-    </button>
-  </div>
-  @if (detection(); as result) {
-    <p class="hint" role="status">
-      @if (result.found) {
-        {{ 'config.detected' | transloco: { name: result.name } }}
-      } @else if (result.name) {
-        {{ 'config.detectedUnknown' | transloco: { name: result.name } }}
-      } @else {
-        {{ 'config.detectFailed' | transloco }}
-      }
-    </p>
-  }
+  <app-hardware-picker
+    [label]="'config.gpu' | transloco"
+    [placeholder]="'config.gpuPlaceholder' | transloco"
+    [models]="catalog.gpus()"
+    [selected]="config().gpu"
+    (picked)="store.update({ gpuId: $event })"
+  />
 
   <app-hardware-picker
     [label]="'config.cpu' | transloco"

@@ -53,10 +53,6 @@
     "intro": "Ces informations restent dans votre navigateur.",
     "gpu": "Carte graphique",
     "gpuPlaceholder": "ex. GeForce GTX 1060",
-    "detect": "Détecter",
-    "detected": "Détecté : {{ name }}.",
-    "detectedUnknown": "Le navigateur indique « {{ name }} », introuvable dans notre catalogue : choisissez votre carte.",
-    "detectFailed": "Le navigateur ne donne pas le modèle : choisissez votre carte.",
     "cpu": "Processeur",
     "cpuPlaceholder": "ex. Core i5-8400",
     "cpuHint": "Le navigateur ne peut pas détecter le processeur. Sous Windows : Paramètres › Système › Informations système.",
@@ -66,7 +62,8 @@
     "freeStorage": "Espace disque libre (Go)",
     "storageType": "Type de disque",
     "hdd": "Disque dur (HDD)",
-    "back": "← Rechercher un jeu"
+    "back": "← Rechercher un jeu",
+    "manual": "Ou renseignez à la main"
   },
   "picker": {
     "laptop": "portable"
@@ -118,5 +115,27 @@
       "title": "Vie privée",
       "body": "Votre configuration reste dans votre navigateur : rien n'est envoyé à un serveur. La détection de la carte graphique se fait localement, via WebGL. Pas de compte, pas de cookie, pas de statistiques. Seules les images des jeux sont chargées depuis les serveurs de Steam."
     }
+  },
+  "detect": {
+    "title": "Détection automatique",
+    "intro": "Un clic pour remplir votre carte graphique, puis 3 gestes pour détecter tout le reste.",
+    "button": "Détecter mon PC",
+    "guideTitle": "Détection complète (Windows)",
+    "windowsOnly": "Cette étape nécessite Windows. Sur un autre système, remplissez les champs ci-dessous.",
+    "step1": "Copiez la commande de détection.",
+    "copy": "Copier la commande",
+    "copied": "✓ Commande copiée",
+    "step2": "Ouvrez PowerShell : clic droit sur le menu Démarrer › « Terminal » (ou « Windows PowerShell »). Collez avec Ctrl+V, puis appuyez sur Entrée.",
+    "step2Hint": "Elle s'exécute en une seconde et copie le résultat.",
+    "step3": "Revenez ici et collez avec Ctrl+V (ou le bouton ci-dessous).",
+    "paste": "Coller le résultat",
+    "pasteError": "Ce n'est pas un résultat de détection : relancez la commande puis collez à nouveau.",
+    "whatItDoes": "Que fait cette commande ?",
+    "whatItDoesBody": "Elle lit seulement le nom du processeur et des cartes graphiques, la mémoire installée, l'espace libre et le type du disque le plus libre. Elle n'installe rien, ne modifie rien et n'envoie rien : le résultat est copié dans votre presse-papier, et vous le collez ici vous-même.",
+    "cancel": "Annuler",
+    "doneTitle": "PC détecté",
+    "doneBody": "Votre configuration est remplie ci-dessous : vérifiez-la, puis cherchez un jeu.",
+    "unmatched": "Non reconnu : {{ names }}. Choisissez-le dans la liste ci-dessous.",
+    "again": "Relancer la détection"
   }
 }

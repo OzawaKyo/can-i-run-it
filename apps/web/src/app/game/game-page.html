@@ -38,7 +38,9 @@
   @if (store.isEmpty()) {
     <div class="card notice">
       <p>{{ 'game.noConfig' | transloco }}</p>
-      <a class="button" routerLink="/config">{{ 'game.setConfig' | transloco }}</a>
+      <a class="button" routerLink="/config" [queryParams]="{ detect: 1 }"
+        >⚡ {{ 'detect.button' | transloco }}</a
+      >
     </div>
   }
 

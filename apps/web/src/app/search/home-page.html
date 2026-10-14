@@ -99,8 +99,12 @@
         </dd>
       </dl>
     }
-    <a class="button" [class.secondary]="!store.isEmpty()" routerLink="/config">
-      {{ (store.isEmpty() ? 'home.setConfig' : 'home.editConfig') | transloco }}
-    </a>
+    @if (store.isEmpty()) {
+      <a class="button" routerLink="/config" [queryParams]="{ detect: 1 }"
+        >⚡ {{ 'detect.button' | transloco }}</a
+      >
+    } @else {
+      <a class="button secondary" routerLink="/config">{{ 'home.editConfig' | transloco }}</a>
+    }
   </aside>
 </div>

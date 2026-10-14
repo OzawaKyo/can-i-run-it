@@ -53,10 +53,6 @@
     "intro": "This stays in your browser.",
     "gpu": "Graphics card",
     "gpuPlaceholder": "e.g. GeForce GTX 1060",
-    "detect": "Detect",
-    "detected": "Detected: {{ name }}.",
-    "detectedUnknown": "Your browser reports “{{ name }}”, which isn't in our catalog: pick your card.",
-    "detectFailed": "Your browser doesn't reveal the model: pick your card.",
     "cpu": "Processor",
     "cpuPlaceholder": "e.g. Core i5-8400",
     "cpuHint": "Browsers can't detect the processor. On Windows: Settings › System › About.",
@@ -66,7 +62,8 @@
     "freeStorage": "Free disk space (GB)",
     "storageType": "Drive type",
     "hdd": "Hard drive (HDD)",
-    "back": "← Search for a game"
+    "back": "← Search for a game",
+    "manual": "Or fill in by hand"
   },
   "picker": {
     "laptop": "laptop"
@@ -118,5 +115,27 @@
       "title": "Privacy",
       "body": "Your PC details stay in your browser: nothing is sent to a server. Graphics card detection runs locally, through WebGL. No account, no cookies, no analytics. Only game images are loaded from Steam's servers."
     }
+  },
+  "detect": {
+    "title": "Automatic detection",
+    "intro": "One click fills in your graphics card, then 3 steps detect everything else.",
+    "button": "Detect my PC",
+    "guideTitle": "Full detection (Windows)",
+    "windowsOnly": "This step needs Windows. On another system, fill in the fields below.",
+    "step1": "Copy the detection command.",
+    "copy": "Copy the command",
+    "copied": "✓ Command copied",
+    "step2": "Open PowerShell: right-click the Start menu › “Terminal” (or “Windows PowerShell”). Paste with Ctrl+V, then press Enter.",
+    "step2Hint": "It runs in a second and copies the result.",
+    "step3": "Come back here and paste with Ctrl+V (or the button below).",
+    "paste": "Paste the result",
+    "pasteError": "That isn't a detection result: run the command again, then paste.",
+    "whatItDoes": "What does this command do?",
+    "whatItDoesBody": "It only reads the processor and graphics card names, installed memory, and the free space and type of the roomiest drive. It installs nothing, changes nothing and sends nothing: the result goes to your clipboard, and you paste it here yourself.",
+    "cancel": "Cancel",
+    "doneTitle": "PC detected",
+    "doneBody": "Your PC is filled in below: check it, then search for a game.",
+    "unmatched": "Not recognised: {{ names }}. Pick it from the list below.",
+    "again": "Run detection again"
   }
 }

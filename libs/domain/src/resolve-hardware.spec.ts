@@ -33,6 +33,8 @@ const catalog: HardwareModel[] = [
   cpu('i5-2500k', 'Intel Core i5-2500K'),
   cpu('q6600', 'Intel Core 2 Quad Q6600'),
   cpu('i3-n305', 'Intel Core i3-N305'),
+  cpu('ryzen-5-3600', 'AMD Ryzen 5 3600'),
+  cpu('i5-8400', 'Intel Core i5-8400'),
   gpu('r9-270x-2gb', 'AMD Radeon R9 270X 2GB', 2),
   gpu('gtx-760', 'NVIDIA GeForce GTX 760', 2),
 ];
@@ -111,5 +113,10 @@ describe('resolveHardware', () => {
 
   it('never treats a bare family ("Core i3") as a model with variants', () => {
     expect(ids('Intel Core i3 2.5 Ghz')).toEqual([]);
+  });
+
+  it('reads processor names as Windows reports them', () => {
+    expect(ids('AMD Ryzen 5 3600 6-Core Processor')).toEqual(['ryzen-5-3600']);
+    expect(ids('Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz')).toEqual(['i5-8400']);
   });
 });

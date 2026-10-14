@@ -105,6 +105,8 @@ function matchKey(name: string): string {
       .toLowerCase()
       .replace(/\([^)]*\)/g, ' ')
       .replace(/@?\s*\d+(?:\.\d+)?\s*[gm]hz\b|@/g, ' ')
+      // Windows appends the core count: "Ryzen 5 3600 6-Core Processor".
+      .replace(/\b\d+-core\b/g, ' ')
       // Radeon R5/R7/R9 three-digit numbers are unique across tiers, and games mix them up.
       .replace(/\br[3-9]\s+(?=m?\d{3}[a-z]*\b)/g, ' ')
       .replace(/\b\d+(?:\.\d+)?\s*[gm]b\b/g, ' ')

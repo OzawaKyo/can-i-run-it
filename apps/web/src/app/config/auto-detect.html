@@ -1,0 +1,71 @@
+<section class="card detect" [class.open]="step() !== 'idle'">
+  @switch (step()) {
+    @case ('idle') {
+      <div class="intro">
+        <div>
+          <h2>{{ 'detect.title' | transloco }}</h2>
+          <p class="muted">{{ 'detect.intro' | transloco }}</p>
+        </div>
+        <button type="button" class="big" (click)="start()">
+          ⚡ {{ 'detect.button' | transloco }}
+        </button>
+      </div>
+    }
+    @case ('guide') {
+      <h2>{{ 'detect.guideTitle' | transloco }}</h2>
+      @if (!isWindows) {
+        <p class="hint warn">{{ 'detect.windowsOnly' | transloco }}</p>
+      }
+      <ol class="steps">
+        <li>
+          <span class="num" aria-hidden="true">1</span>
+          <div>
+            <p>{{ 'detect.step1' | transloco }}</p>
+            <button type="button" (click)="copyCommand()">
+              {{ (copied() ? 'detect.copied' : 'detect.copy') | transloco }}
+            </button>
+          </div>
+        </li>
+        <li>
+          <span class="num" aria-hidden="true">2</span>
+          <div>
+            <p>{{ 'detect.step2' | transloco }}</p>
+            <p class="hint">{{ 'detect.step2Hint' | transloco }}</p>
+          </div>
+        </li>
+        <li>
+          <span class="num" aria-hidden="true">3</span>
+          <div>
+            <p>{{ 'detect.step3' | transloco }}</p>
+            <button type="button" class="secondary" (click)="pasteFromClipboard()">
+              {{ 'detect.paste' | transloco }}
+            </button>
+            @if (pasteError()) {
+              <p class="hint warn" role="alert">{{ 'detect.pasteError' | transloco }}</p>
+            }
+          </div>
+        </li>
+      </ol>
+      <details>
+        <summary>{{ 'detect.whatItDoes' | transloco }}</summary>
+        <p class="hint">{{ 'detect.whatItDoesBody' | transloco }}</p>
+        <pre><code>{{ readableCommand }}</code></pre>
+      </details>
+      <button type="button" class="link" (click)="step.set('idle')">
+        {{ 'detect.cancel' | transloco }}
+      </button>
+    }
+    @case ('done') {
+      <h2>✓ {{ 'detect.doneTitle' | transloco }}</h2>
+      <p class="muted">{{ 'detect.doneBody' | transloco }}</p>
+      @if (unmatched().length) {
+        <p class="hint warn">
+          {{ 'detect.unmatched' | transloco: { names: unmatched().join(', ') } }}
+        </p>
+      }
+      <button type="button" class="link" (click)="step.set('guide')">
+        {{ 'detect.again' | transloco }}
+      </button>
+    }
+  }
+</section>

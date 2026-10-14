@@ -24,9 +24,12 @@ Décisions prises lors de la session de cadrage du 2026-10-13.
 
 ## Config utilisateur
 
-- GPU détecté (WebGL `WEBGL_debug_renderer_info` / WebGPU), corrigeable.
-- CPU choisi par autocomplétion (non détectable par le navigateur).
-- RAM, espace libre et type de disque (SSD/HDD) saisis à la main (`navigator.deviceMemory` plafonne à 8 Go).
+- **Bouton « Détecter mon PC »** (décidé le 2026-10-14) : un site web ne peut pas lire tout le matériel. Le bouton :
+  1. remplit le GPU via WebGL (`WEBGL_debug_renderer_info` / WebGPU), instantanément ;
+  2. guide la **détection complète Windows** en 3 gestes : copier une commande PowerShell (lisible, affichée sur la page) → la coller dans PowerShell → coller le résultat sur le site. La commande lit CPU, GPU, RAM installée, espace libre et type (SSD/HDD) du disque le plus libre ; elle n'installe rien et n'envoie rien (résultat dans le presse-papier, préfixé `can-i-run-it:`).
+  - Le texte collé est validé strictement (préfixe, JSON, types, tailles) ; plusieurs GPU → le plus puissant ; adaptateurs virtuels ignorés.
+  - Écarté : un `.exe` à télécharger (avertissement SmartScreen sans certificat de signature payant).
+- Saisie manuelle toujours possible (autocomplétion CPU/GPU, RAM, espace libre, SSD/HDD).
 - Une seule config, persistée en `localStorage`.
 
 ## Données jeux
@@ -122,7 +125,7 @@ Uniquement des sources **légalement réutilisables**. Sont exclus : PassMark, T
 ## Suivi
 
 - Dev local : le devbox expose le serveur Angular sur le port hôte **47200** (le 4200 est pris par un autre projet).
-- Bouton « Signaler une erreur » (issue GitHub pré-remplie) : à ajouter une fois le dépôt GitHub créé.
+- Commande PowerShell de détection : **à tester sur un vrai PC Windows** (écrite pour PowerShell 5.1, non exécutée pendant le développement, qui s'est fait sous Linux).
 - Corrections manuelles (`overrides`) : à créer (ex. Intel HD 4000, dont le tableau Wikipédia est mal formé).
 
 - Données jeux : seul Steam est branché ; PCGamingWiki (secours / contrôle croisé) et GOG restent à faire.
