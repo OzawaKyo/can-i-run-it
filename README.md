@@ -1,59 +1,47 @@
-# CanIRunIt
+# Can I Run It?
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+Can my PC run this game? Compares your PC with the system requirements PC games publish on Steam, component by component, with an honest verdict: below, borderline, minimum, recommended, or "can't tell" — never a false ✅.
 
-## Development server
+Static Angular app, free to host (Firebase Hosting). All data is built ahead of time by a Node pipeline and versioned as JSON in `data/`. Design decisions: [`docs/DESIGN.md`](docs/DESIGN.md).
 
-To start a local development server, run:
+## Layout
 
-```bash
-ng serve
-```
+| Path | What |
+|---|---|
+| `apps/web` | Angular app: game search, "My PC" (GPU detected through WebGL), game page with verdicts. French and English (Transloco). |
+| `apps/data-pipeline` | Builds `data/`: hardware catalog with gaming scores from Wikipedia, game requirements from Steam. |
+| `libs/domain` | Shared by both: requirement types, hardware name resolution, verdict rules, search. |
+| `data` | Generated data — see [`data/README.md`](data/README.md) for sources and licences. |
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Development
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Commands run inside the project's devbox (`mmadb exec "<command>"`), or directly with Node ≥ 24.
 
 ```bash
-ng generate --help
+npm start                            # dev server (port 4200 in the devbox)
+npx nx run-many -t test              # all tests
+npx nx run web:build                 # production build → dist/apps/web/browser
 ```
 
-## Building
-
-To build the project run:
+## Data pipeline
 
 ```bash
-ng build
+npx nx run data-pipeline:build-hardware   # Wikipedia → data/hardware (needs PIPELINE_CONTACT)
+npx nx run data-pipeline:build-games      # Steam → data/games (--limit=N, default 1000)
+npx nx run data-pipeline:calibrate-gpus   # refit GPU scores after editing gpu-anchors.ts
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- `PIPELINE_CONTACT` (in `.env`, never committed) is the contact Wikimedia requires in the User-Agent.
+- Downloads are rate-limited and cached in `.cache/pipeline`; reports of rejected rows and unresolved names land there too.
+- Hand corrections: `apps/data-pipeline/hardware-overrides.json` (hardware), `apps/data-pipeline/extra-games.json` (games to add).
 
-## Running unit tests
+## Deployment
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+`.github/workflows/deploy.yml` tests, builds and deploys to Firebase Hosting on every push to `main`, and every Monday refreshes the data first and commits it. It needs:
 
-```bash
-ng test
-```
+- `.firebaserc`: the Firebase project id;
+- repository secrets `FIREBASE_SERVICE_ACCOUNT` (service account JSON with Firebase Hosting Admin) and `PIPELINE_CONTACT`.
 
-## Running end-to-end tests
+## Licences
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Code: MIT. `data/hardware`: CC BY-SA 4.0 (derived from Wikipedia). `data/games`: requirement data © their publishers, via Steam. Not affiliated with Valve.

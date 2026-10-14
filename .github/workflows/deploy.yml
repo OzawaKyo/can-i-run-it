@@ -1,0 +1,65 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Every Monday at 04:00 UTC: refresh game requirements and hardware data.
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Restore the pipeline's download cache
+        if: github.event_name != 'push'
+        uses: actions/cache@v4
+        with:
+          path: .cache/pipeline
+          key: pipeline-${{ github.run_id }}
+          restore-keys: pipeline-
+
+      - name: Refresh data
+        if: github.event_name != 'push'
+        env:
+          PIPELINE_CONTACT: ${{ secrets.PIPELINE_CONTACT }}
+        run: |
+          npx nx run data-pipeline:build-hardware --skip-nx-cache
+          npx nx run data-pipeline:build-games --skip-nx-cache
+
+      - name: Commit refreshed data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Refresh game and hardware data"
+            git push
+          fi
+
+      - run: npx nx run-many -t test
+      - run: npx nx run web:build
+
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          channelId: live

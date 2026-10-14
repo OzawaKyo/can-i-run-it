@@ -1,5 +1,9 @@
-import { mkdir, writeFile } from 'node:fs/promises';
-import { buildHardwareCatalog, type CatalogPage } from './hardware/build-hardware-catalog';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import {
+  buildHardwareCatalog,
+  type CatalogPage,
+  type HardwareOverrides,
+} from './hardware/build-hardware-catalog';
 import { createPoliteFetch, HttpError, MissingContactError } from './http/polite-fetch';
 
 /** Wikipedia list pages, most trusted first: a model listed twice keeps the first page's data. */
@@ -42,7 +46,10 @@ async function main() {
     }
   }
 
-  const catalog = buildHardwareCatalog(pages);
+  const overrides = JSON.parse(
+    await readFile('apps/data-pipeline/hardware-overrides.json', 'utf8'),
+  ) as HardwareOverrides;
+  const catalog = buildHardwareCatalog(pages, overrides);
   await mkdir(OUT_DIR, { recursive: true });
   await writeFile(`${OUT_DIR}/gpus.json`, `${JSON.stringify(catalog.gpus, null, 1)}\n`);
   await writeFile(`${OUT_DIR}/cpus.json`, `${JSON.stringify(catalog.cpus, null, 1)}\n`);

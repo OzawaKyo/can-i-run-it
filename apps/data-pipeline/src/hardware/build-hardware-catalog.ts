@@ -1,5 +1,6 @@
 import type { HardwareModel } from '@can-i-run-it/domain';
 import { readWikiTables } from '../wikipedia/read-wiki-tables';
+import { slug } from './cells';
 import { extractCpus, type CpuSpec, type CpuVendor } from './extract-cpus';
 import { extractGpus, type GpuSpec, type GpuVendor, type RejectedRow } from './extract-gpus';
 import { scoreCpu } from './score-cpu';
@@ -15,11 +16,29 @@ export interface HardwareCatalog {
   report: { rejected: RejectedRow[]; unscored: string[] };
 }
 
+/** A model added or corrected by hand (`hardware-overrides.json`); its id derives from vendor and name. */
+export type GpuOverride = Omit<GpuSpec, 'id' | 'kind' | 'laptop'> & {
+  laptop?: boolean;
+  source?: string;
+};
+export type CpuOverride = Omit<CpuSpec, 'id' | 'kind' | 'laptop'> & {
+  laptop?: boolean;
+  source?: string;
+};
+
+export interface HardwareOverrides {
+  gpus?: GpuOverride[];
+  cpus?: CpuOverride[];
+}
+
 /**
  * Turns Wikipedia list pages into the app's hardware catalog. Pages are given in order of
- * trust: when two list the same model, the earlier one wins.
+ * trust: when two list the same model, the earlier one wins. Overrides win over every page.
  */
-export function buildHardwareCatalog(pages: CatalogPage[]): HardwareCatalog {
+export function buildHardwareCatalog(
+  pages: CatalogPage[],
+  overrides: HardwareOverrides = {},
+): HardwareCatalog {
   const gpus = new Map<string, GpuSpec>();
   const cpus = new Map<string, CpuSpec>();
   const rejected: RejectedRow[] = [];
@@ -36,6 +55,14 @@ export function buildHardwareCatalog(pages: CatalogPage[]): HardwareCatalog {
         for (const cpu of result.cpus) if (!cpus.has(cpu.id)) cpus.set(cpu.id, cpu);
       }
     }
+  }
+  for (const { source: _, ...gpu } of overrides.gpus ?? []) {
+    const id = `${gpu.vendor}-${slug(gpu.name)}`;
+    gpus.set(id, { ...gpu, id, kind: 'gpu', laptop: gpu.laptop ?? false });
+  }
+  for (const { source: _, ...cpu } of overrides.cpus ?? []) {
+    const id = `${cpu.vendor}-${slug(cpu.name)}`;
+    cpus.set(id, { ...cpu, id, kind: 'cpu', laptop: cpu.laptop ?? false });
   }
 
   const gpuModels = [...gpus.values()].map((gpu) =>

@@ -1,0 +1,23 @@
+{
+  "gpus": [
+    {
+      "name": "HD Graphics 4000",
+      "vendor": "intel",
+      "fp32Gflops": 294,
+      "architecture": "Gen7",
+      "directX": 11,
+      "source": "Wikipedia Gen7 table is malformed. 16 EUs × 8 FP32 lanes × 2 (FMA) × 1.15 GHz max (desktop Ivy Bridge)."
+    },
+    {
+      "name": "GeForce RTX 2050 Laptop",
+      "vendor": "nvidia",
+      "fp32Gflops": 6050,
+      "bandwidthGBs": 112,
+      "architecture": "Ampere",
+      "vramGb": 4,
+      "directX": 12,
+      "laptop": true,
+      "source": "Wikipedia row has no FP32 figure. 2048 CUDA cores × 2 × 1.477 GHz boost; 64-bit GDDR6 at 14 Gbps."
+    }
+  ]
+}

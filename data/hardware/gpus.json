@@ -14188,5 +14188,21 @@
   "score": 15583,
   "vramGb": 32,
   "directX": 12
+ },
+ {
+  "id": "intel-hd-graphics-4000",
+  "kind": "gpu",
+  "name": "HD Graphics 4000",
+  "score": 281,
+  "directX": 11
+ },
+ {
+  "id": "nvidia-geforce-rtx-2050-laptop",
+  "kind": "gpu",
+  "name": "GeForce RTX 2050 Laptop",
+  "score": 3449,
+  "vramGb": 4,
+  "directX": 12,
+  "laptop": true
  }
 ]

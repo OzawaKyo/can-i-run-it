@@ -15,6 +15,7 @@ import { TranslocoPipe } from '@jsverse/transloco';
 import { UserConfigStore } from '../config/user-config-store';
 import { HardwareCatalog } from '../data/hardware-catalog';
 import { size, type Size } from '../shared/size';
+import { reportIssueUrl } from './report-issue';
 
 /** A value to show: free text, a size, or an i18n key with params. */
 type Shown = { text: string } | { size: Size; ssd?: boolean } | { key: string };
@@ -70,6 +71,11 @@ export class GamePage {
         recommended: required(component, recommended),
       }),
     );
+  });
+
+  protected readonly reportUrl = computed(() => {
+    const game = this.game.value();
+    return game && reportIssueUrl(game);
   });
 
   /** Unstructured requirements ("500 mhz processor, 96mb ram…") are shown as published. */

@@ -66,4 +66,52 @@ describe('buildHardwareCatalog', () => {
       { model: 'GeForce GTX 1080 Ti', reason: 'no FP32 throughput' },
     ]);
   });
+
+  describe('manual overrides', () => {
+    const withOverrides = buildHardwareCatalog(
+      [
+        {
+          kind: 'gpu',
+          vendor: 'nvidia',
+          html: page(
+            'GeForce 10 series',
+            `<tr><th>Model</th><th>Code name</th><th>Memory / Size (GB)</th><th>Processing power (GFLOPS) / Single precision</th></tr>
+             <tr><td>GeForce GTX 1050</td><td>GP107</td><td>2</td><td>999</td></tr>`,
+          ),
+        },
+      ],
+      {
+        gpus: [
+          {
+            name: 'GeForce GTX 1050',
+            vendor: 'nvidia',
+            fp32Gflops: 1862,
+            architecture: 'Pascal',
+            vramGb: 2,
+            directX: 12,
+          },
+          {
+            name: 'HD Graphics 4000',
+            vendor: 'intel',
+            fp32Gflops: 294,
+            architecture: 'Gen7',
+            directX: 11,
+          },
+        ],
+      },
+    );
+
+    it('adds models Wikipedia does not yield', () => {
+      expect(withOverrides.gpus.find((gpu) => gpu.id === 'intel-hd-graphics-4000')).toMatchObject({
+        name: 'HD Graphics 4000',
+        directX: 11,
+      });
+    });
+
+    it('replaces a model read wrongly', () => {
+      expect(withOverrides.gpus.find((gpu) => gpu.id === 'nvidia-geforce-gtx-1050')?.score).toBe(
+        1862,
+      );
+    });
+  });
 });

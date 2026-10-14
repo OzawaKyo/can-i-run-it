@@ -17,6 +17,7 @@ import calibration from './gpu-calibration.json' with { type: 'json' };
  * memory dominates their gaming performance, so their efficiency per GFLOP is alike.
  */
 const SAME_EFFICIENCY_AS: Record<string, string> = {
+  Gen7: 'Gen9',
   'Gen7.5': 'Gen9',
   Gen8: 'Gen9',
   Gen11: 'Gen9',

@@ -1,40 +1,55 @@
-// Design tokens. Step 4 maps these onto an Angular Material theme.
-:root {
-  color-scheme: light dark;
-  --surface: #f7f7fa;
-  --surface-raised: #ffffff;
-  --text: #16161d;
-  --text-muted: #5b5b6b;
-  --border: #dcdce4;
-  --accent: #4a3aff;
-  --accent-soft: #ecebff;
-  --radius: 10px;
-  --shadow: 0 6px 24px rgb(0 0 0 / 0.08);
+@use '@angular/material' as mat;
 
-  --level-below: #c62828;
-  --level-borderline: #b26a00;
-  --level-minimum: #8a6d00;
-  --level-recommended: #1b7f3a;
-  --level-unknown: #5b5b6b;
+// Angular Material only generates the colour system (--mat-sys-* tokens, light and dark);
+// the app's own components and look stay hand-written on top of the aliases below.
+html {
+  color-scheme: light dark;
+  @include mat.theme(
+    (
+      color: (
+        primary: mat.$violet-palette,
+        tertiary: mat.$cyan-palette,
+        theme-type: color-scheme,
+      ),
+      typography: (
+        plain-family: (
+          system-ui,
+          -apple-system,
+          'Segoe UI',
+          Roboto,
+          sans-serif,
+        ),
+        brand-family: (
+          system-ui,
+          -apple-system,
+          'Segoe UI',
+          Roboto,
+          sans-serif,
+        ),
+      ),
+      density: 0,
+    )
+  );
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --surface: #111117;
-    --surface-raised: #1b1b24;
-    --text: #ececf3;
-    --text-muted: #a3a3b5;
-    --border: #2e2e3b;
-    --accent: #8f85ff;
-    --accent-soft: #26244a;
-    --shadow: 0 6px 24px rgb(0 0 0 / 0.4);
+:root {
+  --surface: var(--mat-sys-surface);
+  --surface-raised: var(--mat-sys-surface-container-low);
+  --text: var(--mat-sys-on-surface);
+  --text-muted: var(--mat-sys-on-surface-variant);
+  --border: var(--mat-sys-outline-variant);
+  --accent: var(--mat-sys-primary);
+  --on-accent: var(--mat-sys-on-primary);
+  --accent-soft: var(--mat-sys-primary-container);
+  --radius: 12px;
+  --shadow: var(--mat-sys-level2);
 
-    --level-below: #ff6b6b;
-    --level-borderline: #ffb547;
-    --level-minimum: #e9cf4a;
-    --level-recommended: #4cd17a;
-    --level-unknown: #a3a3b5;
-  }
+  // Verdict colours are semantic (red → green), so they stay outside the palette.
+  --level-below: light-dark(#c62828, #ff6b6b);
+  --level-borderline: light-dark(#b26a00, #ffb547);
+  --level-minimum: light-dark(#8a6d00, #e9cf4a);
+  --level-recommended: light-dark(#1b7f3a, #4cd17a);
+  --level-unknown: var(--mat-sys-on-surface-variant);
 }
 
 *,
@@ -126,7 +141,7 @@ button,
   border-radius: var(--radius);
   border: 1px solid var(--accent);
   background: var(--accent);
-  color: #fff;
+  color: var(--on-accent);
   text-decoration: none;
   cursor: pointer;
 

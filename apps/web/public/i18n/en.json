@@ -87,6 +87,7 @@
     "publishedAs": "As published:",
     "source": "Source: Steam, updated {{ date }}.",
     "steamPage": "Steam page",
-    "sharedMemory": "Shared (integrated graphics)"
+    "sharedMemory": "Shared (integrated graphics)",
+    "reportIssue": "Report an error"
   }
 }

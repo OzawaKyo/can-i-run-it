@@ -7,8 +7,8 @@ import { parseSteamRequirements } from './steam/parse-steam-requirements';
 const OUT_DIR = 'data/games';
 const DAY = 24 * 3600 * 1000;
 
-/** How many of SteamSpy's most played games to include, before `extra-games.json`. */
-const limit = Number(process.argv.find((arg) => arg.startsWith('--limit='))?.split('=')[1] ?? 50);
+/** How many popular games to include, before `extra-games.json`. */
+const limit = Number(process.argv.find((arg) => arg.startsWith('--limit='))?.split('=')[1] ?? 1000);
 
 const get = createPoliteFetch({
   cacheDir: '.cache/pipeline',
@@ -80,18 +80,36 @@ interface SteamAppData {
   pc_requirements: unknown;
 }
 
-/** SteamSpy's most played games (used only to pick appids, never republished), then the manual extras. */
+/**
+ * Popular games from SteamSpy (used only to pick appids, never republished): this fortnight's
+ * most played first, then the most owned overall, then the manual extras.
+ */
 async function selectGames(): Promise<number[]> {
-  const top = JSON.parse(
+  const recent = JSON.parse(
     await get(
       'https://steamspy.com/api.php?request=top100in2weeks',
       'steamspy/top100in2weeks.json',
     ),
   ) as Record<string, unknown>;
+  const all = JSON.parse(
+    await get('https://steamspy.com/api.php?request=all&page=0', 'steamspy/all-0.json'),
+  ) as Record<string, { owners?: string; ccu?: number }>;
+  const mostOwned = Object.entries(all)
+    .sort(
+      ([, a], [, b]) =>
+        ownersLowerBound(b.owners) - ownersLowerBound(a.owners) || (b.ccu ?? 0) - (a.ccu ?? 0),
+    )
+    .map(([appid]) => Number(appid));
   const extras = JSON.parse(
     await readFile('apps/data-pipeline/extra-games.json', 'utf8'),
   ) as number[];
-  return [...new Set([...Object.keys(top).map(Number).slice(0, limit), ...extras])];
+  const popular = [...new Set([...Object.keys(recent).map(Number), ...mostOwned])].slice(0, limit);
+  return [...new Set([...popular, ...extras])];
+}
+
+/** SteamSpy gives owners as a range: "20,000,000 .. 50,000,000". */
+function ownersLowerBound(owners: string | undefined): number {
+  return Number(owners?.split('..')[0]?.replace(/[^\d]/g, '') || 0);
 }
 
 function countUnresolved(counts: Map<string, number>, names: UnresolvedName[]) {
