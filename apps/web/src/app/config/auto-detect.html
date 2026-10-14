@@ -7,7 +7,7 @@
           <p class="muted">{{ 'detect.intro' | transloco }}</p>
         </div>
         <button type="button" class="big" (click)="start()">
-          ⚡ {{ 'detect.button' | transloco }}
+          <ng-icon name="lucideScanSearch" aria-hidden="true" />{{ 'detect.button' | transloco }}
         </button>
       </div>
     }
@@ -22,7 +22,9 @@
           <div>
             <p>{{ 'detect.step1' | transloco }}</p>
             <button type="button" (click)="copyCommand()">
-              {{ (copied() ? 'detect.copied' : 'detect.copy') | transloco }}
+              <ng-icon [name]="copied() ? 'lucideCheck' : 'lucideCopy'" aria-hidden="true" />{{
+                (copied() ? 'detect.copied' : 'detect.copy') | transloco
+              }}
             </button>
           </div>
         </li>
@@ -38,7 +40,9 @@
           <div>
             <p>{{ 'detect.step3' | transloco }}</p>
             <button type="button" class="secondary" (click)="pasteFromClipboard()">
-              {{ 'detect.paste' | transloco }}
+              <ng-icon name="lucideClipboardPaste" aria-hidden="true" />{{
+                'detect.paste' | transloco
+              }}
             </button>
             @if (pasteError()) {
               <p class="hint warn" role="alert">{{ 'detect.pasteError' | transloco }}</p>
@@ -56,7 +60,11 @@
       </button>
     }
     @case ('done') {
-      <h2>✓ {{ 'detect.doneTitle' | transloco }}</h2>
+      <h2>
+        <ng-icon name="lucideCircleCheck" class="done-icon" aria-hidden="true" />{{
+          'detect.doneTitle' | transloco
+        }}
+      </h2>
       <p class="muted">{{ 'detect.doneBody' | transloco }}</p>
       @if (unmatched().length) {
         <p class="hint warn">

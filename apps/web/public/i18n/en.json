@@ -101,7 +101,7 @@
     },
     "levels": {
       "title": "Verdicts",
-      "body": "✓ Meets recommended: your PC meets the recommended requirements.\n! Meets minimum: the game should run, on modest settings.\n≈ Borderline: within 10% of the minimum (15% for laptops), inside the margin of error.\n✕ Not enough: below the minimum.\n? Unknown: a requirement is too vague to compare (\"2 GHz processor\") or part of your PC isn't filled in. We'd rather say \"?\" than show a false ✓."
+      "body": "Meets recommended: your PC meets the recommended requirements.\nMeets minimum: the game should run, on modest settings.\nBorderline: within 10% of the minimum (15% for laptops), inside the margin of error.\nNot enough: below the minimum.\nUnknown: a requirement is too vague to compare (\"2 GHz processor\") or part of your PC isn't filled in. We'd rather say \"Unknown\" than show a false \"Meets recommended\"."
     },
     "limits": {
       "title": "Limits",
@@ -124,7 +124,7 @@
     "windowsOnly": "This step needs Windows. On another system, fill in the fields below.",
     "step1": "Copy the detection command.",
     "copy": "Copy the command",
-    "copied": "✓ Command copied",
+    "copied": "Command copied",
     "step2": "Open PowerShell: right-click the Start menu › “Terminal” (or “Windows PowerShell”). Paste with Ctrl+V, then press Enter.",
     "step2Hint": "It runs in a second and copies the result.",
     "step3": "Come back here and paste with Ctrl+V (or the button below).",

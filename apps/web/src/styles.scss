@@ -195,6 +195,11 @@ button,
   color: #0b0c12;
   text-decoration: none;
   cursor: pointer;
+
+  ng-icon {
+    font-size: 1.2em;
+  }
+
   transition:
     filter 0.15s,
     transform 0.15s;
@@ -238,12 +243,12 @@ button,
   }
 }
 
-// Verdict pill: colour plus an icon, so the level never relies on colour alone.
+// Verdict pill (see VerdictBadge): colour plus an icon, so the level never relies on colour alone.
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 11px;
+  padding: 4px 11px 4px 8px;
   border-radius: 999px;
   font-size: 0.82rem;
   font-weight: 700;
@@ -252,34 +257,26 @@ button,
   background: color-mix(in srgb, currentColor 13%, transparent);
   border: 1px solid color-mix(in srgb, currentColor 40%, transparent);
 
-  &::before {
-    content: '?';
-    font-weight: 800;
+  ng-icon {
+    font-size: 1.15em;
+  }
+
+  &.big {
+    font-size: 1.05rem;
+    padding: 8px 16px 8px 12px;
   }
 
   &[data-level='below'] {
     color: var(--level-below);
-    &::before {
-      content: '✕';
-    }
   }
   &[data-level='borderline'] {
     color: var(--level-borderline);
-    &::before {
-      content: '≈';
-    }
   }
   &[data-level='minimum'] {
     color: var(--level-minimum);
-    &::before {
-      content: '!';
-    }
   }
   &[data-level='recommended'] {
     color: var(--level-recommended);
-    &::before {
-      content: '✓';
-    }
   }
 }
 

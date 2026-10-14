@@ -101,7 +101,7 @@
     },
     "levels": {
       "title": "Les verdicts",
-      "body": "✓ Recommandé atteint : votre PC atteint la configuration recommandée.\n! Minimum atteint : le jeu devrait tourner, réglages modestes.\n≈ Limite : vous êtes à moins de 10 % du minimum (15 % pour un portable), dans la marge d'erreur.\n✕ Insuffisant : en dessous du minimum.\n? Indéterminé : une exigence est trop vague pour être comparée (« processeur 2 GHz ») ou une partie de votre config n'est pas renseignée. Nous préférons « ? » à un faux ✓."
+      "body": "Recommandé atteint : votre PC atteint la configuration recommandée.\nMinimum atteint : le jeu devrait tourner, réglages modestes.\nLimite : vous êtes à moins de 10 % du minimum (15 % pour un portable), dans la marge d'erreur.\nInsuffisant : en dessous du minimum.\nIndéterminé : une exigence est trop vague pour être comparée (« processeur 2 GHz ») ou une partie de votre config n'est pas renseignée. Nous préférons « Indéterminé » à un faux « Recommandé atteint »."
     },
     "limits": {
       "title": "Limites",
@@ -124,7 +124,7 @@
     "windowsOnly": "Cette étape nécessite Windows. Sur un autre système, remplissez les champs ci-dessous.",
     "step1": "Copiez la commande de détection.",
     "copy": "Copier la commande",
-    "copied": "✓ Commande copiée",
+    "copied": "Commande copiée",
     "step2": "Ouvrez PowerShell : clic droit sur le menu Démarrer › « Terminal » (ou « Windows PowerShell »). Collez avec Ctrl+V, puis appuyez sur Entrée.",
     "step2Hint": "Elle s'exécute en une seconde et copie le résultat.",
     "step3": "Revenez ici et collez avec Ctrl+V (ou le bouton ci-dessous).",

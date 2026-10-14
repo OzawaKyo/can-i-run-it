@@ -5,7 +5,14 @@
     linear-gradient(135deg, rgb(139 123 255 / 0.12), rgb(79 209 232 / 0.06)), var(--surface-raised);
 
   h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin-bottom: 6px;
+  }
+
+  .done-icon {
+    color: var(--level-recommended);
   }
 
   p {

@@ -11,10 +11,13 @@ import {
   type UserConfig,
   type VerdictLevel,
 } from '@can-i-run-it/domain';
+import { NgIcon, provideIcons } from '@ng-icons/core';
+import { lucideScanSearch } from '@ng-icons/lucide';
 import { TranslocoPipe } from '@jsverse/transloco';
 import { UserConfigStore } from '../config/user-config-store';
 import { HardwareCatalog } from '../data/hardware-catalog';
 import { size, type Size } from '../shared/size';
+import { VerdictBadge } from '../shared/verdict-badge';
 import { reportIssueUrl } from './report-issue';
 
 /** A value to show: free text, a size, or an i18n key with params. */
@@ -33,7 +36,8 @@ const ORDER: RequirementComponent[] = ['cpu', 'gpu', 'ram', 'vram', 'directX', '
 /** One game: its requirements side by side with the user's PC, and the verdict. */
 @Component({
   selector: 'app-game-page',
-  imports: [NgTemplateOutlet, RouterLink, TranslocoPipe],
+  imports: [NgIcon, NgTemplateOutlet, RouterLink, TranslocoPipe, VerdictBadge],
+  viewProviders: [provideIcons({ lucideScanSearch })],
   templateUrl: './game-page.html',
   styleUrl: './game-page.scss',
 })

@@ -10,6 +10,14 @@ import {
   untracked,
 } from '@angular/core';
 import { resolveHardware } from '@can-i-run-it/domain';
+import { NgIcon, provideIcons } from '@ng-icons/core';
+import {
+  lucideCheck,
+  lucideCircleCheck,
+  lucideClipboardPaste,
+  lucideCopy,
+  lucideScanSearch,
+} from '@ng-icons/lucide';
 import { TranslocoPipe } from '@jsverse/transloco';
 import { HardwareCatalog } from '../data/hardware-catalog';
 import { DETECT_COMMAND, DETECT_COMMAND_READABLE } from './detect-command';
@@ -25,7 +33,16 @@ type Step = 'idle' | 'guide' | 'done';
  */
 @Component({
   selector: 'app-auto-detect',
-  imports: [TranslocoPipe],
+  imports: [NgIcon, TranslocoPipe],
+  viewProviders: [
+    provideIcons({
+      lucideCheck,
+      lucideCircleCheck,
+      lucideClipboardPaste,
+      lucideCopy,
+      lucideScanSearch,
+    }),
+  ],
   templateUrl: './auto-detect.html',
   styleUrl: './auto-detect.scss',
 })

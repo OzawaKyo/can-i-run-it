@@ -54,3 +54,4 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 - [x] Bouton « Signaler une erreur » (issue GitHub pré-remplie)
 - [x] Hébergement gratuit Cloudflare + déploiement automatique à chaque push (GitHub Actions)
 - [x] Vérifié sur iPhone
+- [x] Icônes Lucide (badges de verdict, boutons) à la place des symboles et emoji

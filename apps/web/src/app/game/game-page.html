@@ -39,7 +39,7 @@
     <div class="card notice">
       <p>{{ 'game.noConfig' | transloco }}</p>
       <a class="button" routerLink="/config" [queryParams]="{ detect: 1 }"
-        >⚡ {{ 'detect.button' | transloco }}</a
+        ><ng-icon name="lucideScanSearch" aria-hidden="true" />{{ 'detect.button' | transloco }}</a
       >
     </div>
   }
@@ -49,9 +49,7 @@
       <p class="card">{{ 'game.noRequirements' | transloco }}</p>
     } @else {
       <section class="card verdict" [attr.data-level]="verdict.overall" aria-live="polite">
-        <span class="badge big" [attr.data-level]="verdict.overall">{{
-          'verdict.' + verdict.overall | transloco
-        }}</span>
+        <app-verdict-badge [level]="verdict.overall" [big]="true" />
         <div>
           <p class="explained">{{ 'verdict.' + verdict.overall + 'Explained' | transloco }}</p>
           @if (verdict.overall === 'minimum' && !game.requirements.recommended) {
@@ -104,9 +102,7 @@
                 />
               </td>
               <td class="level">
-                <span class="badge" [attr.data-level]="row.level">{{
-                  'verdict.' + row.level | transloco
-                }}</span>
+                <app-verdict-badge [level]="row.level" />
               </td>
             </tr>
           }
