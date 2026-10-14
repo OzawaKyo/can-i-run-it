@@ -4,6 +4,7 @@
  "slug": "xcom-2",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
  "requirements": {
   "minimum": {
    "cpu": {

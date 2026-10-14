@@ -4,6 +4,7 @@
  "slug": "fallout-shelter",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588430/74019314eb5e4840a28f1fb420386c46790b1ffb/header_alt_assets_54.jpg?t=1790961740",
  "requirements": {
   "minimum": {
    "cpu": {

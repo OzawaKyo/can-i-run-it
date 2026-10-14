@@ -4,6 +4,7 @@
  "slug": "the-long-dark",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/a1e75390d63d32ccb8ba1caba53a7178f08f0722/header_alt_assets_2.jpg?t=1791596632",
  "requirements": {
   "minimum": {
    "cpu": {

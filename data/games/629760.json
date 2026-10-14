@@ -4,6 +4,7 @@
  "slug": "mordhau",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/629760/header.jpg?t=1777933284",
  "requirements": {
   "minimum": {
    "cpu": {

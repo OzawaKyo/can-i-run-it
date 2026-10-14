@@ -4,6 +4,7 @@
  "slug": "plateup",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599600/5787f84f6481b00b8d263475c06b177a1bff1ff8/header_alt_assets_7.jpg?t=1791790793",
  "requirements": {
   "minimum": {
    "cpu": {

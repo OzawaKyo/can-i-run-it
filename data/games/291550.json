@@ -4,6 +4,7 @@
  "slug": "brawlhalla",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291550/97fc0b0fcda97a23de2490e1436556c93a13af8f/header_alt_assets_12.jpg?t=1789564454",
  "requirements": {
   "minimum": {
    "cpu": {

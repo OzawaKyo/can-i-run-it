@@ -4,6 +4,7 @@
  "slug": "iron-snout",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424280/header.jpg?t=1729102840",
  "requirements": {
   "minimum": {
    "cpu": {

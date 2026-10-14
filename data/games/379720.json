@@ -4,6 +4,7 @@
  "slug": "doom",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg?t=1750784856",
  "requirements": {
   "minimum": {
    "cpu": {

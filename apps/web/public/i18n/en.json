@@ -4,7 +4,8 @@
     "nav": "Main navigation",
     "myPc": "My PC",
     "language": "Language",
-    "footer": "System requirements: Steam. Hardware specs: Wikipedia (CC BY-SA 4.0). Not affiliated with Valve."
+    "footer": "System requirements: Steam. Hardware specs: Wikipedia (CC BY-SA 4.0). Not affiliated with Valve.",
+    "about": "Sources & method"
   },
   "common": {
     "loading": "Loading…"
@@ -34,8 +35,7 @@
     "recommendedExplained": "Your PC meets the recommended requirements."
   },
   "home": {
-    "title": "Can my PC run this game?",
-    "lead": "Compare your PC with the requirements publishers list.",
+    "lead": "Compare your PC with the requirements publishers list for {{ count }} PC games.",
     "searchLabel": "Search for a game",
     "searchPlaceholder": "Search for a game…",
     "results": "Results",
@@ -43,7 +43,10 @@
     "yourPc": "Your PC",
     "noConfig": "Describe your PC once: this browser will remember it.",
     "setConfig": "Describe my PC",
-    "editConfig": "Edit"
+    "editConfig": "Edit",
+    "titleStart": "Can my PC run",
+    "titleEnd": "this game?",
+    "popular": "Popular games"
   },
   "config": {
     "title": "My PC",
@@ -88,6 +91,32 @@
     "source": "Source: Steam, updated {{ date }}.",
     "steamPage": "Steam page",
     "sharedMemory": "Shared (integrated graphics)",
-    "reportIssue": "Report an error"
+    "reportIssue": "Report an error",
+    "estimates": "Performance scores are estimates (±20%), hence the \"borderline\" zone.",
+    "howItWorks": "How does it work?"
+  },
+  "about": {
+    "title": "Sources & method",
+    "lead": "How the verdict is made, how far to trust it, and where the data comes from.",
+    "how": {
+      "title": "How it works",
+      "body": "Each game lists minimum and, often, recommended requirements on Steam. We recognise the processors and graphics cards named, give each a gaming performance score, then compare them with your PC, component by component. When several models are offered (\"GTX 1060 or RX 580\"), the weakest sets the bar.\nScores combine published specs (compute power, memory bandwidth, clocks, cores) with per-architecture factors calibrated on well-established gaming equivalences — including those publishers themselves state in their requirements."
+    },
+    "levels": {
+      "title": "Verdicts",
+      "body": "✓ Meets recommended: your PC meets the recommended requirements.\n! Meets minimum: the game should run, on modest settings.\n≈ Borderline: within 10% of the minimum (15% for laptops), inside the margin of error.\n✕ Not enough: below the minimum.\n? Unknown: a requirement is too vague to compare (\"2 GHz processor\") or part of your PC isn't filled in. We'd rather say \"?\" than show a false ✓."
+    },
+    "limits": {
+      "title": "Limits",
+      "body": "Scores are estimates (about ±20%): they don't replace a benchmark. Publishers' requirements are themselves approximate, sometimes dated. Frame rates aren't estimated yet.\nSpotted wrong data? The \"Report an error\" link at the bottom of each game page opens an issue on GitHub."
+    },
+    "sources": {
+      "title": "Sources & licences",
+      "body": "System requirements and images: Steam, loaded from Steam. Popular games list: SteamSpy (selection only).\nHardware specs: Wikipedia, CC BY-SA 4.0; the derived catalog is published under the same licence.\nThis site is not affiliated with Valve or any publisher. Source code (MIT): <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "body": "Your PC details stay in your browser: nothing is sent to a server. Graphics card detection runs locally, through WebGL. No account, no cookies, no analytics. Only game images are loaded from Steam's servers."
+    }
   }
 }

@@ -22,7 +22,10 @@
             "output": "data"
           }
         ],
-        "styles": ["apps/web/src/styles.scss"],
+        "styles": [
+          "node_modules/@fontsource-variable/space-grotesk/index.css",
+          "apps/web/src/styles.scss"
+        ],
         "outputPath": "dist/apps/web",
         "inlineStyleLanguage": "scss"
       },

@@ -4,6 +4,7 @@
  "slug": "tom-clancy-s-rainbow-six-siege",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/1c7b1ea3405a69c54429e2aa3dc31f3cbbeaa456/header_alt_assets_26.jpg?t=1791914543",
  "requirements": {
   "minimum": {
    "cpu": {

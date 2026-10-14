@@ -1,9 +1,16 @@
 <section class="hero">
-  <h1>{{ 'home.title' | transloco }}</h1>
-  <p class="lead">{{ 'home.lead' | transloco }}</p>
+  <h1>
+    {{ 'home.titleStart' | transloco }}
+    <span class="gradient-text">{{ 'home.titleEnd' | transloco }}</span>
+  </h1>
+  <p class="lead">{{ 'home.lead' | transloco: { count: index.games().length } }}</p>
 
-  <label class="field search">
+  <label class="search">
     <span class="visually-hidden">{{ 'home.searchLabel' | transloco }}</span>
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22">
+      <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+      <path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    </svg>
     <input
       type="search"
       autocomplete="off"
@@ -14,41 +21,86 @@
   </label>
 </section>
 
-@if (query().trim()) {
-  @if (results().length) {
-    <ul class="results" [attr.aria-label]="'home.results' | transloco">
-      @for (game of results(); track game.appid) {
-        <li>
-          <a [routerLink]="['/game', game.appid, game.slug]">{{ game.name }}</a>
-        </li>
+<div class="layout">
+  <section
+    class="games"
+    [attr.aria-label]="(query().trim() ? 'home.results' : 'home.popular') | transloco"
+  >
+    @if (query().trim()) {
+      <h2 class="section-title">{{ 'home.results' | transloco }}</h2>
+      @if (results().length) {
+        <ul class="list">
+          @for (game of results(); track game.appid) {
+            <li>
+              <a [routerLink]="['/game', game.appid, game.slug]">
+                @if (game.capsuleImage) {
+                  <img
+                    [src]="game.capsuleImage"
+                    alt=""
+                    width="231"
+                    height="87"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                  />
+                } @else {
+                  <span class="placeholder" aria-hidden="true"></span>
+                }
+                <span class="name">{{ game.name }}</span>
+              </a>
+            </li>
+          }
+        </ul>
+      } @else if (!index.loading()) {
+        <p class="muted" role="status">{{ 'home.noResults' | transloco: { query: query() } }}</p>
       }
-    </ul>
-  } @else if (!index.loading()) {
-    <p class="muted" role="status">{{ 'home.noResults' | transloco: { query: query() } }}</p>
-  }
-}
+    } @else {
+      <h2 class="section-title">{{ 'home.popular' | transloco }}</h2>
+      <ul class="grid">
+        @for (game of popular(); track game.appid) {
+          <li>
+            <a [routerLink]="['/game', game.appid, game.slug]">
+              @if (game.capsuleImage) {
+                <img
+                  [src]="game.capsuleImage"
+                  alt=""
+                  width="231"
+                  height="87"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+              } @else {
+                <span class="placeholder" aria-hidden="true"></span>
+              }
+              <span class="name">{{ game.name }}</span>
+            </a>
+          </li>
+        }
+      </ul>
+    }
+  </section>
 
-<section class="card config">
-  <h2>{{ 'home.yourPc' | transloco }}</h2>
-  @if (store.isEmpty()) {
-    <p>{{ 'home.noConfig' | transloco }}</p>
-  } @else {
-    <dl>
-      <dt>{{ 'components.cpu' | transloco }}</dt>
-      <dd>{{ config().cpu?.name ?? ('game.notSet' | transloco) }}</dd>
-      <dt>{{ 'components.gpu' | transloco }}</dt>
-      <dd>{{ config().gpu?.name ?? ('game.notSet' | transloco) }}</dd>
-      <dt>{{ 'components.ram' | transloco }}</dt>
-      <dd>
-        {{
-          config().ramGb !== undefined
-            ? ('units.gb' | transloco: { value: config().ramGb })
-            : ('game.notSet' | transloco)
-        }}
-      </dd>
-    </dl>
-  }
-  <a class="button" routerLink="/config">{{
-    (store.isEmpty() ? 'home.setConfig' : 'home.editConfig') | transloco
-  }}</a>
-</section>
+  <aside class="card pc">
+    <h2 class="section-title">{{ 'home.yourPc' | transloco }}</h2>
+    @if (store.isEmpty()) {
+      <p>{{ 'home.noConfig' | transloco }}</p>
+    } @else {
+      <dl>
+        <dt>{{ 'components.cpu' | transloco }}</dt>
+        <dd>{{ config().cpu?.name ?? ('game.notSet' | transloco) }}</dd>
+        <dt>{{ 'components.gpu' | transloco }}</dt>
+        <dd>{{ config().gpu?.name ?? ('game.notSet' | transloco) }}</dd>
+        <dt>{{ 'components.ram' | transloco }}</dt>
+        <dd>
+          {{
+            config().ramGb !== undefined
+              ? ('units.gb' | transloco: { value: config().ramGb })
+              : ('game.notSet' | transloco)
+          }}
+        </dd>
+      </dl>
+    }
+    <a class="button" [class.secondary]="!store.isEmpty()" routerLink="/config">
+      {{ (store.isEmpty() ? 'home.setConfig' : 'home.editConfig') | transloco }}
+    </a>
+  </aside>
+</div>

@@ -4,6 +4,7 @@
  "slug": "balatro",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1790693638",
  "requirements": {
   "minimum": {
    "cpu": {

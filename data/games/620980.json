@@ -4,6 +4,7 @@
  "slug": "beat-saber",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/3067664ee110fed550f5c3a1b74340cabd7d53f0/header.jpg?t=1790687477",
  "requirements": {
   "minimum": {
    "cpu": {

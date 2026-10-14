@@ -9,7 +9,31 @@
   <p class="crumbs">
     <a routerLink="/">{{ 'game.backToSearch' | transloco }}</a>
   </p>
-  <h1>{{ game.name }}</h1>
+
+  <header class="hero">
+    @if (game.headerImage) {
+      <img
+        class="banner"
+        [src]="game.headerImage"
+        alt=""
+        width="460"
+        height="215"
+        referrerpolicy="no-referrer"
+      />
+    }
+    <div class="title">
+      <h1>{{ game.name }}</h1>
+      <p class="muted">
+        {{ 'game.source' | transloco: { date: game.updatedAt } }}
+        <a
+          [href]="'https://store.steampowered.com/app/' + game.appid"
+          target="_blank"
+          rel="noopener"
+          >{{ 'game.steamPage' | transloco }}</a
+        >
+      </p>
+    </div>
+  </header>
 
   @if (store.isEmpty()) {
     <div class="card notice">
@@ -23,69 +47,69 @@
       <p class="card">{{ 'game.noRequirements' | transloco }}</p>
     } @else {
       <section class="card verdict" [attr.data-level]="verdict.overall" aria-live="polite">
-        <span class="badge" [attr.data-level]="verdict.overall">{{
+        <span class="badge big" [attr.data-level]="verdict.overall">{{
           'verdict.' + verdict.overall | transloco
         }}</span>
-        <p>{{ 'verdict.' + verdict.overall + 'Explained' | transloco }}</p>
-        @if (verdict.overall === 'minimum' && !game.requirements.recommended) {
-          <p class="hint">{{ 'game.noRecommended' | transloco }}</p>
-        }
+        <div>
+          <p class="explained">{{ 'verdict.' + verdict.overall + 'Explained' | transloco }}</p>
+          @if (verdict.overall === 'minimum' && !game.requirements.recommended) {
+            <p class="hint">{{ 'game.noRecommended' | transloco }}</p>
+          }
+        </div>
       </section>
 
-      <div class="table-wrap">
-        <table>
-          <caption class="visually-hidden">
-            {{
-              'game.tableCaption' | transloco
-            }}
-          </caption>
-          <thead>
+      <table>
+        <caption class="visually-hidden">
+          {{
+            'game.tableCaption' | transloco
+          }}
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">{{ 'game.component' | transloco }}</th>
+            <th scope="col">{{ 'game.yours' | transloco }}</th>
+            <th scope="col">{{ 'game.minimum' | transloco }}</th>
+            <th scope="col">{{ 'game.recommended' | transloco }}</th>
+            <th scope="col">{{ 'game.verdict' | transloco }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (row of rows(); track row.component) {
             <tr>
-              <th scope="col">{{ 'game.component' | transloco }}</th>
-              <th scope="col">{{ 'game.yours' | transloco }}</th>
-              <th scope="col">{{ 'game.minimum' | transloco }}</th>
-              <th scope="col">{{ 'game.recommended' | transloco }}</th>
-              <th scope="col">{{ 'game.verdict' | transloco }}</th>
+              <th scope="row">{{ 'components.' + row.component | transloco }}</th>
+              <td [attr.data-label]="'game.yours' | transloco">
+                <ng-container
+                  *ngTemplateOutlet="
+                    value;
+                    context: { $implicit: row.yours, missing: 'game.notSet' }
+                  "
+                />
+              </td>
+              <td [attr.data-label]="'game.minimum' | transloco">
+                <ng-container
+                  *ngTemplateOutlet="
+                    value;
+                    context: { $implicit: row.minimum, missing: 'game.notStated' }
+                  "
+                />
+              </td>
+              <td [attr.data-label]="'game.recommended' | transloco">
+                <ng-container
+                  *ngTemplateOutlet="
+                    value;
+                    context: { $implicit: row.recommended, missing: 'game.notStated' }
+                  "
+                />
+              </td>
+              <td class="level">
+                <span class="badge" [attr.data-level]="row.level">{{
+                  'verdict.' + row.level | transloco
+                }}</span>
+              </td>
             </tr>
-          </thead>
-          <tbody>
-            @for (row of rows(); track row.component) {
-              <tr>
-                <th scope="row">{{ 'components.' + row.component | transloco }}</th>
-                <td>
-                  <ng-container
-                    *ngTemplateOutlet="
-                      value;
-                      context: { $implicit: row.yours, missing: 'game.notSet' }
-                    "
-                  />
-                </td>
-                <td>
-                  <ng-container
-                    *ngTemplateOutlet="
-                      value;
-                      context: { $implicit: row.minimum, missing: 'game.notStated' }
-                    "
-                  />
-                </td>
-                <td>
-                  <ng-container
-                    *ngTemplateOutlet="
-                      value;
-                      context: { $implicit: row.recommended, missing: 'game.notStated' }
-                    "
-                  />
-                </td>
-                <td>
-                  <span class="badge" [attr.data-level]="row.level">{{
-                    'verdict.' + row.level | transloco
-                  }}</span>
-                </td>
-              </tr>
-            }
-          </tbody>
-        </table>
-      </div>
+          }
+        </tbody>
+      </table>
 
       @for (text of freeText(); track text) {
         <p class="card raw">
@@ -95,11 +119,9 @@
     }
   }
 
-  <p class="source">
-    {{ 'game.source' | transloco: { date: game.updatedAt } }}
-    <a [href]="'https://store.steampowered.com/app/' + game.appid" target="_blank" rel="noopener">{{
-      'game.steamPage' | transloco
-    }}</a>
+  <p class="footnote">
+    {{ 'game.estimates' | transloco }}
+    <a routerLink="/about">{{ 'game.howItWorks' | transloco }}</a>
     @if (reportUrl(); as url) {
       ·
       <a [href]="url" target="_blank" rel="noopener">{{ 'game.reportIssue' | transloco }}</a>

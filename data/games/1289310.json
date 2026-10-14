@@ -4,6 +4,7 @@
  "slug": "helltaker",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289310/header.jpg?t=1620755466",
  "requirements": {
   "minimum": {
    "cpu": {

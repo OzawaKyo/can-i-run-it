@@ -1,0 +1,9 @@
+<h1>{{ 'about.title' | transloco }}</h1>
+<p class="lead">{{ 'about.lead' | transloco }}</p>
+
+@for (section of sections; track section) {
+  <section class="card">
+    <h2>{{ 'about.' + section + '.title' | transloco }}</h2>
+    <p [innerHTML]="'about.' + section + '.body' | transloco"></p>
+  </section>
+}

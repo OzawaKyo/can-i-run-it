@@ -3,6 +3,7 @@ import type { GameIndexEntry, GameRecord, HardwareModel } from '@can-i-run-it/do
 import { resolveGameRequirements, type UnresolvedName } from './games/resolve-game-requirements';
 import { createPoliteFetch } from './http/polite-fetch';
 import { parseSteamRequirements } from './steam/parse-steam-requirements';
+import { steamImage } from './steam/steam-image';
 
 const OUT_DIR = 'data/games';
 const DAY = 24 * 3600 * 1000;
@@ -29,7 +30,7 @@ async function main() {
   const unresolved = new Map<string, number>();
   let skipped = 0;
 
-  for (const appid of appids) {
+  for (const [position, appid] of appids.entries()) {
     const body = await get(
       `https://store.steampowered.com/api/appdetails?appids=${appid}&l=english`,
       `steam/appdetails-${appid}.json`,
@@ -54,13 +55,20 @@ async function main() {
       slug: slug(details.data.name),
       source: 'steam',
       updatedAt: new Date().toISOString().slice(0, 10),
+      headerImage: steamImage(details.data.header_image),
       requirements,
     };
     await writeFile(`${OUT_DIR}/${appid}.json`, `${JSON.stringify(record, null, 1)}\n`);
-    index.push({ appid, name: record.name, slug: record.slug });
+    index.push({
+      appid,
+      name: record.name,
+      slug: record.slug,
+      rank: position + 1,
+      capsuleImage: steamImage(details.data.capsule_image),
+    });
   }
 
-  index.sort((a, b) => a.name.localeCompare(b.name));
+  index.sort((a, b) => a.rank - b.rank);
   await writeFile(`${OUT_DIR}/index.json`, `${JSON.stringify(index, null, 1)}\n`);
   const report = [...unresolved.entries()]
     .sort((a, b) => b[1] - a[1])
@@ -77,6 +85,8 @@ async function main() {
 interface SteamAppData {
   type: string;
   name: string;
+  header_image?: string;
+  capsule_image?: string;
   pc_requirements: unknown;
 }
 
@@ -90,7 +100,12 @@ async function selectGames(): Promise<number[]> {
       'https://steamspy.com/api.php?request=top100in2weeks',
       'steamspy/top100in2weeks.json',
     ),
-  ) as Record<string, unknown>;
+  ) as Record<string, { ccu?: number }>;
+  // Object keys that look like integers come back sorted numerically, not in SteamSpy's
+  // order: rank by concurrent players instead.
+  const mostPlayed = Object.entries(recent)
+    .sort(([, a], [, b]) => (b.ccu ?? 0) - (a.ccu ?? 0))
+    .map(([appid]) => Number(appid));
   const all = JSON.parse(
     await get('https://steamspy.com/api.php?request=all&page=0', 'steamspy/all-0.json'),
   ) as Record<string, { owners?: string; ccu?: number }>;
@@ -103,7 +118,7 @@ async function selectGames(): Promise<number[]> {
   const extras = JSON.parse(
     await readFile('apps/data-pipeline/extra-games.json', 'utf8'),
   ) as number[];
-  const popular = [...new Set([...Object.keys(recent).map(Number), ...mostOwned])].slice(0, limit);
+  const popular = [...new Set([...mostPlayed, ...mostOwned])].slice(0, limit);
   return [...new Set([...popular, ...extras])];
 }
 

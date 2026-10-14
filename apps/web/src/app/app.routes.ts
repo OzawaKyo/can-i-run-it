@@ -8,5 +8,6 @@ export const routes: Routes = [
   },
   { path: 'game/:appId', loadComponent: () => import('./game/game-page').then((m) => m.GamePage) },
   { path: 'config', loadComponent: () => import('./config/config-page').then((m) => m.ConfigPage) },
+  { path: 'about', loadComponent: () => import('./about/about-page').then((m) => m.AboutPage) },
   { path: '**', redirectTo: '' },
 ];

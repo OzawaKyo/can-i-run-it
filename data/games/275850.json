@@ -4,6 +4,7 @@
  "slug": "no-man-s-sky",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/2c6e38b43a5309dfcd3cc0f0134e222b0fa2d1b1/header_alt_assets_25.jpg?t=1789479023",
  "requirements": {
   "minimum": {
    "cpu": {

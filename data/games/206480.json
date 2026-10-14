@@ -4,6 +4,7 @@
  "slug": "dungeons-dragons-online",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206480/8d12e548ec3af349f6d7643522b55308f264c261/header_alt_assets_8.jpg?t=1784753222",
  "requirements": {
   "minimum": {
    "cpu": {

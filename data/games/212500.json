@@ -4,6 +4,7 @@
  "slug": "the-lord-of-the-rings-online",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/212500/625fe5b96ed86652771ebfdabdeaceaf30882fae/header_alt_assets_7.jpg?t=1790779288",
  "requirements": {
   "minimum": {
    "cpu": {

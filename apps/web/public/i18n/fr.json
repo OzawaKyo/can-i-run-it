@@ -4,7 +4,8 @@
     "nav": "Navigation principale",
     "myPc": "Mon PC",
     "language": "Langue",
-    "footer": "Configurations requises : Steam. Specs matérielles : Wikipédia (CC BY-SA 4.0). Non affilié à Valve."
+    "footer": "Configurations requises : Steam. Specs matérielles : Wikipédia (CC BY-SA 4.0). Non affilié à Valve.",
+    "about": "Sources et méthode"
   },
   "common": {
     "loading": "Chargement…"
@@ -34,8 +35,7 @@
     "recommendedExplained": "Votre PC atteint la configuration recommandée."
   },
   "home": {
-    "title": "Mon PC peut-il faire tourner ce jeu ?",
-    "lead": "Comparez votre PC aux configurations publiées par les éditeurs.",
+    "lead": "Comparez votre PC aux configurations publiées par les éditeurs de {{ count }} jeux PC.",
     "searchLabel": "Rechercher un jeu",
     "searchPlaceholder": "Rechercher un jeu…",
     "results": "Résultats",
@@ -43,7 +43,10 @@
     "yourPc": "Votre PC",
     "noConfig": "Décrivez votre PC une fois : il sera retenu dans ce navigateur.",
     "setConfig": "Décrire mon PC",
-    "editConfig": "Modifier"
+    "editConfig": "Modifier",
+    "titleStart": "Mon PC peut-il faire tourner",
+    "titleEnd": "ce jeu ?",
+    "popular": "Jeux populaires"
   },
   "config": {
     "title": "Mon PC",
@@ -88,6 +91,32 @@
     "source": "Source : Steam, mis à jour le {{ date }}.",
     "steamPage": "Page Steam",
     "sharedMemory": "Partagée (graphique intégré)",
-    "reportIssue": "Signaler une erreur"
+    "reportIssue": "Signaler une erreur",
+    "estimates": "Les scores de performance sont des estimations (±20 %), d'où la zone « limite ».",
+    "howItWorks": "Comment ça marche ?"
+  },
+  "about": {
+    "title": "Sources et méthode",
+    "lead": "Comment le verdict est calculé, ce qu'il vaut, et d'où viennent les données.",
+    "how": {
+      "title": "Comment ça marche",
+      "body": "Chaque jeu publie sur Steam une configuration minimale et, souvent, une recommandée. Nous reconnaissons les processeurs et cartes graphiques cités, leur attribuons un score de performance en jeu, puis comparons composant par composant avec votre PC. Quand plusieurs modèles sont proposés (« GTX 1060 ou RX 580 »), le plus modeste sert de seuil.\nLes scores combinent les caractéristiques techniques publiées (puissance de calcul, bande passante mémoire, fréquences, cœurs) avec des facteurs par architecture, calés sur des équivalences en jeu bien établies — dont celles que les éditeurs eux-mêmes indiquent dans leurs configurations."
+    },
+    "levels": {
+      "title": "Les verdicts",
+      "body": "✓ Recommandé atteint : votre PC atteint la configuration recommandée.\n! Minimum atteint : le jeu devrait tourner, réglages modestes.\n≈ Limite : vous êtes à moins de 10 % du minimum (15 % pour un portable), dans la marge d'erreur.\n✕ Insuffisant : en dessous du minimum.\n? Indéterminé : une exigence est trop vague pour être comparée (« processeur 2 GHz ») ou une partie de votre config n'est pas renseignée. Nous préférons « ? » à un faux ✓."
+    },
+    "limits": {
+      "title": "Limites",
+      "body": "Les scores sont des estimations (environ ±20 %) : ils ne remplacent pas un benchmark. Les configurations publiées par les éditeurs sont elles-mêmes approximatives, parfois anciennes. Les FPS ne sont pas estimés pour l'instant.\nUne donnée vous semble fausse ? Le lien « Signaler une erreur » en bas de chaque page de jeu ouvre un ticket sur GitHub."
+    },
+    "sources": {
+      "title": "Sources et licences",
+      "body": "Configurations requises et images : Steam, chargées depuis Steam. Liste des jeux populaires : SteamSpy (sélection uniquement).\nCaractéristiques matérielles : Wikipédia, licence CC BY-SA 4.0 ; le catalogue dérivé est publié sous la même licence.\nCe site n'est affilié ni à Valve ni à aucun éditeur. Code source (MIT) : <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
+    },
+    "privacy": {
+      "title": "Vie privée",
+      "body": "Votre configuration reste dans votre navigateur : rien n'est envoyé à un serveur. La détection de la carte graphique se fait localement, via WebGL. Pas de compte, pas de cookie, pas de statistiques. Seules les images des jeux sont chargées depuis les serveurs de Steam."
+    }
   }
 }

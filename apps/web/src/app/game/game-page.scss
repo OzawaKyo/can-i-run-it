@@ -1,5 +1,36 @@
 .crumbs {
-  margin: 0 0 8px;
+  margin: 0 0 16px;
+
+  a {
+    color: var(--text-muted);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--text);
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 24px;
+
+  .banner {
+    width: min(100%, 23rem);
+    height: auto;
+    aspect-ratio: 460 / 215;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    object-fit: cover;
+    flex: none;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
 }
 
 .notice {
@@ -8,6 +39,7 @@
   gap: 12px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 
   p {
     margin: 0;
@@ -17,50 +49,152 @@
 .verdict {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 16px;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  border-left: 4px solid var(--level-unknown);
+
+  &[data-level='below'] {
+    border-left-color: var(--level-below);
+  }
+  &[data-level='borderline'] {
+    border-left-color: var(--level-borderline);
+  }
+  &[data-level='minimum'] {
+    border-left-color: var(--level-minimum);
+  }
+  &[data-level='recommended'] {
+    border-left-color: var(--level-recommended);
+  }
 
   p {
     margin: 0;
   }
 
-  .badge {
-    font-size: 1.05rem;
-    padding: 6px 14px;
+  .explained {
+    font-weight: 600;
   }
-}
 
-.table-wrap {
-  overflow-x: auto;
+  .big {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
 }
 
 table {
   width: 100%;
-  border-collapse: collapse;
-  min-width: 36rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
 }
 
 th,
 td {
   text-align: start;
   vertical-align: top;
-  padding: 10px 12px;
+  padding: 14px 16px;
   border-bottom: 1px solid var(--border);
 }
 
+tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
 thead th {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--text-muted);
-  font-weight: 600;
+  background: var(--surface);
+}
+
+tbody th {
+  font-family: var(--font-display);
+  white-space: nowrap;
 }
 
 .raw {
   margin-top: 16px;
 }
 
-.source {
-  margin-top: 24px;
-  font-size: 0.9rem;
+.footnote {
+  margin-top: 28px;
+  font-size: 0.85rem;
   color: var(--text-muted);
+}
+
+// On narrow screens each row becomes a card, every value labelled by its column.
+@media (max-width: 720px) {
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+
+    .banner {
+      width: 100%;
+    }
+  }
+
+  table,
+  tbody,
+  tr,
+  th,
+  td {
+    display: block;
+  }
+
+  table {
+    background: none;
+    border: 0;
+  }
+
+  thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  tbody tr {
+    position: relative;
+    margin-bottom: 12px;
+    padding: 14px 16px;
+    background: var(--surface-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+
+  th,
+  td {
+    padding: 0;
+    border: 0;
+  }
+
+  tbody th {
+    margin-bottom: 10px;
+    padding-right: 9rem;
+  }
+
+  td[data-label] {
+    display: grid;
+    grid-template-columns: 7.5rem 1fr;
+    gap: 8px;
+    padding: 4px 0;
+
+    &::before {
+      content: attr(data-label);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  }
+
+  td.level {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+  }
 }

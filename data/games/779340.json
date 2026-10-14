@@ -4,6 +4,7 @@
  "slug": "total-war-three-kingdoms",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg?t=1780332718",
  "requirements": {
   "minimum": {
    "cpu": {

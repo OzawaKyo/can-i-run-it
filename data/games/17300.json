@@ -4,6 +4,7 @@
  "slug": "crysis",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17300/header.jpg?t=1777495390",
  "requirements": {
   "minimum": {
    "cpu": {

@@ -1,21 +1,28 @@
-<a class="skip-link" href="#main">{{ 'app.skip' | transloco }}</a>
+<a class="skip-link button" href="#main">{{ 'app.skip' | transloco }}</a>
 <header class="topbar">
-  <a class="brand" routerLink="/">Can I Run It?</a>
-  <nav [attr.aria-label]="'app.nav' | transloco">
-    <a routerLink="/config">{{ 'app.myPc' | transloco }}</a>
-    <span class="languages" role="group" [attr.aria-label]="'app.language' | transloco">
-      @for (code of languages; track code) {
-        <button
-          type="button"
-          class="link"
-          [attr.aria-pressed]="language() === code"
-          (click)="setLanguage(code)"
-        >
-          {{ code.toUpperCase() }}
-        </button>
-      }
-    </span>
-  </nav>
+  <div class="inner">
+    <a class="brand" routerLink="/">
+      <span class="logo" aria-hidden="true">▲</span>
+      <span>Can I <span class="gradient-text">Run It?</span></span>
+    </a>
+    <nav [attr.aria-label]="'app.nav' | transloco">
+      <a class="nav-link" routerLink="/config" routerLinkActive="active">{{
+        'app.myPc' | transloco
+      }}</a>
+      <span class="languages" role="group" [attr.aria-label]="'app.language' | transloco">
+        @for (code of languages; track code) {
+          <button
+            type="button"
+            class="link"
+            [attr.aria-pressed]="language() === code"
+            (click)="setLanguage(code)"
+          >
+            {{ code.toUpperCase() }}
+          </button>
+        }
+      </span>
+    </nav>
+  </div>
 </header>
 
 <main id="main">
@@ -23,5 +30,8 @@
 </main>
 
 <footer>
-  <p>{{ 'app.footer' | transloco }}</p>
+  <p>
+    {{ 'app.footer' | transloco }}
+    <a routerLink="/about">{{ 'app.about' | transloco }}</a>
+  </p>
 </footer>

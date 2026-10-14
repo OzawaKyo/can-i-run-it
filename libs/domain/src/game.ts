@@ -30,6 +30,8 @@ export interface GameRecord {
   slug: string;
   source: 'steam';
   updatedAt: string;
+  /** Banner served by Steam's CDN (460×215). */
+  headerImage?: string;
   requirements: { minimum?: StoredTier; recommended?: StoredTier };
 }
 
@@ -38,6 +40,10 @@ export interface GameIndexEntry {
   appid: number;
   name: string;
   slug: string;
+  /** Popularity, 1 = most popular; the index is sorted by it. */
+  rank: number;
+  /** Small capsule served by Steam's CDN (231×87). */
+  capsuleImage?: string;
 }
 
 /** Turns a stored game's requirements into what `computeVerdict` takes, looking ids up in the catalog. */

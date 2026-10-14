@@ -4,6 +4,7 @@
  "slug": "hades-ii",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg?t=1779901265",
  "requirements": {
   "minimum": {
    "cpu": {

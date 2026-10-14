@@ -4,6 +4,7 @@
  "slug": "party-animals",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260320/14b53fc1e5d888e5690221350d83eb133b7af683/header_alt_assets_10.jpg?t=1789480764",
  "requirements": {
   "minimum": {
    "cpu": {

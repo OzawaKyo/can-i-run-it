@@ -4,6 +4,7 @@
  "slug": "garry-s-mod",
  "source": "steam",
  "updatedAt": "2026-10-14",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
  "requirements": {
   "minimum": {
    "cpu": {
