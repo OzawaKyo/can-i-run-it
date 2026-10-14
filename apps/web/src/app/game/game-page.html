@@ -1,0 +1,119 @@
+@if (game.isLoading()) {
+  <p role="status">{{ 'common.loading' | transloco }}</p>
+} @else if (game.error() || !game.value()) {
+  <h1>{{ 'game.notFound' | transloco }}</h1>
+  <p>
+    <a routerLink="/">{{ 'game.backToSearch' | transloco }}</a>
+  </p>
+} @else if (game.value(); as game) {
+  <p class="crumbs">
+    <a routerLink="/">{{ 'game.backToSearch' | transloco }}</a>
+  </p>
+  <h1>{{ game.name }}</h1>
+
+  @if (store.isEmpty()) {
+    <div class="card notice">
+      <p>{{ 'game.noConfig' | transloco }}</p>
+      <a class="button" routerLink="/config">{{ 'game.setConfig' | transloco }}</a>
+    </div>
+  }
+
+  @if (verdict(); as verdict) {
+    @if (!game.requirements.minimum) {
+      <p class="card">{{ 'game.noRequirements' | transloco }}</p>
+    } @else {
+      <section class="card verdict" [attr.data-level]="verdict.overall" aria-live="polite">
+        <span class="badge" [attr.data-level]="verdict.overall">{{
+          'verdict.' + verdict.overall | transloco
+        }}</span>
+        <p>{{ 'verdict.' + verdict.overall + 'Explained' | transloco }}</p>
+        @if (verdict.overall === 'minimum' && !game.requirements.recommended) {
+          <p class="hint">{{ 'game.noRecommended' | transloco }}</p>
+        }
+      </section>
+
+      <div class="table-wrap">
+        <table>
+          <caption class="visually-hidden">
+            {{
+              'game.tableCaption' | transloco
+            }}
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">{{ 'game.component' | transloco }}</th>
+              <th scope="col">{{ 'game.yours' | transloco }}</th>
+              <th scope="col">{{ 'game.minimum' | transloco }}</th>
+              <th scope="col">{{ 'game.recommended' | transloco }}</th>
+              <th scope="col">{{ 'game.verdict' | transloco }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (row of rows(); track row.component) {
+              <tr>
+                <th scope="row">{{ 'components.' + row.component | transloco }}</th>
+                <td>
+                  <ng-container
+                    *ngTemplateOutlet="
+                      value;
+                      context: { $implicit: row.yours, missing: 'game.notSet' }
+                    "
+                  />
+                </td>
+                <td>
+                  <ng-container
+                    *ngTemplateOutlet="
+                      value;
+                      context: { $implicit: row.minimum, missing: 'game.notStated' }
+                    "
+                  />
+                </td>
+                <td>
+                  <ng-container
+                    *ngTemplateOutlet="
+                      value;
+                      context: { $implicit: row.recommended, missing: 'game.notStated' }
+                    "
+                  />
+                </td>
+                <td>
+                  <span class="badge" [attr.data-level]="row.level">{{
+                    'verdict.' + row.level | transloco
+                  }}</span>
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+
+      @for (text of freeText(); track text) {
+        <p class="card raw">
+          <span class="field-label">{{ 'game.publishedAs' | transloco }}</span> {{ text }}
+        </p>
+      }
+    }
+  }
+
+  <p class="source">
+    {{ 'game.source' | transloco: { date: game.updatedAt } }}
+    <a [href]="'https://store.steampowered.com/app/' + game.appid" target="_blank" rel="noopener">{{
+      'game.steamPage' | transloco
+    }}</a>
+  </p>
+}
+
+<ng-template #value let-shown let-missing="missing">
+  @if (!shown) {
+    <span class="muted">{{ missing | transloco }}</span>
+  } @else if (isText(shown)) {
+    {{ shown.text }}
+  } @else if (isSize(shown)) {
+    {{ shown.size.key | transloco: { value: shown.size.value } }}
+    @if (shown.ssd) {
+      (SSD)
+    }
+  } @else if (isKey(shown)) {
+    <span class="muted">{{ shown.key | transloco }}</span>
+  }
+</ng-template>

@@ -1,0 +1,81 @@
+{
+ "appid": 227940,
+ "name": "Heroes & Generals",
+ "slug": "heroes-generals",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2GHz CPU w. dual-core"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "ATI HD 4810",
+     "Nvidia 9600GT"
+    ],
+    "ids": [
+     "amd-radeon-hd-4810",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 and up",
+    "processor": "2GHz CPU w. dual-core",
+    "memory": "4 GB RAM",
+    "graphics": "ATI HD 4810 / Nvidia 9600GT or higher",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "3 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5",
+     "AMD Ryzen 5"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 560",
+     "AMD HD 6870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6870-1gb",
+     "amd-radeon-hd-6870-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 x64",
+    "processor": "Intel i5 / AMD Ryzen 5 or higher",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 560 / AMD HD 6870 or higher",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "3 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  }
+ }
+}

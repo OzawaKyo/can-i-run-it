@@ -1,0 +1,85 @@
+{
+ "appid": 292030,
+ "name": "The Witcher 3: Wild Hunt — Remastered",
+ "slug": "the-witcher-3-wild-hunt-remastered",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i5-8400",
+     "Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1660",
+     "Radeon RX 5500 XT 8GB",
+     "Arc A580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-5500-xt-8gb",
+     "intel-arc-a580"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 6,
+   "storage": {
+    "gb": 60,
+    "ssd": true
+   },
+   "raw": {
+    "os": "64-bit Windows 11",
+    "processor": "Core i5-8400 / Ryzen 5 2600",
+    "memory": "12 GB RAM",
+    "graphics": "GeForce GTX 1660 / Radeon RX 5500 XT 8GB / Arc A580",
+    "storage": "60 SSD GB available space",
+    "additional notes": "VRAM 6 GB"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 8700K",
+     "AMD Ryzen 5 3600X"
+    ],
+    "ids": [
+     "intel-core-i7-8700k",
+     "amd-ryzen-5-3600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "RTX 2060 Super",
+     "AMD Radeon RX 6600 XT",
+     "Intel Arc B580"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-super",
+     "amd-radeon-rx-6600-xt",
+     "intel-arc-b580"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "storage": {
+    "gb": 60,
+    "ssd": true
+   },
+   "raw": {
+    "os": "64-bit Windows 11",
+    "processor": "Intel Core i7 8700K / AMD Ryzen 5 3600X",
+    "memory": "16 GB RAM",
+    "graphics": "RTX 2060 Super / AMD Radeon RX 6600 XT / Intel Arc B580",
+    "storage": "60 SSD GB available space",
+    "additional notes": "VRAM 8 GB"
+   }
+  }
+ }
+}

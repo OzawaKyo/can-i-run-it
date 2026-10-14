@@ -1,0 +1,41 @@
+{
+ "appid": 730,
+ "name": "Counter-Strike 2",
+ "slug": "counter-strike-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "4 hardware CPU threads - Intel Core i5 750"
+    ],
+    "ids": [
+     "intel-core-i5-750"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Video card must be and should be a DirectX 11-compatible with support for Shader Model 5.0 1GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 85,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "4 hardware CPU threads - Intel Core i5 750 or higher",
+    "memory": "8 GB RAM",
+    "graphics": "Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0",
+    "directx": "Version 11",
+    "storage": "85 GB available space"
+   }
+  }
+ }
+}

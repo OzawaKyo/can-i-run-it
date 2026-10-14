@@ -1,0 +1,74 @@
+{
+ "appid": 242760,
+ "name": "The Forest",
+ "slug": "the-forest",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Dual-Core 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8800GT"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Dual-Core 2.4 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce 8800GT",
+    "directx": "Version 9.0",
+    "storage": "5 GB available space",
+    "sound card": "DirectX-compatible",
+    "vr support": "SteamVR or Oculus PC",
+    "additional notes": "32bit windows users need to ensure they have at least 4gb of ram usable on their system."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 560"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Quad Core Processor",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 560",
+    "directx": "Version 9.0",
+    "storage": "5 GB available space",
+    "sound card": "DirectX-compatible"
+   }
+  }
+ }
+}

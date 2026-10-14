@@ -1,0 +1,54 @@
+<section class="hero">
+  <h1>{{ 'home.title' | transloco }}</h1>
+  <p class="lead">{{ 'home.lead' | transloco }}</p>
+
+  <label class="field search">
+    <span class="visually-hidden">{{ 'home.searchLabel' | transloco }}</span>
+    <input
+      type="search"
+      autocomplete="off"
+      [placeholder]="'home.searchPlaceholder' | transloco"
+      [value]="query()"
+      (input)="query.set($any($event.target).value)"
+    />
+  </label>
+</section>
+
+@if (query().trim()) {
+  @if (results().length) {
+    <ul class="results" [attr.aria-label]="'home.results' | transloco">
+      @for (game of results(); track game.appid) {
+        <li>
+          <a [routerLink]="['/game', game.appid, game.slug]">{{ game.name }}</a>
+        </li>
+      }
+    </ul>
+  } @else if (!index.loading()) {
+    <p class="muted" role="status">{{ 'home.noResults' | transloco: { query: query() } }}</p>
+  }
+}
+
+<section class="card config">
+  <h2>{{ 'home.yourPc' | transloco }}</h2>
+  @if (store.isEmpty()) {
+    <p>{{ 'home.noConfig' | transloco }}</p>
+  } @else {
+    <dl>
+      <dt>{{ 'components.cpu' | transloco }}</dt>
+      <dd>{{ config().cpu?.name ?? ('game.notSet' | transloco) }}</dd>
+      <dt>{{ 'components.gpu' | transloco }}</dt>
+      <dd>{{ config().gpu?.name ?? ('game.notSet' | transloco) }}</dd>
+      <dt>{{ 'components.ram' | transloco }}</dt>
+      <dd>
+        {{
+          config().ramGb !== undefined
+            ? ('units.gb' | transloco: { value: config().ramGb })
+            : ('game.notSet' | transloco)
+        }}
+      </dd>
+    </dl>
+  }
+  <a class="button" routerLink="/config">{{
+    (store.isEmpty() ? 'home.setConfig' : 'home.editConfig') | transloco
+  }}</a>
+</section>

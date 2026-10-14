@@ -1,0 +1,7 @@
+{
+  "appid": 10,
+  "name": "Counter-Strike",
+  "pc_requirements": {
+    "minimum": "\n\t\t\t<p><strong>Minimum:</strong> 500 mhz processor, 96mb ram, 16mb video card, Windows XP, Mouse, Keyboard, Internet Connection<br /></p>\n\t\t\t<p><strong>Recommended:</strong> 800 mhz processor, 128mb ram, 32mb+ video card, Windows XP, Mouse, Keyboard, Internet Connection<br /></p>\n\t\t\t"
+  }
+}

@@ -1,0 +1,83 @@
+{
+ "appid": 227300,
+ "name": "Euro Truck Simulator 2",
+ "slug": "euro-truck-simulator-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6400",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-core-i5-6400",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon RX 460",
+     "Intel HD 630 ( VRAM) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb",
+     "intel-hd-graphics-630"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i5-6400 or AMD Ryzen 3 1200 or similar",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 or AMD Radeon RX 460 or Intel HD 630 (2GB VRAM)",
+    "storage": "25 GB available space (Euro Truck Simulator 2 base game)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-9600",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i5-9600",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660",
+     "AMD Radeon RX 590 ( VRAM) 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 2,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i5-9600 or AMD Ryzen 5 3600 or similar",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660 or AMD Radeon RX 590 (2GB VRAM)",
+    "storage": "25 GB available space (Euro Truck Simulator 2 base game)"
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "appid": 438100,
+ "name": "VRChat",
+ "slug": "vrchat",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-4590",
+     "AMD FX 8350 equivalent"
+    ],
+    "ids": [
+     "intel-core-i5-4590",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970",
+     "AMD Radeon R9 290 equivalent"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11",
+    "processor": "Intel i5-4590 / AMD FX 8350 equivalent or greater",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 / AMD Radeon R9 290 equivalent or greater",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space",
+    "vr support": "SteamVR"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ }
+}

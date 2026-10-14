@@ -1,0 +1,23 @@
+{
+ "appid": 340,
+ "name": "Half-Life 2: Lost Coast",
+ "slug": "half-life-2-lost-coast",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "raw": {
+    "text": "Pentium 4 2.4GHz or AMD 2800+ Processor, 1GB RAM, DirectX 9 level graphics card, Windows XP, Mouse, Keyboard, Internet Connection"
+   }
+  }
+ }
+}

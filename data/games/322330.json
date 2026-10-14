@@ -1,0 +1,43 @@
+{
+ "appid": 322330,
+ "name": "Don't Starve Together",
+ "slug": "don-t-starve-together",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.7+ GHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Radeon HD5450; 256 MB"
+    ],
+    "ids": [
+     "amd-radeon-hd-5450-512mb",
+     "amd-radeon-hd-5450-1gb",
+     "amd-radeon-hd-5450-2gb"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista/Windows 7/Windows 8",
+    "processor": "1.7+ GHz or better",
+    "memory": "1 GB RAM",
+    "graphics": "Radeon HD5450 or better; 256 MB or higher",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "3 GB available space",
+    "sound card": "100% DirectX9.0c compatible sound card and drivers"
+   }
+  }
+ }
+}

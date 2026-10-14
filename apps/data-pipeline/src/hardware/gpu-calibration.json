@@ -1,0 +1,30 @@
+{
+  "bandwidthWeight": 0.4,
+  "bandwidthScale": 22.770833333333332,
+  "factors": {
+    "Pascal": 1,
+    "Maxwell": 0.857,
+    "Kepler": 0.467,
+    "Fermi": 0.459,
+    "Tesla": 0.265,
+    "Turing": 1.094,
+    "Ampere": 0.697,
+    "Ada Lovelace": 0.8,
+    "Blackwell": 0.721,
+    "GCN 4": 0.644,
+    "GCN 1": 0.354,
+    "RDNA 1": 0.865,
+    "GCN 2": 0.473,
+    "GCN 3": 0.419,
+    "GCN 5": 0.486,
+    "RDNA 2": 1.188,
+    "RDNA 3": 0.627,
+    "RDNA 4": 0.843,
+    "TeraScale 1": 0.175,
+    "TeraScale 2": 0.201,
+    "TeraScale 3": 0.217,
+    "Xe-HPG": 0.394,
+    "Xe2-HPG": 0.735,
+    "Gen9": 0.957
+  }
+}

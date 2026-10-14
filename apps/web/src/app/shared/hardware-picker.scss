@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.options {
+  position: absolute;
+  inset-inline: 0;
+  top: 100%;
+  z-index: 10;
+  margin: 4px 0 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-height: 18rem;
+  overflow-y: auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: calc(var(--radius) - 4px);
+  cursor: pointer;
+
+  &.active,
+  &:hover {
+    background: var(--accent-soft);
+  }
+}
+
+.tag {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}

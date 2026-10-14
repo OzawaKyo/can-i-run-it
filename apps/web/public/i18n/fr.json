@@ -1,0 +1,92 @@
+{
+  "app": {
+    "skip": "Aller au contenu",
+    "nav": "Navigation principale",
+    "myPc": "Mon PC",
+    "language": "Langue",
+    "footer": "Configurations requises : Steam. Specs matérielles : Wikipédia (CC BY-SA 4.0). Non affilié à Valve."
+  },
+  "common": {
+    "loading": "Chargement…"
+  },
+  "units": {
+    "gb": "{{ value }} Go",
+    "mb": "{{ value }} Mo"
+  },
+  "components": {
+    "cpu": "Processeur",
+    "gpu": "Carte graphique",
+    "ram": "Mémoire vive",
+    "vram": "Mémoire vidéo",
+    "directX": "DirectX",
+    "storage": "Stockage"
+  },
+  "verdict": {
+    "below": "Insuffisant",
+    "belowExplained": "Votre PC est en dessous de la configuration minimale.",
+    "unknown": "Indéterminé",
+    "unknownExplained": "Impossible de conclure : une exigence n'a pas pu être lue, ou une partie de votre config n'est pas renseignée.",
+    "borderline": "Limite",
+    "borderlineExplained": "Votre PC est très proche du minimum : le jeu pourrait tourner, de justesse.",
+    "minimum": "Minimum atteint",
+    "minimumExplained": "Votre PC atteint la configuration minimale.",
+    "recommended": "Recommandé atteint",
+    "recommendedExplained": "Votre PC atteint la configuration recommandée."
+  },
+  "home": {
+    "title": "Mon PC peut-il faire tourner ce jeu ?",
+    "lead": "Comparez votre PC aux configurations publiées par les éditeurs.",
+    "searchLabel": "Rechercher un jeu",
+    "searchPlaceholder": "Rechercher un jeu…",
+    "results": "Résultats",
+    "noResults": "Aucun jeu trouvé pour « {{ query }} ».",
+    "yourPc": "Votre PC",
+    "noConfig": "Décrivez votre PC une fois : il sera retenu dans ce navigateur.",
+    "setConfig": "Décrire mon PC",
+    "editConfig": "Modifier"
+  },
+  "config": {
+    "title": "Mon PC",
+    "intro": "Ces informations restent dans votre navigateur.",
+    "gpu": "Carte graphique",
+    "gpuPlaceholder": "ex. GeForce GTX 1060",
+    "detect": "Détecter",
+    "detected": "Détecté : {{ name }}.",
+    "detectedUnknown": "Le navigateur indique « {{ name }} », introuvable dans notre catalogue : choisissez votre carte.",
+    "detectFailed": "Le navigateur ne donne pas le modèle : choisissez votre carte.",
+    "cpu": "Processeur",
+    "cpuPlaceholder": "ex. Core i5-8400",
+    "cpuHint": "Le navigateur ne peut pas détecter le processeur. Sous Windows : Paramètres › Système › Informations système.",
+    "ram": "Mémoire vive (Go)",
+    "ramHint": "Le navigateur indique environ {{ gb }} Go.",
+    "ramHintAtLeast": "Le navigateur indique au moins {{ gb }} Go.",
+    "freeStorage": "Espace disque libre (Go)",
+    "storageType": "Type de disque",
+    "hdd": "Disque dur (HDD)",
+    "back": "← Rechercher un jeu"
+  },
+  "picker": {
+    "laptop": "portable"
+  },
+  "game": {
+    "notFound": "Jeu introuvable",
+    "backToSearch": "← Rechercher un autre jeu",
+    "noConfig": "Décrivez votre PC pour obtenir un verdict.",
+    "setConfig": "Décrire mon PC",
+    "noRequirements": "Ce jeu ne publie pas de configuration requise.",
+    "noRecommended": "Le jeu ne publie pas de configuration recommandée : c'est le meilleur verdict possible.",
+    "tableCaption": "Votre PC comparé aux configurations du jeu",
+    "component": "Composant",
+    "yours": "Votre PC",
+    "minimum": "Minimum",
+    "recommended": "Recommandé",
+    "verdict": "Verdict",
+    "notSet": "Non renseigné",
+    "notStated": "—",
+    "capabilityOnly": "Toute carte compatible (voir DirectX et mémoire vidéo)",
+    "publishedAs": "Tel que publié :",
+    "source": "Source : Steam, mis à jour le {{ date }}.",
+    "steamPage": "Page Steam",
+    "sharedMemory": "Partagée (graphique intégré)"
+  }
+}

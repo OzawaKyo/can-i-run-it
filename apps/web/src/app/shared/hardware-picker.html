@@ -1,0 +1,36 @@
+<label class="field">
+  <span class="field-label">{{ label() }}</span>
+  <input
+    type="text"
+    role="combobox"
+    autocomplete="off"
+    [attr.aria-expanded]="results().length > 0"
+    [attr.aria-controls]="listId"
+    [attr.aria-activedescendant]="results().length ? listId + '-' + active() : null"
+    [placeholder]="placeholder()"
+    [value]="query()"
+    (input)="onInput($any($event.target).value)"
+    (focus)="open.set(true)"
+    (keydown)="onKeydown($event)"
+    (blur)="close()"
+  />
+</label>
+@if (results().length) {
+  <ul class="options" role="listbox" [id]="listId">
+    @for (model of results(); track model.id; let index = $index) {
+      <li
+        role="option"
+        [id]="listId + '-' + index"
+        [class.active]="index === active()"
+        [attr.aria-selected]="index === active()"
+        (mousedown)="$event.preventDefault()"
+        (click)="choose(model)"
+      >
+        {{ model.name }}
+        @if (model.laptop) {
+          <span class="tag">{{ 'picker.laptop' | transloco }}</span>
+        }
+      </li>
+    }
+  </ul>
+}

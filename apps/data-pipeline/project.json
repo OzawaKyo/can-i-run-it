@@ -1,0 +1,33 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "data-pipeline",
+  "projectType": "application",
+  "sourceRoot": "apps/data-pipeline/src",
+  "targets": {
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "vitest run",
+        "cwd": "apps/data-pipeline"
+      }
+    },
+    "build-hardware": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsx --tsconfig apps/data-pipeline/tsconfig.json apps/data-pipeline/src/build-hardware.ts"
+      }
+    },
+    "build-games": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsx --tsconfig apps/data-pipeline/tsconfig.json apps/data-pipeline/src/build-games.ts"
+      }
+    },
+    "calibrate-gpus": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsx --tsconfig apps/data-pipeline/tsconfig.json apps/data-pipeline/src/calibrate-gpus.ts"
+      }
+    }
+  }
+}

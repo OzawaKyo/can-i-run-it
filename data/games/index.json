@@ -1,0 +1,252 @@
+[
+ {
+  "appid": 251570,
+  "name": "7 Days to Die",
+  "slug": "7-days-to-die"
+ },
+ {
+  "appid": 346110,
+  "name": "ARK: Survival Evolved",
+  "slug": "ark-survival-evolved"
+ },
+ {
+  "appid": 107410,
+  "name": "Arma 3",
+  "slug": "arma-3"
+ },
+ {
+  "appid": 49520,
+  "name": "Borderlands 2",
+  "slug": "borderlands-2"
+ },
+ {
+  "appid": 291550,
+  "name": "Brawlhalla",
+  "slug": "brawlhalla"
+ },
+ {
+  "appid": 255710,
+  "name": "Cities: Skylines",
+  "slug": "cities-skylines"
+ },
+ {
+  "appid": 10,
+  "name": "Counter-Strike",
+  "slug": "counter-strike"
+ },
+ {
+  "appid": 730,
+  "name": "Counter-Strike 2",
+  "slug": "counter-strike-2"
+ },
+ {
+  "appid": 100,
+  "name": "Counter-Strike: Condition Zero",
+  "slug": "counter-strike-condition-zero"
+ },
+ {
+  "appid": 240,
+  "name": "Counter-Strike: Source",
+  "slug": "counter-strike-source"
+ },
+ {
+  "appid": 221100,
+  "name": "DayZ",
+  "slug": "dayz"
+ },
+ {
+  "appid": 381210,
+  "name": "Dead by Daylight",
+  "slug": "dead-by-daylight"
+ },
+ {
+  "appid": 322330,
+  "name": "Don't Starve Together",
+  "slug": "don-t-starve-together"
+ },
+ {
+  "appid": 239140,
+  "name": "Dying Light",
+  "slug": "dying-light"
+ },
+ {
+  "appid": 227300,
+  "name": "Euro Truck Simulator 2",
+  "slug": "euro-truck-simulator-2"
+ },
+ {
+  "appid": 377160,
+  "name": "Fallout 4",
+  "slug": "fallout-4"
+ },
+ {
+  "appid": 4000,
+  "name": "Garry's Mod",
+  "slug": "garry-s-mod"
+ },
+ {
+  "appid": 271590,
+  "name": "Grand Theft Auto V Legacy",
+  "slug": "grand-theft-auto-v-legacy"
+ },
+ {
+  "appid": 219990,
+  "name": "Grim Dawn",
+  "slug": "grim-dawn"
+ },
+ {
+  "appid": 70,
+  "name": "Half-Life",
+  "slug": "half-life"
+ },
+ {
+  "appid": 220,
+  "name": "Half-Life 2",
+  "slug": "half-life-2"
+ },
+ {
+  "appid": 320,
+  "name": "Half-Life 2: Deathmatch",
+  "slug": "half-life-2-deathmatch"
+ },
+ {
+  "appid": 340,
+  "name": "Half-Life 2: Lost Coast",
+  "slug": "half-life-2-lost-coast"
+ },
+ {
+  "appid": 227940,
+  "name": "Heroes & Generals",
+  "slug": "heroes-generals"
+ },
+ {
+  "appid": 550,
+  "name": "Left 4 Dead 2",
+  "slug": "left-4-dead-2"
+ },
+ {
+  "appid": 261550,
+  "name": "Mount & Blade II: Bannerlord",
+  "slug": "mount-blade-ii-bannerlord"
+ },
+ {
+  "appid": 238960,
+  "name": "Path of Exile",
+  "slug": "path-of-exile"
+ },
+ {
+  "appid": 218620,
+  "name": "PAYDAY 2",
+  "slug": "payday-2"
+ },
+ {
+  "appid": 400,
+  "name": "Portal",
+  "slug": "portal"
+ },
+ {
+  "appid": 108600,
+  "name": "Project Zomboid",
+  "slug": "project-zomboid"
+ },
+ {
+  "appid": 252950,
+  "name": "Rocket League®",
+  "slug": "rocket-league"
+ },
+ {
+  "appid": 252490,
+  "name": "Rust",
+  "slug": "rust"
+ },
+ {
+  "appid": 8930,
+  "name": "Sid Meier's Civilization® V",
+  "slug": "sid-meier-s-civilization-v"
+ },
+ {
+  "appid": 289070,
+  "name": "Sid Meier’s Civilization® VI",
+  "slug": "sid-meier-s-civilization-vi"
+ },
+ {
+  "appid": 386360,
+  "name": "SMITE®",
+  "slug": "smite"
+ },
+ {
+  "appid": 413150,
+  "name": "Stardew Valley",
+  "slug": "stardew-valley"
+ },
+ {
+  "appid": 417910,
+  "name": "Street Warriors Online",
+  "slug": "street-warriors-online"
+ },
+ {
+  "appid": 440,
+  "name": "Team Fortress 2",
+  "slug": "team-fortress-2"
+ },
+ {
+  "appid": 105600,
+  "name": "Terraria",
+  "slug": "terraria"
+ },
+ {
+  "appid": 242760,
+  "name": "The Forest",
+  "slug": "the-forest"
+ },
+ {
+  "appid": 292030,
+  "name": "The Witcher 3: Wild Hunt — Remastered",
+  "slug": "the-witcher-3-wild-hunt-remastered"
+ },
+ {
+  "appid": 359550,
+  "name": "Tom Clancy's Rainbow Six Siege",
+  "slug": "tom-clancy-s-rainbow-six-siege"
+ },
+ {
+  "appid": 304050,
+  "name": "Trove",
+  "slug": "trove"
+ },
+ {
+  "appid": 304930,
+  "name": "Unturned",
+  "slug": "unturned"
+ },
+ {
+  "appid": 438100,
+  "name": "VRChat",
+  "slug": "vrchat"
+ },
+ {
+  "appid": 431960,
+  "name": "Wallpaper Engine",
+  "slug": "wallpaper-engine"
+ },
+ {
+  "appid": 236390,
+  "name": "War Thunder",
+  "slug": "war-thunder"
+ },
+ {
+  "appid": 291480,
+  "name": "Warface: Clutch",
+  "slug": "warface-clutch"
+ },
+ {
+  "appid": 230410,
+  "name": "Warframe",
+  "slug": "warframe"
+ },
+ {
+  "appid": 433850,
+  "name": "Z1 Battle Royale",
+  "slug": "z1-battle-royale"
+ }
+]

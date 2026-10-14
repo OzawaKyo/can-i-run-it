@@ -1,0 +1,39 @@
+{
+ "appid": 108600,
+ "name": "Project Zomboid",
+ "slug": "project-zomboid",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel 2.77GHz Quad-core"
+    ],
+    "ids": [],
+    "estimatedScore": 39
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated graphics card with of VRAM minimum 4GB",
+     "OpenGL 2.1 and GLSL 1.2 support (generally 2012)"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 / 11 - 64 Bit",
+    "processor": "Intel 2.77GHz Quad-core",
+    "memory": "8Gb Ram",
+    "storage": "10Gb",
+    "graphics": "Dedicated graphics card with 4 GB of VRAM minimum, OpenGL 2.1 and GLSL 1.2 support (generally 2012 or newer)",
+    "sound": "FMOD compatible sound card"
+   }
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "can-i-run-it",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "nx run web:serve --host=0.0.0.0",
+    "build": "nx build web",
+    "watch": "nx build web --watch --configuration development",
+    "test": "nx run-many -t test"
+  },
+  "private": true,
+  "packageManager": "npm@11.19.0",
+  "dependencies": {
+    "@angular/common": "^22.1.0",
+    "@angular/compiler": "^22.1.0",
+    "@angular/core": "^22.1.0",
+    "@angular/forms": "^22.1.0",
+    "@angular/platform-browser": "^22.1.0",
+    "@angular/router": "^22.1.0",
+    "@jsverse/transloco": "^8.4.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "^22.1.4",
+    "@angular-devkit/schematics": "^22.1.4",
+    "@angular/build": "^22.1.4",
+    "@angular/cli": "^22.1.4",
+    "@angular/compiler-cli": "^22.1.0",
+    "@nx/angular": "23.1.1",
+    "@nx/workspace": "23.1.1",
+    "@schematics/angular": "^22.1.4",
+    "@types/node": "^24.19.2",
+    "cheerio": "^1.2.0",
+    "domhandler": "^6.0.1",
+    "jsdom": "^28.0.0",
+    "nx": "23.1.1",
+    "prettier": "^3.8.1",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.2",
+    "vitest": "^4.0.8"
+  }
+}

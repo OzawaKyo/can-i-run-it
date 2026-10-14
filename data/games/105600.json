@@ -1,0 +1,71 @@
+{
+ "appid": 105600,
+ "name": "Terraria",
+ "slug": "terraria",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "128mb Video Memory",
+     "capable of Shader Model 2.0+"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Xp, Vista, 7, 8/8.1, 10",
+    "processor": "2.0 Ghz",
+    "memory": "2.5GB",
+    "storage": "200MB",
+    "graphics": "128mb Video Memory, capable of Shader Model 2.0+",
+    "directx": "9.0c or Greater"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual Core 3.0 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "256mb Video Memory",
+     "capable of Shader Model 2.0+"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8/8.1, 10",
+    "processor": "Dual Core 3.0 Ghz",
+    "memory": "4GB",
+    "storage": "200MB",
+    "graphics": "256mb Video Memory, capable of Shader Model 2.0+",
+    "directx": "9.0c or Greater"
+   }
+  }
+ }
+}

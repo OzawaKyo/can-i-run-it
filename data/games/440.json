@@ -1,0 +1,63 @@
+{
+ "appid": 440,
+ "name": "Team Fortress 2",
+ "slug": "team-fortress-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.7 GHz Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 18
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "directX": 8.1,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (32/64-bit)/Vista/XP",
+    "processor": "1.7 GHz Processor or better",
+    "memory": "512 MB RAM",
+    "directx": "Version 8.1",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Pentium 4 processor (3.0GHz,)"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (32/64-bit)",
+    "processor": "Pentium 4 processor (3.0GHz, or better)",
+    "memory": "1 GB RAM",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  }
+ }
+}

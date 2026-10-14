@@ -1,0 +1,22 @@
+services:
+  devbox:
+    container_name: mmadb_${DEVBOX_NAME:-can-i-run-it}
+    image: "mmadb_can-i-run-it:NALPINE26.7_GM1.3.47_CH151.0.7922.108_LO_25.8.7.3_ACLI22.1.4_NE11.0.24_TO0.3.28_NX23.1.1"
+    build:
+      context: .
+      dockerfile: ./.mmadb-build
+      args:
+        USERNAME: $USERNAME
+        UID: $UID
+    ports:
+      - ${DEVBOX_PORT:-4200}:4200
+    volumes:
+      - .:/home/$USERNAME/app
+      - $USER_HOST_HOME_PATH/.npmrc:$DOCKER_HOME_PATH/.npmrc
+      - $USER_HOST_HOME_PATH/.gitconfig:$DOCKER_HOME_PATH/.gitconfig
+    tty: true
+    stdin_open: true
+    network_mode: bridge
+    env_file:
+      - path: .env
+        required: false

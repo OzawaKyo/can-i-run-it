@@ -1,0 +1,73 @@
+{
+ "appid": 219990,
+ "name": "Grim Dawn",
+ "slug": "grim-dawn",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "x86 compatible 2.3GHz processor (Intel 2nd generation core i-series)"
+    ],
+    "ids": [],
+    "estimatedScore": 24
+   },
+   "gpu": {
+    "raw": [
+     "512MB NVIDIA GeForce 6800 series",
+     "ATI Radeon X800 series"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP / Windows Vista / Windows 7 / Windows 8 / Windows 10",
+    "processor": "x86 compatible 2.3GHz or faster processor (Intel 2nd generation core i-series or equivalent)",
+    "memory": "2 GB RAM",
+    "graphics": "512MB NVIDIA GeForce 6800 series or ATI Radeon X800 series or better",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space",
+    "sound card": "DirectX 9.0c compatible 16-bit sound card",
+    "additional notes": "4GB of memory is required to host multiplayer games"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "x86 compatible 3.2GHz processor (Intel 4th generation core i-series)"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 500 series 1.5GB",
+     "ATI Radeon 6000 series"
+    ],
+    "ids": []
+   },
+   "ramGb": 6,
+   "vramGb": 1.5,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / Windows 10",
+    "processor": "x86 compatible 3.2GHz or faster processor (Intel 4th generation core i-series or better)",
+    "memory": "6 GB RAM",
+    "graphics": "1.5GB NVIDIA GeForce 500 series or ATI Radeon 6000 series or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "5 GB available space"
+   }
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+  "app": {
+    "skip": "Skip to content",
+    "nav": "Main navigation",
+    "myPc": "My PC",
+    "language": "Language",
+    "footer": "System requirements: Steam. Hardware specs: Wikipedia (CC BY-SA 4.0). Not affiliated with Valve."
+  },
+  "common": {
+    "loading": "Loading…"
+  },
+  "units": {
+    "gb": "{{ value }} GB",
+    "mb": "{{ value }} MB"
+  },
+  "components": {
+    "cpu": "Processor",
+    "gpu": "Graphics card",
+    "ram": "Memory",
+    "vram": "Video memory",
+    "directX": "DirectX",
+    "storage": "Storage"
+  },
+  "verdict": {
+    "below": "Not enough",
+    "belowExplained": "Your PC is below the minimum requirements.",
+    "unknown": "Unknown",
+    "unknownExplained": "Can't tell: a requirement couldn't be read, or part of your PC isn't filled in.",
+    "borderline": "Borderline",
+    "borderlineExplained": "Your PC is very close to the minimum: the game might just run.",
+    "minimum": "Meets minimum",
+    "minimumExplained": "Your PC meets the minimum requirements.",
+    "recommended": "Meets recommended",
+    "recommendedExplained": "Your PC meets the recommended requirements."
+  },
+  "home": {
+    "title": "Can my PC run this game?",
+    "lead": "Compare your PC with the requirements publishers list.",
+    "searchLabel": "Search for a game",
+    "searchPlaceholder": "Search for a game…",
+    "results": "Results",
+    "noResults": "No game found for “{{ query }}”.",
+    "yourPc": "Your PC",
+    "noConfig": "Describe your PC once: this browser will remember it.",
+    "setConfig": "Describe my PC",
+    "editConfig": "Edit"
+  },
+  "config": {
+    "title": "My PC",
+    "intro": "This stays in your browser.",
+    "gpu": "Graphics card",
+    "gpuPlaceholder": "e.g. GeForce GTX 1060",
+    "detect": "Detect",
+    "detected": "Detected: {{ name }}.",
+    "detectedUnknown": "Your browser reports “{{ name }}”, which isn't in our catalog: pick your card.",
+    "detectFailed": "Your browser doesn't reveal the model: pick your card.",
+    "cpu": "Processor",
+    "cpuPlaceholder": "e.g. Core i5-8400",
+    "cpuHint": "Browsers can't detect the processor. On Windows: Settings › System › About.",
+    "ram": "Memory (GB)",
+    "ramHint": "Your browser reports about {{ gb }} GB.",
+    "ramHintAtLeast": "Your browser reports at least {{ gb }} GB.",
+    "freeStorage": "Free disk space (GB)",
+    "storageType": "Drive type",
+    "hdd": "Hard drive (HDD)",
+    "back": "← Search for a game"
+  },
+  "picker": {
+    "laptop": "laptop"
+  },
+  "game": {
+    "notFound": "Game not found",
+    "backToSearch": "← Search for another game",
+    "noConfig": "Describe your PC to get a verdict.",
+    "setConfig": "Describe my PC",
+    "noRequirements": "This game doesn't publish system requirements.",
+    "noRecommended": "The game publishes no recommended requirements: this is the best possible verdict.",
+    "tableCaption": "Your PC compared with the game's requirements",
+    "component": "Component",
+    "yours": "Your PC",
+    "minimum": "Minimum",
+    "recommended": "Recommended",
+    "verdict": "Verdict",
+    "notSet": "Not filled in",
+    "notStated": "—",
+    "capabilityOnly": "Any compatible card (see DirectX and video memory)",
+    "publishedAs": "As published:",
+    "source": "Source: Steam, updated {{ date }}.",
+    "steamPage": "Steam page",
+    "sharedMemory": "Shared (integrated graphics)"
+  }
+}

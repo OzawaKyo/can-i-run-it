@@ -1,0 +1,66 @@
+.crumbs {
+  margin: 0 0 8px;
+}
+
+.notice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    margin: 0;
+  }
+}
+
+.verdict {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+
+  p {
+    margin: 0;
+  }
+
+  .badge {
+    font-size: 1.05rem;
+    padding: 6px 14px;
+  }
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 36rem;
+}
+
+th,
+td {
+  text-align: start;
+  vertical-align: top;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+thead th {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.raw {
+  margin-top: 16px;
+}
+
+.source {
+  margin-top: 24px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

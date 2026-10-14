@@ -1,0 +1,77 @@
+{
+ "appid": 255710,
+ "name": "Cities: Skylines",
+ "slug": "cities-skylines",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core I7 930 | AMD FX 6350"
+    ],
+    "ids": [
+     "amd-fx-6350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTS 450 () | AMD R7 250 (2 GB) | Intel Iris Xe G7 (Tiger Lake) 1GB"
+    ],
+    "ids": [
+     "intel-iris-xe-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 Bit",
+    "processor": "Intel Core I7 930 | AMD FX 6350",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTS 450 (1 GB) | AMD R7 250 (2 GB) | Intel Iris Xe G7 (Tiger Lake)",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core I7 2700K | AMD Ryzen 7 2700X"
+    ],
+    "ids": [
+     "amd-ryzen-7-2700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 580 () | AMD Radeon RX 560 (4 GB) 1.5GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-580"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 1.5,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 Home 64 bit",
+    "processor": "Intel Core I7 2700K | AMD Ryzen 7 2700X",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GeForce GTX 580 (1.5 GB) | AMD Radeon RX 560 (4 GB)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  }
+ }
+}

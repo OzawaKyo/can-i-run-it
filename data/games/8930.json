@@ -1,0 +1,90 @@
+{
+ "appid": 8930,
+ "name": "Sid Meier's Civilization® V",
+ "slug": "sid-meier-s-civilization-v",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 1.8 GHz",
+     "AMD Athlon X2 64 2.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "256 MB ATI HD2600 XT",
+     "256 MB nVidia 7900 GS",
+     "or Core i3 integrated graphics"
+    ],
+    "ids": [
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista SP2/ Windows 7",
+    "processor": "Intel Core 2 Duo 1.8 GHz or AMD Athlon X2 64 2.0 GHz",
+    "memory": "2GB RAM",
+    "graphics": "256 MB ATI HD2600 XT or better, 256 MB nVidia 7900 GS or better, or Core i3 or better integrated graphics",
+    "directx": "DirectX version 9.0c",
+    "storage": "8 GB Free",
+    "sound": "DirectX 9.0c-compatible sound card",
+    "note": "Optimized for the touch-screen Ultrabook device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "1.8 GHz Quad Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "512 MB ATI 4800 series",
+     "512 MB nVidia 9800 series"
+    ],
+    "ids": [
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb",
+     "nvidia-geforce-9800-gt-rebrand",
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "nvidia-geforce-9800-gx2",
+     "nvidia-geforce-9800m-gs",
+     "nvidia-geforce-9800m-gts-512mb",
+     "nvidia-geforce-9800m-gts-1gb",
+     "nvidia-geforce-9800m-gt",
+     "nvidia-geforce-9800m-gtx"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista SP2/ Windows 7",
+    "processor": "1.8 GHz Quad Core CPU",
+    "memory": "4 GB RAM",
+    "graphics": "512 MB ATI 4800 series or better, 512 MB nVidia 9800 series or better",
+    "directx": "DirectX version 11",
+    "storage": "8 GB Free",
+    "sound": "DirectX 9.0c-compatible sound card",
+    "note": "Optimized for the touch-screen Ultrabook device"
+   }
+  }
+ }
+}

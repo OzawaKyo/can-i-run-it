@@ -1,0 +1,51 @@
+.hero {
+  margin-bottom: 24px;
+}
+
+.search input {
+  font-size: 1.15rem;
+  padding: 14px 16px;
+}
+
+.results {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  display: grid;
+  gap: 4px;
+
+  a {
+    display: block;
+    padding: 10px 12px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--text);
+
+    &:hover,
+    &:focus-visible {
+      background: var(--accent-soft);
+    }
+  }
+}
+
+.config {
+  h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 6px 16px;
+    margin: 0 0 16px;
+  }
+
+  dt {
+    color: var(--text-muted);
+  }
+
+  dd {
+    margin: 0;
+  }
+}

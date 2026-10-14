@@ -1,0 +1,27 @@
+<a class="skip-link" href="#main">{{ 'app.skip' | transloco }}</a>
+<header class="topbar">
+  <a class="brand" routerLink="/">Can I Run It?</a>
+  <nav [attr.aria-label]="'app.nav' | transloco">
+    <a routerLink="/config">{{ 'app.myPc' | transloco }}</a>
+    <span class="languages" role="group" [attr.aria-label]="'app.language' | transloco">
+      @for (code of languages; track code) {
+        <button
+          type="button"
+          class="link"
+          [attr.aria-pressed]="language() === code"
+          (click)="setLanguage(code)"
+        >
+          {{ code.toUpperCase() }}
+        </button>
+      }
+    </span>
+  </nav>
+</header>
+
+<main id="main">
+  <router-outlet />
+</main>
+
+<footer>
+  <p>{{ 'app.footer' | transloco }}</p>
+</footer>

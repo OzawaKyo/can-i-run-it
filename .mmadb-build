@@ -1,0 +1,18 @@
+FROM docker.sirap.fr/nextgen/developpement/socle/devbox/devbox:NALPINE26.7_GM1.3.47_CH151.0.7922.108_LO_25.8.7.3_ACLI22.1.4_NE11.0.24_TO0.3.28_NX23.1.1
+ARG USERNAME="developer"
+ARG UID=1000
+EXPOSE 3000 4200
+LABEL Author="Genrated by mmadb"
+RUN deluser node && rm -rf /home/node \
+  && adduser \
+    --disabled-password \
+    --home "/home/${USERNAME}" \
+    --shell /bin/bash \
+    --uid ${UID} \
+    --gecos "mmadb developer" \
+    "${USERNAME}" \
+  && echo "${USERNAME}:${USERNAME}" | chpasswd
+
+WORKDIR "/home/${USERNAME}/app"
+USER ${USERNAME}
+CMD [ "/bin/bash" ]

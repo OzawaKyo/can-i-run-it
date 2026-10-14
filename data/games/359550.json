@@ -1,0 +1,92 @@
+{
+ "appid": 359550,
+ "name": "Tom Clancy's Rainbow Six Siege",
+ "slug": "tom-clancy-s-rainbow-six-siege",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 3100",
+     "Intel i3-8100"
+    ],
+    "ids": [
+     "amd-ryzen-3-3100",
+     "intel-core-i3-8100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1650 4GB",
+     "AMD RX 5500XT 4GB",
+     "Intel ARC A380 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-5500-xt-4gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 65,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, Windows 11 (64-bit versions)",
+    "processor": "AMD Ryzen 3 3100 / Intel i3-8100",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 1650 4GB / AMD RX 5500XT 4GB / Intel ARC A380 6GB",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "65 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card with latest drivers",
+    "additional notes": "For an up-to-date list of supported chipsets, please visit the FAQ for this game on our support website. Game contains BattleEye anti-cheat technology."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen5 3600",
+     "Intel i5-10400"
+    ],
+    "ids": [
+     "amd-ryzen-5-3600",
+     "intel-core-i5-10400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA RTX 2060 6GB",
+     "AMD RX 6600 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "amd-radeon-rx-6600"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 65,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 (64-bit versions)",
+    "processor": "AMD Ryzen5 3600 / Intel i5-10400",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA RTX 2060 6GB / AMD RX 6600 8GB",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "65 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card 5.1 with latest drivers",
+    "additional notes": "For an up-to-date list of supported chipsets, please visit the FAQ for this game on our support website. Game contains BattleEye anti-cheat technology."
+   }
+  }
+ }
+}

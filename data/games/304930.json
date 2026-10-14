@@ -1,0 +1,62 @@
+{
+ "appid": 304930,
+ "name": "Unturned",
+ "slug": "unturned",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1+",
+    "processor": "3 GHz",
+    "memory": "8 GB RAM",
+    "directx": "Version 10",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "4 GHz",
+    "memory": "16 GB RAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space"
+   }
+  }
+ }
+}

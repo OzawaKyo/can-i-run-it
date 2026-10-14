@@ -1,0 +1,38 @@
+{
+ "appid": 220,
+ "name": "Half-Life 2",
+ "slug": "half-life-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.7 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 18
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 8.1 level Graphics Card (requires support for SSE)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 8.1,
+   "storage": {
+    "gb": 6.34765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Vista, XP",
+    "processor": "1.7 Ghz",
+    "memory": "512 MB RAM",
+    "graphics": "DirectX 8.1 level Graphics Card (requires support for SSE)",
+    "storage": "6500 MB available space"
+   }
+  }
+ }
+}

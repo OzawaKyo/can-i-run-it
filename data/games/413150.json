@@ -1,0 +1,40 @@
+{
+ "appid": 413150,
+ "name": "Stardew Valley",
+ "slug": "stardew-valley",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "256 mb video memory",
+     "shader model 3.0+"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista or greater",
+    "processor": "2 Ghz",
+    "memory": "2 GB RAM",
+    "graphics": "256 mb video memory, shader model 3.0+",
+    "directx": "Version 10",
+    "storage": "500 MB available space"
+   }
+  }
+ }
+}

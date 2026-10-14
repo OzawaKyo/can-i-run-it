@@ -1,0 +1,81 @@
+{
+ "appid": 49520,
+ "name": "Borderlands 2",
+ "slug": "borderlands-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Dual Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8500 /ATI Radeon HD 2600"
+    ],
+    "ids": [
+     "nvidia-geforce-8500-gt-256mb",
+     "nvidia-geforce-8500-gt-512mb",
+     "nvidia-geforce-8500-gt-1gb",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 0.25,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3",
+    "processor": "2.4 GHz Dual Core Processor",
+    "memory": "2 GB(XP)/ 2 GB(Vista)",
+    "storage": "13 GB free",
+    "video memory": "256 MB",
+    "graphics": "NVIDIA GeForce 8500 /ATI Radeon HD 2600",
+    "sound": "DirectX 9.0c Compatible",
+    "other requirements": "Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include Steam Client, DirectX 9, Microsoft .NET 4 Framework, Visual C++ Redistributable 2005, Visual C++ Redistributable 2008, Visual C++ Redistributable 2010, and AMD CPU Drivers (XP Only/AMD Only)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.3 GHz Quad Core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 32
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 560",
+     "ATI Radeon HD 5850"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3/Vista/Win 7",
+    "processor": "2.3 GHz Quad Core processor",
+    "memory": "2 GB",
+    "storage": "20 GB free",
+    "video memory": "512MB",
+    "graphics": "NVIDIA GeForce GTX 560 / ATI Radeon HD 5850",
+    "sound": "DirectX 9.0c Compatible",
+    "other requirements": "Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include Steam Client, DirectX 9, Microsoft .NET 4 Framework, Visual C++ Redistributable 2005, Visual C++ Redistributable 2008, Visual C++ Redistributable 2010, and AMD CPU Drivers (XP Only/AMD Only)"
+   }
+  }
+ }
+}

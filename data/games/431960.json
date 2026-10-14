@@ -1,0 +1,76 @@
+{
+ "appid": 431960,
+ "name": "Wallpaper Engine",
+ "slug": "wallpaper-engine",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.66 GHz Intel i5"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [
+     "HD Graphics 4000"
+    ],
+    "ids": [
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 0.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, Windows 11",
+    "processor": "1.66 GHz Intel i5 or equivalent",
+    "memory": "1024 MB RAM",
+    "graphics": "HD Graphics 4000 or above",
+    "directx": "Version 11",
+    "storage": "512 MB available space",
+    "additional notes": "Windows N versions require the 'Media Feature Pack' from Microsoft."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz Intel i7"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "AMD HD7870 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10, Windows 11",
+    "processor": "2.0 GHz Intel i7 or equivalent",
+    "memory": "2048 MB RAM",
+    "graphics": "NVIDIA GeForce GTX 660, AMD HD7870, 2 GB VRAM or above",
+    "directx": "Version 11",
+    "storage": "1024 MB available space",
+    "additional notes": "Mobile App requires Android 10 or newer"
+   }
+  }
+ }
+}

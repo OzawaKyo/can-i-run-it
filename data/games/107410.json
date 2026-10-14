@@ -1,0 +1,89 @@
+{
+ "appid": 107410,
+ "name": "Arma 3",
+ "slug": "arma-3",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core quad-core",
+     "AMD Athlon quad-core"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon HD 7850",
+     "Intel HD Graphics 4000 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-1gb",
+     "amd-radeon-hd-7850-2gb",
+     "intel-hd-graphics"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core quad-core or AMD Athlon quad-core",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7850 or Intel HD Graphics 4000, with 1 GB video memory",
+    "directx": "10",
+    "storage": "50 GB available space",
+    "audio": "DirectX compatible",
+    "other": "Internet connection and free Steam account to activate Dual Layer compatible when installing from DVD"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-7700K",
+     "AMD Ryzen 3 3300X"
+    ],
+    "ids": [
+     "intel-core-i7-7700k",
+     "amd-ryzen-3-3300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060",
+     "AMD Radeon RX 580 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 80,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 / 11 (64-bit)",
+    "processor": "Intel Core i7-7700K or AMD Ryzen 3 3300X or better",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580, with 6 GB VRAM, or better",
+    "directx": "11",
+    "storage": "80 GB available space (SSD)",
+    "sound": "DirectX compatible",
+    "other": "Internet connection and free Steam account to activate Dual Layer compatible when installing from DVD"
+   }
+  }
+ }
+}

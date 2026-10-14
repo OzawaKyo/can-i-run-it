@@ -1,0 +1,72 @@
+{
+ "appid": 550,
+ "name": "Left 4 Dead 2",
+ "slug": "left-4-dead-2",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 4 3.0GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "Video card with 128 MB",
+     "Shader model 2.0. ATI X800",
+     "NVidia 6600"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 32/64-bit / Vista 32/64 / XP",
+    "processor": "Pentium 4 3.0GHz",
+    "memory": "2 GB RAM",
+    "graphics": "Video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better",
+    "directx": "Version 9.0c",
+    "storage": "13 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel core 2 duo 2.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "Video Card Shader model 3.0. NVidia 7600",
+     "ATI X1600"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 32/64-bit / Vista 32/64 / XP",
+    "processor": "Intel core 2 duo 2.4GHz",
+    "memory": "2 GB RAM",
+    "graphics": "Video Card Shader model 3.0. NVidia 7600, ATI X1600 or better",
+    "directx": "Version 9.0c",
+    "storage": "13 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card"
+   }
+  }
+ }
+}

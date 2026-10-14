@@ -1,0 +1,45 @@
+{
+ "appid": 417910,
+ "name": "Street Warriors Online",
+ "slug": "street-warriors-online",
+ "source": "steam",
+ "updatedAt": "2026-10-14",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel core 2 duo 2.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 470 @ 1GB",
+     "ATI Radeon HD 6970 @ 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-470",
+     "amd-radeon-hd-6970"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 32/64-bit / Vista 32/64 / XP",
+    "processor": "Intel core 2 duo 2.4GHz",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 470 @ 1GB / ATI Radeon HD 6970 @ 1GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ }
+}

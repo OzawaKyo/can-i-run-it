@@ -1,0 +1,96 @@
+<h1>{{ 'config.title' | transloco }}</h1>
+<p class="lead">{{ 'config.intro' | transloco }}</p>
+
+<form class="card" (submit)="$event.preventDefault()">
+  <div class="row">
+    <app-hardware-picker
+      [label]="'config.gpu' | transloco"
+      [placeholder]="'config.gpuPlaceholder' | transloco"
+      [models]="catalog.gpus()"
+      [selected]="config().gpu"
+      (picked)="store.update({ gpuId: $event })"
+    />
+    <button type="button" class="secondary" (click)="detectGpu()">
+      {{ 'config.detect' | transloco }}
+    </button>
+  </div>
+  @if (detection(); as result) {
+    <p class="hint" role="status">
+      @if (result.found) {
+        {{ 'config.detected' | transloco: { name: result.name } }}
+      } @else if (result.name) {
+        {{ 'config.detectedUnknown' | transloco: { name: result.name } }}
+      } @else {
+        {{ 'config.detectFailed' | transloco }}
+      }
+    </p>
+  }
+
+  <app-hardware-picker
+    [label]="'config.cpu' | transloco"
+    [placeholder]="'config.cpuPlaceholder' | transloco"
+    [models]="catalog.cpus()"
+    [selected]="config().cpu"
+    (picked)="store.update({ cpuId: $event })"
+  />
+  <p class="hint">{{ 'config.cpuHint' | transloco }}</p>
+
+  <div class="grid">
+    <label class="field">
+      <span class="field-label">{{ 'config.ram' | transloco }}</span>
+      <input
+        type="number"
+        min="0"
+        step="1"
+        inputmode="numeric"
+        [value]="config().ramGb ?? ''"
+        (change)="setNumber('ramGb', $any($event.target).value)"
+      />
+      @if (memoryHint(); as hint) {
+        <span class="hint">{{
+          (hint >= 8 ? 'config.ramHintAtLeast' : 'config.ramHint') | transloco: { gb: hint }
+        }}</span>
+      }
+    </label>
+
+    <label class="field">
+      <span class="field-label">{{ 'config.freeStorage' | transloco }}</span>
+      <input
+        type="number"
+        min="0"
+        step="1"
+        inputmode="numeric"
+        [value]="config().freeStorageGb ?? ''"
+        (change)="setNumber('freeStorageGb', $any($event.target).value)"
+      />
+    </label>
+  </div>
+
+  <fieldset>
+    <legend class="field-label">{{ 'config.storageType' | transloco }}</legend>
+    <div class="choices">
+      <label class="choice">
+        <input
+          type="radio"
+          name="storageType"
+          [checked]="config().storageType === 'ssd'"
+          (change)="store.update({ storageType: 'ssd' })"
+        />
+        SSD
+      </label>
+      <label class="choice">
+        <input
+          type="radio"
+          name="storageType"
+          [checked]="config().storageType === 'hdd'"
+          (change)="store.update({ storageType: 'hdd' })"
+        />
+        {{ 'config.hdd' | transloco }}
+      </label>
+    </div>
+  </fieldset>
+</form>
+
+<p>
+  <a routerLink="/">{{ 'config.back' | transloco }}</a>
+</p>
