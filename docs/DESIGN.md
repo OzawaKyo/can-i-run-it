@@ -33,6 +33,11 @@ Décisions prises lors de la session de cadrage du 2026-10-13.
 - Saisie manuelle toujours possible (autocomplétion CPU/GPU, RAM, espace libre, SSD/HDD).
 - Une seule config, persistée en `localStorage`.
 
+## Partage et aperçus de liens
+
+- **Partager un verdict** (2026-10-16) : bouton « Partager ce verdict » sur la page d'un jeu. Le lien porte le PC dans `?pc=cpuId,gpuId,ram,espace libre,ssd|hdd` (identifiants du catalogue et tailles seulement, rien d'identifiant ; `apps/web/src/app/game/share.ts`, validé à la lecture). Copié dans le presse-papier avec une phrase (« Mon PC face à X : verdict. ») ; feuille de partage du système sur mobile. Qui ouvre le lien voit le verdict du PC partagé, sans toucher à sa propre config, et peut « Voir avec mon PC » ou « Enregistrer comme mon PC ».
+- **Aperçus Discord / WhatsApp** : ces robots n'exécutent pas le JavaScript. Après `web:build`, `data-pipeline:build-previews` écrit une copie d'`index.html` par jeu (`game/<id>/<slug>.html`, `game/<id>.html`) avec titre, description et bannière (Open Graph). Cloudflare sert `/game/730/slug` depuis `game/730/slug.html` ; l'app démarre ensuite normalement.
+
 ## Linux
 
 - Décidé le 2026-10-16 : « dire si le jeu est compatible ou pas, mais dans tous les cas calculer le verdict ». Champ `linux` des jeux, résumé par `linuxStatus` (`libs/domain/src/linux.ts`).

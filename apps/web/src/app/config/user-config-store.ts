@@ -1,5 +1,5 @@
 import { computed, effect, inject, Injectable, signal } from '@angular/core';
-import type { UserConfig } from '@can-i-run-it/domain';
+import type { HardwareModel, UserConfig } from '@can-i-run-it/domain';
 import { HardwareCatalog } from '../data/hardware-catalog';
 
 /** What the user told us about their PC, as saved in the browser. */
@@ -21,15 +21,7 @@ export class UserConfigStore {
   readonly saved = signal<SavedConfig>(load());
 
   /** The saved config with CPU and GPU looked up in the catalog, as `computeVerdict` takes it. */
-  readonly config = computed<UserConfig>(() => {
-    const { cpuId, gpuId, ...rest } = this.saved();
-    const models = this.catalog.byId();
-    return {
-      ...rest,
-      cpu: cpuId ? models.get(cpuId) : undefined,
-      gpu: gpuId ? models.get(gpuId) : undefined,
-    };
-  });
+  readonly config = computed(() => toUserConfig(this.saved(), this.catalog.byId()));
 
   readonly isEmpty = computed(() =>
     Object.values(this.saved()).every((value) => value === undefined),
@@ -42,6 +34,18 @@ export class UserConfigStore {
   update(changes: Partial<SavedConfig>): void {
     this.saved.update((current) => ({ ...current, ...changes }));
   }
+}
+
+/** A saved config with CPU and GPU looked up in the catalog, as `computeVerdict` takes it. */
+export function toUserConfig(
+  { cpuId, gpuId, ...rest }: SavedConfig,
+  models: ReadonlyMap<string, HardwareModel>,
+): UserConfig {
+  return {
+    ...rest,
+    cpu: cpuId ? models.get(cpuId) : undefined,
+    gpu: gpuId ? models.get(gpuId) : undefined,
+  };
 }
 
 function load(): SavedConfig {

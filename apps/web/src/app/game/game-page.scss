@@ -79,6 +79,24 @@
   }
 }
 
+.shared {
+  border-left: 4px solid var(--cyan);
+
+  .pc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    margin-top: 4px;
+    font-weight: 600;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
 .verdict {
   display: flex;
   flex-wrap: wrap;
@@ -106,6 +124,17 @@
 
   .explained {
     font-weight: 600;
+  }
+
+  .share {
+    display: grid;
+    gap: 6px;
+    justify-items: end;
+    margin-left: auto;
+  }
+
+  .warn {
+    color: var(--level-borderline);
   }
 }
 

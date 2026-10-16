@@ -23,6 +23,12 @@
         "command": "tsx --tsconfig apps/data-pipeline/tsconfig.json apps/data-pipeline/src/build-games.ts"
       }
     },
+    "build-previews": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsx --tsconfig apps/data-pipeline/tsconfig.json apps/data-pipeline/src/build-previews.ts"
+      }
+    },
     "calibrate-gpus": {
       "executor": "nx:run-commands",
       "options": {

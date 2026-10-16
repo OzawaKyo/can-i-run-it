@@ -1,7 +1,7 @@
 import { NgTemplateOutlet } from '@angular/common';
 import { httpResource } from '@angular/common/http';
-import { Component, computed, inject, input } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component, computed, inject, input, linkedSignal } from '@angular/core';
+import { Router, RouterLink } from '@angular/router';
 import {
   computeVerdict,
   estimateFps,
@@ -16,22 +16,24 @@ import {
 } from '@can-i-run-it/domain';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import {
+  lucideCheck,
   lucideCircleCheck,
   lucideCircleHelp,
   lucideCircleX,
   lucideScanSearch,
+  lucideShare2,
   lucideShieldX,
   lucideTriangleAlert,
 } from '@ng-icons/lucide';
-import { TranslocoPipe } from '@jsverse/transloco';
+import { TranslocoPipe, TranslocoService } from '@jsverse/transloco';
 import { detectOs } from '../config/detect-command';
-import { UserConfigStore } from '../config/user-config-store';
+import { toUserConfig, UserConfigStore } from '../config/user-config-store';
 import { HardwareCatalog } from '../data/hardware-catalog';
 import { size, type Size } from '../shared/size';
 import { VerdictBadge } from '../shared/verdict-badge';
 import { reportIssueUrl } from './report-issue';
+import { decodeSharedPc, encodeSharedPc } from './share';
 
-/** A value to show: free text, a size, or an i18n key with params. */
 /** A value to show: free text (with its source when not Steam), a size, or an i18n key. */
 type Shown = { text: string; viaPcgw?: boolean } | { size: Size; ssd?: boolean } | { key: string };
 
@@ -54,16 +56,21 @@ const LINUX_ICONS: Record<LinuxStatus, string> = {
 
 const ORDER: RequirementComponent[] = ['cpu', 'gpu', 'ram', 'vram', 'directX', 'storage'];
 
-/** One game: its requirements side by side with the user's PC, and the verdict. */
+/**
+ * One game: its requirements side by side with the user's PC, and the verdict. With a `pc`
+ * query parameter (a shared link), the PC it describes is shown instead of the user's own.
+ */
 @Component({
   selector: 'app-game-page',
   imports: [NgIcon, NgTemplateOutlet, RouterLink, TranslocoPipe, VerdictBadge],
   viewProviders: [
     provideIcons({
+      lucideCheck,
       lucideCircleCheck,
       lucideCircleHelp,
       lucideCircleX,
       lucideScanSearch,
+      lucideShare2,
       lucideShieldX,
       lucideTriangleAlert,
     }),
@@ -74,9 +81,30 @@ const ORDER: RequirementComponent[] = ['cpu', 'gpu', 'ram', 'vram', 'directX', '
 export class GamePage {
   /** Route parameter. */
   readonly id = input.required<string>();
+  /** Query parameter of a shared link: the PC to show (see `encodeSharedPc`). */
+  readonly pc = input<string>();
 
   private readonly catalog = inject(HardwareCatalog);
+  private readonly router = inject(Router);
+  private readonly transloco = inject(TranslocoService);
   protected readonly store = inject(UserConfigStore);
+
+  /** The PC of a shared link, when the page was opened from one. */
+  protected readonly sharedPc = computed(() => decodeSharedPc(this.pc()));
+
+  /** The PC the verdict is about: the shared one, else the user's. */
+  protected readonly viewed = computed(() => {
+    const shared = this.sharedPc();
+    return shared ? toUserConfig(shared, this.catalog.byId()) : this.store.config();
+  });
+
+  protected readonly yoursLabel = computed(() => (this.sharedPc() ? 'game.theirs' : 'game.yours'));
+
+  /** Back to idle whenever another game or PC is shown. */
+  protected readonly shareState = linkedSignal<unknown, 'idle' | 'copied' | 'failed'>({
+    source: () => [this.id(), this.pc()],
+    computation: () => 'idle',
+  });
 
   protected readonly game = httpResource<GameRecord>(() =>
     /^[a-z0-9-]+$/.test(this.id()) ? `data/games/${this.id()}.json` : undefined,
@@ -91,14 +119,14 @@ export class GamePage {
 
   protected readonly verdict = computed(() => {
     const resolved = this.resolved();
-    return resolved && computeVerdict(this.store.config(), resolved);
+    return resolved && computeVerdict(this.viewed(), resolved);
   });
 
   protected readonly fpsSettings = ['low', 'high'] as const;
 
   protected readonly fps = computed(() => {
     const resolved = this.resolved();
-    return resolved ? estimateFps(this.store.config(), resolved) : {};
+    return resolved ? estimateFps(this.viewed(), resolved) : {};
   });
 
   protected readonly rows = computed<Row[]>(() => {
@@ -110,7 +138,7 @@ export class GamePage {
       (component) => ({
         component,
         level: verdict.components[component]!,
-        yours: yours(component, this.store.config()),
+        yours: yours(component, this.viewed()),
         minimum: required(component, minimum),
         recommended: required(component, recommended),
       }),
@@ -147,6 +175,45 @@ export class GamePage {
       (tier) => tier?.cpu.source === 'pcgamingwiki' || tier?.gpu.source === 'pcgamingwiki',
     );
   });
+
+  /**
+   * Shares a link to this game with the PC on display: the system share sheet on phones,
+   * else the clipboard (a short message and the link, ready to paste in a chat).
+   */
+  protected async share(): Promise<void> {
+    const game = this.game.value();
+    const verdict = this.verdict();
+    if (!game || !verdict) return;
+    const url = `${location.origin}${location.pathname}?pc=${encodeSharedPc(this.sharedPc() ?? this.store.saved())}`;
+    const text = this.transloco.translate('share.text', {
+      game: game.name,
+      verdict: this.transloco.translate(`verdict.${verdict.overall}`),
+    });
+    try {
+      if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+        await navigator.share({ title: game.name, text, url });
+        return;
+      }
+      await navigator.clipboard.writeText(`${text} ${url}`);
+      this.shareState.set('copied');
+    } catch (error) {
+      // Closing the share sheet is not a failure.
+      if (!(error instanceof DOMException && error.name === 'AbortError'))
+        this.shareState.set('failed');
+    }
+  }
+
+  /** Makes the shared PC the user's own, then leaves the shared view. */
+  protected keepSharedPc(): void {
+    const shared = this.sharedPc();
+    if (!shared) return;
+    this.store.saved.set(shared);
+    this.showOwnPc();
+  }
+
+  protected showOwnPc(): void {
+    void this.router.navigate([], { queryParams: { pc: null }, queryParamsHandling: 'merge' });
+  }
 
   protected isText(shown: Shown): shown is { text: string; viaPcgw?: boolean } {
     return 'text' in shown;

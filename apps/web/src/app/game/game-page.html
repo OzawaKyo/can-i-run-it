@@ -41,7 +41,30 @@
     </div>
   </header>
 
-  @if (store.isEmpty()) {
+  @if (sharedPc()) {
+    <div class="card notice shared">
+      <div>
+        <p class="field-label">{{ 'share.viewing' | transloco }}</p>
+        <p class="pc">
+          @if (viewed().cpu; as cpu) {
+            <span>{{ cpu.name }}</span>
+          }
+          @if (viewed().gpu; as gpu) {
+            <span>{{ gpu.name }}</span>
+          }
+          @if (viewed().ramGb; as ram) {
+            <span>{{ 'share.ram' | transloco: { value: ram } }}</span>
+          }
+        </p>
+      </div>
+      <div class="actions">
+        <button type="button" (click)="showOwnPc()">{{ 'share.showMine' | transloco }}</button>
+        <button type="button" class="secondary" (click)="keepSharedPc()">
+          {{ 'share.keep' | transloco }}
+        </button>
+      </div>
+    </div>
+  } @else if (store.isEmpty()) {
     <div class="card notice">
       <p>{{ 'game.noConfig' | transloco }}</p>
       <a class="button" routerLink="/config" [queryParams]="{ detect: 1 }"
@@ -61,11 +84,29 @@
       <section class="card verdict" [attr.data-level]="verdict.overall" aria-live="polite">
         <app-verdict-badge [level]="verdict.overall" [big]="true" />
         <div>
-          <p class="explained">{{ 'verdict.' + verdict.overall + 'Explained' | transloco }}</p>
+          <p class="explained">
+            {{
+              'verdict.' + verdict.overall + (sharedPc() ? 'ExplainedShared' : 'Explained')
+                | transloco
+            }}
+          </p>
           @if (verdict.overall === 'minimum' && !game.requirements.recommended) {
             <p class="hint">{{ 'game.noRecommended' | transloco }}</p>
           }
         </div>
+        @if (sharedPc() || !store.isEmpty()) {
+          <div class="share">
+            <button type="button" class="secondary" (click)="share()">
+              <ng-icon
+                [name]="shareState() === 'copied' ? 'lucideCheck' : 'lucideShare2'"
+                aria-hidden="true"
+              />{{ (shareState() === 'copied' ? 'share.copied' : 'share.button') | transloco }}
+            </button>
+            @if (shareState() === 'failed') {
+              <p class="hint warn" role="alert">{{ 'share.failed' | transloco }}</p>
+            }
+          </div>
+        }
       </section>
 
       @if (fps().low || fps().high) {
@@ -99,7 +140,7 @@
         <thead>
           <tr>
             <th scope="col">{{ 'game.component' | transloco }}</th>
-            <th scope="col">{{ 'game.yours' | transloco }}</th>
+            <th scope="col">{{ yoursLabel() | transloco }}</th>
             <th scope="col">{{ 'game.minimum' | transloco }}</th>
             <th scope="col">{{ 'game.recommended' | transloco }}</th>
             <th scope="col">{{ 'game.verdict' | transloco }}</th>
@@ -109,7 +150,7 @@
           @for (row of rows(); track row.component) {
             <tr>
               <th scope="row">{{ 'components.' + row.component | transloco }}</th>
-              <td [attr.data-label]="'game.yours' | transloco">
+              <td [attr.data-label]="yoursLabel() | transloco">
                 <ng-container
                   *ngTemplateOutlet="
                     value;

@@ -25,14 +25,19 @@
   "verdict": {
     "below": "Not enough",
     "belowExplained": "Your PC is below the minimum requirements.",
+    "belowExplainedShared": "This PC is below the minimum requirements.",
     "unknown": "Unknown",
     "unknownExplained": "Can't tell: a requirement couldn't be read, or part of your PC isn't filled in.",
+    "unknownExplainedShared": "Can't tell: a requirement couldn't be read, or part of this PC isn't filled in.",
     "borderline": "Borderline",
     "borderlineExplained": "Your PC is very close to the minimum: the game might just run.",
+    "borderlineExplainedShared": "This PC is very close to the minimum: the game might just run.",
     "minimum": "Meets minimum",
     "minimumExplained": "Your PC meets the minimum requirements.",
+    "minimumExplainedShared": "This PC meets the minimum requirements.",
     "recommended": "Meets recommended",
-    "recommendedExplained": "Your PC meets the recommended requirements."
+    "recommendedExplained": "Your PC meets the recommended requirements.",
+    "recommendedExplainedShared": "This PC meets the recommended requirements."
   },
   "home": {
     "lead": "Compare your PC with the requirements publishers list for {{ count }} PC games.",
@@ -87,6 +92,16 @@
     "windowsVerdict": "The verdict applies to Windows.",
     "sameVerdict": "The verdict still applies: on Linux, a game needs about the same power as on Windows."
   },
+  "share": {
+    "button": "Share this verdict",
+    "copied": "Link copied",
+    "failed": "Couldn't copy the link: copy the page address instead.",
+    "text": "My PC vs {{ game }}: {{ verdict }}.",
+    "viewing": "Shared PC",
+    "ram": "{{ value }} GB of RAM",
+    "showMine": "Show with my PC",
+    "keep": "Save as my PC"
+  },
   "game": {
     "notFound": "Game not found",
     "backToSearch": "← Search for another game",
@@ -97,6 +112,7 @@
     "tableCaption": "Your PC compared with the game's requirements",
     "component": "Component",
     "yours": "Your PC",
+    "theirs": "Shared PC",
     "minimum": "Minimum",
     "recommended": "Recommended",
     "verdict": "Verdict",

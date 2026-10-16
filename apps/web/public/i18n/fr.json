@@ -25,14 +25,19 @@
   "verdict": {
     "below": "Insuffisant",
     "belowExplained": "Votre PC est en dessous de la configuration minimale.",
+    "belowExplainedShared": "Ce PC est en dessous de la configuration minimale.",
     "unknown": "Indéterminé",
     "unknownExplained": "Impossible de conclure : une exigence n'a pas pu être lue, ou une partie de votre config n'est pas renseignée.",
+    "unknownExplainedShared": "Impossible de conclure : une exigence n'a pas pu être lue, ou une partie de ce PC n'est pas renseignée.",
     "borderline": "Limite",
     "borderlineExplained": "Votre PC est très proche du minimum : le jeu pourrait tourner, de justesse.",
+    "borderlineExplainedShared": "Ce PC est très proche du minimum : le jeu pourrait tourner, de justesse.",
     "minimum": "Minimum atteint",
     "minimumExplained": "Votre PC atteint la configuration minimale.",
+    "minimumExplainedShared": "Ce PC atteint la configuration minimale.",
     "recommended": "Recommandé atteint",
-    "recommendedExplained": "Votre PC atteint la configuration recommandée."
+    "recommendedExplained": "Votre PC atteint la configuration recommandée.",
+    "recommendedExplainedShared": "Ce PC atteint la configuration recommandée."
   },
   "home": {
     "lead": "Comparez votre PC aux configurations publiées par les éditeurs de {{ count }} jeux PC.",
@@ -87,6 +92,16 @@
     "windowsVerdict": "Le verdict concerne Windows.",
     "sameVerdict": "Le verdict reste valable : sous Linux, un jeu demande à peu près la même puissance que sous Windows."
   },
+  "share": {
+    "button": "Partager ce verdict",
+    "copied": "Lien copié",
+    "failed": "Impossible de copier le lien : copiez l'adresse de la page.",
+    "text": "Mon PC face à {{ game }} : {{ verdict }}.",
+    "viewing": "PC partagé",
+    "ram": "{{ value }} Go de RAM",
+    "showMine": "Voir avec mon PC",
+    "keep": "Enregistrer comme mon PC"
+  },
   "game": {
     "notFound": "Jeu introuvable",
     "backToSearch": "← Rechercher un autre jeu",
@@ -97,6 +112,7 @@
     "tableCaption": "Votre PC comparé aux configurations du jeu",
     "component": "Composant",
     "yours": "Votre PC",
+    "theirs": "PC partagé",
     "minimum": "Minimum",
     "recommended": "Recommandé",
     "verdict": "Verdict",

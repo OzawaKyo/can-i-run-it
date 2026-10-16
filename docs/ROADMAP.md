@@ -25,13 +25,8 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
   - [ ] Athlon / Pentium / Celeron récents (Athlon 3000G, Pentium Gold), absents du catalogue
 - [ ] **P1 · Claude** — Revoir les ~200 lignes Wikipédia rejetées et compléter les corrections manuelles (ex. portables RTX 50)
 
-## Fonctionnalités
-
-- [ ] **P2 · Claude** — Partager un verdict : lien « mon PC vs ce jeu » à envoyer à un ami _(idée)_
-
 ## Finitions
 
-- [ ] **P3 · Claude** — Aperçus de partage (Discord, WhatsApp…) : titre et bannière du jeu au lieu d'un titre générique
 - [ ] **P3 · toi** — Nom de domaine perso (~10 €/an, seul coût éventuel)
 
 ## Décisions en attente
@@ -61,5 +56,7 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 - [x] Exigences vagues traitées : CPU d'avant l'ère Core (Pentium 4, Athlon XP…), nombre de cœurs seul, « Intel i5 », DirectX / Pixel Shader / OpenGL écrits de mille façons, mémoire seule (« 256 MB »), séries (« GeForce 200 series »), ancien format en paragraphe
 - [x] 29 jeux populaires hors Steam (League of Legends, Valorant, Fortnite, Minecraft, Roblox, Genshin…) : configs PCGamingWiki, images IGDB ; liste modifiable dans `apps/data-pipeline/non-steam-games.json`
 - [x] Estimation des FPS (1080p, réglages bas et élevés) sur chaque page de jeu, expliquée dans « Sources & méthode »
+- [x] Partager un verdict : bouton « Partager ce verdict », le lien montre à l'ami le verdict de ton PC (il peut revenir au sien ou l'enregistrer)
+- [x] Aperçus de liens (Discord, WhatsApp…) : titre et bannière du jeu
 - [x] Linux : « Détecter mon PC » fonctionne sous Linux (onglets Windows / Linux), et chaque jeu indique s'il tourne sous Linux (natif, via Proton avec la note ProtonDB, ou bloqué par l'anti-triche) ; le verdict reste calculé
 - [x] Reconnaissance : CPU 99 %, GPU 96 % ; verdicts « ? » de 232 à 66 jeux, sans nouveau faux « Insuffisant »
