@@ -4,7 +4,7 @@
  "name": "Freddy Fazbear's Pizzeria Simulator",
  "slug": "freddy-fazbear-s-pizzeria-simulator",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/738060/header.jpg?t=1512422259",
  "requirements": {
   "minimum": {
@@ -57,5 +57,8 @@
     "storage": "1 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

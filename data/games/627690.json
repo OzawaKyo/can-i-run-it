@@ -4,7 +4,7 @@
  "name": "Idle Champions of the Forgotten Realms",
  "slug": "idle-champions-of-the-forgotten-realms",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/627690/8364e2faddbe7149c4d18385635bc1a7fb3eaa3a/header_alt_assets_38.jpg?t=1791400465",
  "requirements": {
   "minimum": {
@@ -64,5 +64,8 @@
     "storage": "3 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

@@ -4,7 +4,7 @@
  "slug": "genshin-impact",
  "source": "pcgamingwiki",
  "officialUrl": "https://act.hoyoverse.com/ys/event/e20230302preview-2hu94k/index.html",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar2s3x.jpg",
  "requirements": {
   "minimum": {
@@ -71,5 +71,9 @@
     "storage": "150 GB"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "running",
+  "antiCheatSlug": "genshin-impact"
  }
 }

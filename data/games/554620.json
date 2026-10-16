@@ -4,7 +4,7 @@
  "name": "Life is Strange: Before the Storm",
  "slug": "life-is-strange-before-the-storm",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/554620/header.jpg?t=1773409621",
  "requirements": {
   "minimum": {
@@ -83,5 +83,8 @@
     "additional notes": "Please note that 32-bit operating systems will not be supported."
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

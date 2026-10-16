@@ -4,7 +4,7 @@
  "name": "SoulWorker - Anime Action MMO",
  "slug": "soulworker-anime-action-mmo",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "requirements": {
   "minimum": {
    "cpu": {
@@ -78,5 +78,8 @@
     "storage": "5 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

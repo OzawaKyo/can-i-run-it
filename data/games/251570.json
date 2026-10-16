@@ -4,7 +4,7 @@
  "name": "7 Days to Die",
  "slug": "7-days-to-die",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1788209289",
  "requirements": {
   "minimum": {
@@ -69,5 +69,10 @@
     "additional notes": "Running a Dedicated Server and Client on the same computer will double ram requirements. Also future releases may require more hard drive space."
    }
   }
+ },
+ "linux": {
+  "native": true,
+  "antiCheat": "supported",
+  "antiCheatSlug": "7-days-to-die"
  }
 }

@@ -4,7 +4,7 @@
  "name": "Far Cry®",
  "slug": "far-cry",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13520/header.jpg?t=1602602361",
  "requirements": {
   "minimum": {
@@ -69,5 +69,10 @@
     "*supported video cards at time of retail release": "NVIDIA GeForce 2/3/4/FX families ( NVIDIA based cards must have ForceWare drivers 53.03 or later; GeForce 2 and GeForce 4 MX cards do not support all graphics features). ATI Radeon 8500/9000 families (ATI Radeon 9500-9800 XT recommended; ATI-based cards must have Catalyst drivers 3.9 or higher). Laptop models of the listed cards are not fully supported. For an up-to-date list of supported chipsets, video cards, and operating systems, please visit the FAQ for this game at: ."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "running",
+  "antiCheatSlug": "far-cry"
  }
 }

@@ -4,7 +4,7 @@
  "name": "Assassin's Creed® Syndicate",
  "slug": "assassin-s-creed-syndicate",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/368500/header.jpg?t=1786632690",
  "requirements": {
   "minimum": {
@@ -72,5 +72,8 @@
     "additional notes": "*Technical Notice from the developer: For a recommended experience, the game requires a video card with at least 3GB of VRAM when playing at a full HD resolution. While we encourage you to fiddle with the advanced options to fully customize your gaming experience, please keep an eye out for the VRAM meter usage when you adjust these settings."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

@@ -4,7 +4,7 @@
  "name": "APB Reloaded",
  "slug": "apb-reloaded",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113400/7ac035c2ba8f7be6ec8f987962b65142f8f25475/header_alt_assets_9.jpg?t=1774579122",
  "requirements": {
   "minimum": {
@@ -73,5 +73,10 @@
     "other requirements": "Broadband Internet connection"
    }
   }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "broken",
+  "antiCheatSlug": "apb-reloaded"
  }
 }

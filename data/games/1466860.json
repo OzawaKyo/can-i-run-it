@@ -4,7 +4,7 @@
  "name": "Age of Empires IV: Anniversary Edition",
  "slug": "age-of-empires-iv-anniversary-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1780854334",
  "requirements": {
   "minimum": {
@@ -81,5 +81,8 @@
     "additional notes": "4 GB of video RAM and 16 GB of system RAM"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

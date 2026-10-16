@@ -4,7 +4,7 @@
  "name": "Risk of Rain 2",
  "slug": "risk-of-rain-2",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/77f4cff7fea7de8a4566d1fb76ace16967604da7/header_alt_assets_7.jpg?t=1791475448",
  "requirements": {
   "minimum": {
@@ -83,5 +83,8 @@
     "storage": "4 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

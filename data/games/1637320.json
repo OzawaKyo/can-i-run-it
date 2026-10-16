@@ -4,7 +4,7 @@
  "name": "Dome Keeper",
  "slug": "dome-keeper",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1637320/334439c379674a719de3f12028f76977aeb176c6/header.jpg?t=1790458252",
  "requirements": {
   "minimum": {
@@ -50,5 +50,8 @@
     "memory": "4 GB RAM"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

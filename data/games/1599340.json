@@ -4,7 +4,7 @@
  "name": "Lost Ark",
  "slug": "lost-ark",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1763571534",
  "requirements": {
   "minimum": {
@@ -82,5 +82,10 @@
     "additional notes": "Internet connection required to play, offers in-game purchases. System requirements for this game may change over time. The specifications listed are recommended for Full High Definition (FHD)."
    }
   }
+ },
+ "linux": {
+  "protonTier": "bronze",
+  "antiCheat": "running",
+  "antiCheatSlug": "lost-ark"
  }
 }

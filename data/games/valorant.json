@@ -4,7 +4,7 @@
  "slug": "valorant",
  "source": "pcgamingwiki",
  "officialUrl": "https://playvalorant.com/",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar5iqo.jpg",
  "requirements": {
   "minimum": {
@@ -74,5 +74,9 @@
     "graphics": "Nvidia GeForce GT 730 / AMD Radeon R7 240"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "denied",
+  "antiCheatSlug": "valorant"
  }
 }

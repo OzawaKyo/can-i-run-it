@@ -4,7 +4,7 @@
  "name": "Batman: Arkham City - Game of the Year Edition",
  "slug": "batman-arkham-city-game-of-the-year-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200260/header.jpg?t=1745964057",
  "requirements": {
   "minimum": {
@@ -40,5 +40,8 @@
     "directx": "9.0c"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

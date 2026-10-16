@@ -20,7 +20,7 @@ import {
 } from '@ng-icons/lucide';
 import { TranslocoPipe } from '@jsverse/transloco';
 import { HardwareCatalog } from '../data/hardware-catalog';
-import { DETECT_COMMAND, DETECT_COMMAND_READABLE } from './detect-command';
+import { DETECT_COMMANDS, detectOs, type DetectOs } from './detect-command';
 import { detectGpuName } from './detect-gpu';
 import { applyPcReport, parsePcReport } from './pc-report';
 import { UserConfigStore } from './user-config-store';
@@ -29,7 +29,7 @@ type Step = 'idle' | 'guide' | 'done';
 
 /**
  * "Detect my PC": fills what the browser can tell at once (the GPU), then guides the full
- * Windows detection — copy a command, paste it in PowerShell, paste the result back here.
+ * detection on Windows or Linux — copy a command, paste it in a terminal, paste the result here.
  */
 @Component({
   selector: 'app-auto-detect',
@@ -53,13 +53,15 @@ export class AutoDetect implements OnInit {
   private readonly catalog = inject(HardwareCatalog);
   private readonly store = inject(UserConfigStore);
 
-  protected readonly command = DETECT_COMMAND;
-  protected readonly readableCommand = DETECT_COMMAND_READABLE;
+  /** The visitor's system; undefined (macOS, phones) when no command fits it. */
+  protected readonly visitorOs = detectOs(navigator.userAgent);
+  protected readonly osChoices: DetectOs[] = ['windows', 'linux'];
+  protected readonly os = signal<DetectOs>(this.visitorOs ?? 'windows');
+  protected readonly command = computed(() => DETECT_COMMANDS[this.os()]);
   protected readonly step = signal<Step>('idle');
   protected readonly copied = signal(false);
   protected readonly pasteError = signal(false);
   protected readonly unmatched = signal<string[]>([]);
-  protected readonly isWindows = /windows/i.test(navigator.userAgent);
   protected readonly summary = computed(() => this.store.config());
   /** Set until the GPU catalog has loaded, so WebGL detection can run against it. */
   private readonly gpuFillPending = signal(false);
@@ -100,7 +102,7 @@ export class AutoDetect implements OnInit {
 
   protected async copyCommand(): Promise<void> {
     try {
-      await navigator.clipboard.writeText(this.command);
+      await navigator.clipboard.writeText(this.command().command);
       this.copied.set(true);
     } catch {
       this.copied.set(false);

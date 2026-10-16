@@ -51,6 +51,14 @@ const catalog: HardwareModel[] = [
   { id: 'amd-radeon-hd-7950', kind: 'gpu', name: 'Radeon HD 7950' },
   { id: 'nvidia-geforce-9800m-gs', kind: 'gpu', name: 'GeForce 9800M GS', laptop: true },
   { id: 'intel-hd-graphics-4000', kind: 'gpu', name: 'HD Graphics 4000' },
+  { id: 'intel-iris-xe-graphics', kind: 'gpu', name: 'Iris Xe Graphics' },
+  { id: 'nvidia-geforce-rtx-4070', kind: 'gpu', name: 'GeForce RTX 4070' },
+  {
+    id: 'nvidia-geforce-rtx-4070-laptop',
+    kind: 'gpu',
+    name: 'GeForce RTX 4070 Laptop',
+    laptop: true,
+  },
 ];
 
 const ids = (raw: string, vramGb?: number) =>
@@ -132,6 +140,16 @@ describe('resolveHardware', () => {
   it('reads processor names as Windows reports them', () => {
     expect(ids('AMD Ryzen 5 3600 6-Core Processor')).toEqual(['ryzen-5-3600']);
     expect(ids('Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz')).toEqual(['i5-8400']);
+  });
+
+  it('reads GPU names as Linux reports them (OpenGL renderer, PCI bus)', () => {
+    expect(ids('AMD Radeon RX 570 (radeonsi, polaris10, LLVM 15.0.7, DRM 3.54)')).toEqual([
+      'rx-570',
+    ]);
+    expect(ids('Mesa Intel(R) Xe Graphics (TGL GT2)')).toEqual(['intel-iris-xe-graphics']);
+    expect(ids('AD106M [GeForce RTX 4070 Max-Q / Mobile]')).toEqual([
+      'nvidia-geforce-rtx-4070-laptop',
+    ]);
   });
 
   it('only matches models of the vendor the name gives', () => {

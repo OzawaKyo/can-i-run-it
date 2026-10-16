@@ -13,9 +13,22 @@
     }
     @case ('guide') {
       <h2>{{ 'detect.guideTitle' | transloco }}</h2>
-      @if (!isWindows) {
-        <p class="hint warn">{{ 'detect.windowsOnly' | transloco }}</p>
+      @if (!visitorOs) {
+        <p class="hint warn">{{ 'detect.otherOs' | transloco }}</p>
       }
+      <div class="os" role="group" [attr.aria-label]="'detect.os' | transloco">
+        @for (choice of osChoices; track choice) {
+          <button
+            type="button"
+            class="secondary"
+            [class.active]="os() === choice"
+            [attr.aria-pressed]="os() === choice"
+            (click)="os.set(choice); copied.set(false)"
+          >
+            {{ choice === 'windows' ? 'Windows' : 'Linux' }}
+          </button>
+        }
+      </div>
       <ol class="steps">
         <li>
           <span class="num" aria-hidden="true">1</span>
@@ -31,8 +44,14 @@
         <li>
           <span class="num" aria-hidden="true">2</span>
           <div>
-            <p>{{ 'detect.step2' | transloco }}</p>
-            <p class="hint">{{ 'detect.step2Hint' | transloco }}</p>
+            <p>
+              {{ (os() === 'linux' ? 'detect.step2Linux' : 'detect.step2Windows') | transloco }}
+            </p>
+            <p class="hint">
+              {{
+                (os() === 'linux' ? 'detect.step2HintLinux' : 'detect.step2HintWindows') | transloco
+              }}
+            </p>
           </div>
         </li>
         <li>
@@ -53,7 +72,7 @@
       <details>
         <summary>{{ 'detect.whatItDoes' | transloco }}</summary>
         <p class="hint">{{ 'detect.whatItDoesBody' | transloco }}</p>
-        <pre><code>{{ readableCommand }}</code></pre>
+        <pre><code>{{ command().readable }}</code></pre>
       </details>
       <button type="button" class="link" (click)="step.set('idle')">
         {{ 'detect.cancel' | transloco }}

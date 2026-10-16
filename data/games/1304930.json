@@ -4,7 +4,7 @@
  "name": "The Outlast Trials",
  "slug": "the-outlast-trials",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
  "requirements": {
   "minimum": {
@@ -90,5 +90,8 @@
     "additional notes": "High 1080p @ 60 FPS, DX12, Ray Tracing OFF"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

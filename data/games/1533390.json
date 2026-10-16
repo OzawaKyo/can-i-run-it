@@ -4,7 +4,7 @@
  "name": "Gorilla Tag",
  "slug": "gorilla-tag",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1533390/fdd97735dfb6643a898070be587c4a057f2b978f/header.jpg?t=1791240923",
  "requirements": {
   "minimum": {
@@ -70,5 +70,8 @@
    },
    "raw": {}
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

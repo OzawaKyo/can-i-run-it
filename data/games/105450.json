@@ -4,7 +4,7 @@
  "name": "Age of Empires® III (2007)",
  "slug": "age-of-empires-iii-2007",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105450/header.jpg?t=1728423545",
  "requirements": {
   "minimum": {
@@ -39,5 +39,8 @@
     "storage": "12 GB HD space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

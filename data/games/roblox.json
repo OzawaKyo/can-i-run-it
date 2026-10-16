@@ -4,7 +4,7 @@
  "slug": "roblox",
  "source": "pcgamingwiki",
  "officialUrl": "https://www.roblox.com/",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar4fu7.jpg",
  "requirements": {
   "minimum": {
@@ -31,5 +31,9 @@
     "storage": "300 MB"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "denied",
+  "antiCheatSlug": "roblox"
  }
 }

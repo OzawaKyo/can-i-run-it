@@ -1,4 +1,5 @@
 import type { HardwareModel } from './hardware';
+import type { LinuxSupport } from './linux';
 import type { StorageRequirement } from './requirements';
 import type { ResolvedRequirements, ResolvedTier } from './verdict';
 
@@ -41,6 +42,8 @@ export interface GameRecord {
   /** Banner: Steam's (460×215) for Steam games, else IGDB artwork. */
   headerImage?: string;
   requirements: { minimum?: StoredTier; recommended?: StoredTier };
+  /** Whether it runs on Linux; absent when nothing is known. */
+  linux?: LinuxSupport;
 }
 
 /** One entry of `data/games/index.json`, the search index. */

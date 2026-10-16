@@ -4,7 +4,7 @@
  "name": "Party Jousting",
  "slug": "party-jousting",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/437900/header.jpg?t=1790827082",
  "requirements": {
   "minimum": {
@@ -38,5 +38,8 @@
     "storage": "250 MB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

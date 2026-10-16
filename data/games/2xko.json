@@ -4,7 +4,7 @@
  "slug": "2xko",
  "source": "pcgamingwiki",
  "officialUrl": "http://2xko.riotgames.com/",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar61hf.jpg",
  "requirements": {
   "minimum": {
@@ -36,5 +36,9 @@
     "storage": "5.5 GB"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "denied",
+  "antiCheatSlug": "2xko"
  }
 }

@@ -4,7 +4,7 @@ import { applyPcReport, parsePcReport, PC_REPORT_PREFIX } from './pc-report';
 const report = (fields: object) => `${PC_REPORT_PREFIX}${JSON.stringify({ v: 1, ...fields })}`;
 
 describe('parsePcReport', () => {
-  it('reads the report the PowerShell command copies', () => {
+  it('reads the report the detection command copies', () => {
     expect(
       parsePcReport(
         report({
@@ -28,6 +28,11 @@ describe('parsePcReport', () => {
     expect(parsePcReport(`  ${report({ cpu: 'X', gpus: 'Y', ramGb: 8 })}\r\n`)?.gpus).toEqual([
       'Y',
     ]);
+  });
+
+  it('finds the report in a whole terminal output pasted at once (Linux)', () => {
+    const output = `$ bash -c '…'\n\n${report({ cpu: 'X', gpus: ['Y'], ramGb: 16 })}\n\nCopiez la ligne ci-dessus\n`;
+    expect(parsePcReport(output)).toEqual({ cpu: 'X', gpus: ['Y'], ramGb: 16 });
   });
 
   it('maps disk media types, leaving unknown ones out', () => {
@@ -84,7 +89,11 @@ describe('applyPcReport', () => {
     const { config, unmatched } = applyPcReport(
       {
         cpu: 'Mystery CPU',
-        gpus: ['Microsoft Basic Display Adapter', 'Parsec Virtual Display Adapter'],
+        gpus: [
+          'Microsoft Basic Display Adapter',
+          'Parsec Virtual Display Adapter',
+          'llvmpipe (LLVM 15.0.7, 256 bits)',
+        ],
       },
       catalog,
     );

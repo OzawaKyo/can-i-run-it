@@ -4,7 +4,7 @@
  "name": "Call of Duty®: Modern Warfare® 2 (2009)",
  "slug": "call-of-duty-modern-warfare-2-2009",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/header.jpg?t=1780962606",
  "requirements": {
   "minimum": {
@@ -42,5 +42,8 @@
     "co-op/multiplayer hosting": "To host Co-op or MP matches, a 2Ghz dual-core or better processor is recommended."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

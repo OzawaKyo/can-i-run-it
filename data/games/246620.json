@@ -4,7 +4,7 @@
  "name": "Plague Inc: Evolved",
  "slug": "plague-inc-evolved",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/4c67f0dc09d833b843cf5c3834d95bef246ccd49/header.jpg?t=1779100239",
  "requirements": {
   "minimum": {
@@ -66,5 +66,8 @@
     "additional notes": "Additional Notes: Requires a system running DirectX 11 as a minimum. Graphics cards over 10 years old may find some graphics display issues. Unsupported video chipsets: Intel HD Graphics 3000, Intel GMA X3100, Intel GMA 950."
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

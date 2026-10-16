@@ -4,7 +4,7 @@
  "name": "Heaven Forest - VR MMO",
  "slug": "heaven-forest-vr-mmo",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476480/header.jpg?t=1685723492",
  "requirements": {
   "minimum": {
@@ -67,5 +67,8 @@
     "additional notes": "The game runs even without VR devices"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

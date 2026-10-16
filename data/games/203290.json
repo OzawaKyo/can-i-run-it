@@ -4,7 +4,7 @@
  "name": "America's Army: Proving Grounds",
  "slug": "america-s-army-proving-grounds",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "requirements": {
   "minimum": {
    "cpu": {
@@ -75,5 +75,10 @@
     "additional notes": "Requires Internet Explorer 9 or later and the latest Windows Media Player"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "running",
+  "antiCheatSlug": "americas-army-proving-grounds"
  }
 }

@@ -4,7 +4,7 @@
  "name": "Block N Load",
  "slug": "block-n-load",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/299360/header.jpg?t=1754050353",
  "requirements": {
   "minimum": {
@@ -66,5 +66,10 @@
     "network": "Broadband Internet connection"
    }
   }
+ },
+ "linux": {
+  "protonTier": "borked",
+  "antiCheat": "broken",
+  "antiCheatSlug": "block-n-load"
  }
 }

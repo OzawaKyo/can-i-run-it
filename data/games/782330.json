@@ -4,7 +4,7 @@
  "name": "DOOM Eternal",
  "slug": "doom-eternal",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/feaf8293bcd2d078422faa547bc0d707c08f606e/header.jpg?t=1783432602",
  "requirements": {
   "minimum": {
@@ -90,5 +90,8 @@
     "additional notes": "( 1080p / 60 FPS / High Quality Settings ) - *On NVIDIA GTX 970 cards Texture Quality should be set to Medium"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

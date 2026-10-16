@@ -4,7 +4,7 @@
  "name": "Don't Starve Together",
  "slug": "don-t-starve-together",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/51e5f44e4e38ce02a985687df4fdc8feb678219b/header.jpg?t=1790287771",
  "requirements": {
   "minimum": {
@@ -41,5 +41,8 @@
     "sound card": "100% DirectX9.0c compatible sound card and drivers"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

@@ -33,6 +33,22 @@
   padding: 14px 22px;
 }
 
+.os {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+
+  button {
+    padding: 6px 14px;
+  }
+
+  .active {
+    border-color: var(--accent);
+    color: var(--text);
+    background: color-mix(in srgb, var(--accent) 22%, transparent);
+  }
+}
+
 .steps {
   list-style: none;
   padding: 0;

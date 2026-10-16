@@ -4,7 +4,7 @@
  "name": "BioShock™",
  "slug": "bioshock",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/header.jpg?t=1730172622",
  "requirements": {
   "minimum": {
@@ -58,5 +58,8 @@
     "sound card": ": SoundBlaster(r) X-Fi(tm) series (optimized foruse with Creative Labs EAX ADVANCED HD 4.0 or EAX ADVANCED HD 5.0 compatible sound cards)"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

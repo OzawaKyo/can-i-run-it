@@ -4,7 +4,7 @@
  "name": "DEATH STRANDING DIRECTOR'S CUT",
  "slug": "death-stranding-director-s-cut",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1773400635",
  "requirements": {
   "minimum": {
@@ -89,5 +89,8 @@
     "additional notes": "AVX instruction set required"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

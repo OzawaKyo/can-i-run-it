@@ -4,7 +4,7 @@
  "name": "Resident Evil 4",
  "slug": "resident-evil-4",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
  "requirements": {
   "minimum": {
@@ -76,5 +76,8 @@
     "additional notes": "Estimated performance: 1080p/60fps ・Framerate might drop in graphics-intensive scenes. ・AMD Radeon RX 6700 XT or NVIDIA GeForce RTX 2070 required to support ray tracing."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

@@ -4,7 +4,7 @@
  "name": "Spelunky",
  "slug": "spelunky",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239350/header.jpg?t=1632912566",
  "requirements": {
   "minimum": {
@@ -38,5 +38,8 @@
     "additional notes": "Xbox 360 controller or other XInput-compatible controller"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

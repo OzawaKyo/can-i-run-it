@@ -4,7 +4,7 @@
  "name": "Valheim",
  "slug": "valheim",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1791544831",
  "requirements": {
   "minimum": {
@@ -79,5 +79,8 @@
     "storage": "1 GB available space"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

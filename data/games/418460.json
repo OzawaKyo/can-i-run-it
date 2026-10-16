@@ -4,7 +4,7 @@
  "name": "Rising Storm 2: Vietnam",
  "slug": "rising-storm-2-vietnam",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418460/header.jpg?t=1789745392",
  "requirements": {
   "minimum": {
@@ -81,5 +81,10 @@
     "storage": "60 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "running",
+  "antiCheatSlug": "rising-storm-2-vietnam"
  }
 }

@@ -4,7 +4,7 @@
  "name": "Hunt: Showdown 1896",
  "slug": "hunt-showdown-1896",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/8cf55bcd74fc14c93f3a9cc7d0a442afabab6f88/header_alt_assets_29.jpg?t=1791385253",
  "requirements": {
   "minimum": {
@@ -88,5 +88,10 @@
     "additional notes": "Best experienced with headphones and on a SSD drive"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "hunt-showdown"
  }
 }

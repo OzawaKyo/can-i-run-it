@@ -4,7 +4,7 @@
  "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
  "slug": "metal-gear-solid-v-the-phantom-pain",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/header.jpg?t=1778872866",
  "requirements": {
   "minimum": {
@@ -74,5 +74,8 @@
     "sound card": "DirectX 9.0c compatible sound card (Surround Sound 5.1)"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

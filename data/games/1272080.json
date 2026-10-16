@@ -4,7 +4,7 @@
  "name": "PAYDAY 3",
  "slug": "payday-3",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/df3b5a72b1ca9308a37b5244ab516ddd5a3bb9d1/header_alt_assets_11.jpg?t=1790075084",
  "requirements": {
   "minimum": {
@@ -81,5 +81,8 @@
     "storage": "45 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

@@ -4,7 +4,7 @@
  "slug": "honkai-star-rail",
  "source": "pcgamingwiki",
  "officialUrl": "https://act.hoyoverse.com/sr/event/e20240426version-48v1wy/index.html",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scs30i.jpg",
  "requirements": {
   "minimum": {
@@ -62,5 +62,9 @@
     "memory": "16 GB"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "broken",
+  "antiCheatSlug": "honkai-star-rail"
  }
 }

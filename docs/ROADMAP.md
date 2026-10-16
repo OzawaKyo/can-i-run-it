@@ -1,6 +1,6 @@
 # Can I Run It? — Suivi
 
-Dernière mise à jour : 14 octobre 2026
+Dernière mise à jour : 16 octobre 2026
 
 - Site : https://can-i-run-it.ozawakyo.workers.dev
 - Dépôt : https://github.com/OzawaKyo/can-i-run-it
@@ -15,6 +15,8 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 - [ ] **P1 · toi** — Commande PowerShell « Détecter mon PC » sur un vrai PC Windows
   Site → « Détecter mon PC » → suivre les 3 étapes. Si ça bloque, envoyer ce qu'affiche PowerShell.
   _Seul élément livré sans avoir été exécuté (développé sous Linux)._
+- [ ] **P2 · toi** — Commande « Détecter mon PC » sur une autre distribution Linux (idéalement avec une carte NVIDIA ou AMD)
+  Testée sur ton PC (Intel Iris Xe, Wayland) et sous bash, zsh et fish ; les cas NVIDIA et AMD sont simulés.
 
 ## Fiabilité des données
 
@@ -59,4 +61,5 @@ Chaque tâche indique sa priorité (**P1** prioritaire, **P2** important, **P3**
 - [x] Exigences vagues traitées : CPU d'avant l'ère Core (Pentium 4, Athlon XP…), nombre de cœurs seul, « Intel i5 », DirectX / Pixel Shader / OpenGL écrits de mille façons, mémoire seule (« 256 MB »), séries (« GeForce 200 series »), ancien format en paragraphe
 - [x] 29 jeux populaires hors Steam (League of Legends, Valorant, Fortnite, Minecraft, Roblox, Genshin…) : configs PCGamingWiki, images IGDB ; liste modifiable dans `apps/data-pipeline/non-steam-games.json`
 - [x] Estimation des FPS (1080p, réglages bas et élevés) sur chaque page de jeu, expliquée dans « Sources & méthode »
+- [x] Linux : « Détecter mon PC » fonctionne sous Linux (onglets Windows / Linux), et chaque jeu indique s'il tourne sous Linux (natif, via Proton avec la note ProtonDB, ou bloqué par l'anti-triche) ; le verdict reste calculé
 - [x] Reconnaissance : CPU 99 %, GPU 96 % ; verdicts « ? » de 232 à 66 jeux, sans nouveau faux « Insuffisant »

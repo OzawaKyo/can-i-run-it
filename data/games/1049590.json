@@ -4,7 +4,7 @@
  "name": "Eternal Return",
  "slug": "eternal-return",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1049590/72918ebacd0d4f8537969dc8b976ceb98f681cab/header.jpg?t=1789544685",
  "requirements": {
   "minimum": {
@@ -86,5 +86,10 @@
     "additional notes": "Installing the game on an SSD improves loading times."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "eternal-return"
  }
 }

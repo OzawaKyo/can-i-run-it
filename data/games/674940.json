@@ -4,7 +4,7 @@
  "name": "Stick Fight: The Game",
  "slug": "stick-fight-the-game",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/674940/header.jpg?t=1730715399",
  "requirements": {
   "minimum": {
@@ -33,5 +33,8 @@
     "storage": "400 MB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

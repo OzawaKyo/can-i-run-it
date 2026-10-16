@@ -4,7 +4,7 @@
  "name": "Europa Universalis IV",
  "slug": "europa-universalis-iv",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/header.jpg?t=1790873960",
  "requirements": {
   "minimum": {
@@ -89,5 +89,8 @@
     "additional": "Controller support: 3-button mouse, keyboard and speakers. Internet Connection or LAN for multiplayer"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

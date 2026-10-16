@@ -4,7 +4,7 @@ Décisions prises lors de la session de cadrage du 2026-10-13.
 
 ## Produit
 
-- **Concept** : savoir si son PC peut faire tourner un jeu vidéo. Windows uniquement.
+- **Concept** : savoir si son PC peut faire tourner un jeu vidéo. Verdict calculé sur les configurations Windows publiées ; sous Linux, même verdict plus un indicateur de compatibilité (voir « Linux »).
 - **Esprit** : projet fun et non commercial, mais **sérieux sur l'usage et la fiabilité**. Pas d'objectif de trafic ni d'analytics.
 - **Parcours** : jeu d'abord → config utilisateur → verdict. URL partageable `/game/:appId/:slug`. SPA pure, pas de SSR.
 - **Verdict par composant** (CPU, GPU, RAM, VRAM, DirectX, stockage) :
@@ -28,9 +28,17 @@ Décisions prises lors de la session de cadrage du 2026-10-13.
   1. remplit le GPU via WebGL (`WEBGL_debug_renderer_info` / WebGPU), instantanément ;
   2. guide la **détection complète Windows** en 3 gestes : copier une commande PowerShell (lisible, affichée sur la page) → la coller dans PowerShell → coller le résultat sur le site. La commande lit CPU, GPU, RAM installée, espace libre et type (SSD/HDD) du disque le plus libre ; elle n'installe rien et n'envoie rien (résultat dans le presse-papier, préfixé `can-i-run-it:`).
   - Le texte collé est validé strictement (préfixe, JSON, types, tailles) ; plusieurs GPU → le plus puissant ; adaptateurs virtuels ignorés.
+  - **Linux** (2026-10-16) : même rapport, via une commande `bash -c '…'` (sans apostrophe ni double antislash, pour fonctionner aussi depuis zsh et fish). GPU : `nvidia-smi`, sinon `glxinfo -B` (GPU par défaut et `DRI_PRIME=1`), sinon `lspci`. RAM : `MemTotal` arrondie au Go supérieur. Disque : partition la plus libre (`df`), type via `lsblk ROTA`. Le rapport est affiché et copié si `wl-copy`/`xclip`/`xsel` existe ; le site le retrouve dans une sortie de terminal collée en entier. Système proposé d'après le navigateur, modifiable (onglets Windows / Linux).
   - Écarté : un `.exe` à télécharger (avertissement SmartScreen sans certificat de signature payant).
 - Saisie manuelle toujours possible (autocomplétion CPU/GPU, RAM, espace libre, SSD/HDD).
 - Une seule config, persistée en `localStorage`.
+
+## Linux
+
+- Décidé le 2026-10-16 : « dire si le jeu est compatible ou pas, mais dans tous les cas calculer le verdict ». Champ `linux` des jeux, résumé par `linuxStatus` (`libs/domain/src/linux.ts`).
+- Sources : version native (Steam `platforms.linux`, disponibilité PCGamingWiki pour les jeux hors Steam) ; note ProtonDB (`/api/v1/reports/summaries/<appid>.json`, non officiel, ODbL) ; statut anti-triche AreWeAntiCheatYet (`games.json`, MIT ; par appid Steam puis par nom).
+- Priorité : anti-triche refusé, cassé ou seulement « prévu » → **bloqué** ; sinon natif ; sinon note ProtonDB (platine/or : fonctionne, argent/bronze : soucis, borked : ne fonctionne pas) ; sinon anti-triche fonctionnel → fonctionne ; sinon inconnu.
+- Affichage : carte « Sous Linux » en haut de la page pour les visiteurs Linux, sous le tableau pour les autres.
 
 ## Données jeux
 

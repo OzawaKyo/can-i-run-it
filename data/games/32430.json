@@ -4,7 +4,7 @@
  "name": "STAR WARS™ - The Force Unleashed™ Ultimate Sith Edition",
  "slug": "star-wars-the-force-unleashed-ultimate-sith-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32430/header.jpg?t=1741729267",
  "requirements": {
   "minimum": {
@@ -61,5 +61,8 @@
     "graphics": "512 MB 3D Hardware Accelerator Card (GeForce 9800 GT)"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

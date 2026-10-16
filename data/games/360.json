@@ -4,7 +4,7 @@
  "name": "Half-Life Deathmatch: Source",
  "slug": "half-life-deathmatch-source",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/360/header.jpg?t=1745368549",
  "requirements": {
   "minimum": {
@@ -35,5 +35,10 @@
     "storage": "4 GB available space"
    }
   }
+ },
+ "linux": {
+  "native": true,
+  "antiCheat": "supported",
+  "antiCheatSlug": "halflife-deathmatch-source"
  }
 }

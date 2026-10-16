@@ -4,7 +4,7 @@
  "name": "To the Moon",
  "slug": "to-the-moon",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206440/header.jpg?t=1780927584",
  "requirements": {
   "minimum": {
@@ -31,5 +31,8 @@
     "directx": "9.0"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

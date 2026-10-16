@@ -4,7 +4,7 @@
  "name": "Street Fighter™ 6",
  "slug": "street-fighter-6",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1791866175",
  "requirements": {
   "minimum": {
@@ -83,5 +83,8 @@
     "additional notes": "- The framerate may drop during graphic-intensive scenes. - Additional storage is required for each subsequent update."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

@@ -4,7 +4,7 @@
  "name": "Mirror 2: Project X",
  "slug": "mirror-2-project-x",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1832640/header.jpg?t=1673932541",
  "requirements": {
   "minimum": {
@@ -74,5 +74,8 @@
     "storage": "20 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "silver"
  }
 }

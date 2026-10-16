@@ -4,7 +4,7 @@
  "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
  "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9c8da5440ab033af46b9c7fecfd37166479d2ea6/header.jpg?t=1790259592",
  "requirements": {
   "minimum": {
@@ -82,5 +82,8 @@
     "additional notes": "Graphics Preset: HIGH / Resolution: 1440p / Target FPS: 60. 32 GB Dual Channel RAM. SSD required. The above specifications were tested with TSR, DLSS, FSR and XeSS."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

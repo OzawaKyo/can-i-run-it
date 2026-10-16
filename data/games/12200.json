@@ -4,7 +4,7 @@
  "name": "Bully: Scholarship Edition",
  "slug": "bully-scholarship-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12200/header.jpg?t=1741118085",
  "requirements": {
   "minimum": {
@@ -44,5 +44,8 @@
     "input": "Keyboard, Mouse, Xbox 360 Controller supported"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

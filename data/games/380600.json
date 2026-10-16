@@ -4,7 +4,7 @@
  "name": "Fishing Planet",
  "slug": "fishing-planet",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380600/fdd30a0c9cc1da191a196ffbd1bcb7925d51ed16/header_alt_assets_17.jpg?t=1791800016",
  "requirements": {
   "minimum": {
@@ -82,5 +82,8 @@
     "additional notes": "External mouse or compatible XBOX/PlayStation controller required"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

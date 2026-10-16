@@ -4,7 +4,7 @@
  "slug": "minecraft-java-edition",
  "source": "pcgamingwiki",
  "officialUrl": "https://minecraft.net/",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar30cw.jpg",
  "requirements": {
   "minimum": {
@@ -71,5 +71,8 @@
     "memory": "16 GB"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

@@ -4,7 +4,7 @@
  "name": "Train Simulator Classic",
  "slug": "train-simulator-classic",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24010/1323454fa36647dd6ee09f1f05c1e6e0d1d09d92/header.jpg?t=1791185480",
  "requirements": {
   "minimum": {
@@ -86,5 +86,8 @@
     "additional notes": "Requires mouse and keyboard or Xbox Controller Laptop, Notebook, Mobile or Low Power versions of the above specifications (including Intel or Integrated Graphics) may work but are not supported. Updates to Chipset, Graphics and Audio Device Drivers may be required. *The Steam Client only supports Windows 10 and later."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

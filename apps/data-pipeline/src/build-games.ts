@@ -1,8 +1,14 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import type { GameIndexEntry, GameRecord, HardwareModel } from '@can-i-run-it/domain';
+import type { GameIndexEntry, GameRecord, HardwareModel, LinuxSupport } from '@can-i-run-it/domain';
 import { resolveGameRequirements, type UnresolvedName } from './games/resolve-game-requirements';
-import { createPoliteFetch } from './http/polite-fetch';
+import { createPoliteFetch, HttpError } from './http/polite-fetch';
 import { fetchIgdbMedia } from './igdb/fetch-igdb-media';
+import {
+  antiCheatLookup,
+  pcgwHasLinuxBuild,
+  protonTier,
+  type AwacyGame,
+} from './linux/linux-support';
 import { fetchPcgwPage, fetchPcgwRequirements } from './pcgamingwiki/fetch-pcgw-requirements';
 import {
   parsePcgwRequirements,
@@ -24,12 +30,31 @@ const get = createPoliteFetch({
   requireContact: false,
 });
 
+/** ProtonDB answers fast; a lighter pace keeps the first full run short. */
+const getProton = createPoliteFetch({
+  cacheDir: '.cache/pipeline',
+  minIntervalMs: 400,
+  maxAgeMs: 6 * DAY,
+  requireContact: false,
+  staleOnError: true,
+});
+
+type FindAntiCheat = ReturnType<typeof antiCheatLookup>;
+
 async function main() {
   const catalog = {
     cpus: JSON.parse(await readFile('data/hardware/cpus.json', 'utf8')) as HardwareModel[],
     gpus: JSON.parse(await readFile('data/hardware/gpus.json', 'utf8')) as HardwareModel[],
   };
   const appids = await selectGames();
+  const findAntiCheat = antiCheatLookup(
+    JSON.parse(
+      await get(
+        'https://raw.githubusercontent.com/AreWeAntiCheatYet/AreWeAntiCheatYet/HEAD/games.json',
+        'awacy/games.json',
+      ),
+    ) as AwacyGame[],
+  );
 
   await mkdir(OUT_DIR, { recursive: true });
   const index: GameIndexEntry[] = [];
@@ -71,8 +96,12 @@ async function main() {
       updatedAt: new Date().toISOString().slice(0, 10),
       headerImage: steamImage(details.data.header_image),
       requirements,
+      linux: await steamLinuxSupport(appid, details.data, findAntiCheat),
     };
-    await writeFile(`${OUT_DIR}/${appid}.json`, `${JSON.stringify(record, null, 1)}\n`);
+    await writeFile(
+      `${OUT_DIR}/${appid}.json`,
+      `${JSON.stringify(withoutUndefined(record), null, 1)}\n`,
+    );
     index.push({
       id: String(appid),
       appid,
@@ -88,6 +117,7 @@ async function main() {
     new Set(index.map((game) => game.appid)),
     index,
     unresolved,
+    findAntiCheat,
   );
 
   index.sort((a, b) => a.rank - b.rank);
@@ -110,6 +140,43 @@ interface SteamAppData {
   header_image?: string;
   capsule_image?: string;
   pc_requirements: unknown;
+  platforms?: { linux?: boolean };
+}
+
+/**
+ * Linux support of a Steam game: a Linux build on Steam, else ProtonDB's player rating; and
+ * the anti-cheat status from AreWeAntiCheatYet.
+ */
+async function steamLinuxSupport(
+  appid: number,
+  data: SteamAppData,
+  findAntiCheat: FindAntiCheat,
+): Promise<LinuxSupport | undefined> {
+  const native = data.platforms?.linux === true;
+  const tier = native
+    ? undefined
+    : protonTier(
+        await getProton(
+          `https://www.protondb.com/api/v1/reports/summaries/${appid}.json`,
+          `protondb/${appid}.json`,
+        ).catch((error: unknown) => {
+          // 404: no summary yet (too few reports). Anything else: ProtonDB is unofficial and
+          // may refuse us; the game then simply has no rating this time.
+          if (!(error instanceof HttpError && error.status === 404))
+            console.warn(`ProtonDB: ${error instanceof Error ? error.message : error}`);
+          return '';
+        }),
+      );
+  return linuxSupport({
+    native: native || undefined,
+    protonTier: tier,
+    ...findAntiCheat({ appid, name: data.name }),
+  });
+}
+
+function linuxSupport(support: LinuxSupport): LinuxSupport | undefined {
+  const known = withoutUndefined(support);
+  return Object.keys(known).length > 0 ? known : undefined;
 }
 
 /**
@@ -160,6 +227,7 @@ async function addNonSteamGames(
   steamAppIds: Set<number | undefined>,
   index: GameIndexEntry[],
   unresolved: Map<string, number>,
+  findAntiCheat: FindAntiCheat,
 ): Promise<number> {
   const list = JSON.parse(await readFile('apps/data-pipeline/non-steam-games.json', 'utf8')) as {
     title: string;
@@ -192,6 +260,10 @@ async function addNonSteamGames(
       updatedAt: new Date().toISOString().slice(0, 10),
       headerImage: media.headerImage,
       requirements,
+      linux: linuxSupport({
+        native: pcgwHasLinuxBuild(wikitext) || undefined,
+        ...findAntiCheat({ name: title }),
+      }),
     };
     await writeFile(
       `${OUT_DIR}/${id}.json`,

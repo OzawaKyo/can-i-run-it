@@ -4,7 +4,7 @@
  "name": "Dead by Daylight",
  "slug": "dead-by-daylight",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579",
  "requirements": {
   "minimum": {
@@ -88,5 +88,10 @@
     "sound card": "DX11 compatible"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "dead-by-daylight"
  }
 }

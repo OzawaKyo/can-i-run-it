@@ -4,7 +4,7 @@
  "name": "Assassin's Creed™: Director's Cut Edition",
  "slug": "assassin-s-creed-director-s-cut-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15100/9b3395c1e8d808897d7adf8f400a9efd5b63eecd/header.jpg?t=1789591653",
  "requirements": {
   "minimum": {
@@ -43,5 +43,8 @@
     "*supported video cards at time of release": "ATI RADEON X1600** /1650**- 1950/ HD 2000/3000 series, NVIDIA GeForce 6800**/7/8/9 series. **PCI Express only supported. Laptop versions of these cards may work but are NOT supported. These chipsets are the only ones that will run this game. For the most up-to-date requirements, please visit the FAQ for this game at: ."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

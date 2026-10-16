@@ -4,7 +4,7 @@
  "name": "Z1 Battle Royale",
  "slug": "z1-battle-royale",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433850/header.jpg?t=1579626820",
  "requirements": {
   "minimum": {
@@ -82,5 +82,10 @@
     "sound card": "DirectX compatible Sound Card"
    }
   }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "running",
+  "antiCheatSlug": "z1-br"
  }
 }

@@ -4,7 +4,7 @@
  "slug": "zenless-zone-zero",
  "source": "pcgamingwiki",
  "officialUrl": "https://zenless.hoyoverse.com/",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar4qbk.jpg",
  "requirements": {
   "minimum": {
@@ -56,5 +56,9 @@
     "graphics": "Nvidia GeForce GTX 1660"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "running",
+  "antiCheatSlug": "zzz"
  }
 }

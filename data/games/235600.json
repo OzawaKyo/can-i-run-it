@@ -4,7 +4,7 @@
  "name": "Tom Clancy’s Splinter Cell Blacklist",
  "slug": "tom-clancy-s-splinter-cell-blacklist",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/235600/header.jpg?t=1764775433",
  "requirements": {
   "minimum": {
@@ -148,5 +148,8 @@
     "additional": "Peripherals Supported: Windows-compatible keyboard, mouse, headset, optional controller (Xbox 360 Controller for Windows recommended). Requires UPLAY account.."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

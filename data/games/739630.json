@@ -4,7 +4,7 @@
  "name": "Phasmophobia",
  "slug": "phasmophobia",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791632508",
  "requirements": {
   "minimum": {
@@ -83,5 +83,10 @@
     "storage": "21 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum",
+  "antiCheat": "running",
+  "antiCheatSlug": "phasmophobia"
  }
 }

@@ -46,6 +46,39 @@
   }
 }
 
+.linux {
+  margin-bottom: 20px;
+  border-left: 4px solid var(--level-unknown);
+
+  &[data-status='native'],
+  &[data-status='works'] {
+    border-left-color: var(--level-recommended);
+  }
+  &[data-status='issues'] {
+    border-left-color: var(--level-borderline);
+  }
+  &[data-status='broken'],
+  &[data-status='blocked'] {
+    border-left-color: var(--level-below);
+  }
+
+  p {
+    margin: 4px 0 0;
+  }
+
+  .status {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .sources {
+    display: flex;
+    gap: 12px;
+  }
+}
+
 .verdict {
   display: flex;
   flex-wrap: wrap;

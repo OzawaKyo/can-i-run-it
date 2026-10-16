@@ -4,7 +4,7 @@
  "slug": "escape-from-tarkov",
  "source": "pcgamingwiki",
  "officialUrl": "http://www.escapefromtarkov.com",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar526d.jpg",
  "requirements": {
   "minimum": {
@@ -69,5 +69,9 @@
     "storage": "80 GB"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "planned",
+  "antiCheatSlug": "escape-from-tarkov"
  }
 }

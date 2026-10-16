@@ -43,12 +43,23 @@ function resolveOne(
       best.push(model);
     }
   }
-  if (best.length > 0)
+  const laptopName = /\b(?:laptop|mobile|mobility|notebook|max-?q)\b|\d+m\b/i.test(raw);
+  if (best.length > 0) {
+    // "RTX 4070 Max-Q / Mobile" (as Linux lists it) is the laptop chip, named "RTX 4070 Laptop".
+    if (laptopName && best.every((model) => !model.laptop)) {
+      const keys = best.map((model) => matchKey(model.name));
+      const laptops = catalog.filter(
+        (model) =>
+          model.laptop &&
+          keys.some((key) => ['laptop', 'mobile'].some((s) => matchKey(model.name) === key + s)),
+      );
+      if (laptops.length > 0) best = laptops;
+    }
     return pickVram(best, hints).map((model) => ({ model, confidence: 'exact' }));
+  }
 
   // "GeForce 8600" names a family ("8600 GT", "8600 GTS"): accept the variants, flagged as partial.
   // A family ("GeForce 9800") means desktop cards unless the name says laptop.
-  const laptopName = /\b(?:laptop|mobile|mobility|notebook)\b|\d+m\b/i.test(raw);
   const variants = catalog.filter(
     (model) => isVariantOf(matchKey(model.name), rawKey) && (laptopName || !model.laptop),
   );
@@ -152,6 +163,8 @@ function matchKey(name: string): string {
     name
       .replace(/\bR([3579])\s+(\d{4})/gi, 'Ryzen $1 $2')
       .toLowerCase()
+      // Mesa calls the Iris Xe iGPU "Intel(R) Xe Graphics".
+      .replace(/\b(intel(?:\(r\))?\s+)xe\s+graphics\b/g, '$1iris xe graphics')
       // "ATI Radeon 3870" → "Radeon HD 3870"; "Nvidia 450 GTS" → "GTS 450".
       .replace(/\b(radeon|ati)\s+(?=[2-7]\d{3}\b)/g, '$1 hd ')
       .replace(/(^|\b(?:nvidia|geforce)\s+)(\d{3})\s*(gts|gtx|gt)\b/g, '$1$3 $2')

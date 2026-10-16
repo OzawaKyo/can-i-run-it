@@ -4,7 +4,7 @@
  "name": "Cult of the Lamb",
  "slug": "cult-of-the-lamb",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/19f32bb477a6e9d058e05193b4e282149bd70644/header.jpg?t=1786554901",
  "requirements": {
   "minimum": {
@@ -79,5 +79,8 @@
     "storage": "4 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

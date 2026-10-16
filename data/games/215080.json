@@ -4,7 +4,7 @@
  "name": "WAKFU",
  "slug": "wakfu",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/215080/header.jpg?t=1773070804",
  "requirements": {
   "minimum": {
@@ -65,5 +65,8 @@
     "additional notes": "OpenGL 2.1 and Java 11"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

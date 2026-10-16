@@ -4,7 +4,7 @@
  "name": "ULTRAKILL",
  "slug": "ultrakill",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg?t=1783942574",
  "requirements": {
   "minimum": {
@@ -71,5 +71,8 @@
     "sound card": "Yet I must scream."
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

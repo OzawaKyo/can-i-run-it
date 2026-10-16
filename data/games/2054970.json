@@ -4,7 +4,7 @@
  "name": "Dragon's Dogma 2",
  "slug": "dragon-s-dogma-2",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg?t=1791504871",
  "requirements": {
   "minimum": {
@@ -74,5 +74,8 @@
     "additional notes": "Supports 1080p gameplay (using upscaler)/60fps when selecting Prioritize Performance in Graphics Quality. Note: Frame rate may drop when the processing load is high. NVIDIA GeForce RTX 2080 Ti or AMD Radeon RX 6800 are required to support Ray Tracing. SSD recommended."
    }
   }
+ },
+ "linux": {
+  "protonTier": "silver"
  }
 }

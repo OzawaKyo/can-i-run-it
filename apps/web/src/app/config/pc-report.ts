@@ -17,15 +17,20 @@ const MAX_NAME_LENGTH = 200;
 
 /**
  * Reads a pasted report: `can-i-run-it:{"v":1,"cpu":…,"gpus":[…],"ramGb":…,"freeGb":…,"disk":…}`.
- * The text comes from the clipboard, so every field is checked and anything unexpected is
- * dropped; undefined when the text is not a report at all.
+ * On Linux it may sit in a whole terminal output, followed by a blank line; a terminal may also
+ * break the long line where it wrapped. The text comes from the clipboard, so every field is
+ * checked and anything unexpected is dropped; undefined when the text is not a report at all.
  */
 export function parsePcReport(text: string): PcReport | undefined {
-  const trimmed = text.trim();
-  if (!trimmed.startsWith(PC_REPORT_PREFIX)) return undefined;
+  const start = text.indexOf(PC_REPORT_PREFIX);
+  if (start === -1) return undefined;
+  const json = text
+    .slice(start + PC_REPORT_PREFIX.length)
+    .split(/\r?\n\s*\r?\n/)[0]
+    .replace(/\r?\n/g, '');
   let data: unknown;
   try {
-    data = JSON.parse(trimmed.slice(PC_REPORT_PREFIX.length));
+    data = JSON.parse(json);
   } catch {
     return undefined;
   }
@@ -60,9 +65,9 @@ function amount(value: unknown, max: number): number | undefined {
     : undefined;
 }
 
-/** Display adapters that aren't graphics cards (remote desktop, streaming, fallback drivers). */
+/** Display adapters that aren't graphics cards (remote desktop, streaming, software rendering). */
 const VIRTUAL_ADAPTER =
-  /basic display|basic render|virtual|remote|parsec|citrix|vmware|virtualbox|hyper-v|displaylink|spacedesk/i;
+  /basic display|basic render|llvmpipe|softpipe|virtual|remote|parsec|citrix|vmware|virtualbox|hyper-v|displaylink|spacedesk/i;
 
 /**
  * Matches a report against the catalog. With several GPUs (integrated + dedicated), the

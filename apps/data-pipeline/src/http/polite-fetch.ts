@@ -10,6 +10,8 @@ export interface PoliteFetchOptions {
   maxAgeMs: number;
   /** Wikimedia requires a contact in the User-Agent; other APIs don't. */
   requireContact: boolean;
+  /** When the request fails, fall back to an expired cached response if there is one. */
+  staleOnError?: boolean;
 }
 
 export class MissingContactError extends Error {
@@ -37,10 +39,22 @@ export function createPoliteFetch({
   minIntervalMs,
   maxAgeMs,
   requireContact,
+  staleOnError = false,
 }: PoliteFetchOptions) {
   let lastRequest = 0;
 
   return async function get(url: string, cacheKey: string): Promise<string> {
+    try {
+      return await fetchCached(url, cacheKey);
+    } catch (error) {
+      if (!staleOnError) throw error;
+      const stale = await readFile(join(cacheDir, cacheKey), 'utf8').catch(() => undefined);
+      if (stale === undefined) throw error;
+      return stale;
+    }
+  };
+
+  async function fetchCached(url: string, cacheKey: string): Promise<string> {
     const cachePath = join(cacheDir, cacheKey);
     try {
       if (Date.now() - (await stat(cachePath)).mtimeMs < maxAgeMs)
@@ -69,5 +83,5 @@ export function createPoliteFetch({
       await writeFile(cachePath, body);
       return body;
     }
-  };
+  }
 }

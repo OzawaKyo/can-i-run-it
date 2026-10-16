@@ -4,7 +4,7 @@
  "name": "GunZ 2: The Second Duel",
  "slug": "gunz-2-the-second-duel",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242720/header.jpg?t=1737423914",
  "requirements": {
   "minimum": {
@@ -92,5 +92,10 @@
     "storage": "4 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "bronze",
+  "antiCheat": "broken",
+  "antiCheatSlug": "gunz2-the-second-duel"
  }
 }

@@ -4,7 +4,7 @@
  "name": "Tom Clancy's Rainbow Six Siege",
  "slug": "tom-clancy-s-rainbow-six-siege",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/1c7b1ea3405a69c54429e2aa3dc31f3cbbeaa456/header_alt_assets_26.jpg?t=1791914543",
  "requirements": {
   "minimum": {
@@ -90,5 +90,10 @@
     "additional notes": "For an up-to-date list of supported chipsets, please visit the FAQ for this game on our support website. Game contains BattleEye anti-cheat technology."
    }
   }
+ },
+ "linux": {
+  "protonTier": "borked",
+  "antiCheat": "denied",
+  "antiCheatSlug": "rainbow-six-siege-x"
  }
 }

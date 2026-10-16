@@ -6,15 +6,25 @@ import {
   computeVerdict,
   estimateFps,
   hydrateRequirements,
+  linuxStatus,
   type Component as RequirementComponent,
   type GameRecord,
+  type LinuxStatus,
   type StoredTier,
   type UserConfig,
   type VerdictLevel,
 } from '@can-i-run-it/domain';
 import { NgIcon, provideIcons } from '@ng-icons/core';
-import { lucideScanSearch } from '@ng-icons/lucide';
+import {
+  lucideCircleCheck,
+  lucideCircleHelp,
+  lucideCircleX,
+  lucideScanSearch,
+  lucideShieldX,
+  lucideTriangleAlert,
+} from '@ng-icons/lucide';
 import { TranslocoPipe } from '@jsverse/transloco';
+import { detectOs } from '../config/detect-command';
 import { UserConfigStore } from '../config/user-config-store';
 import { HardwareCatalog } from '../data/hardware-catalog';
 import { size, type Size } from '../shared/size';
@@ -33,13 +43,31 @@ interface Row {
   recommended?: Shown;
 }
 
+const LINUX_ICONS: Record<LinuxStatus, string> = {
+  native: 'lucideCircleCheck',
+  works: 'lucideCircleCheck',
+  issues: 'lucideTriangleAlert',
+  broken: 'lucideCircleX',
+  blocked: 'lucideShieldX',
+  unknown: 'lucideCircleHelp',
+};
+
 const ORDER: RequirementComponent[] = ['cpu', 'gpu', 'ram', 'vram', 'directX', 'storage'];
 
 /** One game: its requirements side by side with the user's PC, and the verdict. */
 @Component({
   selector: 'app-game-page',
   imports: [NgIcon, NgTemplateOutlet, RouterLink, TranslocoPipe, VerdictBadge],
-  viewProviders: [provideIcons({ lucideScanSearch })],
+  viewProviders: [
+    provideIcons({
+      lucideCircleCheck,
+      lucideCircleHelp,
+      lucideCircleX,
+      lucideScanSearch,
+      lucideShieldX,
+      lucideTriangleAlert,
+    }),
+  ],
   templateUrl: './game-page.html',
   styleUrl: './game-page.scss',
 })
@@ -87,6 +115,16 @@ export class GamePage {
         recommended: required(component, recommended),
       }),
     );
+  });
+
+  /** Linux visitors see Linux support first; others find it below the requirements. */
+  protected readonly onLinux = detectOs(navigator.userAgent) === 'linux';
+
+  protected readonly linux = computed(() => {
+    const game = this.game.value();
+    if (!game) return undefined;
+    const status = linuxStatus(game.linux);
+    return { status, icon: LINUX_ICONS[status], support: game.linux ?? {} };
   });
 
   protected readonly reportUrl = computed(() => {

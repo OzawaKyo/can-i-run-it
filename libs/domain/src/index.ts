@@ -5,3 +5,4 @@ export * from './verdict';
 export * from './game';
 export * from './search';
 export * from './estimate-fps';
+export * from './linux';

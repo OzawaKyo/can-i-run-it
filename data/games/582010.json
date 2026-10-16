@@ -4,7 +4,7 @@
  "name": "Monster Hunter: World",
  "slug": "monster-hunter-world",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1791439347",
  "requirements": {
   "minimum": {
@@ -111,5 +111,8 @@
     "additional notes": "- These specs allow for the game to be played in 1080p/30fps with graphics settings at \"High\". - 64-bit processor and operating system are required. - Windows 10 (Version 1809 or later) and a 4GB VRAM GPU (graphics board or video card) are required for DirectX 12 API. ※ If you are using Windows 11, please ensure that your system meets the Windows 11 system requirements."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

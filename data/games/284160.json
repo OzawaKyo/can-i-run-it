@@ -4,7 +4,7 @@
  "name": "BeamNG.drive",
  "slug": "beamng-drive",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/17f8af1312bc48e6cd90e5fb639d4981682af260/header.jpg?t=1785357623",
  "requirements": {
   "minimum": {
@@ -90,5 +90,8 @@
     "additional notes": "Recommended spec based on 1080p resolution. Installing game mods will increase required storage space. Gamepad recommended."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

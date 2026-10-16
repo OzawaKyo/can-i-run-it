@@ -4,7 +4,7 @@
  "name": "Hotline Miami 2: Wrong Number",
  "slug": "hotline-miami-2-wrong-number",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/274170/header.jpg?t=1782406411",
  "requirements": {
   "minimum": {
@@ -71,5 +71,8 @@
     "additional notes": "PS4 or Xbox 360 Controller or Direct Input compatible controller"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

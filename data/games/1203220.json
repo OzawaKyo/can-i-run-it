@@ -4,7 +4,7 @@
  "name": "NARAKA: BLADEPOINT",
  "slug": "naraka-bladepoint",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/7db37ea18e8ee1d1b929fe9ef4c4f9f46ac22623/header.jpg?t=1791518965",
  "requirements": {
   "minimum": {
@@ -84,5 +84,10 @@
     "additional notes": "a) Can run at 1080p/60fps; b) We advise you install the game on an SSD for a more streamlined experience. c) Requires “Windows Memory integrity and VBS enablement” to be disabled"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "naraka-bladepoint"
  }
 }

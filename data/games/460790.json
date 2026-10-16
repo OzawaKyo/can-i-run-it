@@ -4,7 +4,7 @@
  "name": "Bayonetta",
  "slug": "bayonetta",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/header.jpg?t=1763677459",
  "requirements": {
   "minimum": {
@@ -80,5 +80,8 @@
     "additional notes": "Microsoft no longer supports Windows 10 or older versions"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

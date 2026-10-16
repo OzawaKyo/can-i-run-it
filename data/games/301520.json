@@ -4,7 +4,7 @@
  "name": "Robocraft",
  "slug": "robocraft",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301520/header.jpg?t=1737463288",
  "requirements": {
   "minimum": {
@@ -41,5 +41,10 @@
     "additional notes": "Min Resolution 1024x768"
    }
   }
+ },
+ "linux": {
+  "native": true,
+  "antiCheat": "supported",
+  "antiCheatSlug": "robocraft"
  }
 }

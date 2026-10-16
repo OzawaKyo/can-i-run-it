@@ -4,7 +4,7 @@
  "name": "Trine Enchanted Edition",
  "slug": "trine-enchanted-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/35700/header.jpg?t=1790061239",
  "requirements": {
   "minimum": {
@@ -59,5 +59,8 @@
     "processor": "2.0 GHz Dual Core"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

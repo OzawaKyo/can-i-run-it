@@ -4,7 +4,7 @@
  "name": "Spec Ops: The Line",
  "slug": "spec-ops-the-line",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50300/header.jpg?t=1706567828",
  "requirements": {
   "minimum": {
@@ -89,5 +89,8 @@
     "additional": "Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include: STEAM Client, Microsoft Direct X, Visual C++ 2008 Redistributable, Visual C++ 2005 SP1 RedistributableCompatible"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

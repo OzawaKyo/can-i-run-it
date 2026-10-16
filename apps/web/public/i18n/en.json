@@ -55,7 +55,7 @@
     "gpuPlaceholder": "e.g. GeForce GTX 1060",
     "cpu": "Processor",
     "cpuPlaceholder": "e.g. Core i5-8400",
-    "cpuHint": "Browsers can't detect the processor. On Windows: Settings › System › About.",
+    "cpuHint": "Browsers can't detect the processor. On Windows: Settings › System › About. On Linux: the lscpu command.",
     "ram": "Memory (GB)",
     "ramHint": "Your browser reports about {{ gb }} GB.",
     "ramHintAtLeast": "Your browser reports at least {{ gb }} GB.",
@@ -67,6 +67,25 @@
   },
   "picker": {
     "laptop": "laptop"
+  },
+  "linux": {
+    "title": "On Linux",
+    "native": "Native Linux version.",
+    "works": "Runs through Proton or Wine.",
+    "issues": "Runs through Proton, with some issues.",
+    "broken": "Doesn't run properly through Proton.",
+    "blocked": "Blocked by its anti-cheat: online play doesn't work on Linux.",
+    "unknown": "No information on Linux support.",
+    "tier": "Player rating on ProtonDB: {{ tier }}.",
+    "tiers": {
+      "platinum": "Platinum",
+      "gold": "Gold",
+      "silver": "Silver",
+      "bronze": "Bronze",
+      "borked": "Borked"
+    },
+    "windowsVerdict": "The verdict applies to Windows.",
+    "sameVerdict": "The verdict still applies: on Linux, a game needs about the same power as on Windows."
   },
   "game": {
     "notFound": "Game not found",
@@ -115,7 +134,7 @@
     },
     "sources": {
       "title": "Sources & licences",
-      "body": "System requirements and images: Steam, loaded from Steam. When Steam doesn't name a processor or graphics card precisely: PCGamingWiki, CC BY-NC-SA 3.0. Popular games list: SteamSpy (selection only). Games outside Steam (League of Legends, Valorant, Fortnite…): requirements from PCGamingWiki, images and official site from IGDB.\nHardware specs: Wikipedia, CC BY-SA 4.0; the derived catalog is published under the same licence.\nThis site is not affiliated with Valve or any publisher. Source code (MIT): <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
+      "body": "System requirements and images: Steam, loaded from Steam. When Steam doesn't name a processor or graphics card precisely: PCGamingWiki, CC BY-NC-SA 3.0. Popular games list: SteamSpy (selection only). Games outside Steam (League of Legends, Valorant, Fortnite…): requirements from PCGamingWiki, images and official site from IGDB. Linux support: Linux versions as listed by Steam or PCGamingWiki, player ratings from <a href=\"https://www.protondb.com/\" target=\"_blank\" rel=\"noopener\">ProtonDB</a> (ODbL), anti-cheat status from <a href=\"https://areweanticheatyet.com/\" target=\"_blank\" rel=\"noopener\">AreWeAntiCheatYet</a> (MIT).\nHardware specs: Wikipedia, CC BY-SA 4.0; the derived catalog is published under the same licence.\nThis site is not affiliated with Valve or any publisher. Source code (MIT): <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
     },
     "privacy": {
       "title": "Privacy",
@@ -126,18 +145,21 @@
     "title": "Automatic detection",
     "intro": "One click fills in your graphics card, then 3 steps detect everything else.",
     "button": "Detect my PC",
-    "guideTitle": "Full detection (Windows)",
-    "windowsOnly": "This step needs Windows. On another system, fill in the fields below.",
+    "guideTitle": "Full detection",
+    "os": "System",
+    "otherOs": "Full detection works on Windows and Linux. On another system, fill in the fields below.",
     "step1": "Copy the detection command.",
     "copy": "Copy the command",
     "copied": "Command copied",
-    "step2": "Open PowerShell: right-click the Start menu › “Terminal” (or “Windows PowerShell”). Paste with Ctrl+V, then press Enter.",
-    "step2Hint": "It runs in a second and copies the result.",
+    "step2Windows": "Open PowerShell: right-click the Start menu › “Terminal” (or “Windows PowerShell”). Paste with Ctrl+V, then press Enter.",
+    "step2HintWindows": "It runs in a second and copies the result.",
+    "step2Linux": "Open a terminal (Ctrl+Alt+T on most distributions). Paste with Ctrl+Shift+V, then press Enter.",
+    "step2HintLinux": "It runs in a second and prints the result, which it also copies if wl-copy, xclip or xsel is installed. Otherwise, select the line starting with “can-i-run-it:” (or the whole terminal output) and copy it with Ctrl+Shift+C.",
     "step3": "Come back here and paste with Ctrl+V (or the button below).",
     "paste": "Paste the result",
     "pasteError": "That isn't a detection result: run the command again, then paste.",
     "whatItDoes": "What does this command do?",
-    "whatItDoesBody": "It only reads the processor and graphics card names, installed memory, and the free space and type of the roomiest drive. It installs nothing, changes nothing and sends nothing: the result goes to your clipboard, and you paste it here yourself.",
+    "whatItDoesBody": "It only reads the processor and graphics card names, installed memory, and the free space and type of the roomiest drive. It installs nothing, changes nothing and sends nothing: the result goes to your clipboard (or is printed in the terminal), and you paste it here yourself.",
     "cancel": "Cancel",
     "doneTitle": "PC detected",
     "doneBody": "Your PC is filled in below: check it, then search for a game.",

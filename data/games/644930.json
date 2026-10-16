@@ -4,7 +4,7 @@
  "name": "They Are Billions",
  "slug": "they-are-billions",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/644930/header.jpg?t=1595631876",
  "requirements": {
   "minimum": {
@@ -79,5 +79,8 @@
     "additional notes": "4K Monitor (3840x2160)"
    }
   }
+ },
+ "linux": {
+  "protonTier": "silver"
  }
 }

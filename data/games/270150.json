@@ -4,7 +4,7 @@
  "name": "RUNNING WITH RIFLES",
  "slug": "running-with-rifles",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270150/f8d3fc2eb5e79d7e3fad40aceec7d4220f23e2fe/header.jpg?t=1772982285",
  "requirements": {
   "minimum": {
@@ -60,5 +60,8 @@
     "network": "Broadband Internet connection"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

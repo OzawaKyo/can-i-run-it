@@ -3,7 +3,7 @@
  "name": "Honkai Impact 3rd",
  "slug": "honkai-impact-3rd",
  "source": "pcgamingwiki",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scphky.jpg",
  "requirements": {
   "minimum": {
@@ -70,5 +70,9 @@
     "memory": "16GB"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "broken",
+  "antiCheatSlug": "honkai-impact-3rd"
  }
 }

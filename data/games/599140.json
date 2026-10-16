@@ -4,7 +4,7 @@
  "name": "Graveyard Keeper",
  "slug": "graveyard-keeper",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599140/07a4abf278d3029bec1bf7dcff9b2852bdde5250/header.jpg?t=1791579735",
  "requirements": {
   "minimum": {
@@ -40,5 +40,8 @@
     "storage": "1 GB available space"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

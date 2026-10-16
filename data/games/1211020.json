@@ -4,7 +4,7 @@
  "name": "Wobbly Life",
  "slug": "wobbly-life",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211020/86c3e16dfbfec027053c733d929a61ecfd15278a/header.jpg?t=1761037189",
  "requirements": {
   "minimum": {
@@ -74,5 +74,8 @@
     "storage": "2 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

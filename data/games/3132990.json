@@ -4,7 +4,7 @@
  "name": "Black Myth: Wukong Benchmark Tool",
  "slug": "black-myth-wukong-benchmark-tool",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3132990/header.jpg?t=1723513926",
  "requirements": {
   "minimum": {
@@ -88,5 +88,8 @@
     "additional notes": "SSD Required. The above specifications were tested with DLSS/FSR/XeSS enabled."
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

@@ -4,7 +4,7 @@
  "name": "STAR WARS™ Knights of the Old Republic™ II - The Sith Lords™",
  "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208580/header.jpg?t=1699053053",
  "requirements": {
   "minimum": {
@@ -38,5 +38,8 @@
     "controller support": "Microsoft Xbox 360 Controller for Windows (Wired), Microsoft Xbox 360 Games for Windows Wireless Controller with Adapter, Microsoft Xbox One Controller (Wired), Razor Sabertooth – Gaming Controller for Xbox 360, Thrustmaster GPX, Logitech Gamepad F310, Logitech Wireless Gamepad F710"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

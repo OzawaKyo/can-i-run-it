@@ -4,7 +4,7 @@
  "name": "CONTROL Ultimate Edition",
  "slug": "control-ultimate-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
  "requirements": {
   "minimum": {
@@ -87,5 +87,8 @@
     "additional notes": "Additional Features: Widescreen support 21:9 / Remappable controls / Uncapped frame-rate / G-Sync / Freesync support"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

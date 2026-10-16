@@ -4,7 +4,7 @@
  "name": "Batman™: Arkham Origins",
  "slug": "batman-arkham-origins",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209000/header.jpg?t=1746562474",
  "requirements": {
   "minimum": {
@@ -80,5 +80,8 @@
     "additional notes": "Windows XP and DirectX 9.0b and below not supported"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

@@ -4,7 +4,7 @@
  "name": "Soundpad",
  "slug": "soundpad",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/629520/ab89598a7a660ab510473c72e3cf64886c85421c/header.jpg?t=1788253332",
  "requirements": {
   "minimum": {
@@ -34,5 +34,8 @@
     "additional notes": "At least one audio recording device, e.g. microphone"
    }
   }
+ },
+ "linux": {
+  "protonTier": "borked"
  }
 }

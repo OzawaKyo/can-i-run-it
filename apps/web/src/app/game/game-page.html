@@ -50,6 +50,10 @@
     </div>
   }
 
+  @if (onLinux) {
+    <ng-container *ngTemplateOutlet="linuxCard" />
+  }
+
   @if (verdict(); as verdict) {
     @if (!game.requirements.minimum) {
       <p class="card">{{ 'game.noRequirements' | transloco }}</p>
@@ -145,6 +149,10 @@
     }
   }
 
+  @if (!onLinux) {
+    <ng-container *ngTemplateOutlet="linuxCard" />
+  }
+
   <p class="footnote">
     {{ 'game.estimates' | transloco }}
     @if (usesPcgw()) {
@@ -157,6 +165,42 @@
     }
   </p>
 }
+
+<ng-template #linuxCard>
+  @if (linux(); as linux) {
+    <section class="card linux" [attr.data-status]="linux.status">
+      <h2 class="section-title">{{ 'linux.title' | transloco }}</h2>
+      <p class="status">
+        <ng-icon [name]="linux.icon" aria-hidden="true" />{{ 'linux.' + linux.status | transloco }}
+      </p>
+      @if (linux.support.protonTier && linux.status !== 'blocked') {
+        <p class="hint">
+          {{
+            'linux.tier'
+              | transloco: { tier: ('linux.tiers.' + linux.support.protonTier | transloco) }
+          }}
+        </p>
+      }
+      @if (linux.status === 'blocked' || linux.status === 'broken') {
+        <p class="hint">{{ 'linux.windowsVerdict' | transloco }}</p>
+      } @else if (linux.status !== 'unknown') {
+        <p class="hint">{{ 'linux.sameVerdict' | transloco }}</p>
+      }
+      <p class="hint sources">
+        @if (game.value()?.appid; as appid) {
+          <a [href]="'https://www.protondb.com/app/' + appid" target="_blank" rel="noopener"
+            >ProtonDB</a
+          >
+        }
+        @if (linux.support.antiCheatSlug; as slug) {
+          <a [href]="'https://areweanticheatyet.com/game/' + slug" target="_blank" rel="noopener"
+            >AreWeAntiCheatYet</a
+          >
+        }
+      </p>
+    </section>
+  }
+</ng-template>
 
 <ng-template #value let-shown let-missing="missing">
   @if (!shown) {

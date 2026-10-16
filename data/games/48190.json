@@ -4,7 +4,7 @@
  "name": "Assassin’s Creed® Brotherhood",
  "slug": "assassin-s-creed-brotherhood",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/48190/header.jpg?t=1786611524",
  "requirements": {
   "minimum": {
@@ -82,5 +82,10 @@
     "supported video cards": "ATI RADEON HD 2000/3000/4000/5000/6000 series, NVIDIA GeForce 8/9/100/200/300/400/500 series"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "running",
+  "antiCheatSlug": "assassins-creed-brotherhood"
  }
 }

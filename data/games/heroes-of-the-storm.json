@@ -4,7 +4,7 @@
  "slug": "heroes-of-the-storm",
  "source": "pcgamingwiki",
  "officialUrl": "http://us.battle.net/heroes/en/",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar6n77.jpg",
  "requirements": {
   "minimum": {
@@ -71,5 +71,9 @@
     "memory": "4 GB"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "running",
+  "antiCheatSlug": "hots"
  }
 }

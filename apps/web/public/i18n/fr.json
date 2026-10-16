@@ -55,7 +55,7 @@
     "gpuPlaceholder": "ex. GeForce GTX 1060",
     "cpu": "Processeur",
     "cpuPlaceholder": "ex. Core i5-8400",
-    "cpuHint": "Le navigateur ne peut pas détecter le processeur. Sous Windows : Paramètres › Système › Informations système.",
+    "cpuHint": "Le navigateur ne peut pas détecter le processeur. Sous Windows : Paramètres › Système › Informations système. Sous Linux : commande lscpu.",
     "ram": "Mémoire vive (Go)",
     "ramHint": "Le navigateur indique environ {{ gb }} Go.",
     "ramHintAtLeast": "Le navigateur indique au moins {{ gb }} Go.",
@@ -67,6 +67,25 @@
   },
   "picker": {
     "laptop": "portable"
+  },
+  "linux": {
+    "title": "Sous Linux",
+    "native": "Version Linux native.",
+    "works": "Fonctionne via Proton ou Wine.",
+    "issues": "Fonctionne via Proton, avec quelques soucis.",
+    "broken": "Ne fonctionne pas correctement via Proton.",
+    "blocked": "Bloqué par l'anti-triche : le jeu en ligne ne fonctionne pas sous Linux.",
+    "unknown": "Pas d'information sur la compatibilité Linux.",
+    "tier": "Note des joueurs sur ProtonDB : {{ tier }}.",
+    "tiers": {
+      "platinum": "Platine",
+      "gold": "Or",
+      "silver": "Argent",
+      "bronze": "Bronze",
+      "borked": "Ne marche pas"
+    },
+    "windowsVerdict": "Le verdict concerne Windows.",
+    "sameVerdict": "Le verdict reste valable : sous Linux, un jeu demande à peu près la même puissance que sous Windows."
   },
   "game": {
     "notFound": "Jeu introuvable",
@@ -115,7 +134,7 @@
     },
     "sources": {
       "title": "Sources et licences",
-      "body": "Configurations requises et images : Steam, chargées depuis Steam. Quand Steam ne nomme pas précisément un processeur ou une carte graphique : PCGamingWiki, licence CC BY-NC-SA 3.0. Liste des jeux populaires : SteamSpy (sélection uniquement). Jeux hors Steam (League of Legends, Valorant, Fortnite…) : configurations de PCGamingWiki, images et site officiel d'IGDB.\nCaractéristiques matérielles : Wikipédia, licence CC BY-SA 4.0 ; le catalogue dérivé est publié sous la même licence.\nCe site n'est affilié ni à Valve ni à aucun éditeur. Code source (MIT) : <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
+      "body": "Configurations requises et images : Steam, chargées depuis Steam. Quand Steam ne nomme pas précisément un processeur ou une carte graphique : PCGamingWiki, licence CC BY-NC-SA 3.0. Liste des jeux populaires : SteamSpy (sélection uniquement). Jeux hors Steam (League of Legends, Valorant, Fortnite…) : configurations de PCGamingWiki, images et site officiel d'IGDB. Compatibilité Linux : version Linux indiquée par Steam ou PCGamingWiki, notes des joueurs de <a href=\"https://www.protondb.com/\" target=\"_blank\" rel=\"noopener\">ProtonDB</a> (licence ODbL), statut des anti-triche d'<a href=\"https://areweanticheatyet.com/\" target=\"_blank\" rel=\"noopener\">AreWeAntiCheatYet</a> (licence MIT).\nCaractéristiques matérielles : Wikipédia, licence CC BY-SA 4.0 ; le catalogue dérivé est publié sous la même licence.\nCe site n'est affilié ni à Valve ni à aucun éditeur. Code source (MIT) : <a href=\"https://github.com/OzawaKyo/can-i-run-it\" target=\"_blank\" rel=\"noopener\">github.com/OzawaKyo/can-i-run-it</a>."
     },
     "privacy": {
       "title": "Vie privée",
@@ -126,18 +145,21 @@
     "title": "Détection automatique",
     "intro": "Un clic pour remplir votre carte graphique, puis 3 gestes pour détecter tout le reste.",
     "button": "Détecter mon PC",
-    "guideTitle": "Détection complète (Windows)",
-    "windowsOnly": "Cette étape nécessite Windows. Sur un autre système, remplissez les champs ci-dessous.",
+    "guideTitle": "Détection complète",
+    "os": "Système",
+    "otherOs": "La détection complète fonctionne sous Windows et Linux. Sur un autre système, remplissez les champs ci-dessous.",
     "step1": "Copiez la commande de détection.",
     "copy": "Copier la commande",
     "copied": "Commande copiée",
-    "step2": "Ouvrez PowerShell : clic droit sur le menu Démarrer › « Terminal » (ou « Windows PowerShell »). Collez avec Ctrl+V, puis appuyez sur Entrée.",
-    "step2Hint": "Elle s'exécute en une seconde et copie le résultat.",
+    "step2Windows": "Ouvrez PowerShell : clic droit sur le menu Démarrer › « Terminal » (ou « Windows PowerShell »). Collez avec Ctrl+V, puis appuyez sur Entrée.",
+    "step2HintWindows": "Elle s'exécute en une seconde et copie le résultat.",
+    "step2Linux": "Ouvrez un terminal (Ctrl+Alt+T sur la plupart des distributions). Collez avec Ctrl+Maj+V, puis appuyez sur Entrée.",
+    "step2HintLinux": "Elle s'exécute en une seconde et affiche le résultat, qu'elle copie aussi si wl-copy, xclip ou xsel est installé. Sinon, sélectionnez la ligne qui commence par « can-i-run-it: » (ou toute la sortie du terminal) et copiez-la avec Ctrl+Maj+C.",
     "step3": "Revenez ici et collez avec Ctrl+V (ou le bouton ci-dessous).",
     "paste": "Coller le résultat",
     "pasteError": "Ce n'est pas un résultat de détection : relancez la commande puis collez à nouveau.",
     "whatItDoes": "Que fait cette commande ?",
-    "whatItDoesBody": "Elle lit seulement le nom du processeur et des cartes graphiques, la mémoire installée, l'espace libre et le type du disque le plus libre. Elle n'installe rien, ne modifie rien et n'envoie rien : le résultat est copié dans votre presse-papier, et vous le collez ici vous-même.",
+    "whatItDoesBody": "Elle lit seulement le nom du processeur et des cartes graphiques, la mémoire installée, l'espace libre et le type du disque le plus libre. Elle n'installe rien, ne modifie rien et n'envoie rien : le résultat est copié dans votre presse-papier (ou affiché dans le terminal), et vous le collez ici vous-même.",
     "cancel": "Annuler",
     "doneTitle": "PC détecté",
     "doneBody": "Votre configuration est remplie ci-dessous : vérifiez-la, puis cherchez un jeu.",

@@ -4,7 +4,7 @@
  "name": "Dragon Age: Origins - Ultimate Edition",
  "slug": "dragon-age-origins-ultimate-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47810/header.jpg?t=1782471846",
  "requirements": {
   "minimum": {
@@ -76,5 +76,8 @@
     "sound": "Direct X Compatible Sound Card"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

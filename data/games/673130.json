@@ -4,7 +4,7 @@
  "name": "AMID EVIL",
  "slug": "amid-evil",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673130/ac7a568968bcfcdf78c215b920b77e67deadd54c/header.jpg?t=1767217184",
  "requirements": {
   "minimum": {
@@ -79,5 +79,8 @@
     "sound card": "A Really Dank One"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

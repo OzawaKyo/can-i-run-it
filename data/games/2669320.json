@@ -4,7 +4,7 @@
  "name": "EA SPORTS FC™ 25",
  "slug": "ea-sports-fc-25",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/ec3fb7747fd8080ef53d7686e0d98c5abe1f51f1/header.jpg?t=1788548615",
  "requirements": {
   "minimum": {
@@ -85,5 +85,10 @@
     "sound card": "DirectX: 12 Compatible video card or equivalent (feature level 12_0)"
    }
   }
+ },
+ "linux": {
+  "protonTier": "borked",
+  "antiCheat": "denied",
+  "antiCheatSlug": "ea-sports-fc-25"
  }
 }

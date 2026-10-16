@@ -4,7 +4,7 @@
  "name": "Human Fall Flat",
  "slug": "human-fall-flat",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/477160/9258286b309480a3ce438c07cb51fadf3ea2f1d1/header_alt_assets_27.jpg?t=1789479416",
  "requirements": {
   "minimum": {
@@ -72,5 +72,8 @@
     "storage": "500 MB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

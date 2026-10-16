@@ -4,7 +4,7 @@
  "name": "FINAL FANTASY XIV Online",
  "slug": "final-fantasy-xiv-online",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg?t=1782870674",
  "requirements": {
   "minimum": {
@@ -83,5 +83,8 @@
     "additional notes": "System Requirements may be subject to change. If you are using a router, please set up your ports so that the below packets can pass through. [Ports that may be used] TCP：80, 443, 54992～54994, 55006～55007, 55021～55040"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

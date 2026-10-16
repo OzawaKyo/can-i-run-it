@@ -4,7 +4,7 @@
  "name": "Company of Heroes: Opposing Fronts",
  "slug": "company-of-heroes-opposing-fronts",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9340/header.jpg?t=1711547477",
  "requirements": {
   "minimum": {
@@ -40,5 +40,8 @@
     "storage": "9GB of uncompressed free hard drive space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

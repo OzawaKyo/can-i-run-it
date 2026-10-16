@@ -4,7 +4,7 @@
  "name": "Torchlight II",
  "slug": "torchlight-ii",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1791961532",
  "requirements": {
   "minimum": {
@@ -39,5 +39,8 @@
     "internet": "A broadband internet connection (for Steam download and online multiplayer) - Online multiplayer requires a free Runic Account"
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

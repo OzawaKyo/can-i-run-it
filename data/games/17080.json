@@ -4,7 +4,7 @@
  "name": "Tribes: Ascend",
  "slug": "tribes-ascend",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17080/header.jpg?t=1763425041",
  "requirements": {
   "minimum": {
@@ -74,5 +74,8 @@
     "graphics": "ATI or Nvidia graphics card with 1GB video ram or better and Shader Model 3.0+ support (Nvidia GeForce GTX 560+ or ATI Radeon 6950+)."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

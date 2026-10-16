@@ -4,7 +4,7 @@
  "slug": "warcraft-iii-reforged",
  "source": "pcgamingwiki",
  "officialUrl": "https://playwarcraft3.com",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc5jl4.jpg",
  "requirements": {
   "minimum": {
@@ -69,5 +69,9 @@
     "memory": "8 GB"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "running",
+  "antiCheatSlug": "warcraft-iii-reforged"
  }
 }

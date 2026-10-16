@@ -4,7 +4,7 @@
  "name": "theHunter: Call of the Wild™",
  "slug": "thehunter-call-of-the-wild",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/09ebcccc7c1ed887feafc9c85d8a55b7c5c11f45/header_alt_assets_28.jpg?t=1791555374",
  "requirements": {
   "minimum": {
@@ -71,5 +71,8 @@
     "storage": "140 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

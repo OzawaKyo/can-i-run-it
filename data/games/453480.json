@@ -4,7 +4,7 @@
  "name": "Shadowverse CCG",
  "slug": "shadowverse-ccg",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/453480/header.jpg?t=1782928938",
  "requirements": {
   "minimum": {
@@ -47,5 +47,8 @@
     "additional notes": "Resolution: 1024×768"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

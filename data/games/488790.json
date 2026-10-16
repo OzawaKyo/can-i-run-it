@@ -4,7 +4,7 @@
  "name": "South Park™: The Fractured But Whole™",
  "slug": "south-park-the-fractured-but-whole",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/header.jpg?t=1777994114",
  "requirements": {
   "minimum": {
@@ -110,5 +110,8 @@
     "additional notes": "1080p @~60FPS. Game contains Denuvo anti-tamper technology. Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }

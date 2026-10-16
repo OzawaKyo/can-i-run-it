@@ -4,7 +4,7 @@
  "name": "Dark Messiah of Might & Magic",
  "slug": "dark-messiah-of-might-magic",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100/header.jpg?t=1790190232",
  "requirements": {
   "minimum": {
@@ -55,5 +55,10 @@
     "memory": "1 GB"
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "dark-messiah-of-might-magic"
  }
 }

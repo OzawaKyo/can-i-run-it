@@ -4,7 +4,7 @@
  "name": "Ori and the Blind Forest: Definitive Edition",
  "slug": "ori-and-the-blind-forest-definitive-edition",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/387290/header.jpg?t=1701967651",
  "requirements": {
   "minimum": {
@@ -82,5 +82,8 @@
     "storage": "11 GB available space"
    }
   }
+ },
+ "linux": {
+  "protonTier": "platinum"
  }
 }

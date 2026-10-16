@@ -4,7 +4,7 @@
  "slug": "infinity-nikki",
  "source": "pcgamingwiki",
  "officialUrl": "https://infinitynikki.infoldgames.com/en/home",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar22vh.jpg",
  "requirements": {
   "minimum": {
@@ -78,5 +78,9 @@
     "storage": "140 GB (SSD)"
    }
   }
+ },
+ "linux": {
+  "antiCheat": "broken",
+  "antiCheatSlug": "infinity-nikki"
  }
 }

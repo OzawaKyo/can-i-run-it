@@ -4,7 +4,7 @@
  "name": "Shadow Tactics: Blades of the Shogun",
  "slug": "shadow-tactics-blades-of-the-shogun",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418240/header.jpg?t=1789475696",
  "requirements": {
   "minimum": {
@@ -80,5 +80,8 @@
     "additional notes": "Installing the game on an SSD improves loading times."
    }
   }
+ },
+ "linux": {
+  "native": true
  }
 }

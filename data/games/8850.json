@@ -4,7 +4,7 @@
  "name": "BioShock® 2",
  "slug": "bioshock-2",
  "source": "steam",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-16",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8850/header.jpg?t=1730174099",
  "requirements": {
   "minimum": {
@@ -69,5 +69,8 @@
     "other requirements": "Initial installation requires one-time internet connection; software installations required including Microsoft Visual C++2008 Runtime Libraries, Microsoft DirectX."
    }
   }
+ },
+ "linux": {
+  "protonTier": "gold"
  }
 }
