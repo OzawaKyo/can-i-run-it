@@ -1,6 +1,7 @@
 import { NgTemplateOutlet } from '@angular/common';
 import { httpResource } from '@angular/common/http';
-import { Component, computed, inject, input, linkedSignal } from '@angular/core';
+import { Component, computed, effect, inject, input, linkedSignal } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { Router, RouterLink } from '@angular/router';
 import {
   computeVerdict,
@@ -88,6 +89,14 @@ export class GamePage {
   private readonly router = inject(Router);
   private readonly transloco = inject(TranslocoService);
   protected readonly store = inject(UserConfigStore);
+
+  constructor() {
+    const title = inject(Title);
+    effect(() => {
+      const name = this.game.value()?.name;
+      if (name) title.setTitle(`${name} — Can I Run It?`);
+    });
+  }
 
   /** The PC of a shared link, when the page was opened from one. */
   protected readonly sharedPc = computed(() => decodeSharedPc(this.pc()));
