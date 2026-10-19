@@ -1,0 +1,90 @@
+{
+ "id": "231060",
+ "appid": 231060,
+ "name": "Ragnarok Online 2",
+ "slug": "ragnarok-online-2",
+ "source": "steam",
+ "updatedAt": "2026-10-19",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231060/header.jpg?t=1667345187",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 4 2.0 \\ Athlon XP 2000"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 8600"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition"
+    ],
+    "source": "pcgamingwiki"
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP",
+    "processor": "Pentium 4 2.0 \\ Athlon XP 2000",
+    "memory": "2 GB RAM",
+    "graphics": "VGA GeForce 8600 or later 256 MB of VRAM",
+    "directx": "10",
+    "storage": "5 GB HD space",
+    "other requirements": "Broadband Internet connection, WarpPortal account",
+    "additional": "VRAM (Graphics card supporting Shader 3.0 or later)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Dual Core 2.0 GHZ"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "VGA GeForce GTS250 512 MB of VRAM"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Dual Core 2.0 GHZ or Better",
+    "memory": "4 GB RAM",
+    "graphics": "VGA GeForce GTS250 or later 512 MB of VRAM",
+    "directx": "10",
+    "storage": "10 GB HD space",
+    "other requirements": "Broadband Internet connection, WarpPortal account",
+    "additional": "VRAM (Graphics card supporting Shader 3.0 or later)"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "broken",
+  "antiCheatSlug": "ragnarok-online2"
+ }
+}

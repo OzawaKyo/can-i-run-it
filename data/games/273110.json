@@ -4,7 +4,7 @@
  "name": "Counter-Strike Nexon",
  "slug": "counter-strike-nexon",
  "source": "steam",
- "updatedAt": "2026-10-16",
+ "updatedAt": "2026-10-19",
  "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/273110/header.jpg?t=1790733852",
  "requirements": {
   "minimum": {

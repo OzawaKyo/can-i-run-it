@@ -1,0 +1,80 @@
+{
+ "id": "537180",
+ "appid": 537180,
+ "name": "Digimon Masters Online",
+ "slug": "digimon-masters-online",
+ "source": "steam",
+ "updatedAt": "2026-10-19",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/537180/header.jpg?t=1659480354",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium4 2.8G",
+     "Sempron 2800"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce FX5200"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1",
+    "processor": "Pentium4 2.8G / Sempron 2800",
+    "memory": "2 GB RAM",
+    "graphics": "Nvidia GeForce FX5200 or higher",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Pentium Dual Core",
+     "Athlon 64x2"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce 8 Series",
+     "Radeon HD"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1",
+    "processor": "Pentium Dual Core / Athlon 64x2",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce 8 Series / Radeon HD",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "running",
+  "antiCheatSlug": "digimon-masters-online"
+ }
+}

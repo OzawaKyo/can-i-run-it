@@ -4,7 +4,7 @@
  "slug": "star-citizen",
  "source": "pcgamingwiki",
  "officialUrl": "https://robertsspaceindustries.com/star-citizen/",
- "updatedAt": "2026-10-16",
+ "updatedAt": "2026-10-19",
  "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar4d58.jpg",
  "requirements": {
   "minimum": {
@@ -35,7 +35,7 @@
     "processor": "Quad Core CPU - Intel: i7 (Haswell or later), AMD: Excavator or later",
     "graphics": "NVidia 1060 / AMD RX 5700, RX Vega 56, RX 460 / Intel A380, UHD Graphics 730",
     "memory": "16 GB",
-    "storage": "150+ GB SSD required"
+    "storage": "150+ GB, formatted as NTFS required"
    }
   },
   "recommended": {
