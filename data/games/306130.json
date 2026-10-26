@@ -4,8 +4,8 @@
  "name": "The Elder Scrolls® Online",
  "slug": "the-elder-scrolls-online",
  "source": "steam",
- "updatedAt": "2026-10-19",
- "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/465cc6917d2ed89c364ebfca85da07f79a2abfd6/header.jpg?t=1788444143",
+ "updatedAt": "2026-10-26",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/786e3fad22ed71dd78ad2f2ae7e41daa62ba2904/header.jpg?t=1792607369",
  "requirements": {
   "minimum": {
    "cpu": {
@@ -34,7 +34,7 @@
    "vramGb": 1,
    "directX": 11,
    "storage": {
-    "gb": 150,
+    "gb": 180,
     "ssd": false
    },
    "raw": {
@@ -44,7 +44,7 @@
     "graphics": "Direct X 11.0 compliant video card with 1GB RAM (NVIDIA GeForce 560 or AMD Radeon 6870)",
     "directx": "Version 11",
     "network": "Broadband Internet connection",
-    "storage": "150 GB available space",
+    "storage": "180 GB available space",
     "sound card": "DirectX compatible sound card"
    }
   },
@@ -76,7 +76,7 @@
    "vramGb": 4,
    "directX": 11,
    "storage": {
-    "gb": 150,
+    "gb": 180,
     "ssd": false
    },
    "raw": {
@@ -86,7 +86,7 @@
     "graphics": "Direct X 11.0 compliant video card with 4GB of RAM (NVIDIA GeForce GTX 970 or AMD Radeon RX 570) or higher",
     "directx": "Version 11",
     "network": "Broadband Internet connection",
-    "storage": "150 GB available space",
+    "storage": "180 GB available space",
     "sound card": "DirectX compatible sound card"
    }
   }

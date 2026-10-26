@@ -4,8 +4,8 @@
  "name": "Call of Duty®",
  "slug": "call-of-duty",
  "source": "steam",
- "updatedAt": "2026-10-19",
- "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header.jpg?t=1792179713",
+ "updatedAt": "2026-10-26",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header.jpg?t=1792807032",
  "requirements": {
   "minimum": {
    "cpu": {
@@ -35,26 +35,30 @@
     ]
    },
    "ramGb": 8,
-   "directX": 12,
+   "storage": {
+    "gb": 115,
+    "ssd": false
+   },
    "raw": {
-    "os": "Windows 10 64 Bit (latest update)",
+    "os": "Windows 10 64 Bit (latest update)*",
     "processor": "AMD Ryzen 5 1400 or Intel Core i5-6600",
     "memory": "8 GB RAM",
     "graphics": "AMD Radeon RX 470, NVIDIA GeForce GTX 970 / 1060 or Intel Arc A580",
-    "directx": "Version 12",
     "network": "Broadband Internet connection",
-    "additional notes": "SSD with 161 GB available space at launch"
+    "storage": "115 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "*Trial, Beta or Insider versions of compatible Windows operating systems may not be supported. SSD with 115 GB available space at launch."
    }
   },
   "recommended": {
    "cpu": {
     "raw": [
-     "AMD Ryzen 5 1600X",
-     "Intel Core i7-6700K"
+     "AMD Ryzen 5 3600",
+     "Intel Core i7-8700K"
     ],
     "ids": [
-     "amd-ryzen-5-1600x",
-     "intel-core-i7-6700k"
+     "amd-ryzen-5-3600",
+     "intel-core-i7-8700k"
     ]
    },
    "gpu": {
@@ -70,16 +74,22 @@
      "intel-arc-b580"
     ]
    },
-   "ramGb": 12,
+   "ramGb": 16,
    "directX": 12,
+   "storage": {
+    "gb": 115,
+    "ssd": false
+   },
    "raw": {
-    "os": "Windows 11 64 Bit (latest update)",
-    "processor": "AMD Ryzen 5 1600X or Intel Core i7-6700K",
-    "memory": "12 GB RAM",
+    "os": "Windows 11 64 Bit (latest update)*",
+    "processor": "AMD Ryzen 5 3600 or Intel Core i7-8700K",
+    "memory": "16 GB RAM",
     "graphics": "AMD Radeon RX 6600XT, NVIDIA GeForce RTX 3060 or Intel Arc B580",
     "directx": "Version 12",
     "network": "Broadband Internet connection",
-    "additional notes": "SSD with 161 GB available space at launch"
+    "storage": "115 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "*Trial, Beta or Insider versions of compatible Windows operating systems may not be supported. SSD with 115 GB available space at launch."
    }
   }
  },

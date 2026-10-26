@@ -20,7 +20,7 @@
   "name": "PUBG: BATTLEGROUNDS",
   "slug": "pubg-battlegrounds",
   "rank": 2,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/14f42ab797699a9c9f137fda66582d8776da4330/capsule_231x87.jpg?t=1786493086"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/14f42ab797699a9c9f137fda66582d8776da4330/capsule_231x87.jpg?t=1792718193"
  },
  {
   "id": "252490",
@@ -74,7 +74,7 @@
   "name": "Call of Duty®",
   "slug": "call-of-duty",
   "rank": 7,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/0ac3cc02398b9db61c8db4fef2e3e1b4b8b66e4b/capsule_231x87.jpg?t=1792179713"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/0ac3cc02398b9db61c8db4fef2e3e1b4b8b66e4b/capsule_231x87.jpg?t=1792807032"
  },
  {
   "id": "minecraft-java-edition",
@@ -89,7 +89,7 @@
   "name": "NARAKA: BLADEPOINT",
   "slug": "naraka-bladepoint",
   "rank": 8,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/174e8ce903fd2e4b4fee15851270c7dc50461dc4/capsule_231x87.jpg?t=1791518965"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/277a2795580719890337ed04366a18cacfdc7944/capsule_231x87.jpg?t=1792651021"
  },
  {
   "id": "1086940",
@@ -112,7 +112,7 @@
   "name": "HELLDIVERS™ 2",
   "slug": "helldivers-2",
   "rank": 10,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/6de866c6fb786949a92a28d12f3e1c02d91bce60/capsule_231x87.jpg?t=1792146147"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/6de866c6fb786949a92a28d12f3e1c02d91bce60/capsule_231x87.jpg?t=1792487611"
  },
  {
   "id": "359550",
@@ -189,7 +189,7 @@
   "name": "Warframe",
   "slug": "warframe",
   "rank": 17,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/61226446133ca3229607bbc1b5cd386a85b7902c/capsule_231x87.jpg?t=1790176468"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/61226446133ca3229607bbc1b5cd386a85b7902c/capsule_231x87.jpg?t=1792613117"
  },
  {
   "id": "honkai-star-rail",
@@ -227,7 +227,7 @@
   "name": "Don't Starve Together",
   "slug": "don-t-starve-together",
   "rank": 20,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/29836375ea0f65ee0495d97a26c997f8cef7cab7/capsule_231x87.jpg?t=1790287771"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/7c211c0f0d1cc55132c39c22a9cf8dfa858bed18/capsule_231x87_alt_assets_51.jpg?t=1792687779"
  },
  {
   "id": "1174180",
@@ -273,7 +273,7 @@
   "name": "Sid Meier’s Civilization® VI",
   "slug": "sid-meier-s-civilization-vi",
   "rank": 24,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_231x87.jpg?t=1784651829"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_231x87.jpg?t=1792718069"
  },
  {
   "id": "1222670",
@@ -319,7 +319,7 @@
   "name": "Terraria",
   "slug": "terraria",
   "rank": 28,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_231x87.jpg?t=1769844435"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_231x87.jpg?t=1792530636"
  },
  {
   "id": "108600",
@@ -350,7 +350,7 @@
   "name": "Cyberpunk 2077",
   "slug": "cyberpunk-2077",
   "rank": 31,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/590e0988a2fb79f44d3e31e41fd4949eb76abc41/capsule_231x87.jpg?t=1784714077"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e104809f1370b37190ab346ff28f2dbf5037fed6/capsule_231x87_alt_assets_9.jpg?t=1792682505"
  },
  {
   "id": "diablo-ii-resurrected",
@@ -365,7 +365,7 @@
   "name": "ARK: Survival Evolved",
   "slug": "ark-survival-evolved",
   "rank": 32,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/capsule_231x87.jpg?t=1765677889"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/capsule_231x87.jpg?t=1792799671"
  },
  {
   "id": "252950",
@@ -504,7 +504,7 @@
   "name": "eFootball™",
   "slug": "efootball",
   "rank": 45,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/7c1ef2670889241a42df4405da83ec99e4d6d442/capsule_231x87.jpg?t=1791424870"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/7c1ef2670889241a42df4405da83ec99e4d6d442/capsule_231x87.jpg?t=1792635226"
  },
  {
   "id": "diablo-iii",
@@ -712,7 +712,7 @@
   "name": "Last Epoch",
   "slug": "last-epoch",
   "rank": 64,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/899770/d5664ad4b684e628d773d5a82afaee018c3d2362/capsule_231x87_alt_assets_2.jpg?t=1791260952"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/899770/d5664ad4b684e628d773d5a82afaee018c3d2362/capsule_231x87_alt_assets_2.jpg?t=1792426633"
  },
  {
   "id": "990080",
@@ -728,7 +728,7 @@
   "name": "World of Tanks Blitz",
   "slug": "world-of-tanks-blitz",
   "rank": 66,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/444200/04fc4abfe58c7934bbfc12830d9975210846c815/capsule_231x87.jpg?t=1791962132"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/444200/0b44ccbbd098530deec42738e7d82c26c3da0934/capsule_231x87_alt_assets_21.jpg?t=1792910839"
  },
  {
   "id": "1063730",
@@ -864,7 +864,7 @@
   "name": "Human Fall Flat",
   "slug": "human-fall-flat",
   "rank": 83,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/477160/818d0be6795713f18b62d6a6a02740f7ede461d3/capsule_231x87_alt_assets_27.jpg?t=1789479416"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/477160/818d0be6795713f18b62d6a6a02740f7ede461d3/capsule_231x87_alt_assets_27.jpg?t=1792416519"
  },
  {
   "id": "304050",
@@ -1056,7 +1056,7 @@
   "name": "Factorio",
   "slug": "factorio",
   "rank": 107,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/2dca545120676172d4b6db984d210a7fdc387a1e/capsule_231x87.jpg?t=1787348817"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/2dca545120676172d4b6db984d210a7fdc387a1e/capsule_231x87.jpg?t=1792752343"
  },
  {
   "id": "306130",
@@ -1064,7 +1064,7 @@
   "name": "The Elder Scrolls® Online",
   "slug": "the-elder-scrolls-online",
   "rank": 108,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/b70c25a51268b6ae7200c16136abfc35c4263833/capsule_231x87.jpg?t=1788444143"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/6fab2d1598b64e2b39ce9b5693e2fb96182af88f/capsule_231x87.jpg?t=1792607369"
  },
  {
   "id": "284160",
@@ -1072,7 +1072,7 @@
   "name": "BeamNG.drive",
   "slug": "beamng-drive",
   "rank": 109,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/727b938bf07eaf615baf2d9bb6ffebca1fa8b5d5/capsule_231x87.jpg?t=1785357623"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/727b938bf07eaf615baf2d9bb6ffebca1fa8b5d5/capsule_231x87.jpg?t=1792417797"
  },
  {
   "id": "646570",
@@ -1128,7 +1128,7 @@
   "name": "No Man's Sky",
   "slug": "no-man-s-sky",
   "rank": 116,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/a797ac8f837db76dbffc40df13fd711e2b46dc0a/capsule_231x87_alt_assets_25.jpg?t=1789479023"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/b580ec1af3eba9d81a6e0ad6af9622d6698cef34/capsule_231x87.jpg?t=1789479023"
  },
  {
   "id": "1604030",
@@ -1136,7 +1136,7 @@
   "name": "V Rising",
   "slug": "v-rising",
   "rank": 117,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/9b1b1d0c19ed80e9446c6a3ce37e9fdacf7f14c1/capsule_231x87.jpg?t=1787038382"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/9b1b1d0c19ed80e9446c6a3ce37e9fdacf7f14c1/capsule_231x87.jpg?t=1792831894"
  },
  {
   "id": "1551360",
@@ -1168,7 +1168,7 @@
   "name": "SCUM",
   "slug": "scum",
   "rank": 121,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/3c902ecbcadfa23b91224374ab6c9a582a702558/capsule_231x87_alt_assets_5.jpg?t=1791209009"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/93c390ab3669680cc6068d900d9ec61a0a913391/capsule_231x87.jpg?t=1791209009"
  },
  {
   "id": "2183900",
@@ -1224,7 +1224,7 @@
   "name": "Deep Rock Galactic",
   "slug": "deep-rock-galactic",
   "rank": 128,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/1a881a724266fff7af201e18b1af3d2f4d6f4290/capsule_231x87.jpg?t=1791554128"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/1a881a724266fff7af201e18b1af3d2f4d6f4290/capsule_231x87.jpg?t=1792497307"
  },
  {
   "id": "2195250",
@@ -1328,7 +1328,7 @@
   "name": "MONSTER HUNTER RISE",
   "slug": "monster-hunter-rise",
   "rank": 141,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/capsule_231x87.jpg?t=1768870444"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/capsule_231x87.jpg?t=1792548454"
  },
  {
   "id": "435150",
@@ -1416,7 +1416,7 @@
   "name": "Fishing Planet",
   "slug": "fishing-planet",
   "rank": 152,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380600/f75f96b511300da8dbc1e501d467e41e3c2a55ff/capsule_231x87_alt_assets_17.jpg?t=1791980865"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/380600/a503ee07a73344dff19cf95242589ddf6f188c83/capsule_231x87_alt_assets_19.jpg?t=1792406004"
  },
  {
   "id": "264710",
@@ -1432,7 +1432,7 @@
   "name": "Assassin's Creed® Odyssey",
   "slug": "assassin-s-creed-odyssey",
   "rank": 154,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/capsule_231x87.jpg?t=1786633104"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/capsule_231x87.jpg?t=1792778552"
  },
  {
   "id": "588650",
@@ -1485,10 +1485,10 @@
  {
   "id": "386180",
   "appid": 386180,
-  "name": "Crossout",
-  "slug": "crossout",
+  "name": "Crossout Remastered",
+  "slug": "crossout-remastered",
   "rank": 161,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386180/260dc24db400fea0b8d088b1acb82097ecbd06d2/capsule_231x87.jpg?t=1790873569"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386180/d9f07dc03616112565fe0dc455ba58190a7b5ad5/capsule_231x87.jpg?t=1792678174"
  },
  {
   "id": "518790",
@@ -1504,7 +1504,7 @@
   "name": "FOR HONOR™",
   "slug": "for-honor",
   "rank": 163,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304390/d7b94634e3ff0e07c49e0c9686df3ee6ce199641/capsule_231x87_alt_assets_12.jpg?t=1792089012"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304390/2990e16e6dd97857e85b7f7c943112d6084aa5f3/capsule_231x87_alt_assets_13.jpg?t=1792503151"
  },
  {
   "id": "12210",
@@ -1581,10 +1581,10 @@
  {
   "id": "286690",
   "appid": 286690,
-  "name": "Metro 2033 Redux",
+  "name": "METRO 2033 Redux",
   "slug": "metro-2033-redux",
   "rank": 173,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286690/capsule_231x87.jpg?t=1741110084"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286690/e61b54b5c5ec0a610be1bd53e89b461c413e0e6b/capsule_231x87_alt_assets_1.jpg?t=1792681167"
  },
  {
   "id": "1237970",
@@ -1608,7 +1608,7 @@
   "name": "AdVenture Capitalist",
   "slug": "adventure-capitalist",
   "rank": 176,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346900/capsule_231x87.jpg?t=1769198593"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346900/capsule_231x87.jpg?t=1792625047"
  },
  {
   "id": "1100600",
@@ -1720,7 +1720,7 @@
   "name": "Tomb Raider Game of the Year",
   "slug": "tomb-raider-game-of-the-year",
   "rank": 190,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/2155072e0f151e8bd3fe142cfcb2397d8b30f026/capsule_231x87.jpg?t=1765220424"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/6b99836b2ef820daf393541107252cf4e13a7f25/capsule_231x87_alt_assets_0.jpg?t=1792674634"
  },
  {
   "id": "1332010",
@@ -2128,7 +2128,7 @@
   "name": "Crusader Kings III",
   "slug": "crusader-kings-iii",
   "rank": 241,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/969346b7534d84360e80d8997c3f58636140893f/capsule_231x87.jpg?t=1791471575"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/969346b7534d84360e80d8997c3f58636140893f/capsule_231x87.jpg?t=1792414688"
  },
  {
   "id": "281990",
@@ -2136,7 +2136,7 @@
   "name": "Stellaris",
   "slug": "stellaris",
   "rank": 242,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/fae01b59dcd1379c0c04826167240aa910b60968/capsule_231x87_alt_assets_14.jpg?t=1791480874"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/32c71374d9617534661fbfac0ac9fa6849f62215/capsule_231x87.jpg?t=1792590966"
  },
  {
   "id": "813780",
@@ -2184,7 +2184,7 @@
   "name": "Squad",
   "slug": "squad",
   "rank": 248,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/e069cbeca98b633002e2d2202b4cc4ae58138549/capsule_231x87.jpg?t=1790892056"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/e069cbeca98b633002e2d2202b4cc4ae58138549/capsule_231x87.jpg?t=1792423549"
  },
  {
   "id": "1151340",
@@ -2216,7 +2216,7 @@
   "name": "Gray Zone Warfare",
   "slug": "gray-zone-warfare",
   "rank": 252,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479810/3a47f3bdc811ec7f46aac03b975c8331b496d9d6/capsule_231x87.jpg?t=1791019595"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479810/20b65094efc293c54fef3332d4bdc29ddb73d308/capsule_231x87_alt_assets_6.jpg?t=1792840152"
  },
  {
   "id": "960090",
@@ -2400,7 +2400,7 @@
   "name": "The Outlast Trials",
   "slug": "the-outlast-trials",
   "rank": 275,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/115ccc74cf2a3951184659a5f953c8db1a48e499/capsule_231x87_alt_assets_3.jpg?t=1792170010"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/d8e64b5ed30b2a587d072b0f8000bf2fdb4ae546/capsule_231x87_alt_assets_4.jpg?t=1792554994"
  },
  {
   "id": "1716740",
@@ -2496,7 +2496,7 @@
   "name": "HITMAN World of Assassination",
   "slug": "hitman-world-of-assassination",
   "rank": 287,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/0253c27a9d2fc6151633ab02bddd977816767dfb/capsule_231x87_alt_assets_14.jpg?t=1792084177"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/0253c27a9d2fc6151633ab02bddd977816767dfb/capsule_231x87_alt_assets_14.jpg?t=1793007252"
  },
  {
   "id": "305620",
@@ -2544,7 +2544,7 @@
   "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
   "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
   "rank": 293,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/290a107e6d65baf58523dfce8bc1d8310a2ee938/capsule_231x87.jpg?t=1790259592"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/290a107e6d65baf58523dfce8bc1d8310a2ee938/capsule_231x87.jpg?t=1793004004"
  },
  {
   "id": "962130",
@@ -2584,7 +2584,7 @@
   "name": "RISK: Global Domination",
   "slug": "risk-global-domination",
   "rank": 298,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1128810/capsule_231x87.jpg?t=1788235008"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1128810/capsule_231x87.jpg?t=1792714455"
  },
  {
   "id": "552500",
@@ -2632,7 +2632,7 @@
   "name": "Manor Lords",
   "slug": "manor-lords",
   "rank": 304,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/capsule_231x87.jpg?t=1791279229"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/capsule_231x87.jpg?t=1792743039"
  },
  {
   "id": "1184370",
@@ -2696,7 +2696,7 @@
   "name": "Escape the Backrooms",
   "slug": "escape-the-backrooms",
   "rank": 312,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/28626087167f428b92a79d4c319e19707fe22dae/capsule_231x87.jpg?t=1791750022"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/28626087167f428b92a79d4c319e19707fe22dae/capsule_231x87.jpg?t=1792608971"
  },
  {
   "id": "1569040",
@@ -2936,7 +2936,7 @@
   "name": "Far Cry® 5",
   "slug": "far-cry-5",
   "rank": 342,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/49aaa75a53de446d83429fe94920a8a9348ecf62/capsule_231x87.jpg?t=1785365694"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/49aaa75a53de446d83429fe94920a8a9348ecf62/capsule_231x87.jpg?t=1792530774"
  },
  {
   "id": "335240",
@@ -3072,7 +3072,7 @@
   "name": "Fallout Shelter",
   "slug": "fallout-shelter",
   "rank": 360,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588430/215588003e8684f96229d5d86dd1e837b3661a8d/capsule_231x87.jpg?t=1790961740"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588430/215588003e8684f96229d5d86dd1e837b3661a8d/capsule_231x87.jpg?t=1792675580"
  },
  {
   "id": "881020",
@@ -3128,7 +3128,7 @@
   "name": "No Rest for the Wicked",
   "slug": "no-rest-for-the-wicked",
   "rank": 367,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/9d2efe7754b0843dddbf7c495fe55ccc69e99b6c/capsule_231x87.jpg?t=1792082140"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/9d2efe7754b0843dddbf7c495fe55ccc69e99b6c/capsule_231x87.jpg?t=1792498726"
  },
  {
   "id": "632470",
@@ -3240,7 +3240,7 @@
   "name": "One-armed robber",
   "slug": "one-armed-robber",
   "rank": 381,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2551020/b3d094361a59f01e098acc0a714e565e5e3c2334/capsule_231x87_alt_assets_0.jpg?t=1790240946"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2551020/capsule_231x87.jpg?t=1790240946"
  },
  {
   "id": "391220",
@@ -3248,7 +3248,7 @@
   "name": "Rise of the Tomb Raider™",
   "slug": "rise-of-the-tomb-raider",
   "rank": 382,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/capsule_231x87.jpg?t=1766187095"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/d811b86e2960ea42903774f4ec447d79494e8ef4/capsule_231x87_alt_assets_0.jpg?t=1792675385"
  },
  {
   "id": "2054970",
@@ -3336,7 +3336,7 @@
   "name": "Soul Dossier",
   "slug": "soul-dossier",
   "rank": 393,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1520470/d1303c3d014f04157781e88da92fa98212d6e8da/capsule_231x87.jpg?t=1791786453"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1520470/d1303c3d014f04157781e88da92fa98212d6e8da/capsule_231x87.jpg?t=1792987679"
  },
  {
   "id": "200260",
@@ -3360,7 +3360,7 @@
   "name": "PAYDAY 3",
   "slug": "payday-3",
   "rank": 396,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/bf26957f8cbc9ba68d341303e5fd76a803a1fb9a/capsule_231x87_alt_assets_11.jpg?t=1790075084"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/42fb3a4c0a02e16c597a1b8a8490441a324e9863/capsule_231x87.jpg?t=1790075084"
  },
  {
   "id": "203140",
@@ -3456,7 +3456,7 @@
   "name": "Shadow of the Tomb Raider: Definitive Edition",
   "slug": "shadow-of-the-tomb-raider-definitive-edition",
   "rank": 408,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/capsule_231x87.jpg?t=1765239925"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/2af42f886b327c6d175c4e87af0a6950f9466561/capsule_231x87_alt_assets_0.jpg?t=1792675045"
  },
  {
   "id": "234140",
@@ -3472,7 +3472,7 @@
   "name": "Far Cry® 4",
   "slug": "far-cry-4",
   "rank": 410,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/69d90231217655f7ec20b9592fa761b66fe1df65/capsule_231x87.jpg?t=1785362767"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/69d90231217655f7ec20b9592fa761b66fe1df65/capsule_231x87.jpg?t=1792528743"
  },
  {
   "id": "1557740",
@@ -3648,7 +3648,7 @@
   "name": "For The King",
   "slug": "for-the-king",
   "rank": 432,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527230/6fcff14bc11c14563d7b4fe3390c59ef193f4d05/capsule_231x87_alt_assets_14.jpg?t=1762445651"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527230/6fcff14bc11c14563d7b4fe3390c59ef193f4d05/capsule_231x87_alt_assets_14.jpg?t=1792601077"
  },
  {
   "id": "307780",
@@ -3672,7 +3672,7 @@
   "name": "Beat Saber",
   "slug": "beat-saber",
   "rank": 435,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/1835eec84d486fd58cdc54ae900ade0b69b70a75/capsule_231x87.jpg?t=1792068532"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/1835eec84d486fd58cdc54ae900ade0b69b70a75/capsule_231x87.jpg?t=1793008383"
  },
  {
   "id": "201810",
@@ -3712,7 +3712,7 @@
   "name": "MechWarrior Online™ Legends",
   "slug": "mechwarrior-online-legends",
   "rank": 440,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/342200/capsule_231x87.jpg?t=1790099305"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/342200/capsule_231x87.jpg?t=1792519890"
  },
  {
   "id": "482730",
@@ -3845,10 +3845,10 @@
  {
   "id": "287390",
   "appid": 287390,
-  "name": "Metro: Last Light Redux",
+  "name": "METRO Last Light Redux",
   "slug": "metro-last-light-redux",
   "rank": 457,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/capsule_231x87.jpg?t=1725444535"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/e05aeffd3c09e19aec8128bf850dc2f39cc36e1d/capsule_231x87_alt_assets_1.jpg?t=1792681177"
  },
  {
   "id": "22370",
@@ -3944,7 +3944,7 @@
   "name": "Dungeon Defenders",
   "slug": "dungeon-defenders",
   "rank": 469,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65800/capsule_231x87.jpg?t=1791389031"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65800/capsule_231x87.jpg?t=1792705345"
  },
  {
   "id": "274190",
@@ -4880,7 +4880,7 @@
   "name": "PAYDAY™ The Heist",
   "slug": "payday-the-heist",
   "rank": 586,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24240/capsule_231x87.jpg?t=1782408687"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24240/766c73dd0f7d825b67c3f4edb30e1e1e1a3ce28b/capsule_231x87.jpg?t=1792501627"
  },
  {
   "id": "1056960",
@@ -5519,7 +5519,7 @@
   "name": "MapleStory",
   "slug": "maplestory",
   "rank": 666,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/216150/22ad6d057b07641945237dbc6dbab05bb4be615a/capsule_231x87.jpg?t=1792111844"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/216150/a96bb6f19ecae5bc1644f147cc505d0bf00807a6/capsule_231x87_alt_assets_21.jpg?t=1792606813"
  },
  {
   "id": "1284190",
@@ -5559,7 +5559,7 @@
   "name": "Core Keeper",
   "slug": "core-keeper",
   "rank": 671,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/74ae27901ff218090ff1b122b7c71489df920994/capsule_231x87_alt_assets_12.jpg?t=1791454740"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/5b19828e142f23d88e5213280d8e226408dabbbf/capsule_231x87.jpg?t=1791454740"
  },
  {
   "id": "2622000",
@@ -5679,7 +5679,7 @@
   "name": "Assassin's Creed® Origins",
   "slug": "assassin-s-creed-origins",
   "rank": 686,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/capsule_231x87.jpg?t=1786633036"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/capsule_231x87.jpg?t=1792778037"
  },
  {
   "id": "1850570",
@@ -5719,7 +5719,7 @@
   "name": "Plague Inc: Evolved",
   "slug": "plague-inc-evolved",
   "rank": 691,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/6360836e806dacf895d368663da4bb7c626bb661/capsule_231x87.jpg?t=1779100239"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/6360836e806dacf895d368663da4bb7c626bb661/capsule_231x87.jpg?t=1792426460"
  },
  {
   "id": "805550",
@@ -5767,7 +5767,7 @@
   "name": "Car Mechanic Simulator 2021",
   "slug": "car-mechanic-simulator-2021",
   "rank": 697,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190000/capsule_231x87.jpg?t=1791445475"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190000/capsule_231x87.jpg?t=1792592913"
  },
  {
   "id": "924970",
@@ -5887,7 +5887,7 @@
   "name": "Crush Crush",
   "slug": "crush-crush",
   "rank": 712,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/459820/4499f94d2b7ca32fc1d7accee4fd2bd3642eea83/capsule_231x87_alt_assets_19.jpg?t=1792001024"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/459820/05c1d01cb1094ed5a8727d439f0619820ee6c492/capsule_231x87.jpg?t=1792001024"
  },
  {
   "id": "2552430",
@@ -5903,7 +5903,7 @@
   "name": "Mafia III: Definitive Edition",
   "slug": "mafia-iii-definitive-edition",
   "rank": 714,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/360430/fe27ffa9304f795396734ece4425c7ccd5496274/capsule_231x87_alt_assets_0.jpg?t=1792010321"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/360430/capsule_231x87.jpg?t=1792623822"
  },
  {
   "id": "1286680",
@@ -5951,7 +5951,7 @@
   "name": "PlateUp!",
   "slug": "plateup",
   "rank": 720,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599600/b45a8bb9c0d9e675ddb62315f8178fadde491de1/capsule_231x87_alt_assets_7.jpg?t=1791790793"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599600/1b14776e882dfa38f0dbf6ac4368a48a3fe82265/capsule_231x87_alt_assets_19.jpg?t=1793009385"
  },
  {
   "id": "920210",
@@ -6047,7 +6047,7 @@
   "name": "MiSide",
   "slug": "miside",
   "rank": 732,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527500/capsule_231x87.jpg?t=1792204652"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527500/capsule_231x87.jpg?t=1792668822"
  },
  {
   "id": "1211020",
@@ -6135,7 +6135,7 @@
   "name": "DC Universe™ Online",
   "slug": "dc-universe-online",
   "rank": 743,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24200/ff053443afd3434d5599bbc96d2c955e7adfb7fb/capsule_231x87.jpg?t=1791319208"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24200/ff053443afd3434d5599bbc96d2c955e7adfb7fb/capsule_231x87.jpg?t=1792434219"
  },
  {
   "id": "287450",
@@ -6191,7 +6191,7 @@
   "name": "Train Simulator Classic",
   "slug": "train-simulator-classic",
   "rank": 750,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24010/8f8ee9925d0a635d72961567338768ab41aa0896/capsule_231x87.jpg?t=1791185480"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24010/8f8ee9925d0a635d72961567338768ab41aa0896/capsule_231x87.jpg?t=1792673580"
  },
  {
   "id": "774361",
@@ -6319,7 +6319,7 @@
   "name": "Super Animal Royale",
   "slug": "super-animal-royale",
   "rank": 766,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/843380/1dbc7910acb2efac4c74fee14b7ab880392bf9e2/capsule_231x87_alt_assets_23.jpg?t=1791919216"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/843380/1dbc7910acb2efac4c74fee14b7ab880392bf9e2/capsule_231x87_alt_assets_23.jpg?t=1792690730"
  },
  {
   "id": "17480",
@@ -6695,7 +6695,7 @@
   "name": "ONE PIECE: PIRATE WARRIORS 4",
   "slug": "one-piece-pirate-warriors-4",
   "rank": 813,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1089090/capsule_231x87.jpg?t=1763698599"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1089090/capsule_231x87.jpg?t=1792749087"
  },
  {
   "id": "304240",
@@ -6831,7 +6831,7 @@
   "name": "We Were Here",
   "slug": "we-were-here",
   "rank": 830,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582500/27c13f6d32353f713320c133e511b7e75b36c4e5/capsule_231x87.jpg?t=1764329099"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582500/27c13f6d32353f713320c133e511b7e75b36c4e5/capsule_231x87.jpg?t=1792410832"
  },
  {
   "id": "287290",
@@ -6855,7 +6855,7 @@
   "name": "Beholder",
   "slug": "beholder",
   "rank": 833,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/475550/capsule_231x87.jpg?t=1783321886"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/475550/capsule_231x87.jpg?t=1792565737"
  },
  {
   "id": "1313860",
@@ -7983,7 +7983,7 @@
   "name": "Mark of the Ninja",
   "slug": "mark-of-the-ninja",
   "rank": 974,
-  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214560/capsule_231x87.jpg?t=1668892924"
+  "capsuleImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214560/capsule_231x87.jpg?t=1792788399"
  },
  {
   "id": "311860",

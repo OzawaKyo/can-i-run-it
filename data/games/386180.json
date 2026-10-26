@@ -1,11 +1,11 @@
 {
  "id": "386180",
  "appid": 386180,
- "name": "Crossout",
- "slug": "crossout",
+ "name": "Crossout Remastered",
+ "slug": "crossout-remastered",
  "source": "steam",
- "updatedAt": "2026-10-19",
- "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386180/da1fb7f149fc7bbec3da1affd2fffe62421748ad/header.jpg?t=1790873569",
+ "updatedAt": "2026-10-26",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386180/f5baf857598ce9997cbec318639473adccd4801f/header.jpg?t=1792678174",
  "requirements": {
   "minimum": {
    "cpu": {
@@ -20,127 +20,66 @@
    },
    "gpu": {
     "raw": [
-     "AMD Radeon HD 7000 series",
-     "Nvidia GeForce 500 series"
+     "NVIDIA GeForce GTX 950",
+     "AMD Radeon RX 460"
     ],
     "ids": [
-     "amd-radeon-hd-7350-256mb",
-     "amd-radeon-hd-7350-512mb",
-     "amd-radeon-hd-7450-512mb",
-     "amd-radeon-hd-7450-1gb",
-     "amd-radeon-hd-7470-512mb",
-     "amd-radeon-hd-7470-1gb",
-     "amd-radeon-hd-7510",
-     "amd-radeon-hd-7570-512mb",
-     "amd-radeon-hd-7570-1gb",
-     "amd-radeon-hd-7670-512mb",
-     "amd-radeon-hd-7670-1gb",
-     "amd-radeon-hd-7730",
-     "amd-radeon-hd-7750-1gb",
-     "amd-radeon-hd-7750-2gb",
-     "amd-radeon-hd-7750-4gb",
-     "amd-radeon-hd-7770-ghz-edition-1gb",
-     "amd-radeon-hd-7770-ghz-edition-2gb",
-     "amd-radeon-hd-7790-1gb",
-     "amd-radeon-hd-7790-2gb",
-     "amd-radeon-hd-7850-1gb",
-     "amd-radeon-hd-7850-2gb",
-     "amd-radeon-hd-7870-ghz-edition",
-     "amd-radeon-hd-7870-xt",
-     "amd-radeon-hd-7950",
-     "amd-radeon-hd-7950-boost",
-     "amd-radeon-hd-7970-3gb",
-     "amd-radeon-hd-7970-6gb",
-     "amd-radeon-hd-7970-ghz-edition-3gb",
-     "amd-radeon-hd-7970-ghz-edition-6gb",
-     "amd-radeon-hd-7990",
-     "amd-radeon-hd-7310",
-     "amd-radeon-hd-7340",
-     "amd-radeon-hd-7480d",
-     "amd-radeon-hd-7540d",
-     "amd-radeon-hd-7560d",
-     "amd-radeon-hd-7660d",
-     "nvidia-geforce-505-oem-512mb",
-     "nvidia-geforce-505-oem-1gb",
-     "nvidia-geforce-505-oem",
-     "nvidia-geforce-510-oem-1gb",
-     "nvidia-geforce-510-oem-2gb",
-     "nvidia-geforce-gt-520",
-     "nvidia-geforce-gt-520-1gb",
-     "nvidia-geforce-gt-520-2gb",
-     "nvidia-geforce-gt-520-oem",
-     "nvidia-geforce-gt-520-oem-1gb",
-     "nvidia-geforce-gt-520-oem-2gb",
-     "nvidia-geforce-gt-530-oem-1gb",
-     "nvidia-geforce-gt-530-oem-2gb",
-     "nvidia-geforce-gt-545-1.5gb",
-     "nvidia-geforce-gt-545-3gb",
-     "nvidia-geforce-gt-545-oem",
-     "nvidia-geforce-gtx-550-ti",
-     "nvidia-geforce-gtx-555-oem",
-     "nvidia-geforce-gtx-560-se",
-     "nvidia-geforce-gtx-560",
-     "nvidia-geforce-gtx-560-oem",
-     "nvidia-geforce-gtx-560-ti",
-     "nvidia-geforce-gtx-560-ti-oem-gf114-400",
-     "nvidia-geforce-gtx-560-ti-oem-gf110",
-     "nvidia-geforce-gtx-560-ti-448",
-     "nvidia-geforce-gtx-560-ti-x2",
-     "nvidia-geforce-gtx-570",
-     "nvidia-geforce-gtx-570-rev-2",
-     "nvidia-geforce-gtx-580",
-     "nvidia-geforce-gtx-580-rev-2",
-     "nvidia-geforce-gtx-590"
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
     ]
    },
    "ramGb": 4,
+   "directX": 12,
    "storage": {
-    "gb": 18,
+    "gb": 24,
     "ssd": false
    },
    "raw": {
     "os": "Windows 10/11 64 bit",
-    "processor": "4-core processor Intel Core i5-2310 or AMD FX-4100",
+    "processor": "4-core processor Intel Core i5-2310 / AMD FX-4100",
     "memory": "4 GB RAM",
-    "graphics": "AMD Radeon HD 7000 series, Nvidia GeForce 500 series",
+    "graphics": "NVIDIA GeForce GTX 950 / AMD Radeon RX 460 or equivalent",
+    "directx": "Version 12",
     "network": "Broadband Internet connection",
-    "storage": "18 GB available space"
+    "storage": "24 GB available space"
    }
   },
   "recommended": {
    "cpu": {
     "raw": [
-     "Intel Core i5-7600",
-     "AMD Ryzen 7 2700 and higher"
+     "6-core processor Intel Core i5-12400",
+     "AMD Ryzen 5 5600"
     ],
     "ids": [
-     "intel-core-i5-7600",
-     "amd-ryzen-7-2700"
+     "intel-core-i5-12400",
+     "amd-ryzen-5-5600"
     ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 970",
-     "Radeon RX 570 and higher"
+     "Nvidia GeForce RTX 2070",
+     "AMD Radeon RX 5700 XT"
     ],
     "ids": [
-     "nvidia-geforce-gtx-970",
-     "amd-radeon-rx-570-4gb",
-     "amd-radeon-rx-570-8gb"
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-5700-xt"
     ]
    },
    "ramGb": 16,
+   "directX": 12,
    "storage": {
-    "gb": 18,
+    "gb": 24,
     "ssd": false
    },
    "raw": {
     "os": "Windows 10/11 64 bit",
-    "processor": "Intel Core i5-7600 or AMD Ryzen 7 2700 and higher",
+    "processor": "6-core processor Intel Core i5-12400 / AMD Ryzen 5 5600",
     "memory": "16 GB RAM",
-    "graphics": "Nvidia GeForce GTX 970 or Radeon RX 570 and higher",
+    "graphics": "Nvidia GeForce RTX 2070 / AMD Radeon RX 5700 XT",
+    "directx": "Version 12",
     "network": "Broadband Internet connection",
-    "storage": "18 GB available space"
+    "storage": "24 GB available space"
    }
   }
  },

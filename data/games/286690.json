@@ -1,80 +1,85 @@
 {
  "id": "286690",
  "appid": 286690,
- "name": "Metro 2033 Redux",
+ "name": "METRO 2033 Redux",
  "slug": "metro-2033-redux",
  "source": "steam",
- "updatedAt": "2026-10-19",
- "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286690/header.jpg?t=1741110084",
+ "updatedAt": "2026-10-26",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286690/643dc97456e8a6f98777c28e81dcc92b39e2882f/header_alt_assets_1.jpg?t=1792681167",
  "requirements": {
   "minimum": {
    "cpu": {
     "raw": [
-     "Dual Core CPU (2.2+ GHz Dual Core CPU)"
+     "Intel Core i5-4690",
+     "AMD Ryzen 3 1200"
     ],
-    "ids": [],
-    "estimatedScore": 23
+    "ids": [
+     "intel-core-i5-4690",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce 8800 GT",
-     "Nvidia GeForce GTS 250"
+     "Nvidia GTX 750 Ti 2GB",
+     "AMD Radeon R7 260X 2GB"
     ],
     "ids": [
-     "nvidia-geforce-8800-gt",
-     "nvidia-geforce-gts-250-g92-426",
-     "nvidia-geforce-gts-250-g92-428"
-    ],
-    "source": "pcgamingwiki"
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-r7-260x-2gb"
+    ]
    },
-   "ramGb": 2,
-   "directX": 10,
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
    "storage": {
-    "gb": 10,
+    "gb": 20,
     "ssd": false
    },
    "raw": {
-    "os": "Windows Vista, 7 or 8 (64-bit only)",
-    "processor": "Dual Core CPU (2.2+ GHz Dual Core CPU or better)",
-    "memory": "2 GB RAM",
-    "graphics": "DirectX 10, Shader Model 4 compliant graphics cards (GeForce 8800 GT 512 MB, GeForce GTS 250, etc)",
-    "directx": "Version 10",
-    "storage": "10 GB available space",
-    "additional notes": "64-bit only"
+    "os": "Windows 10 or Windows 11 (64-bit)",
+    "processor": "Intel Core i5-4690, AMD Ryzen 3 1200, or better",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GTX 750 Ti 2 GB, AMD Radeon R7 260X 2 GB, or better",
+    "directx": "Version 11",
+    "storage": "20 GB available space"
    }
   },
   "recommended": {
    "cpu": {
     "raw": [
-     "Any Quad Core",
-     "3.0+ GHz Dual Core CPU"
+     "Intel Core i5-8600",
+     "AMD Ryzen 5 3600"
     ],
-    "ids": [],
-    "estimatedScore": 23
+    "ids": [
+     "intel-core-i5-8600",
+     "amd-ryzen-5-3600"
+    ]
    },
    "gpu": {
     "raw": [
-     "Nvidia GeForce GTX 480"
+     "Nvidia GTX 1660 6GB",
+     "AMD Radeon RX 590 8GB"
     ],
     "ids": [
-     "nvidia-geforce-gtx-480"
-    ],
-    "source": "pcgamingwiki"
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-590"
+    ]
    },
-   "ramGb": 4,
+   "ramGb": 8,
+   "vramGb": 6,
    "directX": 11,
    "storage": {
-    "gb": 10,
+    "gb": 20,
     "ssd": false
    },
    "raw": {
-    "os": "Windows 7 or 8 (64-bit only)",
-    "processor": "Any Quad Core or 3.0+ GHz Dual Core CPU",
-    "memory": "4 GB RAM",
-    "graphics": "DirectX 11 compliant graphics card (GeForce GTX 480 and above)",
+    "os": "Windows 10 or Windows 11 (64-bit)",
+    "processor": "Intel Core i5-8600, AMD Ryzen 5 3600, or better",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 1660 6 GB, AMD Radeon RX 590 8 GB, or better",
     "directx": "Version 11",
-    "storage": "10 GB available space",
-    "additional notes": "64-bit only"
+    "storage": "20 GB available space"
    }
   }
  },
