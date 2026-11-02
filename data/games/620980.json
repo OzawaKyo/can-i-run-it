@@ -4,8 +4,8 @@
  "name": "Beat Saber",
  "slug": "beat-saber",
  "source": "steam",
- "updatedAt": "2026-10-26",
- "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/3067664ee110fed550f5c3a1b74340cabd7d53f0/header.jpg?t=1793008383",
+ "updatedAt": "2026-11-02",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/3067664ee110fed550f5c3a1b74340cabd7d53f0/header.jpg?t=1793008842",
  "requirements": {
   "minimum": {
    "cpu": {
