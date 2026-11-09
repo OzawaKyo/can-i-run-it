@@ -4,8 +4,8 @@
  "name": "Gray Zone Warfare",
  "slug": "gray-zone-warfare",
  "source": "steam",
- "updatedAt": "2026-11-02",
- "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479810/cce8bf6b32325d29562a6c1dc24c8e705204ff6a/header_alt_assets_6.jpg?t=1793375678",
+ "updatedAt": "2026-11-09",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479810/cce8bf6b32325d29562a6c1dc24c8e705204ff6a/header_alt_assets_6.jpg?t=1794120713",
  "requirements": {
   "minimum": {
    "cpu": {
@@ -107,7 +107,7 @@
   }
  },
  "linux": {
-  "protonTier": "silver",
+  "protonTier": "gold",
   "antiCheat": "running",
   "antiCheatSlug": "gray-zone-warfare"
  }
