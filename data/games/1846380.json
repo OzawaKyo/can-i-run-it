@@ -1,0 +1,90 @@
+{
+ "id": "1846380",
+ "appid": 1846380,
+ "name": "Need for Speed™ Unbound",
+ "slug": "need-for-speed-unbound",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846380/eacea0635efb7af9054f6b299060fee32404ace7/header.jpg?t=1777394467",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Ryzen 5 2600",
+     "Core i5-8600"
+    ],
+    "ids": [
+     "amd-ryzen-5-2600",
+     "intel-core-i5-8600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "RX 570",
+     "GTX 1050 Ti"
+    ],
+    "ids": [
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb",
+     "nvidia-geforce-gtx-1050-ti"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Ryzen 5 2600, Core i5-8600",
+    "memory": "8 GB RAM",
+    "graphics": "RX 570, GTX 1050 Ti",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Ryzen 5 3600",
+     "Core i7-8700"
+    ],
+    "ids": [
+     "amd-ryzen-5-3600",
+     "intel-core-i7-8700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Radeon RX5700 () 8GB",
+     "GeForce RTX 2070 () 8GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-5700",
+     "nvidia-geforce-rtx-2070"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Ryzen 5 3600, Core i7-8700",
+    "memory": "16 GB RAM",
+    "graphics": "Radeon RX5700 (8GB), GeForce RTX 2070 (8GB)",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

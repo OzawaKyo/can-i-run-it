@@ -1,0 +1,42 @@
+{
+ "id": "590380",
+ "appid": 590380,
+ "name": "Into the Breach",
+ "slug": "into-the-breach",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590380/header.jpg?t=1755610784",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.7+ GHz"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Must support OpenGL 2.1. Intel HD 3000."
+    ],
+    "ids": [
+     "intel-hd-graphics-3000"
+    ]
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.390625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista/7/8/10",
+    "processor": "1.7+ GHz or better",
+    "memory": "1 GB RAM",
+    "graphics": "Must support OpenGL 2.1 or higher. Intel HD 3000 or better.",
+    "storage": "400 MB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

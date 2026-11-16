@@ -1,0 +1,84 @@
+{
+ "id": "427410",
+ "appid": 427410,
+ "name": "Abiotic Factor",
+ "slug": "abiotic-factor",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/0bccdb269cdbb25c701cd00c3179cc29647e1fb8/header_alt_assets_7.jpg?t=1794245513",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i5-9th Gen CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1660",
+     "AMD Radeon RX 5600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-5600-xt"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or later",
+    "processor": "i5-9th Gen CPU or similar",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 1660 or AMD Radeon RX 5600 XT",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "additional notes": "There are slightly higher CPU requirements if you are the Host in a multiplayer session, especially with several players. Abiotic Factor runs on Unreal Engine 5. In spite of the art style, this will probably not run on your PC from 1997."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i5-11th Gen CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "GeForce RTX 3070",
+     "AMD Radeon RX 6700 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3070",
+     "amd-radeon-rx-6700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or later",
+    "processor": "i5-11th Gen CPU or similar",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce RTX 3070 or AMD Radeon RX 6700 XT or better",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "10 GB available space",
+    "additional notes": "There are slightly higher CPU requirements if you are the Host in a multiplayer session, especially with several players. Abiotic Factor runs on Unreal Engine 5. In spite of the art style, this will probably not run on your PC from 1997."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

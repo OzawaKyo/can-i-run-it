@@ -1,0 +1,88 @@
+{
+ "id": "847370",
+ "appid": 847370,
+ "name": "Sunset Overdrive",
+ "slug": "sunset-overdrive",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/847370/header.jpg?t=1667851405",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 3470 @ 3.0hz",
+     "AMD-FX-6300"
+    ],
+    "ids": [
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce 750 Ti",
+     "AMD Radeon R7 260X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-r7-260x-1gb",
+     "amd-radeon-r7-260x-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8 or higher",
+    "processor": "Intel Core i5 3470 @ 3.0hz || AMD-FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "Geforce 750 Ti || AMD Radeon R7 260X",
+    "storage": "30 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 4690 @ 3.5hz",
+     "AMD-FX-8350"
+    ],
+    "ids": [
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Geforce 970",
+     "Geforce GTX 1060",
+     "AMD Radeon R9 290x",
+     "Radeon RX 480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-r9-290x-4gb",
+     "amd-radeon-r9-290x-8gb",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5 4690 @ 3.5hz || AMD-FX-8350",
+    "memory": "8 GB RAM",
+    "graphics": "Geforce 970 or Geforce GTX 1060 || AMD Radeon R9 290x or Radeon RX 480",
+    "storage": "30 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

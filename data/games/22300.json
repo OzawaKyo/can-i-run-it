@@ -1,0 +1,79 @@
+{
+ "id": "22300",
+ "appid": 22300,
+ "name": "Fallout 3",
+ "slug": "fallout-3",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22300/header.jpg?t=1732208474",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 Ghz Intel Pentium 4 processor"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Direct X 9.0c compliant video card with 256MB RAM (NVIDIA 6800/ATI X850)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "operating system": "Windows XP/Vista",
+    "processor": "2.4 Ghz Intel Pentium 4 or equivalent processor",
+    "memory": "1 GB (XP)/ 2 GB (Vista)",
+    "storage": "7 GB",
+    "graphics": "Direct X 9.0c compliant video card with 256MB RAM (NVIDIA 6800 or better/ATI X850 or better)",
+    "sound": "DirectX: 9.0c",
+    "controller support": "Xbox 360 controller",
+    "other requirements": "Online play requires log-in to Games For Windows - Live",
+    "nvidia": "GeForce 200 series, Geforce 9800 series, Geforce 9600 series, Geforce 8800 series, Geforce 8600 series, Geforce 8500 series, Geforce 8400 series, Geforce 7900 series, Geforce 7800 series, Geforce 7600 series, Geforce 7300 series, GeForce 6800 series",
+    "ati": "HD 4800 series, HD 4600 series, HD 3800 series, HD 3600 series, HD 3400 series, HD 2900 series, HD 2600 series, HD 2400 series, X1900 series, X1800 series, X1600 series, X1300 series, X850 series"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo processor"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Direct X 9.0c compliant video card with 512MB RAM (NVIDIA 8800 series, ATI 3800 series)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "operating system": "Windows XP/Vista",
+    "processor": "Intel Core 2 Duo processor",
+    "memory": "2 GB System RAM",
+    "storage": "7 GB",
+    "graphics": "Direct X 9.0c compliant video card with 512MB RAM (NVIDIA 8800 series, ATI 3800 series)",
+    "sound": "DirectX: 9.0c",
+    "controller support": "Xbox 360 controller"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "413420",
+ "appid": 413420,
+ "name": "Danganronpa 2: Goodbye Despair",
+ "slug": "danganronpa-2-goodbye-despair",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/header.jpg?t=1781085654",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.8 GHz Intel Core 2 Duo"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 3.2 compatible GPU with at least of VRAM 1GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 3,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2.8 GHz Intel Core 2 Duo or better",
+    "memory": "3 GB RAM",
+    "graphics": "OpenGL 3.2 compatible GPU with at least 1GB of VRAM",
+    "directx": "Version 9.0c",
+    "storage": "5 GB available space",
+    "additional notes": "PS4 or Xbox 360 Controller or Direct Input compatible controller"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i5-3470"
+    ],
+    "ids": [
+     "intel-core-i5-3470"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 3.2 compatible GPU with at least of VRAM 1GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel(R) Core(TM) i5-3470 or better",
+    "memory": "4 GB RAM",
+    "graphics": "OpenGL 3.2 compatible GPU with at least 1GB of VRAM",
+    "directx": "Version 9.0c",
+    "storage": "6 GB available space",
+    "additional notes": "PS4 or Xbox 360 Controller or Direct Input compatible controller"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

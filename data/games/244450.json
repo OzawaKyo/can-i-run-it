@@ -1,0 +1,46 @@
+{
+ "id": "244450",
+ "appid": 244450,
+ "name": "Men of War: Assault Squad 2",
+ "slug": "men-of-war-assault-squad-2",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244450/04f4d7d098911ac8a0831b2c10ba09fe14711833/header.jpg?t=1773656231",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "4.0 GHz single-core",
+     "2.0 GHz dual-core"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 compatible"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit - Windows 7, 8, 10",
+    "processor": "4.0 GHz single-core, 2.0 GHz dual-core or higher",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 11 compatible",
+    "directx": "Version 11",
+    "storage": "6 GB available space",
+    "sound card": "DirectX 11 compatible"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "1584090",
+ "appid": 1584090,
+ "name": "Touhou Mystia's Izakaya",
+ "slug": "touhou-mystia-s-izakaya",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1584090/header.jpg?t=1788596587",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium G5500",
+     "Core i3-6100",
+     "AMD Ryzen3 1200"
+    ],
+    "ids": [
+     "intel-core-i3-6100",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 750Ti",
+     "AMD HD 7790"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-hd-7790-1gb",
+     "amd-radeon-hd-7790-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows7",
+    "processor": "Intel Pentium G5500 / Core i3-6100 / AMD Ryzen3 1200",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 750Ti / AMD HD 7790",
+    "directx": "Version 11",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i5-8400",
+     "AMD Ryzen5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1050",
+     "AMD RX560"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-rx-560-2gb-polaris-21",
+     "amd-radeon-rx-560-2gb-polaris-21-2",
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows7Windows 10",
+    "processor": "Core i5-8400 / AMD Ryzen5 1600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 1050 / AMD RX560",
+    "directx": "Version 11",
+    "storage": "1 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "397950",
+ "appid": 397950,
+ "name": "Clustertruck",
+ "slug": "clustertruck",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397950/header.jpg?t=1785515783",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Dedicated recommended",
+     "integrated will run at 720p"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "Dedicated recommended, integrated will run at 720p",
+    "directx": "Version 9.0",
+    "storage": "500 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "raw": {
+    "memory": "8 GB RAM"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

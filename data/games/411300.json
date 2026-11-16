@@ -1,0 +1,90 @@
+{
+ "id": "411300",
+ "appid": 411300,
+ "name": "ELEX",
+ "slug": "elex",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/411300/header.jpg?t=1744710669",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 3570",
+     "AMD FX-6350"
+    ],
+    "ids": [
+     "intel-core-i5-3570",
+     "amd-fx-6350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 660 2GB",
+     "AMD Radeon 7850 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7, Windows 8.1, Windows 10",
+    "processor": "Intel Core i5 3570, AMD FX-6350",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 660 2GB, AMD Radeon 7850 2GB",
+    "directx": "Version 11",
+    "storage": "35 GB available space",
+    "sound card": "DirectX compatible Sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4790",
+     "AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i7-4790",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1060 3GB",
+     "AMD RX 480 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "amd-radeon-rx-480-4gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 35,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7, Windows 8.1, Windows 10",
+    "processor": "Intel Core i7-4790, AMD FX-8350",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GTX 1060 3GB, AMD RX 480 4GB",
+    "directx": "Version 11",
+    "storage": "35 GB available space",
+    "sound card": "DirectX compatible Sound card"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

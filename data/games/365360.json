@@ -1,0 +1,88 @@
+{
+ "id": "365360",
+ "appid": 365360,
+ "name": "Battle Brothers",
+ "slug": "battle-brothers",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365360/c6ad528c1ec98716cccc6b251d570bd1c0f2d283/header.jpg?t=1793270141",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-2100 (dual-core)",
+     "AMD Phenom II X2 565 (dual-core)"
+    ],
+    "ids": [
+     "intel-core-i3-2100",
+     "amd-phenom-ii-x2-565-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 460 () 1GB",
+     "AMD Radeon HD 5770 () 1GB",
+     "Intel HD Graphics 4000"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5770-1gb",
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i3-2100 (dual-core) / AMD Phenom II X2 565 (dual-core)",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 460 (1 GB) / AMD Radeon HD 5770 (1 GB) / Intel HD Graphics 4000",
+    "storage": "2 GB available space",
+    "additional notes": "GPU requires OpenGL 3.3 support"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2400 (quad-core)",
+     "AMD FX-Series FX-4300 (quad-core)"
+    ],
+    "ids": [
+     "intel-core-i5-2400",
+     "amd-fx-4300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 630 () 1GB",
+     "AMD Radeon HD 6670 () 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-630",
+     "amd-radeon-hd-6670-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i5-2400 (quad-core) / AMD FX-Series FX-4300 (quad-core)",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GT 630 (1 GB) / AMD Radeon HD 6670 (1 GB)",
+    "storage": "2 GB available space",
+    "additional notes": "GPU requires OpenGL 3.3 support"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

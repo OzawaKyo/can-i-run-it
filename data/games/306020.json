@@ -1,0 +1,76 @@
+{
+ "id": "306020",
+ "appid": 306020,
+ "name": "Bloons TD 5",
+ "slug": "bloons-td-5",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306020/header.jpg?t=1770223235",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.5Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 16
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 2.0 compatible",
+     "ATI",
+     "Nvidia",
+     "Intel HD"
+    ],
+    "ids": []
+   },
+   "ramGb": 0.5,
+   "storage": {
+    "gb": 0.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (32 & 64bit)",
+    "processor": "1.5Ghz or better",
+    "memory": "512 MB RAM",
+    "graphics": "OpenGL 2.0 compatible, ATI, Nvidia or Intel HD",
+    "storage": "512 MB available space",
+    "sound card": "Windows compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 2.0 compatible",
+     "ATI",
+     "Nvidia",
+     "Intel HD"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (32 & 64bit)",
+    "processor": "2Ghz or better",
+    "memory": "1024 MB RAM",
+    "graphics": "OpenGL 2.0 compatible, ATI, Nvidia or Intel HD",
+    "storage": "512 MB available space",
+    "sound card": "Windows compatible sound card"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

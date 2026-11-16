@@ -1,0 +1,87 @@
+{
+ "id": "1809540",
+ "appid": 1809540,
+ "name": "Nine Sols",
+ "slug": "nine-sols",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/header.jpg?t=1782464830",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon X4",
+     "Intel Core i5 4460"
+    ],
+    "ids": [
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 950",
+     "AMD R7 370"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r7-370-4gb",
+     "amd-radeon-r9-370-2gb",
+     "amd-radeon-r9-370-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "AMD Athlon X4 | Intel Core i5 4460",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 950 | AMD R7 370",
+    "directx": "Version 11",
+    "storage": "15 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3",
+     "Intel i5 Skylake"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 970",
+     "AMD RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "AMD Ryzen 3 | Intel i5 Skylake",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 970 | AMD RX 570",
+    "directx": "Version 11",
+    "storage": "15 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

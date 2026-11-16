@@ -1,0 +1,78 @@
+{
+ "id": "962730",
+ "appid": 962730,
+ "name": "Skater XL - The Ultimate Skateboarding Game",
+ "slug": "skater-xl-the-ultimate-skateboarding-game",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962730/header.jpg?t=1727199884",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.5GHz dual core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "GTX 950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2.5GHz dual core i5 or higher",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 950 or higher",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "additional notes": "Please drop quality settings if not seeing 60FPS. This game is best played buttery smooth!"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.5GHz quad core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "GTX 960"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "3.5GHz quad core i5 or higher",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 960 or higher",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "additional notes": "Consistent 58-60FPS on Ultra with these specs in beta testing."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

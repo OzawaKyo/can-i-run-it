@@ -1,0 +1,80 @@
+{
+ "id": "1253920",
+ "appid": 1253920,
+ "name": "Rogue Legacy 2",
+ "slug": "rogue-legacy-2",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253920/header.jpg?t=1710829748",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 680",
+     "AMD R9 280X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-680",
+     "amd-radeon-r9-280x"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2.0 Ghz",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 680, AMD R9 280X",
+    "directx": "Version 11",
+    "storage": "2 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.0 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 680",
+     "AMD R9 280X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-680",
+     "amd-radeon-r9-280x"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "3.0 Ghz",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 680, AMD R9 280X",
+    "directx": "Version 11",
+    "storage": "2 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

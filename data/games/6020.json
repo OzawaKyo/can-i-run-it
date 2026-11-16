@@ -1,0 +1,48 @@
+{
+ "id": "6020",
+ "appid": 6020,
+ "name": "STAR WARS™ Jedi Knight - Jedi Academy™",
+ "slug": "star-wars-jedi-knight-jedi-academy",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6020/header.jpg?t=1741814908",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium II",
+     "Athlon 450 MHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "32 MB OpenGL compatible"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.125,
+   "vramGb": 0.03125,
+   "directX": 9,
+   "storage": {
+    "gb": 1.3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 2000, XP or Vista",
+    "processor": "Pentium II or Athlon 450 MHz",
+    "memory": "128 MB",
+    "graphics": "32 MB OpenGL compatible",
+    "directx": "9.0a",
+    "storage": "1.3 GB",
+    "sound": "16 bit Direct x 9.0a",
+    "multiplayer requirements": "Pentium II or Athlon 450MHz"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

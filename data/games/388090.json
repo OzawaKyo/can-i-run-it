@@ -1,0 +1,39 @@
+{
+ "id": "388090",
+ "appid": 388090,
+ "name": "Five Nights at Freddy's 4",
+ "slug": "five-nights-at-freddy-s-4",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/388090/header.jpg?t=1579635988",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel Pentium 4",
+     "AMD Athlon"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win XP, 7, 8, Vista, 10",
+    "processor": "2 GHz Intel Pentium 4 or AMD Athlon or equivalent",
+    "memory": "2 GB RAM",
+    "storage": "1 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

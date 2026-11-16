@@ -1,0 +1,93 @@
+{
+ "id": "1874880",
+ "appid": 1874880,
+ "name": "Arma Reforger",
+ "slug": "arma-reforger",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/header.jpg?t=1793882747",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460",
+     "AMD FX-4300"
+    ],
+    "ids": [
+     "intel-core-i5-4460",
+     "amd-fx-4300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1650 Super",
+     "AMD Radeon RX 5300"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-super",
+     "amd-radeon-rx-5300"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i5-4460 / AMD FX-4300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1650 Super or AMD Radeon RX 5300",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "DirectX-compatible",
+    "additional notes": "Internet connection and DirectX 12 compatible PC required."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700"
+    ],
+    "ids": [
+     "intel-core-i7-6700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2060",
+     "AMD Radeon RX 5600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-5600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Intel Core i7-6700 or AMD equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2060 or AMD Radeon RX 5600 XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "sound card": "DirectX-compatible",
+    "additional notes": "Internet connection and DirectX 12 compatible PC required."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "arma-reforger"
+ }
+}

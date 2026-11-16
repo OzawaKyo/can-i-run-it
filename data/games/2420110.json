@@ -1,0 +1,87 @@
+{
+ "id": "2420110",
+ "appid": 2420110,
+ "name": "Horizon Forbidden West™ Complete Edition",
+ "slug": "horizon-forbidden-west-complete-edition",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/header.jpg?t=1789585745",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-8100",
+     "AMD Ryzen 3 1300X"
+    ],
+    "ids": [
+     "intel-core-i3-8100",
+     "amd-ryzen-3-1300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1650 4GB",
+     "AMD Radeon RX 5500XT 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-5500-xt-4gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "storage": {
+    "gb": 150,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (version 1909 or higher)",
+    "processor": "Intel Core i3-8100 or AMD Ryzen 3 1300X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1650 4GB or AMD Radeon RX 5500XT 4GB",
+    "storage": "150 GB available space",
+    "additional notes": "150GB SSD Space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8600",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i5-8600",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 3060",
+     "AMD Radeon RX 5700"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb",
+     "amd-radeon-rx-5700"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 150,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (version 1909 or higher)",
+    "processor": "Intel Core i5-8600 or AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 3060 or AMD Radeon RX 5700",
+    "storage": "150 GB available space",
+    "additional notes": "150GB SSD Space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

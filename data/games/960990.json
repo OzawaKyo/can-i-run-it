@@ -1,0 +1,89 @@
+{
+ "id": "960990",
+ "appid": 960990,
+ "name": "Beyond: Two Souls",
+ "slug": "beyond-two-souls",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960990/header.jpg?t=1667468566",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4430 @ 3.0 GHz",
+     "AMD FX-6300 @ 3.5 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-4430",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 660 with VRAM 2GB",
+     "AMD Radeon HD 7870 with VRAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 49,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later (64 bit)",
+    "processor": "Intel Core i5-4430 @ 3.0 GHz or AMD FX-6300 @ 3.5 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 660 with 2GB VRAM or AMD Radeon HD 7870 with 2GB VRAM",
+    "directx": "Version 11",
+    "storage": "49 GB available space",
+    "additional notes": "720p, 30 FPS"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600K @ 3.5GHz",
+     "AMD Ryzen 3 1300X @ 3.4GHz"
+    ],
+    "ids": [
+     "intel-core-i5-6600k",
+     "amd-ryzen-3-1300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 970 with VRAM 4GB",
+     "AMD Radeon R9 390 with VRAM 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-390"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 49,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later (64 bit)",
+    "processor": "Intel Core i5-6600K @ 3.5GHz or AMD Ryzen 3 1300X @ 3.4GHz",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 970 with 4GB VRAM or AMD Radeon R9 390 with 4GB VRAM",
+    "directx": "Version 11",
+    "storage": "49 GB available space",
+    "additional notes": "1080p, 60 FPS"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

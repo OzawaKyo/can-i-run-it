@@ -1,0 +1,106 @@
+{
+ "id": "283640",
+ "appid": 283640,
+ "name": "Salt and Sanctuary",
+ "slug": "salt-and-sanctuary",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/283640/header.jpg?t=1729712419",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 10 compatible video card with shader model 3.0 support"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista",
+    "processor": "Intel Core 2 Duo 2.8 GHz or equivalent",
+    "memory": "1 GB RAM",
+    "graphics": "DirectX 10 compatible video card with shader model 3.0 support",
+    "directx": "Version 10",
+    "storage": "2 GB available space",
+    "sound card": "100% DirectX 9.0c compatible sound card and drivers",
+    "additional notes": "Xbox360 Gamepad recommended"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo",
+     "AMD Athlon 64 X2 5600+"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 9600GT",
+     "ATI Radeon HD 5000+"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "amd-radeon-hd-5450-512mb",
+     "amd-radeon-hd-5450-1gb",
+     "amd-radeon-hd-5450-2gb",
+     "amd-radeon-hd-5550-512mb",
+     "amd-radeon-hd-5550-1gb",
+     "amd-radeon-hd-5550-2gb",
+     "amd-radeon-hd-5570-512mb",
+     "amd-radeon-hd-5570-1gb",
+     "amd-radeon-hd-5570-2gb",
+     "amd-radeon-hd-5610",
+     "amd-radeon-hd-5670-512mb",
+     "amd-radeon-hd-5670-1gb",
+     "amd-radeon-hd-5670-2gb",
+     "amd-radeon-hd-5750-512mb",
+     "amd-radeon-hd-5750-1gb",
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb",
+     "amd-radeon-hd-5830",
+     "amd-radeon-hd-5850-1gb",
+     "amd-radeon-hd-5850-2gb",
+     "amd-radeon-hd-5870-1gb",
+     "amd-radeon-hd-5870-2gb",
+     "amd-radeon-hd-5870-eyefinity-edition",
+     "amd-radeon-hd-5970"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8",
+    "processor": "Intel Core 2 Duo or AMD Athlon 64 X2 5600+",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA 9600GT or ATI Radeon HD 5000+ or better",
+    "directx": "Version 10",
+    "storage": "2 GB available space",
+    "sound card": "100% DirectX 9.0c compatible sound card and drivers",
+    "additional notes": "Xbox360 Gamepad recommended"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

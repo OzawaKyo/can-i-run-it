@@ -1,0 +1,75 @@
+{
+ "id": "503560",
+ "appid": 503560,
+ "name": "911 Operator",
+ "slug": "911-operator",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/503560/2e5e6b78b36586e2a8fc7e0fa3bf80dc5a94a6fb/header.jpg?t=1794824168",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "512 Mb"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "vramGb": 0.5,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "2 GHz",
+    "memory": "1024 MB RAM",
+    "graphics": "512 Mb",
+    "storage": "500 MB available space",
+    "sound card": "Neccessary",
+    "additional notes": "This game is simple :)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "1024 Mb"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / 8 / 10",
+    "processor": "3 GHz",
+    "memory": "2048 MB RAM",
+    "graphics": "1024 Mb",
+    "storage": "1 GB available space",
+    "sound card": "Neccessary"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

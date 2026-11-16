@@ -1,0 +1,88 @@
+{
+ "id": "969990",
+ "appid": 969990,
+ "name": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+ "slug": "spongebob-squarepants-battle-for-bikini-bottom-rehydrated",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/969990/header.jpg?t=1754079607",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD",
+     "Intel CPU running at 2.8 GHz (AMD Phenom II X4 925 or Intel i3-4130 are recommended)"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "AMD/NVIDIA graphic card",
+     "with at least of dedicated VRAM and with at least DirectX 11 and Shader Model 5.1 support: AMD Radeon HD 7870 2GB",
+     "NVIDIA GeForce GTX 760 is recommended."
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64bit)",
+    "processor": "AMD / Intel CPU running at 2.8 GHz or higher (AMD Phenom II X4 925 or Intel i3-4130 or newer are recommended)",
+    "memory": "4 GB RAM",
+    "graphics": "AMD/NVIDIA graphic card, with at least 2GB of dedicated VRAM and with at least DirectX 11 and Shader Model 5.1 support: AMD Radeon HD 7870 or NVIDIA GeForce GTX 760 or newer is recommended.",
+    "directx": "Version 11",
+    "storage": "8 GB available space",
+    "sound card": "Integrated or dedicated DirectX 9 compatible soundcard",
+    "additional notes": "Requires a 64-bit processor and operating system, Windows 7 and 8.1 are supported but some AMD Graphics Cards might show weaker performance on these OS versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD",
+     "Intel processor running at 3.5 GHz (AMD FX-6300 series or Intel Core i3-8100 is recommended)."
+    ],
+    "ids": [],
+    "estimatedScore": 36
+   },
+   "gpu": {
+    "raw": [
+     "AMD/NVIDIA dedicated graphic card",
+     "with at least of dedicated VRAM (or more) and with at least DirectX 11 and Shader Model 5.1 support: NVIDIA GeForce GTX 1050 Ti 4GB",
+     "AMD Radeon R9"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64bit)",
+    "processor": "AMD / Intel processor running at 3.5 GHz or higher (AMD FX-6300 series or Intel Core i3-8100 or newer is recommended).",
+    "memory": "8 GB RAM",
+    "graphics": "AMD/NVIDIA dedicated graphic card, with at least 4GB of dedicated VRAM (or more) and with at least DirectX 11 and Shader Model 5.1 support: NVIDIA GeForce GTX 1050 Ti or AMD Radeon R9",
+    "directx": "Version 11",
+    "storage": "8 GB available space",
+    "sound card": "Integrated or dedicated DirectX 9 compatible soundcard",
+    "additional notes": "Requires a 64-bit processor and operating system, Windows 7 and 8.1 are supported but some AMD Graphics Cards might show weaker performance on these OS versions."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

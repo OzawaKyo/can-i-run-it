@@ -1,0 +1,45 @@
+{
+ "id": "367450",
+ "appid": 367450,
+ "name": "Poly Bridge",
+ "slug": "poly-bridge",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367450/header.jpg?t=1793309705",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "512Mb"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 0.146484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "1GHz",
+    "memory": "2 GB RAM",
+    "graphics": "512Mb",
+    "directx": "Version 9.0",
+    "storage": "150 MB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

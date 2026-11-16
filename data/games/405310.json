@@ -1,0 +1,88 @@
+{
+ "id": "405310",
+ "appid": 405310,
+ "name": "LEGO® MARVEL's Avengers",
+ "slug": "lego-marvel-s-avengers",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/405310/header.jpg?t=1780599434",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad Q6600 (2.4 GHz)",
+     "AMD Phenom x4 9850 (2.5 GHz)"
+    ],
+    "ids": [
+     "intel-core-2-quad-q6600",
+     "amd-phenom-x4-9850"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 430 (1024 MB)/ Radeon HD 6850 (1024 MB)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7/8/10",
+    "processor": "Intel Core 2 Quad Q6600 (2.4 GHz) / AMD Phenom x4 9850 (2.5 GHz)",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GT 430 (1024 MB)/ Radeon HD 6850 (1024 MB)",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "14 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "Windows XP and DirectX 9.0b and below not supported"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5",
+     "4 x 2.6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 27
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 480",
+     "ATI Radeon HD 5850 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-480",
+     "amd-radeon-hd-5850-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 14,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/7/8/10",
+    "processor": "Intel i5, 4 x 2.6 GHz or AMD equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 480 or ATI Radeon HD 5850 or better, 1Gb RAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "14 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "Windows XP and DirectX 9.0b and below not supported"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "fall-guys",
+ "name": "Fall Guys",
+ "slug": "fall-guys",
+ "source": "pcgamingwiki",
+ "officialUrl": "https://fallguys.com/",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ar3zt7.jpg",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 or AMD equivalent"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 660",
+     "AMD Radeon HD 7950"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7950"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "Intel Core i5 or AMD equivalent",
+    "graphics": "NVIDIA GTX 660 / AMD Radeon HD 7950",
+    "memory": "8 GB",
+    "storage": "4 GB"
+   }
+  }
+ }
+}

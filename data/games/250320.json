@@ -1,0 +1,78 @@
+{
+ "id": "250320",
+ "appid": 250320,
+ "name": "The Wolf Among Us",
+ "slug": "the-wolf-among-us",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250320/header.jpg?t=1734104991",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo 2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "ATI",
+     "NVidia card w/ 512 MB RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 3,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP Service Pack 3",
+    "processor": "Core 2 Duo 2GHz or equivalent",
+    "memory": "3 GB RAM",
+    "graphics": "ATI or NVidia card w/ 512 MB RAM",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "sound card": "Direct X 9.0c sound device",
+    "additional notes": "Not recommended for Intel integrated graphics"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core 2 Duo 2.3 Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "ATI",
+     "NVidia card w/ 1024 MB RAM"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Core 2 Duo 2.3 Ghz or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "ATI or NVidia card w/ 1024 MB RAM",
+    "directx": "Version 9.0c",
+    "storage": "2 GB available space",
+    "sound card": "Direct X 9.0c sound device",
+    "additional notes": "Not recommended for Intel integrated graphics"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

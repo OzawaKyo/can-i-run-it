@@ -1,0 +1,98 @@
+{
+ "id": "329050",
+ "appid": 329050,
+ "name": "Devil May Cry 4 Special Edition",
+ "slug": "devil-may-cry-4-special-edition",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/329050/header.jpg?t=1785808952",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) 2 Duo 2.4GHz",
+     "AMD Athlon(TM) X2 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA(R) GeForce(R) 8800 GTS",
+     "AMD Radeon(TM) HD 3850 with 512MB RAM"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 10,
+   "storage": {
+    "gb": 27,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8.1",
+    "processor": "Intel(R) Core(TM) 2 Duo 2.4GHz, AMD Athlon(TM) X2 2.8 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA(R) GeForce(R) 8800 GTS, AMD Radeon(TM) HD 3850 with 512MB RAM or better",
+    "directx": "Version 10",
+    "storage": "27 GB available space",
+    "sound card": "DirectSound Support (DirectX 9.0c)",
+    "additional notes": "Some high end integrated graphics and modern gaming laptops with a discrete GPU may work but have not been tested, nor are they officially supported by Capcom."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i3 3.0GHz",
+     "AMD FX-4100 3.6 GHz",
+     "Intel(R) Core(TM) i3-8350K",
+     "AMD Ryzen 7 2700"
+    ],
+    "ids": [
+     "amd-fx-4100",
+     "intel-core-i3-8350k",
+     "amd-ryzen-7-2700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA(R) GeForce(R) GTX 570",
+     "AMD Radeon(TM) HD 7790",
+     "NVIDIA GeForce RTX 4060 Ti",
+     "Radeon RX Vega"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-570",
+     "amd-radeon-hd-7790-1gb",
+     "amd-radeon-hd-7790-2gb",
+     "nvidia-geforce-rtx-4060-ti",
+     "nvidia-geforce-rtx-4060-ti-16-gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 12,
+   "storage": {
+    "gb": 27,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8.1 / Windows 11",
+    "processor": "Intel(R) Core(TM) i3 3.0GHz, AMD FX-4100 3.6 GHz / Intel(R) Core(TM) i3-8350K, AMD Ryzen 7 2700",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA(R) GeForce(R) GTX 570, AMD Radeon(TM) HD 7790 / NVIDIA GeForce RTX 4060 Ti, Radeon RX Vega",
+    "directx": "Version 12",
+    "storage": "27 GB available space",
+    "sound card": "DirectSound Support (DirectX 9.0c)",
+    "additional notes": "Some high end integrated graphics and modern gaming laptops with a discrete GPU may work but have not been tested, nor are they officially supported by Capcom."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

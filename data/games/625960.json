@@ -1,0 +1,82 @@
+{
+ "id": "625960",
+ "appid": 625960,
+ "name": "Stoneshard",
+ "slug": "stoneshard",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/625960/25aa7037cf8dd1df245fa189b69b03eaed5fd135/header.jpg?t=1792896887",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3 5050U"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT 430"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-430-gf108-300",
+     "nvidia-geforce-gt-430-gf108-300-2",
+     "nvidia-geforce-gt-430-512mb",
+     "nvidia-geforce-gt-430-1gb-gf108-300",
+     "nvidia-geforce-gt-430-1gb-gf108-300-2",
+     "nvidia-geforce-gt-430-2gb",
+     "nvidia-geforce-gt-430-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11 64bit",
+    "processor": "Intel i3 5050U or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GT 430 or equivalent",
+    "directx": "Version 11",
+    "storage": "1 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 3150"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11 64bit",
+    "processor": "Intel i5 3150 or equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 660 or equivalent",
+    "directx": "Version 11",
+    "storage": "1 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

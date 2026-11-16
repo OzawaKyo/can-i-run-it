@@ -4,8 +4,8 @@
  "name": "EVE Online",
  "slug": "eve-online",
  "source": "steam",
- "updatedAt": "2026-11-09",
- "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8500/fed1ea9b01dd6564101518a5201740fb44929fb4/header.jpg?t=1793370178",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8500/a898cdc9111c7861b707da6d14f974a45dd22eb4/header_alt_assets_21.jpg?t=1794316532",
  "requirements": {
   "minimum": {
    "cpu": {

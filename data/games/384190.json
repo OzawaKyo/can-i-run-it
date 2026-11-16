@@ -1,0 +1,85 @@
+{
+ "id": "384190",
+ "appid": 384190,
+ "name": "ABZU",
+ "slug": "abzu",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/384190/header.jpg?t=1786125758",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "3.0GHz CPU Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GTX 750",
+     "Radeon R7 260X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-gm107-300",
+     "nvidia-geforce-gtx-750-gm206",
+     "amd-radeon-r7-260x-1gb",
+     "amd-radeon-r7-260x-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 64-bit",
+    "processor": "3.0GHz CPU Dual Core",
+    "memory": "4 GB RAM",
+    "graphics": "Geforce GTX 750 / Radeon R7 260X",
+    "directx": "Version 11",
+    "storage": "6 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4GHz CPU Quad Core"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GTX 780",
+     "Radeon R9 290X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-780",
+     "amd-radeon-r9-290x-4gb",
+     "amd-radeon-r9-290x-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 64-bit",
+    "processor": "2.4GHz CPU Quad Core",
+    "memory": "8 GB RAM",
+    "graphics": "Geforce GTX 780 / Radeon R9 290X",
+    "directx": "Version 11",
+    "storage": "6 GB available space",
+    "sound card": "DirectX compatible sound card"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

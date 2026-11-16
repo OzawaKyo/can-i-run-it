@@ -1,0 +1,87 @@
+{
+ "id": "1338770",
+ "appid": 1338770,
+ "name": "Sniper Ghost Warrior Contracts 2",
+ "slug": "sniper-ghost-warrior-contracts-2",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1338770/header.jpg?t=1747413239",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 7600",
+     "AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-7600",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce 970",
+     "Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Operating system: Windows 8.1 / 10 (64-bit)",
+    "processor": "Intel Core i5 7600 / AMD Ryzen 5 1600",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia Geforce 970 / Radeon RX 580",
+    "directx": "Version 11",
+    "storage": "20 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 7700",
+     "AMD Ryzen 7 1700"
+    ],
+    "ids": [
+     "intel-core-i7-7700",
+     "amd-ryzen-7-1700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1070",
+     "AMD Radeon 5600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Operating system: Windows 8.1 / 10 (64-bit)",
+    "processor": "Intel Core i7 7700 / AMD Ryzen 7 1700",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon 5600 XT",
+    "directx": "Version 11",
+    "storage": "20 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

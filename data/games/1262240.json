@@ -1,0 +1,84 @@
+{
+ "id": "1262240",
+ "appid": 1262240,
+ "name": "Plants vs. Zombies: Battle for Neighborville™",
+ "slug": "plants-vs-zombies-battle-for-neighborville",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262240/header.jpg?t=1779987594",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD: FX-4350/ Intel: i3-3220"
+    ],
+    "ids": [
+     "amd-fx-4350",
+     "intel-core-i3-3220"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD: Radeon HD 7730/ NVIDIA: GeForce GT 640"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "AMD: FX-4350 or Equivalent/ Intel: i3-3220 or Equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "AMD: Radeon HD 7730 or Equivalent/ NVIDIA: GeForce GT 640 or Equivalent",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD: FX-6100/ Intel: i5-3570"
+    ],
+    "ids": [
+     "amd-fx-6100",
+     "intel-core-i5-3570"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD: Radeon R9 285/ NVIDIA: GeForce GTX 970"
+    ],
+    "ids": [
+     "amd-radeon-r9-285",
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10",
+    "processor": "AMD: FX-6100 or Equivalent/ Intel: i5-3570 or Equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "AMD: Radeon R9 285 or Equivalent/ NVIDIA: GeForce GTX 970 or Equivalent",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "denied",
+  "antiCheatSlug": "plants-vs-zombies-battle-for-neighborville"
+ }
+}

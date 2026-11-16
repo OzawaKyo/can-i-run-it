@@ -1,0 +1,92 @@
+{
+ "id": "1681430",
+ "appid": 1681430,
+ "name": "RoboCop: Rogue City",
+ "slug": "robocop-rogue-city",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1681430/header.jpg?t=1778174302",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4790",
+     "Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i7-4790",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel Arc A380",
+     "NVIDIA GeForce GTX 1650 4GB",
+     "AMD Radeon RX 480 4GB"
+    ],
+    "ids": [
+     "intel-arc-a380",
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-480-4gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "storage": {
+    "gb": 51,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-4790 or Ryzen 5 2600",
+    "memory": "16 GB RAM",
+    "graphics": "Intel Arc A380 or NVIDIA GeForce GTX 1650, 4 GB or AMD Radeon RX 480, 4 GB",
+    "storage": "51 GB available space",
+    "additional notes": "Requires a 64-bit processor and operating system"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-10700K",
+     "AMD Ryzen 7 3800XT"
+    ],
+    "ids": [
+     "intel-core-i7-10700k",
+     "amd-ryzen-7-3800xt"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel Arc A770",
+     "NVIDIA GeForce RTX 3070 8GB",
+     "AMD Radeon RX 6800 16GB"
+    ],
+    "ids": [
+     "intel-arc-a770-8gb",
+     "intel-arc-a770-16gb",
+     "nvidia-geforce-rtx-3070",
+     "amd-radeon-rx-6800"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "storage": {
+    "gb": 51,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-10700K or AMD Ryzen 7 3800XT",
+    "memory": "16 GB RAM",
+    "graphics": "Intel Arc A770 or NVIDIA GeForce RTX 3070, 8 GB or AMD Radeon RX 6800, 16 GB",
+    "storage": "51 GB available space",
+    "additional notes": "Requires a 64-bit processor and operating system"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "1336490",
+ "appid": 1336490,
+ "name": "Against the Storm",
+ "slug": "against-the-storm",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1336490/4df5edc84dea5dae1269f3f95c2bd2cf22333af6/header.jpg?t=1793269511",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-530 (dual-core)",
+     "AMD Phenom II X4 965 (quad-core)"
+    ],
+    "ids": [
+     "intel-core-i3-530",
+     "amd-phenom-ii-x4-965-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTS 450 () 1GB",
+     "AMD Radeon HD 7750 () 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-7750-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i3-530 (dual-core) / AMD Phenom II X4 965 (quad-core)",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTS 450 (1 GB) / AMD Radeon HD 7750 (1 GB)",
+    "directx": "Version 10",
+    "storage": "5 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K (quad-core)",
+     "AMD FX-Series FX-8320 (quad-core)"
+    ],
+    "ids": [
+     "intel-core-i5-2500k",
+     "amd-fx-8320"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970 () 4GB",
+     "AMD Radeon R9 290X () 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290x-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel Core i5-2500K (quad-core) / AMD FX-Series FX-8320 (quad-core)",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 (4 GB) / AMD Radeon R9 290X (4 GB)",
+    "directx": "Version 12",
+    "storage": "5 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

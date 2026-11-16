@@ -1,0 +1,49 @@
+{
+ "id": "422100",
+ "appid": 422100,
+ "name": "Heaven Island Life",
+ "slug": "heaven-island-life",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/422100/header.jpg?t=1685723687",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "CPU: Intel i5-4590",
+     "AMD FX 8350 equivalent"
+    ],
+    "ids": [
+     "intel-core-i5-4590",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 970",
+     "AMD Radeon R9 290 equivalent"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 0.390625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1, Windows 8.1 or later, Windows 10",
+    "processor": "CPU: Intel i5-4590, AMD FX 8350 equivalent or better",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 970, AMD Radeon R9 290 equivalent or better",
+    "storage": "400 MB available space",
+    "additional notes": "Vive ONLY!"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "borked"
+ }
+}

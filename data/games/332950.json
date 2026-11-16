@@ -1,0 +1,82 @@
+{
+ "id": "332950",
+ "appid": 332950,
+ "name": "Dark Deception",
+ "slug": "dark-deception",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332950/header.jpg?t=1693784243",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4330/AMD FX-6300"
+    ],
+    "ids": [
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060/ AMD Radeon R7 370 2GB 3GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 16,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit, Windows 8.1, Windows 10",
+    "processor": "Intel Core i5-4330/AMD FX-6300",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 3GB/ AMD Radeon R7 370 2GB",
+    "directx": "Version 11",
+    "storage": "1 GB available space",
+    "additional notes": "60fps low settings at 1080p"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Corei5-6600K/ AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-6600k",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 2070/ AMD Radeon RX 5700 XT 8GB 8GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7, Windows 8.1, or Windows 10",
+    "processor": "Intel Corei5-6600K/ AMD Ryzen 5 1600",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GeForce GTX 2070 8GB/ AMD Radeon RX 5700 XT 8GB",
+    "directx": "Version 11",
+    "storage": "1 GB available space",
+    "additional notes": "60fps high settings at 1080p"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

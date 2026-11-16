@@ -1,0 +1,54 @@
+{
+ "id": "953490",
+ "appid": 953490,
+ "name": "CARRION",
+ "slug": "carrion",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/953490/header.jpg?t=1760015957",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 core processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "compatible with OpenGL 3.0"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1",
+    "processor": "2 core processor",
+    "memory": "1024 MB RAM",
+    "graphics": "compatible with OpenGL 3.0",
+    "storage": "500 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

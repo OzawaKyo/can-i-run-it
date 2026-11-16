@@ -1,0 +1,87 @@
+{
+ "id": "2051620",
+ "appid": 2051620,
+ "name": "Enlisted",
+ "slug": "enlisted",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2051620/e457983f97e463dc065ecedbd00c8e306f4e4abc/header.jpg?t=1793693220",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 660",
+     "AMD Radeon series 78XX"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 49,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64bit",
+    "processor": "Intel Core i3 or better",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 660 or better, AMD Radeon series 78XX or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "49 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-10400",
+     "Ryzen 5 3600 and better"
+    ],
+    "ids": [
+     "intel-core-i5-10400",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1080",
+     "AMD Radeon RX 5700 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410",
+     "amd-radeon-rx-5700-xt"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 49,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64bit",
+    "processor": "Intel Core i5-10400 or Ryzen 5 3600 and better",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1080 or better, AMD Radeon RX 5700 XT or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "49 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true,
+  "antiCheat": "supported",
+  "antiCheatSlug": "enlisted-reinforced"
+ }
+}

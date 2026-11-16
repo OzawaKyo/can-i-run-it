@@ -1,0 +1,47 @@
+{
+ "id": "536220",
+ "appid": 536220,
+ "name": "The Walking Dead: A New Frontier",
+ "slug": "the-walking-dead-a-new-frontier",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/536220/header.jpg?t=1729702791",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTS 450+ with 1024MB+ VRAM (excluding GT)"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64Bit Service Pack 1 or higher",
+    "processor": "Intel Core 2 Duo 2.4GHz",
+    "memory": "3 GB RAM",
+    "graphics": "Nvidia GTS 450+ with 1024MB+ VRAM (excluding GT)",
+    "directx": "Version 11",
+    "storage": "8 GB available space",
+    "sound card": "Direct X 11 sound device",
+    "additional notes": "Not supported on Intel integrated graphics"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

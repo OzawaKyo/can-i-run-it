@@ -1,0 +1,47 @@
+{
+ "id": "12150",
+ "appid": 12150,
+ "name": "Max Payne 2: The Fall of Max Payne",
+ "slug": "max-payne-2-the-fall-of-max-payne",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12150/header.jpg?t=1709651720",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1Ghz PIII/Athlon",
+     "1.2Ghz Celeron/Duron processor"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "32MB AGP graphics card with hardware transform & lighting support"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.25,
+   "vramGb": 0.03125,
+   "storage": {
+    "gb": 1.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 2000/XP",
+    "processor": "1Ghz PIII/Athlon or 1.2Ghz Celeron/Duron processor",
+    "memory": "256MB RAM",
+    "graphics": "32MB AGP graphics card with hardware transform & lighting support",
+    "directx version": "DirectX 9.0",
+    "storage": "1.5 GB hard drive space",
+    "sound card": "DirectSound compatible sound card",
+    "input": "Keyboard and mouse"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

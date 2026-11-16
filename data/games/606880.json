@@ -1,0 +1,83 @@
+{
+ "id": "606880",
+ "appid": 606880,
+ "name": "GreedFall",
+ "slug": "greedfall",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606880/header.jpg?t=1786381206",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3450 (3.1 GHz)",
+     "AMD FX-6300 X6 (3.5 GHz)"
+    ],
+    "ids": [
+     "intel-core-i5-3450",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 660/Radeon HD 7870"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 (64 bits)",
+    "processor": "Intel Core i5-3450 (3.1 GHz) / AMD FX-6300 X6 (3.5 GHz)",
+    "memory": "8 GB RAM",
+    "graphics": "2 GB, GeForce GTX 660/Radeon HD 7870",
+    "storage": "25 GB available space",
+    "additional notes": "INTERNET CONNECTION REQUIRED FOR GAME ACTIVATION"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4690 (3.5 GHz)/AMD FX-8300 (3.3 GHz)"
+    ],
+    "ids": [
+     "intel-core-i5-4690",
+     "amd-fx-8300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 980",
+     "Radeon RX 590"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-980",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 (64 bits)",
+    "processor": "Intel Core i5-4690 (3.5 GHz)/AMD FX-8300 (3.3 GHz)",
+    "memory": "16 GB RAM",
+    "graphics": "4 GB, GeForce GTX 980 / Radeon RX 590",
+    "storage": "25 GB available space",
+    "additional notes": "INTERNET CONNECTION REQUIRED FOR GAME ACTIVATION"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

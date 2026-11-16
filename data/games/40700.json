@@ -1,0 +1,38 @@
+{
+ "id": "40700",
+ "appid": 40700,
+ "name": "Machinarium",
+ "slug": "machinarium",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40700/header.jpg?t=1791501193",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.8 Ghz Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP/Vista/7/8/10",
+    "processor": "1.8 Ghz Processor",
+    "memory": "1GB Ram",
+    "storage": "1GB Free space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

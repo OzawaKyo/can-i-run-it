@@ -1,0 +1,63 @@
+{
+ "id": "1669980",
+ "appid": 1669980,
+ "name": "Volcano Princess",
+ "slug": "volcano-princess",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669980/header.jpg?t=1793357371",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.7 GHz Dual Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 20
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon RX 460"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 version 1607 or higher",
+    "processor": "1.7 GHz Dual Core CPU",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon RX 460 or higher",
+    "directx": "Version 11",
+    "storage": "5 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "raw": {
+    "os": "Windows 10 LTSC 2021 or higher",
+    "memory": "8 GB RAM"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "867210",
+ "appid": 867210,
+ "name": "Songs of Conquest",
+ "slug": "songs-of-conquest",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/867210/1b5b1025d51c42b6d4bb955737068e513b45382d/header.jpg?t=1793993483",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i5 Dual Core",
+     "Ryzen 5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Integrated graphics card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "i5 Dual Core or Ryzen 5",
+    "memory": "8 GB RAM",
+    "graphics": "Integrated graphics card",
+    "directx": "Version 10",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GTX 970",
+     "RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "raw": {
+    "graphics": "GTX 970, RX 570 or similar"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "id": "233270",
+ "appid": 233270,
+ "name": "Far Cry 3 - Blood Dragon",
+ "slug": "far-cry-3-blood-dragon",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233270/header.jpg?t=1793371876",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.66 GHz Intel Core2 Duo E6700",
+     "3.00 GHz AMD Athlon 64 X2 6000+"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "512 MB DirectX 9.0c–compliant"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (SP3) / Windows Vista (SP2) / Windows 10 (64-bit versions only)",
+    "processor": "2.66 GHz Intel Core2 Duo E6700 or 3.00 GHz AMD Athlon 64 X2 6000+",
+    "memory": "2 GB",
+    "graphics": "512 MB DirectX 9.0c–compliant",
+    "directx": "DirectX 9.0c",
+    "storage": "3 GB HD space",
+    "sound": "DirectX 9.0c–compliant",
+    "perpherals support": "Windows-compatible keyboard, mouse, optional controller"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.93 GHz Intel Core i3-530",
+     "3.10 GHz AMD Phenom II X2 550"
+    ],
+    "ids": [
+     "intel-core-i3-530",
+     "amd-phenom-ii-x2-550"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "1024 MB DirectX 11–complaint"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (SP3) / Windows Vista (SP2) / Windows 10 (64-bit versions only)",
+    "processor": "2.93 GHz Intel Core i3-530 or 3.10 GHz AMD Phenom II X2 550 or better",
+    "memory": "4 GB",
+    "graphics": "1024 MB DirectX 11–complaint or higher",
+    "directx": "DirectX 11",
+    "storage": "3 GB HD space",
+    "sound": "5.1 surround sound",
+    "perpherals support": "Windows-compatible keyboard, mouse, Xbox 360 Controller for Windows"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

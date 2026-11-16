@@ -1,0 +1,88 @@
+{
+ "id": "573090",
+ "appid": 573090,
+ "name": "Stormworks: Build and Rescue",
+ "slug": "stormworks-build-and-rescue",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/573090/header.jpg?t=1772367420",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4440",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-core-i5-4440",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD 6000",
+     "GeForce 550",
+     "AMD R7 250 (AMD Radeon HD 7750)"
+    ],
+    "ids": [
+     "intel-hd-graphics-6000",
+     "amd-radeon-r7-250-1gb",
+     "amd-radeon-r7-250-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / 8 / 10",
+    "processor": "Intel Core i5-4440 / AMD Ryzen 3 1200",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD 6000 / GeForce 550 / AMD R7 250 (AMD Radeon HD 7750)",
+    "network": "Broadband Internet connection",
+    "storage": "2 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700K",
+     "Ryzen 7 3700X"
+    ],
+    "ids": [
+     "intel-core-i7-6700k",
+     "amd-ryzen-7-3700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce 750 Ti",
+     "AMD RX 550"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 / 8 / 10",
+    "processor": "Intel Core i7-6700K / Ryzen 7 3700X",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce 750 Ti / AMD RX 550",
+    "network": "Broadband Internet connection",
+    "storage": "2 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

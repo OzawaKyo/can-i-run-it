@@ -1,0 +1,89 @@
+{
+ "id": "320300",
+ "appid": 320300,
+ "name": "Car Mechanic Simulator 2015",
+ "slug": "car-mechanic-simulator-2015",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/320300/header.jpg?t=1791191750",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i3 3.1 GHz",
+     "AMD Phenom II X3 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 560",
+     "Radeon HD6870 with VRAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-6870-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 / Vista / 7 / 8",
+    "processor": "Core i3 3.1 GHz or AMD Phenom II X3 2.8 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "GeForce GTX 560 or Radeon HD6870 with 2GB VRAM",
+    "directx": "Version 9.0c",
+    "storage": "8 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Core i5-2300",
+     "AMD Athlon X4 760K"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-athlon-x4-760k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 670",
+     "Radeon HD7970 with VRAM 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-670",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 / Vista / 7 / 8",
+    "processor": "Core i5-2300 / AMD Athlon X4 760K or better",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 670 or Radeon HD7970 with 2 GB VRAM",
+    "directx": "Version 9.0c",
+    "storage": "8 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

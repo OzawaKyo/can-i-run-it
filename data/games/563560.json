@@ -1,0 +1,48 @@
+{
+ "id": "563560",
+ "appid": 563560,
+ "name": "Alien Swarm: Reactive Drop",
+ "slug": "alien-swarm-reactive-drop",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/563560/header.jpg?t=1784424220",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 4"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9 compatible video card with 128 MB",
+     "Shader model 2.0b. ATI X800",
+     "NVidia 6600"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP or above",
+    "processor": "Pentium 4 or newer",
+    "memory": "2 GB RAM",
+    "graphics": "DirectX 9 compatible video card with 128 MB, Shader model 2.0b. ATI X800, NVidia 6600 or better",
+    "directx": "Version 9.0b",
+    "storage": "7 GB available space",
+    "sound card": "DirectX 9.0c compatible sound card",
+    "additional notes": "Disk space requirement depends on installed Workshop addons."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

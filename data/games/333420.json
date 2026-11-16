@@ -1,0 +1,102 @@
+{
+ "id": "333420",
+ "appid": 333420,
+ "name": "Cossacks 3",
+ "slug": "cossacks-3",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333420/header.jpg?t=1678808308",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E8400 3.0GHz",
+     "Core i3 1.6GHz",
+     "AMD Athlon II X2 280"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 9600 GT",
+     "Radeon HD 4830",
+     "Intel HD5000"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "amd-radeon-hd-4830-512mb",
+     "amd-radeon-hd-4830-1gb",
+     "intel-hd-graphics-5000"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/7/8/10",
+    "processor": "Intel Core 2 Duo E8400 3.0GHz / Core i3 1.6GHz / AMD Athlon II X2 280",
+    "memory": "3 GB RAM",
+    "graphics": "nVidia GeForce 9600 GT / Radeon HD 4830 / Intel HD5000",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "6 GB available space",
+    "additional notes": "Screen Resolution - 1280x768"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3470",
+     "3.20GHz",
+     "AMD FX-6300",
+     "3.5Ghz"
+    ],
+    "ids": [
+     "intel-core-i5-3470",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 560",
+     "ATI Radeon HD 7900 Series"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "amd-radeon-hd-7950",
+     "amd-radeon-hd-7950-boost",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb",
+     "amd-radeon-hd-7970-ghz-edition-3gb",
+     "amd-radeon-hd-7970-ghz-edition-6gb",
+     "amd-radeon-hd-7990"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/7/8/10",
+    "processor": "Intel Core i5-3470, 3.20GHz or AMD FX-6300, 3.5Ghz",
+    "memory": "6 GB RAM",
+    "graphics": "nVidia GeForce 560 / ATI Radeon HD 7900 Series",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "8 GB available space",
+    "additional notes": "Screen Resolution - 1920x1080"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

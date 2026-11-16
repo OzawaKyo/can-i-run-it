@@ -1,0 +1,83 @@
+{
+ "id": "669330",
+ "appid": 669330,
+ "name": "Mechabellum",
+ "slug": "mechabellum",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/669330/845165412668d8b6765b3fa19639ea7c5b1d892c/header_alt_assets_2.jpg?t=1794820866",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel",
+     "AMD 2 cores CPU at 2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 7730",
+     "NVIDIA GeForce GT 640"
+    ],
+    "ids": [
+     "amd-radeon-hd-7730",
+     "nvidia-geforce-gt-640"
+    ]
+   },
+   "ramGb": 6,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8 and above (64 bits)",
+    "processor": "Intel, AMD 2 cores CPU at 2Ghz",
+    "memory": "6 GB RAM",
+    "graphics": "AMD Radeon HD 7730, NVIDIA GeForce GT 640",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7- 8 Gen",
+     "AMD Ryzen 5 5600X 6 cores 3.7 GHz"
+    ],
+    "ids": [
+     "amd-ryzen-5-5600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2080",
+     "AMD Radeon RX 6700 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2080",
+     "amd-radeon-rx-6700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or higher",
+    "processor": "Intel Core i7- 8 Gen / AMD Ryzen 5 5600X 6 cores 3.7 GHz",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2080 / AMD Radeon RX 6700 XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

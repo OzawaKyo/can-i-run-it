@@ -1,0 +1,90 @@
+{
+ "id": "2141730",
+ "appid": 2141730,
+ "name": "Backrooms: Escape Together",
+ "slug": "backrooms-escape-together",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141730/header.jpg?t=1780282746",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4430"
+    ],
+    "ids": [
+     "intel-core-i5-4430"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 960 2GB",
+     "AMD Radeon R7 370 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r9-370-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit version 1909 revision .1350",
+    "processor": "Intel Core i5-4430",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
+    "directx": "Version 11",
+    "storage": "15 GB available space",
+    "additional notes": "Latest drivers for AMD and NVIDIA GPUs are required. If on AMD, you must be on the latest OPTIONAL drivers."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600K",
+     "AMD Ryzen 5 1600"
+    ],
+    "ids": [
+     "intel-core-i5-6600k",
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2070 8GB",
+     "Radeon RX 6600 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-6600-xt"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 11 (Latest Feature Update)",
+    "processor": "Intel Core i5-6600K / AMD Ryzen 5 1600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2070 8GB / Radeon RX 6600 XT",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "15 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

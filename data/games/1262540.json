@@ -1,0 +1,86 @@
+{
+ "id": "1262540",
+ "appid": 1262540,
+ "name": "Need for Speed™",
+ "slug": "need-for-speed",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262540/header.jpg?t=1777394657",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4130 with 4 hardware threads"
+    ],
+    "ids": [
+     "intel-core-i3-4130"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 750 Ti 2GB",
+     "AMD Radeon HD 7850 2GB",
+     "DX11 compatible GPU with of memory 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7 or later",
+    "processor": "Intel Core i3-4130 or equivalent with 4 hardware threads",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 750 Ti 2GB, AMD Radeon HD 7850 2GB, or equivalent DX11 compatible GPU with 2GB of memory",
+    "directx": "Version 11",
+    "storage": "30 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4690 with 4 hardware threads"
+    ],
+    "ids": [
+     "intel-core-i5-4690"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 970 4GB",
+     "AMD Radeon R9 290 4GB",
+     "DX11 compatible GPU with of memory 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 7 or later",
+    "processor": "Intel Core i5-4690 or equivalent with 4 hardware threads",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 970 4GB, AMD Radeon R9 290 4GB, or equivalent DX11 compatible GPU with 4GB of memory",
+    "directx": "Version 11",
+    "storage": "30 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "47780",
+ "appid": 47780,
+ "name": "Dead Space™ 2",
+ "slug": "dead-space-2",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47780/header.jpg?t=1782255426",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.8 GHz processor"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 6800 (7300, 7600 GS, and 8500 are below minimum system requirements)",
+     "ATI X1600 Pro (X1300, X1300 Pro and HD2400 are below minimum system requirements)",
+     "256MB Video Card and Shader Model 3.0 required"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "processor": "2.8 GHz processor or equivalent",
+    "memory": "1 GB RAM (XP), 2 GB RAM (Vista or Windows 7)",
+    "storage": "At least 10GB of hard drive space for installation, plus additional space for saved games",
+    "graphics": "NVIDIA GeForce 6800 or better (7300, 7600 GS, and 8500 are below minimum system requirements), ATI X1600 Pro or better (X1300, X1300 Pro and HD2400 are below minimum system requirements), 256MB Video Card and Shader Model 3.0 required",
+    "directx": "DirectX 9.0c"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "505460",
+ "appid": 505460,
+ "name": "Foxhole",
+ "slug": "foxhole",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/505460/3b4805691c442e4bd87a8437ee9e8e486274c29c/header_alt_assets_0.jpg?t=1793798545",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6200U",
+     "AMD Ryzen 3 3200U"
+    ],
+    "ids": [
+     "intel-core-i5-6200u",
+     "amd-ryzen-3-3200u"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX GTX 960",
+     "AMD Radeon R9 380"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r9-380",
+     "amd-radeon-r9-380-2gb",
+     "amd-radeon-r9-380-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or higher",
+    "processor": "Intel Core i5-6200U / AMD Ryzen 3 3200U or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX GTX 960 / AMD Radeon R9 380 or equivalent",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-10400",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i5-10400",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia RTX 2070",
+     "RX 5700"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-5700"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11 or higher",
+    "processor": "Intel Core i5-10400 / AMD Ryzen 5 3600 or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia RTX 2070 / RX 5700 or equivalent",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "foxhole"
+ }
+}

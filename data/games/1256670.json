@@ -1,0 +1,74 @@
+{
+ "id": "1256670",
+ "appid": 1256670,
+ "name": "Library Of Ruina",
+ "slug": "library-of-ruina",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1256670/header.jpg?t=1670980516",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 560+"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core i5",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 560+",
+    "directx": "Version 10",
+    "storage": "10 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 560+"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core i5",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GTX 560+",
+    "storage": "10 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "288470",
+ "appid": 288470,
+ "name": "Fable Anniversary",
+ "slug": "fable-anniversary",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/288470/header.jpg?t=1742377409",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel 2GHz Core2 Duo",
+     "AMD Athlon 64 x2 2.4GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Radeon X1800/ Nvidia GeForce 7600GT"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 3,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8",
+    "processor": "Intel 2GHz Core2 Duo / AMD Athlon 64 x2 2.4GHz",
+    "memory": "3 GB RAM",
+    "graphics": "Radeon X1800/ Nvidia GeForce 7600GT",
+    "directx": "Version 9.0",
+    "storage": "10 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Quad 2.33GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 30
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 260"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8 64bit",
+    "processor": "Intel Core2 Quad 2.33GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 260",
+    "directx": "Version 9.0",
+    "storage": "10 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

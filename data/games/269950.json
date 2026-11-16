@@ -1,0 +1,86 @@
+{
+ "id": "269950",
+ "appid": 269950,
+ "name": "X-Plane 11",
+ "slug": "x-plane-11",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/269950/header.jpg?t=1791020865",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3",
+     "i5",
+     "or i7 CPU with 2 cores"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11-capable video card from NVIDIA",
+     "AMD w/512 MB VRAM"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8.1, or 10, 64-bit",
+    "processor": "Intel Core i3, i5, or i7 CPU with 2 or more cores, or AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "DirectX 11-capable video card from NVIDIA or AMD w/512 MB VRAM",
+    "directx": "Version 11",
+    "storage": "20 GB available space",
+    "sound card": "Default",
+    "vr support": "SteamVR or Oculus PC",
+    "additional notes": "The disk requirements are based on how many world scenery areas are downloaded. Minimum with one scenery area is 20 GB . Additional scenery areas can be downloaded at no charge at any time after purchase"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 6600K at 3.5 ghz"
+    ],
+    "ids": [
+     "intel-core-i5-6600k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 12-capable video card from NVIDIA",
+     "AMD w/ VRAM 4GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 65,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 8.1, or 10, 64-bit",
+    "processor": "Intel Core i5 6600K at 3.5 ghz or faster",
+    "memory": "16 GB RAM",
+    "graphics": "DirectX 12-capable video card from NVIDIA or AMD w/4 GB VRAM",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "65 GB available space",
+    "sound card": "Default",
+    "additional notes": "The disk requirements are based on how many world scenery areas are downloaded. Minimum with one scenery area is 20 GB . Additional scenery areas can be downloaded at no charge at any time after purchase"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

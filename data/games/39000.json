@@ -1,0 +1,120 @@
+{
+ "id": "39000",
+ "appid": 39000,
+ "name": "Moonbase Alpha",
+ "slug": "moonbase-alpha",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39000/header.jpg?t=1447352605",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0+ GHZ Single Core Processor"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 7000-series",
+     "ATI Radeon X1900 Video Card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win XP SP3",
+    "processor": "2.0+ GHZ Single Core Processor",
+    "memory": "2 GB of System RAM",
+    "graphics": "NVIDIA 7000-series or ATI Radeon X1900 Video Card",
+    "directx": "DirectX 9.0c",
+    "storage": "2 GB of Free Hard Drive Space",
+    "sound": "DirectX 9.0c compliant audio"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.4+ GHz Dual Core Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 9000+",
+     "ATI Radeon 3600+ Video Card"
+    ],
+    "ids": [
+     "nvidia-geforce-9100",
+     "nvidia-geforce-9200-c78",
+     "nvidia-geforce-9200-c79",
+     "nvidia-geforce-9300-plus-nforce-730i",
+     "nvidia-geforce-9400-c79",
+     "nvidia-geforce-9400-c7a",
+     "nvidia-geforce-9300-se",
+     "nvidia-geforce-9300-ge",
+     "nvidia-geforce-9300-gs",
+     "nvidia-geforce-9300-gs-rev-2",
+     "nvidia-geforce-9400-gt-128mb",
+     "nvidia-geforce-9400-gt-256mb",
+     "nvidia-geforce-9400-gt-512mb",
+     "nvidia-geforce-9400-gt-pci",
+     "nvidia-geforce-9400-gt",
+     "nvidia-geforce-9400-gt-rev-2-512mb",
+     "nvidia-geforce-9400-gt-rev-2-1gb",
+     "nvidia-geforce-9400-gt-rev-3",
+     "nvidia-geforce-9500-gs",
+     "nvidia-geforce-9500-gs-rev-2",
+     "nvidia-geforce-9500-gt",
+     "nvidia-geforce-9500-gt-rev-2",
+     "nvidia-geforce-9500-gt-rev-3",
+     "nvidia-geforce-9500-gt-mac-edition",
+     "nvidia-geforce-9600-gs",
+     "nvidia-geforce-9600-gso-384mb",
+     "nvidia-geforce-9600-gso-768mb",
+     "nvidia-geforce-9600-gso-1.5gb",
+     "nvidia-geforce-9600-gso-512",
+     "nvidia-geforce-9600-gt-green-edition-512mb",
+     "nvidia-geforce-9600-gt-green-edition-1gb",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "nvidia-geforce-9600-gt-rev-2-512mb",
+     "nvidia-geforce-9600-gt-rev-2-1gb",
+     "nvidia-geforce-9600-gt-mac-edition",
+     "nvidia-geforce-9600-gtx",
+     "nvidia-geforce-9800-gt-512mb",
+     "nvidia-geforce-9800-gt-1gb",
+     "nvidia-geforce-9800-gt-rebrand",
+     "nvidia-geforce-9800-gtx",
+     "nvidia-geforce-9800-gtxplus",
+     "nvidia-geforce-9800-gx2"
+    ]
+   },
+   "directX": 9,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win XP SP3 / Vista / Windows 7",
+    "processor": "2.4+ GHz Dual Core Processor",
+    "memory": "4+ GB of System RAM",
+    "graphics": "NVIDIA 9000+ or ATI Radeon 3600+ Video Card",
+    "directx": "DirectX 9.0c",
+    "storage": "5 GB of Free Hard Drive Space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "broken",
+  "antiCheatSlug": "moonbase-alpha"
+ }
+}

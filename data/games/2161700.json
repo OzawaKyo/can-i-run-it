@@ -1,0 +1,91 @@
+{
+ "id": "2161700",
+ "appid": 2161700,
+ "name": "Persona 3 Reload",
+ "slug": "persona-3-reload",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg?t=1764776430",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2300",
+     "AMD FX-4350"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-fx-4350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 650 Ti",
+     "; AMD Radeon HD 7850 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 12,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-2300, AMD FX-4350",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 650 Ti, 2 GB; AMD Radeon HD 7850, 2 GB",
+    "directx": "Version 12",
+    "storage": "30 GB available space",
+    "additional notes": "Performance Target: 720p, low graphics settings, @ 30 FPS. Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4790",
+     "AMD Ryzen 5 1400"
+    ],
+    "ids": [
+     "intel-core-i7-4790",
+     "amd-ryzen-5-1400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1650 4GB",
+     "AMD Radeon R9 290X 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-r9-290x-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-4790, AMD Ryzen 5 1400",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1650, 4 GB, AMD Radeon R9 290X, 4 GB",
+    "directx": "Version 12",
+    "storage": "30 GB available space",
+    "additional notes": "Performance Target: 1080p, high graphics settings, @ 60 FPS. Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

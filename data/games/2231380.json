@@ -1,0 +1,97 @@
+{
+ "id": "2231380",
+ "appid": 2231380,
+ "name": "Tom Clancy's Ghost Recon® Breakpoint",
+ "slug": "tom-clancy-s-ghost-recon-breakpoint",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/3e05f31b9aa9fd29b9709f035e73761a908e9fbe/header.jpg?t=1790683796",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 1200 @3.1 GHz",
+     "Intel Core i5 4460 @ 3.2 GHz"
+    ],
+    "ids": [
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af",
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon R9 280X",
+     "NVIDIA GeForce GTX 960 ( VRAM with Shader Model 5.0) 4GB"
+    ],
+    "ids": [
+     "amd-radeon-r9-280x",
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 67,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "AMD Ryzen 3 1200 @3.1 GHz, Intel Core i5 4460 @ 3.2 GHz, or better",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon R9 280X or NVIDIA GeForce GTX 960 (4 GB VRAM with Shader Model 5.0 or better)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "67 GB available space",
+    "additional notes": "originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 1600 @3.2 GHz",
+     "Intel Core i7 6700K @4.0 GHz"
+    ],
+    "ids": [
+     "amd-ryzen-5-1600",
+     "amd-ryzen-5-1600-af",
+     "intel-core-i7-6700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 480",
+     "NVIDIA GeForce GTX 1060 ( VRAM with Shader Model 5.0) 6GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 67,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "AMD Ryzen 5 1600 @3.2 GHz, Intel Core i7 6700K @4.0 GHz, or better",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon RX 480 or NVIDIA GeForce GTX 1060 (6 GB VRAM with Shader Model 5.0 or better)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "67 GB available space",
+    "additional notes": "originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "tom-clancys-ghost-recon-breakpoint"
+ }
+}

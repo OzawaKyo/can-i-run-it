@@ -1,0 +1,92 @@
+{
+ "id": "1501750",
+ "appid": 1501750,
+ "name": "Lords of the Fallen",
+ "slug": "lords-of-the-fallen",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501750/c793d85dc133f22112c7283b79dd89e2c0aa58a4/header.jpg?t=1792592985",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "intel i5 8400",
+     "AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "6GBs VRAM",
+     "NVIDIA GTX-1060",
+     "AMD Radeon RX 590"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 12,
+   "directX": 12,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "intel i5 8400 | AMD Ryzen 5 2600",
+    "memory": "12 GB RAM",
+    "graphics": "6GBs VRAM | NVIDIA GTX-1060 | AMD Radeon RX 590",
+    "directx": "Version 12",
+    "storage": "45 GB available space",
+    "additional notes": "720p Low Quality Settings (30FPS) | SSD (Preferred) | HDD (Supported)"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "intel i7 8700",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i7-8700",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "8GBs VRAM",
+     "NVIDIA RTX-2080",
+     "AMD Radeon RX 6700"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2080",
+     "amd-radeon-rx-6700"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 45,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "intel i7 8700 | AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "8GBs VRAM | NVIDIA RTX-2080 | AMD Radeon RX 6700",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "45 GB available space",
+    "additional notes": "1080p High Quality Settings (60FPS) | SSD Required"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

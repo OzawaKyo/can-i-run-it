@@ -1,0 +1,88 @@
+{
+ "id": "1922560",
+ "appid": 1922560,
+ "name": "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition",
+ "slug": "plants-vs-zombies-garden-warfare-2-deluxe-edition",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1922560/header.jpg?t=1772707471",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Phenom X4 9850",
+     "i5 650"
+    ],
+    "ids": [
+     "amd-phenom-x4-9850",
+     "intel-core-i5-650"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Radeon HD 7730",
+     "GeForce GT 640"
+    ],
+    "ids": [
+     "amd-radeon-hd-7730",
+     "nvidia-geforce-gt-640"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit / Windows 8.1 64-bit / Windows 10 64-bit",
+    "processor": "Phenom X4 9850 or better, i5 650 or better",
+    "memory": "4 GB RAM",
+    "graphics": "Radeon HD 7730 or better, GeForce GT 640 or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "192 KBPS or faster internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 6600",
+     "i5 6600"
+    ],
+    "ids": [
+     "intel-core-i5-6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Radeon R9 290",
+     "GeForce GTX 97"
+    ],
+    "ids": [
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10 or later",
+    "processor": "Intel i5 6600 or equivalent, i5 6600 or better",
+    "memory": "16 GB RAM",
+    "graphics": "Radeon R9 290 or better, GeForce GTX 97 or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space",
+    "additional notes": "512 KBPS or faster internet connection"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver"
+ }
+}

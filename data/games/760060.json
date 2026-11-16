@@ -1,0 +1,87 @@
+{
+ "id": "760060",
+ "appid": 760060,
+ "name": "Mutant Year Zero: Road to Eden",
+ "slug": "mutant-year-zero-road-to-eden",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/760060/header.jpg?t=1764698075",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-760",
+     "AMD Phenom II X4 965"
+    ],
+    "ids": [
+     "intel-core-i5-760",
+     "amd-phenom-ii-x4-965-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GTX 580",
+     "AMD Radeon HD 7870"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-580",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 Bit/ Windows 8 64 Bit/ Windows 10 64 Bit",
+    "processor": "Intel Core i5-760 / AMD Phenom II X4 965",
+    "memory": "6 GB RAM",
+    "graphics": "NVidia GTX 580 / AMD Radeon HD 7870",
+    "directx": "Version 11",
+    "storage": "8 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700K/ AMD Ryzen 5 1600X"
+    ],
+    "ids": [
+     "intel-core-i7-6700k",
+     "amd-ryzen-5-1600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 970",
+     "AMD Radeon RX 480"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64 Bit/ Windows 8 64 Bit/ Windows 10 64 Bit",
+    "processor": "Intel Core i7-6700K/ AMD Ryzen 5 1600X",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 970 / AMD Radeon RX 480",
+    "directx": "Version 11",
+    "storage": "8 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

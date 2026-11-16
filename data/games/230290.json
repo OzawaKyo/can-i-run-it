@@ -1,0 +1,71 @@
+{
+ "id": "230290",
+ "appid": 230290,
+ "name": "Universe Sandbox",
+ "slug": "universe-sandbox",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230290/d1ecf76fb9560f8e2527f7ba1e48a4cb6c5bb153/header.jpg?t=1793801004",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.6 GHz dual-core"
+    ],
+    "ids": [],
+    "estimatedScore": 18
+   },
+   "gpu": {
+    "raw": [
+     "Video Memory† 4GB",
+     "Shader Model 6.0"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 21H1+ (64-bit, x86)",
+    "processor": "1.6 GHz dual-core",
+    "memory": "4 GB RAM",
+    "graphics": "4 GB Video Memory†, Shader Model 6.0",
+    "directx": "Version 12",
+    "storage": "4 GB available space",
+    "additional notes": "† Laptops or other computers that use integrated graphics (rather than separate graphics hardware) require DirectX 12 Feature Level 12_2 or higher and may see issues with Universe Sandbox even if they meet the video memory requirement. Discrete video hardware is recommended."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.6 GHz quad-core"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "8+ GB Video Memory"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "raw": {
+    "os": "Windows 11",
+    "processor": "3.6 GHz quad-core",
+    "memory": "8 GB RAM",
+    "graphics": "8+ GB Video Memory",
+    "directx": "Version 12"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

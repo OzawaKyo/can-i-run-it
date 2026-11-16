@@ -1,0 +1,43 @@
+{
+ "id": "736190",
+ "appid": 736190,
+ "name": "Chinese Parents",
+ "slug": "chinese-parents",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736190/header.jpg?t=1786684693",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium III 800 MHz+"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "1024x768 High Color +"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 0.48828125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "XP, Vista, 7, 8, 10",
+    "processor": "Intel Pentium III 800 MHz+",
+    "memory": "2 GB RAM",
+    "graphics": "1024x768 High Color +",
+    "directx": "Version 9.0",
+    "storage": "500 MB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

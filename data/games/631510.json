@@ -1,0 +1,84 @@
+{
+ "id": "631510",
+ "appid": 631510,
+ "name": "Devil May Cry HD Collection",
+ "slug": "devil-may-cry-hd-collection",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/header.jpg?t=1790561218",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 series (dual-core)"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 760",
+     "AMD Radeon R7 260x"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-760",
+     "amd-radeon-r7-260x-1gb",
+     "amd-radeon-r7-260x-2gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 7 (64bit)",
+    "processor": "Intel Core i3 series (dual-core) or AMD equivalent or better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 760 or AMD Radeon R7 260x",
+    "directx": "Version 9.0",
+    "storage": "12 GB available space",
+    "sound card": "DirectSound (DirectX 9.0c or better)",
+    "additional notes": "*Recommended Controller Xbox 360 Controller (Windows7/8/8.1) Xbox One Wireless Controller (Windows10) *Internet connection required for game activation. *Non-multi-thread supported CPUs are not guaranteed to operate correctly."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 3770 3.4GHz"
+    ],
+    "ids": [
+     "intel-core-i7-3770"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 960"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10 (64-BIT) / 11",
+    "processor": "Intel Core i7 3770 3.4GHz or AMD equivalent or better",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 960",
+    "directx": "Version 12",
+    "storage": "12 GB available space",
+    "sound card": "DirectSound (DirectX 9.0c or better)",
+    "additional notes": "*Recommended Controller Xbox 360 Controller (Windows7/8/8.1) Xbox One Wireless Controller (Windows10) *Internet connection required for game activation."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

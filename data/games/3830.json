@@ -1,0 +1,83 @@
+{
+ "id": "3830",
+ "appid": 3830,
+ "name": "Psychonauts",
+ "slug": "psychonauts",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/header.jpg?t=1793063134",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.0 GHz Pentium(R) III and AMD Athlon(tm)"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "64 MB GeForce (tm) 3",
+     "ATI(R) Radeon 8500 (except GeForce 4 MX and Go series)"
+    ],
+    "ids": [
+     "nvidia-geforce-8500-gt-256mb",
+     "nvidia-geforce-8500-gt-512mb",
+     "nvidia-geforce-8500-gt-1gb"
+    ]
+   },
+   "ramGb": 0.25,
+   "directX": 9,
+   "storage": {
+    "gb": 3.75,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 98 SE/2000/XP",
+    "processor": "1.0 GHz Pentium(R) III and AMD Athlon(tm)",
+    "memory": "256 MB of RAM",
+    "graphics": "64 MB GeForce (tm) 3 or higher or ATI(R) Radeon 8500 or higher (except GeForce 4 MX and Go series)",
+    "directx": "version 9.0 or higher (included with game)",
+    "storage": "3.75 GB minimum hard drive space",
+    "sound": "DirectX&reg 9.0 or higher compatible sound card",
+    "controls": "Windows-compatible keyboard and mouse"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.0 GHz Pentium(R) IV and AMD Athlon(tm)"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "128 MB GeForce FX 5600",
+     "ATI(R) Radeon 9600"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 2000/XP",
+    "processor": "2.0 GHz Pentium(R) IV and AMD Athlon(tm)",
+    "memory": "512 MB of RAM",
+    "graphics": ", 128 MB GeForce FX 5600 or higher or ATI(R) Radeon 9600 or higher",
+    "directx": "version 9.0 or higher (included with game)",
+    "storage": "6.0 GB minimum hard drive space",
+    "sound": "DirectX&reg 9.0 or higher and Sound Blaster Audigy 2 series sound card",
+    "controls": "Game Pad (optional)"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

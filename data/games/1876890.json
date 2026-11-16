@@ -1,0 +1,94 @@
+{
+ "id": "1876890",
+ "appid": 1876890,
+ "name": "Wandering Sword",
+ "slug": "wandering-sword",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876890/44686407cf63ce1c05c9fe3bd07e0df55307bd01/header.jpg?t=1774667199",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-4350",
+     "Intel Core i3-3210"
+    ],
+    "ids": [
+     "amd-fx-4350",
+     "intel-core-i3-3210"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "[Integrated graphics not supported]AMD Radeon RX 560 ( VRAM) 4GB",
+     "NVIDIA GeForce GTX 1050 ( VRAM) 4GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-560-4gb-polaris-21",
+     "amd-radeon-rx-560-4gb-polaris-21-2",
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 / 8.1 / 10 64-bit",
+    "processor": "AMD FX-4350 / Intel Core i3-3210",
+    "memory": "8 GB RAM",
+    "graphics": "[Integrated graphics not supported]AMD Radeon RX 560 (4GB VRAM) / NVIDIA GeForce GTX 1050 (4GB VRAM)",
+    "directx": "Version 11",
+    "storage": "7 GB available space",
+    "sound card": "DirectX Compatible Sound Card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 1200",
+     "Intel Core i5-6400"
+    ],
+    "ids": [
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af",
+     "intel-core-i5-6400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Radeon RX 580( VRAM) 6GB",
+     "NVIDIA GeForce GTX 1060 ti ( VRAM) 6GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 7,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 / 8.1 / 10 64-bit",
+    "processor": "AMD Ryzen 3 1200 / Intel Core i5-6400",
+    "memory": "16 GB RAM",
+    "graphics": "Radeon RX 580(6GB VRAM) / NVIDIA GeForce GTX 1060 ti (6 GB VRAM)",
+    "directx": "Version 11",
+    "storage": "7 GB available space",
+    "sound card": "DirectX Compatible Sound Card"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

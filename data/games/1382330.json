@@ -1,0 +1,91 @@
+{
+ "id": "1382330",
+ "appid": 1382330,
+ "name": "Persona® 5 Strikers",
+ "slug": "persona-5-strikers",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382330/header.jpg?t=1763530465",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2300",
+     "AMD FX-6350"
+    ],
+    "ids": [
+     "intel-core-i5-2300",
+     "amd-fx-6350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660 () 2GB",
+     "AMD Radeon HD 7870 () 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7870-ghz-edition",
+     "amd-radeon-hd-7870-xt"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "8.1, 64bits",
+    "processor": "Intel Core i5-2300 / AMD FX-6350",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 (2GB) / AMD Radeon HD 7870 (2GB)",
+    "directx": "Version 11",
+    "storage": "25 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3470",
+     "AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i5-3470",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 680 () 2GB",
+     "AMD Radeon HD 7970 () 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-680",
+     "amd-radeon-hd-7970-3gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "10, 64bits",
+    "processor": "Intel Core i5-3470 / AMD FX-8350",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 680 (2 GB) / AMD Radeon HD 7970 (3 GB)",
+    "directx": "Version 11",
+    "storage": "25 GB available space",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

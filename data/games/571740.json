@@ -1,0 +1,78 @@
+{
+ "id": "571740",
+ "appid": 571740,
+ "name": "Golf It!",
+ "slug": "golf-it",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/571740/e236880f6ead7a670f24e14ce9cc3934ec2b1795/header.jpg?t=1794616579",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "1024 MB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or higher (64-bit)",
+    "processor": "2 GHz Processor or better",
+    "memory": "4 GB RAM",
+    "graphics": "1024 MB",
+    "directx": "Version 10",
+    "storage": "20 GB available space",
+    "vr support": "SteamVR or Oculus PC"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "4 GHz Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia 780 GTX"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-780"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "4 GHz Processor or better",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia 780 GTX or better",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

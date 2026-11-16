@@ -1,0 +1,41 @@
+{
+ "id": "445980",
+ "appid": 445980,
+ "name": "Wizard of Legend",
+ "slug": "wizard-of-legend",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/445980/header.jpg?t=1788993018",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "Intel Core i3",
+    "memory": "4 GB RAM",
+    "directx": "Version 11",
+    "storage": "1 GB available space",
+    "additional notes": "Gamepad support for XInput devices"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

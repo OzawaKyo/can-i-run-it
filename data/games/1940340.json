@@ -1,0 +1,75 @@
+{
+ "id": "1940340",
+ "appid": 1940340,
+ "name": "Darkest Dungeon® II",
+ "slug": "darkest-dungeon-ii",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1940340/header.jpg?t=1759351183",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Athlon X4",
+     "Intel Core i5 4460"
+    ],
+    "ids": [
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 950",
+     "AMD R7 370"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r7-370-4gb",
+     "amd-radeon-r9-370-2gb",
+     "amd-radeon-r9-370-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "AMD Athlon X4 | Intel Core i5 4460",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 950 | AMD R7 370",
+    "storage": "6 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i7 6700k"
+    ],
+    "ids": [
+     "intel-core-i7-6700k"
+    ]
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "i7 6700k",
+    "memory": "16 GB RAM",
+    "storage": "6 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

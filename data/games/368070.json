@@ -1,0 +1,90 @@
+{
+ "id": "368070",
+ "appid": 368070,
+ "name": "Sniper Ghost Warrior 3",
+ "slug": "sniper-ghost-warrior-3",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/368070/header.jpg?t=1728377817",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i3 3240 3.4 GHz",
+     "AMD FX-6350 3.9 GHz"
+    ],
+    "ids": [
+     "intel-core-i3-3240",
+     "amd-fx-6350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660 2GB",
+     "AMD Radeon HD 7850 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-hd-7850-2gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8.1/10 64-bit",
+    "processor": "i3 3240 3.4 GHz or AMD FX-6350 3.9 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "additional notes": "Online Connection Requirements: 512 KBPS or faster Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX 8350 Wraith",
+     "Intel Core i7 4790"
+    ],
+    "ids": [
+     "amd-fx-8350",
+     "intel-core-i7-4790"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 480 4GB",
+     "NVIDIA GeForce(R) GTX 1060 3GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-480-4gb",
+     "nvidia-geforce-gtx-1060"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 10 or later",
+    "processor": "AMD FX 8350 Wraith or Intel Core i7 4790 or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "AMD Radeon RX 480 4GB or NVIDIA GeForce(R) GTX 1060 3GB",
+    "directx": "Version 11",
+    "storage": "50 GB available space",
+    "additional notes": "Online Connection Requirements: 512 KBPS or faster Internet connection"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

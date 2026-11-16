@@ -1,0 +1,85 @@
+{
+ "id": "1527950",
+ "appid": 1527950,
+ "name": "Wartales",
+ "slug": "wartales",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1527950/47a052682bdfb48bca3419a8e2c5fd3a324e2434/header_alt_assets_10.jpg?t=1793866220",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2.5 GHz",
+     "AMD Ryzen 5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GTX 1050",
+     "AMD RX550"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64bit",
+    "processor": "Intel Core i5 2.5 GHz / AMD Ryzen 5",
+    "memory": "8 GB RAM",
+    "graphics": "NVidia GTX 1050 / AMD RX550",
+    "directx": "Version 10",
+    "storage": "30 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7 2.8 GHz",
+     "AMD Ryzen 7"
+    ],
+    "ids": [],
+    "estimatedScore": 53
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GTX 1080",
+     "AMD RX 5600"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410",
+     "amd-radeon-rx-5600"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 10,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i7 2.8 GHz / AMD Ryzen 7",
+    "memory": "16 GB RAM",
+    "graphics": "NVidia GTX 1080 / AMD RX 5600",
+    "directx": "Version 10",
+    "storage": "30 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

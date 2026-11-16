@@ -1,0 +1,74 @@
+{
+ "id": "3117820",
+ "appid": 3117820,
+ "name": "Sultan's Game",
+ "slug": "sultan-s-game",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3117820/header.jpg?t=1794301529",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "i5-3570K"
+    ],
+    "ids": [
+     "intel-core-i5-3570k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 560"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560"
+    ]
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "i5-3570K",
+    "memory": "1 GB RAM",
+    "graphics": "GTX 560",
+    "storage": "3 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "i7 7700k"
+    ],
+    "ids": [
+     "intel-core-i7-7700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1070"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "i7 7700k",
+    "memory": "4 GB RAM",
+    "graphics": "GTX 1070",
+    "storage": "5 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

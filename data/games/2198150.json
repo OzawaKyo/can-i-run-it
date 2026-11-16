@@ -1,0 +1,93 @@
+{
+ "id": "2198150",
+ "appid": 2198150,
+ "name": "Tiny Glade",
+ "slug": "tiny-glade",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2198150/b3a0326cc6d63ca88973fdee61d09052433abf94/header_alt_assets_0.jpg?t=1794648953",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen",
+     "Intel Core i5",
+     "Snapdragon X Plus"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "For 720p: A graphics card with Vulkan 1.2 support and 2+ GB of video memory: Radeon R9 270 (driver 21.3.1)",
+     "GeForce GTX 670 (at least Kepler architecture, driver 472.12)",
+     "Intel Iris Xe",
+     "."
+    ],
+    "ids": [
+     "amd-radeon-r9-270",
+     "nvidia-geforce-gtx-670",
+     "intel-iris-xe-graphics"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10+",
+    "processor": "AMD Ryzen / Intel Core i5 / Snapdragon X Plus",
+    "memory": "4 GB RAM",
+    "graphics": "For 720p: A graphics card with Vulkan 1.2 support and 2+ GB of video memory: Radeon R9 270 (driver 21.3.1), GeForce GTX 670 (at least Kepler architecture, driver 472.12 or newer), Intel Iris Xe, or similar.",
+    "storage": "4 GB available space",
+    "sound card": "Yes, please",
+    "additional notes": "A mouse with 2 buttons + scroll wheel is necessary for camera control. ========================================= UNSUPPORTED graphics cards: laptop NVIDIA Kepler series, e.g. GeForce GT 740M, and older Intel HD Graphics series, e.g. 500, 4000, 5000, 6000."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen",
+     "Intel Core i5",
+     "Snapdragon X Elite"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "For 1080p: A graphics card with Vulkan 1.2 support and 4+ GB of video memory: Radeon RX 580",
+     "GeForce GTX 1060",
+     "Intel Arc A380",
+     "."
+    ],
+    "ids": [
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb",
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10+",
+    "processor": "AMD Ryzen / Intel Core i5 / Snapdragon X Elite",
+    "memory": "4 GB RAM",
+    "graphics": "For 1080p: A graphics card with Vulkan 1.2 support and 4+ GB of video memory: Radeon RX 580, GeForce GTX 1060, Intel Arc A380, or similar.",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space",
+    "sound card": "Absolutely",
+    "additional notes": "A mouse with 2 buttons + scroll wheel is necessary for camera control. ========================================= UNSUPPORTED graphics cards: laptop NVIDIA Kepler series, e.g. GeForce GT 740M, and older Intel HD Graphics series, e.g. 500, 4000, 5000, 6000."
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

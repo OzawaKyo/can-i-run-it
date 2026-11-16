@@ -1,0 +1,94 @@
+{
+ "id": "1407200",
+ "appid": 1407200,
+ "name": "World of Tanks",
+ "slug": "world-of-tanks",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/819fc92f7ddb96ef10792a6d72382c5b814d671a/header.jpg?t=1793879118",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3330",
+     "AMD FX-6300"
+    ],
+    "ids": [
+     "intel-core-i5-3330",
+     "amd-fx-6300"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660",
+     "AMD Radeon R9 270",
+     "1280x768 screen resolution"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660",
+     "amd-radeon-r9-270",
+     "amd-radeon-r9-280x"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 120,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 / 11 (64-bit only)",
+    "processor": "Intel Core i5-3330 / AMD FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660 / AMD Radeon R9 270, 1280x768 screen resolution",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "120 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-9100F",
+     "AMD Ryzen 3 3100"
+    ],
+    "ids": [
+     "intel-core-i3-9100f",
+     "amd-ryzen-3-3100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1650",
+     "AMD Radeon RX 580"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 120,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 / 11 (64-bit only)",
+    "processor": "Intel Core i3-9100F / AMD Ryzen 3 3100",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GTX 1650 / AMD Radeon RX 580",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "120 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "running",
+  "antiCheatSlug": "world-of-tanks"
+ }
+}

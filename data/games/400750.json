@@ -1,0 +1,82 @@
+{
+ "id": "400750",
+ "appid": 400750,
+ "name": "Call to Arms - Gates of Hell: Ostfront",
+ "slug": "call-to-arms-gates-of-hell-ostfront",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/dbbd1ee41869ac2bae52511ab9d171e1aba441e4/header.jpg?t=1793359453",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1070",
+     "RX 5600"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "amd-radeon-rx-5600"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit - Windows 7, 8, 10, 11",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 1070 / RX 5600",
+    "directx": "Version 11",
+    "storage": "80 GB available space",
+    "sound card": "DirectX 11 compatible",
+    "additional notes": "SSD drive and fast internet connection needed for optimal gameplay"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 7 3700X"
+    ],
+    "ids": [
+     "amd-ryzen-7-3700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "RTX 2070",
+     "RX 6600"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-6600"
+    ]
+   },
+   "ramGb": 32,
+   "directX": 12,
+   "storage": {
+    "gb": 80,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64bit - Windows 10",
+    "processor": "AMD Ryzen 7 3700X",
+    "memory": "32 GB RAM",
+    "graphics": "RTX 2070 / RX 6600",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "80 GB available space",
+    "sound card": "DirectX 12 compatible",
+    "additional notes": "SSD drive and fast internet connection needed for optimal gameplay"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

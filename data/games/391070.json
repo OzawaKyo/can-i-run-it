@@ -1,0 +1,43 @@
+{
+ "id": "391070",
+ "appid": 391070,
+ "name": "Stellar 2D",
+ "slug": "stellar-2d",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391070/header.jpg?t=1447377343",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.6 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 17
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 9.0 Compatible"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.125,
+   "directX": 9,
+   "storage": {
+    "gb": 0.146484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows XP / Vista / 7 (32-bit/64-bit)",
+    "processor": "1.6 GHz",
+    "memory": "128 MB RAM",
+    "graphics": "DirectX 9.0 Compatible",
+    "storage": "150 MB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

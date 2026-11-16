@@ -1,0 +1,72 @@
+{
+ "id": "1369630",
+ "appid": 1369630,
+ "name": "ENDER LILIES: Quietus of the Knights",
+ "slug": "ender-lilies-quietus-of-the-knights",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1369630/header.jpg?t=1788931074",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core @ 2.00Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 64 bit",
+    "processor": "Dual Core @ 2.00Ghz",
+    "memory": "2 GB RAM",
+    "graphics": "1GB of video RAM",
+    "directx": "Version 11",
+    "storage": "2 GB available space",
+    "additional notes": "16:9 recommended"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad Core @ 2.50Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Quad Core @ 2.50Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "2GB of video RAM",
+    "directx": "Version 11",
+    "storage": "2 GB available space",
+    "additional notes": "16:9 recommended"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "4115450",
+ "appid": 4115450,
+ "name": "Phantom Blade Zero",
+ "slug": "phantom-blade-zero",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-8700K",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i7-8700k",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660 6GB",
+     "AMD Radeon RX 5500 XT 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-5500-xt-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 145,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 (64bit required)",
+    "processor": "Intel Core i7-8700K / AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660 6GB / AMD Radeon RX 5500 XT 8GB",
+    "directx": "Version 12",
+    "storage": "145 GB available space",
+    "additional notes": "1080p / 30 FPS with upscaling enabled. SSD installation required."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-10600K",
+     "AMD Ryzen 5 5600X"
+    ],
+    "ids": [
+     "intel-core-i5-10600k",
+     "amd-ryzen-5-5600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 3060 Ti 8GB",
+     "AMD Radeon RX 6700 XT 12GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3060-ti",
+     "amd-radeon-rx-6700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 145,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 (64bit required)",
+    "processor": "Intel Core i5-10600K / AMD Ryzen 5 5600X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 3060 Ti 8GB / AMD Radeon RX 6700 XT 12GB",
+    "directx": "Version 12",
+    "storage": "145 GB available space",
+    "additional notes": "1440p / 60 FPS with upscaling enabled. SSD installation required."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

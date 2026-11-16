@@ -1,0 +1,91 @@
+{
+ "id": "260230",
+ "appid": 260230,
+ "name": "Valiant Hearts: The Great War™ / Soldats Inconnus : Mémoires de la Grande Guerre™",
+ "slug": "valiant-hearts-the-great-war-soldats-inconnus-me-moires-de-la-grande-guerre",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/260230/header.jpg?t=1782158578",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium IV 630 @ 3.0 GHz",
+     "AMD Athlon64 3000 + @ 1.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 8800 GT",
+     "AMD Radeon HD2900 XT (512MB VRAM)"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+    "processor": "Intel Pentium IV 630 @ 3.0 GHz or AMD Athlon64 3000 + @ 1.8 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "nVidia GeForce 8800 GT or AMD Radeon HD2900 XT (512MB VRAM)",
+    "directx": "Version 9.0",
+    "storage": "2 GB available space",
+    "sound card": "DirectX Compatible Sound Card with latest drivers",
+    "additional notes": "Windows-compatible keyboard and mouse required, optional Microsoft XBOX360 controller or compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E4400 @ 2.0 GHz",
+     "AMD Athlon64 X2 3800+ @ 2 GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e4400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVidia GeForce 9600GT",
+     "AMD Radeon HD3850 (512MB VRAM with Shader Model 4.0)"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+    "processor": "Intel Core 2 Duo E4400 @ 2.0 GHz or AMD Athlon64 X2 3800+ @ 2 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "NVidia GeForce 9600GT or higher, AMD Radeon HD3850 or higher (512MB VRAM with Shader Model 4.0)",
+    "directx": "Version 9.0",
+    "storage": "2 GB available space",
+    "sound card": "DirectX Compatible Sound Card with latest drivers",
+    "additional notes": "Windows-compatible keyboard and mouse required, optional Microsoft XBOX360 controller or compatible"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

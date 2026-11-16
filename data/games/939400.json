@@ -1,0 +1,45 @@
+{
+ "id": "939400",
+ "appid": 939400,
+ "name": "LoveChoice",
+ "slug": "lovechoice",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/939400/header.jpg?t=1792049102",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Which supports DirectX9",
+     "DirectX11"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 1.5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or above",
+    "processor": "2GHz or above",
+    "memory": "4 GB RAM",
+    "graphics": "Which supports DirectX9 or DirectX11",
+    "storage": "1.5 GB available space",
+    "additional notes": "Please use mouse with the wheel"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "1859910",
+ "appid": 1859910,
+ "name": "Legend of Mortal",
+ "slug": "legend-of-mortal",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859910/header.jpg?t=1780993657",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT1030"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or higher",
+    "processor": "Intel Core i3",
+    "memory": "8 GB RAM",
+    "graphics": "GeForce GT1030 or higher",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "Recommended resolution 1920x1080"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GT1030"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 or higher",
+    "processor": "Intel Core i5",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GT1030 or higher",
+    "directx": "Version 11",
+    "storage": "10 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "Recommended resolution 1920x1080"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

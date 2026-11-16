@@ -1,0 +1,43 @@
+{
+ "id": "409160",
+ "appid": 409160,
+ "name": "Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist",
+ "slug": "dr-langeskov-the-tiger-and-the-terribly-cursed-emerald-a-whirlwind-heist",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/409160/header.jpg?t=1565696316",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.80GHz Processor"
+    ],
+    "ids": [],
+    "estimatedScore": 19
+   },
+   "gpu": {
+    "raw": [
+     "Video card with 512MB of VRAM"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2 or higher",
+    "processor": "1.80GHz Processor",
+    "memory": "2 GB RAM",
+    "graphics": "Video card with 512MB of VRAM",
+    "storage": "1 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

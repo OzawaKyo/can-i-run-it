@@ -1,0 +1,81 @@
+{
+ "id": "866800",
+ "appid": 866800,
+ "name": "The Walking Dead: The Final Season",
+ "slug": "the-walking-dead-the-final-season",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/866800/header.jpg?t=1729703141",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.8GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce GTS 450 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450"
+    ]
+   },
+   "ramGb": 3,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64Bit Service Pack 1",
+    "processor": "Intel Core 2 Duo 2.8GHz",
+    "memory": "3 GB RAM",
+    "graphics": "nVidia GeForce GTS 450 2GB",
+    "directx": "Version 11",
+    "storage": "15 GB available space",
+    "sound card": "DirectX 11 sound device",
+    "additional notes": "Not supported on Intel integrated graphics"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K"
+    ],
+    "ids": [
+     "intel-core-i5-2500k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce GTX 960"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64Bit Service Pack 1",
+    "processor": "Intel Core i5-2500K",
+    "memory": "3 GB RAM",
+    "graphics": "nVidia GeForce GTX 960",
+    "directx": "Version 11",
+    "storage": "15 GB available space",
+    "sound card": "DirectX 11 sound device"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

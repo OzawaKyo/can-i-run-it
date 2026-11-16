@@ -1,0 +1,68 @@
+{
+ "id": "332570",
+ "appid": 332570,
+ "name": "Amazing Frog?",
+ "slug": "amazing-frog",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/822e30280a7320a70c6ed05cb7b0eb7e504b33c8/header_alt_assets_7.jpg?t=1794671829",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.5 GHZ Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 2,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7+",
+    "processor": "2.5 GHZ Dual Core",
+    "memory": "16 GB RAM",
+    "graphics": "2GB",
+    "storage": "20 GB available space",
+    "additional notes": "Amazing Frog? is in Constant development and so as we add more to the game these figure may change"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "2.5GHZ Quad core"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8+",
+    "processor": "2.5GHZ Quad core",
+    "memory": "16 GB RAM",
+    "graphics": "4GB",
+    "storage": "20 GB available space",
+    "additional notes": "Amazing Frog? is in Constant development and so as we add more to the game these figure may change"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

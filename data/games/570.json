@@ -1,0 +1,68 @@
+{
+ "id": "570",
+ "appid": 570,
+ "name": "Dota 2",
+ "slug": "dota-2",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1791407503",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual core from Intel",
+     "AMD at 2.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce 8600/9600GT",
+     "ATI/AMD Radeon HD2600/3600"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "amd-radeon-hd-2600-pro-256mb",
+     "amd-radeon-hd-2600-pro-512mb",
+     "amd-radeon-hd-2600-xt-256mb",
+     "amd-radeon-hd-2600-xt-512mb",
+     "amd-radeon-hd-3610-512mb",
+     "amd-radeon-hd-3610-1gb",
+     "amd-radeon-hd-3650-256mb",
+     "amd-radeon-hd-3650-512mb",
+     "amd-radeon-hd-3650-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or newer",
+    "processor": "Dual core from Intel or AMD at 2.8 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ },
+ "linux": {
+  "native": true,
+  "antiCheat": "supported",
+  "antiCheatSlug": "dota-2"
+ }
+}

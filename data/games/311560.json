@@ -1,0 +1,88 @@
+{
+ "id": "311560",
+ "appid": 311560,
+ "name": "Assassin’s Creed® Rogue",
+ "slug": "assassin-s-creed-rogue",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311560/header.jpg?t=1751968973",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2Quad Q6600 @ 2.4 GHz",
+     "AMD Athlon II X4 620 @ 2.6 GHzH"
+    ],
+    "ids": [
+     "intel-core-2-quad-q6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce GTS450",
+     "AMD Radeon HD5670 (1024MB VRAM)",
+     "Intel HD4600"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450",
+     "amd-radeon-hd-5670-512mb",
+     "amd-radeon-hd-5670-1gb",
+     "amd-radeon-hd-5670-2gb",
+     "intel-hd-graphics-4600"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "Intel Core2Quad Q6600 @ 2.4 GHz or AMD Athlon II X4 620 @ 2.6 GHzH",
+    "memory": "2 GB RAM",
+    "graphics": "nVidia GeForce GTS450 or AMD Radeon HD5670 (1024MB VRAM) or Intel HD4600",
+    "directx": "Version 11",
+    "storage": "12 GB available space",
+    "sound card": "DirectX Compatible Sound Card with latest driver",
+    "additional notes": "Supported Video Cards at time of release: NVIDIA GeForce GTS 450 or better, GeForce 500, 600, 700, 900 series / AMD Radeon HD 5670 or better, Radeon HD 6000, 7000, R7, R9 series / Intel HD4600, HD5200 / Note: Laptop versions of these cards may work but are NOT officially supported."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 2400s @ 2.5 GHz",
+     "AMD FX-6100 @ 3.3 GHz"
+    ],
+    "ids": [
+     "intel-core-i5-2400s",
+     "amd-fx-6100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce GTX 560Ti (1024 VRAM)",
+     "AMD Radeon HD 6870 (1024 VRAM)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "directX": 11,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit versions only)",
+    "processor": "Intel Core i5 2400s @ 2.5 GHz or better / AMD FX-6100 @ 3.3 GHz or better",
+    "graphics": "nVidia GeForce GTX 560Ti (1024 VRAM) or better / AMD Radeon HD 6870 (1024 VRAM) or better",
+    "directx": "Version 11",
+    "storage": "12 GB available space",
+    "sound card": "DirectX Compatible Sound Card with latest driver"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

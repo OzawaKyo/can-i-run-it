@@ -1,0 +1,46 @@
+{
+ "id": "10150",
+ "appid": 10150,
+ "name": "Prototype™",
+ "slug": "prototype",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10150/header.jpg?t=1655760765",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo 2.6 GHz",
+     "AMD Athlon 64 X2 4000+"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "All NVIDIA GeForce 7800 GT 256 MB and better chipsets. All ATI Radeon X1800 256 MB and better chipsets"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP (with Service Pack 3) or Windows Vista",
+    "processor": "Intel Core2 Duo 2.6 GHz or AMD Athlon 64 X2 4000+ or better",
+    "memory": "Vista 2 GB RAM / XP 1 GB RAM",
+    "graphics": "All NVIDIA GeForce 7800 GT 256 MB and better chipsets. All ATI Radeon X1800 256 MB and better chipsets",
+    "directx": "Microsoft DirectX 9.0c",
+    "storage": "8GB of free hard drive space",
+    "sound": "DirectX 9.0c compliant sound card"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

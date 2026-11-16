@@ -1,0 +1,86 @@
+{
+ "id": "2707900",
+ "appid": 2707900,
+ "name": "NIGHT-RUNNERS™ PROLOGUE",
+ "slug": "night-runners-prologue",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707900/header.jpg?t=1708958635",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 1200",
+     "Intel i5-4460"
+    ],
+    "ids": [
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af",
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "(AMD R9 270, NVidia GTX 750) 2GB"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "AMD Ryzen 3 1200, Intel i5-4460",
+    "memory": "8 GB RAM",
+    "graphics": "2 GB (AMD R9 270, NVidia GTX 750)",
+    "directx": "Version 11",
+    "storage": "8 GB available space",
+    "additional notes": "1080p, 60fps, Low/Medium Settings. SSD Recommended."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 1500X",
+     "Intel i5-8400"
+    ],
+    "ids": [
+     "amd-ryzen-5-1500x",
+     "intel-core-i5-8400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 590",
+     "NVidia GTX 1070"
+    ],
+    "ids": [
+     "amd-radeon-rx-590",
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 8,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "AMD Ryzen 5 1500X, Intel i5-8400",
+    "memory": "16 GB RAM",
+    "graphics": "AMD RX 590, NVidia GTX 1070",
+    "directx": "Version 11",
+    "storage": "8 GB available space",
+    "additional notes": "1080p, 120fps, High/Ultra Settings. SSD Recommended."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

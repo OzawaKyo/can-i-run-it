@@ -1,0 +1,80 @@
+{
+ "id": "445220",
+ "appid": 445220,
+ "name": "Avorion",
+ "slug": "avorion",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/445220/header.jpg?t=1762761602",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 @ 3.0 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce 550 (full OpenGL 3.0 support required)"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or higher",
+    "processor": "Intel i5 @ 3.0 GHz or AMD equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia Geforce 550 or equivalent (full OpenGL 3.0 support required)",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB available space",
+    "additional notes": "Middle mouse button, mouse wheel required. No Internet connection required for Singleplayer."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 @ 3.3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 53
+   },
+   "gpu": {
+    "raw": [
+     "NVidia Geforce 1050",
+     "Radeon RX 460"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 6,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or higher",
+    "processor": "Intel i7 @ 3.3 GHz or AMD equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "NVidia Geforce 1050 / Radeon RX 460",
+    "network": "Broadband Internet connection",
+    "storage": "3 GB available space",
+    "additional notes": "Middle mouse button, mouse wheel required. No Internet connection required for Singleplayer."
+   }
+  }
+ },
+ "linux": {
+  "native": true,
+  "antiCheat": "running",
+  "antiCheatSlug": "avorion"
+ }
+}

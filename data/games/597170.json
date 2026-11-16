@@ -1,0 +1,46 @@
+{
+ "id": "597170",
+ "appid": 597170,
+ "name": "Clone Drone in the Danger Zone",
+ "slug": "clone-drone-in-the-danger-zone",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597170/header.jpg?t=1784069375",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Modern quad-core (AMD FX-Series, Intel Core i5)"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 5770",
+     "Nvidia GeForce GT 640"
+    ],
+    "ids": [
+     "amd-radeon-hd-5770-512mb",
+     "amd-radeon-hd-5770-1gb",
+     "nvidia-geforce-gt-640"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or newer",
+    "processor": "Modern quad-core (AMD FX-Series or newer, Intel Core i5 or faster)",
+    "memory": "2 GB RAM",
+    "graphics": "AMD Radeon HD 5770 or faster, Nvidia GeForce GT 640 or faster",
+    "storage": "1 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

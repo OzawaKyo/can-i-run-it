@@ -1,0 +1,43 @@
+{
+ "id": "1574580",
+ "appid": 1574580,
+ "name": "Strange Horticulture",
+ "slug": "strange-horticulture",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574580/header.jpg?t=1772459223",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 25
+   },
+   "gpu": {
+    "raw": [
+     "512 MB display memory"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "vramGb": 0.5,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or later",
+    "processor": "2.4 GHz",
+    "memory": "1 GB RAM",
+    "graphics": "512 MB display memory",
+    "storage": "1 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

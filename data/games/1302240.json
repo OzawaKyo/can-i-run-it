@@ -1,0 +1,88 @@
+{
+ "id": "1302240",
+ "appid": 1302240,
+ "name": "Labyrinthine",
+ "slug": "labyrinthine",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1302240/header.jpg?t=1793035734",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "ATI HD7900 series",
+     "Nvidia Equivalent."
+    ],
+    "ids": [
+     "amd-radeon-hd-7950",
+     "amd-radeon-hd-7950-boost",
+     "amd-radeon-hd-7970-3gb",
+     "amd-radeon-hd-7970-6gb",
+     "amd-radeon-hd-7970-ghz-edition-3gb",
+     "amd-radeon-hd-7970-ghz-edition-6gb",
+     "amd-radeon-hd-7990"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 - 64bit",
+    "processor": "Intel i5 or AMD Equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "ATI HD7900 series or Nvidia Equivalent.",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "vr support": "SteamVR enabled devices",
+    "additional notes": "Please note, this is the lowest tested hardware that could run the game on medium without frame drops. Other cards may work but results will vary. Integrated graphics do not run the game."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7"
+    ],
+    "ids": [],
+    "estimatedScore": 53
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1060 6GB",
+     "Equivelant."
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 - 64bit",
+    "processor": "Intel i7 or AMD Equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 1060 6GB or Equivelant.",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "vr support": "SteamVR enabled devices"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

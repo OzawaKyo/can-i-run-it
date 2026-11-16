@@ -1,0 +1,43 @@
+{
+ "id": "751780",
+ "appid": 751780,
+ "name": "Forager",
+ "slug": "forager",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/751780/header.jpg?t=1794346279",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1.2Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 12
+   },
+   "gpu": {
+    "raw": [
+     "512MB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "vramGb": 0.5,
+   "storage": {
+    "gb": 0.1953125,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP and above",
+    "processor": "1.2Ghz",
+    "memory": "1024 MB RAM",
+    "graphics": "512MB",
+    "storage": "200 MB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

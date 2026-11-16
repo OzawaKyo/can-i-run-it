@@ -1,0 +1,88 @@
+{
+ "id": "1268750",
+ "appid": 1268750,
+ "name": "Starship Troopers: Extermination",
+ "slug": "starship-troopers-extermination",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1268750/header.jpg?t=1793384380",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-8100",
+     "AMD Ryzen 3 3300X"
+    ],
+    "ids": [
+     "intel-core-i3-8100",
+     "amd-ryzen-3-3300x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 970",
+     "AMD RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 12,
+   "directX": 12,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i3-8100 or AMD Ryzen 3 3300X",
+    "memory": "12 GB RAM",
+    "graphics": "Nvidia GTX 970 or AMD RX 570",
+    "directx": "Version 12",
+    "storage": "20 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7-8700K",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i7-8700k",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1070 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel i7-8700K or AMD Ryzen 5 3600",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GTX 1070 8 GB or AMD Equivalent",
+    "directx": "Version 12",
+    "storage": "20 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "broken",
+  "antiCheatSlug": "starship-troopers-extermination"
+ }
+}

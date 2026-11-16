@@ -1,0 +1,71 @@
+{
+ "id": "1435790",
+ "appid": 1435790,
+ "name": "Escape Simulator",
+ "slug": "escape-simulator",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/413708a2da512607f70bb22b29270359586c6e5f/header.jpg?t=1791969592",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "X64 architecture with SSE2 instruction set support"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DX10-capable GPU"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 10,
+   "storage": {
+    "gb": 18,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (SP1+)",
+    "processor": "X64 architecture with SSE2 instruction set support",
+    "memory": "4 GB RAM",
+    "graphics": "DX10-capable GPU",
+    "storage": "18 GB available space",
+    "additional notes": "Some community-made rooms are quite big and performance heavy and need more RAM memory and better GPU."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1060"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 19,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11",
+    "memory": "16 GB RAM",
+    "graphics": "GTX 1060 or better",
+    "network": "Broadband Internet connection",
+    "storage": "19 GB available space",
+    "sound card": "Yes"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

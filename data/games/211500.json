@@ -4,8 +4,8 @@
  "name": "RaceRoom Racing Experience",
  "slug": "raceroom-racing-experience",
  "source": "steam",
- "updatedAt": "2026-11-09",
- "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/211500/012ec96f1060dc6dc2cfa123ad073ba41c3bd6fa/header.jpg?t=1785930715",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/211500/012ec96f1060dc6dc2cfa123ad073ba41c3bd6fa/header.jpg?t=1794381816",
  "requirements": {
   "minimum": {
    "cpu": {
@@ -29,7 +29,7 @@
    "ramGb": 4,
    "directX": 9,
    "storage": {
-    "gb": 70,
+    "gb": 90,
     "ssd": false
    },
    "raw": {
@@ -39,7 +39,7 @@
     "graphics": "VRAM 512MB",
     "directx": "Version 9.0c",
     "network": "Broadband Internet connection",
-    "storage": "70 GB available space",
+    "storage": "90 GB available space",
     "vr support": "SteamVR. Keyboard or gamepad required"
    }
   },
@@ -64,7 +64,7 @@
    "ramGb": 16,
    "vramGb": 8,
    "storage": {
-    "gb": 70,
+    "gb": 90,
     "ssd": false
    },
    "raw": {
@@ -73,7 +73,7 @@
     "memory": "16 GB RAM",
     "graphics": "VRAM 8GB",
     "network": "Broadband Internet connection",
-    "storage": "70 GB available space",
+    "storage": "90 GB available space",
     "vr support": "SteamVR. Keyboard or gamepad required.",
     "additional notes": "To enhance your experience with the simulation aspect, we highly recommend using a steering wheel controller for optimal gameplay."
    }

@@ -1,0 +1,85 @@
+{
+ "id": "882100",
+ "appid": 882100,
+ "name": "XCOM®: Chimera Squad",
+ "slug": "xcom-chimera-squad",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/882100/header.jpg?t=1603903072",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 GHz Quad Core"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD 7770 1GB",
+     "NVIDIA GeForce 650"
+    ],
+    "ids": [
+     "amd-radeon-hd-7770-ghz-edition-1gb",
+     "nvidia-geforce-gtx-650"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 18,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, 64-bit",
+    "processor": "2.4 GHz Quad Core",
+    "memory": "4 GB RAM",
+    "graphics": "1GB AMD Radeon HD 7770, NVIDIA GeForce 650 or better",
+    "directx": "Version 11",
+    "storage": "18 GB available space",
+    "sound card": "DirectX Compatible",
+    "additional notes": "Microsoft Visual C++ 2012 and 2015 Runtime Libraries, and Microsoft DirectX."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3GHz Quad Core"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon HD R9 290 2GB",
+     "NVIDIA GeForce GTX 980"
+    ],
+    "ids": [
+     "amd-radeon-r9-290",
+     "nvidia-geforce-gtx-980"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 18,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64bit / Windows 8.1 64bit / Windows 10 64bit",
+    "processor": "3GHz Quad Core",
+    "memory": "4 GB RAM",
+    "graphics": "2GB AMD Radeon HD R9 290, NVIDIA GeForce GTX 980 or better",
+    "directx": "Version 11",
+    "storage": "18 GB available space",
+    "sound card": "DirectX Compatible"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "1262560",
+ "appid": 1262560,
+ "name": "Need for Speed™ Most Wanted",
+ "slug": "need-for-speed-most-wanted",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/header.jpg?t=1777484382",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Dual Core (Core 2 Duo 2.4 GHZ or Althon X2 2.7 GHz)"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 10.1 compatible with 512 MB RAM (ATI RADEON 3000, 4000, 5000 OR 6000 series, with ATI RADEON 3870 performance)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows Vista (Service Pack 2 and all available windows updates) 32-bit",
+    "processor": "2 GHz Dual Core (Core 2 Duo 2.4 GHZ or Althon X2 2.7 GHz)",
+    "memory": "2 GB RAM",
+    "graphics": "DirectX 10.1 compatible with 512 MB RAM (ATI RADEON 3000, 4000, 5000 OR 6000 series, with ATI RADEON 3870 or higher performance)",
+    "storage": "20 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "DirectX 11 compatible with 1024 MB RAM (NVIDIA GEFORCE GTX 560 or ATI RADEON 6950)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (Service Pack 1 and all available windows updates) 64-bit",
+    "processor": "Quad-Core CPU",
+    "memory": "4 GB RAM",
+    "graphics": "DirectX 11 compatible with 1024 MB RAM (NVIDIA GEFORCE GTX 560 or ATI RADEON 6950)",
+    "storage": "20 GB available space",
+    "sound card": "DirectX compatible"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

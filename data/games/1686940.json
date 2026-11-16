@@ -1,0 +1,73 @@
+{
+ "id": "1686940",
+ "appid": 1686940,
+ "name": "Bopl Battle",
+ "slug": "bopl-battle",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1686940/header.jpg?t=1746784732",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "Intel UHD Graphics 630"
+    ],
+    "ids": [
+     "intel-uhd-graphics-630"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit only",
+    "processor": "Intel Core i3 or AMD equivalent",
+    "memory": "4 GB RAM",
+    "graphics": "Intel UHD Graphics 630",
+    "storage": "2 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1650"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1650-tu117-300",
+     "nvidia-geforce-gtx-1650-tu117-300-2"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit only",
+    "processor": "Intel Core i5 or AMD equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1650",
+    "storage": "2 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

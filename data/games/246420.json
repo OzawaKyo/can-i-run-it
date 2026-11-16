@@ -1,0 +1,74 @@
+{
+ "id": "246420",
+ "appid": 246420,
+ "name": "Kingdom Rush  - Tower Defense",
+ "slug": "kingdom-rush-tower-defense",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246420/header.jpg?t=1790283781",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 3.0 compliant with 512MB of video RAM."
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "vramGb": 0.5,
+   "directX": 10,
+   "storage": {
+    "gb": 1.46484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP Service Pack 3",
+    "processor": "Dual Core CPU",
+    "memory": "1 GB RAM",
+    "graphics": "OpenGL 3.0 compliant with 512MB of video RAM.",
+    "storage": "1500 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Dual Core CPU"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "OpenGL 3.0 compliant with of video RAM. 1GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "vramGb": 1,
+   "directX": 10,
+   "storage": {
+    "gb": 1.46484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP Service Pack 3",
+    "processor": "Dual Core CPU",
+    "memory": "2 GB RAM",
+    "graphics": "OpenGL 3.0 compliant with 1.0GB of video RAM.",
+    "storage": "1500 MB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "787480",
+ "appid": 787480,
+ "name": "Phoenix Wright: Ace Attorney Trilogy",
+ "slug": "phoenix-wright-ace-attorney-trilogy",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/787480/header.jpg?t=1768866317",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-4160"
+    ],
+    "ids": [
+     "intel-core-i3-4160"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 4400"
+    ],
+    "ids": [
+     "intel-hd-graphics-4400"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10（64bit）,11",
+    "processor": "Intel Core i3-4160",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD Graphics 4400",
+    "directx": "Version 11",
+    "storage": "3 GB available space",
+    "additional notes": "*Recommended Controller Xbox One Wireless Controller (Windows10/11) For users on Windows11, please ensure that your device also meets the Windows11 system requirements."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3570"
+    ],
+    "ids": [
+     "intel-core-i5-3570"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 660"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-660"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "WINDOWS 10（64bit）,11",
+    "processor": "Intel Core i5-3570",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 660",
+    "directx": "Version 11",
+    "storage": "3 GB available space",
+    "additional notes": "*Recommended Controller Xbox One Wireless Controller (Windows10/11) For users on Windows11, please ensure that your device also meets the Windows11 system requirements."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

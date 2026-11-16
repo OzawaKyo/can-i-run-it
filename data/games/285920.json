@@ -1,0 +1,88 @@
+{
+ "id": "285920",
+ "appid": 285920,
+ "name": "TerraTech",
+ "slug": "terratech",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285920/header.jpg?t=1777900156",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo T7600 @ 2.33GHz",
+     "AMD Athlon 64 FX-60 Dual Core"
+    ],
+    "ids": [
+     "intel-core-2-duo-t7600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 520M",
+     "Intel HD 4000"
+    ],
+    "ids": [
+     "intel-hd-graphics-4000"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit",
+    "processor": "Intel Core2 Duo T7600 @ 2.33GHz or AMD Athlon 64 FX-60 Dual Core",
+    "memory": "4 GB RAM",
+    "graphics": "nVidia GeForce 520M or Intel HD 4000",
+    "directx": "Version 11",
+    "storage": "1 GB available space",
+    "additional notes": "Three-button mouse strongly recommended. Spec may be subject to revisions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 750 @ 2.67GHz",
+     "AMD Phenom II X4 945"
+    ],
+    "ids": [
+     "intel-core-i5-750",
+     "amd-phenom-ii-x4-945"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce GTX 260",
+     "ATI Radeon HD 5670"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260",
+     "amd-radeon-hd-5670-512mb",
+     "amd-radeon-hd-5670-1gb",
+     "amd-radeon-hd-5670-2gb"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit or newer",
+    "processor": "Intel Core i5 750 @ 2.67GHz or AMD Phenom II X4 945",
+    "memory": "6 GB RAM",
+    "graphics": "nVidia GeForce GTX 260 or ATI Radeon HD 5670",
+    "directx": "Version 11",
+    "storage": "2 GB available space",
+    "additional notes": "Three-button mouse strongly recommended. Spec may be subject to revisions."
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

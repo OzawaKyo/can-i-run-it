@@ -1,0 +1,80 @@
+{
+ "id": "1449690",
+ "appid": 1449690,
+ "name": "The Walking Dead: The Telltale Definitive Series",
+ "slug": "the-walking-dead-the-telltale-definitive-series",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.8GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTS 450 2GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-450"
+    ]
+   },
+   "ramGb": 3,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64Bit Service Pack 1",
+    "processor": "Intel Core 2 Duo 2.8GHz",
+    "memory": "3 GB RAM",
+    "graphics": "Nvidia GeForce GTS 450 2GB",
+    "directx": "Version 11",
+    "storage": "45 GB available space",
+    "sound card": "DirectX 11 sound device"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2500K"
+    ],
+    "ids": [
+     "intel-core-i5-2500k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 960"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64Bit Service Pack 1",
+    "processor": "Intel Core i5-2500K",
+    "memory": "3 GB RAM",
+    "graphics": "Nvidia GeForce GTX 960",
+    "directx": "Version 11",
+    "storage": "45 GB available space",
+    "sound card": "DirectX 11 sound device"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

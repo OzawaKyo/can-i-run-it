@@ -1,0 +1,92 @@
+{
+ "id": "235540",
+ "appid": 235540,
+ "name": "Warhammer: End Times - Vermintide",
+ "slug": "warhammer-end-times-vermintide",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/235540/27acad277d2820c818471ef415209c36c924b3dd/header.jpg?t=1761316136",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Quad Q9500 @ 2.83GHz",
+     "AMD Phenom II X4 940"
+    ],
+    "ids": [
+     "intel-core-2-quad-q9500",
+     "amd-phenom-ii-x4-940-black-edition"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 460",
+     "AMD Radeon HD 5770 /w VRAM 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5770-1gb"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit, Windows 8/8.1 64-bit, Windows 10 64-bit*",
+    "processor": "Intel Core2 Quad Q9500 @ 2.83GHz or AMD Phenom II X4 940",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 460 or AMD Radeon HD 5770 /w 1GB VRAM",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "30 GB available space",
+    "additional notes": "*WARNING: 32-bit OS is NOT officially supported at this time"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-4790K @ 4.00 GHz",
+     "AMD FX-9590 @ 4.7 GHz"
+    ],
+    "ids": [
+     "intel-core-i7-4790k",
+     "amd-fx-9590"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 780",
+     "AMD GPU Radeon R9 290"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-780",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 30,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 64-bit, Windows 8/8.1 64-bit, Windows 10 64-bit*",
+    "processor": "Intel Core i7-4790K @ 4.00 GHz or AMD FX-9590 @ 4.7 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 780 or AMD GPU Radeon R9 290",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "30 GB available space",
+    "additional notes": "*WARNING: 32-bit OS is NOT officially supported at this time"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

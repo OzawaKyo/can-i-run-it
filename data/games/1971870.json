@@ -1,0 +1,94 @@
+{
+ "id": "1971870",
+ "appid": 1971870,
+ "name": "Mortal Kombat 1",
+ "slug": "mortal-kombat-1",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/header.jpg?t=1778795130",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6600",
+     "AMD Ryzen 3 3100",
+     "Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-6600",
+     "amd-ryzen-3-3100",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1660",
+     "AMD Radeon RX 590",
+     "Intel Arc A750"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-590",
+     "intel-arc-a750"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 140,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i5-6600 | AMD Ryzen 3 3100 or Ryzen 5 2600",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1660 or AMD Radeon RX 590 or Intel Arc A750",
+    "directx": "Version 12",
+    "storage": "140 GB available space",
+    "additional notes": "SSD (Preferred for full online cross-play capabilities), HDD (Supported), 1080p/Low"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400",
+     "AMD Ryzen 5 3600X"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-3600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 2080 Ti",
+     "AMD Radeon RX 5700 XT",
+     "Intel Arc A770"
+    ],
+    "ids": [
+     "amd-radeon-rx-5700-xt",
+     "intel-arc-a770-8gb",
+     "intel-arc-a770-16gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 140,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Intel Core i5-8400 | AMD Ryzen 5 3600X",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 2080 Ti or AMD Radeon RX 5700 XT or Intel Arc A770",
+    "directx": "Version 12",
+    "storage": "140 GB available space",
+    "additional notes": "SSD, 1440p/High"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

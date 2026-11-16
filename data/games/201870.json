@@ -1,0 +1,88 @@
+{
+ "id": "201870",
+ "appid": 201870,
+ "name": "Assassin's Creed® Revelations",
+ "slug": "assassin-s-creed-revelations",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201870/header.jpg?t=1739176298",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E4400 @ 2.0 GHz",
+     "AMD Athlon 64 X2 4000+ @ 2.1GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e4400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "256 MB DirectX 9.0–compliant card with Shader Model 4.0 (see supported list)*"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1.5,
+   "vramGb": 0.25,
+   "directX": 9,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 / Windows Vista SP2",
+    "processor": "Intel Core2 Duo E4400 @ 2.0 GHz or AMD Athlon 64 X2 4000+ @ 2.1GHz",
+    "memory": "1.5 GB Windows XP / 2 GB Windows Vista, 7",
+    "graphics": "256 MB DirectX 9.0–compliant card with Shader Model 4.0 or higher (see supported list)*",
+    "directx": "DirectX June2010 or newer",
+    "storage": "12 GB",
+    "sound": "DirectX 9.0–compliant sound card",
+    "peripherals": "Keyboard, mouse, optional controller",
+    "internet": "Temporary broadband connection required for one-time product registration at first launch, permanent broadband connection required for multi-player. *This product does not support Windows 98/ME/2000/NT Supported Video Cards at Time of Release: AMD Radeon HD2600XT or better/3000/4000/5000/6000 desktop series NVIDIA GeForce 8600GTS or better/9/GT200/GT400/GT500 desktop series Laptop versions of these cards may work but are NOT officially supported. These chipsets are the only ones that will run this game. For the most up-to-date minimum requirement listings, please visit the FAQ for this game on our support website at ."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core2 Duo E6700 @ 2.6 GHz",
+     "AMD Athlon 64 X2 6000+ @ 3.0 GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "512 MB DirectX 9.0–compliant card with Shader Model 5.0 (see supported list)*"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "vramGb": 0.5,
+   "directX": 9,
+   "storage": {
+    "gb": 12,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 / Windows Vista SP2",
+    "processor": "Intel Core2 Duo E6700 @ 2.6 GHz or AMD Athlon 64 X2 6000+ @ 3.0 GHz or better",
+    "memory": "2 GB Windows XP / Windows Vista / Windows 7",
+    "graphics": "512 MB DirectX 9.0–compliant card with Shader Model 5.0 or higher (see supported list)*",
+    "directx": "DirectX June2010 or newer",
+    "storage": "12 GB",
+    "sound": "Surround Sound 5.1 capable sound card",
+    "peripherals": "Keyboard, mouse, joystick optional (Xbox 360 Controller for Windows recommended)",
+    "internet": "Temporary broadband connection required for one-time product registration at first launch, permanent broadband connection required for multi-player. *This product does not support Windows 98/ME/2000/NT Supported Video Cards at Time of Release: AMD Radeon HD2600XT or better/3000/4000/5000/6000 desktop series NVIDIA GeForce 8600GTS or better/9/GT200/GT400/GT500 desktop series Laptop versions of these cards may work but are NOT officially supported. These chipsets are the only ones that will run this game. For the most up-to-date minimum requirement listings, please visit the FAQ for this game on our support website at ."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "broken",
+  "antiCheatSlug": "assassins-creed-revelations"
+ }
+}

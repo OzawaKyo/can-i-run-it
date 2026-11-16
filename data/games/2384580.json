@@ -1,0 +1,94 @@
+{
+ "id": "2384580",
+ "appid": 2384580,
+ "name": "DYNASTY WARRIORS: ORIGINS",
+ "slug": "dynasty-warriors-origins",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2384580/header.jpg?t=1790733210",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-8400",
+     "AMD Ryzen 5 2600"
+    ],
+    "ids": [
+     "intel-core-i5-8400",
+     "amd-ryzen-5-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060 (VRAM) 6GB",
+     "AMD Radeon RX 590 (VRAM) 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Intel Core i5-8400 or higher, AMD Ryzen 5 2600 or higher",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (VRAM 6GB) or better, AMD Radeon RX 590 (VRAM 8GB) or better",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space",
+    "sound card": "16-bit stereo with 48KHz playback",
+    "additional notes": "Based on a display resolution of 1920x1080 and a frame rate of 30FPS, with the Graphics Quality set to \"Low\" and the Texture Quality set to \"Low.\" Note: Windows 11 system requirements apply when using that OS."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-7700K",
+     "AMD Ryzen 7 5700X"
+    ],
+    "ids": [
+     "intel-core-i7-7700k",
+     "amd-ryzen-7-5700x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2070 (VRAM) 8GB",
+     "AMD Radeon RX 5700 XT (VRAM) 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-5700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11 64-bit",
+    "processor": "Intel Core i7-7700K or higher, AMD Ryzen 7 5700X or higher",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2070 (VRAM 8GB) or better, AMD Radeon RX 5700 XT (VRAM 8GB) or better",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space",
+    "sound card": "16-bit stereo with 48KHz playback",
+    "additional notes": "Based on a display resolution of 1920x1080 and a frame rate of 60FPS, with the Graphics Quality set to \"High\" and the Texture Quality set to \"High.\" Note: - If you are using a widescreen monitor or a monitor with a resolution higher than Full HD, additional VRAM capacity may be required depending on your settings. - Windows 11 system requirements apply when using that OS."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

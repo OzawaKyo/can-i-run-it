@@ -1,0 +1,51 @@
+{
+ "id": "1966900",
+ "appid": 1966900,
+ "name": "20 Minutes Till Dawn",
+ "slug": "20-minutes-till-dawn",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966900/header.jpg?t=1785102761",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual Core+"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 1,
+   "vramGb": 1,
+   "storage": {
+    "gb": 0.09765625,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Dual Core+",
+    "memory": "1 GB RAM",
+    "graphics": "1 GB RAM",
+    "storage": "100 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

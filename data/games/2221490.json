@@ -1,0 +1,92 @@
+{
+ "id": "2221490",
+ "appid": 2221490,
+ "name": "Tom Clancy’s The Division® 2",
+ "slug": "tom-clancy-s-the-division-2",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/4d3f1458f5dc00ceb83c183e33bc4bc6ddd5778b/header_alt_assets_13.jpg?t=1793697026",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX 6350",
+     "Intel Core i5-2500K",
+     "(SSE 4.2 and AVX support required)"
+    ],
+    "ids": [
+     "amd-fx-6350",
+     "intel-core-i5-2500k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD R9 280X () 3GB",
+     "NVIDIA GeForce GTX 780 ( with Shader Model 5.0+) 3GB"
+    ],
+    "ids": [
+     "amd-radeon-r9-280x",
+     "nvidia-geforce-gtx-780"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 77,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+    "processor": "AMD FX 6350, Intel Core i5-2500K, or better (SSE 4.2 and AVX support required)",
+    "memory": "8 GB RAM",
+    "graphics": "AMD R9 280X (3 GB), NVIDIA GeForce GTX 780 (3 GB with Shader Model 5.0+), or better",
+    "directx": "Version 11",
+    "storage": "77 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 1500x",
+     "Intel Core i7-4790",
+     "(SSE 4.2 and AVX support required)"
+    ],
+    "ids": [
+     "amd-ryzen-5-1500x",
+     "intel-core-i7-4790"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 480 () 4GB",
+     "NVIDIA GeForce GTX 970 ( with Shader Model 6.0+) 4GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-480-4gb",
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 12,
+   "storage": {
+    "gb": 77,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+    "processor": "AMD Ryzen 5 1500x, Intel Core i7-4790, or better (SSE 4.2 and AVX support required)",
+    "memory": "8 GB RAM",
+    "graphics": "AMD RX 480 (4 GB), NVIDIA GeForce GTX 970 (4 GB with Shader Model 6.0+), or better",
+    "directx": "Version 12",
+    "storage": "77 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "supported",
+  "antiCheatSlug": "tom-clancys-the-division-2"
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "2456740",
+ "appid": 2456740,
+ "name": "inZOI",
+ "slug": "inzoi",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/89acee5c3d965af802002617d6c130e5e03bd240/header.jpg?t=1792372965",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 10400",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i5-10400",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA RTX 2060 (6G VRAM)",
+     "AMD Radeon RX 5600 XT (6G VRAM)"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-5600-xt"
+    ]
+   },
+   "ramGb": 12,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10/11",
+    "processor": "Intel i5 10400, AMD Ryzen 5 3600",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA RTX 2060 (6G VRAM), AMD Radeon RX 5600 XT (6G VRAM)",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "intel i7 12700k",
+     "AMD Ryzen 7 7800x3D"
+    ],
+    "ids": [
+     "intel-core-i7-12700k",
+     "amd-ryzen-7-7800x3d"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA RTX 3070 (8G VRAM)",
+     "AMD Radeon RX 6800 XT ( VRAM) 16GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-3070",
+     "amd-radeon-rx-6800-xt"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "intel i7 12700k, AMD Ryzen 7 7800x3D",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA RTX 3070 (8G VRAM), AMD Radeon RX 6800 XT (16GB VRAM)",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "4348910",
+ "appid": 4348910,
+ "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+ "slug": "probably-stolen-cyberpunk-shopkeeper-sim",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/b241a3bc1cb144e70a4840157e127212738ea5b3/header_alt_assets_3.jpg?t=1794813849",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "GTX 650ti equivalent"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650-ti"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 10,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 10, x64",
+    "processor": "Intel Core i3 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 650ti equivalent or higher",
+    "directx": "Version 10",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

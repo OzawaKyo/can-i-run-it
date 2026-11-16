@@ -1,0 +1,79 @@
+{
+ "id": "555160",
+ "appid": 555160,
+ "name": "Pavlov",
+ "slug": "pavlov",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555160/header.jpg?t=1770745729",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Quad Core 3 Ghz+"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1070"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Quad Core 3 Ghz+",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 1070",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space",
+    "vr support": "SteamVR or Oculus PC. Standing or Room Scale",
+    "additional notes": "This game uses Easy Anti-cheat"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Six Core 4 Ghz +"
+    ],
+    "ids": [],
+    "estimatedScore": 65
+   },
+   "gpu": {
+    "raw": [
+     "RTX 2080"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2080"
+    ]
+   },
+   "ramGb": 16,
+   "storage": {
+    "gb": 60,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Six Core 4 Ghz +",
+    "memory": "16 GB RAM",
+    "graphics": "RTX 2080",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space",
+    "additional notes": "This game uses Easy Anti-cheat"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "running",
+  "antiCheatSlug": "pavlov-vr"
+ }
+}

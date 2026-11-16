@@ -1,0 +1,87 @@
+{
+ "id": "1934680",
+ "appid": 1934680,
+ "name": "Age of Mythology: Retold",
+ "slug": "age-of-mythology-retold",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/header.jpg?t=1780429786",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i3-4130",
+     "AMD FX 4350 at 2.4GHZ+ with 2 cores",
+     "4 threads and AVX support"
+    ],
+    "ids": [
+     "intel-core-i3-4130",
+     "amd-fx-4350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 645",
+     "AMD Radeon Vega 8",
+     "Intel Iris Graphics 550"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-645-oem",
+     "intel-iris-graphics-550"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel i3-4130 or AMD FX 4350 at 2.4GHZ+ with 2 cores / 4 threads and AVX support",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 645 or AMD Radeon Vega 8 or Intel Iris Graphics 550 or better",
+    "directx": "Version 12",
+    "storage": "25 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "3.6 Ghz i5",
+     "AMD equivalent and AVX support"
+    ],
+    "ids": [],
+    "estimatedScore": 37
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 970",
+     "AMD Radeon RX 570"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-rx-570-4gb",
+     "amd-radeon-rx-570-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "3.6 Ghz i5 or greater or AMD equivalent and AVX support",
+    "memory": "16 GB RAM",
+    "graphics": "Nvidia GeForce GTX 970 or AMD Radeon RX 570 or better",
+    "directx": "Version 12",
+    "storage": "25 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

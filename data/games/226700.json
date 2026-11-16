@@ -1,0 +1,77 @@
+{
+ "id": "226700",
+ "appid": 226700,
+ "name": "Infestation: The New Beginning",
+ "slug": "infestation-the-new-beginning",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/226700/header.jpg?t=1732532491",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.4 GHZ Quad Core"
+    ],
+    "ids": [],
+    "estimatedScore": 33
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 460/ATI Radeon HD 5850"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 SP1 (enhanced for 64-bit OS)",
+    "processor": "2.4 GHZ Quad Core or better",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GTX 460/ATI Radeon HD 5850",
+    "directx": "9.0",
+    "storage": "10 GB HD space",
+    "sound": "Windows Compatible Sound Card",
+    "other requirements": "Broadband Internet connection"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX 8150 3.6 GHz",
+     "Intel Core i7 2600 3.4 GHz"
+    ],
+    "ids": [
+     "amd-fx-8150",
+     "intel-core-i7-2600"
+    ]
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 6,
+   "directX": 9,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "AMD FX 8150 3.6 GHz or Intel Core i7 2600 3.4 GHz or better",
+    "memory": "6 GB RAM",
+    "directx": "9.0b",
+    "storage": "15 GB HD space",
+    "sound": "Windows Compatible Sound Card",
+    "other requirements": "Broadband Internet connection"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "borked"
+ }
+}

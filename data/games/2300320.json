@@ -1,0 +1,99 @@
+{
+ "id": "2300320",
+ "appid": 2300320,
+ "name": "Farming Simulator 25",
+ "slug": "farming-simulator-25",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300320/c2a205133d23cd24faf3c152d972a1d0177661b8/header.jpg?t=1793106374",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-6400",
+     "AMD Ryzen 5 1400"
+    ],
+    "ids": [
+     "intel-core-i5-6400",
+     "amd-ryzen-5-1400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 1050Ti",
+     "AMD Radeon RX 470 graphics card (min VRAM, DX12 support) 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-ti",
+     "amd-radeon-rx-470-4gb",
+     "amd-radeon-rx-470-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i5-6400, AMD Ryzen 5 1400, or better",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1050Ti, AMD Radeon RX 470 graphics card or better (min 3GB VRAM, DX12 support)",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space",
+    "sound card": "Sound card",
+    "vr support": "N/A",
+    "additional notes": "These system requirements can´t cover all possible system configurations so issues could occur that avoid or influence the functionality in some cases."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-10700",
+     "AMD Ryzen 7 3800X"
+    ],
+    "ids": [
+     "intel-core-i7-10700",
+     "amd-ryzen-7-3800x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce RTX 2070",
+     "AMD Radeon RX 5700 XT",
+     "Intel Arc A750 graphics card (min VRAM, DX12 support) 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-5700-xt",
+     "intel-arc-a750"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64bit",
+    "processor": "Intel Core i7-10700, AMD Ryzen 7 3800X, or better",
+    "memory": "12 GB RAM",
+    "graphics": "Nvidia GeForce RTX 2070, AMD Radeon RX 5700 XT, Intel Arc A750 graphics card or better (min 8GB VRAM, DX12 support)",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space",
+    "sound card": "Sound card",
+    "vr support": "N/A",
+    "additional notes": "These system requirements can´t cover all possible system configurations so issues could occur that influence the functionality in some cases."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

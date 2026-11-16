@@ -1,0 +1,78 @@
+{
+ "id": "219890",
+ "appid": 219890,
+ "name": "Antichamber",
+ "slug": "antichamber",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219890/header.jpg?t=1525832559",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.0+ GHz (dual core recommended)"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA 8000 series (Shader Model 3 Compatible)"
+    ],
+    "ids": [
+     "nvidia-geforce-8100-plus-nforce-720a",
+     "nvidia-geforce-8200",
+     "nvidia-geforce-8300",
+     "nvidia-geforce-8300-gs",
+     "nvidia-geforce-8400",
+     "nvidia-geforce-8400-gs-pci",
+     "nvidia-geforce-8400-gs-pci-rev-2",
+     "nvidia-geforce-8400-se-128mb",
+     "nvidia-geforce-8400-se-256mb",
+     "nvidia-geforce-8400-se-512mb",
+     "nvidia-geforce-8400-gs-256mb",
+     "nvidia-geforce-8400-gs-512mb",
+     "nvidia-geforce-8400-gs-rev-2",
+     "nvidia-geforce-8400-gs-rev-3",
+     "nvidia-geforce-8500-gt-256mb",
+     "nvidia-geforce-8500-gt-512mb",
+     "nvidia-geforce-8500-gt-1gb",
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "nvidia-geforce-8800-gs-384mb",
+     "nvidia-geforce-8800-gs-768mb",
+     "nvidia-geforce-8800-gt",
+     "nvidia-geforce-8800-gt-mac-edition",
+     "nvidia-geforce-8800-gts-320",
+     "nvidia-geforce-8800-gts-640",
+     "nvidia-geforce-8800-gts-core-112",
+     "nvidia-geforce-8800-gts-512",
+     "nvidia-geforce-8800-gtx",
+     "nvidia-geforce-8800-ultra"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP2, Vista, or Windows 7",
+    "processor": "2.0+ GHz or better (dual core recommended)",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA 8000 series or higher (Shader Model 3 Compatible)",
+    "directx": "9.0c",
+    "storage": "1 GB HD space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

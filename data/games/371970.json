@@ -1,0 +1,74 @@
+{
+ "id": "371970",
+ "appid": 371970,
+ "name": "Barony",
+ "slug": "barony",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371970/0f8975e4b2af32eb0d68c309f1eff56d470e73dc/header.jpg?t=1785259607",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 2.5 ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 630 (OpenGL 3.2+)"
+    ],
+    "ids": [
+     "intel-hd-graphics-630"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel i5 2.5 ghz",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD Graphics 630 (OpenGL 3.2+)",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i5 3.5 ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Geforce GTX 1050"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1"
+    ]
+   },
+   "ramGb": 8,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "Intel i5 3.5 ghz",
+    "memory": "8 GB RAM",
+    "graphics": "Geforce GTX 1050",
+    "network": "Broadband Internet connection",
+    "storage": "4 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

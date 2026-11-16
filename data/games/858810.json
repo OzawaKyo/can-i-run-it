@@ -1,0 +1,76 @@
+{
+ "id": "858810",
+ "appid": 858810,
+ "name": "Dawn of Man",
+ "slug": "dawn-of-man",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858810/header.jpg?t=1762552523",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Dual Core"
+    ],
+    "ids": [],
+    "estimatedScore": 23
+   },
+   "gpu": {
+    "raw": [
+     "VRAM (Shader Model 3) 1GB"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 (64 bit)",
+    "processor": "2 GHz Dual Core",
+    "memory": "4 GB RAM",
+    "graphics": "1 GB VRAM (Shader Model 3)",
+    "directx": "Version 11",
+    "storage": "2 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "AMD 2GB",
+     "NVIDIA Card"
+    ],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10 (64 bit)",
+    "processor": "Intel Core i5 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "2 GB AMD or NVIDIA Card",
+    "directx": "Version 11",
+    "storage": "2 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

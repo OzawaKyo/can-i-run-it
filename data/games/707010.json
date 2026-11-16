@@ -1,0 +1,89 @@
+{
+ "id": "707010",
+ "appid": 707010,
+ "name": "Will To Live Online",
+ "slug": "will-to-live-online",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/707010/header.jpg?t=1784890540",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 3100 MHz"
+    ],
+    "ids": [],
+    "estimatedScore": 32
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1060/ AMD RX 580 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i3 3100 MHz",
+    "memory": "12 GB RAM",
+    "graphics": "GeForce GTX 1060 6GB/ AMD RX 580",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "45 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 12400 /AMD Ryzen 5 5600"
+    ],
+    "ids": [
+     "intel-core-i5-12400",
+     "amd-ryzen-5-5600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 1060/ AMD RX 580 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "directX": 12,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11",
+    "processor": "Intel Core i5 12400 /AMD Ryzen 5 5600",
+    "memory": "16 GB RAM",
+    "graphics": "GeForce GTX 1060 6GB/ AMD RX 580",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "45 GB available space",
+    "additional notes": "SSD Recommended"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver",
+  "antiCheat": "running",
+  "antiCheatSlug": "will-to-live-online"
+ }
+}

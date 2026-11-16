@@ -1,0 +1,45 @@
+{
+ "id": "301640",
+ "appid": 301640,
+ "name": "Zombie Army Trilogy",
+ "slug": "zombie-army-trilogy",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301640/header.jpg?t=1734453776",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual-core CPU with SSE3 (Intel Pentium D 3GHz / AMD Athlon 64 X2 4200)"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Microsoft DirectX 10.0 compatible graphics card with 512 MB of memory (ATI Radeon HD 5870)"
+    ],
+    "ids": []
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows Vista (Service Pack 2) or Windows 7 or Windows 8. Windows XP is NOT supported.",
+    "processor": "Dual-core CPU with SSE3 (Intel Pentium D 3GHz / AMD Athlon 64 X2 4200) or better",
+    "memory": "2 GB RAM",
+    "graphics": "Microsoft DirectX 10.0 compatible graphics card with 512 MB of memory (ATI Radeon HD 5870) or better",
+    "directx": "Version 11",
+    "storage": "15 GB available space",
+    "sound card": "Microsoft DirectX 10.0 compatible sound card or better",
+    "additional notes": "Windows XP is NOT supported. Ensure graphics and audio drivers are up to date."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

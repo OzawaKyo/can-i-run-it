@@ -1,0 +1,93 @@
+{
+ "id": "213610",
+ "appid": 213610,
+ "name": "Sonic Adventure 2",
+ "slug": "sonic-adventure-2",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213610/header.jpg?t=1762751748",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Pentium 4 @ 3.2 GHz/Athlon 64 3000+ & above"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "256 MB (NVIDIA GeForce 8600/AT Radeon HD3650) & above"
+    ],
+    "ids": [
+     "nvidia-geforce-8600-gs",
+     "nvidia-geforce-8600-gt-512mb",
+     "nvidia-geforce-8600-gt-1gb",
+     "nvidia-geforce-8600-gt-mac-edition",
+     "nvidia-geforce-8600-gts-256mb",
+     "nvidia-geforce-8600-gts-512mb",
+     "nvidia-geforce-8600-gts-mac-edition",
+     "amd-radeon-hd-3650-256mb",
+     "amd-radeon-hd-3650-512mb",
+     "amd-radeon-hd-3650-1gb"
+    ]
+   },
+   "ramGb": 1,
+   "directX": 9,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP/Vista/Win7",
+    "processor": "Pentium 4 @ 3.2 GHz/Athlon 64 3000+ or Equivalent & above",
+    "memory": "1 GB RAM",
+    "graphics": "256 MB (NVIDIA GeForce 8600/AT Radeon HD3650) & above",
+    "directx": "9.0c",
+    "storage": "3 GB HD space",
+    "sound": "DirectX Compatible",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 DUO @ 2.4 GHz/Athlon 64 X2 4200+ & above"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "512 MB (NVIDIA GeForce GTS250/ATI Radeon HD 4850) & above"
+    ],
+    "ids": [
+     "nvidia-geforce-gts-250-g92-426",
+     "nvidia-geforce-gts-250-g92-428",
+     "amd-radeon-hd-4850-512mb",
+     "amd-radeon-hd-4850-1gb",
+     "amd-radeon-hd-4850-2gb"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core 2 DUO @ 2.4 GHz/Athlon 64 X2 4200+ & above",
+    "memory": "2 GB RAM",
+    "graphics": "512 MB (NVIDIA GeForce GTS250/ATI Radeon HD 4850) & above",
+    "directx": "11",
+    "storage": "6 GB HD space",
+    "sound": "DirectX Compatible",
+    "additional notes": "Microsoft no longer supports Windows 10 or older versions."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

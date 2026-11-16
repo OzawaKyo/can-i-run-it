@@ -1,0 +1,88 @@
+{
+ "id": "341940",
+ "appid": 341940,
+ "name": "Hatred",
+ "slug": "hatred",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/341940/header.jpg?t=1792502044",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.6 GHz Intel Core i5-750",
+     "3.2 GHz AMD Phenom II X4 955"
+    ],
+    "ids": [
+     "intel-core-i5-750",
+     "amd-phenom-ii-x4-955"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 460",
+     "AMD Radeon HD5850 ( VRAM) 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "amd-radeon-hd-5850-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows Vista (SP2) with DirectX 11 update (KB971512-x64), Windows 7 (Service Pack 1) , Windows 8.1 and Windows 10 - (64-bit only).",
+    "processor": "2.6 GHz Intel Core i5-750 or 3.2 GHz AMD Phenom II X4 955",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 460 or AMD Radeon HD5850 (1 GB VRAM)",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "sound card": "Integrated or dedicated DirectX 11 compatible soundcard",
+    "additional notes": "Hatred will launch only on \"64-bit\" version of operating system."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Octa-Core",
+     "Intel Quad-Core processor running at 3.4 GHz (AMD FX X8 8350 or Intel Core i5 3570 architectures are recommended)"
+    ],
+    "ids": [],
+    "estimatedScore": 47
+   },
+   "gpu": {
+    "raw": [
+     "AMD/NVIDIA dedicated with at least 2048MB of dedicated VRAM and with at least DirectX 11 and Shader Model 5.0 support. AMD Radeon R9 285 and NVIDIA GeForce GTX 670 and above are recommended graphic cards."
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-670"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 5,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 (Service Pack 1) / Windows 8 / Windows 8.1 / Windows 10 / (64-bit only)",
+    "processor": "AMD Octa-Core / Intel Quad-Core processor running at 3.4 GHz (AMD FX X8 8350 or Intel Core i5 3570 or newer architectures are recommended)",
+    "memory": "8 GB RAM",
+    "graphics": "AMD/NVIDIA dedicated with at least 2048MB of dedicated VRAM and with at least DirectX 11 and Shader Model 5.0 support. AMD Radeon R9 285 and NVIDIA GeForce GTX 670 and above are recommended graphic cards.",
+    "directx": "Version 11",
+    "storage": "5 GB available space",
+    "sound card": "Integrated or dedicated DirectX 11 compatible soundcard",
+    "additional notes": "Hatred will launch only on \"64-bit\" version of operating system."
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

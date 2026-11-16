@@ -1,0 +1,70 @@
+{
+ "id": "313120",
+ "appid": 313120,
+ "name": "Stranded Deep",
+ "slug": "stranded-deep",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg?t=1785441084",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "X64 Quad Core CPU 2.0GHz+"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "X64 Quad Core CPU 2.0GHz+",
+    "memory": "8 GB RAM",
+    "graphics": "2GB VRAM",
+    "directx": "Version 11",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "X64 Quad Core CPU 3.0GHz+"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "ramGb": 8,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (64-bit)",
+    "processor": "X64 Quad Core CPU 3.0GHz+",
+    "memory": "8 GB RAM",
+    "graphics": "4GB VRAM",
+    "directx": "Version 11",
+    "storage": "4 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

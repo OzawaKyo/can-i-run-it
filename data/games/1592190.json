@@ -1,0 +1,88 @@
+{
+ "id": "1592190",
+ "appid": 1592190,
+ "name": "BONELAB",
+ "slug": "bonelab",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1592190/header.jpg?t=1672959398",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 7600 3.5ghz+"
+    ],
+    "ids": [
+     "intel-core-i5-7600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 1070",
+     "1660TI ( VRAM) 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1070",
+     "nvidia-geforce-gtx-1660-ti"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i5 7600 3.5ghz+",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 1070 / 1660TI (6GB VRAM)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "-",
+    "vr support": "SteamVR or OpenXR",
+    "additional notes": "CPU performance required for physics calculations! SSD Required, 32GB Windows Virtual Memory Cache"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 9700k",
+     "3.6 ghz+"
+    ],
+    "ids": [
+     "intel-core-i7-9700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "We recommend a 2070/2060super/1080ti so you can have headroom to play with. Any GPU that ran Boneworks well should be great."
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 16,
+   "directX": 11,
+   "storage": {
+    "gb": 20,
+    "ssd": true
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i7 9700k or greater, 3.6 ghz+",
+    "memory": "16 GB RAM",
+    "graphics": "We recommend a 2070/2060super/1080ti or greater so you can have headroom to play with. Any GPU that ran Boneworks well should be great.",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "20 GB available space",
+    "sound card": "-",
+    "additional notes": "CPU performance required for physics calculations! SSD Required, 32GB Windows Virtual Memory Cache"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "silver"
+ }
+}

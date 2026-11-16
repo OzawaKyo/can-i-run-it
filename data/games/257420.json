@@ -1,0 +1,89 @@
+{
+ "id": "257420",
+ "appid": 257420,
+ "name": "Serious Sam 4",
+ "slug": "serious-sam-4",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257420/header.jpg?t=1781867663",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "4-core CPU @ 2.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 35
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 780/970/1050",
+     "AMD Radeon 7950/280/470 ( VRAM) 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-780",
+     "nvidia-geforce-gtx-970",
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-hd-7950",
+     "amd-radeon-r9-280"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 42,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "4-core CPU @ 2.5 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "nVidia GeForce 780/970/1050 or AMD Radeon 7950/280/470 (3 GB VRAM)",
+    "directx": "Version 11",
+    "storage": "42 GB available space",
+    "additional notes": "Requirements are based on 720p rendering resolution at 30 FPS"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "8-core CPU @ 3.3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 34
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 1080/2060",
+     "AMD Radeon Vega64/5700 ( VRAM) 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410",
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 42,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (1909)",
+    "processor": "8-core CPU @ 3.3 GHz",
+    "memory": "16 GB RAM",
+    "graphics": "nVidia GeForce 1080/2060 or AMD Radeon Vega64/5700 (8 GB VRAM)",
+    "directx": "Version 11",
+    "storage": "42 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

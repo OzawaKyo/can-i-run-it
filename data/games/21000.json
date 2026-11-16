@@ -1,0 +1,40 @@
+{
+ "id": "21000",
+ "appid": 21000,
+ "name": "LEGO® Batman™: The Videogame",
+ "slug": "lego-batman-the-videogame",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21000/header.jpg?t=1794606586",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel P3 1.5 GHz",
+     "AMD Athlon XP"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "128 MB with Shader Model 2.0 capability (Shader Model 3.0 recommended)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.25,
+   "vramGb": 0.125,
+   "directX": 9,
+   "raw": {
+    "supported os": "Windows Vista/XP",
+    "processor": "Intel P3 1.5 GHz or AMD Athlon XP",
+    "memory": "256 MB RAM, 512 MB RAM required for Windows Vista",
+    "graphics": "128 MB with Shader Model 2.0 capability (Shader Model 3.0 recommended)"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

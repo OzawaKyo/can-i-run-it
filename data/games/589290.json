@@ -1,0 +1,93 @@
+{
+ "id": "589290",
+ "appid": 589290,
+ "name": "Holdfast: Nations At War",
+ "slug": "holdfast-nations-at-war",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/589290/674121abacbfcc7405a5da86c398b7923912590c/header.jpg?t=1789730298",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-4670k",
+     "AMD Ryzen 7 1800X"
+    ],
+    "ids": [
+     "intel-core-i5-4670k",
+     "amd-ryzen-7-1800x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GT 1030",
+     "Radeon RX 550"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107",
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 22,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit or Windows 11 64-bit",
+    "processor": "Intel i5-4670k or AMD Ryzen 7 1800X",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GT 1030 or Radeon RX 550",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "22 GB available space",
+    "additional notes": "Game also playable on GeForce Now."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7-8700k",
+     "AMD Ryzen 5 3600X"
+    ],
+    "ids": [
+     "intel-core-i7-8700k",
+     "amd-ryzen-5-3600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 1060 6GB",
+     "Radeon RX 580 8GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 10,
+   "vramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 22,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit or Windows 11 64-bit",
+    "processor": "Intel i7-8700k or AMD Ryzen 5 3600X",
+    "memory": "10 GB RAM",
+    "graphics": "Nvidia GTX 1060 6GB or Radeon RX 580 8GB",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "22 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

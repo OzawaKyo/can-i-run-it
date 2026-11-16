@@ -1,0 +1,83 @@
+{
+ "id": "41700",
+ "appid": 41700,
+ "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+ "slug": "s-t-a-l-k-e-r-call-of-pripyat",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/41700/header.jpg?t=1747756035",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium 4 2.0 Ghz",
+     "AMD XP 2200+"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "128 MB DirectX 8.0 compatible card",
+     "nVIDIA GeForce 5700",
+     "ATI Radeon 9600"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 0.75,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP(Service Pack 2)/Microsoft Windows 2000 SP4",
+    "processor": "Intel Pentium 4 2.0 Ghz / AMD XP 2200+",
+    "graphics": "128 MB DirectX 8.0 compatible card / nVIDIA GeForce 5700 / ATI Radeon 9600",
+    "memory": "768 MB RAM",
+    "sound": "DirectX 9.0 compatible sound card",
+    "storage": "6 GB free hard disc space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E6400",
+     "AMD 64 X2 4200+"
+    ],
+    "ids": [
+     "intel-core-2-duo-e6400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "256 MB DirectX 9.0c compatible card*",
+     "nVIDIA GeForce 8800 GT",
+     "ATI Radeon HD 2900 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-8800-gt",
+     "amd-radeon-hd-2900-xt-512mb",
+     "amd-radeon-hd-2900-xt-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "supported os": "Microsoft Windows XP/Vista (SP1)",
+    "processor": "Intel Core 2 Duo E6400 / AMD 64 X2 4200+",
+    "graphics": "256 MB DirectX 9.0c compatible card* / nVIDIA GeForce 8800 GT / ATI Radeon HD 2900 XT",
+    "memory": "2 GB RAM",
+    "sound": "DirectX 9.0 compatible sound card",
+    "storage": "10 GB free hard disc space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

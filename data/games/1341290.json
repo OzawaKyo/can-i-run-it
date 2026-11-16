@@ -1,0 +1,80 @@
+{
+ "id": "1341290",
+ "appid": 1341290,
+ "name": "We Were Here Forever",
+ "slug": "we-were-here-forever",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1341290/header.jpg?t=1792416577",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 4000 series"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 750TI",
+     "integrated graphics not supported"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-750-ti"
+    ]
+   },
+   "ramGb": 6,
+   "directX": 11,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Intel Core i3 4000 series or equivalent",
+    "memory": "6 GB RAM",
+    "graphics": "Nvidia GTX 750TI or equivalent, integrated graphics not supported",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "additional notes": "A working PC-compatible microphone"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 4000 series"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GTX 970",
+     "integrated graphics not supported"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 25,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64 bit",
+    "processor": "Intel Core i5 4000 series or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GTX 970 or equivalent, integrated graphics not supported",
+    "directx": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "25 GB available space",
+    "additional notes": "A working PC-compatible microphone"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "339340",
+ "appid": 339340,
+ "name": "Resident Evil 0",
+ "slug": "resident-evil-0",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/339340/header.jpg?t=1768953920",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 2.4 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX260"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-260"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows10",
+    "processor": "Intel Core 2 Duo 2.4 GHz, or better",
+    "memory": "2 GB RAM",
+    "graphics": "NVIDIA GeForce GTX260, or better",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "13 GB available space",
+    "sound card": "DirectSound compatible (must support DirectX 9.0c or higher)",
+    "additional notes": "Supports Keyboard +Mouse. Genuine Xbox 360 PC compatible controller recommended."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Quad 2.7 GHz",
+     "Intel Core i7-9700 3.0GHz"
+    ],
+    "ids": [
+     "intel-core-i7-9700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 560",
+     "NVIDIA GeForce RTX 3060"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-560",
+     "nvidia-geforce-rtx-3060",
+     "nvidia-geforce-rtx-3060-12-gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 13,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows10 / Windows11",
+    "processor": "Intel Core 2 Quad 2.7 GHz / Intel Core i7-9700 3.0GHz, or better",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 560 / NVIDIA GeForce RTX 3060, or better",
+    "directx": "Version 9.0c",
+    "network": "Broadband Internet connection",
+    "storage": "13 GB available space",
+    "sound card": "DirectSound compatible (must support DirectX 9.0c or higher)",
+    "additional notes": "Supports Keyboard +Mouse. Genuine Xbox 360 PC compatible controller recommended."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

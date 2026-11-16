@@ -1,0 +1,69 @@
+{
+ "id": "690830",
+ "appid": 690830,
+ "name": "Foundation",
+ "slug": "foundation",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1794579002",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-4460"
+    ],
+    "ids": [
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GTX 960",
+     "R9 290 - Video Memory 3GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-960",
+     "amd-radeon-r9-290"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-4460",
+    "memory": "8 GB RAM",
+    "graphics": "GTX 960 / R9 290 - 3 GB Video Memory",
+    "additional notes": "OpenGL 4.3"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-6700K"
+    ],
+    "ids": [
+     "intel-core-i7-6700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "RTX 2060"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka"
+    ]
+   },
+   "ramGb": 16,
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i7-6700K",
+    "memory": "16 GB RAM",
+    "graphics": "RTX 2060"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

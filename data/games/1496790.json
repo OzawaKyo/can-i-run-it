@@ -1,0 +1,88 @@
+{
+ "id": "1496790",
+ "appid": 1496790,
+ "name": "Gotham Knights",
+ "slug": "gotham-knights",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1496790/header.jpg?t=1793898273",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-9600K (3.7 GHz)",
+     "AMD Ryzen 5 3600 (3.60 GHz)"
+    ],
+    "ids": [
+     "intel-core-i5-9600k",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660 Ti",
+     "AMD Radeon RX 590"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660-ti",
+     "amd-radeon-rx-590"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i5-9600K (3.7 GHz) OR AMD Ryzen 5 3600 (3.60 GHz)",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660 Ti OR AMD Radeon RX 590",
+    "directx": "Version 12",
+    "storage": "45 GB available space",
+    "additional notes": "1080p / 60fps / Low Quality Settings"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-10700K (3.8 GHz)",
+     "AMD Ryzen 5 5600X (3.7 GHz)"
+    ],
+    "ids": [
+     "intel-core-i7-10700k",
+     "amd-ryzen-5-5600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce RTX 2070",
+     "AMD Radeon RX 5700 XT"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2070",
+     "amd-radeon-rx-5700-xt"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 45,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel Core i7-10700K (3.8 GHz) or AMD Ryzen 5 5600X (3.7 GHz)",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce RTX 2070 or AMD Radeon RX 5700 XT",
+    "directx": "Version 12",
+    "storage": "45 GB available space",
+    "additional notes": "1080p / 60fps / High Quality Settings"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

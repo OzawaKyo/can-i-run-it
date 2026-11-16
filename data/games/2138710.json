@@ -1,0 +1,87 @@
+{
+ "id": "2138710",
+ "appid": 2138710,
+ "name": "Sifu",
+ "slug": "sifu",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-4350",
+     "Intel Core i5-3470"
+    ],
+    "ids": [
+     "amd-fx-4350",
+     "intel-core-i5-3470"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Radeon R7 250",
+     "GeForce GT 640"
+    ],
+    "ids": [
+     "amd-radeon-r7-250-1gb",
+     "amd-radeon-r7-250-2gb",
+     "nvidia-geforce-gt-640"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 22,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 8.1",
+    "processor": "AMD FX-4350 or Intel Core i5-3470 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "Radeon R7 250 or GeForce GT 640 or equivalent",
+    "directx": "Version 11",
+    "storage": "22 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD FX-9590",
+     "Intel Core i7-6700K"
+    ],
+    "ids": [
+     "amd-fx-9590",
+     "intel-core-i7-6700k"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "GeForce GTX 970",
+     "Radeon R9 390X"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-970",
+     "amd-radeon-r9-390x"
+    ]
+   },
+   "ramGb": 10,
+   "directX": 12,
+   "storage": {
+    "gb": 22,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "AMD FX-9590 or Intel Core i7-6700K or equivalent",
+    "memory": "10 GB RAM",
+    "graphics": "GeForce GTX 970 or Radeon R9 390X or equivalent",
+    "directx": "Version 12",
+    "storage": "22 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

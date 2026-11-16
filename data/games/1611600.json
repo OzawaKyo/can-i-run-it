@@ -1,0 +1,91 @@
+{
+ "id": "1611600",
+ "appid": 1611600,
+ "name": "WARNO",
+ "slug": "warno",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1611600/header.jpg?t=1794479124",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 cores Intel (Intel Celeron G6900, G4920 or i3-2100)",
+     "AMD CPU (AMD Athlon 200GE)"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GT 1030 (Legacy: Nvidia GeForce GTS 450)",
+     "AMD Radeon RX 460 (Legacy: ATI Radeon HD 5570)"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-1030-gp108-310",
+     "nvidia-geforce-gt-1030-gp108-300",
+     "nvidia-geforce-gt-1030-gk107",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 11 / 10 / 8.1 / 7 with Service Pack 1",
+    "processor": "2 cores Intel (Intel Celeron G6900, G4920 or i3-2100) | AMD CPU (AMD Athlon 200GE)",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GT 1030 (Legacy: Nvidia GeForce GTS 450), AMD Radeon RX 460 (Legacy: ATI Radeon HD 5570)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space",
+    "sound card": "DirectX Compatible Sound Card"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "4 cores Intel (Intel i3-12100 or i3-8100)",
+     "AMD CPU (AMD Ryzen 3 1200)"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia Geforce GTX 1060 (Legacy: Nvidia Geforce GTX 780) 3GB",
+     "AMD Radeon RX 580 (Legacy: AMD Radeon R9 290X)"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 11,
+   "storage": {
+    "gb": 50,
+    "ssd": false
+   },
+   "raw": {
+    "os": "64-bit Windows 11 / 10 / 8.1 / 7 with Service Pack 1",
+    "processor": "4 cores Intel (Intel i3-12100 or i3-8100) | AMD CPU (AMD Ryzen 3 1200)",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia Geforce GTX 1060 3 GB (Legacy: Nvidia Geforce GTX 780), AMD Radeon RX 580 (Legacy: AMD Radeon R9 290X)",
+    "directx": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space",
+    "sound card": "DirectX Compatible Sound Card"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

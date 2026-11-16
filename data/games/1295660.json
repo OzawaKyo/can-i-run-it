@@ -1,0 +1,96 @@
+{
+ "id": "1295660",
+ "appid": 1295660,
+ "name": "Sid Meier's Civilization VII",
+ "slug": "sid-meier-s-civilization-vii",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295660/header.jpg?t=1792718077",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5-4690",
+     "Intel i3-10100",
+     "AMD Ryzen 3 1200"
+    ],
+    "ids": [
+     "intel-core-i5-4690",
+     "intel-core-i3-10100",
+     "amd-ryzen-3-1200",
+     "amd-ryzen-3-1200-af"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GTX 1050",
+     "AMD RX 460",
+     "Intel Arc A380"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1050-gp107-300",
+     "nvidia-geforce-gtx-1050-gp107-301-k1",
+     "amd-radeon-rx-460-2gb",
+     "amd-radeon-rx-460-4gb",
+     "intel-arc-a380"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 10 64 Bit",
+    "processor": "Intel i5-4690 / Intel i3-10100 / AMD Ryzen 3 1200",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 1050 / AMD RX 460 / Intel Arc A380",
+    "directx": "Version 12",
+    "storage": "20 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-10400",
+     "AMD Ryzen 5 3600X"
+    ],
+    "ids": [
+     "intel-core-i5-10400",
+     "amd-ryzen-5-3600x"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA RTX 2060",
+     "AMD RX 6600",
+     "Intel Arc A750"
+    ],
+    "ids": [
+     "nvidia-geforce-rtx-2060-tu106-200a-ka",
+     "nvidia-geforce-rtx-2060-tu106-300-ka",
+     "amd-radeon-rx-6600",
+     "intel-arc-a750"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 20,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 10 64 Bit",
+    "processor": "Intel Core i5-10400 / AMD Ryzen 5 3600X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA RTX 2060 / AMD RX 6600 / Intel Arc A750",
+    "directx": "Version 12",
+    "storage": "20 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

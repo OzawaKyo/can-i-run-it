@@ -1,0 +1,88 @@
+{
+ "id": "1677280",
+ "appid": 1677280,
+ "name": "Company of Heroes 3",
+ "slug": "company-of-heroes-3",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677280/11906380c3d955f3c0fab3dae985ad8aa3ff26d5/header_alt_assets_9.jpg?t=1794506606",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel i5 6th-gen",
+     "AMD Ryzen desktop processor with 4 cores @3GHz",
+     "performance"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 950",
+     "AMD Radeon R9 370",
+     "performance"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-950",
+     "amd-radeon-r7-370-2gb",
+     "amd-radeon-r7-370-4gb",
+     "amd-radeon-r9-370-2gb",
+     "amd-radeon-r9-370-4gb"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel i5 6th-gen or AMD Ryzen desktop processor with 4 cores @3GHz, or equivalent performance",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 950, AMD Radeon R9 370, or equivalent performance",
+    "directx": "Version 12",
+    "storage": "40 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel i7 8th-gen",
+     "AMD Ryzen desktop processor with 8 cores @ 3GHz performance"
+    ],
+    "ids": [],
+    "estimatedScore": 31
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1660",
+     "AMD Radeon RX 5600",
+     "performance"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660",
+     "amd-radeon-rx-5600"
+    ]
+   },
+   "ramGb": 16,
+   "directX": 12,
+   "storage": {
+    "gb": 40,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit",
+    "processor": "Intel i7 8th-gen or AMD Ryzen desktop processor with 8 cores @ 3GHz or equivalent performance",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1660, AMD Radeon RX 5600, or equivalent performance",
+    "directx": "Version 12",
+    "storage": "40 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

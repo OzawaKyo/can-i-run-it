@@ -1,0 +1,38 @@
+{
+ "id": "337340",
+ "appid": 337340,
+ "name": "Finding Paradise",
+ "slug": "finding-paradise",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/337340/9ccd2472b64493cce208bb178d8c0705e849465a/header.jpg?t=1780927618",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium III 800 MHz+"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "1024x768 High Color +"
+    ],
+    "ids": []
+   },
+   "ramGb": 1,
+   "raw": {
+    "os": "XP, Vista, 7, 8, 10",
+    "processor": "Intel Pentium III 800 MHz+",
+    "memory": "1 GB RAM",
+    "graphics": "1024x768 High Color +",
+    "sound card": "DirectX: 9.0+",
+    "additional notes": "Practically runs on a potato."
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "2114740",
+ "appid": 2114740,
+ "name": "Blasphemous 2",
+ "slug": "blasphemous-2",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2114740/f159b10bb670fabbe0a4a1837b16547f9f9f6a78/header.jpg?t=1790929406",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E8400",
+     "AMD Phenom II X2 550"
+    ],
+    "ids": [
+     "intel-core-2-duo-e8400",
+     "amd-phenom-ii-x2-550"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 520 1GB",
+     "AMD Radeon HD 7470 1GB",
+     "Intel HD Graphics 4400"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-520",
+     "nvidia-geforce-gt-520-1gb",
+     "amd-radeon-hd-7470-1gb",
+     "intel-hd-graphics-4400"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core 2 Duo E8400 or AMD Phenom II X2 550",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GT 520, 1 GB or AMD Radeon HD 7470, 1 GB or Intel HD Graphics 4400",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3-550",
+     "AMD FX-4100"
+    ],
+    "ids": [
+     "intel-core-i3-550",
+     "amd-fx-4100"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GT 710 1GB",
+     "AMD Radeon R7 240 1GB",
+     "Intel HD Graphics 530"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-710-gk208-203",
+     "nvidia-geforce-gt-710-gf119-300",
+     "amd-radeon-r5-240-1gb",
+     "intel-hd-graphics-530"
+    ]
+   },
+   "ramGb": 6,
+   "vramGb": 1,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i3-550 or AMD FX-4100",
+    "memory": "6 GB RAM",
+    "graphics": "NVIDIA GeForce GT 710, 1 GB or AMD Radeon R7 240, 1 GB or Intel HD Graphics 530",
+    "storage": "4 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

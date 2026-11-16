@@ -1,0 +1,90 @@
+{
+ "id": "2369390",
+ "appid": 2369390,
+ "name": "Far Cry® 6",
+ "slug": "far-cry-6",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/64af0c6b70ef233bbdff1e5ffe0e397481efb3c9/header.jpg?t=1793372616",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 1200 @ 3. GHz",
+     "Intel Core i5-4460 @ 3.1 GHz (AVX, AVX2 and SSE 4.2 support required)"
+    ],
+    "ids": [
+     "intel-core-i5-4460"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 460 () 4GB",
+     "NVIDIA GeForce GTX 960 () 4GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-460-4gb",
+     "nvidia-geforce-gtx-960"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 12,
+   "directX": 12,
+   "storage": {
+    "gb": 170,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (20H1 version or newer, 64-bit versions)",
+    "processor": "AMD Ryzen 3 1200 @ 3. GHz or Intel Core i5-4460 @ 3.1 GHz (AVX, AVX2 and SSE 4.2 support required)",
+    "memory": "8 GB RAM",
+    "graphics": "AMD RX 460 (4 GB) or NVIDIA GeForce GTX 960 (4 GB)",
+    "directx": "Version 12",
+    "storage": "170 GB available space",
+    "additional notes": "Please note that the minimum requirement for running the HD Texture Pack for Far Cry 6 is 12GB of VRAM. For 4K configurations, you will need 16GB of VRAM. If you download and run the HD Texture Pack with lower VRAM capabilities, you will encounter performance issues while playing."
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 5 3600X @ 3.8 GHz",
+     "Intel Core i7-7700 @ 3.6 GHz (AVX, AVX2 and SSE 4.2 support required)"
+    ],
+    "ids": [
+     "amd-ryzen-5-3600x",
+     "intel-core-i7-7700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX Vega 64 () 8GB",
+     "NVIDIA GeForce GTX 1080 () 8GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-vega-64",
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 12,
+   "directX": 12,
+   "storage": {
+    "gb": 170,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 (20H1 version or newer, 64-bit versions)",
+    "processor": "AMD Ryzen 5 3600X @ 3.8 GHz or Intel Core i7-7700 @ 3.6 GHz (AVX, AVX2 and SSE 4.2 support required)",
+    "memory": "16 GB RAM",
+    "graphics": "AMD RX Vega 64 (8 GB) or NVIDIA GeForce GTX 1080 (8 GB)",
+    "directx": "Version 12",
+    "storage": "170 GB available space",
+    "additional notes": "Please note that the minimum requirement for running the HD Texture Pack for Far Cry 6 is 12GB of VRAM. For 4K configurations, you will need 16GB of VRAM. If you download and run the HD Texture Pack with lower VRAM capabilities, you will encounter performance issues while playing."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

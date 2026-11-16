@@ -1,0 +1,94 @@
+{
+ "id": "1462040",
+ "appid": 1462040,
+ "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+ "slug": "final-fantasy-vii-remake-intergrade",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "AMD FX-8350",
+     "Intel Core i5-3330"
+    ],
+    "ids": [
+     "amd-fx-8350",
+     "intel-core-i5-3330"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 480",
+     "NVIDIA GeForce GTX 780",
+     "VRAM required 3GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-480-4gb",
+     "amd-radeon-rx-480-8gb",
+     "nvidia-geforce-gtx-780"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 3,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (ver. 2004 or later)",
+    "processor": "AMD FX-8350 / Intel Core i5-3330",
+    "memory": "8 GB RAM",
+    "graphics": "AMD Radeon RX 480 / NVIDIA GeForce GTX 780 / 3GB VRAM required",
+    "directx": "Version 12",
+    "storage": "100 GB available space",
+    "additional notes": "Assuming a Resolution of 1920 x 1080"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "AMD Ryzen 3 3100",
+     "Intel Core i7-3770"
+    ],
+    "ids": [
+     "amd-ryzen-3-3100",
+     "intel-core-i7-3770"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "AMD Radeon RX 5700",
+     "NVIDIA GeForce GTX 1080",
+     "VRAM required 8GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-5700",
+     "nvidia-geforce-gtx-1080-gp104-400",
+     "nvidia-geforce-gtx-1080-gp104-410"
+    ]
+   },
+   "ramGb": 12,
+   "vramGb": 8,
+   "directX": 12,
+   "storage": {
+    "gb": 100,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 64-bit (ver. 2004 or later)",
+    "processor": "AMD Ryzen 3 3100 / Intel Core i7-3770",
+    "memory": "12 GB RAM",
+    "graphics": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1080 / 8GB VRAM required",
+    "directx": "Version 12",
+    "storage": "100 GB available space",
+    "additional notes": "Assuming a Resolution of 2560 x 1440 (This title supports max resolution of 3840 x 2160)"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

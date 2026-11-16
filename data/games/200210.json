@@ -1,0 +1,92 @@
+{
+ "id": "200210",
+ "appid": 200210,
+ "name": "Realm of the Mad God Exalt",
+ "slug": "realm-of-the-mad-god-exalt",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200210/33ad01fe9223a7a117ff7de46d4b0443354c4f67/header.jpg?t=1793718218",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-3330",
+     "AMD A10 5700"
+    ],
+    "ids": [
+     "intel-core-i5-3330",
+     "amd-a10-5700"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 650",
+     "AMD Radeon HD 7750 ( VRAM) 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-650",
+     "amd-radeon-hd-7750-1gb"
+    ]
+   },
+   "ramGb": 8,
+   "vramGb": 1,
+   "storage": {
+    "gb": 0.341796875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 10 version 21H1 (build 19043) or newer",
+    "processor": "Intel Core i5-3330 or AMD A10 5700",
+    "memory": "8GB RAM",
+    "graphics": "NVIDIA GeForce GTX 650 / AMD Radeon HD 7750 (1GB VRAM)",
+    "network": "Broadband Internet connection",
+    "storage": "350MB available space",
+    "resolution": "800x600",
+    "avg. fps": "30"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i7-9700",
+     "AMD Ryzen 5 3600"
+    ],
+    "ids": [
+     "intel-core-i7-9700",
+     "amd-ryzen-5-3600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA GeForce GTX 1060",
+     "AMD Radeon RX 580 ( VRAM) 6GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 6,
+   "storage": {
+    "gb": 0.341796875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Microsoft Windows 10 version 21H1 (build 19043) or newer",
+    "processor": "Intel Core i7-9700 or AMD Ryzen 5 3600",
+    "memory": "16GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580 (6GB VRAM)",
+    "network": "Broadband Internet connection",
+    "storage": "350MB available space",
+    "resolution": "1920x1080",
+    "avg. fps": "60"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

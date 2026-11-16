@@ -1,0 +1,85 @@
+{
+ "id": "242550",
+ "appid": 242550,
+ "name": "Rayman® Legends",
+ "slug": "rayman-legends",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242550/baa48d04ecc914d5f193550c640c8450ddf67065/header.jpg?t=1792072424",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Pentium IV @ 3.0 GHz",
+     "AMD Athlon64 3000 + @ 1.8 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 10
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 6800GT",
+     "AMD Radeon X1950 Pro (256MB VRAM with Shader Model 3.0)"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 2,
+   "directX": 9,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 or Windows Vista SP2 or Windows 8 (both 32/64bit versions)",
+    "processor": "Intel Pentium IV @ 3.0 GHz or AMD Athlon64 3000 + @ 1.8 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "nVidia GeForce 6800GT or AMD Radeon X1950 Pro (256MB VRAM with Shader Model 3.0 or higher)",
+    "storage": "6 GB available space",
+    "sound card": "DirectX Compatible Sound Card with latest drivers",
+    "additional notes": "Windows-compatible keyboard and mouse required, optional Microsoft XBOX360 controller or compatible Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo E4400 @ 2.0 GHz",
+     "AMD Athlon64 X2 3800+@ 2 GHz"
+    ],
+    "ids": [
+     "intel-core-2-duo-e4400"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "nVidia GeForce 9600GT",
+     "AMD Radeon HD3850 (512MB VRAM with Shader Model 4.0)"
+    ],
+    "ids": [
+     "nvidia-geforce-9600-gt-512mb",
+     "nvidia-geforce-9600-gt-1gb",
+     "amd-radeon-hd-3850-256mb",
+     "amd-radeon-hd-3850-512mb",
+     "amd-radeon-hd-3850-1gb"
+    ]
+   },
+   "ramGb": 2,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows XP SP3 or Windows Vista SP2 or Windows 8 (both 32/64bit versions)",
+    "processor": "Intel Core 2 Duo E4400 @ 2.0 GHz or AMD Athlon64 X2 3800+@ 2 GHz",
+    "memory": "2 GB RAM",
+    "graphics": "nVidia GeForce 9600GT or higher, AMD Radeon HD3850 or higher (512MB VRAM with Shader Model 4.0)",
+    "storage": "6 GB available space",
+    "sound card": "DirectX Compatible Sound Card with latest drivers",
+    "additional notes": "Windows-compatible keyboard and mouse required, optional Microsoft XBOX360 controller or compatible Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

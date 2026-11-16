@@ -1,0 +1,88 @@
+{
+ "id": "383120",
+ "appid": 383120,
+ "name": "Empyrion - Galactic Survival",
+ "slug": "empyrion-galactic-survival",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383120/header.jpg?t=1777493934",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Dual-Core Processor 2.5 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 29
+   },
+   "gpu": {
+    "raw": [
+     "AMD RX 550",
+     "NVIDIA GTX 1050 (min. VRAM) 2GB"
+    ],
+    "ids": [
+     "amd-radeon-rx-550-2gb",
+     "amd-radeon-rx-550-4gb",
+     "nvidia-geforce-gtx-1050-gp107-300"
+    ]
+   },
+   "ramGb": 10,
+   "vramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 10,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 / 11, 64-bit system required",
+    "processor": "Dual-Core Processor 2.5 GHz or better",
+    "memory": "10 GB RAM",
+    "graphics": "AMD RX 550 / NVIDIA GTX 1050 (min. 2 GB VRAM)",
+    "directx": "Version 11",
+    "storage": "10 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "SSD is highly recommended"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Quad-Core 3 GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 42
+   },
+   "gpu": {
+    "raw": [
+     "AMD Vega 56",
+     "NVIDIA GTX 1660 Ti (min. VRAM) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1660-ti"
+    ]
+   },
+   "ramGb": 16,
+   "vramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 15,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10 / 11, 64-bit system required",
+    "processor": "Quad-Core 3 GHz or better",
+    "memory": "16 GB RAM",
+    "graphics": "AMD Vega 56 / NVIDIA GTX 1660 Ti (min. 4 GB VRAM)",
+    "directx": "Version 11",
+    "storage": "15 GB available space",
+    "sound card": "DirectX compatible",
+    "additional notes": "SSD is highly recommended"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "gold",
+  "antiCheat": "broken",
+  "antiCheatSlug": "empyrion-galactic-survival"
+ }
+}

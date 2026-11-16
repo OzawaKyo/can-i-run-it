@@ -1,0 +1,76 @@
+{
+ "id": "2593370",
+ "appid": 2593370,
+ "name": "The Hungry Lamb: Traveling in the Late Ming Dynasty",
+ "slug": "the-hungry-lamb-traveling-in-the-late-ming-dynasty",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2593370/header.jpg?t=1785987440",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 2.00 GHz 或 AMD A10"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 3000"
+    ],
+    "ids": [
+     "intel-hd-graphics-3000"
+    ]
+   },
+   "ramGb": 2,
+   "directX": 11,
+   "storage": {
+    "gb": 3,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7, Windows 8.1",
+    "processor": "Intel Core i3 2.00 GHz 或 AMD A10",
+    "memory": "2 GB RAM",
+    "graphics": "Intel HD Graphics 3000",
+    "directx": "Version 11",
+    "storage": "3 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i3 2.00 GHz 或 AMD A10"
+    ],
+    "ids": [],
+    "estimatedScore": 41
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics 3000"
+    ],
+    "ids": [
+     "intel-hd-graphics-3000"
+    ]
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 6,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i3 2.00 GHz 或 AMD A10",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD Graphics 3000",
+    "directx": "Version 11",
+    "storage": "6 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

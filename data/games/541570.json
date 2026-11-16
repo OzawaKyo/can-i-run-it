@@ -1,0 +1,42 @@
+{
+ "id": "541570",
+ "appid": 541570,
+ "name": "Sally Face - Episode One",
+ "slug": "sally-face-episode-one",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/541570/header.jpg?t=1787576437",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "X64 architecture with SSE2 instruction set support"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "DX11 capable GPUs"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 4,
+   "directX": 11,
+   "storage": {
+    "gb": 0.5859375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Win 10",
+    "processor": "X64 architecture with SSE2 instruction set support",
+    "memory": "4 GB RAM",
+    "graphics": "DX11 or higher capable GPUs",
+    "storage": "600 MB available space"
+   }
+  }
+ },
+ "linux": {
+  "native": true
+ }
+}

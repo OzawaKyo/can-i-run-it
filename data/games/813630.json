@@ -1,0 +1,81 @@
+{
+ "id": "813630",
+ "appid": 813630,
+ "name": "Supraland",
+ "slug": "supraland",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813630/header.jpg?t=1748353298",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core2Duo 2.66GHz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "GTX 780"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-780"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "Intel Core2Duo 2.66GHz",
+    "memory": "4 GB RAM",
+    "graphics": "GTX 780",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5 6600",
+     "AMD Ryzen 1600x"
+    ],
+    "ids": [
+     "intel-core-i5-6600"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "NVIDIA Geforce GTX 1060",
+     "(Legacy: NVIDIA Geforce GTX 780, 4GB) 3GB",
+     "AMD RX 580",
+     "(Legacy: AMD R9 290X, 4GB ) 4GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-1060",
+     "nvidia-geforce-gtx-1060-6-gb",
+     "amd-radeon-rx-580-4gb",
+     "amd-radeon-rx-580-8gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 3,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5 6600 or AMD Ryzen 1600x",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA Geforce GTX 1060, 3 GB (Legacy: NVIDIA Geforce GTX 780, 4GB) or AMD RX 580, 4 GB (Legacy: AMD R9 290X, 4GB )",
+    "storage": "4 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

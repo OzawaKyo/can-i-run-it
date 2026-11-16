@@ -1,0 +1,61 @@
+{
+ "id": "1337520",
+ "appid": 1337520,
+ "name": "Risk of Rain Returns",
+ "slug": "risk-of-rain-returns",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1337520/header.jpg?t=1782157557",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Intel Core i5-2400",
+     "AMD FX-8350"
+    ],
+    "ids": [
+     "intel-core-i5-2400",
+     "amd-fx-8350"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GT 710 1GB",
+     "AMD Radeon R7 240 1GB"
+    ],
+    "ids": [
+     "nvidia-geforce-gt-710-gk208-203",
+     "nvidia-geforce-gt-710-gf119-300",
+     "amd-radeon-r5-240-1gb"
+    ]
+   },
+   "ramGb": 4,
+   "vramGb": 1,
+   "storage": {
+    "gb": 0.341796875,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 10",
+    "processor": "Intel Core i5-2400 or AMD FX-8350",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GT 710, 1 GB or AMD Radeon R7 240, 1 GB",
+    "storage": "350 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "653530",
+ "appid": 653530,
+ "name": "Return of the Obra Dinn",
+ "slug": "return-of-the-obra-dinn",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg?t=1686697594",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2 GHz Intel i5"
+    ],
+    "ids": [],
+    "estimatedScore": 50
+   },
+   "gpu": {
+    "raw": [
+     "Discrete GPU"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 2,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7 or better",
+    "processor": "2 GHz Intel i5 or better",
+    "memory": "4 GB RAM",
+    "graphics": "Discrete GPU",
+    "storage": "2 GB available space",
+    "additional notes": "Requires 720p or higher resolution and outputs 16:9 aspect only, letterboxed if necessary."
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

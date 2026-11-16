@@ -1,0 +1,79 @@
+{
+ "id": "1718570",
+ "appid": 1718570,
+ "name": "ASTLIBRA Revision",
+ "slug": "astlibra-revision",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1718570/header.jpg?t=1770740786",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "Core i3-380UM 1.33GHz"
+    ],
+    "ids": [
+     "intel-core-i3-380um"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "Intel HD Graphics"
+    ],
+    "ids": []
+   },
+   "ramGb": 4,
+   "directX": 9,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11/10/8.1/7 64-bit",
+    "processor": "Core i3-380UM 1.33GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Intel HD Graphics",
+    "directx": "Version 9.0",
+    "storage": "4 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel(R) Core(TM) i3-4330 CPU @ 3.50GHz"
+    ],
+    "ids": [
+     "intel-core-i3-4330"
+    ]
+   },
+   "gpu": {
+    "raw": [
+     "FullHD : GeForce GTX 460",
+     "4K : GeForce GTX 750 Ti"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325",
+     "nvidia-geforce-gtx-750-ti"
+    ]
+   },
+   "ramGb": 8,
+   "directX": 11,
+   "storage": {
+    "gb": 4,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 11/10/8.1 64-bit",
+    "processor": "Intel(R) Core(TM) i3-4330 CPU @ 3.50GHz",
+    "memory": "8 GB RAM",
+    "graphics": "FullHD : GeForce GTX 460 / 4K : GeForce GTX 750 Ti",
+    "directx": "Version 11",
+    "storage": "4 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "977400",
+ "appid": 977400,
+ "name": "Cell to Singularity - Evolution Never Ends",
+ "slug": "cell-to-singularity-evolution-never-ends",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/977400/18df06775ff7263f490958666e07d99240799cce/header.jpg?t=1794435777",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "1 gigahertz (GHz)"
+    ],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [
+     "Low budget 3D graphics card"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 1,
+   "storage": {
+    "gb": 0.146484375,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7",
+    "processor": "1 gigahertz (GHz) or faster",
+    "memory": "1 GB RAM",
+    "graphics": "Low budget 3D graphics card",
+    "storage": "150 MB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [],
+    "ids": []
+   },
+   "gpu": {
+    "raw": [],
+    "ids": []
+   },
+   "raw": {}
+  }
+ },
+ "linux": {
+  "protonTier": "gold"
+ }
+}

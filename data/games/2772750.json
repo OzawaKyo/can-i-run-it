@@ -1,0 +1,72 @@
+{
+ "id": "2772750",
+ "appid": 2772750,
+ "name": "Age of History 3",
+ "slug": "age-of-history-3",
+ "source": "steam",
+ "updatedAt": "2026-11-16",
+ "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2772750/d526bef925f1d0cddb4fef16c7e28968872ae9f5/header.jpg?t=1777566511",
+ "requirements": {
+  "minimum": {
+   "cpu": {
+    "raw": [
+     "2.7 GHz Single Core"
+    ],
+    "ids": [],
+    "estimatedScore": 28
+   },
+   "gpu": {
+    "raw": [
+     "Hardware Accelerated Graphics with dedicated memory"
+    ],
+    "ids": [],
+    "capabilityOnly": true
+   },
+   "ramGb": 3,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11 64-bit",
+    "processor": "2.7 GHz Single Core",
+    "memory": "3 GB RAM",
+    "graphics": "Hardware Accelerated Graphics with dedicated memory",
+    "storage": "1 GB available space"
+   }
+  },
+  "recommended": {
+   "cpu": {
+    "raw": [
+     "Intel Core 2 Duo 3.0Ghz"
+    ],
+    "ids": [],
+    "estimatedScore": 21
+   },
+   "gpu": {
+    "raw": [
+     "Nvidia GeForce GTX 460"
+    ],
+    "ids": [
+     "nvidia-geforce-gtx-460-gf104-300-ka",
+     "nvidia-geforce-gtx-460-gf104-325"
+    ]
+   },
+   "ramGb": 4,
+   "storage": {
+    "gb": 1,
+    "ssd": false
+   },
+   "raw": {
+    "os": "Windows 7/8/10/11 64-bit",
+    "processor": "Intel Core 2 Duo 3.0Ghz",
+    "memory": "4 GB RAM",
+    "graphics": "Nvidia GeForce GTX 460",
+    "storage": "1 GB available space"
+   }
+  }
+ },
+ "linux": {
+  "protonTier": "platinum"
+ }
+}
